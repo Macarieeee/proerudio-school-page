@@ -49,31 +49,31 @@ const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
-            <Link to="/" className="text-foreground hover:text-primary transition-colors font-medium">
-              Home
+          <nav className="hidden lg:flex items-center gap-6">
+            <Link to="/cursuri-engleza" className="text-foreground hover:text-primary transition-all duration-300 font-medium hover:translate-y-[-2px]">
+              Cursuri de limba engleză
             </Link>
-            <Link to="/about" className="text-foreground hover:text-primary transition-colors font-medium">
-              About
+            <Link to="/cursuri-copii" className="text-foreground hover:text-primary transition-all duration-300 font-medium hover:translate-y-[-2px]">
+              Alte cursuri pentru copii
             </Link>
-            <Link to="/courses" className="text-foreground hover:text-primary transition-colors font-medium">
-              Courses
+            <Link to="/cursuri-vara" className="text-foreground hover:text-primary transition-all duration-300 font-medium hover:translate-y-[-2px]">
+              Cursuri de vară
             </Link>
-            <Link to="/contact" className="text-foreground hover:text-primary transition-colors font-medium">
+            <Link to="/evenimente" className="text-foreground hover:text-primary transition-all duration-300 font-medium hover:translate-y-[-2px]">
+              Evenimente
+            </Link>
+            <Link to="/tabere" className="text-foreground hover:text-primary transition-all duration-300 font-medium hover:translate-y-[-2px]">
+              Tabere
+            </Link>
+            <Link to="/contact" className="text-foreground hover:text-primary transition-all duration-300 font-medium hover:translate-y-[-2px]">
               Contact
             </Link>
           </nav>
 
           {/* Desktop Actions */}
           <div className="hidden lg:flex items-center gap-4">
-            <Button asChild className="bg-primary hover:bg-primary/90">
-              <Link to="/admission">Enroll Now</Link>
-            </Button>
-            <Button variant="outline" size="icon" className="relative">
-              <ShoppingCart className="w-4 h-4" />
-              <span className="absolute -top-1 -right-1 w-5 h-5 bg-primary text-primary-foreground text-xs rounded-full flex items-center justify-center">
-                0
-              </span>
+            <Button asChild className="bg-primary hover:bg-primary/90 hover:scale-105 transition-transform">
+              <Link to="/inscriere">Înscrie-te</Link>
             </Button>
           </div>
 
@@ -90,20 +90,26 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="lg:hidden py-4 border-t">
             <div className="flex flex-col gap-4">
-              <Link to="/" className="text-foreground hover:text-primary transition-colors font-medium">
-                Home
+              <Link to="/cursuri-engleza" className="text-foreground hover:text-primary transition-colors font-medium">
+                Cursuri de limba engleză
               </Link>
-              <Link to="/about" className="text-foreground hover:text-primary transition-colors font-medium">
-                About
+              <Link to="/cursuri-copii" className="text-foreground hover:text-primary transition-colors font-medium">
+                Alte cursuri pentru copii
               </Link>
-              <Link to="/courses" className="text-foreground hover:text-primary transition-colors font-medium">
-                Courses
+              <Link to="/cursuri-vara" className="text-foreground hover:text-primary transition-colors font-medium">
+                Cursuri de vară
+              </Link>
+              <Link to="/evenimente" className="text-foreground hover:text-primary transition-colors font-medium">
+                Evenimente
+              </Link>
+              <Link to="/tabere" className="text-foreground hover:text-primary transition-colors font-medium">
+                Tabere
               </Link>
               <Link to="/contact" className="text-foreground hover:text-primary transition-colors font-medium">
                 Contact
               </Link>
               <Button asChild className="bg-primary hover:bg-primary/90 w-full">
-                <Link to="/admission">Enroll Now</Link>
+                <Link to="/inscriere">Înscrie-te</Link>
               </Button>
             </div>
           </nav>
