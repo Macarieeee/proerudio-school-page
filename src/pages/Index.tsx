@@ -1,11 +1,14 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import StatsSection from "@/components/StatsSection";
-import AboutSection from "@/components/AboutSection";
-import ProgramsSection from "@/components/ProgramsSection";
-import FacilitiesSection from "@/components/FacilitiesSection";
-import CurriculumSection from "@/components/CurriculumSection";
-import MissionSection from "@/components/MissionSection";
+import CoursesSection from "@/components/CoursesSection";
+import WhyChooseSection from "@/components/WhyChooseSection";
+import AboutUsSection from "@/components/AboutUsSection";
+import PersonalDevelopmentSection from "@/components/PersonalDevelopmentSection";
+import SummerCampsSection from "@/components/SummerCampsSection";
+import BlogSection from "@/components/BlogSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -14,12 +17,15 @@ const Index = () => {
       <main className="pt-[88px]">
         <HeroSection />
         <StatsSection />
-        <AboutSection />
-        <ProgramsSection />
-        <FacilitiesSection />
-        <CurriculumSection />
-        <MissionSection />
+        <CoursesSection />
+        <WhyChooseSection />
+        <AboutUsSection />
+        <PersonalDevelopmentSection />
+        <SummerCampsSection />
+        <BlogSection />
+        <TestimonialsSection />
       </main>
+      <Footer />
     </div>
   );
 };
