@@ -50,6 +50,7 @@ export default {
         brand: {
           red: "hsl(var(--brand-red))",
           blue: "hsl(var(--brand-blue))",
+          cyan: "hsl(var(--brand-cyan))",
         },
         "text-light": "hsl(var(--text-light))",
         sidebar: {

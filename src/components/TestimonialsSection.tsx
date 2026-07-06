@@ -1,34 +1,27 @@
-import { Star, Quote } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Mail, MessageSquare, Phone, UserRound } from "lucide-react";
 
 const TestimonialsSection = () => {
-  const testimonials = [
+  const contactOptions = [
     {
-      name: "Maria Popescu",
-      role: "Părinte",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80",
-      rating: 5,
-      text: "Fiica mea a făcut progrese uimitoare în doar 6 luni la ProErudio. Profesorii sunt dedicați și crează un mediu în care copiii se simt confortabil să vorbească engleza. Recomand cu încredere!",
+      icon: UserRound,
+      title: "Față în față",
+      text: "La sfârșitul sau începutul cursului, în limita timpului disponibil.",
     },
     {
-      name: "Andrei Ionescu",
-      role: "Elev, 16 ani",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
-      rating: 5,
-      text: "Am reușit să iau FCE cu nota A datorită pregătirii de la ProErudio. Lecțiile sunt interactive și nu m-am plictisit niciodată. Acum pot comunica fluent în engleză și sunt pregătit pentru facultate.",
+      icon: Phone,
+      title: "Consultații",
+      text: "Față în față sau telefonice, conform graficului afișat în sala de așteptare.",
     },
     {
-      name: "Elena Dumitrescu",
-      role: "Părinte",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",
-      rating: 5,
-      text: "Cei doi copii ai mei merg cu plăcere la cursuri. Au participat și la tabăra din UK și a fost o experiență de neuitat pentru ei. Profesionalismul și atenția ProErudio sunt remarcabile.",
+      icon: Mail,
+      title: "Email",
+      text: "Prin email la office@proerudio.ro, pentru întrebări și informații suplimentare.",
     },
     {
-      name: "Alexandru Popa",
-      role: "Elev, 14 ani",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80",
-      rating: 5,
-      text: "La ProErudio am învățat mult mai mult decât la școală. Profesorii explică clar și avem parte de activități super interesante. Acum engleza este materia mea preferată!",
+      icon: MessageSquare,
+      title: "Raport de progres",
+      text: "Prin Raportul de apreciere a progresului întocmit în urma evaluării semestriale.",
     },
   ];
 
@@ -37,47 +30,54 @@ const TestimonialsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <p className="text-primary text-sm font-semibold tracking-wider mb-4 uppercase">
-            Testimoniale
+            Comunicare cu familia
           </p>
           <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-4">
-            Ce spun elevii și părinții noștri
+            Rămâneți informați despre progresul copilului
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Mii de povești de succes care ne motivează să fim cei mai buni
+            Punem la dispoziție mai multe modalități prin care puteți urmări evoluția fiului sau fiicei dumneavoastră
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {testimonials.map((testimonial, index) => (
-            <div 
-              key={index} 
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          {contactOptions.map((option, index) => (
+            <div
+              key={index}
               className="bg-background rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
             >
-              <Quote className="w-10 h-10 text-primary/20 mb-4" />
-              
-              <div className="flex gap-1 mb-4">
-                {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-primary text-primary" />
-                ))}
-              </div>
-              
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                "{testimonial.text}"
-              </p>
-              
-              <div className="flex items-center gap-4 pt-4 border-t">
-                <img 
-                  src={testimonial.image} 
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover"
-                />
-                <div>
-                  <h4 className="font-bold text-foreground">{testimonial.name}</h4>
-                  <p className="text-sm text-muted-foreground">{testimonial.role}</p>
-                </div>
-              </div>
+              <option.icon className="w-10 h-10 text-primary mb-4" />
+              <h3 className="text-xl font-bold text-foreground mb-3">{option.title}</h3>
+              <p className="text-muted-foreground leading-relaxed">{option.text}</p>
             </div>
           ))}
+        </div>
+
+        <div className="mx-auto mb-12 max-w-3xl overflow-hidden rounded-2xl bg-foreground shadow-xl">
+          <div className="aspect-video">
+            <iframe
+              className="h-full w-full"
+              src="https://www.youtube.com/embed/LVf-xSG23KU"
+              title="Video de prezentare ProErudio"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+          </div>
+        </div>
+
+        <div className="bg-background rounded-2xl border border-border p-8 text-center shadow-lg">
+          <p className="text-muted-foreground mb-6 text-lg">
+            Dacă încă nu v-ați făcut o părere sau doriți informații suplimentare, navigați în pagina „Cine suntem”
+            sau folosiți butoanele de mai jos pentru a afla despre noi ori pentru a vă înscrie la un curs.
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
+              <a href="https://www.proerudio.ro/cine-suntem/">Citește mai multe</a>
+            </Button>
+            <Button asChild size="lg" variant="outline" className="hover:bg-primary hover:text-primary-foreground">
+              <a href="https://www.proerudio.ro/inscriere-cursuri-pro-erudio/">Înscrie-te</a>
+            </Button>
+          </div>
         </div>
       </div>
     </section>

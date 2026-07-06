@@ -1,24 +1,36 @@
-import { GraduationCap, Trophy, Heart } from "lucide-react";
+import { GraduationCap, Heart, MessageCircle, Sparkles, Trophy } from "lucide-react";
 
 const WhyChooseSection = () => {
   const advantages = [
     {
       icon: GraduationCap,
-      title: "Profesori certificați",
+      title: "Pregătire examene Cambridge",
       description:
-        "Echipa noastră este formată din profesori cu certificări internaționale și ani de experiență în predare. Fiecare lecție este pregătită cu atenție pentru a asigura progres rapid.",
+        "Din 2011 pregătim cursanți pentru examenele Cambridge English, iar din 2025 suntem Centru de Pregătire GOLD datorită rezultatelor excelente obținute de candidații noștri.",
     },
     {
       icon: Trophy,
-      title: "Rezultate excepționale",
+      title: "Feedback și evaluare",
       description:
-        "Peste 95% din elevii noștri promovează examenele Cambridge la prima încercare. Succesul lor este dovada calității programelor noastre educaționale.",
+        "Evaluăm progresul copiilor la sfârșitul fiecărei unități de învățare și, de două ori într-un an școlar, urmărim progresul pe fiecare competență lingvistică.",
     },
     {
       icon: Heart,
-      title: "Mediu modern și prietenos",
+      title: "Dragoste pentru copii",
       description:
-        "Săli de clasă dotate cu tehnologie modernă, materiale interactive și o atmosferă caldă care încurajează învățarea și exprimarea liberă în limba engleză.",
+        "Suntem profesori din dragoste pentru copii, deci nu ne lipsesc zâmbetul de pe buze și entuziasmul în lucrul cu cei mici.",
+    },
+    {
+      icon: MessageCircle,
+      title: "Comunicare cu familia",
+      description:
+        "Părinții se pot informa față în față, prin consultații telefonice, prin email la office@proerudio.ro sau prin raportul de apreciere a progresului.",
+    },
+    {
+      icon: Sparkles,
+      title: "Doar în engleză",
+      description:
+        "Comunicăm preponderent în limba țintă cu toate grupele de vârstă pentru a crea un mediu natural și eficient de învățare.",
     },
   ];
 
@@ -26,14 +38,18 @@ const WhyChooseSection = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <p className="text-primary text-sm font-semibold tracking-wider mb-4 uppercase">De ce să ne alegi?</p>
-          <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-4">Avantajele ProErudio</h2>
+          <p className="text-primary text-sm font-semibold tracking-wider mb-4 uppercase">
+            De ce cursuri la ProErudio?
+          </p>
+          <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-4">
+            Avantajele ProErudio
+          </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Descoperă de ce suntem alegerea preferată a sute de familii
+            Pregătire solidă, evaluare constantă și comunicare deschisă cu familia
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
           {advantages.map((advantage, index) => (
             <div key={index} className="text-center group hover:-translate-y-2 transition-transform duration-300">
               <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6 group-hover:bg-primary/20 transition-colors">
