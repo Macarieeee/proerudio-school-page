@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 import romaniaImage from "@/assets/summer-camp-romania.jpg";
 import ukImage from "@/assets/summer-camp-uk.jpg";
 
@@ -18,7 +19,8 @@ const SummerCampsSection = () => {
         "Învățare prin joc și imaginație",
       ],
       image: romaniaImage,
-      href: "https://www.proerudio.ro/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/storytime-copii-4-7-ani/",
+      href: "/cursuri-vara/storytime",
+      internal: true,
     },
     {
       title: "Cinematics",
@@ -116,7 +118,11 @@ const SummerCampsSection = () => {
                 </ul>
 
                 <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
-                  <a href={camp.href} target="_blank" rel="noopener noreferrer">Află mai mult</a>
+                  {camp.internal ? (
+                    <Link to={camp.href}>Află mai mult</Link>
+                  ) : (
+                    <a href={camp.href} target="_blank" rel="noopener noreferrer">Află mai mult</a>
+                  )}
                 </Button>
               </div>
             </div>
