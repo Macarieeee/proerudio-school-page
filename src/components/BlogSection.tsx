@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, User } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const BlogSection = () => {
   const articles = [
@@ -21,7 +22,8 @@ const BlogSection = () => {
       date: "Articol publicat",
       category: "Tabere",
       image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
-      href: "https://www.proerudio.ro/8-motive-sa-mi-trimit-copilul-tabara/",
+      href: "/8-motive-sa-mi-trimit-copilul-tabara",
+      internal: true,
     },
     {
       title: "Expresii din limbi străine folosite în viața de zi cu zi",
@@ -64,8 +66,23 @@ const BlogSection = () => {
           {articles.map((article, index) => (
             <article
               key={index}
-              className="bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
+              className="relative bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
             >
+              {article.internal ? (
+                <Link
+                  to={article.href}
+                  aria-label={`Citește articolul: ${article.title}`}
+                  className="absolute inset-0 z-10 rounded-2xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary focus-visible:ring-offset-2"
+                />
+              ) : (
+                <a
+                  href={article.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Citește articolul: ${article.title}`}
+                  className="absolute inset-0 z-10 rounded-2xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary focus-visible:ring-offset-2"
+                />
+              )}
               <div className="relative h-56 overflow-hidden">
                 <img
                   src={article.image}
@@ -99,12 +116,10 @@ const BlogSection = () => {
                   {article.excerpt}
                 </p>
 
-                <Button asChild variant="ghost" className="p-0 h-auto hover:gap-2 group/btn">
-                  <a href={article.href} target="_blank" rel="noopener noreferrer">
-                    Citește mai mult
-                    <ArrowRight className="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform" />
-                  </a>
-                </Button>
+                <div className="inline-flex items-center text-sm font-medium text-primary group/btn">
+                  Citește mai mult
+                  <ArrowRight className="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform" />
+                </div>
               </div>
             </article>
           ))}
@@ -112,9 +127,9 @@ const BlogSection = () => {
 
         <div className="text-center mt-12">
           <Button asChild size="lg" variant="outline" className="hover:bg-primary hover:text-primary-foreground">
-            <a href="https://www.proerudio.ro/blog/" target="_blank" rel="noopener noreferrer">
+            <Link to="/articole">
               Vezi toate articolele
-            </a>
+            </Link>
           </Button>
         </div>
       </div>
