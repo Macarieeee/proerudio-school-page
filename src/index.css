@@ -101,6 +101,87 @@ All colors MUST be HSL.
   }
 }
 
+/* Galeriile importate trebuie să rămână independente de stilurile WordPress. */
+div.wordpress-gallery {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 0.75rem !important;
+  width: 100% !important;
+}
+
+div.wordpress-gallery > a {
+  display: block !important;
+  min-width: 0 !important;
+}
+
+div.wordpress-gallery > a > img {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 4 / 3 !important;
+  object-fit: cover !important;
+}
+
+@media (min-width: 768px) {
+  div.wordpress-gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+}
+
+@layer components {
+  .wordpress-content {
+    @apply text-base leading-8 text-muted-foreground;
+  }
+
+  .wordpress-content > *:first-child {
+    @apply mt-0;
+  }
+
+  .wordpress-content h2,
+  .wordpress-content h3,
+  .wordpress-content h4,
+  .wordpress-content h5 {
+    @apply mt-10 mb-4 font-bold leading-tight text-foreground;
+  }
+
+  .wordpress-content h2 { @apply border-l-4 border-primary pl-4 text-3xl text-primary; }
+  .wordpress-content h3 { @apply text-3xl text-primary; }
+  .wordpress-content h4 { @apply text-2xl text-primary; }
+  .wordpress-content h5 { @apply text-xl text-primary; }
+  .wordpress-content p { @apply my-5; }
+  .wordpress-content > div > p:first-of-type { @apply rounded-r-lg border-l-4 border-primary bg-primary/5 px-5 py-4 text-foreground; }
+  .wordpress-content strong { @apply font-semibold text-primary; }
+  .wordpress-content a { @apply font-medium text-primary underline decoration-primary/30 underline-offset-4 transition-colors hover:decoration-primary; }
+  .wordpress-content ul,
+  .wordpress-content ol { @apply my-5 space-y-2 pl-6; }
+  .wordpress-content ul { @apply list-disc; }
+  .wordpress-content ol { @apply list-decimal; }
+  .wordpress-content li::marker { @apply text-primary; }
+  .wordpress-content blockquote { @apply my-8 rounded-r-lg border-l-4 border-secondary bg-secondary/10 px-6 py-4 text-lg italic text-foreground; }
+  .wordpress-content img { @apply my-8 h-auto max-w-full rounded-xl border object-cover shadow-sm; }
+  .wordpress-content .wordpress-gallery {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 0.75rem !important;
+    margin: 2rem 0 !important;
+  }
+  @media (min-width: 768px) {
+    .wordpress-content .wordpress-gallery {
+      grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+  }
+  .wordpress-content .wordpress-gallery a { @apply block overflow-hidden rounded-xl border bg-muted no-underline shadow-sm; }
+  .wordpress-content .wordpress-gallery img { @apply m-0 aspect-[4/3] h-full w-full rounded-none border-0 object-cover shadow-none transition-transform duration-300 hover:scale-105; }
+  .wordpress-content iframe { @apply my-8 aspect-video h-auto w-full rounded-xl border shadow-sm; }
+  .wordpress-content table { @apply my-8 w-full border-collapse overflow-hidden rounded-lg text-left text-sm; }
+  .wordpress-content th,
+  .wordpress-content td { @apply border px-4 py-3; }
+  .wordpress-content tr:nth-child(even) { @apply bg-muted/40; }
+  .wordpress-content tr:first-child { @apply bg-primary text-primary-foreground; }
+  .wordpress-content tr:first-child strong { @apply text-primary-foreground; }
+  .wordpress-content hr { @apply my-10 border-primary/20; }
+}
+
 @layer base {
   * {
     @apply border-border;

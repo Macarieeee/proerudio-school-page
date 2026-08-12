@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Facebook, Instagram, Mail, Menu, X, Youtube } from "lucide-react";
 import { Link } from "react-router-dom";
 import logoImage from "@/assets/ProErudioSchoolofEnglish.svg";
+import EnhancedHeader from "@/components/EnhancedHeader";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -106,4 +107,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default EnhancedHeader;

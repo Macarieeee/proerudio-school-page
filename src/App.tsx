@@ -9,7 +9,7 @@ import NotFound from "./pages/NotFound";
 import Storytime from "./pages/Storytime";
 import CampBenefitsArticle from "./pages/CampBenefitsArticle";
 import Articles from "./pages/Articles";
-import Articles from "./pages/Articles";
+import ImportedWordPressPage, { importedPages } from "./pages/ImportedWordPressPage";
 
 const queryClient = new QueryClient();
 
@@ -35,7 +35,9 @@ const App = () => (
           <Route path="/cursuri-vara/storytime" element={<Storytime />} />
           <Route path="/8-motive-sa-mi-trimit-copilul-tabara" element={<CampBenefitsArticle />} />
           <Route path="/articole" element={<Articles />} />
-          <Route path="/articole" element={<Articles />} />
+          {importedPages.map((page) => (
+            <Route key={page.slug} path={`/${page.slug}/`} element={<ImportedWordPressPage page={page} />} />
+          ))}
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
