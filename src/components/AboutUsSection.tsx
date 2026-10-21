@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -46,7 +47,7 @@ const AboutUsSection = () => {
               </div>
             </div>
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
-              <a href="https://www.proerudio.ro/cine-suntem/">Citește mai multe</a>
+              <Link to="/cine-suntem/">Citește mai multe</Link>
             </Button>
           </div>
 

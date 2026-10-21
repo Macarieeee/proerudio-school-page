@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Mail, MessageSquare, Phone, UserRound } from "lucide-react";
 
@@ -72,10 +73,10 @@ const TestimonialsSection = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
-              <a href="https://www.proerudio.ro/cine-suntem/">Citește mai multe</a>
+              <Link to="/cine-suntem/">Citește mai multe</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="hover:bg-primary hover:text-primary-foreground">
-              <a href="https://www.proerudio.ro/inscriere-cursuri-pro-erudio/">Înscrie-te</a>
+              <Link to="/inscriere-cursuri-pro-erudio/">Înscrie-te</Link>
             </Button>
           </div>
         </div>

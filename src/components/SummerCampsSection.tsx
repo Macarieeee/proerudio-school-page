@@ -20,7 +20,6 @@ const SummerCampsSection = () => {
       ],
       image: romaniaImage,
       href: "/cursuri-vara/storytime",
-      internal: true,
     },
     {
       title: "Cinematics",
@@ -35,7 +34,7 @@ const SummerCampsSection = () => {
         "Activități potrivite adolescenților",
       ],
       image: ukImage,
-      href: "https://www.proerudio.ro/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/cinematics-copii-13-18-ani/",
+      href: "/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/cinematics-copii-13-18-ani/",
     },
     {
       title: "Tabere de engleză și aventură",
@@ -50,7 +49,7 @@ const SummerCampsSection = () => {
         "Experiențe educaționale de vacanță",
       ],
       image: romaniaImage,
-      href: "https://www.proerudio.ro/tabere/tabara-de-limba-engleza-si-aventura-in-romania/",
+      href: "/tabere/tabara-de-limba-engleza-si-aventura-in-romania/",
     },
   ];
 
@@ -118,11 +117,7 @@ const SummerCampsSection = () => {
                 </ul>
 
                 <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
-                  {camp.internal ? (
-                    <Link to={camp.href}>Află mai mult</Link>
-                  ) : (
-                    <a href={camp.href} target="_blank" rel="noopener noreferrer">Află mai mult</a>
-                  )}
+                  <Link to={camp.href}>Află mai mult</Link>
                 </Button>
               </div>
             </div>

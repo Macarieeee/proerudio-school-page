@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-students.jpg";
 
@@ -23,10 +24,10 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-wrap gap-4 animate-fade-in">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 hover:scale-105 transition-transform">
-              <a href="/cursuri-engleza">Vezi cursurile</a>
+              <Link to="/cursuri-de-limba-engleza-pentru-copii-si-adolescenti/">Vezi cursurile</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="bg-background/10 backdrop-blur-sm border-background text-background hover:bg-background/20 px-8">
-              <a href="/inscriere">Înscrie-te</a>
+              <Link to="/inscriere-cursuri-pro-erudio/">Înscrie-te</Link>
             </Button>
           </div>
         </div>

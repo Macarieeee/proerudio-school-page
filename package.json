@@ -11,7 +11,7 @@
     "homepage": "https://Macarieeee.github.io/proerudio-school-page",
     "preview": "vite preview",
     "predeploy": "npm run build:github",
-    "deploy": "gh-pages -d dist",
+    "deploy": "node scripts/deploy-github.cjs",
     "build:github": "node scripts/build-github.cjs"
   },
   "dependencies": {

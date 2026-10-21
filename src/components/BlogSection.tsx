@@ -12,7 +12,7 @@ const BlogSection = () => {
       date: "Articol publicat",
       category: "Examene Cambridge",
       image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
-      href: "https://www.proerudio.ro/examen-cambridge-english-de-ce-sa-il-sustii/",
+      href: "/examen-cambridge-english-de-ce-sa-il-sustii/",
     },
     {
       title: "8 motive să-mi trimit copilul într-o tabără",
@@ -23,7 +23,6 @@ const BlogSection = () => {
       category: "Tabere",
       image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
       href: "/8-motive-sa-mi-trimit-copilul-tabara",
-      internal: true,
     },
     {
       title: "Expresii din limbi străine folosite în viața de zi cu zi",
@@ -33,7 +32,7 @@ const BlogSection = () => {
       date: "Articol publicat",
       category: "Limbi străine",
       image: "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=800&q=80",
-      href: "https://www.proerudio.ro/expresii-din-limbi-straine-folosite-in-viata-de-zi-cu-zi/",
+      href: "/expresii-din-limbi-straine-folosite-in-viata-de-zi-cu-zi/",
     },
     {
       title: "Copii fericiți versus copii de succes",
@@ -43,7 +42,7 @@ const BlogSection = () => {
       date: "Articol publicat",
       category: "Educație",
       image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80",
-      href: "https://www.proerudio.ro/copii-fericiti-versus-copii-de-succes-secretele-unei-copilarii-fericite/",
+      href: "/copii-fericiti-versus-copii-de-succes-secretele-unei-copilarii-fericite/",
     },
   ];
 
@@ -68,21 +67,11 @@ const BlogSection = () => {
               key={index}
               className="relative bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
             >
-              {article.internal ? (
-                <Link
-                  to={article.href}
-                  aria-label={`Citește articolul: ${article.title}`}
-                  className="absolute inset-0 z-10 rounded-2xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary focus-visible:ring-offset-2"
-                />
-              ) : (
-                <a
-                  href={article.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`Citește articolul: ${article.title}`}
-                  className="absolute inset-0 z-10 rounded-2xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary focus-visible:ring-offset-2"
-                />
-              )}
+              <Link
+                to={article.href}
+                aria-label={`Citește articolul: ${article.title}`}
+                className="absolute inset-0 z-10 rounded-2xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary focus-visible:ring-offset-2"
+              />
               <div className="relative h-56 overflow-hidden">
                 <img
                   src={article.image}

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Award, BookOpen, TrendingUp, Users } from "lucide-react";
 
@@ -10,7 +11,7 @@ const CoursesSection = () => {
       description:
         "Cursul trezește interesul și plăcerea copiilor pentru învățarea limbii engleze, cu accent pe înțelegerea mesajului audiat și dezvoltarea comunicării verbale.",
       features: ["Preșcolari și clasele 0 - I", "Activități interactive", "Comunicare verbală"],
-      href: "https://www.proerudio.ro/cursuri-de-limba-engleza-pentru-copii-de-4-11-ani/curs-de-limba-engleza-join-us-in-englishland/",
+      href: "/cursuri-de-limba-engleza-pentru-copii-de-4-11-ani/curs-de-limba-engleza-join-us-in-englishland/",
     },
     {
       icon: Users,
@@ -19,7 +20,7 @@ const CoursesSection = () => {
       description:
         "Continuă parcursul început la Join Us in Englishland și dezvoltă abilități mai complexe de comunicare, înțelegere și folosire a limbii engleze.",
       features: ["Clasele II - IV", "Vocabular extins", "Comunicare ghidată"],
-      href: "https://www.proerudio.ro/cursuri-de-limba-engleza-pentru-copii-de-4-11-ani/curs-de-limba-engleza-join-us-for-english/",
+      href: "/cursuri-de-limba-engleza-pentru-copii-de-4-11-ani/curs-de-limba-engleza-join-us-for-english/",
     },
     {
       icon: TrendingUp,
@@ -28,7 +29,7 @@ const CoursesSection = () => {
       description:
         "Pregătirea pentru examene oferă un scop concret învățării și crește motivația copiilor prin obiective clare, exerciții aplicate și feedback constant.",
       features: ["Pregătire Cambridge", "Strategii de examen", "Simulări și feedback"],
-      href: "https://www.proerudio.ro/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-head-for-ketpet/",
+      href: "/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-head-for-ketpet/",
     },
     {
       icon: Award,
@@ -37,7 +38,7 @@ const CoursesSection = () => {
       description:
         "Cursurile ghidează adolescenții către obținerea certificatelor Cambridge prin antrenarea tuturor abilităților: scris, citit, ascultat și vorbit.",
       features: ["Pregătire FCE/CAE/CPE", "Competențe lingvistice", "Certificare Cambridge"],
-      href: "https://www.proerudio.ro/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-head-for-fce-cae-cpe/",
+      href: "/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-head-for-fce-cae-cpe/",
     },
   ];
 
@@ -83,7 +84,7 @@ const CoursesSection = () => {
                 ))}
               </ul>
               <Button asChild className="w-full bg-primary hover:bg-primary/90" size="lg">
-                <a href={course.href} target="_blank" rel="noopener noreferrer">Detalii curs</a>
+                <Link to={course.href}>Detalii curs</Link>
               </Button>
             </div>
           ))}

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Languages, Music, Palmtree, Sparkles } from "lucide-react";
 
 const PersonalDevelopmentSection = () => {
@@ -8,7 +9,7 @@ const PersonalDevelopmentSection = () => {
       description:
         "Cursuri pentru copii de 5 - 9 ani, parte din oferta noastră de dezvoltare armonioasă prin activități creative și expresive.",
       color: "bg-primary",
-      href: "https://www.proerudio.ro/descopera-magia-dansului/",
+      href: "/descopera-magia-dansului/",
     },
     {
       icon: Palmtree,
@@ -16,7 +17,7 @@ const PersonalDevelopmentSection = () => {
       description:
         "Programe pentru copii de 4 - 9 ani, gândite pentru vacanțe active, comunicare, creativitate și relaționare cu ceilalți copii.",
       color: "bg-brand-cyan",
-      href: "https://www.proerudio.ro/cursuri-de-vara/",
+      href: "/cursuri-de-vara/",
     },
     {
       icon: Languages,
@@ -24,7 +25,7 @@ const PersonalDevelopmentSection = () => {
       description:
         "Curs de limba germană pentru copii de 4 - 16 ani, o provocare pentru cei care cred că germana este inaccesibilă copiilor.",
       color: "bg-secondary",
-      href: "https://www.proerudio.ro/alte-cursuri-pentru-copii/cursuri-de-limba-germana-pentru-copii-si-adolescenti/",
+      href: "/alte-cursuri-pentru-copii/cursuri-de-limba-germana-pentru-copii-si-adolescenti/",
     },
     {
       icon: Sparkles,
@@ -32,7 +33,7 @@ const PersonalDevelopmentSection = () => {
       description:
         "Cursuri de limbi străine și activități care dezvoltă calitățile native, echilibrul emoțional și valorile estetice și morale.",
       color: "bg-brand-cyan",
-      href: "https://www.proerudio.ro/cine-suntem/",
+      href: "/cine-suntem/",
     },
   ];
 
@@ -53,11 +54,9 @@ const PersonalDevelopmentSection = () => {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {courses.map((course, index) => (
-            <a
+            <Link
               key={index}
-              href={course.href}
-              target="_blank"
-              rel="noopener noreferrer"
+              to={course.href}
               className="group relative rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 h-[300px] hover:-translate-y-2"
             >
               <div className={`absolute inset-0 ${course.color} opacity-90`} />
@@ -71,7 +70,7 @@ const PersonalDevelopmentSection = () => {
                   {course.description}
                 </p>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
