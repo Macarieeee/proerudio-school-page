@@ -1,3 +1,4 @@
+import ExpandableCardGrid from '@/components/ExpandableCardGrid';
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { ArrowRight, BookOpen, CalendarDays } from "lucide-react";
@@ -143,9 +144,9 @@ const Articles = () => (
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="mb-10 flex items-center gap-3 text-muted-foreground"><CalendarDays className="h-5 w-5 text-primary" /><span>{articles.length} articole și resurse</span></div>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <ExpandableCardGrid className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {articles.map((article) => <ArticleCard key={article.title} article={article} />)}
-          </div>
+          </ExpandableCardGrid>
         </div>
       </section>
     </main>

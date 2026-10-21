@@ -1,3 +1,7 @@
+import RelatedContentCards from '@/components/RelatedContentCards';
+import { expandImportedCardGrid } from '@/lib/expand-card-grids';
+import { cardForPage, formatRelatedCollections } from '@/lib/related-content';
+import pageManifest from '@/data/wordpress-manifest.json';
 import { useEffect, useState, type MouseEvent } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, ArrowRight, BookOpenCheck, X } from "lucide-react";
@@ -5,10 +9,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import classroomImage from "@/assets/about-classroom.jpg";
-import auditoriumImage from "@/assets/facility-auditorium.jpg";
-import libraryImage from "@/assets/facility-library.jpg";
-import studentsImage from "@/assets/curriculum-students.jpg";
-import programImage from "@/assets/programs-student.jpg";
 
 const wordpressFiles = import.meta.glob<string>("../import/*.html", {
   eager: true,
@@ -39,12 +39,6 @@ export const importedPages: ImportedPageDefinition[] = [
   { slug: "cursuri-interactive-de-conversatie-cu-profesori-internationali", file: "cursuri-interactive-de-conversatie-cu-profesori-internationali.html", title: "Cursuri interactive cu profesori internaționali", eyebrow: "Pregătire examene Cambridge", summary: "Conversație autentică, fluență și încredere alături de traineri internaționali." },
 ];
 
-const courseCardImages: Record<string, string> = {
-  "curs-de-limba-engleza-head-for-ketpet": studentsImage,
-  "curs-de-limba-engleza-head-for-fce-cae-cpe": auditoriumImage,
-  "curs-de-limba-engleza-head-for-ielts": libraryImage,
-  "curs-de-limba-engleza-pentru-tineri-head-for-toefl": programImage,
-};
 
 const wordpressMedia: Record<string, string> = {
   "11736": "https://www.proerudio.ro/wp-content/uploads/2021/10/18765591_1103021813132659_1325564205651648286_n_35905043594_o.jpg",
@@ -99,10 +93,11 @@ const cleanWordPressHtml = (source: string) => {
 };
 
 const ImportedWordPressPage = ({ page }: { page: ImportedPageDefinition }) => {
-  const content = cleanWordPressHtml(findSource(page.file));
+  const currentPage = pageManifest.find(p => p.slug === page.slug);
+  const content = formatRelatedCollections(cleanWordPressHtml(findSource(page.file)), currentPage?.path || `/${page.slug}/`);
   const [expandedImage, setExpandedImage] = useState<string | null>(null);
-  const relatedYouthCourses = page.eyebrow === "Cursuri pentru copii de 12–19 ani"
-    ? importedPages.filter((candidate) => candidate.eyebrow === page.eyebrow && candidate.slug !== page.slug)
+  const relatedYouthCourses = /Cursuri pentru copii|Pregătire examene/.test(page.eyebrow)
+    ? importedPages.filter(candidate => candidate.eyebrow === page.eyebrow && candidate.slug !== page.slug)
     : [];
 
   useEffect(() => {
@@ -121,6 +116,7 @@ const ImportedWordPressPage = ({ page }: { page: ImportedPageDefinition }) => {
   }, [expandedImage]);
 
   const openGalleryImage = (event: MouseEvent<HTMLElement>) => {
+    if (expandImportedCardGrid(event.target)) return;
     const link = (event.target as HTMLElement).closest<HTMLAnchorElement>(".wordpress-gallery a");
     if (!link) return;
     event.preventDefault();
@@ -155,30 +151,12 @@ const ImportedWordPressPage = ({ page }: { page: ImportedPageDefinition }) => {
                   <section className="not-prose mt-14 border-t pt-10">
                     <div className="mb-6">
                       <p className="mb-2 text-xs font-semibold uppercase tracking-[0.16em] text-primary">Continuă pregătirea</p>
-                      <h2 className="!m-0 !border-0 !p-0 !text-xl font-bold !text-foreground md:!text-2xl">Alte cursuri de limba engleză pentru copii de 12–19 ani</h2>
+                      <h2 className="!m-0 !border-0 !p-0 !text-xl font-bold !text-foreground md:!text-2xl">{page.eyebrow === 'Pregătire examene Cambridge' ? 'Alte cursuri de pregătire pentru examene' : `Alte ${page.eyebrow.toLowerCase()}`}</h2>
                     </div>
-                    <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-                      {relatedYouthCourses.map((course) => (
-                        <Link
-                          key={course.slug}
-                          to={`/${course.slug}/`}
-                          className="related-course-card group flex h-full flex-col overflow-hidden rounded-xl border bg-background [text-decoration:none!important] shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-md"
-                        >
-                          <div
-                            className="relative flex h-32 shrink-0 items-end bg-cover bg-center"
-                            style={{ backgroundImage: `url(${courseCardImages[course.slug]})` }}
-                          >
-                            <div className="absolute inset-0 bg-gradient-to-t from-foreground/95 via-foreground/65 to-foreground/25 transition-colors group-hover:from-primary/95" />
-                            <h3 className="relative !m-0 p-4 !text-sm font-bold !leading-snug !text-white [text-decoration:none!important] md:!text-[15px]">{course.title}</h3>
-                          </div>
-                          <div className="flex flex-1 flex-col p-4">
-                            <span className="mb-3 inline-flex w-fit rounded-full bg-primary/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-primary">12–19 ani</span>
-                            <p className="!m-0 line-clamp-2 !text-xs !leading-5 text-muted-foreground [text-decoration:none!important]">{course.summary}</p>
-                            <span className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold text-primary [text-decoration:none!important]">Vezi cursul <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" /></span>
-                          </div>
-                        </Link>
-                      ))}
-                    </div>
+                    <RelatedContentCards cards={relatedYouthCourses.flatMap(course => {
+                      const target = pageManifest.find(p => p.slug === course.slug);
+                      return target ? [{ ...cardForPage(target), title: course.title, summary: course.summary }] : [];
+                    })} />
                   </section>
                 )}
               </article>

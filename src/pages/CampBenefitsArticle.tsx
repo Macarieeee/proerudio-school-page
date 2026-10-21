@@ -1,3 +1,4 @@
+import ExpandableCardGrid from '@/components/ExpandableCardGrid';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -98,7 +99,7 @@ const CampBenefitsArticle = () => (
               <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-primary">Beneficiile taberei</p>
               <h2 className="text-3xl font-bold text-foreground md:text-5xl">Mai mult decât o vacanță</h2>
             </div>
-            <div className="mx-auto grid max-w-6xl gap-6 lg:grid-cols-2">
+            <ExpandableCardGrid className="mx-auto grid max-w-6xl gap-6 lg:grid-cols-2">
               {reasons.map((reason, index) => (
                 <section key={reason.title} className="rounded-2xl border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg md:p-8">
                   <div className="mb-6 flex items-start gap-4">
@@ -109,7 +110,7 @@ const CampBenefitsArticle = () => (
                   <div className="space-y-4 leading-7 text-muted-foreground">{reason.text.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
                 </section>
               ))}
-            </div>
+            </ExpandableCardGrid>
           </div>
         </section>
 

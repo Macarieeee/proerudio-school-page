@@ -129,6 +129,45 @@ div.wordpress-gallery > a > img {
 }
 
 @layer components {
+  .related-content-grid > [hidden], .registration-course-grid > [hidden] { display: none !important; }
+  .card-grid-more { @apply mt-6 flex justify-center; }
+  .imported-grid-more-button {
+    @apply inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-6 text-sm font-medium text-foreground shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground;
+  }
+  .imported-grid-more-button:focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 2px; }
+  .related-content-grid { @apply grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3; }
+  .related-content-card {
+    @apply flex h-full min-w-0 flex-col overflow-hidden rounded-xl border bg-background shadow-sm;
+    text-decoration: none !important;
+    color: hsl(var(--foreground));
+    transition: transform 250ms ease, box-shadow 250ms ease, border-color 250ms ease;
+  }
+  .related-content-card:hover { @apply border-primary/40 shadow-md; transform: translateY(-4px); }
+  .related-content-card:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
+  .related-content-media { @apply relative flex h-32 shrink-0 items-end overflow-hidden bg-muted bg-cover bg-center; }
+  .related-content-media::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, hsl(var(--foreground) / .95), hsl(var(--foreground) / .65), hsl(var(--foreground) / .25));
+    transition: background-color 250ms ease;
+  }
+  .related-content-card:hover .related-content-media::before { background-color: hsl(var(--primary) / .25); }
+  .related-content-card .related-content-media h3 {
+    @apply relative !m-0 !border-0 p-4 !text-sm !font-bold !leading-snug !text-white md:!text-[15px];
+  }
+  .related-content-body { @apply flex flex-1 flex-col p-4; }
+  .related-content-badge { @apply mb-3 inline-flex w-fit rounded-full bg-primary/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-primary; }
+  .related-content-card .related-content-body p {
+    @apply !m-0 line-clamp-2 !border-0 !bg-transparent !p-0 !text-xs !leading-5 text-muted-foreground;
+  }
+  .related-content-action { @apply mt-auto inline-flex items-center gap-1.5 pt-4 text-xs font-semibold text-primary; }
+  .related-content-action span { transition: transform 250ms ease; }
+  .related-content-card:hover .related-content-action span { transform: translateX(4px); }
+  @media (prefers-reduced-motion: reduce) {
+    .related-content-card, .related-content-media::before, .related-content-action span { transition: none; }
+    .related-content-card:hover, .related-content-card:hover .related-content-action span { transform: none; }
+  }
   .wordpress-content {
     @apply text-base leading-8 text-muted-foreground;
   }
@@ -173,6 +212,45 @@ div.wordpress-gallery > a > img {
   .wordpress-content .wordpress-gallery a { @apply block overflow-hidden rounded-xl border bg-muted no-underline shadow-sm; }
   .wordpress-content .wordpress-gallery img { @apply m-0 aspect-[4/3] h-full w-full rounded-none border-0 object-cover shadow-none transition-transform duration-300 hover:scale-105; }
   .wordpress-content iframe { @apply my-8 aspect-video h-auto w-full rounded-xl border shadow-sm; }
+  .wordpress-content svg { @apply inline-block h-5 w-5; }
+  .wordpress-content .registration-course-grid {
+    @apply my-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3;
+  }
+  .wordpress-content .registration-course-card {
+    @apply flex h-full flex-col overflow-hidden rounded-2xl border bg-background no-underline shadow-sm;
+    color: hsl(var(--foreground));
+    transition: transform 250ms ease, box-shadow 250ms ease, border-color 250ms ease;
+  }
+  .wordpress-content .registration-course-card:hover {
+    @apply border-primary/40 shadow-xl;
+    transform: translateY(-5px);
+  }
+  .wordpress-content .registration-course-card:focus-visible {
+    outline: 3px solid hsl(var(--primary));
+    outline-offset: 4px;
+  }
+  .wordpress-content .registration-course-media { @apply aspect-[16/10] overflow-hidden bg-muted; }
+  .wordpress-content .registration-course-media img {
+    @apply m-0 h-full w-full rounded-none border-0 object-cover shadow-none;
+    transition: transform 400ms ease;
+  }
+  .wordpress-content .registration-course-card:hover img { transform: scale(1.045); }
+  .wordpress-content .registration-course-body { @apply flex flex-1 flex-col gap-6 p-5; }
+  .wordpress-content .registration-course-body h3 {
+    @apply m-0 border-0 p-0 text-lg font-bold leading-snug text-foreground;
+  }
+  .wordpress-content .registration-course-action { @apply mt-auto flex items-center justify-between gap-3 text-sm font-semibold text-primary; }
+  .wordpress-content .registration-course-action span { transition: transform 250ms ease; }
+  .wordpress-content .registration-course-card:hover .registration-course-action span { transform: translateX(4px); }
+  @media (prefers-reduced-motion: reduce) {
+    .wordpress-content .registration-course-card,
+    .wordpress-content .registration-course-card img,
+    .wordpress-content .registration-course-action span { transition: none; }
+    .wordpress-content .registration-course-card:hover,
+    .wordpress-content .registration-course-card:hover img,
+    .wordpress-content .registration-course-card:hover .registration-course-action span { transform: none; }
+  }
+  .wordpress-content .migration-form { @apply my-8 rounded-xl border border-primary/20 bg-primary/5 p-6; }
   .wordpress-content table { @apply my-8 w-full border-collapse overflow-hidden rounded-lg text-left text-sm; }
   .wordpress-content th,
   .wordpress-content td { @apply border px-4 py-3; }

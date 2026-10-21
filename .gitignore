@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local public WordPress download cache (the imported content is in src/data).
+migration/source/
