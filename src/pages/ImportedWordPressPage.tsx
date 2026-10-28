@@ -32,8 +32,8 @@ export type ImportedPageDefinition = {
 export const importedPages: ImportedPageDefinition[] = [
   { slug: "da-valoare-diplomelor-tale", file: "da-valoare-diplomelor-tale.html", title: "Dă valoare diplomelor tale", eyebrow: "Pro Erudio", summary: "Citește mai jos ca să afli ce ai de făcut pentru a primi un curs de vară gratuit de la Pro Erudio." },
   { slug: "fa-o-fapta-buna", file: "fa-o-fapta-buna.html", title: "Fă o faptă bună", eyebrow: "Pro Erudio", summary: "Ajută-ne să oferim acces la educație copiilor motivați care au nevoie de sprijin." },
-  { slug: "curs-de-limba-engleza-join-us-in-englishland", file: "curs-de-limba-engleza-join-us-in-englishland.html", title: "Curs de limba engleză – JOIN US IN ENGLISHLAND", eyebrow: "Cursuri pentru copii de 4–11 ani", summary: "Primii pași în limba engleză, într-un mediu prietenos, interactiv și potrivit vârstei." },
-  { slug: "curs-de-limba-engleza-join-us-for-english", file: "curs-de-limba-engleza-join-us-for-english.html", title: "Curs de limba engleză – JOIN US FOR ENGLISH", eyebrow: "Cursuri pentru copii de 4–11 ani", summary: "Engleză învățată natural prin comunicare, activități și progres constant." },
+  { slug: "curs-de-limba-engleza-join-us-in-englishland", file: "curs-de-limba-engleza-join-us-in-englishland.html", title: "Join Us in Englishland — primii pași în limba engleză", eyebrow: "Cursuri pentru copii de 4–11 ani", summary: "Cursuri pentru copii de 4–7 ani, disponibile la sediu (ocazional online, la solicitarea părinților)" },
+  { slug: "curs-de-limba-engleza-join-us-for-english", file: "curs-de-limba-engleza-join-us-for-english.html", title: "Curs de limba engleză – JOIN US FOR ENGLISH", eyebrow: "Cursuri pentru copii de 4–11 ani", summary: "Cursuri pentru copii de 8–11 ani, disponibile la sediu și ocazional/permanent online" },
   { slug: "curs-de-limba-engleza-head-for-ketpet", file: "curs-de-limba-engleza-head-for-ketpet.html", title: "Curs de limba engleză HEAD FOR KET/PET", eyebrow: "Cursuri pentru copii de 12–19 ani", summary: "Pregătire structurată pentru examenele Cambridge English A2 Key și B1 Preliminary." },
   { slug: "curs-de-limba-engleza-head-for-fce-cae-cpe", file: "curs-de-limba-engleza-head-for-fce-cae-cpe.html", title: "Curs de limba engleză HEAD FOR FCE/CAE/CPE", eyebrow: "Cursuri pentru copii de 12–19 ani", summary: "Pregătire avansată pentru certificările Cambridge English recunoscute internațional." },
   { slug: "curs-de-limba-engleza-head-for-ielts", file: "curs-de-limba-engleza-head-for-ielts.html", title: "Curs de limba engleză HEAD FOR IELTS", eyebrow: "Cursuri pentru copii de 12–19 ani", summary: "Strategie, practică și feedback pentru scorul IELTS de care ai nevoie." },
@@ -72,7 +72,7 @@ const renderWordPressGallery = (ids: string) => {
 
 const findSource = (file: string) => {
   const entry = Object.entries(wordpressFiles).find(([path]) => path.endsWith(`/${file}`));
-  return (entry?.[1] ?? "").replaceAll('__GOOD_DEED_IMAGE__', goodDeedImage);
+  return (entry?.[1] ?? "").split('__GOOD_DEED_IMAGE__').join(goodDeedImage);
 };
 
 const cleanWordPressHtml = (source: string) => {

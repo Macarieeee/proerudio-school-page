@@ -1,4 +1,5 @@
 import DetailLayout from '@/components/DetailLayout';
+import { formatCourseOverview } from '@/lib/course-overview-layout';
 import { formatTeamCards, formatTeamProfile } from '@/lib/team-layout';
 import teamMembers from '@/data/team-members.json';
 import { Link, useNavigate } from 'react-router-dom';
@@ -26,6 +27,7 @@ const MigratedPage = ({ page }: { page: MigratedDefinition }) => {
     setFailed(false);
     fetch(`${import.meta.env.BASE_URL}content/${page.contentFile}`, { signal: controller.signal })
       .then(response => { if (!response.ok) throw new Error('Content unavailable'); return response.text(); })
+      .then(html => page.slug === 'cursuri-de-limba-engleza-pentru-copii-si-adolescenti' ? formatCourseOverview(html) : html)
       .then(html => page.slug === 'echipa-pro-erudio' ? formatTeamCards(html) : html)
       .then(html => teamMembers.some(member => member.to === page.path) ? formatTeamProfile(html) : html)
       .then(html => setContent({ path: page.path, html: formatCourseDetails(page.slug === 'inscriere-cursuri-pro-erudio' ? formatRegistrationCourses(html) : formatRelatedCollections(html, page.path)) }))

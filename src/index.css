@@ -532,4 +532,23 @@ div.wordpress-gallery > a > img {
 .wordpress-content .team-profile-header h2 { margin: 0 0 .75rem; padding: 0; border: 0; font-size: clamp(1.5rem, 3vw, 2rem); }
 .wordpress-content .team-profile-header h6 { margin: 0 0 1.25rem; font-size: .75rem; line-height: 1.7; letter-spacing: .06em; color: hsl(var(--muted-foreground)); }
 .wordpress-content .team-profile-header a { font-size: .8rem; }
+.wordpress-content img[data-good-deed-image] {
+  display: block;
+  width: min(100%, 420px);
+  height: auto;
+  margin: 1.5rem auto;
+}
 @media (max-width: 640px) { .wordpress-content .team-profile-header { flex-direction: column; align-items: flex-start; gap: 1.25rem; padding: 1.25rem; } .wordpress-content .team-profile-header > img { width: 140px; height: 175px; } }
+
+.wordpress-content a.course-overview-card { display: grid; grid-template-columns: minmax(180px, 32%) minmax(0, 1fr); margin-block: 1.5rem; overflow: hidden; border: 1px solid hsl(213 65% 86%); border-radius: 1.25rem; background: linear-gradient(120deg, hsl(213 85% 95%), hsl(var(--card)) 70%); text-decoration: none; box-shadow: 0 4px 18px hsl(var(--primary) / .06); transition: box-shadow 200ms ease, border-color 200ms ease; }
+.course-overview-photo { display: flex; align-items: center; padding: 1rem; }
+.wordpress-content .course-overview-photo img { width: 100%; height: auto; aspect-ratio: 504 / 315; object-fit: cover; margin: 0; border: 0; border-radius: .85rem; box-shadow: none; }
+.course-overview-body { display: flex; flex-direction: column; align-items: flex-start; padding: 1.75rem; }
+.wordpress-content .course-overview-body h3 { margin: 0 0 .75rem; font-size: clamp(1.1rem, 2vw, 1.5rem); line-height: 1.3; color: hsl(var(--foreground)); }
+.wordpress-content .course-overview-body p { margin: 0 0 .75rem; padding: 0; border: 0; background: none; font-size: .9rem; line-height: 1.75; font-weight: 400; color: hsl(var(--muted-foreground)); }
+.wordpress-content .course-overview-body p:first-of-type { color: hsl(var(--primary)); font-weight: 600; }
+.course-overview-action { display: inline-flex; gap: .5rem; margin-top: auto; padding-top: .75rem; font-size: .85rem; font-weight: 700; color: hsl(var(--primary)); }
+.wordpress-content a.course-overview-card:hover { border-color: hsl(var(--primary) / .5); box-shadow: 0 10px 26px hsl(var(--primary) / .12); }
+.wordpress-content a.course-overview-card:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
+@media (max-width: 640px) { .wordpress-content a.course-overview-card { grid-template-columns: minmax(0, 1fr); } .course-overview-photo { padding-bottom: 0; } .course-overview-body { padding: 1.25rem; } }
+@media (prefers-reduced-motion: reduce) { .wordpress-content a.course-overview-card { transition: none; } }
