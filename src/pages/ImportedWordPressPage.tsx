@@ -1,4 +1,5 @@
 import DetailLayout from '@/components/DetailLayout';
+import DiplomasFacebookPost from '@/components/DiplomasFacebookPost';
 import RelatedContentCards from '@/components/RelatedContentCards';
 import { expandImportedCardGrid } from '@/lib/expand-card-grids';
 import { expandCourseOffers, formatCourseDetails } from '@/lib/course-details-layout';
@@ -10,8 +11,11 @@ import { ArrowLeft, X } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import classroomImage from "@/assets/about-classroom.jpg";
+import goodDeedImage from "@/assets/Fa-o-Fapta-Buna-Pro-Erudio.png";
+import goodDeedBackground from "@/assets/Fa-o-Fapta-Buna-Pro-Erudio-fundal.png";
+import diplomasImage from "@/assets/Da-Valoare-Diplomelor-ProErudio.jpg";
 
-const wordpressFiles = import.meta.glob<string>("../import/*.html", {
+const wordpressFiles = import.meta.glob<string>(["../import/*.html", "!../import/cariere.html"], {
   eager: true,
   query: "?raw",
   import: "default",
@@ -26,8 +30,7 @@ export type ImportedPageDefinition = {
 };
 
 export const importedPages: ImportedPageDefinition[] = [
-  { slug: "da-valoare-diplomelor-tale", file: "da-valoare-diplomelor-tale.html", title: "Dă valoare diplomelor tale", eyebrow: "Pro Erudio", summary: "Performanța academică devine mai valoroasă atunci când este susținută de competențe reale de comunicare în limba engleză." },
-  { slug: "cariere", file: "cariere.html", title: "Cariere la Pro Erudio", eyebrow: "Echipa Pro Erudio", summary: "Transformă dragostea pentru copii și pasiunea pentru educație într-o profesie care contează." },
+  { slug: "da-valoare-diplomelor-tale", file: "da-valoare-diplomelor-tale.html", title: "Dă valoare diplomelor tale", eyebrow: "Pro Erudio", summary: "Citește mai jos ca să afli ce ai de făcut pentru a primi un curs de vară gratuit de la Pro Erudio." },
   { slug: "fa-o-fapta-buna", file: "fa-o-fapta-buna.html", title: "Fă o faptă bună", eyebrow: "Pro Erudio", summary: "Ajută-ne să oferim acces la educație copiilor motivați care au nevoie de sprijin." },
   { slug: "curs-de-limba-engleza-join-us-in-englishland", file: "curs-de-limba-engleza-join-us-in-englishland.html", title: "Curs de limba engleză – JOIN US IN ENGLISHLAND", eyebrow: "Cursuri pentru copii de 4–11 ani", summary: "Primii pași în limba engleză, într-un mediu prietenos, interactiv și potrivit vârstei." },
   { slug: "curs-de-limba-engleza-join-us-for-english", file: "curs-de-limba-engleza-join-us-for-english.html", title: "Curs de limba engleză – JOIN US FOR ENGLISH", eyebrow: "Cursuri pentru copii de 4–11 ani", summary: "Engleză învățată natural prin comunicare, activități și progres constant." },
@@ -69,7 +72,7 @@ const renderWordPressGallery = (ids: string) => {
 
 const findSource = (file: string) => {
   const entry = Object.entries(wordpressFiles).find(([path]) => path.endsWith(`/${file}`));
-  return entry?.[1] ?? "";
+  return (entry?.[1] ?? "").replaceAll('__GOOD_DEED_IMAGE__', goodDeedImage);
 };
 
 const cleanWordPressHtml = (source: string) => {
@@ -129,8 +132,8 @@ const ImportedWordPressPage = ({ page }: { page: ImportedPageDefinition }) => {
       <Header />
       <main className="pt-[88px]">
         <section className="relative isolate overflow-hidden bg-foreground">
-          <img src={classroomImage} alt="" className="absolute inset-0 h-full w-full object-cover opacity-25" />
-          <div className="absolute inset-0 bg-gradient-to-r from-foreground via-foreground/90 to-primary/60" />
+          <img src={page.slug === 'fa-o-fapta-buna' ? goodDeedBackground : page.slug === 'da-valoare-diplomelor-tale' ? diplomasImage : classroomImage} alt="" className="absolute inset-0 h-full w-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20" />
           <div className="container relative mx-auto px-4 py-20 md:py-24">
             <div className="max-w-4xl text-background">
               <Link to="/" className="mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80 transition-colors hover:text-background">
@@ -147,6 +150,7 @@ const ImportedWordPressPage = ({ page }: { page: ImportedPageDefinition }) => {
           <DetailLayout>
               <article onClick={openGalleryImage} className="wordpress-content min-w-0 rounded-2xl border bg-card p-6 text-card-foreground shadow-sm md:p-10">
                 <div dangerouslySetInnerHTML={{ __html: content }} />
+                {page.slug === 'da-valoare-diplomelor-tale' && <DiplomasFacebookPost />}
                 {relatedYouthCourses.length > 0 && (
                   <section className="not-prose mt-14 border-t pt-10">
                     <div className="mb-6">

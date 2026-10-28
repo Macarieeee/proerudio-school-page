@@ -10,6 +10,7 @@ env[`GIT_CONFIG_KEY_${configIndex}`] = 'core.longpaths';
 env[`GIT_CONFIG_VALUE_${configIndex}`] = 'true';
 
 const result = spawnSync(process.execPath, [
+  '--require', path.join(__dirname, 'gh-pages-windows.cjs'),
   require.resolve('gh-pages/bin/gh-pages.js'),
   '-d', 'dist',
   ...process.argv.slice(2),

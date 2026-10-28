@@ -188,7 +188,10 @@ div.wordpress-gallery > a > img {
   .wordpress-content h4 { @apply text-2xl text-primary; }
   .wordpress-content h5 { @apply text-xl text-primary; }
   .wordpress-content p { @apply my-5; }
-  .wordpress-content > div > p:first-of-type { @apply rounded-r-lg border-l-4 border-primary bg-primary/5 px-5 py-4 text-foreground; }
+  .wordpress-content > div > p:first-of-type {
+    @apply rounded-r-lg border-l-4 border-primary px-5 py-4 text-foreground;
+    background-color: hsl(213 85% 91%);
+  }
   .wordpress-content strong { @apply font-semibold text-primary; }
   .wordpress-content a { @apply font-medium text-primary underline decoration-primary/30 underline-offset-4 transition-colors hover:decoration-primary; }
   .wordpress-content ul,
@@ -457,3 +460,76 @@ div.wordpress-gallery > a > img {
   .detail-sidebar-card { min-height: 100px; aspect-ratio: auto; }
 }
 @media (prefers-reduced-motion: reduce) { .detail-sidebar-card > img { transition: none; } }
+
+.wordpress-content .team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 1.25rem;
+  margin-block: 2rem;
+}
+.wordpress-content a.team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.75rem 1.25rem 1.25rem;
+  border: 1px solid hsl(213 65% 86%);
+  border-radius: 1.25rem;
+  background: linear-gradient(155deg, hsl(213 85% 95%), hsl(var(--card)) 65%);
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 16px hsl(var(--primary) / .06);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+.wordpress-content .team-card img {
+  width: 112px;
+  height: 112px;
+  margin: 0 0 1.25rem;
+  border: 4px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 25%;
+  box-shadow: 0 0 0 1px hsl(213 65% 83%), 0 6px 18px hsl(var(--primary) / .12);
+}
+.wordpress-content .team-card h3 { margin: 0 0 .65rem; font-size: 1.2rem; line-height: 1.3; color: hsl(var(--foreground)); }
+.team-card-role { font-size: .65rem; letter-spacing: .09em; line-height: 1.7; color: hsl(var(--primary)); }
+.team-card-badge { margin-top: .75rem; padding: .25rem .65rem; border-radius: 999px; background: hsl(213 85% 91%); color: hsl(var(--primary)); font-size: .6rem; letter-spacing: .06em; }
+.team-card-action { width: 100%; margin-top: auto; padding-top: 1.5rem; font-size: .75rem; font-weight: 600; color: hsl(var(--primary)); }
+.wordpress-content a.team-card:hover { transform: translateY(-3px); box-shadow: 0 10px 24px hsl(var(--primary) / .12); }
+.wordpress-content a.team-card:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) { .wordpress-content a.team-card { transition: none; } .wordpress-content a.team-card:hover { transform: none; } }
+
+.wordpress-content .diplomas-facebook { margin-top: 3rem; padding: clamp(1rem, 3vw, 2rem); border: 1px solid hsl(213 75% 83%); border-radius: 1.5rem; background: linear-gradient(135deg, hsl(213 85% 93%), hsl(205 85% 98%)); }
+.diplomas-facebook-label { display: inline-flex; align-items: center; gap: .5rem; color: hsl(var(--primary)); font-size: .75rem; font-weight: 700; }
+.wordpress-content .diplomas-facebook h2 { margin: 1rem 0; padding: 0; border: 0; font-size: clamp(1.4rem, 2.5vw, 1.9rem); }
+.wordpress-content .diplomas-facebook p { margin: 1rem 0; font-size: .95rem; line-height: 1.8; }
+.wordpress-content a.diplomas-facebook-button { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; padding: .85rem 1.1rem; border-radius: .75rem; background: hsl(var(--primary)); color: white; text-decoration: none; font-size: .85rem; font-weight: 600; }
+.wordpress-content a.diplomas-facebook-button:hover { background: hsl(215 70% 32%); }
+.wordpress-content a.diplomas-facebook-button:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
+.wordpress-content .diplomas-facebook .diplomas-facebook-note { font-size: .75rem; color: hsl(var(--muted-foreground)); }
+.diplomas-facebook-preview { width: 100%; max-width: 500px; margin: 1.5rem auto 0; overflow: hidden; border-radius: .75rem; background: white; box-shadow: 0 8px 24px hsl(var(--primary) / .1); }
+.wordpress-content .diplomas-facebook-preview iframe {
+  display: block;
+  margin: 0;
+  padding: 0;
+  aspect-ratio: auto;
+  max-width: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.team-nav-entry { position: relative; }
+.team-nav-submenu { display: none; }
+.team-nav-entry[data-open="true"] > .team-nav-submenu { display: block; }
+.team-nav-list { padding: .5rem; margin-left: .75rem; border-left: 2px solid hsl(var(--primary) / .2); }
+@media (min-width: 1536px) {
+  .team-nav-submenu { position: absolute; left: 100%; top: 0; width: 290px; padding-left: .5rem; z-index: 80; }
+  .team-nav-entry:hover > .team-nav-submenu, .team-nav-entry:focus-within > .team-nav-submenu { display: block; }
+  .team-nav-list { margin: 0; max-height: calc(100vh - 190px); overflow-y: auto; overscroll-behavior: contain; border: 1px solid hsl(var(--border)); border-radius: .75rem; background: hsl(var(--popover)); box-shadow: 0 12px 28px hsl(var(--foreground) / .15); }
+}
+.wordpress-content .team-profile-header { display: flex; align-items: center; gap: 2rem; padding: 1.5rem; margin-bottom: 2.5rem; border: 1px solid hsl(213 65% 86%); border-radius: 1.25rem; background: linear-gradient(120deg, hsl(213 85% 94%), hsl(var(--card))); }
+.wordpress-content .team-profile-header > img { flex: 0 0 auto; width: 180px; height: 220px; max-width: 100%; margin: 0; border-radius: 1rem; object-fit: cover; object-position: center 20%; }
+.wordpress-content .team-profile-header h2 { margin: 0 0 .75rem; padding: 0; border: 0; font-size: clamp(1.5rem, 3vw, 2rem); }
+.wordpress-content .team-profile-header h6 { margin: 0 0 1.25rem; font-size: .75rem; line-height: 1.7; letter-spacing: .06em; color: hsl(var(--muted-foreground)); }
+.wordpress-content .team-profile-header a { font-size: .8rem; }
+@media (max-width: 640px) { .wordpress-content .team-profile-header { flex-direction: column; align-items: flex-start; gap: 1.25rem; padding: 1.25rem; } .wordpress-content .team-profile-header > img { width: 140px; height: 175px; } }

@@ -1,7 +1,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 process.chdir(path.resolve(__dirname, '..'));
-const pages = JSON.parse(fs.readFileSync('src/data/wordpress.json', 'utf8'));
+const pages = require('./public-content.cjs').publicPages(JSON.parse(fs.readFileSync('src/data/wordpress.json', 'utf8')));
 const template = fs.readFileSync('dist/index.html', 'utf8').replace(/<meta\s+(?:property|name)="(?:og:|twitter:)[^"]*"[^>]*>/gi, '');
 const escape = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
 const base = (process.env.VITE_BASE_PATH || '/').replace(/\/$/, '');

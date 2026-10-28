@@ -1,4 +1,6 @@
 import DetailLayout from '@/components/DetailLayout';
+import { formatTeamCards, formatTeamProfile } from '@/lib/team-layout';
+import teamMembers from '@/data/team-members.json';
 import { Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, BookOpen, CalendarDays } from 'lucide-react';
 import Header from '@/components/Header';
@@ -24,6 +26,8 @@ const MigratedPage = ({ page }: { page: MigratedDefinition }) => {
     setFailed(false);
     fetch(`${import.meta.env.BASE_URL}content/${page.contentFile}`, { signal: controller.signal })
       .then(response => { if (!response.ok) throw new Error('Content unavailable'); return response.text(); })
+      .then(html => page.slug === 'echipa-pro-erudio' ? formatTeamCards(html) : html)
+      .then(html => teamMembers.some(member => member.to === page.path) ? formatTeamProfile(html) : html)
       .then(html => setContent({ path: page.path, html: formatCourseDetails(page.slug === 'inscriere-cursuri-pro-erudio' ? formatRegistrationCourses(html) : formatRelatedCollections(html, page.path)) }))
       .catch(error => { if (error.name !== 'AbortError') setFailed(true); });
     return () => controller.abort();
@@ -45,8 +49,8 @@ const MigratedPage = ({ page }: { page: MigratedDefinition }) => {
       <Header />
       <main className="pt-[88px]">
         <section className="relative isolate overflow-hidden bg-foreground text-background">
-          <img src={page.image || classroomImage} alt="" className="absolute inset-0 h-full w-full object-cover opacity-25" />
-          <div className="absolute inset-0 bg-gradient-to-r from-foreground via-foreground/90 to-primary/60" />
+          <img src={page.image || classroomImage} alt="" className="absolute inset-0 h-full w-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20" />
           <div className="container relative mx-auto max-w-6xl px-4 py-20 md:py-24">
             <Link to={article ? '/articole-pro-erudio/' : '/'} className="mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"><ArrowLeft className="h-4 w-4" />{article ? 'Toate articolele' : 'Pagina principală'}</Link>
             <p className="mb-4 flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-background/75"><BookOpen className="h-4 w-4" />{article ? 'Resurse Pro Erudio' : 'Pro Erudio · School of English'}</p>
