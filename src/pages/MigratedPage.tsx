@@ -1,3 +1,4 @@
+import DetailLayout from '@/components/DetailLayout';
 import { Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, BookOpen, CalendarDays } from 'lucide-react';
 import Header from '@/components/Header';
@@ -9,6 +10,7 @@ import { formatRegistrationCourses } from '@/lib/registration-layout';
 import { cardForPage, formatRelatedCollections, relatedPages } from '@/lib/related-content';
 import RelatedContentCards from '@/components/RelatedContentCards';
 import { expandImportedCardGrid } from '@/lib/expand-card-grids';
+import { formatCourseDetails } from '@/lib/course-details-layout';
 
 export const migratedPages = wordpress;
 export type MigratedDefinition = (typeof wordpress)[number];
@@ -22,7 +24,7 @@ const MigratedPage = ({ page }: { page: MigratedDefinition }) => {
     setFailed(false);
     fetch(`${import.meta.env.BASE_URL}content/${page.contentFile}`, { signal: controller.signal })
       .then(response => { if (!response.ok) throw new Error('Content unavailable'); return response.text(); })
-      .then(html => setContent({ path: page.path, html: page.slug === 'inscriere-cursuri-pro-erudio' ? formatRegistrationCourses(html) : formatRelatedCollections(html, page.path) }))
+      .then(html => setContent({ path: page.path, html: formatCourseDetails(page.slug === 'inscriere-cursuri-pro-erudio' ? formatRegistrationCourses(html) : formatRelatedCollections(html, page.path)) }))
       .catch(error => { if (error.name !== 'AbortError') setFailed(true); });
     return () => controller.abort();
   }, [page.path, page.contentFile, page.slug]);
@@ -53,10 +55,10 @@ const MigratedPage = ({ page }: { page: MigratedDefinition }) => {
           </div>
         </section>
         <section className="bg-muted/35 py-16 md:py-24">
-          <div className="container mx-auto max-w-5xl px-4">
+          <DetailLayout>
             {content?.path === page.path ? <article onClick={followLink} className="wordpress-content min-w-0 overflow-x-auto rounded-2xl border bg-card p-6 shadow-sm md:p-10" dangerouslySetInnerHTML={{ __html: content.html }} /> : <div role="status" className="rounded-2xl border bg-card p-10">{failed ? <p>Conținutul nu s-a putut încărca. <a href={page.url} data-original-form="true" className="text-primary underline">Deschide pagina originală</a></p> : 'Se încarcă pagina…'}</div>}
             {related.length > 0 && <section className={'mt-14 border-t pt-10'}><h2 className={'mb-6 text-2xl font-bold'}>{article ? 'Alte articole' : 'Descoperă mai multe'}</h2><RelatedContentCards cards={related.map(p => cardForPage(p))} /></section>}
-          </div>
+          </DetailLayout>
         </section>
       </main>
       <Footer />

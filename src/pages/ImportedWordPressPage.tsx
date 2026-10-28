@@ -1,13 +1,14 @@
+import DetailLayout from '@/components/DetailLayout';
 import RelatedContentCards from '@/components/RelatedContentCards';
 import { expandImportedCardGrid } from '@/lib/expand-card-grids';
+import { expandCourseOffers, formatCourseDetails } from '@/lib/course-details-layout';
 import { cardForPage, formatRelatedCollections } from '@/lib/related-content';
 import pageManifest from '@/data/wordpress-manifest.json';
 import { useEffect, useState, type MouseEvent } from "react";
 import { Link } from "react-router-dom";
-import { ArrowLeft, ArrowRight, BookOpenCheck, X } from "lucide-react";
+import { ArrowLeft, X } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Button } from "@/components/ui/button";
 import classroomImage from "@/assets/about-classroom.jpg";
 
 const wordpressFiles = import.meta.glob<string>("../import/*.html", {
@@ -73,7 +74,7 @@ const findSource = (file: string) => {
 
 const cleanWordPressHtml = (source: string) => {
   const galleries: string[] = [];
-  const withPlaceholders = source.replace(/\[gallery[^\]]*ids=["']([^"']+)["'][^\]]*\]/gi, (_match, ids: string) => {
+  const withPlaceholders = expandCourseOffers(source).replace(/\[gallery[^\]]*ids=["']([^"']+)["'][^\]]*\]/gi, (_match, ids: string) => {
     const index = galleries.push(ids) - 1;
     return `__PROERUDIO_GALLERY_${index}__`;
   });
@@ -94,7 +95,7 @@ const cleanWordPressHtml = (source: string) => {
 
 const ImportedWordPressPage = ({ page }: { page: ImportedPageDefinition }) => {
   const currentPage = pageManifest.find(p => p.slug === page.slug);
-  const content = formatRelatedCollections(cleanWordPressHtml(findSource(page.file)), currentPage?.path || `/${page.slug}/`);
+  const content = formatCourseDetails(formatRelatedCollections(cleanWordPressHtml(findSource(page.file)), currentPage?.path || `/${page.slug}/`));
   const [expandedImage, setExpandedImage] = useState<string | null>(null);
   const relatedYouthCourses = /Cursuri pentru copii|Pregătire examene/.test(page.eyebrow)
     ? importedPages.filter(candidate => candidate.eyebrow === page.eyebrow && candidate.slug !== page.slug)
@@ -143,8 +144,7 @@ const ImportedWordPressPage = ({ page }: { page: ImportedPageDefinition }) => {
         </section>
 
         <section className="py-16 md:py-20">
-          <div className="container mx-auto px-4">
-            <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[minmax(0,1fr)_300px]">
+          <DetailLayout>
               <article onClick={openGalleryImage} className="wordpress-content min-w-0 rounded-2xl border bg-card p-6 text-card-foreground shadow-sm md:p-10">
                 <div dangerouslySetInnerHTML={{ __html: content }} />
                 {relatedYouthCourses.length > 0 && (
@@ -160,18 +160,7 @@ const ImportedWordPressPage = ({ page }: { page: ImportedPageDefinition }) => {
                   </section>
                 )}
               </article>
-              <aside className="h-fit rounded-2xl border bg-muted/40 p-6 lg:sticky lg:top-36">
-                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
-                  <BookOpenCheck className="h-6 w-6 text-primary" />
-                </div>
-                <h2 className="mb-3 text-xl font-bold text-foreground">Ai nevoie de mai multe informații?</h2>
-                <p className="mb-6 leading-relaxed text-muted-foreground">Echipa Pro Erudio te ajută să alegi cursul și nivelul potrivit.</p>
-                <Button asChild className="w-full">
-                  <Link to="/contact">Contactează-ne <ArrowRight className="ml-2 h-4 w-4" /></Link>
-                </Button>
-              </aside>
-            </div>
-          </div>
+          </DetailLayout>
         </section>
       </main>
       <Footer />

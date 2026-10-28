@@ -1,3 +1,4 @@
+import DetailLayout from '@/components/DetailLayout';
 import ExpandableCardGrid from '@/components/ExpandableCardGrid';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -86,6 +87,7 @@ const CampBenefitsArticle = () => (
         </div>
       </section>
 
+      <DetailLayout>
       <article>
         <section className="py-16 md:py-20">
           <div className="container mx-auto max-w-4xl px-4">
@@ -121,6 +123,7 @@ const CampBenefitsArticle = () => (
           </div>
         </section>
       </article>
+      </DetailLayout>
     </main>
     <Footer />
   </div>

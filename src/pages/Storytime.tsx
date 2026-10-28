@@ -1,3 +1,4 @@
+import DetailLayout from '@/components/DetailLayout';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -99,6 +100,7 @@ const Storytime = () => {
           </div>
         </section>
 
+      <DetailLayout>
         <section id="detalii" className="bg-background py-16">
           <div className="container mx-auto px-4">
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
@@ -259,6 +261,7 @@ const Storytime = () => {
             </Button>
           </div>
         </section>
+      </DetailLayout>
       </main>
       <Footer />
     </div>
