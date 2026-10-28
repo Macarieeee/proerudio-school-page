@@ -35,7 +35,7 @@ const MigratedPage = ({ page }: { page: MigratedDefinition }) => {
     return () => controller.abort();
   }, [page.path, page.contentFile, page.slug]);
   const article = page.type === 'post';
-  const related = content?.html.includes('related-content-grid') ? [] : relatedPages(page);
+  const related = content?.html.includes('related-content-grid') || content?.html.includes('course-overview-card') ? [] : relatedPages(page);
   const followLink = (event: MouseEvent<HTMLElement>) => {
     if (expandImportedCardGrid(event.target)) return;
     const anchor = (event.target as HTMLElement).closest('a');

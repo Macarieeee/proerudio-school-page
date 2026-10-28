@@ -9,6 +9,15 @@ type Child = { label: string; to: string };
 type Section = { title: string; items: Child[] };
 type Item = { label: string; to?: string; children?: Child[]; sections?: Section[]; align?: string };
 const c = (label: string, to: string): Child => ({ label, to });
+const personalDevelopment = [
+  c('Dezvoltare emoțională cu psiholog pentru copii 6–9 ani', '/ateliere-de-dezvoltare-emotionala-pentru-copii-1/'),
+  c('Dezvoltare emoțională cu psiholog pentru copii 9–12 ani', '/ateliere-de-dezvoltare-emotionala-pentru-copii-2/'),
+  c('Cursuri de teatru', '/alte-cursuri-pentru-copii/cursuri-de-dezvoltare-personala-copii/cursuri-de-teatru-pentru-copii/'),
+];
+const nestedEntries: Record<string, Child[]> = {
+  '/echipa-pro-erudio/': teamMembers,
+  '/alte-cursuri-pentru-copii/cursuri-de-dezvoltare-personala-copii/': personalDevelopment,
+};
 
 const navigation: Item[] = [
   { label: "Pro Erudio", to: "/", children: [c("Echipa Pro Erudio", "/echipa-pro-erudio/"),c("Teste de limba engleză", "/test-de-plasare/"), c("Înscriere cursuri 2026", "/inscriere-cursuri-pro-erudio/"), c("Înscriere cursuri de vară", "/inscriere-cursuri-pentru-copii-si-adolescenti/"),c("Fă o faptă bună", "/fa-o-fapta-buna/"), c("Dă valoare diplomelor tale", "/da-valoare-diplomelor-tale/"),   c("File de poveste", "/galerii-foto/"), c("Articole Pro Erudio", "/articole-pro-erudio/")] },
@@ -37,10 +46,11 @@ const BasicEntry = ({ item, close }: { item: Child; close?: () => void }) => ite
 
 const Entry = ({ item, close }: { item: Child; close?: () => void }) => {
   const [open, setOpen] = useState(false);
-  if (item.to !== '/echipa-pro-erudio/') return <BasicEntry item={item} close={close} />;
+  const children = nestedEntries[item.to];
+  if (!children) return <BasicEntry item={item} close={close} />;
   return <div className="team-nav-entry" data-open={open} onKeyDown={event => { if (event.key === 'Escape') { setOpen(false); event.currentTarget.querySelector('button')?.focus(); } }}>
-    <div className="flex items-center justify-between"><BasicEntry item={item} close={close} /><button type="button" className="rounded-md p-2 hover:bg-muted focus-visible:ring-2 focus-visible:ring-ring" aria-label="Afișează membrii echipei" aria-expanded={open} onClick={() => setOpen(!open)}><ChevronDown className="h-4 w-4 2xl:-rotate-90" /></button></div>
-    <div className="team-nav-submenu"><div className="team-nav-list" aria-label="Membrii echipei">{teamMembers.map(member => <BasicEntry key={member.to} item={member} close={() => { setOpen(false); close?.(); }} />)}</div></div>
+    <div className="flex items-center justify-between"><BasicEntry item={item} close={close} /><button type="button" className="rounded-md p-2 hover:bg-muted focus-visible:ring-2 focus-visible:ring-ring" aria-label={`Afișează submeniul ${item.label}`} aria-expanded={open} onClick={() => setOpen(!open)}><ChevronDown className="h-4 w-4 2xl:-rotate-90" /></button></div>
+    <div className="team-nav-submenu"><div className="team-nav-list" aria-label={item.label}>{children.map(child => <BasicEntry key={child.to} item={child} close={() => { setOpen(false); close?.(); }} />)}</div></div>
   </div>;
 };
 
@@ -89,7 +99,7 @@ const EnhancedHeader = () => {
         const hasMenu = !!(item.children || item.sections);
         const wasClosed = closedDesktopMenu === item.label;
         return <div key={item.label} onMouseLeave={() => setClosedDesktopMenu(null)} className={`group ${item.sections?.length === 5 ? "static" : "relative"}`}><MainLabel item={item} />
-          {hasMenu && <div className={`absolute top-full z-[70] max-w-[calc(100vw-2rem)] pt-8 transition-all duration-200 ${wasClosed ? "invisible pointer-events-none opacity-0 translate-y-1" : "invisible opacity-0 translate-y-1 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-0"} ${item.align || "left-0"}`}><div className={`${item.label === "Pro Erudio" ? "overflow-visible" : "max-h-[calc(100vh-9rem)] overflow-y-auto"} rounded-lg border bg-popover text-popover-foreground shadow-md`}><Content item={item} close={() => closeDesktop(item.label)} /></div></div>}
+          {hasMenu && <div className={`absolute top-full z-[70] max-w-[calc(100vw-2rem)] pt-8 transition-all duration-200 ${wasClosed ? "invisible pointer-events-none opacity-0 translate-y-1" : "invisible opacity-0 translate-y-1 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-0"} ${item.align || "left-0"}`}><div className={`${item.children?.some(child => nestedEntries[child.to]) ? "overflow-visible" : "max-h-[calc(100vh-9rem)] overflow-y-auto"} rounded-lg border bg-popover text-popover-foreground shadow-md`}><Content item={item} close={() => closeDesktop(item.label)} /></div></div>}
         </div>;
       })}</nav>
       <div className="hidden 2xl:flex items-center gap-4"><Button asChild className="bg-primary hover:bg-primary/90 hover:scale-105 transition-transform"><Link to="/inscriere-cursuri-pro-erudio/">Înscrie-te</Link></Button></div>

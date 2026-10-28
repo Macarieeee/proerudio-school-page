@@ -39,7 +39,7 @@ export function formatCourseOverview(html: string): string {
     });
     const action = doc.createElement('span');
     action.className = 'course-overview-action';
-    action.textContent = 'Descoperă cursul';
+    action.textContent = row.getAttribute('data-course-action') || 'Descoperă cursul';
     const arrow = doc.createElement('span');
     arrow.textContent = ' →';
     arrow.setAttribute('aria-hidden', 'true');

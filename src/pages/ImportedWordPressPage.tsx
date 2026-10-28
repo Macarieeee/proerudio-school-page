@@ -34,10 +34,10 @@ export const importedPages: ImportedPageDefinition[] = [
   { slug: "fa-o-fapta-buna", file: "fa-o-fapta-buna.html", title: "Fă o faptă bună", eyebrow: "Pro Erudio", summary: "Ajută-ne să oferim acces la educație copiilor motivați care au nevoie de sprijin." },
   { slug: "curs-de-limba-engleza-join-us-in-englishland", file: "curs-de-limba-engleza-join-us-in-englishland.html", title: "Join Us in Englishland — primii pași în limba engleză", eyebrow: "Cursuri pentru copii de 4–11 ani", summary: "Cursuri pentru copii de 4–7 ani, disponibile la sediu (ocazional online, la solicitarea părinților)" },
   { slug: "curs-de-limba-engleza-join-us-for-english", file: "curs-de-limba-engleza-join-us-for-english.html", title: "Curs de limba engleză – JOIN US FOR ENGLISH", eyebrow: "Cursuri pentru copii de 4–11 ani", summary: "Cursuri pentru copii de 8–11 ani, disponibile la sediu și ocazional/permanent online" },
-  { slug: "curs-de-limba-engleza-head-for-ketpet", file: "curs-de-limba-engleza-head-for-ketpet.html", title: "Curs de limba engleză HEAD FOR KET/PET", eyebrow: "Cursuri pentru copii de 12–19 ani", summary: "Pregătire structurată pentru examenele Cambridge English A2 Key și B1 Preliminary." },
-  { slug: "curs-de-limba-engleza-head-for-fce-cae-cpe", file: "curs-de-limba-engleza-head-for-fce-cae-cpe.html", title: "Curs de limba engleză HEAD FOR FCE/CAE/CPE", eyebrow: "Cursuri pentru copii de 12–19 ani", summary: "Pregătire avansată pentru certificările Cambridge English recunoscute internațional." },
-  { slug: "curs-de-limba-engleza-head-for-ielts", file: "curs-de-limba-engleza-head-for-ielts.html", title: "Curs de limba engleză HEAD FOR IELTS", eyebrow: "Cursuri pentru copii de 12–19 ani", summary: "Strategie, practică și feedback pentru scorul IELTS de care ai nevoie." },
-  { slug: "curs-de-limba-engleza-pentru-tineri-head-for-toefl", file: "curs-de-limba-engleza-pentru-tineri-head-for-toefl.html", title: "Curs de limba engleză pentru tineri HEAD FOR TOEFL", eyebrow: "Cursuri pentru copii de 12–19 ani", summary: "Pregătire completă pentru formatul TOEFL iBT și admiterea la instituții internaționale." },
+  { slug: "curs-de-limba-engleza-head-for-ketpet", file: "curs-de-limba-engleza-head-for-ketpet.html", title: "Head for Key/Preliminary — pregătire pentru examenele Cambridge English", eyebrow: "Cursuri pentru copii de 12–19 ani", summary: "Cursuri pentru copii și adolescenți de 12–18 ani, disponibile la sediu și online" },
+  { slug: "curs-de-limba-engleza-head-for-fce-cae-cpe", file: "curs-de-limba-engleza-head-for-fce-cae-cpe.html", title: "Head for FCE/CAE/CPE — engleză pentru noi perspective", eyebrow: "Cursuri pentru copii de 12–19 ani", summary: "Cursuri pentru adolescenți (14–19 ani), disponibile la sediu și online" },
+  { slug: "curs-de-limba-engleza-head-for-ielts", file: "curs-de-limba-engleza-head-for-ielts.html", title: "Head for IELTS — pregătire pentru următorul pas", eyebrow: "Cursuri pentru copii de 12–19 ani", summary: "Cursuri pentru tineri de 17 ani și peste, disponibile la sediu și online" },
+  { slug: "curs-de-limba-engleza-pentru-tineri-head-for-toefl", file: "curs-de-limba-engleza-pentru-tineri-head-for-toefl.html", title: "Head for TOEFL — engleză pentru parcursul tău academic", eyebrow: "Cursuri pentru copii de 12–19 ani", summary: "Cursuri pentru tineri de 17 ani și peste, disponibile la sediu și online" },
   { slug: "modul-optional-de-pregatire-pentru-examenele-cambridge-english", file: "modul-optional-de-pregatire-pentru-examenele-cambridge-english.html", title: "Modul opțional de pregătire pentru examenele Cambridge English", eyebrow: "Pregătire examene Cambridge", summary: "Consolidare și simulări înaintea examenelor Cambridge English." },
   { slug: "cambridge-mock-tests", file: "cambridge-mock-tests.html", title: "Cambridge Mock Tests", eyebrow: "Pregătire examene Cambridge", summary: "Simulări în condiții de examen pentru evaluarea realistă a nivelului și a progresului." },
   { slug: "cursuri-interactive-de-conversatie-cu-profesori-internationali", file: "cursuri-interactive-de-conversatie-cu-profesori-internationali.html", title: "Cursuri interactive cu profesori internaționali", eyebrow: "Pregătire examene Cambridge", summary: "Conversație autentică, fluență și încredere alături de traineri internaționali." },
@@ -88,7 +88,11 @@ const cleanWordPressHtml = (source: string) => {
     .replace(/\[(?:\/?)[a-z_][^\]]*\]/gi, "")
     .replace(/<h1[^>]*>[\s\S]*?<\/h1>/i, "")
     .replace(/<h3[^>]*>\s*Alte cursuri de limba engleza pentru copii de 12-19 ani:\s*<\/h3>/gi, "")
-    .replace(/\s(?:style|class|id|width|height|align)=["'][^"']*["']/gi, "")
+    .replace(/\s(style|class|id|width|height|align)=["']([^"']*)["']/gi, (_match, attribute: string, value: string) => {
+      const allowed = ['mock-tests-grid', 'mock-test-card', 'mock-test-button'];
+      const classes = attribute.toLowerCase() === 'class' ? value.split(/\s+/).filter(name => allowed.includes(name)) : [];
+      return classes.length ? ` class="${classes.join(' ')}"` : '';
+    })
     .replace(/href=(["'])https?:\/\/(?:www\.)?proerudio\.ro(?!\/wp-content\/)/gi, "href=$1")
     .replace(/<p>\s*(__PROERUDIO_GALLERY_\d+__)\s*<\/p>/gi, "$1")
     .replace(/__PROERUDIO_GALLERY_(\d+)__/g, (_match, index: string) => renderWordPressGallery(galleries[Number(index)]))

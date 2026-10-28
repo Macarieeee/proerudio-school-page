@@ -257,9 +257,11 @@ div.wordpress-gallery > a > img {
   .wordpress-content table { @apply my-8 w-full border-collapse overflow-hidden rounded-lg text-left text-sm; }
   .wordpress-content th,
   .wordpress-content td { @apply border px-4 py-3; }
-  .wordpress-content tr:nth-child(even) { @apply bg-muted/40; }
-  .wordpress-content tr:first-child { @apply bg-primary text-primary-foreground; }
-  .wordpress-content tr:first-child strong { @apply text-primary-foreground; }
+  .wordpress-content tbody tr { @apply bg-muted/40 text-foreground; }
+  .wordpress-content thead tr,
+  .wordpress-content table:not(:has(thead)) > tbody > tr:first-child { @apply bg-primary text-primary-foreground; }
+  .wordpress-content thead strong,
+  .wordpress-content table:not(:has(thead)) > tbody > tr:first-child strong { @apply text-primary-foreground; }
   .wordpress-content hr { @apply my-10 border-primary/20; }
 }
 
@@ -552,3 +554,27 @@ div.wordpress-gallery > a > img {
 .wordpress-content a.course-overview-card:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
 @media (max-width: 640px) { .wordpress-content a.course-overview-card { grid-template-columns: minmax(0, 1fr); } .course-overview-photo { padding-bottom: 0; } .course-overview-body { padding: 1.25rem; } }
 @media (prefers-reduced-motion: reduce) { .wordpress-content a.course-overview-card { transition: none; } }
+
+.wordpress-content .mock-tests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 1.25rem;
+  margin-block: 2rem;
+}
+.wordpress-content .mock-test-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 1.5rem;
+  border: 1px solid hsl(213 65% 86%);
+  border-top: 5px solid hsl(var(--primary));
+  border-radius: 1rem;
+  background: linear-gradient(155deg, hsl(213 85% 95%), hsl(var(--card)) 70%);
+  box-shadow: 0 4px 18px hsl(var(--primary) / .07);
+}
+.wordpress-content .mock-test-card h3 { margin: 0 0 1rem; font-size: 1.35rem; line-height: 1.35; }
+.wordpress-content .mock-test-card p { margin: 0 0 1.5rem; padding: 0; border: 0; background: none; font-size: .95rem; line-height: 1.8; color: hsl(var(--muted-foreground)); }
+.wordpress-content .mock-test-card p:last-child { margin: auto 0 0; }
+.wordpress-content a.mock-test-button { display: flex; align-items: center; justify-content: center; min-height: 4.5rem; padding: .85rem 1rem; border-radius: .75rem; background: hsl(var(--primary)); color: white; font-size: .85rem; font-weight: 600; line-height: 1.5; text-align: center; text-decoration: none; }
+.wordpress-content a.mock-test-button:hover { background: hsl(215 70% 32%); }
+.wordpress-content a.mock-test-button:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
