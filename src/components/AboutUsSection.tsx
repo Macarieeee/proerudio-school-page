@@ -17,7 +17,7 @@ const AboutUsSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-primary text-sm font-semibold tracking-wider mb-4 uppercase">
-              De ce ProErudio?
+              De ce Pro Erudio?
             </p>
             <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
               Centru de Pregătire GOLD pentru examenele Cambridge
@@ -32,20 +32,6 @@ const AboutUsSection = () => {
               vară și tabere de limba engleză în România și Marea Britanie, pentru formarea unor personalități
               complexe și armonioase.
             </p>
-            <div className="space-y-4 mb-8">
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 rounded-full bg-primary" />
-                <span className="text-foreground font-semibold">Limba engleză pentru copii și adolescenți</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 rounded-full bg-primary" />
-                <span className="text-foreground font-semibold">Promovabilitate excelentă pentru examenele internaționale</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 rounded-full bg-primary" />
-                <span className="text-foreground font-semibold">Flexibilitate, cursuri de vară și tabere pentru copii</span>
-              </div>
-            </div>
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
               <Link to="/cine-suntem/">Citește mai multe</Link>
             </Button>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { ChevronDown, Facebook, Instagram, Mail, Menu, X, Youtube } from "lucide-react";
+import { ChevronDown, Facebook, Instagram, Mail, Menu, Phone, X, Youtube } from "lucide-react";
 import { Link } from "react-router-dom";
 import teamMembers from "@/data/team-members.json";
 import logoImage from "@/assets/ProErudioSchoolofEnglish.svg";
@@ -35,14 +35,15 @@ const navigation: Item[] = [
     { title: "Dezvoltare personală", items: [c("Happy Confident Me", "/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/happy-confident-me/"), c("Emoțiile contează", "/alte-cursuri-pentru-copii/cursuri-de-dezvoltare-personala-copii/curs-de-dezvoltare-emotionala-cu-psiholog/"), c("Arts and Crafts", "/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/arts-and-crafts/"), c("Călătorie în jurul lumii în pași de dans!", "/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/calatorie-in-pasi-de-dans/")] },
   ] },
   { label: "Evenimente", to: "/evenimente/", align: "right-0 w-80", children: [c("Atelierul de dansuri de Crăciun", "/atelier-de-dansuri-de-craciun/"), c("Atelierul de dansuri populare", "/atelier-de-dansuri-populare/"), c("Calendar ateliere dezvoltare emoțională cu psiholog", "/ateliere-de-dezvoltare-emotionala-pentru-copii-1/"), c("Halloween Party", "/halloween-party/"), c("Bring a friend week", "/bring-a-friend-week/"), c("Atelierul lui Moș Crăciun", "/atelierul-lui-mos-craciun/"), c("Seara filmului", "/seara-filmului/"), c("Simulare Cambridge English Exams", "/simulare-cambridge-english-exams/"), c("Surprize de Moș Nicolae", "/mos-nicolae-vine-cu-surprize-la-pro-erudio/"), c("Playday @ Pro Erudio", "/playday-pro-erudio/")] },
-  { label: "Tabere", to: "/tabere/" },
-  { label: "Jurnale de tabără – foto & video", to: "/galerii-foto/", align: "right-0 w-80", children: [c("JURNAL DE TABĂRĂ RAMSGATE – 2019", "/jurnal-de-tabara-ramsgate-2019/"), c("English Explorers Camp – CHEIA 2019", "/english-explorers-camp-cheia-2019/"), c("ENGLISH EXPLORERS CAMP 2016", "/english-explorer-camp-2016/"), c("WYCLIFF COLLEGE 2016", "/jurnal-de-tabara-wycliff-college-2016/"), c("ENGLISH ADVENTURE CAMP 2015", "/jurnal-de-tabara-english-adventure-camp-2015/"), c("WINCHESTER 2018", "/tabara-in-anglia-2018/"), c("ENGLISH EXPLORER CAMP 2021", "/jurnal-de-tabara-english-explorers-camp-2021/")] },
+  { label: "Tabere", to: "/tabere/", align: "right-0", children: [c("Tabere de vară", "https://tabere.proerudio.ro"), c("Jurnale de tabără – foto & video", "https://tabere.proerudio.ro/jurnale")] },
   { label: "Contact", to: "/contact/" },
 ];
 
-const BasicEntry = ({ item, close }: { item: Child; close?: () => void }) => item.to
-  ? <Link to={item.to} onClick={close} className="block rounded-md px-3 py-2 text-sm text-foreground transition-colors hover:bg-muted hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">{item.label}</Link>
-  : <span aria-disabled="true" className="block rounded-md px-3 py-2 text-sm text-muted-foreground">{item.label}</span>;
+const BasicEntry = ({ item, close }: { item: Child; close?: () => void }) => /^https?:\/\//.test(item.to)
+  ? <a href={item.to} onClick={close} className="block rounded-md px-3 py-2.5 text-base text-foreground transition-colors hover:bg-muted hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">{item.label}</a>
+  : item.to
+  ? <Link to={item.to} onClick={close} className="block rounded-md px-3 py-2.5 text-base text-foreground transition-colors hover:bg-muted hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">{item.label}</Link>
+  : <span aria-disabled="true" className="block rounded-md px-3 py-2.5 text-base text-muted-foreground">{item.label}</span>;
 
 const Entry = ({ item, close }: { item: Child; close?: () => void }) => {
   const [open, setOpen] = useState(false);
@@ -63,7 +64,7 @@ const Content = ({ item, close }: { item: Item; close?: () => void }) => item.se
 const MainLabel = ({ item, mobile, close }: { item: Item; mobile?: boolean; close?: () => void }) => {
   const className = mobile
     ? "text-foreground hover:text-primary transition-colors font-medium"
-    : "flex items-center gap-1 whitespace-nowrap text-xs text-foreground hover:text-primary transition-all duration-300 font-medium hover:translate-y-[-2px] rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring";
+    : "flex min-h-12 shrink-0 items-center gap-1 whitespace-nowrap px-2 text-[clamp(1rem,0.95vw,1.125rem)] text-foreground hover:text-primary transition-all duration-300 font-medium hover:translate-y-[-2px] rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring";
   const contents = <>{item.label}{!mobile && (item.children || item.sections) && <ChevronDown className="h-3.5 w-3.5 transition-transform duration-200 group-hover:rotate-180 group-focus-within:rotate-180" />}</>;
   return item.to ? <Link to={item.to} onClick={close} aria-haspopup={!mobile && (item.children || item.sections) ? "menu" : undefined} className={className}>{contents}</Link> : <span className={className}>{contents}</span>;
 };
@@ -85,24 +86,25 @@ const EnhancedHeader = () => {
   }, []);
 
   return <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b">
-    <div className="bg-muted/50 py-2 text-sm"><div className="container mx-auto px-4 flex flex-wrap items-center justify-between gap-2">
-      <div className="flex items-center gap-2 text-muted-foreground"><span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-primary animate-pulse" />Program: 9:00 - 18:00</span></div>
-      <div className="flex items-center gap-4 text-muted-foreground"><a href="mailto:office@proerudio.ro" className="flex items-center gap-1 hover:text-primary transition-colors"><Mail className="w-4 h-4" /><span>office@proerudio.ro</span></a><div className="flex items-center gap-2">
-        <a href="https://www.facebook.com/proerudio?locale=ro_RO" target="_blank" rel="noopener noreferrer" aria-label="Facebook ProErudio"><Facebook className="w-4 h-4 hover:text-primary transition-colors" /></a>
-        <a href="https://www.instagram.com/pro_erudio/" target="_blank" rel="noopener noreferrer" aria-label="Instagram ProErudio"><Instagram className="w-4 h-4 hover:text-primary transition-colors" /></a>
-        <a href="https://www.youtube.com/@ProerudioRo" target="_blank" rel="noopener noreferrer" aria-label="YouTube ProErudio"><Youtube className="w-4 h-4 hover:text-primary transition-colors" /></a>
+    <div className="bg-muted/50 py-2 text-sm"><div className="w-full px-4 xl:px-8 flex flex-wrap items-center justify-between gap-2">
+      <div className="flex items-center gap-2 text-muted-foreground"><span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-primary animate-pulse" />Program cursuri: 08:00 - 20:00 de Luni pana Vineri</span></div>
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-muted-foreground"><a href="tel:0771753323" className="flex items-center gap-1 whitespace-nowrap hover:text-primary transition-colors"><Phone className="w-4 h-4" aria-hidden="true" /><span>0771.753.323</span></a>
+            <a href="mailto:office@proerudio.ro" className="flex items-center gap-1 hover:text-primary transition-colors"><Mail className="w-4 h-4" /><span>office@proerudio.ro</span></a><div className="flex items-center gap-2">
+        <a href="https://www.facebook.com/proerudio?locale=ro_RO" target="_blank" rel="noopener noreferrer" aria-label="Facebook Pro Erudio"><Facebook className="w-4 h-4 hover:text-primary transition-colors" /></a>
+        <a href="https://www.instagram.com/pro_erudio/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Pro Erudio"><Instagram className="w-4 h-4 hover:text-primary transition-colors" /></a>
+        <a href="https://www.youtube.com/@ProerudioRo" target="_blank" rel="noopener noreferrer" aria-label="YouTube Pro Erudio"><Youtube className="w-4 h-4 hover:text-primary transition-colors" /></a>
       </div></div>
     </div></div>
-    <div className="container mx-auto px-4"><div className="flex items-center justify-between h-20">
-      <Link to="/" className="flex items-center"><img src={logoImage} alt="ProErudio School of English" className="h-14 w-auto max-w-[210px] object-contain" /></Link>
-      <nav className="relative hidden 2xl:flex items-center gap-3" aria-label="Navigație principală">{navigation.map((item) => {
+    <div className="w-full px-4 xl:px-8"><div className="flex flex-nowrap items-center justify-between gap-4 h-20">
+      <Link to="/" className="flex shrink-0 items-center"><img src={logoImage} alt="Pro Erudio School of English" className="h-16 w-auto max-w-[240px] object-contain" /></Link>
+      <nav className="relative hidden min-w-0 flex-1 flex-nowrap items-center justify-between gap-2 2xl:flex" aria-label="Navigație principală">{navigation.map((item) => {
         const hasMenu = !!(item.children || item.sections);
         const wasClosed = closedDesktopMenu === item.label;
-        return <div key={item.label} onMouseLeave={() => setClosedDesktopMenu(null)} className={`group ${item.sections?.length === 5 ? "static" : "relative"}`}><MainLabel item={item} />
+        return <div key={item.label} onMouseLeave={() => setClosedDesktopMenu(null)} className={`group shrink-0 ${item.sections?.length === 5 ? "static" : "relative"}`}><MainLabel item={item} />
           {hasMenu && <div className={`absolute top-full z-[70] max-w-[calc(100vw-2rem)] pt-8 transition-all duration-200 ${wasClosed ? "invisible pointer-events-none opacity-0 translate-y-1" : "invisible opacity-0 translate-y-1 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-0"} ${item.align || "left-0"}`}><div className={`${item.children?.some(child => nestedEntries[child.to]) ? "overflow-visible" : "max-h-[calc(100vh-9rem)] overflow-y-auto"} rounded-lg border bg-popover text-popover-foreground shadow-md`}><Content item={item} close={() => closeDesktop(item.label)} /></div></div>}
         </div>;
       })}</nav>
-      <div className="hidden 2xl:flex items-center gap-4"><Button asChild className="bg-primary hover:bg-primary/90 hover:scale-105 transition-transform"><Link to="/inscriere-cursuri-pro-erudio/">Înscrie-te</Link></Button></div>
+      <div className="hidden shrink-0 2xl:flex items-center gap-4"><Button asChild className="h-12 whitespace-nowrap bg-primary px-6 text-base hover:bg-primary/90"><Link to="/inscriere-cursuri-pro-erudio/">Înscrie-te</Link></Button></div>
       <button className="2xl:hidden" onClick={() => setMobileOpen(!mobileOpen)} aria-expanded={mobileOpen} aria-label={mobileOpen ? "Închide meniul" : "Deschide meniul"}>{mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}</button>
     </div>
     {mobileOpen && <nav className="2xl:hidden max-h-[calc(100vh-7rem)] overflow-y-auto py-4 border-t" aria-label="Navigație mobilă"><div className="flex flex-col gap-4">{navigation.map((item) => {

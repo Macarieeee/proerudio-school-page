@@ -10,7 +10,7 @@ export function expandCourseOffers(source: string): string {
 }
 
 /** Restore a shared layout for pricing panels whose WordPress styles were removed. */
-export function formatCourseDetails(html: string): string {
+export function formatCourseDetails(html: string, courseSummary = ''): string {
   const doc = new DOMParser().parseFromString(html, 'text/html');
   const normalize = (value: string) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   const icons: Record<string, string> = {
@@ -40,6 +40,24 @@ export function formatCourseDetails(html: string): string {
     if (photo?.parentElement && photo.parentElement !== header) {
       photo.parentElement.classList.add('course-details-photo');
       photo.parentElement.style.backgroundImage = `url("${classroomImage}")`;
+    }
+    const facts = [...panel.querySelectorAll('li')];
+    const ageFact = facts.find(item => /varsta/.test(normalize(item.textContent || '')));
+    const list = facts[facts.length - 1]?.parentElement;
+    if (list) {
+      if (ageFact) {
+        // Keep each group's own age range and place it after the other details.
+        list.append(ageFact);
+      } else {
+        const agePattern = /(?:minim\s+)?\d{1,2}\s*(?:[–—-]\s*\d{1,2}\s*)?ani(?:\s+și\s+peste)?|\d{1,2}\s*\+/i;
+        const age = courseSummary.match(agePattern)?.[0]
+          || header.textContent?.match(agePattern)?.[0];
+        const item = doc.createElement('li');
+        const label = doc.createElement('strong');
+        label.textContent = 'Vârstă:';
+        item.append(label, doc.createElement('br'), doc.createTextNode(age || 'Contactează-ne pentru detalii'));
+        list.append(item);
+      }
     }
     panel.querySelectorAll('li').forEach(item => {
       item.classList.add('course-fact');

@@ -7,7 +7,7 @@ const PersonalDevelopmentSection = () => {
       icon: Music,
       title: "Cursuri de dans",
       description:
-        "Cursuri pentru copii de 5 - 9 ani, parte din oferta noastră de dezvoltare armonioasă prin activități creative și expresive.",
+        "Pentru copii de 5-9 ani completează oferta noastră educațională, contribuind prin mișcare și expresie artistică la dezvoltarea coordonării, creativității și încrederii în sine a copiilor.",
       color: "bg-primary",
       href: "/descopera-magia-dansului/",
     },
@@ -15,7 +15,7 @@ const PersonalDevelopmentSection = () => {
       icon: Palmtree,
       title: "Cursuri de vară",
       description:
-        "Programe pentru copii de 4 - 9 ani, gândite pentru vacanțe active, comunicare, creativitate și relaționare cu ceilalți copii.",
+        "Programe pentru copii și adolescenți, gândite pe module, pentru vacanțe active cu accent pe dezvoltarea abilităților de comunicare și lucru în echipă.",
       color: "bg-brand-cyan",
       href: "/cursuri-de-vara/",
     },

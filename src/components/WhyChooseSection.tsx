@@ -6,7 +6,7 @@ const WhyChooseSection = () => {
       icon: GraduationCap,
       title: "Pregătire examene Cambridge",
       description:
-        "Din 2011 pregătim cursanți pentru examenele Cambridge English, iar din 2025 suntem Centru de Pregătire GOLD datorită rezultatelor excelente obținute de candidații noștri.",
+        "Din 2011 pregătim cursanți pentru examenele Cambridge English, iar din 2024 suntem GOLD Preparation Center, o recunoaștere a rezultatelor excelente obținute de candidații noștri.",
     },
     {
       icon: Trophy,
@@ -24,7 +24,7 @@ const WhyChooseSection = () => {
       icon: MessageCircle,
       title: "Comunicare cu familia",
       description:
-        "Părinții se pot informa față în față, prin consultații telefonice, prin email la office@proerudio.ro sau prin raportul de apreciere a progresului.",
+        "Părinții primesc periodic informații referitoare la progresul copiilor și sunt invitați să ne contacteze telefonic sau prin email de fiecare dată când este nevoie.",
     },
     {
       icon: Sparkles,
@@ -39,10 +39,10 @@ const WhyChooseSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <p className="text-primary text-sm font-semibold tracking-wider mb-4 uppercase">
-            De ce cursuri la ProErudio?
+            De ce cursuri la Pro Erudio?
           </p>
           <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-4">
-            Avantajele ProErudio
+            Avantajele Pro Erudio
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
             Pregătire solidă, evaluare constantă și comunicare deschisă cu familia

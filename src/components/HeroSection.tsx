@@ -18,9 +18,7 @@ const HeroSection = () => {
             Cursuri de engleză pentru copii și adolescenți
           </h1>
           <p className="text-background/90 text-xl mb-10 leading-relaxed animate-fade-in">
-            ProErudio este Centru de Pregătire GOLD pentru examenele Cambridge. Oferim cursuri de limba engleză
-            pentru copii și adolescenți, pregătire pentru examene internaționale, cursuri de vară și tabere în
-            România și Marea Britanie.
+            Pro Erudio School of English organizează cursuri de limba engleză pentru copii și adolescenți, cursuri de vară și tabere de limba engleză în România și în străinătate. 
           </p>
           <div className="flex flex-wrap gap-4 animate-fade-in">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 hover:scale-105 transition-transform">

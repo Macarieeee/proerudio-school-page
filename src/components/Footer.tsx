@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logoImage from "@/assets/ProErudioSchoolofEnglish.svg";
 
 const Footer = () => {
-  const phoneNumbers = ["0741.389.897", "0724.527.838", "0771.753.323"];
+  const phoneNumbers = ["0724.527.838", "0771.753.323"];
 
   return (
     <footer className="bg-foreground text-background">
@@ -13,7 +13,7 @@ const Footer = () => {
             <Link to="/" className="mb-6 inline-flex rounded-lg bg-background p-3">
               <img
                 src={logoImage}
-                alt="ProErudio School of English"
+                alt="Pro Erudio School of English"
                 className="h-16 w-auto max-w-[220px] object-contain"
               />
             </Link>
@@ -22,13 +22,13 @@ const Footer = () => {
               de limba engleză.
             </p>
             <div className="flex gap-3">
-              <a href="https://www.facebook.com/proerudio?locale=ro_RO" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-background/10 hover:bg-primary flex items-center justify-center transition-colors" aria-label="Facebook ProErudio">
+              <a href="https://www.facebook.com/proerudio?locale=ro_RO" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-background/10 hover:bg-primary flex items-center justify-center transition-colors" aria-label="Facebook Pro Erudio">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="https://www.instagram.com/pro_erudio/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-background/10 hover:bg-primary flex items-center justify-center transition-colors" aria-label="Instagram ProErudio">
+              <a href="https://www.instagram.com/pro_erudio/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-background/10 hover:bg-primary flex items-center justify-center transition-colors" aria-label="Instagram Pro Erudio">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="https://www.youtube.com/@ProerudioRo" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-background/10 hover:bg-primary flex items-center justify-center transition-colors" aria-label="YouTube ProErudio">
+              <a href="https://www.youtube.com/@ProerudioRo" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-background/10 hover:bg-primary flex items-center justify-center transition-colors" aria-label="YouTube Pro Erudio">
                 <Youtube className="w-5 h-5" />
               </a>
             </div>
@@ -138,7 +138,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-background/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-background/70 text-sm">
-              © 2026 ProErudio English School. Toate drepturile rezervate.
+              © 2026 Pro Erudio English School. Toate drepturile rezervate.
             </p>
             <div className="flex gap-6 text-sm">
               <Link to="/politica-confidentialitate" className="text-background/70 hover:text-primary transition-colors">

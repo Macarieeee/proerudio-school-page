@@ -135,7 +135,7 @@ const Articles = () => (
       <section className="bg-primary py-20 text-primary-foreground md:py-28">
         <div className="container mx-auto px-4 text-center">
           <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary-foreground/15"><BookOpen className="h-8 w-8" /></div>
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] opacity-80">Resurse ProErudio</p>
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] opacity-80">Resurse Pro Erudio</p>
           <h1 className="text-4xl font-bold md:text-6xl">Toate articolele</h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed opacity-90">Informații utile despre educație, limbi străine, parenting, tabere și calendarul școlar.</p>
         </div>

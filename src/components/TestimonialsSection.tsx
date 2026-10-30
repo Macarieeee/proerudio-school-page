@@ -59,7 +59,7 @@ const TestimonialsSection = () => {
             <iframe
               className="h-full w-full"
               src="https://www.youtube.com/embed/LVf-xSG23KU"
-              title="Video de prezentare ProErudio"
+              title="Video de prezentare Pro Erudio"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             />

@@ -102,7 +102,7 @@ const cleanWordPressHtml = (source: string) => {
 
 const ImportedWordPressPage = ({ page }: { page: ImportedPageDefinition }) => {
   const currentPage = pageManifest.find(p => p.slug === page.slug);
-  const content = formatCourseDetails(formatRelatedCollections(cleanWordPressHtml(findSource(page.file)), currentPage?.path || `/${page.slug}/`));
+  const content = formatCourseDetails(formatRelatedCollections(cleanWordPressHtml(findSource(page.file)), currentPage?.path || `/${page.slug}/`), page.summary);
   const [expandedImage, setExpandedImage] = useState<string | null>(null);
   const relatedYouthCourses = /Cursuri pentru copii|Pregătire examene/.test(page.eyebrow)
     ? importedPages.filter(candidate => candidate.eyebrow === page.eyebrow && candidate.slug !== page.slug)

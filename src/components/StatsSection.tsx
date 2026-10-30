@@ -1,8 +1,8 @@
 const StatsSection = () => {
   const stats = [
     { number: "2011", label: "Centru de pregătire Cambridge" },
-    { number: "GOLD", label: "Centru de Pregătire Cambridge" },
-    { number: "9", label: "Cursanți maximum în grupă" },
+    { number: "2024", label: "GOLD Preparation Center" },
+    { number: "10", label: "Cursanți maximum în grupă" },
     { number: "4-19", label: "Ani, cursuri pentru copii și adolescenți" },
   ];
 

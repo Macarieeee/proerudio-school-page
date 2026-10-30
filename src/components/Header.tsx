@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Facebook, Instagram, Mail, Menu, X, Youtube } from "lucide-react";
+import { Facebook, Instagram, Mail, Menu, Phone, X, Youtube } from "lucide-react";
 import { Link } from "react-router-dom";
 import logoImage from "@/assets/ProErudioSchoolofEnglish.svg";
 import EnhancedHeader from "@/components/EnhancedHeader";
@@ -24,22 +24,23 @@ const Header = () => {
           <div className="flex items-center gap-2 text-muted-foreground">
             <span className="flex items-center gap-1">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-              Program: 9:00 - 18:00
+              Program cursuri: 08:00 - 20:00 de Luni pana Vineri
             </span>
           </div>
-          <div className="flex items-center gap-4 text-muted-foreground">
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-muted-foreground">
+            <a href="tel:0771753323" className="flex items-center gap-1 whitespace-nowrap hover:text-primary transition-colors"><Phone className="w-4 h-4" aria-hidden="true" /><span>0771.753.323</span></a>
             <a href="mailto:office@proerudio.ro" className="flex items-center gap-1 hover:text-primary transition-colors">
               <Mail className="w-4 h-4" />
               <span>office@proerudio.ro</span>
             </a>
             <div className="flex items-center gap-2">
-              <a href="https://www.facebook.com/proerudio?locale=ro_RO" target="_blank" rel="noopener noreferrer" aria-label="Facebook ProErudio">
+              <a href="https://www.facebook.com/proerudio?locale=ro_RO" target="_blank" rel="noopener noreferrer" aria-label="Facebook Pro Erudio">
                 <Facebook className="w-4 h-4 hover:text-primary transition-colors" />
               </a>
-              <a href="https://www.instagram.com/pro_erudio/" target="_blank" rel="noopener noreferrer" aria-label="Instagram ProErudio">
+              <a href="https://www.instagram.com/pro_erudio/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Pro Erudio">
                 <Instagram className="w-4 h-4 hover:text-primary transition-colors" />
               </a>
-              <a href="https://www.youtube.com/@ProerudioRo" target="_blank" rel="noopener noreferrer" aria-label="YouTube ProErudio">
+              <a href="https://www.youtube.com/@ProerudioRo" target="_blank" rel="noopener noreferrer" aria-label="YouTube Pro Erudio">
                 <Youtube className="w-4 h-4 hover:text-primary transition-colors" />
               </a>
             </div>
@@ -52,7 +53,7 @@ const Header = () => {
           <Link to="/" className="flex items-center">
             <img
               src={logoImage}
-              alt="ProErudio School of English"
+              alt="Pro Erudio School of English"
               className="h-14 w-auto max-w-[210px] object-contain"
             />
           </Link>

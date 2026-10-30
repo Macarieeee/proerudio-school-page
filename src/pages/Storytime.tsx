@@ -203,7 +203,7 @@ const Storytime = () => {
                 </div>
                 <ul className="mb-8 space-y-3 text-muted-foreground">
                   <li>Durata unui modul: 5 sedinte</li>
-                  <li>Numar participanti: maxim 9 copii in grupa</li>
+                  <li>Numar participanti: maxim 10 copii in grupa</li>
                   <li>Orarul se stabileste in urma inscrierii</li>
                   <li>10% reducere la achizitia unui nou modul</li>
                 </ul>

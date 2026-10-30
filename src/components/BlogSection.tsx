@@ -8,7 +8,7 @@ const BlogSection = () => {
       title: "Examen Cambridge English: de ce să îl susții?",
       excerpt:
         "Un articol despre utilitatea examenelor Cambridge English și despre felul în care acestea pot susține obiectivele academice ale copiilor și adolescenților.",
-      author: "ProErudio",
+      author: "Pro Erudio",
       date: "Articol publicat",
       category: "Examene Cambridge",
       image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
@@ -18,7 +18,7 @@ const BlogSection = () => {
       title: "8 motive să-mi trimit copilul într-o tabără",
       excerpt:
         "Taberele oferă copiilor ocazia de a deveni mai autonomi, de a socializa și de a învăța prin experiențe directe și memorabile.",
-      author: "ProErudio",
+      author: "Pro Erudio",
       date: "Articol publicat",
       category: "Tabere",
       image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
@@ -28,7 +28,7 @@ const BlogSection = () => {
       title: "Expresii din limbi străine folosite în viața de zi cu zi",
       excerpt:
         "O selecție de expresii intrate în comunicarea curentă, utile pentru copiii și adolescenții pasionați de limbi străine.",
-      author: "ProErudio",
+      author: "Pro Erudio",
       date: "Articol publicat",
       category: "Limbi străine",
       image: "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=800&q=80",
@@ -38,7 +38,7 @@ const BlogSection = () => {
       title: "Copii fericiți versus copii de succes",
       excerpt:
         "Un articol despre echilibrul dintre performanță, copilărie, dezvoltare emoțională și valorile care susțin o creștere armonioasă.",
-      author: "ProErudio",
+      author: "Pro Erudio",
       date: "Articol publicat",
       category: "Educație",
       image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80",
