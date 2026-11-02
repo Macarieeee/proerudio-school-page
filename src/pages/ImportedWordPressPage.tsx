@@ -14,6 +14,29 @@ import classroomImage from "@/assets/about-classroom.jpg";
 import goodDeedImage from "@/assets/Fa-o-Fapta-Buna-Pro-Erudio.png";
 import goodDeedBackground from "@/assets/Fa-o-Fapta-Buna-Pro-Erudio-fundal.png";
 import diplomasImage from "@/assets/Da-Valoare-Diplomelor-ProErudio.jpg";
+import englishlandHeroImage from "@/assets/join-us-in-english-land.png";
+import joinEnglishHeroImage from "@/assets/join-us-in-english.png";
+import ketPetHeroImage from "@/assets/curs-de-limba-engleza-head-for-ketpet-1920x600.png";
+import fceCaeCpeHeroImage from "@/assets/curs-de-limba-engleza-head-for-fce-cae-cpe-1920x600.png";
+import ieltsHeroImage from "@/assets/curs-de-limba-engleza-head-for-ielts-1920x600.png";
+import toeflHeroImage from "@/assets/curs-de-limba-engleza-pentru-tineri-head-for-toefl-1920x600.png";
+import cambridgePreparationHeroImage from "@/assets/modul-optional-de-pregatire-pentru-examenele-cambridge-english.png";
+import cambridgeMockHeroImage from "@/assets/cambridge-mock-tests.png";
+import internationalTeachersHeroImage from "@/assets/cursuri-interactive-de-conversatie-cu-profesori-internationali.png";
+
+const heroImages: Record<string, string> = {
+  'fa-o-fapta-buna': goodDeedBackground,
+  'da-valoare-diplomelor-tale': diplomasImage,
+  'curs-de-limba-engleza-join-us-in-englishland': englishlandHeroImage,
+  'curs-de-limba-engleza-join-us-for-english': joinEnglishHeroImage,
+  'curs-de-limba-engleza-head-for-ketpet': ketPetHeroImage,
+  'curs-de-limba-engleza-head-for-fce-cae-cpe': fceCaeCpeHeroImage,
+  'curs-de-limba-engleza-head-for-ielts': ieltsHeroImage,
+  'curs-de-limba-engleza-pentru-tineri-head-for-toefl': toeflHeroImage,
+  'modul-optional-de-pregatire-pentru-examenele-cambridge-english': cambridgePreparationHeroImage,
+  'cambridge-mock-tests': cambridgeMockHeroImage,
+  'cursuri-interactive-de-conversatie-cu-profesori-internationali': internationalTeachersHeroImage,
+};
 
 const wordpressFiles = import.meta.glob<string>(["../import/*.html", "!../import/cariere.html"], {
   eager: true,
@@ -134,9 +157,9 @@ const ImportedWordPressPage = ({ page }: { page: ImportedPageDefinition }) => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main className="pt-[88px]">
-        <section className="relative isolate overflow-hidden bg-foreground">
-          <img src={page.slug === 'fa-o-fapta-buna' ? goodDeedBackground : page.slug === 'da-valoare-diplomelor-tale' ? diplomasImage : classroomImage} alt="" className="absolute inset-0 h-full w-full object-cover" />
+      <main className="pt-[var(--site-header-height,88px)]">
+        <section className="page-hero relative isolate overflow-hidden bg-foreground">
+          <img src={heroImages[page.slug] || classroomImage} alt="" className="absolute inset-0 h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20" />
           <div className="container relative mx-auto px-4 py-20 md:py-24">
             <div className="max-w-4xl text-background">

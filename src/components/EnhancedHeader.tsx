@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronDown, Facebook, Instagram, Mail, Menu, Phone, X, Youtube } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import teamMembers from "@/data/team-members.json";
 import logoImage from "@/assets/ProErudioSchoolofEnglish.svg";
 
@@ -9,14 +9,8 @@ type Child = { label: string; to: string };
 type Section = { title: string; items: Child[] };
 type Item = { label: string; to?: string; children?: Child[]; sections?: Section[]; align?: string };
 const c = (label: string, to: string): Child => ({ label, to });
-const personalDevelopment = [
-  c('Dezvoltare emoțională cu psiholog pentru copii 6–9 ani', '/ateliere-de-dezvoltare-emotionala-pentru-copii-1/'),
-  c('Dezvoltare emoțională cu psiholog pentru copii 9–12 ani', '/ateliere-de-dezvoltare-emotionala-pentru-copii-2/'),
-  c('Cursuri de teatru', '/alte-cursuri-pentru-copii/cursuri-de-dezvoltare-personala-copii/cursuri-de-teatru-pentru-copii/'),
-];
 const nestedEntries: Record<string, Child[]> = {
   '/echipa-pro-erudio/': teamMembers,
-  '/alte-cursuri-pentru-copii/cursuri-de-dezvoltare-personala-copii/': personalDevelopment,
 };
 
 const navigation: Item[] = [
@@ -26,7 +20,7 @@ const navigation: Item[] = [
     { title: "Cursuri pentru copii de 12–19 ani", items: [c("Curs de limba engleză HEAD FOR KET/PET", "/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-head-for-ketpet/"), c("Curs de limba engleză HEAD FOR FCE/CAE/CPE", "/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-head-for-fce-cae-cpe/"), c("Curs de limba engleză HEAD FOR IELTS", "/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-head-for-ielts/"), c("Curs de limba engleză pentru tineri HEAD FOR TOEFL", "/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-pentru-tineri-head-for-toefl/")] },
     { title: "Pregătire examene Cambridge", items: [c("Modul opțional de pregătire pentru examenele Cambridge English", "/modul-optional-de-pregatire-pentru-examenele-cambridge-english/"), c("Cambridge Mock Tests", "/cambridge-mock-tests/"), c("Cursuri interactive cu profesori internaționali", "/cursuri-de-weekend-in-limba-engleza/cursuri-interactive-de-conversatie-cu-profesori-internationali/")] },
   ] },
-  { label: "Alte cursuri pentru copii", to: "/alte-cursuri-pentru-copii/", children: [c("Cursuri de limba germană", "/alte-cursuri-pentru-copii/cursuri-de-limba-germana-pentru-copii-si-adolescenti/"), c("Parler français, c’est cool!", "/parler-francais-cest-cool/"), c("Cursuri de dezvoltare personală", "/alte-cursuri-pentru-copii/cursuri-de-dezvoltare-personala-copii/"), c("Descoperă Magia Dansului!", "/descopera-magia-dansului/"), c("Haide să învățăm limba japoneză!", "/cursuri-de-limba-japoneza-pentru-copii/")] },
+  { label: "Alte cursuri pentru copii", to: "/alte-cursuri-pentru-copii/", children: [c("Cursuri de limba germană", "/alte-cursuri-pentru-copii/cursuri-de-limba-germana-pentru-copii-si-adolescenti/"), c("Parler français, c’est cool!", "/parler-francais-cest-cool/"), c("Descoperă Magia Dansului!", "/descopera-magia-dansului/"), c("Haide să învățăm limba japoneză!", "/cursuri-de-limba-japoneza-pentru-copii/")] },
   { label: "Cursuri de vară", to: "/cursuri-de-vara/", align: "left-1/2 w-[min(1200px,calc(100vw-2rem))] -translate-x-1/2", sections: [
     { title: "Cursuri vară – nivel A1 și A2", items: [c("Storytime! (Copii de 4 – 7 ani)", "/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/storytime-copii-4-7-ani/"), c("Storytime! (Copii de 8 – 11 ani)", "/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/storytime-copii-8-11-ani/"), c("Animal Kingdom (Copii de 8 – 11 ani)", "/animal-kingdom/"), c("English Summer Courses (Copii de 5 – 13 ani)", "/english-summer-courses/"), c("A World Of Words (6 – 8 ani)", "/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/a-world-of-words/"), c("Summer Fun with My Favourite Teacher", "/summer-fun-with-my-favourite-teacher/")] },
     { title: "Cursuri vară – nivel A2 și B1", items: [c("English through Songs (Copii de 9 – 12 ani)", "/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/english-through-songs-copii-9-12-ani/"), c("Be DRAMAtic! (Copii de 9 – 12 ani)", "/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/be-dramatic-copii-9-12-ani/"), c("A World Of Words 2 (9 – 12 ani)", "/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/a-world-of-words-2/"), c("Editors’ Club (10–13 ani)", "/cursuri-de-vara/editors-club/")] },
@@ -70,6 +64,20 @@ const MainLabel = ({ item, mobile, close }: { item: Item; mobile?: boolean; clos
 };
 
 const EnhancedHeader = () => {
+  const headerRef = useRef<HTMLElement>(null);
+  const { pathname } = useLocation();
+  useEffect(() => {
+    const header = headerRef.current;
+    if (!header) return;
+    const updateHeight = () => document.documentElement.style.setProperty('--site-header-height', `${header.getBoundingClientRect().height}px`);
+    updateHeight();
+    const observer = new ResizeObserver(updateHeight);
+    observer.observe(header);
+    return () => {
+      observer.disconnect();
+      document.documentElement.style.removeProperty('--site-header-height');
+    };
+  }, []);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [accordion, setAccordion] = useState<string | null>(null);
   const [closedDesktopMenu, setClosedDesktopMenu] = useState<string | null>(null);
@@ -85,7 +93,7 @@ const EnhancedHeader = () => {
     return () => document.removeEventListener("keydown", onKeyDown);
   }, []);
 
-  return <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b">
+  return <header ref={headerRef} className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b">
     <div className="bg-muted/50 py-2 text-sm"><div className="w-full px-4 xl:px-8 flex flex-wrap items-center justify-between gap-2">
       <div className="flex items-center gap-2 text-muted-foreground"><span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-primary animate-pulse" />Program cursuri: 08:00 - 20:00 de Luni pana Vineri</span></div>
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-muted-foreground"><a href="tel:0771753323" className="flex items-center gap-1 whitespace-nowrap hover:text-primary transition-colors"><Phone className="w-4 h-4" aria-hidden="true" /><span>0771.753.323</span></a>
@@ -100,8 +108,8 @@ const EnhancedHeader = () => {
       <nav className="relative hidden min-w-0 flex-1 flex-nowrap items-center justify-between gap-2 2xl:flex" aria-label="Navigație principală">{navigation.map((item) => {
         const hasMenu = !!(item.children || item.sections);
         const wasClosed = closedDesktopMenu === item.label;
-        return <div key={item.label} onMouseLeave={() => setClosedDesktopMenu(null)} className={`group shrink-0 ${item.sections?.length === 5 ? "static" : "relative"}`}><MainLabel item={item} />
-          {hasMenu && <div className={`absolute top-full z-[70] max-w-[calc(100vw-2rem)] pt-8 transition-all duration-200 ${wasClosed ? "invisible pointer-events-none opacity-0 translate-y-1" : "invisible opacity-0 translate-y-1 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-0"} ${item.align || "left-0"}`}><div className={`${item.children?.some(child => nestedEntries[child.to]) ? "overflow-visible" : "max-h-[calc(100vh-9rem)] overflow-y-auto"} rounded-lg border bg-popover text-popover-foreground shadow-md`}><Content item={item} close={() => closeDesktop(item.label)} /></div></div>}
+        return <div key={item.label} onMouseLeave={() => setClosedDesktopMenu(null)} className={`group shrink-0 ${item.sections?.length === 5 ? "static" : "relative"}`}><MainLabel item={item} close={() => closeDesktop(item.label)} />
+          {hasMenu && <div className={`absolute top-full z-[70] max-w-[calc(100vw-2rem)] ${pathname === "/" ? "pt-8" : "pt-4"} transition-all duration-200 ${wasClosed ? "invisible pointer-events-none opacity-0 translate-y-1" : "invisible opacity-0 translate-y-1 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-0"} ${item.align || "left-0"}`}><div className={`${item.children?.some(child => nestedEntries[child.to]) ? "overflow-visible" : "max-h-[calc(100vh-9rem)] overflow-y-auto"} rounded-lg border bg-popover text-popover-foreground shadow-md`}><Content item={item} close={() => closeDesktop(item.label)} /></div></div>}
         </div>;
       })}</nav>
       <div className="hidden shrink-0 2xl:flex items-center gap-4"><Button asChild className="h-12 whitespace-nowrap bg-primary px-6 text-base hover:bg-primary/90"><Link to="/inscriere-cursuri-pro-erudio/">Înscrie-te</Link></Button></div>

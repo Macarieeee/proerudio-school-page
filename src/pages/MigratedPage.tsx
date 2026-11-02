@@ -8,8 +8,13 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import wordpress from '@/data/wordpress-manifest.json';
 import classroomImage from '@/assets/about-classroom.jpg';
+import galleryHeroImage from '@/assets/Galerie Foto Proerudio.png';
+import registrationHeroImage from '@/assets/inscriere-cursuri-pro-erudio.png';
+import otherCoursesHeroImage from '@/assets/alte-cursuri-pentru-copii.png';
+import summerCoursesHeroImage from '@/assets/cursuri-de-vara.png';
 import { useEffect, useState, type MouseEvent } from 'react';
 import { formatRegistrationCourses } from '@/lib/registration-layout';
+import { formatSummerCourses } from '@/lib/summer-courses-layout';
 import { cardForPage, formatRelatedCollections, relatedPages } from '@/lib/related-content';
 import RelatedContentCards from '@/components/RelatedContentCards';
 import { expandImportedCardGrid } from '@/lib/expand-card-grids';
@@ -17,6 +22,13 @@ import { formatCourseDetails } from '@/lib/course-details-layout';
 
 export const migratedPages = wordpress;
 export type MigratedDefinition = (typeof wordpress)[number];
+
+const heroImages: Record<string, string> = {
+  '/galerii-foto/': galleryHeroImage,
+  '/inscriere-cursuri-pro-erudio/': registrationHeroImage,
+  '/alte-cursuri-pentru-copii/': otherCoursesHeroImage,
+  '/cursuri-de-vara/': summerCoursesHeroImage,
+};
 
 const MigratedPage = ({ page }: { page: MigratedDefinition }) => {
   const navigate = useNavigate();
@@ -28,14 +40,15 @@ const MigratedPage = ({ page }: { page: MigratedDefinition }) => {
     fetch(`${import.meta.env.BASE_URL}content/${page.contentFile}`, { signal: controller.signal })
       .then(response => { if (!response.ok) throw new Error('Content unavailable'); return response.text(); })
       .then(html => page.slug === 'cursuri-de-limba-engleza-pentru-copii-si-adolescenti' ? formatCourseOverview(html) : html)
+      .then(html => page.path === '/cursuri-de-vara/' ? formatSummerCourses(html) : html)
       .then(html => page.slug === 'echipa-pro-erudio' ? formatTeamCards(html) : html)
       .then(html => teamMembers.some(member => member.to === page.path) ? formatTeamProfile(html) : html)
-      .then(html => setContent({ path: page.path, html: formatCourseDetails(page.slug === 'inscriere-cursuri-pro-erudio' ? formatRegistrationCourses(html) : formatRelatedCollections(html, page.path)) }))
+      .then(html => setContent({ path: page.path, html: formatCourseDetails(page.path === '/cursuri-de-vara/' ? html : page.slug === 'inscriere-cursuri-pro-erudio' ? formatRegistrationCourses(html) : formatRelatedCollections(html, page.path)) }))
       .catch(error => { if (error.name !== 'AbortError') setFailed(true); });
     return () => controller.abort();
   }, [page.path, page.contentFile, page.slug]);
   const article = page.type === 'post';
-  const related = content?.html.includes('related-content-grid') || content?.html.includes('course-overview-card') ? [] : relatedPages(page);
+  const related = page.path === '/cursuri-de-vara/' || content?.html.includes('related-content-grid') || content?.html.includes('course-overview-card') ? [] : relatedPages(page);
   const followLink = (event: MouseEvent<HTMLElement>) => {
     if (expandImportedCardGrid(event.target)) return;
     const anchor = (event.target as HTMLElement).closest('a');
@@ -49,9 +62,9 @@ const MigratedPage = ({ page }: { page: MigratedDefinition }) => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main className="pt-[88px]">
-        <section className="relative isolate overflow-hidden bg-foreground text-background">
-          <img src={page.image || classroomImage} alt="" className="absolute inset-0 h-full w-full object-cover" />
+      <main className="pt-[var(--site-header-height,88px)]">
+        <section className="page-hero relative isolate overflow-hidden bg-foreground text-background">
+          <img src={heroImages[page.path] || page.image || classroomImage} alt="" className="absolute inset-0 h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20" />
           <div className="container relative mx-auto max-w-6xl px-4 py-20 md:py-24">
             <Link to={article ? '/articole-pro-erudio/' : '/'} className="mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"><ArrowLeft className="h-4 w-4" />{article ? 'Toate articolele' : 'Pagina principală'}</Link>

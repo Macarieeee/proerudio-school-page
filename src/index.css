@@ -578,3 +578,27 @@ div.wordpress-gallery > a > img {
 .wordpress-content a.mock-test-button { display: flex; align-items: center; justify-content: center; min-height: 4.5rem; padding: .85rem 1rem; border-radius: .75rem; background: hsl(var(--primary)); color: white; font-size: .85rem; font-weight: 600; line-height: 1.5; text-align: center; text-decoration: none; }
 .wordpress-content a.mock-test-button:hover { background: hsl(215 70% 32%); }
 .wordpress-content a.mock-test-button:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
+
+.wordpress-content .summer-course-posters { width: 100%; max-width: 480px; margin: 0 auto 2rem; }
+.wordpress-content .summer-course-posters figure { margin: 0; min-width: 0; }
+.wordpress-content .summer-course-posters img { width: 100%; height: 220px; object-fit: contain; margin: 0; border-radius: 1rem; background: hsl(var(--muted)); }
+.wordpress-content .summer-category-grid { margin-block: 2rem; }
+
+/* Match the course and interior-page banners to the 1920 x 600 artwork. */
+@media (min-width: 1024px) {
+  .page-hero {
+    aspect-ratio: 16 / 5;
+    display: flex;
+    align-items: center;
+  }
+
+  .page-hero > .container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(1.75rem, 3.125vw, 3.75rem);
+    line-height: 1.1;
+  }
+}

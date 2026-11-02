@@ -1,12 +1,13 @@
 import ExpandableCardGrid from '@/components/ExpandableCardGrid';
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import { ArrowRight, BookOpen, CalendarDays } from "lucide-react";
+import { ArrowLeft, ArrowRight, BookOpen, CalendarDays } from "lucide-react";
 import { Link } from "react-router-dom";
 import classroomImage from "@/assets/about-classroom.jpg";
 import campImage from "@/assets/summer-camp-romania.jpg";
 import studentsImage from "@/assets/curriculum-students.jpg";
 import libraryImage from "@/assets/facility-library.jpg";
+import articlesHeroImage from "@/assets/articole-pro-erudio.png";
 
 type Article = {
   title: string;
@@ -131,18 +132,20 @@ const ArticleCard = ({ article }: { article: Article }) => (
 const Articles = () => (
   <div className="min-h-screen bg-background">
     <Header />
-    <main className="pt-[88px]">
-      <section className="bg-primary py-20 text-primary-foreground md:py-28">
-        <div className="container mx-auto px-4 text-center">
-          <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary-foreground/15"><BookOpen className="h-8 w-8" /></div>
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] opacity-80">Resurse Pro Erudio</p>
-          <h1 className="text-4xl font-bold md:text-6xl">Toate articolele</h1>
-          <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed opacity-90">Informații utile despre educație, limbi străine, parenting, tabere și calendarul școlar.</p>
+    <main className="pt-[var(--site-header-height,88px)]">
+      <section className="page-hero relative isolate overflow-hidden bg-foreground text-background">
+        <img src={articlesHeroImage} alt="" className="absolute inset-0 h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20" />
+        <div className="container relative mx-auto max-w-6xl px-4 py-20 md:py-24">
+          <Link to="/" className="mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"><ArrowLeft className="h-4 w-4" />Pagina principală</Link>
+          <p className="mb-4 flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-background/75"><BookOpen className="h-4 w-4" />Pro Erudio · School of English</p>
+          <h1 className="max-w-5xl text-4xl font-bold leading-tight md:text-6xl">Toate articolele</h1>
         </div>
       </section>
 
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
+          <p className="mb-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">Informații utile despre educație, limbi străine, parenting, tabere și calendarul școlar.</p>
           <div className="mb-10 flex items-center gap-3 text-muted-foreground"><CalendarDays className="h-5 w-5 text-primary" /><span>{articles.length} articole și resurse</span></div>
           <ExpandableCardGrid className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {articles.map((article) => <ArticleCard key={article.title} article={article} />)}
