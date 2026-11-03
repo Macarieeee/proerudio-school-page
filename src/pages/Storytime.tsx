@@ -1,3 +1,4 @@
+import MobilePageIntro from '@/components/MobilePageIntro';
 import DetailLayout from '@/components/DetailLayout';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -60,8 +61,8 @@ const Storytime = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main className="pt-[88px]">
-        <section className="relative flex min-h-[620px] items-center overflow-hidden">
+      <main className="pt-[var(--site-header-height,88px)]">
+        <section className="desktop-page-hero relative flex min-h-[620px] items-center overflow-hidden">
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: `url(${summerImage})` }}
@@ -100,8 +101,9 @@ const Storytime = () => {
           </div>
         </section>
 
+      <MobilePageIntro slug="storytime-copii-4-7-ani" title="Storytime!" summary="Engleza prin povești pentru copii de 4–7 ani, cu jocuri, cântece, activități creative și aventuri care îi ajută pe cei mici să învețe natural." />
       <DetailLayout>
-        <section id="detalii" className="bg-background py-16">
+        <section id="detalii" className="detail-page-body bg-background py-16">
           <div className="container mx-auto px-4">
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
               {details.map((item) => (

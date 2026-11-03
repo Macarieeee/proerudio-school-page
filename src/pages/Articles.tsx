@@ -1,3 +1,4 @@
+import MobilePageIntro from '@/components/MobilePageIntro';
 import ExpandableCardGrid from '@/components/ExpandableCardGrid';
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -133,7 +134,7 @@ const Articles = () => (
   <div className="min-h-screen bg-background">
     <Header />
     <main className="pt-[var(--site-header-height,88px)]">
-      <section className="page-hero relative isolate overflow-hidden bg-foreground text-background">
+      <section className="desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background">
         <img src={articlesHeroImage} alt="" className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20" />
         <div className="container relative mx-auto max-w-6xl px-4 py-20 md:py-24">
@@ -143,7 +144,8 @@ const Articles = () => (
         </div>
       </section>
 
-      <section className="py-16 md:py-24">
+      <MobilePageIntro slug="articole-pro-erudio" title="Toate articolele" />
+      <section className="detail-page-body py-16 md:py-24">
         <div className="container mx-auto px-4">
           <p className="mb-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">Informații utile despre educație, limbi străine, parenting, tabere și calendarul școlar.</p>
           <div className="mb-10 flex items-center gap-3 text-muted-foreground"><CalendarDays className="h-5 w-5 text-primary" /><span>{articles.length} articole și resurse</span></div>

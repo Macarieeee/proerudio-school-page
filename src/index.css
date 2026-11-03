@@ -584,6 +584,25 @@ div.wordpress-gallery > a > img {
 .wordpress-content .summer-course-posters img { width: 100%; height: 220px; object-fit: contain; margin: 0; border-radius: 1rem; background: hsl(var(--muted)); }
 .wordpress-content .summer-category-grid { margin-block: 2rem; }
 
+.mobile-page-intro { max-width: 56rem; margin-inline: auto; padding: 1.5rem 1rem 0; }
+.wordpress-content .mobile-page-intro { padding: 0; margin-bottom: 1.5rem; }
+.mobile-page-intro > img { display: block; width: 100%; max-width: 480px; height: auto; margin: 0 auto 1.5rem; border-radius: .75rem; }
+.mobile-page-intro > h1, .mobile-page-intro > p { display: none; }
+.wordpress-content .original-intro-image { display: none; }
+@media (min-width: 1280px) {
+  .mobile-page-intro-no-image { display: none; }
+}
+
+/* Phones and tablets show the original artwork above the page text. */
+@media (max-width: 1279px) {
+  .desktop-page-hero { display: none !important; }
+  .mobile-page-intro { display: block; max-width: 56rem; margin-inline: auto; padding: 1.5rem 1rem 0; }
+  .mobile-page-intro > h1, .mobile-page-intro > p { display: block; }
+  .mobile-page-intro h1 { font-size: clamp(1.5rem, 4vw, 2.25rem); font-weight: 700; line-height: 1.2; }
+  .mobile-page-intro p { margin-top: 1rem; line-height: 1.7; color: hsl(var(--muted-foreground)); }
+  .detail-page-body { padding-top: 1.5rem; }
+}
+
 /* Match the course and interior-page banners to the 1920 x 600 artwork. */
 @media (min-width: 1024px) {
   .page-hero {

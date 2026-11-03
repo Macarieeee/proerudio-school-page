@@ -1,3 +1,4 @@
+import MobilePageIntro from '@/components/MobilePageIntro';
 import DetailLayout from '@/components/DetailLayout';
 import ExpandableCardGrid from '@/components/ExpandableCardGrid';
 import Header from "@/components/Header";
@@ -71,8 +72,8 @@ const reasons = [
 const CampBenefitsArticle = () => (
   <div className="min-h-screen bg-background">
     <Header />
-    <main className="pt-[88px]">
-      <section className="relative isolate min-h-[560px] overflow-hidden">
+    <main className="pt-[var(--site-header-height,88px)]">
+      <section className="desktop-page-hero relative isolate min-h-[560px] overflow-hidden">
         <img src={campImage} alt="Copii într-o tabără de vară" className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/95 via-foreground/75 to-foreground/25" />
         <div className="container relative mx-auto flex min-h-[560px] items-center px-4 py-20">
@@ -87,9 +88,10 @@ const CampBenefitsArticle = () => (
         </div>
       </section>
 
+      <MobilePageIntro slug="8-motive-sa-mi-trimit-copilul-in-tabara" title="8 motive să-mi trimit copilul într-o tabără" />
       <DetailLayout>
       <article>
-        <section className="py-16 md:py-20">
+        <section className="detail-page-body py-16 md:py-20">
           <div className="container mx-auto max-w-4xl px-4">
             <p className="text-xl leading-9 text-foreground md:text-2xl md:leading-10">Când planificăm cu grijă educația și activitățile extracurriculare ale copiilor, merită să ne amintim că <strong className="text-primary">verile sunt o oportunitate, nu timp pierdut</strong>. O tabără este un mod ideal de a încerca activități noi — inclusiv exersarea limbii engleze —, de a deveni mai responsabil și, mai ales, de a se distra și a-și face prieteni.</p>
           </div>

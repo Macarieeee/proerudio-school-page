@@ -1,3 +1,5 @@
+import { markOriginalIntroImage } from '@/lib/mobile-page-intro';
+import MobilePageIntro from '@/components/MobilePageIntro';
 import DetailLayout from '@/components/DetailLayout';
 import DiplomasFacebookPost from '@/components/DiplomasFacebookPost';
 import RelatedContentCards from '@/components/RelatedContentCards';
@@ -23,6 +25,7 @@ import toeflHeroImage from "@/assets/curs-de-limba-engleza-pentru-tineri-head-fo
 import cambridgePreparationHeroImage from "@/assets/modul-optional-de-pregatire-pentru-examenele-cambridge-english.png";
 import cambridgeMockHeroImage from "@/assets/cambridge-mock-tests.png";
 import internationalTeachersHeroImage from "@/assets/cursuri-interactive-de-conversatie-cu-profesori-internationali.png";
+import internationalTeachersDescriptionImage from "@/assets/cursuri-de-conversatie.jpg";
 
 const heroImages: Record<string, string> = {
   'fa-o-fapta-buna': goodDeedBackground,
@@ -125,7 +128,8 @@ const cleanWordPressHtml = (source: string) => {
 
 const ImportedWordPressPage = ({ page }: { page: ImportedPageDefinition }) => {
   const currentPage = pageManifest.find(p => p.slug === page.slug);
-  const content = formatCourseDetails(formatRelatedCollections(cleanWordPressHtml(findSource(page.file)), currentPage?.path || `/${page.slug}/`), page.summary);
+  const formattedContent = formatCourseDetails(formatRelatedCollections(cleanWordPressHtml(findSource(page.file)), currentPage?.path || `/${page.slug}/`), page.summary);
+  const content = markOriginalIntroImage(formattedContent, currentPage?.image);
   const [expandedImage, setExpandedImage] = useState<string | null>(null);
   const relatedYouthCourses = /Cursuri pentru copii|Pregătire examene/.test(page.eyebrow)
     ? importedPages.filter(candidate => candidate.eyebrow === page.eyebrow && candidate.slug !== page.slug)
@@ -158,7 +162,7 @@ const ImportedWordPressPage = ({ page }: { page: ImportedPageDefinition }) => {
     <div className="min-h-screen bg-background">
       <Header />
       <main className="pt-[var(--site-header-height,88px)]">
-        <section className="page-hero relative isolate overflow-hidden bg-foreground">
+        <section className="desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground">
           <img src={heroImages[page.slug] || classroomImage} alt="" className="absolute inset-0 h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20" />
           <div className="container relative mx-auto px-4 py-20 md:py-24">
@@ -173,9 +177,11 @@ const ImportedWordPressPage = ({ page }: { page: ImportedPageDefinition }) => {
           </div>
         </section>
 
-        <section className="py-16 md:py-20">
+        <section className="detail-page-body py-16 md:py-20">
           <DetailLayout>
               <article onClick={openGalleryImage} className="wordpress-content min-w-0 rounded-2xl border bg-card p-6 text-card-foreground shadow-sm md:p-10">
+                <MobilePageIntro slug={page.slug} title={page.title} summary={page.summary}
+                  image={page.slug === 'cursuri-interactive-de-conversatie-cu-profesori-internationali' ? internationalTeachersDescriptionImage : undefined} />
                 <div dangerouslySetInnerHTML={{ __html: content }} />
                 {page.slug === 'da-valoare-diplomelor-tale' && <DiplomasFacebookPost />}
                 {relatedYouthCourses.length > 0 && (

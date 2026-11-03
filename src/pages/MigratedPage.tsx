@@ -1,3 +1,5 @@
+import { markOriginalIntroImage } from '@/lib/mobile-page-intro';
+import MobilePageIntro from '@/components/MobilePageIntro';
 import DetailLayout from '@/components/DetailLayout';
 import { formatCourseOverview } from '@/lib/course-overview-layout';
 import { formatTeamCards, formatTeamProfile } from '@/lib/team-layout';
@@ -63,7 +65,7 @@ const MigratedPage = ({ page }: { page: MigratedDefinition }) => {
     <div className="min-h-screen bg-background">
       <Header />
       <main className="pt-[var(--site-header-height,88px)]">
-        <section className="page-hero relative isolate overflow-hidden bg-foreground text-background">
+        <section className="desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background">
           <img src={heroImages[page.path] || page.image || classroomImage} alt="" className="absolute inset-0 h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20" />
           <div className="container relative mx-auto max-w-6xl px-4 py-20 md:py-24">
@@ -73,9 +75,12 @@ const MigratedPage = ({ page }: { page: MigratedDefinition }) => {
             {article && <p className="mt-6 flex items-center gap-2 text-sm text-background/80"><CalendarDays className="h-4 w-4" /><time dateTime={page.date}>{new Date(page.date).toLocaleDateString('ro-RO', { day: 'numeric', month: 'long', year: 'numeric' })}</time></p>}
           </div>
         </section>
-        <section className="bg-muted/35 py-16 md:py-24">
+        <section className="detail-page-body bg-muted/35 py-16 md:py-24">
           <DetailLayout>
-            {content?.path === page.path ? <article onClick={followLink} className="wordpress-content min-w-0 overflow-x-auto rounded-2xl border bg-card p-6 shadow-sm md:p-10" dangerouslySetInnerHTML={{ __html: content.html }} /> : <div role="status" className="rounded-2xl border bg-card p-10">{failed ? <p>Conținutul nu s-a putut încărca. <a href={page.url} data-original-form="true" className="text-primary underline">Deschide pagina originală</a></p> : 'Se încarcă pagina…'}</div>}
+            {content?.path === page.path ? <article onClick={followLink} className="wordpress-content min-w-0 overflow-x-auto rounded-2xl border bg-card p-6 shadow-sm md:p-10">
+              <MobilePageIntro slug={page.slug} title={page.title} image={page.image} />
+              <div dangerouslySetInnerHTML={{ __html: markOriginalIntroImage(content.html, page.image) }} />
+            </article> : <div role="status" className="rounded-2xl border bg-card p-10">{failed ? <p>Conținutul nu s-a putut încărca. <a href={page.url} data-original-form="true" className="text-primary underline">Deschide pagina originală</a></p> : 'Se încarcă pagina…'}</div>}
             {related.length > 0 && <section className={'mt-14 border-t pt-10'}><h2 className={'mb-6 text-2xl font-bold'}>{article ? 'Alte articole' : 'Descoperă mai multe'}</h2><RelatedContentCards cards={related.map(p => cardForPage(p))} /></section>}
           </DetailLayout>
         </section>
