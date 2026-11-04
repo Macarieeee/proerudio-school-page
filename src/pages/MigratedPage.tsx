@@ -77,7 +77,7 @@ const MigratedPage = ({ page }: { page: MigratedDefinition }) => {
         </section>
         <section className="detail-page-body bg-muted/35 py-16 md:py-24">
           <DetailLayout>
-            {content?.path === page.path ? <article onClick={followLink} className="wordpress-content min-w-0 overflow-x-auto rounded-2xl border bg-card p-6 shadow-sm md:p-10">
+            {content?.path === page.path ? <article onClick={followLink} className="wordpress-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10">
               <MobilePageIntro slug={page.slug} title={page.title} image={page.image} />
               <div dangerouslySetInnerHTML={{ __html: markOriginalIntroImage(content.html, page.image) }} />
             </article> : <div role="status" className="rounded-2xl border bg-card p-10">{failed ? <p>Conținutul nu s-a putut încărca. <a href={page.url} data-original-form="true" className="text-primary underline">Deschide pagina originală</a></p> : 'Se încarcă pagina…'}</div>}

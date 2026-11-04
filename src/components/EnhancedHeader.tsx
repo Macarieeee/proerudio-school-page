@@ -53,7 +53,7 @@ const Content = ({ item, close }: { item: Item; close?: () => void }) => item.se
   <div className={`grid gap-5 p-5 2xl:grid-cols-3 ${item.sections.length === 5 ? "2xl:grid-cols-5" : ""}`}>
     {item.sections.map((section) => <section key={section.title} className="min-w-0"><h3 className="mb-2 px-3 text-sm font-semibold text-primary">{section.title}</h3><div className="space-y-0.5">{section.items.map((entry) => <Entry key={entry.label} item={entry} close={close} />)}</div></section>)}
   </div>
-) : <div className="w-72 p-2">{item.children?.map((entry) => <Entry key={entry.label} item={entry} close={close} />)}</div>;
+) : <div className="w-full p-2 2xl:w-72">{item.children?.map((entry) => <Entry key={entry.label} item={entry} close={close} />)}</div>;
 
 const MainLabel = ({ item, mobile, close }: { item: Item; mobile?: boolean; close?: () => void }) => {
   const className = mobile
@@ -82,6 +82,7 @@ const EnhancedHeader = () => {
   const [accordion, setAccordion] = useState<string | null>(null);
   const [closedDesktopMenu, setClosedDesktopMenu] = useState<string | null>(null);
   const close = () => { setMobileOpen(false); setAccordion(null); };
+  useEffect(() => { setMobileOpen(false); setAccordion(null); }, [pathname]);
   const closeDesktop = (label: string) => {
     setClosedDesktopMenu(label);
     (document.activeElement as HTMLElement | null)?.blur();
@@ -93,7 +94,7 @@ const EnhancedHeader = () => {
     return () => document.removeEventListener("keydown", onKeyDown);
   }, []);
 
-  return <header ref={headerRef} className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b">
+  return <header ref={headerRef} className="site-header fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b">
     <div className="bg-muted/50 py-2 text-sm"><div className="w-full px-4 xl:px-8 flex flex-wrap items-center justify-between gap-2">
       <div className="flex items-center gap-2 text-muted-foreground"><span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-primary animate-pulse" />Program cursuri: 08:00 - 20:00 de Luni pana Vineri</span></div>
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-muted-foreground"><a href="tel:0771753323" className="flex items-center gap-1 whitespace-nowrap hover:text-primary transition-colors"><Phone className="w-4 h-4" aria-hidden="true" /><span>0771.753.323</span></a>
@@ -104,7 +105,7 @@ const EnhancedHeader = () => {
       </div></div>
     </div></div>
     <div className="w-full px-4 xl:px-8"><div className="flex flex-nowrap items-center justify-between gap-4 h-20">
-      <Link to="/" className="flex shrink-0 items-center"><img src={logoImage} alt="Pro Erudio School of English" className="h-16 w-auto max-w-[240px] object-contain" /></Link>
+      <Link to="/" className="flex min-w-0 items-center"><img src={logoImage} alt="Pro Erudio School of English" className="h-12 w-auto max-w-[min(210px,100%)] sm:h-16 sm:max-w-[240px] object-contain" /></Link>
       <nav className="relative hidden min-w-0 flex-1 flex-nowrap items-center justify-between gap-2 2xl:flex" aria-label="Navigație principală">{navigation.map((item) => {
         const hasMenu = !!(item.children || item.sections);
         const wasClosed = closedDesktopMenu === item.label;
@@ -113,9 +114,9 @@ const EnhancedHeader = () => {
         </div>;
       })}</nav>
       <div className="hidden shrink-0 2xl:flex items-center gap-4"><Button asChild className="h-12 whitespace-nowrap bg-primary px-6 text-base hover:bg-primary/90"><Link to="/inscriere-cursuri-pro-erudio/">Înscrie-te</Link></Button></div>
-      <button className="2xl:hidden" onClick={() => setMobileOpen(!mobileOpen)} aria-expanded={mobileOpen} aria-label={mobileOpen ? "Închide meniul" : "Deschide meniul"}>{mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}</button>
+      <button className="flex h-11 w-11 shrink-0 items-center justify-center rounded-md focus-visible:ring-2 focus-visible:ring-ring 2xl:hidden" aria-controls="mobile-navigation" onClick={() => setMobileOpen(!mobileOpen)} aria-expanded={mobileOpen} aria-label={mobileOpen ? "Închide meniul" : "Deschide meniul"}>{mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}</button>
     </div>
-    {mobileOpen && <nav className="2xl:hidden max-h-[calc(100vh-7rem)] overflow-y-auto py-4 border-t" aria-label="Navigație mobilă"><div className="flex flex-col gap-4">{navigation.map((item) => {
+    {mobileOpen && <nav id="mobile-navigation" className="absolute inset-x-0 top-full max-h-[calc(100dvh-var(--site-header-height,160px))] overflow-y-auto overscroll-contain border-t bg-background px-4 py-4 shadow-lg 2xl:hidden" aria-label="Navigație mobilă"><div className="flex flex-col gap-4">{navigation.map((item) => {
       const hasMenu = !!(item.children || item.sections); const open = accordion === item.label;
       return <div key={item.label}><div className="flex items-center justify-between gap-2"><MainLabel item={item} mobile close={close} />{hasMenu && <button type="button" className="rounded-md p-2 hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring" onClick={() => setAccordion(open ? null : item.label)} aria-expanded={open} aria-label={`${open ? "Închide" : "Deschide"} submeniul ${item.label}`}><ChevronDown className={`h-4 w-4 transition-transform duration-200 ${open ? "rotate-180" : ""}`} /></button>}</div>{hasMenu && open && <div className="mt-2 ml-2 overflow-hidden rounded-lg border bg-popover"><Content item={item} close={close} /></div>}</div>;
     })}<Button asChild className="bg-primary hover:bg-primary/90 w-full"><Link to="/inscriere-cursuri-pro-erudio/" onClick={close}>Înscrie-te</Link></Button></div></nav>}

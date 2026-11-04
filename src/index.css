@@ -2,6 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Allow text and grid children to shrink to the available viewport width. */
+@layer base {
+  html {
+    width: 100%;
+    overflow-x: clip;
+    scroll-padding-top: calc(var(--site-header-height, 160px) + 16px);
+  }
+  body {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    overflow-x: clip;
+    overflow-wrap: anywhere;
+  }
+  #root { min-width: 0; width: 100%; overflow-x: clip; }
+  img, video, iframe { max-width: 100%; }
+}
+
+.wordpress-content { min-width: 0; }
+.wordpress-content :where(div, section, figure, form) { min-width: 0; }
+.wordpress-content :where(figure, form) { max-width: 100%; }
+.wordpress-content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+.wordpress-content :where(input, select, textarea) { max-width: 100%; }
+
+
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
 All colors MUST be HSL.
 */
@@ -428,6 +458,8 @@ div.wordpress-gallery > a > img {
 .detail-sidebar-card {
   position: relative;
   display: block;
+  width: 100%;
+  min-width: 0;
   min-height: 160px;
   aspect-ratio: 2 / 1;
   overflow: hidden;
@@ -620,4 +652,19 @@ div.wordpress-gallery > a > img {
     font-size: clamp(1.75rem, 3.125vw, 3.75rem);
     line-height: 1.1;
   }
+}
+
+@media (max-width: 639px) {
+  .site-header > div:first-child { font-size: .75rem; line-height: 1.5; }
+  .site-header > div:first-child svg { flex-shrink: 0; }
+  .site-header > div:first-child .animate-pulse { flex-shrink: 0; }
+  .site-header > div:last-child > div:first-child { height: 4rem; gap: .5rem; }
+  .detail-layout { padding-inline: .75rem; gap: 1.5rem; }
+  .detail-layout .wordpress-content { padding: 1rem; border-radius: .75rem; line-height: 1.75; }
+  .wordpress-content h2, .wordpress-content h3 { font-size: 1.5rem; }
+  .wordpress-content h4 { font-size: 1.25rem; }
+  .wordpress-content blockquote, .wordpress-content .migration-form,
+  .wordpress-content .course-schedule { padding: 1rem; }
+  .wordpress-content :where(input, select, textarea) { font-size: 1rem; }
+  main a.inline-flex { white-space: normal; height: auto; min-height: 2.75rem; text-align: center; }
 }

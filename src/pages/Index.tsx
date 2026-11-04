@@ -14,7 +14,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <main className="pt-[88px]">
+      <main className="pt-[var(--site-header-height,88px)]">
         <HeroSection />
         <StatsSection />
         <CoursesSection />
