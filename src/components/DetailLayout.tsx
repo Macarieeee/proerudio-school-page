@@ -1,7 +1,7 @@
 import { useEffect, useRef, type ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
-import pages from '@/data/wordpress-manifest.json';
+import pages from '@/data/pages.json';
 import campImage from '@/assets/summer-camp-uk.jpg';
 import articlesImage from '@/assets/facility-library.jpg';
 

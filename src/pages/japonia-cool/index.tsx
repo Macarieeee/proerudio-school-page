@@ -1,0 +1,1172 @@
+import heroImage from '@/assets/japonia-cool.jpg';
+import ContentPageLayout from '@/components/ContentPageLayout';
+import image0 from "@/assets/about-classroom.jpg";
+
+export default function Page() {
+  return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
+    <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
+      <img src={heroImage} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
+      <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
+        <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
+          <svg xmlns={"http://www.w3.org/2000/svg"} width={"24"} height={"24"} viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"2"} strokeLinecap={"round"} strokeLinejoin={"round"} className={"lucide lucide-arrow-left h-4 w-4"}>
+            <path d={"m12 19-7-7 7-7"}></path>
+            <path d={"M19 12H5"}></path>
+          </svg>
+          {"Pagina principală"}
+        </a>
+        <p className={"mb-4 flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-background/75"}>
+          <svg xmlns={"http://www.w3.org/2000/svg"} width={"24"} height={"24"} viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"2"} strokeLinecap={"round"} strokeLinejoin={"round"} className={"lucide lucide-book-open h-4 w-4"}>
+            <path d={"M12 7v14"}></path>
+            <path d={"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"}></path>
+          </svg>
+          {"Pro Erudio · School of English"}
+        </p>
+        <h1 className={"max-w-5xl text-4xl font-bold leading-tight md:text-6xl"}>
+          {"Japonia Cool – Introducere în limba și cultura japoneză"}
+        </h1>
+      </div>
+    </section>
+  }>
+    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+      <section className={"mobile-page-intro"} aria-label={"Japonia Cool – Introducere în limba și cultura japoneză"}>
+        <img src={"https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza.jpg"} alt={"Japonia Cool – Introducere în limba și cultura japoneză"} decoding={"async"} />
+        <h1>
+          {"Japonia Cool – Introducere în limba și cultura japoneză"}
+        </h1>
+      </section>
+      <div>
+        <div itemProp={"mainContentOfPage"}>
+          <div data-id={"13422"}></div>
+          <section>
+            <div>
+              <div>
+                <div>
+                  <div>
+                    <div>
+                      <div>
+                        <div>
+                          <div>
+                            <figure className={"original-intro-image"}>
+                              <div>
+                                <img decoding={"async"} alt={""} title={"Pro Erudio - Japonia Cool - Curs de vara de limba japoneza"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza.jpg 1432w, https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza-300x200.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza-1024x683.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza-768x512.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza-112x75.jpg 112w, https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza-942x628.jpg 942w, https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza-480x320.jpg 480w"} sizes={"(max-width:767px) 480px, (max-width:1432px) 100vw, 1432px"} src={"https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza.jpg"} />
+                              </div>
+                            </figure>
+                          </div>
+                          <div>
+                            <div>
+                              <h2>
+                                <strong>
+                                  {"Curs de vară pentru copii și adolescenți"}
+                                </strong>
+                              </h2>
+                              <h2>
+                                <strong>
+                                  {"Japonia Cool – Introducere în limba și cultura japoneză"}
+                                </strong>
+                              </h2>
+                              <div></div>
+                              <h3>
+                                <strong>
+                                  {"De ce cultura japoneză?"}
+                                </strong>
+                              </h3>
+                              <p>
+                                {"Răspunsul este simplu. Întrucât este un amestec unic de tradiții milenare și inovație modernă, caracterizată prin "}
+                                <strong>
+                                  {"respect"}
+                                </strong>
+                                {", "}
+                                <strong>
+                                  {"armonie"}
+                                </strong>
+                                {" (和-wa),"}
+                                <strong>
+                                  {" minimalism"}
+                                </strong>
+                                {" și o profundă "}
+                                <strong>
+                                  {"legătură cu natura"}
+                                </strong>
+                                {", toate aceste trăsături reprezentând pentru civilizațiile vestice o atracție de nestăvilit. Elementele cheie includ artele tradiționale (ceai, ikebana etc.), gastronomia rafinată, îmbrăcămintea (kimono), artele marțiale și subculturile urbane, toate reflectând valorile estetice și sociale specifice."}
+                              </p>
+                              <div>
+                                {"Copilul dumneavoastră este fascinat de culturile orientale și în special cea japoneză?"}
+                              </div>
+                              <p>
+                                {"Atunci… de ce să nu încurajăm această curiozitate și să îl ajutăm să profite de timpul liber din vacanța de vară pentru a explora universul Japoniei în cadrul unui curs intensiv, interactiv și educativ. Programul este conceput ca o primă întâlnire cu limba japoneză și cu elemente esențiale de cultură și civilizație niponă, într-un mod adaptat vârstei și intereselor participanților."}
+                              </p>
+                              <p>
+                                {"Copiii vor învăța de-a lungul celor 10 întâlniri vocabular de bază (în funcție de tema lecției), formule de salut și de prezentare, vor face cunoștință cu scrierea japoneză la nivel introductiv și se vor familiariza cu elemente de cultură și civilizație precum:"}
+                              </p>
+                              <p>
+                                {"Tradiții și obiceiuri (ceremonia ceaiului 茶道 "}
+                                <strong>
+                                  {"Sadō"}
+                                </strong>
+                                {", arta aranjării florilor生花 "}
+                                <strong>
+                                  {"Ikebana"}
+                                </strong>
+                                {" etc.)"}
+                              </p>
+                              <p>
+                                {"Arte plastice ("}
+                                <strong>
+                                  {"Origami și Kirigami:"}
+                                </strong>
+                                {" arta plierii și tăierii hârtiei)"}
+                              </p>
+                              <p>
+                                <strong>
+                                  {"Gastronomie (和食 Washoku) 🍣 –"}
+                                </strong>
+                                {" echilibru, gusturi autentice (umami), sezonalitate și respect pentru natură: sushi, sashimi, ramen, bento, ichijū-sansai (o supă și trei feluri) etc."}
+                              </p>
+                              <p>
+                                <strong>
+                                  {"Îmbrăcăminte 👘 (kimono-ul, yukata și moda tinerilor)"}
+                                </strong>
+                              </p>
+                              <p>
+                                <strong>
+                                  {"Teatrul traditional 🎭 (Nō, Kabuki și Bunraku)"}
+                                </strong>
+                              </p>
+                              <p>
+                                <strong>
+                                  {"Artele marțiale 🥋 (sumō – sportul național, jūdō, kendō și aikidō, care cultivă disciplina)"}
+                                </strong>
+                              </p>
+                              <p>
+                                <strong>
+                                  {"Caligrafia (書道 shodō) –"}
+                                </strong>
+                                {" scrierea artistică a caracterelor japoneze"}
+                              </p>
+                              <p>
+                                <strong>
+                                  {"Cultura pop modernă (アニメ Anime și 漫画 Manga:"}
+                                </strong>
+                                {" animația și benzile desenate japoneze)"}
+                              </p>
+                              <p>
+                                <strong>
+                                  {"Valorile sociale"}
+                                </strong>
+                                {" precum respectul și loialitatea (ierarhia socială, aparteneța la grup etc.), codul samurailor ("}
+                                <strong>
+                                  {"Bushidō"}
+                                </strong>
+                                {"), ordinea și perfecționarea de sine ("}
+                                <strong>
+                                  {"Kaizen"}
+                                </strong>
+                                {") etc."}
+                              </p>
+                              <p>
+                                <strong>
+                                  {"Spiritualitate ⛩️"}
+                                </strong>
+                                {" (Budism și Shintō)"}
+                              </p>
+                              <p>
+                                <strong>
+                                  {"Sărbători și festivități 🎋 (matsuri):"}
+                                </strong>
+                                {" Hina Matsuri (Ziua fetelor), Kodomo no hi (Ziua copiilor), Tanabata (festivalul stelelor), Hanami (privitul florilor de cireș) și dansuri tradiționale."}
+                              </p>
+                              <p>
+                                {"Învățarea este susținută prin jocuri didactice, ateliere tematice (origami, caligrafie, creare de benzi desenate, tradiții legate de servitul mesei etc.), discuții bazate pe filme și cărți (în funcție de vârsta participanților), clipuri informative, activități interactive și exerciții de grup, care încurajează participarea activă și colaborarea."}
+                              </p>
+                              <div>
+                                {"\n  ! Alegerea temelor de discuție se va face în funcție de vârsta participanților!"}
+                              </div>
+                              <p>
+                                <strong>
+                                  {"Obiectivele cursului format din 10 ședințe:"}
+                                </strong>
+                              </p>
+                              <p>
+                                {"🎌 dobândirea unor noțiuni de bază în limba japoneză (saluturi, expresii uzuale, introducere în scriere);"}
+                              </p>
+                              <p>
+                                {"🏯 familiarizarea cu elemente reprezentative ale culturii și civilizației japoneze;"}
+                              </p>
+                              <p>
+                                {"🎨 dezvoltarea creativității și a gândirii interculturale;"}
+                              </p>
+                              <p>
+                                {"🤝 stimularea comunicării și a lucrului în echipă;"}
+                              </p>
+                              <p>
+                                {"🌸 crearea unei experiențe de învățare plăcute, adaptate perioadei de vacanță."}
+                              </p>
+                              <p>
+                                <strong>
+                                  {"În cele 10 întâlniri copiii vor învăța să:"}
+                                </strong>
+                              </p>
+                              <p>
+                                {"✨ salute și să se prezinte în limba japoneză"}
+                              </p>
+                              <p>
+                                {"✨ folosească expresii uzuale în contexte reale"}
+                              </p>
+                              <p>
+                                {"✨ recunoască și scrie primele caractere japoneze"}
+                              </p>
+                              <p>
+                                {"✨ înțeleagă noțiuni de bază din cultura japoneză"}
+                              </p>
+                              <p>
+                                {"✨ experimenteze arta confecționării de figurine din hârtie (origami)"}
+                              </p>
+                              <p>
+                                {"✨ pregătească sushi, cu accent pe învățarea diferitelor sortimente de bază (Nigiri, Maki, Uramaki) și să servească ceai conform tradiției japoneze"}
+                              </p>
+                              <p>
+                                {"✨ recunoască elementele de vestimentație, machiaj și estetică niponă"}
+                              </p>
+                              <p>
+                                {"✨ reguli de bune maniere în Japonia"}
+                              </p>
+                              <div>
+                                {"! Scrierea japoneză folosind ideograme și silabare se va exersa doar în ziua în care se va face caligrafie. În toate celelalte cursuri se va folosi alfabetul latin."}
+                              </div>
+                              <p>
+                                {"Cursul pune accent pe comunicare și învățare prin joc: "}
+                                <strong>
+                                  {"dialoguri, jocuri de rol, activități creative și exerciții interactive"}
+                                </strong>
+                                {", astfel încât cei mici să învețe natural și cu plăcere. Pentru copiii pasionați de anime și manga, cursul devine o adevărată aventură! Vom descoperi împreună cuvinte și expresii folosite de personajele preferate, vom învăța cum să înțelegem replici simple fără subtitrare și vom explora universul fascinant al poveștilor japoneze."}
+                              </p>
+                              <div>
+                                {"\n  Cursul oferă un cadru prietenos și dinamic, în care copiii pot învăța prin descoperire și explorare, transformând vacanța de vară într-o experiență educativă valoroasă."}
+                              </div>
+                            </div>
+                          </div>
+                          <div>
+                            <div>
+                              <h3>
+                                {"Detalii organizatorice:"}
+                              </h3>
+                            </div>
+                          </div>
+                          <div>
+                            <div>
+                              <div>
+                                <div>
+                                  <div className={"course-details-panel"}>
+                                    <div className={"course-details-header"}>
+                                      <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
+                                        <img decoding={"async"} alt={"Pro Erudio – Japonia Cool – Curs de vara de limba japoneza"} src={"https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza.jpg"} />
+                                      </div>
+                                      <h2>
+                                        {"Japonia Cool - Introducere în limba și cultura japoneză"}
+                                      </h2>
+                                      <div className={"course-price"}>
+                                        <sup>
+                                          {"Lei"}
+                                        </sup>
+                                        <span>
+                                          {"350"}
+                                        </span>
+                                        <sup>
+                                          {"Modul"}
+                                        </sup>
+                                      </div>
+                                      <hr />
+                                      <p>
+                                        <big>
+                                          {"CURS DE VARĂ PENTRU COPII"}
+                                        </big>
+                                      </p>
+                                    </div>
+                                    <div className={"course-details-facts"}>
+                                      <span>
+                                        <p></p>
+                                        <ul>
+                                          <li className={"course-fact"}>
+                                            <span className={"course-fact-icon"}>
+                                              <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
+                                                <circle cx={"12"} cy={"12"} r={"9"}></circle>
+                                                <path d={"M12 7v5l3 2"}></path>
+                                              </svg>
+                                            </span>
+                                            <strong>
+                                              {"Durata unui curs:"}
+                                            </strong>
+                                            {" 90 minute"}
+                                          </li>
+                                          <li className={"course-fact"}>
+                                            <span className={"course-fact-icon"}>
+                                              <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
+                                                <rect x={"3"} y={"5"} width={"18"} height={"16"} rx={"3"}></rect>
+                                                <path d={"M7 3v4m10-4v4M3 11h18"}></path>
+                                              </svg>
+                                            </span>
+                                            <strong>
+                                              {"Durata unui modul:"}
+                                            </strong>
+                                            {" 5 ședințe"}
+                                          </li>
+                                          <li className={"course-fact"}>
+                                            <span className={"course-fact-icon"}>
+                                              <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
+                                                <circle cx={"9"} cy={"8"} r={"3"}></circle>
+                                                <path d={"M3 21v-3a6 6 0 0 1 12 0v3m1-16a3 3 0 0 1 0 6m3 10v-3a6 6 0 0 0-2-4"}></path>
+                                              </svg>
+                                            </span>
+                                            <strong>
+                                              {"Număr participanți:"}
+                                            </strong>
+                                            {" maxim 10 copii în grupă"}
+                                          </li>
+                                          <li className={"course-fact"}>
+                                            <span className={"course-fact-icon"}>
+                                              <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
+                                                <circle cx={"9"} cy={"8"} r={"3"}></circle>
+                                                <path d={"M3 21v-3a6 6 0 0 1 12 0v3m1-16a3 3 0 0 1 0 6m3 10v-3a6 6 0 0 0-2-4"}></path>
+                                              </svg>
+                                            </span>
+                                            <strong>
+                                              {"Vârsta:"}
+                                            </strong>
+                                            {" copii de 7 – 9 ani"}
+                                          </li>
+                                        </ul>
+                                        <p>
+                                          {"Orarul cursului și frecvența întâlnirilor se va stabili după înscriere."}
+                                        </p>
+                                        <p>
+                                          {"Grupele vor fi formate ținând cont de vârsta și disponibilitatea cursanților în timpul verii."}
+                                        </p>
+                                        <p>
+                                          {"Cursul cuprinde 2 module. La achiziționarea celui de-al doilea modul beneficiați de o reducere de 10%."}
+                                        </p>
+                                      </span>
+                                    </div>
+                                    <div className={"course-details-footer"}>
+                                      <a href={"/inscriere-cursuri-pentru-copii-si-adolescenti/#vara"} title={"Înscrie-te la acest curs"} className={"course-enroll-button"}>
+                                        <span>
+                                          {"Înscrie-te la acest curs"}
+                                        </span>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div>
+                                      <aside id={"block-2"} className={"course-schedule"}>
+                                        <h4>
+                                          <span>
+                                            {"Program vară 2026:"}
+                                          </span>
+                                        </h4>
+                                        <p>
+                                          <span>
+                                            <i aria-hidden={"true"}></i>
+                                            {" 22 iunie – 31 iulie"}
+                                          </span>
+                                        </p>
+                                      </aside>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div>
+                                      <div data-href={"https://www.facebook.com/proerudio"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"false"}>
+                                        <div>
+                                          <div className={"course-share"}>
+                                            <span>
+                                              {"Share this..."}
+                                            </span>
+                                            <br />
+                                            <ul className={"course-share-links"}>
+                                              <li>
+                                                <a data-site={"facebook"} href={"https://www.facebook.com/sharer.php?t=Japonia Cool – Introducere în limba și cultura japoneză&u=https://www.proerudio.ro/cursuri-de-vara/alte-cursuri-de-vara/japonia-cool/"} target={"_blank"} rel={"noopener noreferrer"}>
+                                                  <span>
+                                                    <svg xmlns={"http://www.w3.org/2000/svg"} fill={"#fff"} preserveAspectRatio={"xMidYMid meet"} viewBox={"0 0 40 40"}>
+                                                      <g>
+                                                        <path d={"m21.7 16.7h5v5h-5v11.6h-5v-11.6h-5v-5h5v-2.1c0-2 0.6-4.5 1.8-5.9 1.3-1.3 2.8-2 4.7-2h3.5v5h-3.5c-0.9 0-1.5 0.6-1.5 1.5v3.5z"}></path>
+                                                      </g>
+                                                    </svg>
+                                                  </span>
+                                                  <span>
+                                                    <svg xmlns={"http://www.w3.org/2000/svg"} viewBox={"0 0 16 28"}>
+                                                      <path fill={"#3B5998"} d={"M10.7,10.7 L15.7,10.7 L15.7,15.7 L10.7,15.7 L10.7,27.3 L5.7,27.3 L5.7,15.7 L0.7,15.7 L0.7,10.7 L5.7,10.7 L5.7,8.6 C5.7,6.6 6.3,4.1 7.5,2.7 C8.8,1.4 10.3,0.7 12.2,0.7 L15.7,0.7 L15.7,5.7 L12.2,5.7 C11.3,5.7 10.7,6.3 10.7,7.2 L10.7,10.7 Z"}></path>
+                                                    </svg>
+                                                  </span>
+                                                  <div title={"Facebook"}>
+                                                    {"Facebook"}
+                                                  </div>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a data-site={"pinterest"} href={"https://pinterest.com/pin/create/button/?description=Japonia Cool – Introducere în limba și cultura japoneză&media=&url=https://www.proerudio.ro/cursuri-de-vara/alte-cursuri-de-vara/japonia-cool/"} target={"_blank"} rel={"noopener noreferrer"}>
+                                                  <span>
+                                                    <svg xmlns={"http://www.w3.org/2000/svg"} fill={"#fff"} preserveAspectRatio={"xMidYMid meet"} viewBox={"0 0 40 40"}>
+                                                      <g>
+                                                        <path d={"m37.3 20q0 4.7-2.3 8.6t-6.3 6.2-8.6 2.3q-2.4 0-4.8-0.7 1.3-2 1.7-3.6 0.2-0.8 1.2-4.7 0.5 0.8 1.7 1.5t2.5 0.6q2.7 0 4.8-1.5t3.3-4.2 1.2-6.1q0-2.5-1.4-4.7t-3.8-3.7-5.7-1.4q-2.4 0-4.4 0.7t-3.4 1.7-2.5 2.4-1.5 2.9-0.4 3q0 2.4 0.8 4.1t2.7 2.5q0.6 0.3 0.8-0.5 0.1-0.1 0.2-0.6t0.2-0.7q0.1-0.5-0.3-1-1.1-1.3-1.1-3.3 0-3.4 2.3-5.8t6.1-2.5q3.4 0 5.3 1.9t1.9 4.7q0 3.8-1.6 6.5t-3.9 2.6q-1.3 0-2.2-0.9t-0.5-2.4q0.2-0.8 0.6-2.1t0.7-2.3 0.2-1.6q0-1.2-0.6-1.9t-1.7-0.7q-1.4 0-2.3 1.2t-1 3.2q0 1.6 0.6 2.7l-2.2 9.4q-0.4 1.5-0.3 3.9-4.6-2-7.5-6.3t-2.8-9.4q0-4.7 2.3-8.6t6.2-6.2 8.6-2.3 8.6 2.3 6.3 6.2 2.3 8.6z"}></path>
+                                                      </g>
+                                                    </svg>
+                                                  </span>
+                                                  <span>
+                                                    <svg xmlns={"http://www.w3.org/2000/svg"} viewBox={"0 0 35 36"}>
+                                                      <path fill={"#CB2027"} d={"M35.3,18 C35.3,21.1333333 34.5333333,24 33,26.6 C31.4666667,29.2 29.3666667,31.2666667 26.7,32.8 C24.0333333,34.3333333 21.1666667,35.1 18.1,35.1 C16.5,35.1 14.9,34.8666667 13.3,34.4 C14.1666667,33.0666667 14.7333333,31.8666667 15,30.8 C15.1333333,30.2666667 15.5333333,28.7 16.2,26.1 C16.5333333,26.6333333 17.1,27.1333333 17.9,27.6 C18.7,28.0666667 19.5333333,28.2666667 20.4,28.2 C22.2,28.2 23.8,27.7 25.2,26.7 C26.6,25.7 27.7,24.3 28.5,22.5 C29.3,20.7 29.7,18.6666667 29.7,16.4 C29.7,14.7333333 29.2333333,13.1666667 28.3,11.7 C27.3666667,10.2333333 26.1,9 24.5,8 C22.9,7 21,6.53333333 18.8,6.6 C17.2,6.6 15.7333333,6.83333333 14.4,7.3 C13.0666667,7.76666667 11.9333333,8.33333333 11,9 C10.0666667,9.66666667 9.23333333,10.4666667 8.5,11.4 C7.76666667,12.3333333 7.26666667,13.3 7,14.3 C6.73333333,15.3 6.6,16.3 6.6,17.3 C6.6,18.9 6.86666667,20.2666667 7.4,21.4 C7.93333333,22.5333333 8.83333333,23.3666667 10.1,23.9 C10.5,24.1 10.7666667,23.9333333 10.9,23.4 C10.9666667,23.3333333 11.0333333,23.1333333 11.1,22.8 C11.1666667,22.4666667 11.2333333,22.2333333 11.3,22.1 C11.3666667,21.7666667 11.2666667,21.4333333 11,21.1 C10.2666667,20.2333333 9.9,19.1333333 9.9,17.8 C9.9,15.5333333 10.6666667,13.6 12.2,12 C13.7333333,10.4 15.7666667,9.56666667 18.3,9.5 C20.5666667,9.5 22.3333333,10.1333333 23.6,11.4 C24.8666667,12.6666667 25.5,14.2333333 25.5,16.1 C25.5,18.6333333 24.9666667,20.8 23.9,22.6 C22.8333333,24.4 21.5333333,25.2666667 20,25.2 C19.1333333,25.2 18.4,24.9 17.8,24.3 C17.2,23.7 17.0333333,22.9 17.3,21.9 C17.4333333,21.3666667 17.6333333,20.6666667 17.9,19.8 C18.1666667,18.9333333 18.4,18.1666667 18.6,17.5 C18.8,16.8333333 18.8666667,16.3 18.8,15.9 C18.8,15.1 18.6,14.4666667 18.2,14 C17.8,13.5333333 17.2333333,13.3 16.5,13.3 C15.5666667,13.3 14.8,13.7 14.2,14.5 C13.6,15.3 13.2666667,16.3666667 13.2,17.7 C13.2,18.7666667 13.4,19.6666667 13.8,20.4 L11.6,29.8 C11.3333333,30.8 11.2333333,32.1 11.3,33.7 C8.23333333,32.3666667 5.73333333,30.2666667 3.8,27.4 C1.86666667,24.5333333 0.933333333,21.4 1,18 C1,14.8666667 1.76666667,12 3.3,9.4 C4.83333333,6.8 6.9,4.73333333 9.5,3.2 C12.1,1.66666667 14.9666667,0.9 18.1,0.9 C21.2333333,0.9 24.1,1.66666667 26.7,3.2 C29.3,4.73333333 31.4,6.8 33,9.4 C34.6,12 35.3666667,14.8666667 35.3,18 Z"} transform={"translate(-1)"}></path>
+                                                    </svg>
+                                                  </span>
+                                                  <div title={"Pinterest"}>
+                                                    {"Pinterest"}
+                                                  </div>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a data-site={"twitter"} href={"https://twitter.com/intent/tweet?text=Japonia Cool – Introducere în limba și cultura japoneză&url=https://www.proerudio.ro/cursuri-de-vara/alte-cursuri-de-vara/japonia-cool/&via="} target={"_blank"} rel={"noopener noreferrer"}>
+                                                  <span>
+                                                    <svg viewBox={"0 0 25 25"} fill={"none"} xmlns={"http://www.w3.org/2000/svg"}>
+                                                      <path d={"M14.4821 11.6218L21.0389 4H19.4852L13.7919 10.6179L9.24467 4H4L10.8763 14.0074L4 22H5.55385L11.5661 15.0113L16.3683 22H21.613L14.4821 11.6218ZM6.11371 5.16972H8.50031L19.4859 20.8835H17.0993L6.11371 5.16972Z"} fill={"white"}></path>
+                                                    </svg>
+                                                  </span>
+                                                  <span>
+                                                    <svg viewBox={"0 0 25 25"} fill={"none"} xmlns={"http://www.w3.org/2000/svg"}>
+                                                      <path d={"M14.4821 11.6218L21.0389 4H19.4852L13.7919 10.6179L9.24467 4H4L10.8763 14.0074L4 22H5.55385L11.5661 15.0113L16.3683 22H21.613L14.4821 11.6218ZM6.11371 5.16972H8.50031L19.4859 20.8835H17.0993L6.11371 5.16972Z"} fill={"#000000"}></path>
+                                                    </svg>
+                                                  </span>
+                                                  <div title={"Twitter"}>
+                                                    {"Twitter"}
+                                                  </div>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a data-site={"linkedin"} href={"https://www.linkedin.com/shareArticle?title=Japonia Cool – Introducere în limba și cultura japoneză&url=https://www.proerudio.ro/cursuri-de-vara/alte-cursuri-de-vara/japonia-cool/"} target={"_blank"} rel={"noopener noreferrer"}>
+                                                  <span>
+                                                    <svg xmlns={"http://www.w3.org/2000/svg"} fill={"#fff"} preserveAspectRatio={"xMidYMid meet"} viewBox={"0 0 40 40"}>
+                                                      <g>
+                                                        <path d={"m13.3 31.7h-5v-16.7h5v16.7z m18.4 0h-5v-8.9c0-2.4-0.9-3.5-2.5-3.5-1.3 0-2.1 0.6-2.5 1.9v10.5h-5s0-15 0-16.7h3.9l0.3 3.3h0.1c1-1.6 2.7-2.8 4.9-2.8 1.7 0 3.1 0.5 4.2 1.7 1 1.2 1.6 2.8 1.6 5.1v9.4z m-18.3-20.9c0 1.4-1.1 2.5-2.6 2.5s-2.5-1.1-2.5-2.5 1.1-2.5 2.5-2.5 2.6 1.2 2.6 2.5z"}></path>
+                                                      </g>
+                                                    </svg>
+                                                  </span>
+                                                  <span>
+                                                    <svg xmlns={"http://www.w3.org/2000/svg"} xmlnsXlink={"http://www.w3.org/1999/xlink"} viewBox={"0 0 50 50"} version={"1.1"}>
+                                                      <g id={"surface97807"}>
+                                                        <path d={"M 8 3.007812 C 4.53125 3.007812 2.007812 5.089844 2.007812 7.949219 C 2.007812 10.820312 4.589844 12.988281 8 12.988281 C 11.46875 12.988281 13.988281 10.871094 13.988281 7.890625 C 13.832031 5.019531 11.359375 3.007812 8 3.007812 Z M 3 15 C 2.449219 15 2 15.449219 2 16 L 2 45 C 2 45.550781 2.449219 46 3 46 L 13 46 C 13.550781 46 14 45.550781 14 45 L 14 16 C 14 15.449219 13.550781 15 13 15 Z M 18 15 C 17.449219 15 17 15.449219 17 16 L 17 45 C 17 45.550781 17.449219 46 18 46 L 27 46 C 27.550781 46 28 45.550781 28 45 L 28 29.5 C 28 27.128906 29.820312 25.199219 32.140625 25.019531 C 32.261719 25 32.378906 25 32.5 25 C 32.621094 25 32.738281 25 32.859375 25.019531 C 35.179688 25.199219 37 27.128906 37 29.5 L 37 45 C 37 45.550781 37.449219 46 38 46 L 47 46 C 47.550781 46 48 45.550781 48 45 L 48 28 C 48 21.53125 44.527344 15 36.789062 15 C 33.269531 15 30.609375 16.359375 29 17.488281 L 29 16 C 29 15.449219 28.550781 15 28 15 Z M 18 15 "}></path>
+                                                      </g>
+                                                    </svg>
+                                                  </span>
+                                                  <div title={"Linkedin"}>
+                                                    {"Linkedin"}
+                                                  </div>
+                                                </a>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div>
+                                <div>
+                                  <div className={"course-details-panel"}>
+                                    <div className={"course-details-header"}>
+                                      <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
+                                        <img decoding={"async"} alt={"Pro Erudio – Japonia Cool – Curs de vara de limba japoneza"} src={"https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza.jpg"} />
+                                      </div>
+                                      <h2>
+                                        {"Japonia Cool - Introducere în limba și cultura japoneză"}
+                                      </h2>
+                                      <div className={"course-price"}>
+                                        <sup>
+                                          {"Lei"}
+                                        </sup>
+                                        <span>
+                                          {"450"}
+                                        </span>
+                                        <sup>
+                                          {"Modul"}
+                                        </sup>
+                                      </div>
+                                      <hr />
+                                      <p>
+                                        <big>
+                                          {"CURS DE VARĂ PENTRU COPII ȘI ADOLESCENȚI"}
+                                        </big>
+                                      </p>
+                                    </div>
+                                    <div className={"course-details-facts"}>
+                                      <span>
+                                        <p></p>
+                                        <ul>
+                                          <li className={"course-fact"}>
+                                            <span className={"course-fact-icon"}>
+                                              <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
+                                                <circle cx={"12"} cy={"12"} r={"9"}></circle>
+                                                <path d={"M12 7v5l3 2"}></path>
+                                              </svg>
+                                            </span>
+                                            <strong>
+                                              {"Durata unui curs:"}
+                                            </strong>
+                                            {" 2 ore"}
+                                          </li>
+                                          <li className={"course-fact"}>
+                                            <span className={"course-fact-icon"}>
+                                              <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
+                                                <rect x={"3"} y={"5"} width={"18"} height={"16"} rx={"3"}></rect>
+                                                <path d={"M7 3v4m10-4v4M3 11h18"}></path>
+                                              </svg>
+                                            </span>
+                                            <strong>
+                                              {"Durata unui modul:"}
+                                            </strong>
+                                            {" 5 ședințe"}
+                                          </li>
+                                          <li className={"course-fact"}>
+                                            <span className={"course-fact-icon"}>
+                                              <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
+                                                <circle cx={"9"} cy={"8"} r={"3"}></circle>
+                                                <path d={"M3 21v-3a6 6 0 0 1 12 0v3m1-16a3 3 0 0 1 0 6m3 10v-3a6 6 0 0 0-2-4"}></path>
+                                              </svg>
+                                            </span>
+                                            <strong>
+                                              {"Număr participanți:"}
+                                            </strong>
+                                            {" maxim 10 copii în grupă"}
+                                          </li>
+                                          <li className={"course-fact"}>
+                                            <span className={"course-fact-icon"}>
+                                              <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
+                                                <circle cx={"9"} cy={"8"} r={"3"}></circle>
+                                                <path d={"M3 21v-3a6 6 0 0 1 12 0v3m1-16a3 3 0 0 1 0 6m3 10v-3a6 6 0 0 0-2-4"}></path>
+                                              </svg>
+                                            </span>
+                                            <strong>
+                                              {"Vârsta:"}
+                                            </strong>
+                                            {" copii de 9 – 13 ani"}
+                                          </li>
+                                        </ul>
+                                        <p>
+                                          {"Orarul cursului și frecvența întâlnirilor se va stabili după înscriere."}
+                                        </p>
+                                        <p>
+                                          {"Grupele vor fi formate ținând cont de vârsta și disponibilitatea cursanților în timpul verii."}
+                                        </p>
+                                        <p>
+                                          {"Cursul cuprinde 2 module. La achiziționarea celui de-al doilea modul beneficiați de o reducere de 10%."}
+                                        </p>
+                                      </span>
+                                    </div>
+                                    <div className={"course-details-footer"}>
+                                      <a href={"/inscriere-cursuri-pentru-copii-si-adolescenti/#vara"} title={"Înscrie-te la acest curs"} className={"course-enroll-button"}>
+                                        <span>
+                                          {"Înscrie-te la acest curs"}
+                                        </span>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div>
+                            <div>
+                              <div>
+                                <div>
+                                  <div>
+                                    <div>
+                                      <h3>
+                                        {"Alte cursuri de vară pentru copii:"}
+                                      </h3>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <span>
+                                      <span></span>
+                                    </span>
+                                    <span>
+                                      <span></span>
+                                    </span>
+                                  </div>
+                                  <div>
+                                    <div className={"related-content-grid"} id={"card-grid-0"}>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/puppet-theatre-copii-4-6-ani/"} className={"related-content-card"}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/puppet-theatre-6-8-ani.jpg\")"}}>
+                                          <h3>
+                                            {"Puppet Theatre – Copii 6 – 8 ani"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Cursuri de vara de limba engleza “Puppet Theatre” In timp ce se joaca cu marioneta copilul devine un alt personaj si chiar un copil timid se poate exprima fara inhibitii cand vorbeste marioneta, nu el insusi. In plus, in lumea papusilor totul devine posibil,"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/storytime-copii-4-7-ani/"} className={"related-content-card"}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/story-brut.jpg\")"}}>
+                                          <h3>
+                                            {"Storytime! – Copii 4 – 7 ani"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"“Storytime” este mijlocul magic de transport cu ajutorul caruia putem sa ne deplasam in timp si spatiu si sa traim aventuri de neuitat. Limba engleza va fi doar mijlocul de comunicare pentru dezlegarea misterelor, iar noi vom invata prin joc la fiecare ora o alta poveste. (“The Princess and the Frog”; “Archie’s pet”; “What’s the matter, Tiger?”; “I’m very hungry!”; “Gerry the Giant”; “Puss in boots” etc)."}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/storytime-copii-8-11-ani/"} className={"related-content-card"}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/story-brut.jpg\")"}}>
+                                          <h3>
+                                            {"Storytime! – Copii 8 – 11 ani"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Vom citi, vom privi, vom canta, vom interpreta roluri, vom participa la intreceri distractive si vom invata o gramada de lucruri noi in limba engleza. Sunteti gata sa inceapa distractia?La sfarsitul cursului copiii:Vor descoperi placerea de a citi si de a asculta povesti in limba engleza"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/be-dramatic-copii-9-12-ani/"} className={"related-content-card"}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/dramatic-brut-1.jpg\")"}}>
+                                          <h3>
+                                            {"Be DRAMAtic! – Copii 9 – 12 ani"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"inscrie-te la cursurile de vara Be DRAMAtic si invata sa transpui textul in replici, apoi etaleaza-ti talentele actoricesti. Te vom initia in tainele dulcelui grai englezesc, iti vei exersa intonatia si dezvolta prezenta scenica."}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/english-through-songs-copii-9-12-ani/"} className={"related-content-card"}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-English-through-Songs.jpg\")"}}>
+                                          <h3>
+                                            {"English through Songs Copii 9 – 12 ani"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Cu totii stim ca atunci cand ne place un cantec il ascultam pana il invatam pe dinafara, atunci de ce sa nu exploatam aceasta placere si acest obicei intr-o metoda de invatare a limbii engleze."}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/english-over-a-glass-of-lemonade-copii-13-18-ani/"} className={"related-content-card"}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2019/05/find-your-voice-1024x536.jpg\")"}}>
+                                          <h3>
+                                            {"Find Your Voice – Copii 13 – 18 ani"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Daca e sa fie petrecere, atunci sa fie in limba engleza ca sa si castigam cate ceva, de exemplu fluenta in exprimare, coerenta in organizarea discursului, rapiditate in procesarea intrebarii si pregatirea raspunsului, spontaneitate si creativitate in argumentatie etc."}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/cinematics-copii-13-18-ani/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-Cinematics.jpg\")"}}>
+                                          <h3>
+                                            {"Cinematics – Copii 13 – 18 ani"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Vom descoperi tematici si motive comune, proiectarea societatii in film si, desigur, implicarea noastra ca indivizi in povestile de pe marile ecrane. Vom discuta despre influenta filmului in vietile noastre si puterea realitatii in lumea filmului."}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-germana/deutsch-durch-geschichten-1-copii-8-11-ani/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Deutsch-durch-Geschichten-1-Copii-6-9-ani.jpg\")"}}>
+                                          <h3>
+                                            {"Deutsch durch Geschichten – Copii 6 – 9 ani"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"În cadrul cursului de vară de limba germană, vă propunem un curs de învăţare prin poveşti. Mai întâi copiilor li se prezintă vocabularul necesar înţelegerii poveştii, învaţă un cântec sau participă la un joc pentru consolidarea vocabularului, după care ascultă povestea, o citesc,"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-germana/deutsch-durch-geschichten-2-copii-8-11-ani/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Deutsch-durch-Geschichten-2-Copii-9-11-ani.jpg\")"}}>
+                                          <h3>
+                                            {"Deutsch durch Geschichten – Copii 9 – 11 ani"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Prin exerciţii distractive, jocuri şi fişe de lucru copiii vor fi provocaţi să îşi exerseze scrierea, înţelegerea şi formarea conexiunilor între diferite concepte. Se urmăreşte extinderea vocabularului şi introducerea unor contexte mai complexe, precum şi sedimentarea vocabularului de bază prin utilizarea lui în contexte inedite."}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-germana/sprechen-sie-deutsch-copii-5-8-ani/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/sprechen-1.jpg\")"}}>
+                                          <h3>
+                                            {"Sprechen Sie Deutsch? – Copii 5 – 8 ani"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Motivarea pentru invatarea limbii germane va fi deplina fiindca copiii vor avea ocazia sa faca ce le place: sa se joace, sa deseneze, sa confectioneze obiecte, sa puna intrebari, sa cante, sa faca miscare, sa vizioneze episoade de film animat (“Muzzy”), sa invete cantece si sa se prefaca pentru a intra in rolul personajului preferat."}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-germana/sprechen-sie-deutsch-copii-9-13-ani/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Sprechen-und-Schreiben-Sie-Deutsch.jpg\")"}}>
+                                          <h3>
+                                            {"Sprechen und Schreiben Sie Deutsch? – Copii 9 – 13 ani"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Curs de vară de limba germană “Sprechen und Schreiben Sie Deutsch?” Cursuri pentru copii de 9 – 13 ani ţi avut"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-romana-si-engleza/the-earth-is-alive-copii-6-10-ani/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/earth-is-alive.jpg\")"}}>
+                                          <h3>
+                                            {"The Earth Is Alive – Copii 6 – 10 ani"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Cursuri intensive de vară “The Earth Is Alive” Cursuri bilingve (română-engleză) pentru copii de 9-12 ani amântul are o istorie fascinantă,"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/british-games-cursuri-intensive-de-vara/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/05/british-games.jpg\")"}}>
+                                          <h3>
+                                            {"British Games – cursuri intensive de vară"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Vă propunem să explorăm cele mai populare jocuri din Marea Britanie în limba engleză. La acest curs Vom învaţă jocuri noi, încurajând jocul creativ şi dinamic în locul celui electronic"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/dig-into-reading/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2023/05/Curs-dig-into-reading-1024x536.jpg\")"}}>
+                                          <h3>
+                                            {"Dig into Reading"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Cursuri intensive de vară pentru copii “Dig into Reading” Disponibil la sediu și online! Cluburi de lectură în limba engleză"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/a-world-of-words-2/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2026/05/A-World-of-Words-9-12-ani-1024x536.png\")"}}>
+                                          <h3>
+                                            {"A World Of Words 2"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"A WORLD OF WORDS Curs de vară de limba engleză"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/head-for-exams-copii-13-18-ani/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2021/10/Cursuri-de-vara-in-limba-engleza-Engleza-pentru-examene-Head-for-Exams.webp\")"}}>
+                                          <h3>
+                                            {"Head for Exams – Copii 13 – 18 ani"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Cursuri de vară de limba engleza “Head for Exams” Cursuri pentru copii de 13 – 18 ani aca intentionezi sa sustii"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/summer-school-perfect-fit/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2021/05/Summer-school-perfect-fit.jpg\")"}}>
+                                          <h3>
+                                            {"Summer School PERFECT FIT"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri Pro Erudio"}
+                                          </span>
+                                          <p>
+                                            {"Cursuri de vară “Summer School PERFECT FIT” Engleză pentru copii de 6-11 ani În sfârșit, după o"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/arts-and-crafts/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2025/05/arts-and-crafts-1024x536.jpg\")"}}>
+                                          <h3>
+                                            {"Arts and Crafts"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Arts and crafts este un curs dedicat copiilor pasionați de lucrul manual, cărora le place să creeze, să învețe lucruri noi."}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/love-gaming-learn-english/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2020/05/LOVE-GAMING-Learn-English.jpg\")"}}>
+                                          <h3>
+                                            {"LOVE GAMING? Learn English!"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri Pro Erudio"}
+                                          </span>
+                                          <p>
+                                            {"LOVE GAMING? Learn English! Disponibil la sediu și online! Curs de vară pentru copii Ești pasionat de jocurile video?"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/english-summer-courses/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2018/04/English-Summer-Courses-1024x536.jpg\")"}}>
+                                          <h3>
+                                            {"English Summer Courses"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri Pro Erudio"}
+                                          </span>
+                                          <p>
+                                            {"Disponibil la sediu și online! Doriți să vă înscrieți copilul la un curs de engleză în anul școlar următor? Copilul"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/apprendre-en-samusant/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2019/06/Apprendre-en-samusant-1024x536.jpg\")"}}>
+                                          <h3>
+                                            {"Apprendre en s\\’amusant"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Pro Erudio"}
+                                          </span>
+                                          <p>
+                                            {"Îți place limba franceză și știi că în societatea contemporană cunoașterea a cel puțin două limbi străine a devenit o necesitate? Atunci de ce să nu profiți de timpul liber din vară și să urmezi un curs intensiv de limbă franceză?"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi detaliile"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/happy-confident-me/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2023/05/happy-confident-me-1024x536.jpg\")"}}>
+                                          <h3>
+                                            {"Happy Confident Me"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"HAPPY CONFIDENT ME Curs de vară de dezvoltare personală prin limba"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/a-world-of-words/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2026/05/A-World-of-Words-6-8-ani-1024x537.png\")"}}>
+                                          <h3>
+                                            {"A World Of Words"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"A WORLD OF WORDS Curs de vară de limba engleză"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/english-summer-boost/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2026/05/English-Summer-Boost-Pregatire-Cambridge-ProErudio-3.jpg\")"}}>
+                                          <h3>
+                                            {"ENGLISH SUMMER BOOST – Pregătire pentru examenele Cambridge"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Daca e sa fie petrecere, atunci sa fie in limba engleza ca sa si castigam cate ceva, de exemplu fluenta in exprimare, coerenta in organizarea discursului, rapiditate in procesarea intrebarii si pregatirea raspunsului, spontaneitate si creativitate in argumentatie etc."}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/editors-club/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/plugins/js_composer/assets/vc/vc_gitem_image.png\")"}}>
+                                          <h3>
+                                            {"Editors’ Club"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"Editors’ Club - Împreună vom descoperi diferite unghiuri și încadrări, compoziții și efecte speciale pentru a crea imaginea perfectă."}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/calatorie-in-pasi-de-dans/"} className={"related-content-card"} hidden={true}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2026/06/Curs-de-Vara-ProErudio-Dans-1024x576.jpg\")"}}>
+                                          <h3>
+                                            {"Călătorie în jurul lumii în pași de dans!"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Cursuri de vară"}
+                                          </span>
+                                          <p>
+                                            {"☀️ VARA ACEASTA CĂLĂTORIM ÎN JURUL LUMII… ÎN PAȘI DE DANS! 🌍💃🕺 Cursuri de vară pentru copii În perioada 22 iunie"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Vezi cursul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+                                    </div>
+                                    <div className={"card-grid-more"}>
+                                      <button type={"button"} className={"grid-more-button"} aria-controls={"card-grid-0"} aria-expanded={"false"} data-expand-card-grid={"true"}>
+                                        {"Vezi mai mult"}
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div>
+              <div>
+                <div></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </article>
+  </ContentPageLayout>;
+}

@@ -1,4 +1,14 @@
-# Welcome to your Lovable project
+# Pro Erudio
+
+## Pagini locale
+
+Fiecare pagină accesibilă are propriul folder `src/pages/<nume>/index.tsx`, cu conținut JSX editabil. `src/data/pages.json` conține doar metadatele și asocierea dintre URL și folder; `src/data/route-aliases.json` păstrează adresele alternative. Pagina 404 se află în `src/pages/not-found`.
+
+`ContentPageLayout` gestionează structura comună și galeriile. Meniul, subsolul și bara laterală rămân componente comune. Imaginile locale sunt în `src/assets`; imaginile găzduite pe site-ul anterior își păstrează URL-urile.
+
+Build-ul nu importă pagini WordPress și nu descarcă HTML. `npm run build` compilează paginile React și generează HTML static și sitemap din aceleași componente. `npm run build:github` aplică și prefixul de găzduire GitHub Pages.
+
+Au fost păstrate paginile accesibile din meniuri, carduri, liste extinse și linkurile din conținut. Arhivele automate, paginile de atașamente și paginile fără legături din interfață nu mai sunt publicate.
 
 ## Project info
 

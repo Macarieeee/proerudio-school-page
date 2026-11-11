@@ -1,4 +1,4 @@
-import pages from '@/data/wordpress-manifest.json';
+import pages from '@/data/pages.json';
 
 type Props = { slug: string; title: string; summary?: string; image?: string };
 

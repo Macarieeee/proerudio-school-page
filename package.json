@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/prepare-content.cjs && vite build && node scripts/build-static-pages.cjs",
+    "build": "vite build && vite build --ssr scripts/render-pages.tsx --outDir dist-ssr && node scripts/build-static-pages.cjs",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "homepage": "https://Macarieeee.github.io/proerudio-school-page",

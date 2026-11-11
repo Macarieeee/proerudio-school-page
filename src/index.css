@@ -20,16 +20,16 @@
   img, video, iframe { max-width: 100%; }
 }
 
-.wordpress-content { min-width: 0; }
-.wordpress-content :where(div, section, figure, form) { min-width: 0; }
-.wordpress-content :where(figure, form) { max-width: 100%; }
-.wordpress-content table {
+.page-content { min-width: 0; }
+.page-content :where(div, section, figure, form) { min-width: 0; }
+.page-content :where(figure, form) { max-width: 100%; }
+.page-content table {
   display: block;
   max-width: 100%;
   overflow-x: auto;
   overscroll-behavior-inline: contain;
 }
-.wordpress-content :where(input, select, textarea) { max-width: 100%; }
+.page-content :where(input, select, textarea) { max-width: 100%; }
 
 
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
@@ -132,19 +132,19 @@ All colors MUST be HSL.
 }
 
 /* Galeriile importate trebuie să rămână independente de stilurile WordPress. */
-div.wordpress-gallery {
+div.photo-gallery {
   display: grid !important;
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   gap: 0.75rem !important;
   width: 100% !important;
 }
 
-div.wordpress-gallery > a {
+div.photo-gallery > a {
   display: block !important;
   min-width: 0 !important;
 }
 
-div.wordpress-gallery > a > img {
+div.photo-gallery > a > img {
   display: block !important;
   width: 100% !important;
   height: auto !important;
@@ -153,7 +153,7 @@ div.wordpress-gallery > a > img {
 }
 
 @media (min-width: 768px) {
-  div.wordpress-gallery {
+  div.photo-gallery {
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   }
 }
@@ -161,10 +161,10 @@ div.wordpress-gallery > a > img {
 @layer components {
   .related-content-grid > [hidden], .registration-course-grid > [hidden] { display: none !important; }
   .card-grid-more { @apply mt-6 flex justify-center; }
-  .imported-grid-more-button {
+  .grid-more-button {
     @apply inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-6 text-sm font-medium text-foreground shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground;
   }
-  .imported-grid-more-button:focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 2px; }
+  .grid-more-button:focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 2px; }
   .related-content-grid { @apply grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3; }
   .related-content-card {
     @apply flex h-full min-w-0 flex-col overflow-hidden rounded-xl border bg-background shadow-sm;
@@ -198,101 +198,101 @@ div.wordpress-gallery > a > img {
     .related-content-card, .related-content-media::before, .related-content-action span { transition: none; }
     .related-content-card:hover, .related-content-card:hover .related-content-action span { transform: none; }
   }
-  .wordpress-content {
+  .page-content {
     @apply text-base leading-8 text-muted-foreground;
   }
 
-  .wordpress-content > *:first-child {
+  .page-content > *:first-child {
     @apply mt-0;
   }
 
-  .wordpress-content h2,
-  .wordpress-content h3,
-  .wordpress-content h4,
-  .wordpress-content h5 {
+  .page-content h2,
+  .page-content h3,
+  .page-content h4,
+  .page-content h5 {
     @apply mt-10 mb-4 font-bold leading-tight text-foreground;
   }
 
-  .wordpress-content h2 { @apply border-l-4 border-primary pl-4 text-3xl text-primary; }
-  .wordpress-content h3 { @apply text-3xl text-primary; }
-  .wordpress-content h4 { @apply text-2xl text-primary; }
-  .wordpress-content h5 { @apply text-xl text-primary; }
-  .wordpress-content p { @apply my-5; }
-  .wordpress-content > div > p:first-of-type {
+  .page-content h2 { @apply border-l-4 border-primary pl-4 text-3xl text-primary; }
+  .page-content h3 { @apply text-3xl text-primary; }
+  .page-content h4 { @apply text-2xl text-primary; }
+  .page-content h5 { @apply text-xl text-primary; }
+  .page-content p { @apply my-5; }
+  .page-content > div > p:first-of-type {
     @apply rounded-r-lg border-l-4 border-primary px-5 py-4 text-foreground;
     background-color: hsl(213 85% 91%);
   }
-  .wordpress-content strong { @apply font-semibold text-primary; }
-  .wordpress-content a { @apply font-medium text-primary underline decoration-primary/30 underline-offset-4 transition-colors hover:decoration-primary; }
-  .wordpress-content ul,
-  .wordpress-content ol { @apply my-5 space-y-2 pl-6; }
-  .wordpress-content ul { @apply list-disc; }
-  .wordpress-content ol { @apply list-decimal; }
-  .wordpress-content li::marker { @apply text-primary; }
-  .wordpress-content blockquote { @apply my-8 rounded-r-lg border-l-4 border-secondary bg-secondary/10 px-6 py-4 text-lg italic text-foreground; }
-  .wordpress-content img { @apply my-8 h-auto max-w-full rounded-xl border object-cover shadow-sm; }
-  .wordpress-content .wordpress-gallery {
+  .page-content strong { @apply font-semibold text-primary; }
+  .page-content a { @apply font-medium text-primary underline decoration-primary/30 underline-offset-4 transition-colors hover:decoration-primary; }
+  .page-content ul,
+  .page-content ol { @apply my-5 space-y-2 pl-6; }
+  .page-content ul { @apply list-disc; }
+  .page-content ol { @apply list-decimal; }
+  .page-content li::marker { @apply text-primary; }
+  .page-content blockquote { @apply my-8 rounded-r-lg border-l-4 border-secondary bg-secondary/10 px-6 py-4 text-lg italic text-foreground; }
+  .page-content img { @apply my-8 h-auto max-w-full rounded-xl border object-cover shadow-sm; }
+  .page-content .photo-gallery {
     display: grid !important;
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     gap: 0.75rem !important;
     margin: 2rem 0 !important;
   }
   @media (min-width: 768px) {
-    .wordpress-content .wordpress-gallery {
+    .page-content .photo-gallery {
       grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     }
   }
-  .wordpress-content .wordpress-gallery a { @apply block overflow-hidden rounded-xl border bg-muted no-underline shadow-sm; }
-  .wordpress-content .wordpress-gallery img { @apply m-0 aspect-[4/3] h-full w-full rounded-none border-0 object-cover shadow-none transition-transform duration-300 hover:scale-105; }
-  .wordpress-content iframe { @apply my-8 aspect-video h-auto w-full rounded-xl border shadow-sm; }
-  .wordpress-content svg { @apply inline-block h-5 w-5; }
-  .wordpress-content .registration-course-grid {
+  .page-content .photo-gallery a { @apply block overflow-hidden rounded-xl border bg-muted no-underline shadow-sm; }
+  .page-content .photo-gallery img { @apply m-0 aspect-[4/3] h-full w-full rounded-none border-0 object-cover shadow-none transition-transform duration-300 hover:scale-105; }
+  .page-content iframe { @apply my-8 aspect-video h-auto w-full rounded-xl border shadow-sm; }
+  .page-content svg { @apply inline-block h-5 w-5; }
+  .page-content .registration-course-grid {
     @apply my-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3;
   }
-  .wordpress-content .registration-course-card {
+  .page-content .registration-course-card {
     @apply flex h-full flex-col overflow-hidden rounded-2xl border bg-background no-underline shadow-sm;
     color: hsl(var(--foreground));
     transition: transform 250ms ease, box-shadow 250ms ease, border-color 250ms ease;
   }
-  .wordpress-content .registration-course-card:hover {
+  .page-content .registration-course-card:hover {
     @apply border-primary/40 shadow-xl;
     transform: translateY(-5px);
   }
-  .wordpress-content .registration-course-card:focus-visible {
+  .page-content .registration-course-card:focus-visible {
     outline: 3px solid hsl(var(--primary));
     outline-offset: 4px;
   }
-  .wordpress-content .registration-course-media { @apply aspect-[16/10] overflow-hidden bg-muted; }
-  .wordpress-content .registration-course-media img {
+  .page-content .registration-course-media { @apply aspect-[16/10] overflow-hidden bg-muted; }
+  .page-content .registration-course-media img {
     @apply m-0 h-full w-full rounded-none border-0 object-cover shadow-none;
     transition: transform 400ms ease;
   }
-  .wordpress-content .registration-course-card:hover img { transform: scale(1.045); }
-  .wordpress-content .registration-course-body { @apply flex flex-1 flex-col gap-6 p-5; }
-  .wordpress-content .registration-course-body h3 {
+  .page-content .registration-course-card:hover img { transform: scale(1.045); }
+  .page-content .registration-course-body { @apply flex flex-1 flex-col gap-6 p-5; }
+  .page-content .registration-course-body h3 {
     @apply m-0 border-0 p-0 text-lg font-bold leading-snug text-foreground;
   }
-  .wordpress-content .registration-course-action { @apply mt-auto flex items-center justify-between gap-3 text-sm font-semibold text-primary; }
-  .wordpress-content .registration-course-action span { transition: transform 250ms ease; }
-  .wordpress-content .registration-course-card:hover .registration-course-action span { transform: translateX(4px); }
+  .page-content .registration-course-action { @apply mt-auto flex items-center justify-between gap-3 text-sm font-semibold text-primary; }
+  .page-content .registration-course-action span { transition: transform 250ms ease; }
+  .page-content .registration-course-card:hover .registration-course-action span { transform: translateX(4px); }
   @media (prefers-reduced-motion: reduce) {
-    .wordpress-content .registration-course-card,
-    .wordpress-content .registration-course-card img,
-    .wordpress-content .registration-course-action span { transition: none; }
-    .wordpress-content .registration-course-card:hover,
-    .wordpress-content .registration-course-card:hover img,
-    .wordpress-content .registration-course-card:hover .registration-course-action span { transform: none; }
+    .page-content .registration-course-card,
+    .page-content .registration-course-card img,
+    .page-content .registration-course-action span { transition: none; }
+    .page-content .registration-course-card:hover,
+    .page-content .registration-course-card:hover img,
+    .page-content .registration-course-card:hover .registration-course-action span { transform: none; }
   }
-  .wordpress-content .migration-form { @apply my-8 rounded-xl border border-primary/20 bg-primary/5 p-6; }
-  .wordpress-content table { @apply my-8 w-full border-collapse overflow-hidden rounded-lg text-left text-sm; }
-  .wordpress-content th,
-  .wordpress-content td { @apply border px-4 py-3; }
-  .wordpress-content tbody tr { @apply bg-muted/40 text-foreground; }
-  .wordpress-content thead tr,
-  .wordpress-content table:not(:has(thead)) > tbody > tr:first-child { @apply bg-primary text-primary-foreground; }
-  .wordpress-content thead strong,
-  .wordpress-content table:not(:has(thead)) > tbody > tr:first-child strong { @apply text-primary-foreground; }
-  .wordpress-content hr { @apply my-10 border-primary/20; }
+  .page-content .migration-form { @apply my-8 rounded-xl border border-primary/20 bg-primary/5 p-6; }
+  .page-content table { @apply my-8 w-full border-collapse overflow-hidden rounded-lg text-left text-sm; }
+  .page-content th,
+  .page-content td { @apply border px-4 py-3; }
+  .page-content tbody tr { @apply bg-muted/40 text-foreground; }
+  .page-content thead tr,
+  .page-content table:not(:has(thead)) > tbody > tr:first-child { @apply bg-primary text-primary-foreground; }
+  .page-content thead strong,
+  .page-content table:not(:has(thead)) > tbody > tr:first-child strong { @apply text-primary-foreground; }
+  .page-content hr { @apply my-10 border-primary/20; }
 }
 
 @layer base {
@@ -306,7 +306,7 @@ div.wordpress-gallery > a > img {
 }
 
 /* Shared course offers in both imported page renderers. */
-.wordpress-content .course-details-panel {
+.page-content .course-details-panel {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   margin: 2.5rem 0;
@@ -316,15 +316,15 @@ div.wordpress-gallery > a > img {
   background: hsl(var(--card));
   box-shadow: 0 16px 48px -24px hsl(var(--primary) / .35);
 }
-.wordpress-content .course-details-header {
+.page-content .course-details-header {
   grid-row: span 2;
   padding: 2rem;
   color: hsl(var(--primary-foreground));
   background: linear-gradient(145deg, hsl(215 65% 22%), hsl(var(--primary)));
 }
-.wordpress-content .course-details-header h2,
-.wordpress-content .course-details-header h3,
-.wordpress-content .course-details-header h4 {
+.page-content .course-details-header h2,
+.page-content .course-details-header h3,
+.page-content .course-details-header h4 {
   margin: 1.5rem 0;
   padding: 0;
   border: 0;
@@ -333,7 +333,7 @@ div.wordpress-gallery > a > img {
   line-height: 1.2;
   letter-spacing: -.035em;
 }
-.wordpress-content .course-details-photo img {
+.page-content .course-details-photo img {
   width: 100%;
   aspect-ratio: 16 / 10;
   margin: 0;
@@ -342,27 +342,27 @@ div.wordpress-gallery > a > img {
   object-fit: cover;
   box-shadow: none;
 }
-.wordpress-content .course-price {
+.page-content .course-price {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   gap: .4rem;
 }
-.wordpress-content .course-price > span {
+.page-content .course-price > span {
   order: -1;
   font-size: clamp(2.75rem, 5vw, 3.75rem);
   font-weight: 750;
   line-height: 1.1;
   letter-spacing: -.055em;
 }
-.wordpress-content .course-price sup { top: 0; font-size: 1rem; line-height: 1.5; }
-.wordpress-content .course-price sup:last-child { flex-basis: 100%; margin-top: .4rem; opacity: .8; font-size: .9rem; }
-.wordpress-content .course-details-header hr { margin: 1.5rem 0; border-color: hsl(0 0% 100% / .2); }
-.wordpress-content .course-details-header p { margin: 0; }
-.wordpress-content .course-details-header big { font-size: .7rem; font-weight: 600; letter-spacing: .13em; }
-.wordpress-content .course-details-facts { padding: 1.75rem 1.75rem .5rem; min-width: 0; }
-.wordpress-content .course-details-facts ul { list-style: none; padding: 0; margin: 0 0 .75rem; }
-.wordpress-content .course-fact {
+.page-content .course-price sup { top: 0; font-size: 1rem; line-height: 1.5; }
+.page-content .course-price sup:last-child { flex-basis: 100%; margin-top: .4rem; opacity: .8; font-size: .9rem; }
+.page-content .course-details-header hr { margin: 1.5rem 0; border-color: hsl(0 0% 100% / .2); }
+.page-content .course-details-header p { margin: 0; }
+.page-content .course-details-header big { font-size: .7rem; font-weight: 600; letter-spacing: .13em; }
+.page-content .course-details-facts { padding: 1.75rem 1.75rem .5rem; min-width: 0; }
+.page-content .course-details-facts ul { list-style: none; padding: 0; margin: 0 0 .75rem; }
+.page-content .course-fact {
   position: relative;
   min-height: 4.5rem;
   padding: 1rem 1rem 1rem 4rem;
@@ -373,9 +373,9 @@ div.wordpress-gallery > a > img {
   font-size: .95rem;
   line-height: 1.6;
 }
-.wordpress-content .course-fact strong { display: block; font-size: .72rem; color: hsl(var(--muted-foreground)); letter-spacing: .04em; }
-.wordpress-content .course-fact > br, .wordpress-content .course-fact strong + br { display: none; }
-.wordpress-content .course-fact-icon {
+.page-content .course-fact strong { display: block; font-size: .72rem; color: hsl(var(--muted-foreground)); letter-spacing: .04em; }
+.page-content .course-fact > br, .page-content .course-fact strong + br { display: none; }
+.page-content .course-fact-icon {
   position: absolute;
   left: 1rem;
   top: 1.1rem;
@@ -387,18 +387,18 @@ div.wordpress-gallery > a > img {
   background: hsl(var(--primary) / .08);
   color: hsl(var(--primary));
 }
-.wordpress-content .course-details-facts p { margin: 1rem 0; font-size: .8rem; line-height: 1.7; }
-.wordpress-content .course-details-facts p strong { color: hsl(var(--muted-foreground)); font-weight: 500; }
-.wordpress-content .course-details-facts mark {
+.page-content .course-details-facts p { margin: 1rem 0; font-size: .8rem; line-height: 1.7; }
+.page-content .course-details-facts p strong { color: hsl(var(--muted-foreground)); font-weight: 500; }
+.page-content .course-details-facts mark {
   display: block;
   padding: .85rem 1rem;
   border-radius: .75rem;
   background: hsl(var(--secondary) / .12);
   color: hsl(var(--secondary));
 }
-.wordpress-content .course-details-facts mark strong { color: inherit; font-weight: 600; }
-.wordpress-content .course-details-footer { padding: .5rem 1.75rem 1.75rem; align-self: end; }
-.wordpress-content a.course-enroll-button {
+.page-content .course-details-facts mark strong { color: inherit; font-weight: 600; }
+.page-content .course-details-footer { padding: .5rem 1.75rem 1.75rem; align-self: end; }
+.page-content a.course-enroll-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -413,11 +413,11 @@ div.wordpress-gallery > a > img {
   font-weight: 650;
   box-shadow: 0 6px 18px -8px hsl(var(--primary) / .6);
 }
-.wordpress-content a.course-enroll-button::after { content: '→'; font-size: 1.35rem; }
-.wordpress-content a.course-enroll-button:hover { background: hsl(215 70% 32%); }
-.wordpress-content a.course-enroll-button:focus-visible,
-.wordpress-content .course-share-links a:focus-visible { outline: 3px solid hsl(var(--accent)); outline-offset: 4px; }
-.wordpress-content .course-schedule {
+.page-content a.course-enroll-button::after { content: '→'; font-size: 1.35rem; }
+.page-content a.course-enroll-button:hover { background: hsl(215 70% 32%); }
+.page-content a.course-enroll-button:focus-visible,
+.page-content .course-share-links a:focus-visible { outline: 3px solid hsl(var(--accent)); outline-offset: 4px; }
+.page-content .course-schedule {
   margin: 2rem 0;
   padding: 1.5rem 1.75rem;
   border: 1px solid hsl(var(--primary) / .15);
@@ -425,23 +425,23 @@ div.wordpress-gallery > a > img {
   border-radius: 1rem;
   background: linear-gradient(110deg, hsl(var(--muted)), hsl(var(--background)));
 }
-.wordpress-content .course-schedule h4 { margin: 0 0 .5rem; font-size: 1.15rem; color: hsl(var(--foreground)); }
-.wordpress-content .course-schedule p { margin: 0; font-size: 1rem; }
-.wordpress-content .course-share { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid hsl(var(--border)); font-size: .8rem; color: hsl(var(--muted-foreground)); }
-.wordpress-content ul.course-share-links { display: flex; flex-wrap: wrap; gap: .5rem; margin: .75rem 0 0; padding: 0; list-style: none; }
-.wordpress-content .course-share-links li { margin: 0; }
-.wordpress-content .course-share-links a { display: inline-flex; align-items: center; gap: .5rem; min-height: 2.75rem; padding: .55rem .8rem; border: 1px solid hsl(var(--border)); border-radius: 999px; text-decoration: none; font-size: .75rem; color: hsl(var(--foreground)); }
-.wordpress-content .course-share-links a:hover { background: hsl(var(--muted)); }
-.wordpress-content .course-share-links a > span:first-child { display: none; }
-.wordpress-content .course-share-links svg { width: 1rem; height: 1rem; }
+.page-content .course-schedule h4 { margin: 0 0 .5rem; font-size: 1.15rem; color: hsl(var(--foreground)); }
+.page-content .course-schedule p { margin: 0; font-size: 1rem; }
+.page-content .course-share { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid hsl(var(--border)); font-size: .8rem; color: hsl(var(--muted-foreground)); }
+.page-content ul.course-share-links { display: flex; flex-wrap: wrap; gap: .5rem; margin: .75rem 0 0; padding: 0; list-style: none; }
+.page-content .course-share-links li { margin: 0; }
+.page-content .course-share-links a { display: inline-flex; align-items: center; gap: .5rem; min-height: 2.75rem; padding: .55rem .8rem; border: 1px solid hsl(var(--border)); border-radius: 999px; text-decoration: none; font-size: .75rem; color: hsl(var(--foreground)); }
+.page-content .course-share-links a:hover { background: hsl(var(--muted)); }
+.page-content .course-share-links a > span:first-child { display: none; }
+.page-content .course-share-links svg { width: 1rem; height: 1rem; }
 @media (max-width: 640px) {
-  .wordpress-content .course-details-panel { grid-template-columns: minmax(0, 1fr); border-radius: 1rem; }
-  .wordpress-content .course-details-header { grid-row: auto; padding: 1.5rem; }
-  .wordpress-content .course-details-facts { padding: 1.25rem 1rem .25rem; }
-  .wordpress-content .course-details-footer { padding: .5rem 1rem 1.25rem; }
-  .wordpress-content .course-details-photo img { aspect-ratio: 2 / 1; }
+  .page-content .course-details-panel { grid-template-columns: minmax(0, 1fr); border-radius: 1rem; }
+  .page-content .course-details-header { grid-row: auto; padding: 1.5rem; }
+  .page-content .course-details-facts { padding: 1.25rem 1rem .25rem; }
+  .page-content .course-details-footer { padding: .5rem 1rem 1.25rem; }
+  .page-content .course-details-photo img { aspect-ratio: 2 / 1; }
 }
-.wordpress-content .course-details-photo { background-size: cover; background-position: center; border-radius: 1rem; }
+.page-content .course-details-photo { background-size: cover; background-position: center; border-radius: 1rem; }
 
 /* Shared detail pages: left-aligned content and a viewport-sized resource rail. */
 .detail-layout {
@@ -495,13 +495,13 @@ div.wordpress-gallery > a > img {
 }
 @media (prefers-reduced-motion: reduce) { .detail-sidebar-card > img { transition: none; } }
 
-.wordpress-content .team-grid {
+.page-content .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
   gap: 1.25rem;
   margin-block: 2rem;
 }
-.wordpress-content a.team-card {
+.page-content a.team-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -514,7 +514,7 @@ div.wordpress-gallery > a > img {
   box-shadow: 0 4px 16px hsl(var(--primary) / .06);
   transition: transform 200ms ease, box-shadow 200ms ease;
 }
-.wordpress-content .team-card img {
+.page-content .team-card img {
   width: 112px;
   height: 112px;
   margin: 0 0 1.25rem;
@@ -524,24 +524,24 @@ div.wordpress-gallery > a > img {
   object-position: center 25%;
   box-shadow: 0 0 0 1px hsl(213 65% 83%), 0 6px 18px hsl(var(--primary) / .12);
 }
-.wordpress-content .team-card h3 { margin: 0 0 .65rem; font-size: 1.2rem; line-height: 1.3; color: hsl(var(--foreground)); }
+.page-content .team-card h3 { margin: 0 0 .65rem; font-size: 1.2rem; line-height: 1.3; color: hsl(var(--foreground)); }
 .team-card-role { font-size: .65rem; letter-spacing: .09em; line-height: 1.7; color: hsl(var(--primary)); }
 .team-card-badge { margin-top: .75rem; padding: .25rem .65rem; border-radius: 999px; background: hsl(213 85% 91%); color: hsl(var(--primary)); font-size: .6rem; letter-spacing: .06em; }
 .team-card-action { width: 100%; margin-top: auto; padding-top: 1.5rem; font-size: .75rem; font-weight: 600; color: hsl(var(--primary)); }
-.wordpress-content a.team-card:hover { transform: translateY(-3px); box-shadow: 0 10px 24px hsl(var(--primary) / .12); }
-.wordpress-content a.team-card:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
-@media (prefers-reduced-motion: reduce) { .wordpress-content a.team-card { transition: none; } .wordpress-content a.team-card:hover { transform: none; } }
+.page-content a.team-card:hover { transform: translateY(-3px); box-shadow: 0 10px 24px hsl(var(--primary) / .12); }
+.page-content a.team-card:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) { .page-content a.team-card { transition: none; } .page-content a.team-card:hover { transform: none; } }
 
-.wordpress-content .diplomas-facebook { margin-top: 3rem; padding: clamp(1rem, 3vw, 2rem); border: 1px solid hsl(213 75% 83%); border-radius: 1.5rem; background: linear-gradient(135deg, hsl(213 85% 93%), hsl(205 85% 98%)); }
+.page-content .diplomas-facebook { margin-top: 3rem; padding: clamp(1rem, 3vw, 2rem); border: 1px solid hsl(213 75% 83%); border-radius: 1.5rem; background: linear-gradient(135deg, hsl(213 85% 93%), hsl(205 85% 98%)); }
 .diplomas-facebook-label { display: inline-flex; align-items: center; gap: .5rem; color: hsl(var(--primary)); font-size: .75rem; font-weight: 700; }
-.wordpress-content .diplomas-facebook h2 { margin: 1rem 0; padding: 0; border: 0; font-size: clamp(1.4rem, 2.5vw, 1.9rem); }
-.wordpress-content .diplomas-facebook p { margin: 1rem 0; font-size: .95rem; line-height: 1.8; }
-.wordpress-content a.diplomas-facebook-button { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; padding: .85rem 1.1rem; border-radius: .75rem; background: hsl(var(--primary)); color: white; text-decoration: none; font-size: .85rem; font-weight: 600; }
-.wordpress-content a.diplomas-facebook-button:hover { background: hsl(215 70% 32%); }
-.wordpress-content a.diplomas-facebook-button:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
-.wordpress-content .diplomas-facebook .diplomas-facebook-note { font-size: .75rem; color: hsl(var(--muted-foreground)); }
+.page-content .diplomas-facebook h2 { margin: 1rem 0; padding: 0; border: 0; font-size: clamp(1.4rem, 2.5vw, 1.9rem); }
+.page-content .diplomas-facebook p { margin: 1rem 0; font-size: .95rem; line-height: 1.8; }
+.page-content a.diplomas-facebook-button { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; padding: .85rem 1.1rem; border-radius: .75rem; background: hsl(var(--primary)); color: white; text-decoration: none; font-size: .85rem; font-weight: 600; }
+.page-content a.diplomas-facebook-button:hover { background: hsl(215 70% 32%); }
+.page-content a.diplomas-facebook-button:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
+.page-content .diplomas-facebook .diplomas-facebook-note { font-size: .75rem; color: hsl(var(--muted-foreground)); }
 .diplomas-facebook-preview { width: 100%; max-width: 500px; margin: 1.5rem auto 0; overflow: hidden; border-radius: .75rem; background: white; box-shadow: 0 8px 24px hsl(var(--primary) / .1); }
-.wordpress-content .diplomas-facebook-preview iframe {
+.page-content .diplomas-facebook-preview iframe {
   display: block;
   margin: 0;
   padding: 0;
@@ -561,39 +561,39 @@ div.wordpress-gallery > a > img {
   .team-nav-entry:hover > .team-nav-submenu, .team-nav-entry:focus-within > .team-nav-submenu { display: block; }
   .team-nav-list { margin: 0; max-height: calc(100vh - 190px); overflow-y: auto; overscroll-behavior: contain; border: 1px solid hsl(var(--border)); border-radius: .75rem; background: hsl(var(--popover)); box-shadow: 0 12px 28px hsl(var(--foreground) / .15); }
 }
-.wordpress-content .team-profile-header { display: flex; align-items: center; gap: 2rem; padding: 1.5rem; margin-bottom: 2.5rem; border: 1px solid hsl(213 65% 86%); border-radius: 1.25rem; background: linear-gradient(120deg, hsl(213 85% 94%), hsl(var(--card))); }
-.wordpress-content .team-profile-header > img { flex: 0 0 auto; width: 180px; height: 220px; max-width: 100%; margin: 0; border-radius: 1rem; object-fit: cover; object-position: center 20%; }
-.wordpress-content .team-profile-header h2 { margin: 0 0 .75rem; padding: 0; border: 0; font-size: clamp(1.5rem, 3vw, 2rem); }
-.wordpress-content .team-profile-header h6 { margin: 0 0 1.25rem; font-size: .75rem; line-height: 1.7; letter-spacing: .06em; color: hsl(var(--muted-foreground)); }
-.wordpress-content .team-profile-header a { font-size: .8rem; }
-.wordpress-content img[data-good-deed-image] {
+.page-content .team-profile-header { display: flex; align-items: center; gap: 2rem; padding: 1.5rem; margin-bottom: 2.5rem; border: 1px solid hsl(213 65% 86%); border-radius: 1.25rem; background: linear-gradient(120deg, hsl(213 85% 94%), hsl(var(--card))); }
+.page-content .team-profile-header > img { flex: 0 0 auto; width: 180px; height: 220px; max-width: 100%; margin: 0; border-radius: 1rem; object-fit: cover; object-position: center 20%; }
+.page-content .team-profile-header h2 { margin: 0 0 .75rem; padding: 0; border: 0; font-size: clamp(1.5rem, 3vw, 2rem); }
+.page-content .team-profile-header h6 { margin: 0 0 1.25rem; font-size: .75rem; line-height: 1.7; letter-spacing: .06em; color: hsl(var(--muted-foreground)); }
+.page-content .team-profile-header a { font-size: .8rem; }
+.page-content img[data-good-deed-image] {
   display: block;
   width: min(100%, 420px);
   height: auto;
   margin: 1.5rem auto;
 }
-@media (max-width: 640px) { .wordpress-content .team-profile-header { flex-direction: column; align-items: flex-start; gap: 1.25rem; padding: 1.25rem; } .wordpress-content .team-profile-header > img { width: 140px; height: 175px; } }
+@media (max-width: 640px) { .page-content .team-profile-header { flex-direction: column; align-items: flex-start; gap: 1.25rem; padding: 1.25rem; } .page-content .team-profile-header > img { width: 140px; height: 175px; } }
 
-.wordpress-content a.course-overview-card { display: grid; grid-template-columns: minmax(180px, 32%) minmax(0, 1fr); margin-block: 1.5rem; overflow: hidden; border: 1px solid hsl(213 65% 86%); border-radius: 1.25rem; background: linear-gradient(120deg, hsl(213 85% 95%), hsl(var(--card)) 70%); text-decoration: none; box-shadow: 0 4px 18px hsl(var(--primary) / .06); transition: box-shadow 200ms ease, border-color 200ms ease; }
+.page-content a.course-overview-card { display: grid; grid-template-columns: minmax(180px, 32%) minmax(0, 1fr); margin-block: 1.5rem; overflow: hidden; border: 1px solid hsl(213 65% 86%); border-radius: 1.25rem; background: linear-gradient(120deg, hsl(213 85% 95%), hsl(var(--card)) 70%); text-decoration: none; box-shadow: 0 4px 18px hsl(var(--primary) / .06); transition: box-shadow 200ms ease, border-color 200ms ease; }
 .course-overview-photo { display: flex; align-items: center; padding: 1rem; }
-.wordpress-content .course-overview-photo img { width: 100%; height: auto; aspect-ratio: 504 / 315; object-fit: cover; margin: 0; border: 0; border-radius: .85rem; box-shadow: none; }
+.page-content .course-overview-photo img { width: 100%; height: auto; aspect-ratio: 504 / 315; object-fit: cover; margin: 0; border: 0; border-radius: .85rem; box-shadow: none; }
 .course-overview-body { display: flex; flex-direction: column; align-items: flex-start; padding: 1.75rem; }
-.wordpress-content .course-overview-body h3 { margin: 0 0 .75rem; font-size: clamp(1.1rem, 2vw, 1.5rem); line-height: 1.3; color: hsl(var(--foreground)); }
-.wordpress-content .course-overview-body p { margin: 0 0 .75rem; padding: 0; border: 0; background: none; font-size: .9rem; line-height: 1.75; font-weight: 400; color: hsl(var(--muted-foreground)); }
-.wordpress-content .course-overview-body p:first-of-type { color: hsl(var(--primary)); font-weight: 600; }
+.page-content .course-overview-body h3 { margin: 0 0 .75rem; font-size: clamp(1.1rem, 2vw, 1.5rem); line-height: 1.3; color: hsl(var(--foreground)); }
+.page-content .course-overview-body p { margin: 0 0 .75rem; padding: 0; border: 0; background: none; font-size: .9rem; line-height: 1.75; font-weight: 400; color: hsl(var(--muted-foreground)); }
+.page-content .course-overview-body p:first-of-type { color: hsl(var(--primary)); font-weight: 600; }
 .course-overview-action { display: inline-flex; gap: .5rem; margin-top: auto; padding-top: .75rem; font-size: .85rem; font-weight: 700; color: hsl(var(--primary)); }
-.wordpress-content a.course-overview-card:hover { border-color: hsl(var(--primary) / .5); box-shadow: 0 10px 26px hsl(var(--primary) / .12); }
-.wordpress-content a.course-overview-card:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
-@media (max-width: 640px) { .wordpress-content a.course-overview-card { grid-template-columns: minmax(0, 1fr); } .course-overview-photo { padding-bottom: 0; } .course-overview-body { padding: 1.25rem; } }
-@media (prefers-reduced-motion: reduce) { .wordpress-content a.course-overview-card { transition: none; } }
+.page-content a.course-overview-card:hover { border-color: hsl(var(--primary) / .5); box-shadow: 0 10px 26px hsl(var(--primary) / .12); }
+.page-content a.course-overview-card:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
+@media (max-width: 640px) { .page-content a.course-overview-card { grid-template-columns: minmax(0, 1fr); } .course-overview-photo { padding-bottom: 0; } .course-overview-body { padding: 1.25rem; } }
+@media (prefers-reduced-motion: reduce) { .page-content a.course-overview-card { transition: none; } }
 
-.wordpress-content .mock-tests-grid {
+.page-content .mock-tests-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
   gap: 1.25rem;
   margin-block: 2rem;
 }
-.wordpress-content .mock-test-card {
+.page-content .mock-test-card {
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -604,23 +604,23 @@ div.wordpress-gallery > a > img {
   background: linear-gradient(155deg, hsl(213 85% 95%), hsl(var(--card)) 70%);
   box-shadow: 0 4px 18px hsl(var(--primary) / .07);
 }
-.wordpress-content .mock-test-card h3 { margin: 0 0 1rem; font-size: 1.35rem; line-height: 1.35; }
-.wordpress-content .mock-test-card p { margin: 0 0 1.5rem; padding: 0; border: 0; background: none; font-size: .95rem; line-height: 1.8; color: hsl(var(--muted-foreground)); }
-.wordpress-content .mock-test-card p:last-child { margin: auto 0 0; }
-.wordpress-content a.mock-test-button { display: flex; align-items: center; justify-content: center; min-height: 4.5rem; padding: .85rem 1rem; border-radius: .75rem; background: hsl(var(--primary)); color: white; font-size: .85rem; font-weight: 600; line-height: 1.5; text-align: center; text-decoration: none; }
-.wordpress-content a.mock-test-button:hover { background: hsl(215 70% 32%); }
-.wordpress-content a.mock-test-button:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
+.page-content .mock-test-card h3 { margin: 0 0 1rem; font-size: 1.35rem; line-height: 1.35; }
+.page-content .mock-test-card p { margin: 0 0 1.5rem; padding: 0; border: 0; background: none; font-size: .95rem; line-height: 1.8; color: hsl(var(--muted-foreground)); }
+.page-content .mock-test-card p:last-child { margin: auto 0 0; }
+.page-content a.mock-test-button { display: flex; align-items: center; justify-content: center; min-height: 4.5rem; padding: .85rem 1rem; border-radius: .75rem; background: hsl(var(--primary)); color: white; font-size: .85rem; font-weight: 600; line-height: 1.5; text-align: center; text-decoration: none; }
+.page-content a.mock-test-button:hover { background: hsl(215 70% 32%); }
+.page-content a.mock-test-button:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
 
-.wordpress-content .summer-course-posters { width: 100%; max-width: 480px; margin: 0 auto 2rem; }
-.wordpress-content .summer-course-posters figure { margin: 0; min-width: 0; }
-.wordpress-content .summer-course-posters img { width: 100%; height: 220px; object-fit: contain; margin: 0; border-radius: 1rem; background: hsl(var(--muted)); }
-.wordpress-content .summer-category-grid { margin-block: 2rem; }
+.page-content .summer-course-posters { width: 100%; max-width: 480px; margin: 0 auto 2rem; }
+.page-content .summer-course-posters figure { margin: 0; min-width: 0; }
+.page-content .summer-course-posters img { width: 100%; height: 220px; object-fit: contain; margin: 0; border-radius: 1rem; background: hsl(var(--muted)); }
+.page-content .summer-category-grid { margin-block: 2rem; }
 
 .mobile-page-intro { max-width: 56rem; margin-inline: auto; padding: 1.5rem 1rem 0; }
-.wordpress-content .mobile-page-intro { padding: 0; margin-bottom: 1.5rem; }
+.page-content .mobile-page-intro { padding: 0; margin-bottom: 1.5rem; }
 .mobile-page-intro > img { display: block; width: 100%; max-width: 480px; height: auto; margin: 0 auto 1.5rem; border-radius: .75rem; }
 .mobile-page-intro > h1, .mobile-page-intro > p { display: none; }
-.wordpress-content .original-intro-image { display: none; }
+.page-content .original-intro-image { display: none; }
 @media (min-width: 1280px) {
   .mobile-page-intro-no-image { display: none; }
 }
@@ -660,11 +660,11 @@ div.wordpress-gallery > a > img {
   .site-header > div:first-child .animate-pulse { flex-shrink: 0; }
   .site-header > div:last-child > div:first-child { height: 4rem; gap: .5rem; }
   .detail-layout { padding-inline: .75rem; gap: 1.5rem; }
-  .detail-layout .wordpress-content { padding: 1rem; border-radius: .75rem; line-height: 1.75; }
-  .wordpress-content h2, .wordpress-content h3 { font-size: 1.5rem; }
-  .wordpress-content h4 { font-size: 1.25rem; }
-  .wordpress-content blockquote, .wordpress-content .migration-form,
-  .wordpress-content .course-schedule { padding: 1rem; }
-  .wordpress-content :where(input, select, textarea) { font-size: 1rem; }
+  .detail-layout .page-content { padding: 1rem; border-radius: .75rem; line-height: 1.75; }
+  .page-content h2, .page-content h3 { font-size: 1.5rem; }
+  .page-content h4 { font-size: 1.25rem; }
+  .page-content blockquote, .page-content .migration-form,
+  .page-content .course-schedule { padding: 1rem; }
+  .page-content :where(input, select, textarea) { font-size: 1rem; }
   main a.inline-flex { white-space: normal; height: auto; min-height: 2.75rem; text-align: center; }
 }
