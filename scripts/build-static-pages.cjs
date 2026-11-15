@@ -10,12 +10,15 @@ process.chdir(path.resolve(__dirname, '..'));
   const template = fs.readFileSync('dist/index.html', 'utf8').replace(/<meta\s+(?:property|name)="(?:og:|twitter:)[^"]*"[^>]*>/gi, '');
   const escape = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
   const base = (process.env.VITE_BASE_PATH || '/').replace(/\/$/, '');
-  const localize = html => html.replace(/href="([^"]+)"/g, (match, href) => {
-    const url = new URL(href, 'https://www.proerudio.ro');
-    if (!['proerudio.ro', 'www.proerudio.ro'].includes(url.hostname)) return match;
-    const route = url.pathname.replace(/\/$/, '') + '/';
-    const target = aliases[route] || route;
-    return pages.some(page => page.path === target) ? `href="${base}${target}${url.search}${url.hash}"` : match;
+  const localize = html => html.replace(/<a\b[^>]*>/g, anchor => {
+    if (/\bdata-original-form=/.test(anchor)) return anchor;
+    return anchor.replace(/href="([^"]+)"/g, (match, href) => {
+      const url = new URL(href, 'https://www.proerudio.ro');
+      if (!['proerudio.ro', 'www.proerudio.ro'].includes(url.hostname)) return match;
+      const route = url.pathname.replace(/\/$/, '') + '/';
+      const target = aliases[route] || route;
+      return pages.some(page => page.path === target) ? `href="${base}${target}${url.search}${url.hash}"` : match;
+    });
   });
   const directoryFor = route => {
     const directory = path.resolve('dist', '.' + decodeURIComponent(route));

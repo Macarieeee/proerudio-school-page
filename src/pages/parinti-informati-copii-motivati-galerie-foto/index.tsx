@@ -130,7 +130,7 @@ export default function Page() {
                                         </h3>
                                         <p></p>
                                         <p>
-                                          <a href={"/parinti-informati-copii-motivati-galerie-foto/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
+                                          <a href={"https://www.proerudio.ro/parinti-informati-copii-motivati-galerie-foto/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
                                             {"Vezi galeria foto pe site-ul original"}
                                           </a>
                                         </p>

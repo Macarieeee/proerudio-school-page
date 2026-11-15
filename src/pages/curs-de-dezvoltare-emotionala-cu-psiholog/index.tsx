@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={"curs-de-dezvoltare-emotionala-cu-psiholog"} title={"curs-de-dezvoltare-emotionala-cu-psiholog"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/09/Curs-de-dezvoltare-emotionala-cu-psiholog.jpg 870w, https://www.proerudio.ro/wp-content/uploads/2016/09/Curs-de-dezvoltare-emotionala-cu-psiholog-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/09/Curs-de-dezvoltare-emotionala-cu-psiholog-768x401.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/09/Curs-de-dezvoltare-emotionala-cu-psiholog-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/09/Curs-de-dezvoltare-emotionala-cu-psiholog-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/09/Curs-de-dezvoltare-emotionala-cu-psiholog-210x110.jpg 210w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/09/Curs-de-dezvoltare-emotionala-cu-psiholog.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -657,7 +657,7 @@ export default function Page() {
                           <div>
                             <div>
                               <h3>
-                                {"Alte cursuri"}
+                                {"Alte cursuri "}
                                 {"pentru copii:"}
                               </h3>
                             </div>

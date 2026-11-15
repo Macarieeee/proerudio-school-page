@@ -65,7 +65,7 @@ export default function Page() {
                 <div>
                   <div>
                     <div>
-                      <img alt={""} decoding={"async"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/12/atelier-1.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2016/12/atelier-1-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/12/atelier-1-768x402.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/12/atelier-1-1024x536.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2016/12/atelier-1-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/12/atelier-1-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/12/atelier-1-143x75.jpg 143w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/12/atelier-1-1200x628.jpg"} className={"original-intro-image"} />
+
                     </div>
                   </div>
                 </div>
@@ -84,7 +84,7 @@ export default function Page() {
                           <div>
                             <div>
                               <div>
-                                <p>
+                                <p className="event-partners">
                                   <span>
                                     {"Sezonul sărbătorilor se apropie cu paşi grăbiţi. Aşa cum v-am obişnuit, luna decembrie este luna cadourilor şi la Pro Erudio. Astfel, îi invităm pe copilaşi"}
                                     <strong>
@@ -179,7 +179,7 @@ export default function Page() {
                           <div>
                             <div>
                               <div>
-                                <p>
+                                <p className="event-partners">
                                   <span>
                                     {"Un eveniment organizat de"}
                                   </span>
@@ -189,7 +189,7 @@ export default function Page() {
                                     {"în parteneriat cu"}
                                   </span>
                                   <br />
-                                  <img decoding={"async"} alt={""} src={"https://www.proerudio.ro/wp-content/uploads/2016/12/puideom.jpg"} />
+
                                 </p>
                               </div>
                             </div>
@@ -201,27 +201,7 @@ export default function Page() {
                 </div>
               </div>
             </section>
-            <section>
-              <div>
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <img alt={"Pro Erudio"} srcSet={"https://secure.gravatar.com/avatar/9b35691c384795cb883b27c982457593d70acdaa9b1f728709135182675afa22?s=128&d=mm&r=g 2x"} decoding={"async"} src={"https://secure.gravatar.com/avatar/9b35691c384795cb883b27c982457593d70acdaa9b1f728709135182675afa22?s=64&d=mm&r=g"} />
-                      </div>
-                      <div>
-                        <h5>
-                          <a href={"/author/proerudio/"}>
-                            {"Pro Erudio"}
-                          </a>
-                        </h5>
-                        <div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
+
           </div>
         </article>
       </div>

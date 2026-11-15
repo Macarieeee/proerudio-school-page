@@ -63,7 +63,7 @@ export default function Page() {
                           <div>
                             <figure>
                               <div>
-                                <img decoding={"async"} alt={""} title={"editors-choice-square"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2025/05/editors-choice-square.jpg 628w, https://www.proerudio.ro/wp-content/uploads/2025/05/editors-choice-square-300x300.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2025/05/editors-choice-square-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2025/05/editors-choice-square-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2025/05/editors-choice-square-480x480.jpg 480w"} sizes={"(max-width:767px) 480px, 628px"} src={"https://www.proerudio.ro/wp-content/uploads/2025/05/editors-choice-square.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -323,7 +323,7 @@ export default function Page() {
                                   <div className={"course-details-panel"}>
                                     <div className={"course-details-header"}>
                                       <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                                        <img decoding={"async"} alt={"editors-choice-B"} src={"https://www.proerudio.ro/wp-content/uploads/2025/05/editors-choice-B.jpg"} />
+
                                       </div>
                                       <h2>
                                         {"Editors’ Club"}

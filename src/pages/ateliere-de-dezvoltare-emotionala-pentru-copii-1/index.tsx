@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"ateliere-de-dezvoltare-emotionala"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala-1024x536.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala-768x402.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala-143x75.jpg 143w, https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala-480x251.jpg 480w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} src={"https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala.jpg"} />
+
                               </div>
                             </figure>
                           </div>

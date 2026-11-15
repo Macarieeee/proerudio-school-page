@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"Cursuri-de-vara-de-limba-engleza-English-through-Songs"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-English-through-Songs.jpg 870w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-English-through-Songs-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-English-through-Songs-768x401.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-English-through-Songs-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-English-through-Songs-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-English-through-Songs-144x75.jpg 144w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-English-through-Songs.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -126,7 +126,7 @@ export default function Page() {
                                     <div>
                                       <ul>
                                         <li>
-                                          {"Să"}
+                                          {"Să "}
                                           {"îmbogățească vocabularul copiilor pe anumite teme;"}
                                         </li>
                                         <li>
@@ -136,7 +136,7 @@ export default function Page() {
                                           {"Să largească universul copiilor în ceea ce privește muzica și să cultive plăcerea de a asculta muzică de bună calitate;"}
                                         </li>
                                         <li>
-                                          {"Să conștientizeze copiii în privința resursei infinite pe care o constituie cântecele în învățarea limbii engleze și să le indice metode prin care acestea îi pot ajuta să"}
+                                          {"Să conștientizeze copiii în privința resursei infinite pe care o constituie cântecele în învățarea limbii engleze și să le indice metode prin care acestea îi pot ajuta să "}
                                           {"învețe limba engleză fără efort;"}
                                         </li>
                                       </ul>

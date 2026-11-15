@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"A World of Words 6-8 ani"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2026/05/A-World-of-Words-6-8-ani.png 1733w, https://www.proerudio.ro/wp-content/uploads/2026/05/A-World-of-Words-6-8-ani-300x157.png 300w, https://www.proerudio.ro/wp-content/uploads/2026/05/A-World-of-Words-6-8-ani-1024x537.png 1024w, https://www.proerudio.ro/wp-content/uploads/2026/05/A-World-of-Words-6-8-ani-768x402.png 768w, https://www.proerudio.ro/wp-content/uploads/2026/05/A-World-of-Words-6-8-ani-1536x805.png 1536w, https://www.proerudio.ro/wp-content/uploads/2026/05/A-World-of-Words-6-8-ani-143x75.png 143w, https://www.proerudio.ro/wp-content/uploads/2026/05/A-World-of-Words-6-8-ani-1199x628.png 1199w, https://www.proerudio.ro/wp-content/uploads/2026/05/A-World-of-Words-6-8-ani-480x251.png 480w"} sizes={"(max-width:767px) 480px, (max-width:1733px) 100vw, 1733px"} src={"https://www.proerudio.ro/wp-content/uploads/2026/05/A-World-of-Words-6-8-ani.png"} />
+
                               </div>
                             </figure>
                           </div>

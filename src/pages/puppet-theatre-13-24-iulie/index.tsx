@@ -158,7 +158,7 @@ export default function Page() {
                                 </h2>
                                 <p></p>
                                 <p>
-                                  <a href={"/puppet-theatre-13-24-iulie/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
+                                  <a href={"https://www.proerudio.ro/puppet-theatre-13-24-iulie/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
                                     {"Vezi galeria foto pe site-ul original"}
                                   </a>
                                 </p>

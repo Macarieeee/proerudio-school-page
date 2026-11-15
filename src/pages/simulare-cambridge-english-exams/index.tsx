@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"Cambridge-simulare2"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2026/01/Cambridge-simulare2-1.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2026/01/Cambridge-simulare2-1-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2026/01/Cambridge-simulare2-1-1024x536.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2026/01/Cambridge-simulare2-1-768x402.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2026/01/Cambridge-simulare2-1-143x75.jpg 143w, https://www.proerudio.ro/wp-content/uploads/2026/01/Cambridge-simulare2-1-480x251.jpg 480w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} src={"https://www.proerudio.ro/wp-content/uploads/2026/01/Cambridge-simulare2-1.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -135,7 +135,7 @@ export default function Page() {
                           <div>
                             <div>
                               <h3>
-                                {"1. Identificarea punctele forte şi"}
+                                {"1. Identificarea punctele forte şi "}
                                 {"a celor"}
                                 {"slabe"}
                               </h3>
@@ -180,7 +180,7 @@ export default function Page() {
                                 <strong>
                                   {"Raport individual de evaluare"}
                                 </strong>
-                                {", în care se vi se va recomanda înscrierea pentru o anumită sesiune de examene. Aceste rezultate sunt relevante pentru performanţa la examenul propriu-zis. Astfel, în urma susţinerii simulării putem face recomandarea pentru înscrierea la examen fără"}
+                                {", în care se vi se va recomanda înscrierea pentru o anumită sesiune de examene. Aceste rezultate sunt relevante pentru performanţa la examenul propriu-zis. Astfel, în urma susţinerii simulării putem face recomandarea pentru înscrierea la examen fără "}
                                 {"riscul unei evaluări subiective. Totuşi, participarea la simulare nu obligă în niciun fel candidatul să se înscrie la examenul plătit."}
                               </p>
                             </div>

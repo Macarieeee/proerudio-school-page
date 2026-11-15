@@ -48,7 +48,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"mos-nicolae2"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2019/11/mos-nicolae2.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2019/11/mos-nicolae2-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2019/11/mos-nicolae2-768x402.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2019/11/mos-nicolae2-1024x536.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2019/11/mos-nicolae2-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2019/11/mos-nicolae2-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2019/11/mos-nicolae2-143x75.jpg 143w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} src={"https://www.proerudio.ro/wp-content/uploads/2019/11/mos-nicolae2.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -181,7 +181,7 @@ export default function Page() {
                               </p>
                               <p>
                                 <span>
-                                  {"Va rugăm să NU faceţi rezervări telefonic sau la profesorul de la grupă"}
+                                  {"Va rugăm să NU faceţi rezervări telefonic sau la profesorul de la grupă "}
                                   {"pentru a nu crea situaţii incomode în ziua cursului. Avem rugămintea ca solicitările de rezervare de loc să fie făcute ferm pentru a oferi posibilitatea câtor mai mulţi copii de a interacţiona cu un profesor vorbitor nativ."}
                                 </span>
                               </p>

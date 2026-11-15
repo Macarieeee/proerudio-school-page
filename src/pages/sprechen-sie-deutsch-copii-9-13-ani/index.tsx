@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"Sprechen-und-Schreiben-Sie-Deutsch"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Sprechen-und-Schreiben-Sie-Deutsch.jpg 870w, https://www.proerudio.ro/wp-content/uploads/2016/01/Sprechen-und-Schreiben-Sie-Deutsch-300x159.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/Sprechen-und-Schreiben-Sie-Deutsch-768x406.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/Sprechen-und-Schreiben-Sie-Deutsch-260x137.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/Sprechen-und-Schreiben-Sie-Deutsch-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Sprechen-und-Schreiben-Sie-Deutsch-210x111.jpg 210w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Sprechen-und-Schreiben-Sie-Deutsch.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -136,7 +136,7 @@ export default function Page() {
                                       </h4>
                                       <p>
                                         <a href={"https://www.facebook.com/media/set/?set=a.734640659970778.1073741877.114304442004406&type=3"} target={"_blank"} rel={"noopener noreferrer"}>
-                                          {"Album “cursuri de vară de limba germană"}
+                                          {"Album “cursuri de vară de limba germană "}
                                           {"2015”"}
                                         </a>
                                       </p>

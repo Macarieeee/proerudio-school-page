@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"find-your-voice"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2019/05/find-your-voice.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2019/05/find-your-voice-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2019/05/find-your-voice-768x402.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2019/05/find-your-voice-1024x536.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2019/05/find-your-voice-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2019/05/find-your-voice-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2019/05/find-your-voice-143x75.jpg 143w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} src={"https://www.proerudio.ro/wp-content/uploads/2019/05/find-your-voice.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -189,7 +189,7 @@ export default function Page() {
                                       <p>
                                         {"Mai multe imagini găsiți aici: Galerie “"}
                                         <a href={"https://www.facebook.com/media/set/?set=a.713555685412609.1073741875.114304442004406&type=3"} target={"_blank"} rel={"noopener noreferrer"}>
-                                          {"cursuri de vară"}
+                                          {"cursuri de vară "}
                                           {"2015"}
                                         </a>
                                         {"“"}

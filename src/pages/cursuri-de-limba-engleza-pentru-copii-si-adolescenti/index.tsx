@@ -182,7 +182,7 @@ export default function Page() {
                 {"Cursuri de limba engleză"}
               </p>
               <p>
-                {"pentru copii de"}
+                {"pentru copii de "}
                 {"12 – 14"}
                 {"ani"}
               </p>
@@ -206,7 +206,7 @@ export default function Page() {
                 {"Cursuri de limba engleză"}
               </p>
               <p>
-                {"pentru copii de"}
+                {"pentru copii de "}
                 {"14"}
                 {"– 19 ani"}
               </p>

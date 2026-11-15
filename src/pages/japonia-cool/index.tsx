@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"Pro Erudio - Japonia Cool - Curs de vara de limba japoneza"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza.jpg 1432w, https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza-300x200.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza-1024x683.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza-768x512.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza-112x75.jpg 112w, https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza-942x628.jpg 942w, https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza-480x320.jpg 480w"} sizes={"(max-width:767px) 480px, (max-width:1432px) 100vw, 1432px"} src={"https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -99,129 +99,63 @@ export default function Page() {
                               <p>
                                 {"Copiii vor învăța de-a lungul celor 10 întâlniri vocabular de bază (în funcție de tema lecției), formule de salut și de prezentare, vor face cunoștință cu scrierea japoneză la nivel introductiv și se vor familiariza cu elemente de cultură și civilizație precum:"}
                               </p>
-                              <p>
-                                {"Tradiții și obiceiuri (ceremonia ceaiului 茶道 "}
-                                <strong>
+                              <ul><li>{"Tradiții și obiceiuri (ceremonia ceaiului 茶道 "}<strong>
                                   {"Sadō"}
-                                </strong>
-                                {", arta aranjării florilor生花 "}
-                                <strong>
+                                </strong>{", arta aranjării florilor生花 "}<strong>
                                   {"Ikebana"}
-                                </strong>
-                                {" etc.)"}
-                              </p>
-                              <p>
-                                {"Arte plastice ("}
-                                <strong>
+                                </strong>{" etc.)"}</li>
+<li>{"Arte plastice ("}<strong>
                                   {"Origami și Kirigami:"}
-                                </strong>
-                                {" arta plierii și tăierii hârtiei)"}
-                              </p>
-                              <p>
-                                <strong>
+                                </strong>{" arta plierii și tăierii hârtiei)"}</li>
+<li><strong>
                                   {"Gastronomie (和食 Washoku) 🍣 –"}
-                                </strong>
-                                {" echilibru, gusturi autentice (umami), sezonalitate și respect pentru natură: sushi, sashimi, ramen, bento, ichijū-sansai (o supă și trei feluri) etc."}
-                              </p>
-                              <p>
-                                <strong>
+                                </strong>{" echilibru, gusturi autentice (umami), sezonalitate și respect pentru natură: sushi, sashimi, ramen, bento, ichijū-sansai (o supă și trei feluri) etc."}</li>
+<li><strong>
                                   {"Îmbrăcăminte 👘 (kimono-ul, yukata și moda tinerilor)"}
-                                </strong>
-                              </p>
-                              <p>
-                                <strong>
+                                </strong></li>
+<li><strong>
                                   {"Teatrul traditional 🎭 (Nō, Kabuki și Bunraku)"}
-                                </strong>
-                              </p>
-                              <p>
-                                <strong>
+                                </strong></li>
+<li><strong>
                                   {"Artele marțiale 🥋 (sumō – sportul național, jūdō, kendō și aikidō, care cultivă disciplina)"}
-                                </strong>
-                              </p>
-                              <p>
-                                <strong>
+                                </strong></li>
+<li><strong>
                                   {"Caligrafia (書道 shodō) –"}
-                                </strong>
-                                {" scrierea artistică a caracterelor japoneze"}
-                              </p>
-                              <p>
-                                <strong>
+                                </strong>{" scrierea artistică a caracterelor japoneze"}</li>
+<li><strong>
                                   {"Cultura pop modernă (アニメ Anime și 漫画 Manga:"}
-                                </strong>
-                                {" animația și benzile desenate japoneze)"}
-                              </p>
-                              <p>
-                                <strong>
+                                </strong>{" animația și benzile desenate japoneze)"}</li>
+<li><strong>
                                   {"Valorile sociale"}
-                                </strong>
-                                {" precum respectul și loialitatea (ierarhia socială, aparteneța la grup etc.), codul samurailor ("}
-                                <strong>
+                                </strong>{" precum respectul și loialitatea (ierarhia socială, aparteneța la grup etc.), codul samurailor ("}<strong>
                                   {"Bushidō"}
-                                </strong>
-                                {"), ordinea și perfecționarea de sine ("}
-                                <strong>
+                                </strong>{"), ordinea și perfecționarea de sine ("}<strong>
                                   {"Kaizen"}
-                                </strong>
-                                {") etc."}
-                              </p>
-                              <p>
-                                <strong>
+                                </strong>{") etc."}</li>
+<li><strong>
                                   {"Spiritualitate ⛩️"}
-                                </strong>
-                                {" (Budism și Shintō)"}
-                              </p>
-                              <p>
-                                <strong>
+                                </strong>{" (Budism și Shintō)"}</li>
+<li><strong>
                                   {"Sărbători și festivități 🎋 (matsuri):"}
-                                </strong>
-                                {" Hina Matsuri (Ziua fetelor), Kodomo no hi (Ziua copiilor), Tanabata (festivalul stelelor), Hanami (privitul florilor de cireș) și dansuri tradiționale."}
-                              </p>
+                                </strong>{" Hina Matsuri (Ziua fetelor), Kodomo no hi (Ziua copiilor), Tanabata (festivalul stelelor), Hanami (privitul florilor de cireș) și dansuri tradiționale."}</li></ul>
                               <p>
                                 {"Învățarea este susținută prin jocuri didactice, ateliere tematice (origami, caligrafie, creare de benzi desenate, tradiții legate de servitul mesei etc.), discuții bazate pe filme și cărți (în funcție de vârsta participanților), clipuri informative, activități interactive și exerciții de grup, care încurajează participarea activă și colaborarea."}
                               </p>
                               <div>
                                 {"\n  ! Alegerea temelor de discuție se va face în funcție de vârsta participanților!"}
                               </div>
-                              <p>
-                                <strong>
-                                  {"Obiectivele cursului format din 10 ședințe:"}
-                                </strong>
-                              </p>
-                              <p>
-                                {"🎌 dobândirea unor noțiuni de bază în limba japoneză (saluturi, expresii uzuale, introducere în scriere);"}
-                              </p>
-                              <p>
-                                {"🏯 familiarizarea cu elemente reprezentative ale culturii și civilizației japoneze;"}
-                              </p>
-                              <p>
-                                {"🎨 dezvoltarea creativității și a gândirii interculturale;"}
-                              </p>
-                              <p>
-                                {"🤝 stimularea comunicării și a lucrului în echipă;"}
-                              </p>
-                              <p>
-                                {"🌸 crearea unei experiențe de învățare plăcute, adaptate perioadei de vacanță."}
-                              </p>
-                              <p>
-                                <strong>
-                                  {"În cele 10 întâlniri copiii vor învăța să:"}
-                                </strong>
-                              </p>
-                              <p>
-                                {"✨ salute și să se prezinte în limba japoneză"}
-                              </p>
-                              <p>
-                                {"✨ folosească expresii uzuale în contexte reale"}
-                              </p>
-                              <p>
-                                {"✨ recunoască și scrie primele caractere japoneze"}
-                              </p>
-                              <p>
-                                {"✨ înțeleagă noțiuni de bază din cultura japoneză"}
-                              </p>
-                              <p>
-                                {"✨ experimenteze arta confecționării de figurine din hârtie (origami)"}
-                              </p>
+                              <h3>{"Obiectivele cursului format din 10 ședințe:"}</h3>
+                              <ul><li>{"🎌 dobândirea unor noțiuni de bază în limba japoneză (saluturi, expresii uzuale, introducere în scriere);"}</li>
+<li>{"🏯 familiarizarea cu elemente reprezentative ale culturii și civilizației japoneze;"}</li>
+<li>{"🎨 dezvoltarea creativității și a gândirii interculturale;"}</li>
+<li>{"🤝 stimularea comunicării și a lucrului în echipă;"}</li>
+<li>{"🌸 crearea unei experiențe de învățare plăcute, adaptate perioadei de vacanță."}</li></ul>
+                              <h3>{"În cele 10 întâlniri copiii vor învăța să:"}</h3>
+                              <ul><li>{"✨ salute și să se prezinte în limba japoneză"}</li>
+<li>{"✨ folosească expresii uzuale în contexte reale"}</li>
+<li>{"✨ recunoască și scrie primele caractere japoneze"}</li>
+<li>{"✨ înțeleagă noțiuni de bază din cultura japoneză"}</li>
+<li>{"✨ experimenteze arta confecționării de figurine din hârtie (origami)"}</li></ul>
                               <p>
                                 {"✨ pregătească sushi, cu accent pe învățarea diferitelor sortimente de bază (Nigiri, Maki, Uramaki) și să servească ceai conform tradiției japoneze"}
                               </p>
@@ -260,7 +194,7 @@ export default function Page() {
                                   <div className={"course-details-panel"}>
                                     <div className={"course-details-header"}>
                                       <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                                        <img decoding={"async"} alt={"Pro Erudio – Japonia Cool – Curs de vara de limba japoneza"} src={"https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza.jpg"} />
+
                                       </div>
                                       <h2>
                                         {"Japonia Cool - Introducere în limba și cultura japoneză"}
@@ -473,7 +407,7 @@ export default function Page() {
                                   <div className={"course-details-panel"}>
                                     <div className={"course-details-header"}>
                                       <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                                        <img decoding={"async"} alt={"Pro Erudio – Japonia Cool – Curs de vara de limba japoneza"} src={"https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza.jpg"} />
+
                                       </div>
                                       <h2>
                                         {"Japonia Cool - Introducere în limba și cultura japoneză"}

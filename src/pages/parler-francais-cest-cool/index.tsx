@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2019/09/Parler-francais-c-est-cool.jpg"} alt={""} title={"Parler-francais-c-est-cool!"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2019/09/Parler-francais-c-est-cool.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2019/09/Parler-francais-c-est-cool-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2019/09/Parler-francais-c-est-cool-768x402.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2019/09/Parler-francais-c-est-cool-1024x536.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2019/09/Parler-francais-c-est-cool-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2019/09/Parler-francais-c-est-cool-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2019/09/Parler-francais-c-est-cool-143x75.jpg 143w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} />
+
                               </div>
                             </figure>
                           </div>
@@ -202,7 +202,7 @@ export default function Page() {
                                   <div className={"course-details-panel"}>
                                     <div className={"course-details-header"}>
                                       <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                                        <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2019/09/Parler-francais-c-est-cool.jpg"} alt={"Parler-francais-c-est-cool!"} />
+
                                       </div>
                                       <h2>
                                         {"Parler francais, c'est cool!"}
@@ -345,7 +345,7 @@ export default function Page() {
                           <div>
                             <div>
                               <h3>
-                                {"Alte cursuri"}
+                                {"Alte cursuri "}
                                 {"pentru copii:"}
                               </h3>
                             </div>

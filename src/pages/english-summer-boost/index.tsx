@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"English Summer Boost - Pregatire Cambridge Pro Erudio"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2026/05/English-Summer-Boost-Pregatire-Cambridge-ProErudio-3.jpg 1010w, https://www.proerudio.ro/wp-content/uploads/2026/05/English-Summer-Boost-Pregatire-Cambridge-ProErudio-3-300x174.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2026/05/English-Summer-Boost-Pregatire-Cambridge-ProErudio-3-768x445.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2026/05/English-Summer-Boost-Pregatire-Cambridge-ProErudio-3-129x75.jpg 129w, https://www.proerudio.ro/wp-content/uploads/2026/05/English-Summer-Boost-Pregatire-Cambridge-ProErudio-3-480x278.jpg 480w"} sizes={"(max-width:767px) 480px, (max-width:1010px) 100vw, 1010px"} src={"https://www.proerudio.ro/wp-content/uploads/2026/05/English-Summer-Boost-Pregatire-Cambridge-ProErudio-3.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -316,7 +316,7 @@ export default function Page() {
                                   <div className={"course-details-panel"}>
                                     <div className={"course-details-header"}>
                                       <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                                        <img decoding={"async"} alt={"English Summer Boost – Pregatire Cambridge Pro Erudio"} src={"https://www.proerudio.ro/wp-content/uploads/2026/05/English-Summer-Boost-Pregatire-Cambridge-ProErudio-3.jpg"} />
+
                                       </div>
                                       <h2>
                                         {"ENGLISH SUMMER BOOST"}

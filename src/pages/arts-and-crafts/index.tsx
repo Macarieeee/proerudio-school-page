@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"arts-and-crafts"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2025/05/arts-and-crafts.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2025/05/arts-and-crafts-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2025/05/arts-and-crafts-1024x536.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2025/05/arts-and-crafts-768x402.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2025/05/arts-and-crafts-143x75.jpg 143w, https://www.proerudio.ro/wp-content/uploads/2025/05/arts-and-crafts-480x251.jpg 480w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} src={"https://www.proerudio.ro/wp-content/uploads/2025/05/arts-and-crafts.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -64,7 +64,7 @@ export default function Page() {
                           <div>
                             <figure>
                               <div>
-                                <img decoding={"async"} alt={""} title={"arts-and-crafts-Square"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2025/05/arts-and-crafts-Square.jpg 628w, https://www.proerudio.ro/wp-content/uploads/2025/05/arts-and-crafts-Square-300x300.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2025/05/arts-and-crafts-Square-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2025/05/arts-and-crafts-Square-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2025/05/arts-and-crafts-Square-480x480.jpg 480w"} sizes={"(max-width:767px) 480px, 628px"} src={"https://www.proerudio.ro/wp-content/uploads/2025/05/arts-and-crafts-Square.jpg"} />
+
                               </div>
                             </figure>
                           </div>

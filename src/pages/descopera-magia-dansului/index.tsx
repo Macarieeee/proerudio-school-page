@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2025/08/dans-1.jpg"} alt={""} title={"dans"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2025/08/dans-1.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2025/08/dans-1-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2025/08/dans-1-1024x536.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2025/08/dans-1-768x402.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2025/08/dans-1-143x75.jpg 143w, https://www.proerudio.ro/wp-content/uploads/2025/08/dans-1-480x251.jpg 480w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} />
+
                               </div>
                             </figure>
                           </div>

@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"Animal-Kingdom"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2020/05/Animal-Kingdom.jpg 870w, https://www.proerudio.ro/wp-content/uploads/2020/05/Animal-Kingdom-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2020/05/Animal-Kingdom-768x401.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2020/05/Animal-Kingdom-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2020/05/Animal-Kingdom-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2020/05/Animal-Kingdom-144x75.jpg 144w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2020/05/Animal-Kingdom.jpg"} />
+
                               </div>
                             </figure>
                           </div>

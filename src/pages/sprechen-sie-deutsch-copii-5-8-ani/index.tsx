@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"sprechen-1"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/sprechen-1.jpg 870w, https://www.proerudio.ro/wp-content/uploads/2016/01/sprechen-1-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/sprechen-1-768x401.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/sprechen-1-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/sprechen-1-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/sprechen-1-210x110.jpg 210w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/sprechen-1.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -87,7 +87,7 @@ export default function Page() {
                                 {"Țelul nostru este ca la sfârșitul acestui curs, copilul să poată face față unor situații din viața de zi cu zi precum a saluta, a răspunde la salut, a iniția o conversație (nume, vârstă), a raspunde la comenzi simple, a denumi obiecte din mediul imediat înconjurător etc. pentru a se putea descurca în cazul în care vizitați o țară vorbitoare de limbă germană."}
                               </p>
                               <p>
-                                {"Cursul pune accent pe lucrul în echipă și pe jocul de rol, deoarece prin joacă si repetitie se învăță cel mai bine. Predarea vocabularului se va face în context și cu ajutorul suportului media si intuitiv, prin folosirea imaginilor tematice. Motivarea pentru invățarea limbii germane va fi deplina fiindcă copiii vor avea ocazia să facă ce le place: să se joace, să deseneze, să confecționeze obiecte, să pună"}
+                                {"Cursul pune accent pe lucrul în echipă și pe jocul de rol, deoarece prin joacă si repetitie se învăță cel mai bine. Predarea vocabularului se va face în context și cu ajutorul suportului media si intuitiv, prin folosirea imaginilor tematice. Motivarea pentru invățarea limbii germane va fi deplina fiindcă copiii vor avea ocazia să facă ce le place: să se joace, să deseneze, să confecționeze obiecte, să pună "}
                                 {"întrebări, să cânte, să facă mișcare, să vizioneze episoade de film animat și să se prefacă pentru a intra în rolul personajului preferat."}
                               </p>
                               <h4>
@@ -113,7 +113,7 @@ export default function Page() {
                                   {"Die Tiere (animale)"}
                                 </li>
                                 <li>
-                                  {"Essen und Trinken (feluri de mâncare"}
+                                  {"Essen und Trinken (feluri de mâncare "}
                                   {"și băuturi)"}
                                 </li>
                                 <li>
@@ -137,7 +137,7 @@ export default function Page() {
                                       <p>
                                         {"Mai multe imagini găsiți aici: Galerie “"}
                                         <a href={"https://www.facebook.com/media/set/?set=a.713555685412609.1073741875.114304442004406&type=3"} target={"_blank"} rel={"noopener noreferrer"}>
-                                          {"cursuri de vară"}
+                                          {"cursuri de vară "}
                                           {"2015"}
                                         </a>
                                         {"“"}

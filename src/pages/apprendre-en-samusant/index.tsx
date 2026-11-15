@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2019/06/Apprendre-en-samusant.jpg"} alt={""} title={"Apprendre-en-s'amusant"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2019/06/Apprendre-en-samusant.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2019/06/Apprendre-en-samusant-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2019/06/Apprendre-en-samusant-768x402.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2019/06/Apprendre-en-samusant-1024x536.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2019/06/Apprendre-en-samusant-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2019/06/Apprendre-en-samusant-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2019/06/Apprendre-en-samusant-143x75.jpg 143w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} />
+
                               </div>
                             </figure>
                           </div>
@@ -111,9 +111,9 @@ export default function Page() {
                             <div>
                               <p>
                                 <span>
-                                  {"Lumea avansează cu repeziciune, iar educația și, bineînțeles, metodele de învățare nu pot rămâne în urmă într-o lume în care imaginea, tehnologia, rețelele sociale și cultura audio-vizuală au o tot mai mare importanță. În plus, cui nu ii plac jocurile interactive la tabla inteligentă sau în grupul de prieteni? Prin joc, învațăm să comunicăm, să interacționăm corect, folosind structuri simple, dar adaptate fiecărei situații, ne facem prieteni și"}
+                                  {"Lumea avansează cu repeziciune, iar educația și, bineînțeles, metodele de învățare nu pot rămâne în urmă într-o lume în care imaginea, tehnologia, rețelele sociale și cultura audio-vizuală au o tot mai mare importanță. În plus, cui nu ii plac jocurile interactive la tabla inteligentă sau în grupul de prieteni? Prin joc, învațăm să comunicăm, să interacționăm corect, folosind structuri simple, dar adaptate fiecărei situații, ne facem prieteni și "}
                                   {"acumulăm"}
-                                  {"cunostințe"}
+                                  {"cunostințe "}
                                   {"de limba franceză fără să simțim că depunem efort."}
                                 </span>
                               </p>

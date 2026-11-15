@@ -148,7 +148,7 @@ export default function Page() {
           {"Prin fiecare activitate, îi încurajăm pe copii să descopere, să participe și să capete încredere în folosirea limbii engleze."}
         </p>
         <h4>
-          {"Câteva imagini de la cursurile de limba engleză “JOIN US IN"}
+          {"Câteva imagini de la cursurile de limba engleză “JOIN US IN "}
           {"ENGLISHLAND”:"}
         </h4>
         <div className={"photo-gallery"} style={{"display": "grid", "gridTemplateColumns": "repeat(3,minmax(0,1fr))", "gap": "12px"}}>
@@ -295,7 +295,7 @@ export default function Page() {
             {"/trașă plată."}
           </li>
           <li>
-            {"Lunar până pe data de 5 a fiecarei luni prin înmulțirea numărului maxim de cursuri din lună"}
+            {"Lunar până pe data de 5 a fiecarei luni prin înmulțirea numărului maxim de cursuri din lună "}
             {"cu prețul pe curs."}
           </li>
         </ul>

@@ -49,7 +49,7 @@ export default function Page() {
                             <div className={"summer-course-posters"}>
                               <figure className={"original-intro-image"}>
                                 <div>
-                                  <img decoding={"async"} alt={""} title={"Scoala de vara 2026"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2026/05/Scoala-de-vara-2026-1024x576.png 1024w, https://www.proerudio.ro/wp-content/uploads/2026/05/Scoala-de-vara-2026-300x169.png 300w, https://www.proerudio.ro/wp-content/uploads/2026/05/Scoala-de-vara-2026-768x432.png 768w, https://www.proerudio.ro/wp-content/uploads/2026/05/Scoala-de-vara-2026-1536x864.png 1536w, https://www.proerudio.ro/wp-content/uploads/2026/05/Scoala-de-vara-2026-133x75.png 133w, https://www.proerudio.ro/wp-content/uploads/2026/05/Scoala-de-vara-2026.png 1672w"} sizes={"(max-width: 640px) 90vw, 360px"} src={"https://www.proerudio.ro/wp-content/uploads/2026/05/Scoala-de-vara-2026-1024x576.png"} loading={"lazy"} />
+
                                 </div>
                               </figure>
                             </div>

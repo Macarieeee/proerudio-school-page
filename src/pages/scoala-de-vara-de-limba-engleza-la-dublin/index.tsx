@@ -480,7 +480,7 @@ export default function Page() {
                     <p>
                       {"Pentru a completa formularul, accesează pagina originală."}
                     </p>
-                    <a href={"/tabere/scoala-de-vara-de-limba-engleza-la-dublin/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
+                    <a href={"https://www.proerudio.ro/tabere/scoala-de-vara-de-limba-engleza-la-dublin/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
                       {"Deschide formularul"}
                     </a>
                   </div>

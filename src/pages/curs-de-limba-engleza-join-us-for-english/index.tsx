@@ -312,7 +312,7 @@ export default function Page() {
             {"în 5 tranșe egale (septembrie, noiembrie, ianuarie, martie si mai) (5% reducere), 1064 lei/trașă plată."}
           </li>
           <li>
-            {"Lunar până pe data de 5 a fiecarei luni prin înmulțirea numărului maxim de cursuri din lună"}
+            {"Lunar până pe data de 5 a fiecarei luni prin înmulțirea numărului maxim de cursuri din lună "}
             {"cu prețul pe curs."}
           </li>
         </ul>

@@ -157,7 +157,7 @@ export default function Page() {
           <div className={"course-details-panel"}>
             <div className={"course-details-header"}>
               <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                <img decoding={"async"} alt={"Cursuri de limba germană Wieso nicht?"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-limba-germana-pentru-copii-si-adolescenti-brut.jpg"} />
+
               </div>
               <h2>
                 {"Wieso nicht? 2 | 8–11 ani (nivel A1-A2)"}
@@ -247,7 +247,7 @@ export default function Page() {
           <div className={"course-details-panel"}>
             <div className={"course-details-header"}>
               <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                <img decoding={"async"} alt={"Cursuri de limba germană Wieso nicht?"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-limba-germana-pentru-copii-si-adolescenti-brut.jpg"} />
+
               </div>
               <h2>
                 {"Wieso nicht? 3 | 12–17 ani (nivel A1-B1)"}

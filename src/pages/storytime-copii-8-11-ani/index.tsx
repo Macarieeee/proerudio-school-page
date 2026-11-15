@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"story-brut"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/story-brut.jpg 870w, https://www.proerudio.ro/wp-content/uploads/2016/01/story-brut-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/story-brut-768x401.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/story-brut-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/story-brut-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/story-brut-144x75.jpg 144w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/story-brut.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -100,7 +100,7 @@ export default function Page() {
                                         </span>
                                         {"\niteratura britanică este plină de poveşti şi personaje celebre, iar în această vară vă invităm să le explorăm împreună."}
                                         <br />
-                                        {"\nAlice ne va purta în Ţara Minunilor, Jack ne va destăinui secretele vrejului de fasole, Peter Pan ne va învaţa despre Tărâmul de Nicăieri, Robinson Crusoe ne va învăța"}
+                                        {"\\nAlice ne va purta în Ţara Minunilor, Jack ne va destăinui secretele vrejului de fasole, Peter Pan ne va învaţa despre Tărâmul de Nicăieri, Robinson Crusoe ne va învăța "}
                                         {"cum să supravieţuim pe o insula pustie, iar Gulliver ne va purta în ţara omuleților din Lilliput şi a uriașilor din Brobdingnag. Aceste personaje şi multe altele aşteaptă nerăbdătoare să ne cunoască şi să ne transporte în lumea lor."}
                                       </p>
                                       <p>
@@ -212,7 +212,7 @@ export default function Page() {
                                   <div className={"course-details-panel"}>
                                     <div className={"course-details-header"}>
                                       <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                                        <img decoding={"async"} alt={"story-brut"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/story-brut.jpg"} />
+
                                       </div>
                                       <h2>
                                         {"Storytime!"}

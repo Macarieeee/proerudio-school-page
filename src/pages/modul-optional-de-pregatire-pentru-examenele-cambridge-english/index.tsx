@@ -124,7 +124,7 @@ export default function Page() {
         </ul>
         <p>
           <span>
-            {"Înscrierile"}
+            {"Înscrierile "}
             {"pentru modulele de pregătire în vederea susținerii examenelor Cambridge English se fac direct"}
             <span>
               <strong>
@@ -198,13 +198,13 @@ export default function Page() {
           {"*Prețurile de mai sus sunt valabile doar pentru cursanții Pro Erudio."}
         </p>
         <p>
-          {"\nÎn limita locurilor disponibile, pot participa la module și copii care nu participă la cursurile noastre de limbă engleză. Prețul unui modul pentru copiii din exterior sunt cu 50 lei mai mare decât cel standard, pentru cursanții noștri, adică"}
+          {"\\nÎn limita locurilor disponibile, pot participa la module și copii care nu participă la cursurile noastre de limbă engleză. Prețul unui modul pentru copiii din exterior sunt cu 50 lei mai mare decât cel standard, pentru cursanții noștri, adică "}
           {"330 lei"}
           {"(YLE),"}
           {"450 lei"}
           {"(Key/Preliminary),"}
           {"530 lei"}
-          {"(First) și"}
+          {"(First) și "}
           {"550"}
           {"lei (CAE/CPE/IELTS)."}
         </p>

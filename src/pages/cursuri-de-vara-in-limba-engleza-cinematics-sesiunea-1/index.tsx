@@ -286,7 +286,7 @@ export default function Page() {
                                 </h2>
                                 <p></p>
                                 <p>
-                                  <a href={"/cursuri-de-vara-in-limba-engleza-cinematics-sesiunea-1/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
+                                  <a href={"https://www.proerudio.ro/cursuri-de-vara-in-limba-engleza-cinematics-sesiunea-1/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
                                     {"Vezi galeria foto pe site-ul original"}
                                   </a>
                                 </p>

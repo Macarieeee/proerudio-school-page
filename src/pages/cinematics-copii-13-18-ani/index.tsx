@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"Cursuri-de-vara-de-limba-engleza-Cinematics"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-Cinematics.jpg 870w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-Cinematics-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-Cinematics-768x401.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-Cinematics-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-Cinematics-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-Cinematics-144x75.jpg 144w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-Cinematics.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -174,15 +174,15 @@ export default function Page() {
                                       </h5>
                                       <ul>
                                         <li>
-                                          {"Să"}
+                                          {"Să "}
                                           {"îmbogățeasca cunoștințele copiilor cu privire la evoluția filmului de-a lungul timpului"}
                                         </li>
                                         <li>
-                                          {"Să le îmbunătățească gândirea critică"}
+                                          {"Să le îmbunătățească gândirea critică "}
                                           {"și exprimarea propriilor opinii"}
                                         </li>
                                         <li>
-                                          {"Să"}
+                                          {"Să "}
                                           {"îi familiarizeze cu terminologia specifică cinematografiei"}
                                         </li>
                                         <li>

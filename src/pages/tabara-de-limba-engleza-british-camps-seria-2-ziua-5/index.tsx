@@ -176,7 +176,7 @@ export default function Page() {
                                 </h2>
                                 <p></p>
                                 <p>
-                                  <a href={"/tabara-de-limba-engleza-british-camps-seria-2-ziua-5/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
+                                  <a href={"https://www.proerudio.ro/tabara-de-limba-engleza-british-camps-seria-2-ziua-5/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
                                     {"Vezi galeria foto pe site-ul original"}
                                   </a>
                                 </p>

@@ -1,3 +1,4 @@
+import PlaydayDetails from '@/components/PlaydayDetails';
 import ContentPageLayout from '@/components/ContentPageLayout';
 
 
@@ -52,7 +53,7 @@ export default function Page() {
                                   <div>
                                     <figure className={"original-intro-image"}>
                                       <div>
-                                        <img decoding={"async"} alt={""} title={"playday@proerudio2"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/playday@proerudio2.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2016/01/playday@proerudio2-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/playday@proerudio2-768x402.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/playday@proerudio2-1024x536.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2016/01/playday@proerudio2-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/playday@proerudio2-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/playday@proerudio2-143x75.jpg 143w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/playday@proerudio2.jpg"} />
+
                                       </div>
                                     </figure>
                                   </div>
@@ -239,126 +240,14 @@ export default function Page() {
                             <div>
                               <div>
                                 <div>
-                                  <div>
-                                    <div>
-                                      <div>
-                                        <img decoding={"async"} alt={"playday-brut"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/playday-brut.jpg"} />
-                                      </div>
-                                      <h2>
-                                        {"PLAY DAY"}
-                                      </h2>
-                                      <div>
-                                        <sup>
-                                          {"Lei"}
-                                        </sup>
-                                        <span>
-                                          {"50"}
-                                        </span>
-                                        <sup>
-                                          {"4 ore"}
-                                        </sup>
-                                      </div>
-                                      <hr />
-                                      <p>
-                                        <big>
-                                          {"PENTRU COPIII CARE FRECVENTEAZA CURSURILE NOASTRE"}
-                                        </big>
-                                      </p>
-                                    </div>
-                                    <div>
-                                      <span>
-                                        <p></p>
-                                        <ul>
-                                          <li>
-                                            <strong>
-                                              {"Durata: "}
-                                            </strong>
-                                            {"4 ore"}
-                                          </li>
-                                        </ul>
-                                        <ul>
-                                          <li>
-                                            <strong>
-                                              {"între 9.00 și 13.00"}
-                                            </strong>
-                                          </li>
-                                        </ul>
-                                        <ul>
-                                          <li>
-                                            <strong>
-                                              {"Program de vacanță "}
-                                            </strong>
-                                          </li>
-                                        </ul>
-                                        <p>
-                                          {"Conform anunțurilor de pe pagina noastră de Facebook"}
-                                        </p>
-                                      </span>
-                                    </div>
-                                  </div>
+                                  <PlaydayDetails />
                                 </div>
                               </div>
                             </div>
                             <div>
                               <div>
                                 <div>
-                                  <div>
-                                    <div>
-                                      <div>
-                                        <img decoding={"async"} alt={"playday-brut"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/playday-brut.jpg"} />
-                                      </div>
-                                      <h2>
-                                        {"PLAY DAY"}
-                                      </h2>
-                                      <div>
-                                        <sup>
-                                          {"Lei"}
-                                        </sup>
-                                        <span>
-                                          {"100"}
-                                        </span>
-                                        <sup>
-                                          {"4 ore"}
-                                        </sup>
-                                      </div>
-                                      <hr />
-                                      <p>
-                                        <big>
-                                          {"PENTRU COPIII CARE NU FRECVENTEAZA CURSURILE NOASTRE"}
-                                        </big>
-                                      </p>
-                                    </div>
-                                    <div>
-                                      <span>
-                                        <p></p>
-                                        <ul>
-                                          <li>
-                                            <strong>
-                                              {"Durata: "}
-                                            </strong>
-                                            {"4 ore"}
-                                          </li>
-                                        </ul>
-                                        <ul>
-                                          <li>
-                                            <strong>
-                                              {"între 9.00 și 13.00"}
-                                            </strong>
-                                          </li>
-                                        </ul>
-                                        <ul>
-                                          <li>
-                                            <strong>
-                                              {"Program de vacanță "}
-                                            </strong>
-                                          </li>
-                                        </ul>
-                                        <p>
-                                          {"Conform anunțurilor de pe pagina noastră de Facebook"}
-                                        </p>
-                                      </span>
-                                    </div>
-                                  </div>
+
                                 </div>
                               </div>
                             </div>

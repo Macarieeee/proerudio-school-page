@@ -48,7 +48,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"Summer-Fun-with-My-Favourite-Teacher-B"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2025/05/Summer-Fun-with-My-Favourite-Teacher-B.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2025/05/Summer-Fun-with-My-Favourite-Teacher-B-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2025/05/Summer-Fun-with-My-Favourite-Teacher-B-1024x536.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2025/05/Summer-Fun-with-My-Favourite-Teacher-B-768x402.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2025/05/Summer-Fun-with-My-Favourite-Teacher-B-143x75.jpg 143w, https://www.proerudio.ro/wp-content/uploads/2025/05/Summer-Fun-with-My-Favourite-Teacher-B-480x251.jpg 480w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} src={"https://www.proerudio.ro/wp-content/uploads/2025/05/Summer-Fun-with-My-Favourite-Teacher-B.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -63,7 +63,7 @@ export default function Page() {
                           <div>
                             <figure>
                               <div>
-                                <img decoding={"async"} alt={""} title={"Summer-Fun-with-My-Favourite-Teacher-Square"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2025/05/Summer-Fun-with-My-Favourite-Teacher-Square.jpg 628w, https://www.proerudio.ro/wp-content/uploads/2025/05/Summer-Fun-with-My-Favourite-Teacher-Square-300x300.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2025/05/Summer-Fun-with-My-Favourite-Teacher-Square-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2025/05/Summer-Fun-with-My-Favourite-Teacher-Square-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2025/05/Summer-Fun-with-My-Favourite-Teacher-Square-480x480.jpg 480w"} sizes={"(max-width:767px) 480px, 628px"} src={"https://www.proerudio.ro/wp-content/uploads/2025/05/Summer-Fun-with-My-Favourite-Teacher-Square.jpg"} />
+
                               </div>
                             </figure>
                           </div>

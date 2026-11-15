@@ -321,7 +321,7 @@ export default function Page() {
                                       <p>
                                         {"Pentru a completa formularul, accesează pagina originală."}
                                       </p>
-                                      <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/successful-writers-copii-9-12-ani/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
+                                      <a href={"https://www.proerudio.ro/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/successful-writers-copii-9-12-ani/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
                                         {"Deschide formularul"}
                                       </a>
                                     </div>

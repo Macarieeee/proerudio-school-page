@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"Curs de Vara Pro Erudio Dans"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2026/06/Curs-de-Vara-ProErudio-Dans.jpg 1707w, https://www.proerudio.ro/wp-content/uploads/2026/06/Curs-de-Vara-ProErudio-Dans-300x169.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2026/06/Curs-de-Vara-ProErudio-Dans-1024x576.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2026/06/Curs-de-Vara-ProErudio-Dans-768x432.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2026/06/Curs-de-Vara-ProErudio-Dans-1536x864.jpg 1536w, https://www.proerudio.ro/wp-content/uploads/2026/06/Curs-de-Vara-ProErudio-Dans-133x75.jpg 133w, https://www.proerudio.ro/wp-content/uploads/2026/06/Curs-de-Vara-ProErudio-Dans-1117x628.jpg 1117w, https://www.proerudio.ro/wp-content/uploads/2026/06/Curs-de-Vara-ProErudio-Dans-480x270.jpg 480w"} sizes={"(max-width:767px) 480px, (max-width:1707px) 100vw, 1707px"} src={"https://www.proerudio.ro/wp-content/uploads/2026/06/Curs-de-Vara-ProErudio-Dans.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -79,55 +79,12 @@ export default function Page() {
                                 {"Dacă îți place să dansezi, dar în timpul anului școlar nu ai mereu timp pentru cursuri, sau dacă ești deja un mic dansator și vrei să încerci stiluri noi, atunci acest program este pentru tine! Te invităm să descoperim lumea pas cu pas… dans cu dans! 🌟"}
                               </p>
                               <p></p>
-                              <p>
-                                <strong>
-                                  {"✨ La fiecare întâlnire nu vor lipsi: "}
-                                </strong>
-                              </p>
-                              <p>
-                                {"• încălzirea și jocurile de energizare;"}
-                                <br />
-                                {"\n• exercițiile de gimnastică și stretching;"}
-                                <br />
-                                {"\n• exercițiile pentru coordonare, ritm și expresivitate;"}
-                                <br />
-                                {"\n• mini-coregrafii distractive;"}
-                                <br />
-                                {"\n• jocurile muzicale și activitățile de echipă;"}
-                                <br />
-                                {"\n• zâmbetele, aplauzele și buna dispoziție! 😊"}
-                              </p>
-                              <p>
-                                {"🌟 Ce dezvoltăm prin dans?"}
-                                <br />
-                                {"\n• motricitatea și coordonarea;"}
-                                <br />
-                                {"\n• postura și eleganța mișcărilor;"}
-                                <br />
-                                {"\n• încrederea în sine și exprimarea emoțiilor;"}
-                                <br />
-                                {"\n• disciplina și obiceiurile sănătoase prin mișcare;"}
-                                <br />
-                                {"\n• spiritul de echipă și socializarea;"}
-                                <br />
-                                {"\n• creativitatea și imaginația;"}
-                                <br />
-                                {"\n• curiozitatea pentru alte culturi și tradiții."}
-                              </p>
+                              <h3>{"La fiecare întâlnire nu vor lipsi:"}</h3>
+                              <ul><li>{"încălzirea și jocurile de energizare;"}</li><li>{"exercițiile de gimnastică și stretching;"}</li><li>{"exercițiile pentru coordonare, ritm și expresivitate;"}</li><li>{"mini-coregrafii distractive;"}</li><li>{"jocurile muzicale și activitățile de echipă;"}</li><li>{"zâmbetele, aplauzele și buna dispoziție! 😊"}</li></ul>
+                              <h3>{"Ce dezvoltăm prin dans?"}</h3><ul><li>{"motricitatea și coordonarea;"}</li><li>{"postura și eleganța mișcărilor;"}</li><li>{"încrederea în sine și exprimarea emoțiilor;"}</li><li>{"disciplina și obiceiurile sănătoase prin mișcare;"}</li><li>{"spiritul de echipă și socializarea;"}</li><li>{"creativitatea și imaginația;"}</li><li>{"curiozitatea pentru alte culturi și tradiții."}</li></ul>
                               <p></p>
-                              <p>
-                                <strong>
-                                  {"🌎"}
-                                </strong>
-                                <strong>
-                                  {" CĂLĂTORIE ÎN JURUL LUMII ÎN PAȘI DE DANS!"}
-                                </strong>
-                              </p>
-                              <p>
-                                <strong>
-                                  {"IUNIE"}
-                                </strong>
-                              </p>
+                              <h3>{"CĂLĂTORIE ÎN JURUL LUMII ÎN PAȘI DE DANS!"}</h3>
+                              <h3>{"IUNIE"}</h3>
                               <p>
                                 {"21-26 iunie –"}
                                 <strong>
@@ -158,11 +115,7 @@ export default function Page() {
                                 </strong>
                                 {"Pași săltăreți și muzică antrenantă, un dans rapid și jucăuș, care dezvoltă coordonarea, agilitatea și încrederea în sine."}
                               </p>
-                              <p>
-                                <strong>
-                                  {"IULIE"}
-                                </strong>
-                              </p>
+                              <h3>{"IULIE"}</h3>
                               <p>
                                 {"Săptămâna 1 – "}
                                 <strong>
@@ -214,11 +167,7 @@ export default function Page() {
                                 </strong>
                                 {" – pasiune, forță și atitudine."}
                               </p>
-                              <p>
-                                <strong>
-                                  {"AUGUST"}
-                                </strong>
-                              </p>
+                              <h3>{"AUGUST"}</h3>
                               <p>
                                 {"Săptămâna 1 – "}
                                 <strong>
@@ -283,7 +232,7 @@ export default function Page() {
                                   <div className={"course-details-panel"}>
                                     <div className={"course-details-header"}>
                                       <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                                        <img decoding={"async"} alt={"Curs de Vara Pro Erudio Dans"} src={"https://www.proerudio.ro/wp-content/uploads/2026/06/Curs-de-Vara-ProErudio-Dans.jpg"} />
+
                                       </div>
                                       <h2>
                                         {"Călătorie în jurul lumii în pași de dans!"}

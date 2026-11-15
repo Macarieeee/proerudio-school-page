@@ -32,7 +32,7 @@
 .page-content :where(input, select, textarea) { max-width: 100%; }
 
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
 All colors MUST be HSL.
 */
 
@@ -67,12 +67,12 @@ All colors MUST be HSL.
     --ring: 215 70% 40%;
 
     --radius: 0.5rem;
-    
+
     --brand-red: 85 21% 42%;
     --brand-blue: 215 70% 40%;
     --brand-cyan: 196 67% 45%;
     --text-light: 210 20% 70%;
-    
+
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
@@ -213,8 +213,8 @@ div.photo-gallery > a > img {
     @apply mt-10 mb-4 font-bold leading-tight text-foreground;
   }
 
-  .page-content h2 { @apply border-l-4 border-primary pl-4 text-3xl text-primary; }
-  .page-content h3 { @apply text-3xl text-primary; }
+  .page-content h2 { @apply border-l-4 border-primary pl-4 text-4xl text-primary; }
+  .page-content h3 { @apply text-primary; font-size: 2rem; }
   .page-content h4 { @apply text-2xl text-primary; }
   .page-content h5 { @apply text-xl text-primary; }
   .page-content p { @apply my-5; }
@@ -309,6 +309,7 @@ div.photo-gallery > a > img {
 .page-content .course-details-panel {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  grid-template-rows: minmax(0, 1fr) auto;
   margin: 2.5rem 0;
   overflow: hidden;
   border: 1px solid hsl(var(--border));
@@ -360,29 +361,34 @@ div.photo-gallery > a > img {
 .page-content .course-details-header hr { margin: 1.5rem 0; border-color: hsl(0 0% 100% / .2); }
 .page-content .course-details-header p { margin: 0; }
 .page-content .course-details-header big { font-size: .7rem; font-weight: 600; letter-spacing: .13em; }
-.page-content .course-details-facts { padding: 1.75rem 1.75rem .5rem; min-width: 0; }
-.page-content .course-details-facts ul { list-style: none; padding: 0; margin: 0 0 .75rem; }
+.page-content .course-details-facts { display: flex; flex-direction: column; padding: 1.75rem 1.75rem .5rem; min-width: 0; }
+.page-content .course-details-facts ul { display: grid; flex: 1; grid-auto-rows: 1fr; gap: .75rem; list-style: none; padding: 0; margin: 0 0 .75rem; }
+.page-content .course-details-facts ul > li { margin: 0; }
 .page-content .course-fact {
   position: relative;
-  min-height: 4.5rem;
-  padding: 1rem 1rem 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 6.5rem;
+  padding: 1.25rem 1.25rem 1.25rem 4.75rem;
   border: 1px solid hsl(var(--border) / .7);
   border-radius: .85rem;
   background: hsl(var(--muted) / .6);
   color: hsl(var(--foreground));
-  font-size: .95rem;
+  font-size: 1.125rem;
   line-height: 1.6;
 }
-.page-content .course-fact strong { display: block; font-size: .72rem; color: hsl(var(--muted-foreground)); letter-spacing: .04em; }
+.page-content .course-fact strong { display: block; font-size: .95rem; color: hsl(var(--muted-foreground)); letter-spacing: .04em; }
 .page-content .course-fact > br, .page-content .course-fact strong + br { display: none; }
 .page-content .course-fact-icon {
   position: absolute;
   left: 1rem;
-  top: 1.1rem;
+  top: 50%;
+  transform: translateY(-50%);
   display: grid;
   place-items: center;
-  width: 2rem;
-  height: 2rem;
+  width: 2.75rem;
+  height: 2.75rem;
   border-radius: .55rem;
   background: hsl(var(--primary) / .08);
   color: hsl(var(--primary));
@@ -428,14 +434,15 @@ div.photo-gallery > a > img {
 .page-content .course-schedule h4 { margin: 0 0 .5rem; font-size: 1.15rem; color: hsl(var(--foreground)); }
 .page-content .course-schedule p { margin: 0; font-size: 1rem; }
 .page-content .course-share { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid hsl(var(--border)); font-size: .8rem; color: hsl(var(--muted-foreground)); }
-.page-content ul.course-share-links { display: flex; flex-wrap: wrap; gap: .5rem; margin: .75rem 0 0; padding: 0; list-style: none; }
-.page-content .course-share-links li { margin: 0; }
-.page-content .course-share-links a { display: inline-flex; align-items: center; gap: .5rem; min-height: 2.75rem; padding: .55rem .8rem; border: 1px solid hsl(var(--border)); border-radius: 999px; text-decoration: none; font-size: .75rem; color: hsl(var(--foreground)); }
+.page-content ul.course-share-links { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin: .75rem 0 0; padding: 0; list-style: none; }
+/* Override the vertical spacing inherited from article lists, including later items. */
+.page-content ul.course-share-links > li:nth-child(n) { display: flex; margin: 0; }
+.page-content .course-share-links a { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; height: 2.75rem; line-height: 1.25; padding: .55rem .8rem; border: 1px solid hsl(var(--border)); border-radius: 999px; text-decoration: none; font-size: .75rem; color: hsl(var(--foreground)); }
 .page-content .course-share-links a:hover { background: hsl(var(--muted)); }
 .page-content .course-share-links a > span:first-child { display: none; }
-.page-content .course-share-links svg { width: 1rem; height: 1rem; }
+.page-content .course-share-links svg { display: block; width: 1rem; height: 1rem; flex-shrink: 0; }
 @media (max-width: 640px) {
-  .page-content .course-details-panel { grid-template-columns: minmax(0, 1fr); border-radius: 1rem; }
+  .page-content .course-details-panel { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; border-radius: 1rem; }
   .page-content .course-details-header { grid-row: auto; padding: 1.5rem; }
   .page-content .course-details-facts { padding: 1.25rem 1rem .25rem; }
   .page-content .course-details-footer { padding: .5rem 1rem 1.25rem; }
@@ -611,14 +618,14 @@ div.photo-gallery > a > img {
 .page-content a.mock-test-button:hover { background: hsl(215 70% 32%); }
 .page-content a.mock-test-button:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
 
-.page-content .summer-course-posters { width: 100%; max-width: 480px; margin: 0 auto 2rem; }
+.page-content .summer-course-posters { width: 100%; max-width: 100%; margin: 0 auto 2rem; }
 .page-content .summer-course-posters figure { margin: 0; min-width: 0; }
-.page-content .summer-course-posters img { width: 100%; height: 220px; object-fit: contain; margin: 0; border-radius: 1rem; background: hsl(var(--muted)); }
+.page-content .summer-course-posters img { width: 100%; height: auto; object-fit: contain; margin: 0; border-radius: 1rem; background: hsl(var(--muted)); }
 .page-content .summer-category-grid { margin-block: 2rem; }
 
-.mobile-page-intro { max-width: 56rem; margin-inline: auto; padding: 1.5rem 1rem 0; }
+.mobile-page-intro { max-width: 100%; margin-inline: auto; padding: 1.5rem 1rem 0; }
 .page-content .mobile-page-intro { padding: 0; margin-bottom: 1.5rem; }
-.mobile-page-intro > img { display: block; width: 100%; max-width: 480px; height: auto; margin: 0 auto 1.5rem; border-radius: .75rem; }
+.mobile-page-intro > img { display: block; width: 100%; max-width: 100%; height: auto; margin: 0 auto 1.5rem; border-radius: .75rem; }
 .mobile-page-intro > h1, .mobile-page-intro > p { display: none; }
 .page-content .original-intro-image { display: none; }
 @media (min-width: 1280px) {
@@ -628,7 +635,7 @@ div.photo-gallery > a > img {
 /* Phones and tablets show the original artwork above the page text. */
 @media (max-width: 1279px) {
   .desktop-page-hero { display: none !important; }
-  .mobile-page-intro { display: block; max-width: 56rem; margin-inline: auto; padding: 1.5rem 1rem 0; }
+  .mobile-page-intro { display: block; max-width: 100%; margin-inline: auto; padding: 1.5rem 1rem 0; }
   .mobile-page-intro > h1, .mobile-page-intro > p { display: block; }
   .mobile-page-intro h1 { font-size: clamp(1.5rem, 4vw, 2.25rem); font-weight: 700; line-height: 1.2; }
   .mobile-page-intro p { margin-top: 1rem; line-height: 1.7; color: hsl(var(--muted-foreground)); }
@@ -661,10 +668,98 @@ div.photo-gallery > a > img {
   .site-header > div:last-child > div:first-child { height: 4rem; gap: .5rem; }
   .detail-layout { padding-inline: .75rem; gap: 1.5rem; }
   .detail-layout .page-content { padding: 1rem; border-radius: .75rem; line-height: 1.75; }
-  .page-content h2, .page-content h3 { font-size: 1.5rem; }
+  .page-content h2 { font-size: 1.75rem; }
+  .page-content h3 { font-size: 1.625rem; }
   .page-content h4 { font-size: 1.25rem; }
   .page-content blockquote, .page-content .migration-form,
   .page-content .course-schedule { padding: 1rem; }
   .page-content :where(input, select, textarea) { font-size: 1rem; }
   main a.inline-flex { white-space: normal; height: auto; min-height: 2.75rem; text-align: center; }
 }
+
+/* Shared editorial layout for imported course and event content. */
+.page-content { overflow-wrap: anywhere; }
+.page-content :where(p, li) { text-wrap: pretty; }
+.page-content .content-lead { font-size: 1.125rem; line-height: 1.8; color: hsl(var(--foreground)); }
+.page-content .registration-poster { display: block; width: 100%; max-width: 100%; margin: 0 auto 2rem; object-fit: contain; }
+.page-content .event-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-block: 1.5rem; }
+.event-facts > div { padding: 1.25rem; border: 1px solid hsl(var(--border)); border-radius: .75rem; background: hsl(var(--muted) / .5); }
+.event-facts dt { margin-bottom: .5rem; font-weight: 700; color: hsl(var(--primary)); }
+.event-facts dd { margin: 0; line-height: 1.7; }
+.page-content .content-callout { margin-block: 2rem; padding: clamp(1rem, 3vw, 2rem); border: 1px solid hsl(var(--primary) / .2); border-radius: 1rem; background: hsl(var(--primary) / .05); }
+.page-content .content-callout h2 { margin-top: 0; }
+.page-content .content-callout > :last-child { margin-bottom: 0; }
+.page-content a.content-action { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: .8rem 1.25rem; border-radius: .65rem; background: hsl(var(--primary)); color: white; text-decoration: none; line-height: 1.5; }
+.page-content a.content-action:hover { background: hsl(var(--primary) / .9); }
+.page-content a.content-action:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
+.page-content .event-partners { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; padding-top: 1.5rem; border-top: 1px solid hsl(var(--border)); }
+.page-content .event-partners img { width: auto; max-width: min(180px, 100%); max-height: 80px; margin: 0; border: 0; border-radius: 0; box-shadow: none; object-fit: contain; }
+.event-partners br { display: none; }
+@media (max-width: 639px) { .page-content .event-facts { grid-template-columns: minmax(0, 1fr); } }
+
+/* Halloween event: playful accents, readable details and clear participation steps. */
+.page-content.halloween-page { --party-ink: #302044; --party-orange: #ffc078; --party-purple: #6b3ba4; }
+.halloween-page .halloween-section { margin-block: 3rem; }
+.page-content.halloween-page h2 { border: 0; padding: 0; color: var(--party-ink); font-size: clamp(1.75rem, 2.6vw, 2.5rem); }
+.halloween-page .halloween-eyebrow { display: inline-flex; align-items: center; gap: .5rem; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.halloween-page .halloween-welcome { position: relative; isolation: isolate; overflow: hidden; padding: clamp(1.5rem, 4vw, 3.5rem); border-radius: 1.25rem; color: #fff5e8; background: radial-gradient(ellipse at top right, #744598, transparent 65%), #302044; }
+.page-content .halloween-welcome h2 { margin: 1.5rem 0; color: white; font-size: clamp(2.75rem, 5vw, 5rem); line-height: 1.02; letter-spacing: -.04em; }
+.halloween-welcome h2 span { color: var(--party-orange); }
+.page-content .halloween-welcome p { max-width: 36rem; font-size: 1.125rem; line-height: 1.8; }
+.page-content .halloween-decoration { position: absolute; z-index: -1; right: -1rem; top: 2rem; width: clamp(9rem, 20vw, 18rem); height: auto; opacity: .12; transform: rotate(15deg); }
+.page-content a.halloween-button { display: inline-flex; justify-content: center; align-items: center; gap: .75rem; min-height: 48px; padding: .85rem 1.2rem; border-radius: .75rem; background: var(--party-orange); color: #302044; font-weight: 700; text-decoration: none; line-height: 1.5; }
+.page-content a.halloween-button:hover { background: #ffcf99; }
+.halloween-page a:focus-visible { outline: 3px solid #a76bd1; outline-offset: 4px; }
+.halloween-page .halloween-facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1.25rem 0 3rem; }
+.halloween-facts > div { padding: 1.5rem; border: 1px solid #f0dfcc; border-radius: 1rem; background: #fff8ef; }
+.page-content .halloween-facts svg { width: 1.75rem; height: 1.75rem; margin-bottom: .75rem; color: #9a4a14; }
+.halloween-facts dt { font-size: .8rem; color: #78553e; }
+.halloween-facts dd { margin: .5rem 0 0; font-size: 1.125rem; font-weight: 700; line-height: 1.5; color: var(--party-ink); }
+.halloween-facts dd span { display: block; margin-top: .65rem; font-size: .9rem; font-weight: 400; }
+.halloween-page .halloween-section > h2, .halloween-page .halloween-memories > h2 { margin-top: .75rem; }
+.halloween-activities { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 2rem; }
+.halloween-activities > section { padding: 1.5rem; border: 1px solid #e8dff0; border-radius: 1rem; background: #f8f3fc; }
+.page-content .halloween-activities svg { width: 2.75rem; height: 2.75rem; padding: .6rem; border-radius: .75rem; color: #6b3ba4; background: #ecdef7; }
+.page-content .halloween-activities h3 { margin: 1rem 0 .75rem; font-size: 1.25rem; line-height: 1.35; color: var(--party-ink); }
+.page-content .halloween-activities p { margin: 0; font-size: .95rem; line-height: 1.8; }
+.halloween-costumes { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; padding: clamp(1.25rem, 3vw, 2rem); border-radius: 1.25rem; background: #fff5e7; }
+.page-content .halloween-costumes h2 { margin-top: 1rem; }
+.halloween-tags { display: flex; flex-wrap: wrap; gap: .5rem; }
+.halloween-tags span { padding: .3rem .75rem; border: 1px solid #ebd6b9; border-radius: 999px; font-size: .8rem; color: #714325; background: white; }
+.halloween-checklist { padding: 1.5rem; border-radius: 1rem; background: white; }
+.page-content .halloween-checklist h3 { margin: 0; font-size: 1.3rem; color: var(--party-ink); }
+.page-content .halloween-checklist ul { margin-bottom: 0; }
+.halloween-page .halloween-checklist li::marker { color: #b66424; }
+.halloween-page #participare { scroll-margin-top: calc(var(--site-header-height, 88px) + 1.5rem); }
+.halloween-registration { display: grid; grid-template-columns: 1.15fr 1fr; align-items: start; gap: 2rem; margin-top: 2rem; }
+.page-content .halloween-steps { counter-reset: party-step; list-style: none; padding: 0; margin: 0; }
+.halloween-steps > li { position: relative; counter-increment: party-step; padding: 0 0 1.5rem 3.5rem; }
+.halloween-steps > li::before { content: counter(party-step, decimal-leading-zero); position: absolute; left: 0; top: 0; display: grid; place-items: center; width: 2.5rem; height: 2.5rem; border-radius: 50%; background: #eee4f7; color: #6b3ba4; font-weight: 700; }
+.page-content .halloween-steps h3 { margin: 0; font-size: 1.25rem; line-height: 1.5; color: var(--party-ink); }
+.page-content .halloween-steps p { margin: .75rem 0 0; }
+.page-content .halloween-note { padding: 1rem; border-left: 3px solid #c28648; background: #fff8ef; font-size: .9rem; }
+.halloween-ticket { padding: 1.75rem; border: 1px dashed #b599cc; border-radius: 1rem; background: #f8f3fc; }
+.page-content .halloween-ticket h3 { margin: 1.25rem 0 0; font-size: 2.5rem; color: var(--party-purple); }
+.page-content .halloween-ticket p { margin: .5rem 0 1.25rem; }
+.halloween-ticket hr { margin: 1.5rem 0; border-color: #ded1e9; }
+.halloween-ticket .halloween-button { width: 100%; }
+.page-content a.halloween-contact { display: flex; justify-content: center; align-items: center; gap: .5rem; margin-top: 1rem; font-size: .9rem; }
+.halloween-email { display: block; margin-top: .5rem; font-size: .8rem; text-align: center; }
+.halloween-memories { padding-top: 2rem; border-top: 1px solid #e8dff0; }
+.halloween-media { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
+.page-content .halloween-media a { display: flex; align-items: center; gap: .75rem; padding: 1.1rem; border: 1px solid #e8dff0; border-radius: .85rem; color: var(--party-ink); text-decoration: none; line-height: 1.5; background: #faf8fc; }
+.halloween-media a svg { flex-shrink: 0; }
+.halloween-media a svg:last-child { margin-left: auto; }
+.halloween-media a:hover { background: #eee4f7; }
+@media (max-width: 767px) {
+  .halloween-page .halloween-facts, .halloween-activities, .halloween-costumes, .halloween-registration, .halloween-media { grid-template-columns: minmax(0, 1fr); }
+  .halloween-facts > div { padding: 1.25rem; }
+  .halloween-costumes, .halloween-registration { gap: 1.25rem; }
+}
+
+.page-content .playday-prices { display: grid; gap: 1rem; margin-top: 1.5rem; }
+.playday-prices > div { padding: 1rem 1.25rem; border: 1px solid rgb(255 255 255 / .25); border-radius: .85rem; background: rgb(255 255 255 / .08); }
+.playday-prices dt { font-size: .95rem; line-height: 1.5; color: rgb(255 255 255 / .9); }
+.playday-prices dd { display: flex; flex-wrap: wrap; align-items: baseline; gap: .4rem; margin: .5rem 0 0; color: white; }
+.playday-prices dd > span { font-size: 2.5rem; font-weight: 750; line-height: 1.2; }
+.playday-prices small { font-size: .9rem; }

@@ -114,7 +114,7 @@ export default function Page() {
                                 </h2>
                                 <p></p>
                                 <p>
-                                  <a href={"/british-camps-2015-jurnal-de-tabara-ziua-5/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
+                                  <a href={"https://www.proerudio.ro/british-camps-2015-jurnal-de-tabara-ziua-5/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
                                     {"Vezi galeria foto pe site-ul original"}
                                   </a>
                                 </p>

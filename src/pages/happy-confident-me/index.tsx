@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"happy-confident-me"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2023/05/happy-confident-me.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2023/05/happy-confident-me-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2023/05/happy-confident-me-1024x536.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2023/05/happy-confident-me-768x402.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2023/05/happy-confident-me-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2023/05/happy-confident-me-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2023/05/happy-confident-me-143x75.jpg 143w, https://www.proerudio.ro/wp-content/uploads/2023/05/happy-confident-me-480x251.jpg 480w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} src={"https://www.proerudio.ro/wp-content/uploads/2023/05/happy-confident-me.jpg"} />
+
                               </div>
                             </figure>
                           </div>

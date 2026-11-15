@@ -74,7 +74,7 @@ export default function Page() {
                                       <p>
                                         {"Pentru a completa formularul, accesează pagina originală."}
                                       </p>
-                                      <a href={"/inscriere-cursuri-pro-erudio/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
+                                      <a href={"https://www.proerudio.ro/inscriere-cursuri-pro-erudio/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
                                         {"Deschide formularul"}
                                       </a>
                                     </div>

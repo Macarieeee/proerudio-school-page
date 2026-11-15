@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"bring-a-friend"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2019/06/bring-a-friend.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2019/06/bring-a-friend-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2019/06/bring-a-friend-768x402.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2019/06/bring-a-friend-1024x536.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2019/06/bring-a-friend-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2019/06/bring-a-friend-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2019/06/bring-a-friend-143x75.jpg 143w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} src={"https://www.proerudio.ro/wp-content/uploads/2019/06/bring-a-friend.jpg"} />
+
                               </div>
                             </figure>
                           </div>

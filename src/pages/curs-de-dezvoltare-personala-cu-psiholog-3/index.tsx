@@ -383,7 +383,7 @@ export default function Page() {
                                       <p>
                                         {"Pentru a completa formularul, accesează pagina originală."}
                                       </p>
-                                      <a href={"/cursuri-de-vara/cursuri-de-vara-de-dezvoltare-personala/curs-de-dezvoltare-personala-cu-psiholog-3/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
+                                      <a href={"https://www.proerudio.ro/cursuri-de-vara/cursuri-de-vara-de-dezvoltare-personala/curs-de-dezvoltare-personala-cu-psiholog-3/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
                                         {"Deschide formularul"}
                                       </a>
                                     </div>

@@ -150,7 +150,7 @@ export default function Page() {
                                 </h2>
                                 <p></p>
                                 <p>
-                                  <a href={"/storytime-6-8-ani-galerie-foto/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
+                                  <a href={"https://www.proerudio.ro/storytime-6-8-ani-galerie-foto/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
                                     {"Vezi galeria foto pe site-ul original"}
                                   </a>
                                 </p>

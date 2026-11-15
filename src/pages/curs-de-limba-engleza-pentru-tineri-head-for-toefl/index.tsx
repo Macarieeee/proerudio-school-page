@@ -421,7 +421,7 @@ export default function Page() {
                 <strong>
                   {"Număr participanți: "}
                 </strong>
-                {"maxim 10"}
+                {"maxim 10 "}
                 {"în grupă"}
               </li>
               <li className={"course-fact"}>
@@ -467,7 +467,7 @@ export default function Page() {
             {"864 lei/trașă plată."}
           </li>
           <li>
-            {"Lunar până pe data de 5 a fiecarei luni prin înmulțirea numărului maxim de cursuri din lună"}
+            {"Lunar până pe data de 5 a fiecarei luni prin înmulțirea numărului maxim de cursuri din lună "}
             {"cu prețul pe curs."}
           </li>
         </ul>

@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"dramatic-brut"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/dramatic-brut-1.jpg 870w, https://www.proerudio.ro/wp-content/uploads/2016/01/dramatic-brut-1-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/dramatic-brut-1-768x401.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/dramatic-brut-1-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/dramatic-brut-1-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/dramatic-brut-1-144x75.jpg 144w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/dramatic-brut-1.jpg"} />
+
                               </div>
                             </figure>
                           </div>
@@ -105,7 +105,7 @@ export default function Page() {
                                 </li>
                               </ul>
                               <p>
-                                {"Ca să îți dai seama mai bine daca acest"}
+                                {"Ca să îți dai seama mai bine daca acest "}
                                 {"curs ți se potrivește, te invităm să vezi ce filmuleț"}
                                 {"au realizat colegii de anul trecut:"}
                                 <br />
@@ -135,7 +135,7 @@ export default function Page() {
                                       <p>
                                         {"Mai multe imagini găsiți aici: Galerie “"}
                                         <a href={"https://www.facebook.com/media/set/?set=a.713555685412609.1073741875.114304442004406&type=3"} target={"_blank"} rel={"noopener noreferrer"}>
-                                          {"cursuri de vară"}
+                                          {"cursuri de vară "}
                                           {"2015"}
                                         </a>
                                         {"“"}
@@ -174,7 +174,7 @@ export default function Page() {
                                   <div className={"course-details-panel"}>
                                     <div className={"course-details-header"}>
                                       <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                                        <img decoding={"async"} alt={"dramatic-brut"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/dramatic-brut-1.jpg"} />
+
                                       </div>
                                       <h2>
                                         {"Be DRAMAtic!"}

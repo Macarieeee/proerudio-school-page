@@ -300,7 +300,7 @@ export default function Page() {
                                       <p>
                                         {"Pentru a completa formularul, accesează pagina originală."}
                                       </p>
-                                      <a href={"/alte-cursuri-pentru-copii/cursuri-de-dezvoltare-personala-copii/curs-pentru-dezvoltarea-inteligentei-emotionale-la-copii/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
+                                      <a href={"https://www.proerudio.ro/alte-cursuri-pentru-copii/cursuri-de-dezvoltare-personala-copii/curs-pentru-dezvoltarea-inteligentei-emotionale-la-copii/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
                                         {"Deschide formularul"}
                                       </a>
                                     </div>

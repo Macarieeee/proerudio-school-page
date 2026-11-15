@@ -49,7 +49,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={""} title={"Pro Erudio - Curs de Limba Japoneza pentru Copii"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2026/08/Pro-Erudio-Curs-de-Limba-Japoneza-pentru-Copii.png 1672w, https://www.proerudio.ro/wp-content/uploads/2026/08/Pro-Erudio-Curs-de-Limba-Japoneza-pentru-Copii-300x169.png 300w, https://www.proerudio.ro/wp-content/uploads/2026/08/Pro-Erudio-Curs-de-Limba-Japoneza-pentru-Copii-1024x576.png 1024w, https://www.proerudio.ro/wp-content/uploads/2026/08/Pro-Erudio-Curs-de-Limba-Japoneza-pentru-Copii-768x432.png 768w, https://www.proerudio.ro/wp-content/uploads/2026/08/Pro-Erudio-Curs-de-Limba-Japoneza-pentru-Copii-1536x864.png 1536w, https://www.proerudio.ro/wp-content/uploads/2026/08/Pro-Erudio-Curs-de-Limba-Japoneza-pentru-Copii-133x75.png 133w, https://www.proerudio.ro/wp-content/uploads/2026/08/Pro-Erudio-Curs-de-Limba-Japoneza-pentru-Copii-1116x628.png 1116w, https://www.proerudio.ro/wp-content/uploads/2026/08/Pro-Erudio-Curs-de-Limba-Japoneza-pentru-Copii-480x270.png 480w"} sizes={"(max-width:767px) 480px, (max-width:1672px) 100vw, 1672px"} src={"https://www.proerudio.ro/wp-content/uploads/2026/08/Pro-Erudio-Curs-de-Limba-Japoneza-pentru-Copii.png"} />
+
                               </div>
                             </figure>
                           </div>

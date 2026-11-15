@@ -309,7 +309,7 @@ export default function Page() {
             {"798 lei/trașă plată."}
           </li>
           <li>
-            {"Lunar până pe data de 5 a fiecarei luni prin înmulțirea numărului maxim de cursuri din lună"}
+            {"Lunar până pe data de 5 a fiecarei luni prin înmulțirea numărului maxim de cursuri din lună "}
             {"cu prețul pe curs."}
           </li>
         </ul>
