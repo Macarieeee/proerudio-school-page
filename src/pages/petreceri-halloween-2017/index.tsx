@@ -219,7 +219,7 @@ export default function Page() {
                                   </li>
                                   <li>
                                     <span>
-                                      {"Photo Contest cu simboluri de Halloween (doar seria 11-12 ani);"}
+                                      {"Photo Contest cu simboluri de Halloween (doar seria 11 - 12 ani);"}
                                     </span>
                                   </li>
                                   <li>
@@ -494,7 +494,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Halloween Party– 2015 Sâmbătă, 31 octombrie 2015 M-am trezit de dimineaţă cu gândul la petrecerea ce urmează, după o săptămâna întreagă"}
+              {"Halloween Party– 2015 Sâmbătă, 31 octombrie 2015 M-am trezit de dimineață cu gândul la petrecerea ce urmează, după o săptămâna întreagă"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -536,7 +536,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Distracție la căldurică Deşi iarnă cu zăpadă se lasă aşteptată, “Distracţia la căldurică” nu a avut nimic de pierdut. Ne-am"}
+              {"Distracție la căldurică Deși iarnă cu zăpadă se lasă așteptată, “Distracția la căldurică” nu a avut nimic de pierdut. Ne-am"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -557,7 +557,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Christmas is coming… Vine Crăciunul şi ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
+              {"Christmas is coming… Vine Crăciunul și ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

@@ -1,11 +1,7 @@
 .summer-language-page {
-  --course-accent: 215 70% 40%;
-  --course-tint: 213 70% 97%;
+  --course-accent: 225 58% 43%;
+  --course-tint: 225 70% 98%;
 }
-.language-spanish { --course-accent: 16 75% 36%; --course-tint: 28 90% 97%; }
-.language-japanese { --course-accent: 340 48% 39%; --course-tint: 340 60% 98%; }
-.language-french { --course-accent: 225 58% 43%; --course-tint: 225 70% 98%; }
-.language-german { --course-accent: 170 58% 27%; --course-tint: 165 45% 97%; }
 .summer-language-page .course-language-label {
   display: flex;
   flex-wrap: wrap;
@@ -72,6 +68,8 @@
   font-size: 1.125rem;
   line-height: 1.75;
 }
+.summer-language-page .course-intro-card > p { margin: 0; font-size: inherit; line-height: inherit; }
+.summer-language-page .course-intro-card > p + p { margin-top: 1rem; }
 .summer-language-page ul.course-discovery-grid {
   display: block;
   margin: .75rem 0 1.75rem;

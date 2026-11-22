@@ -47,7 +47,7 @@ export default function Page() {
           </span>
         </h4>
         <p>
-          {"Optica părinţilor şi cea a profesorilor cu privire la modul în care ar trebui învăţată o limbă străină în zilele noastre diferă extrem de mult: de la părerea că tot ce ai nevoie este să petreci timp într-o ţară în care limba maternă este limba ţintă a cursantului, până la părerea că aşa cum noi am învăţat totul din cărţi, copiii noştri trebuie să procedeze la fel, ajutaţi fiind de toate resursele tehnologiei moderne de care noi, evident, nu ne-am bucurat în anii şcolii."}
+          {"Optica părinților și cea a profesorilor cu privire la modul în care ar trebui învățată o limbă străină în zilele noastre diferă extrem de mult: de la părerea că tot ce ai nevoie este să petreci timp într-o țară în care limba maternă este limba țintă a cursantului, până la părerea că așa cum noi am învățat totul din cărți, copiii noștri trebuie să procedeze la fel, ajutați fiind de toate resursele tehnologiei moderne de care noi, evident, nu ne-am bucurat în anii școlii."}
         </p>
         <h3>
           <span>
@@ -55,29 +55,29 @@ export default function Page() {
           </span>
         </h3>
         <p>
-          {"La Pro Erudio încercăm să îmbinăm cele două modalităţi de învăţare a limbii engleze pentru o învăţare eficientă, recunoscând meritele ambelor metode. Cursurile obişnuite de limba engleză sunt ţinute de profesori calificaţi, profesori români de limba engleză, pentru a aduce învăţarea cât mai aproape de nevoile cursantului. Încercăm să sintetizăm aici câteva dintre beneficiile învăţării limbii engleze sub îndrumarea unui profesor român de limba engleză:"}
+          {"La Pro Erudio încercăm să îmbinăm cele două modalități de învățare a limbii engleze pentru o învățare eficientă, recunoscând meritele ambelor metode. Cursurile obișnuite de limba engleză sunt ținute de profesori calificați, profesori români de limba engleză, pentru a aduce învățarea cât mai aproape de nevoile cursantului. Încercăm să sintetizăm aici câteva dintre beneficiile învățării limbii engleze sub îndrumarea unui profesor român de limba engleză:"}
         </p>
         <ul>
           <li>
-            {"posibilitatea traducerii în momentul în care toate celelalte metode de a explica/demonstra/reprezenta au eşuat;"}
+            {"posibilitatea traducerii în momentul în care toate celelalte metode de a explica/demonstra/reprezenta au eșuat;"}
           </li>
           <li>
-            {"cunoaşterea dificultăţilor specifice pe care le întâmpina copiii români în învăţarea limbii engleze, deci oferirea de explicaţii punctuale pentru a le elimina cu uşurinţă ( de exemplu în limba română spunem “confortabil”, în timp ce în limba engleză cuvântul corect este “comfortable”, cu “m”, nu “n” – diferenţa pe care doar un cunoscător al ambelor limbi o poate puncta);"}
+            {"cunoașterea dificultăților specifice pe care le întâmpina copiii români în învățarea limbii engleze, deci oferirea de explicații punctuale pentru a le elimina cu ușurință ( de exemplu în limba română spunem “confortabil”, în timp ce în limba engleză cuvântul corect este “comfortable”, cu “m”, nu “n” – diferența pe care doar un cunoscător al ambelor limbi o poate puncta);"}
           </li>
           <li>
-            {"posibilitatea de comparare a felului în care ne exprimăm corect în limba engleză, spre deosebire de limba română pentru a evita, de exemplu, o topica greşită ( spunem “a red shoe”, nu “a shoe red”, aşa cum am spune sub influenţă limbii materne)"}
+            {"posibilitatea de comparare a felului în care ne exprimăm corect în limba engleză, spre deosebire de limba română pentru a evita, de exemplu, o topica greșită ( spunem “a red shoe”, nu “a shoe red”, așa cum am spune sub influență limbii materne)"}
           </li>
           <li>
-            {"înţelegerea prin asocierea cu limba română a mesajului pe care copilul doreşte să îl transmită chiar şi atunci când este foarte diferit de felul în care ar trebui exprimat în engleză şi oferirea de ghidaj corespunzător (de exemplu expresiile idiomatice de genul “beat the fields”"}
-            {" - “a bate câmpii” traducere cuvânt cu cuvânt din limba română - sunt greu de înţeles de o persoană nevorbitoare de limba română că fiind “beat around/about the bush” din limba engleză)"}
+            {"înțelegerea prin asocierea cu limba română a mesajului pe care copilul dorește să îl transmită chiar și atunci când este foarte diferit de felul în care ar trebui exprimat în engleză și oferirea de ghidaj corespunzător (de exemplu expresiile idiomatice de genul “beat the fields”"}
+            {" - “a bate câmpii” traducere cuvânt cu cuvânt din limba română - sunt greu de înțeles de o persoană nevorbitoare de limba română că fiind “beat around/about the bush” din limba engleză)"}
           </li>
           <li>
-            {"cunoaşterea gramaticii române şi predarea prin comparaţie (chiar şi în limba română acolo unde este cazul) este foarte eficientă deoarece reduce ani de corectură şi consolidare prin exerciţii repetitive la o explicaţie de câteva minute, explicaţie urmată desigur de efortul de a urmă regulă pentru a formă automatisme (de exemplu explicaţia că în limba engleză, spre deosebire de limba română, cuvântul “money” se foloseşte doar la singular);"}
+            {"cunoașterea gramaticii române și predarea prin comparație (chiar și în limba română acolo unde este cazul) este foarte eficientă deoarece reduce ani de corectură și consolidare prin exerciții repetitive la o explicație de câteva minute, explicație urmată desigur de efortul de a urmă regulă pentru a formă automatisme (de exemplu explicația că în limba engleză, spre deosebire de limba română, cuvântul “money” se folosește doar la singular);"}
           </li>
         </ul>
         <p>
           <strong>
-            {"Toate avantajele mai sus enumerate nu înseamnă că interacţiunea cu cu trainer internaționali nu este deosebit de importantă. Iată şi câteva motive:"}
+            {"Toate avantajele mai sus enumerate nu înseamnă că interacțiunea cu cu trainer internaționali nu este deosebit de importantă. Iată și câteva motive:"}
           </strong>
         </p>
         <ul>
@@ -88,7 +88,7 @@ export default function Page() {
             {"o metodă diferită de învățare, mai relaxată, flexibilă, bazată pe comunicare și legarea de prietenii;"}
           </li>
           <li>
-            {"alte tipuri de activităţi în timpul cursului (fără gramatică şi exerciţii scrise, doar jocuri interactive pentru copiii mai mici şi conversaţie autentică pentru cei mai mari);"}
+            {"alte tipuri de activități în timpul cursului (fără gramatică și exerciții scrise, doar jocuri interactive pentru copiii mai mici și conversație autentică pentru cei mai mari);"}
           </li>
           <li>
             {"subiecte de discuție orientate pe nevoile copilului, adesea chiar la sugestia lor;"}
@@ -119,11 +119,11 @@ export default function Page() {
           <span>
             {"Alătură-te cursului nostru interactiv ("}
             <strong>
-              {"pentru copii de 7-12 ani"}
+              {"pentru copii de 7 - 12 ani"}
             </strong>
             {") sau de conversație ("}
             <strong>
-              {"12-16 ani"}
+              {"12 - 16 ani"}
             </strong>
             {") predat de un profesor internațional și deblochează o lume de posibilități. "}
           </span>

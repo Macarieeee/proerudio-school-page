@@ -136,7 +136,7 @@ export default function Page() {
                                 <h4>
                                   <strong>
                                     {"Iată câteva idei pentru a vă"}
-                                    {"ajuta propriii copii să iubească lectura:"}
+                                    {" ajuta propriii copii să iubească lectura:"}
                                   </strong>
                                 </h4>
                                 <p>
@@ -358,7 +358,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -379,7 +379,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -400,7 +400,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -421,7 +421,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -442,7 +442,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro"}
+              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -463,7 +463,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2023-2024 și cele mai importante activități Structura anului şcolar la Pro Erudio o urmează"}
+              {"Structura anului școlar 2023-2024 și cele mai importante activități Structura anului școlar la Pro Erudio o urmează"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

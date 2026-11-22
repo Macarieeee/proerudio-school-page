@@ -127,7 +127,7 @@ export default function Page() {
                               </p>
                               <p>
                                 <span>
-                                  {"În completarea cursurilor de limba engleză vin cursurile de alte limbi străine (germană și franceză) și cursurile de dezvoltare personală (cursurile de actorie și șah, cursurile de cultură generală și de dezvoltare a exprimării în limba română, precum și cele de dezvoltare a creativității prin artă (pictură, desen, colaj, modelaj, origami etc). Toate acestea conduc la formarea și dezvoltarea de personalități armonioase."}
+                                  {"În completarea cursurilor de limba engleză vin cursurile de alte limbi străine (germană și franceză) și cursurile de dezvoltare personală (cursurile de actorie și șah, cursurile de cultură generală și de dezvoltare a exprimarii în limba română, precum și cele de dezvoltare a creativității prin artă (pictură, desen, colaj, modelaj, origami etc). Toate acestea conduc la formarea și dezvoltarea de personalități armonioase."}
                                 </span>
                               </p>
                             </div>
@@ -139,7 +139,7 @@ export default function Page() {
                               </h2>
                               <p>
                                 <span>
-                                  {"Credem cu putere că printr-o educație bazată pe valori precum dreptate, corectitudine, verticalitate, perseverență, deschidere spre cunoaștere, respect, generozitate, amabilitate, toleranță etc, generațiile care vor urma vor ajuta la consolidarea unei Românii în care alegem să trăim, chiar dacă viață ne oferă oportunități greu de refuzat."}
+                                  {"Credem cu putere că printr-o educație bazată pe valori precum dreptate, corectitudine, verticalitate, perseverență, deschidere spre cunoaștere, respect, generozitate, amabilitate, toleranță etc., generațiile care vor urma vor ajuta la consolidarea unei Românii în care alegem să trăim, chiar dacă viață ne oferă oportunități greu de refuzat."}
                                 </span>
                               </p>
                               <p>
@@ -269,7 +269,7 @@ export default function Page() {
                                         <div>
                                           <h4>
                                             <a href={"/speranta-atasiei-2/"} title={""}>
-                                              {"Speranţa Atasiei"}
+                                              {"Speranța Atasiei"}
                                             </a>
                                           </h4>
                                           <p>

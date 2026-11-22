@@ -64,7 +64,7 @@ export default function Page() {
                           <div>
                             <div>
                               <h4>
-                                {"(pentru copii de 5-7 și 8-10 ani)"}
+                                {"(pentru copii de 5-7 și 8 - 10 ani)"}
                               </h4>
                             </div>
                           </div>
@@ -214,7 +214,7 @@ export default function Page() {
                                           {"230"}
                                         </span>
                                         <sup>
-                                          {"Modul copii 5-7 ani"}
+                                          {"Modul copii 5 - 7 ani"}
                                         </sup>
                                       </div>
                                       <hr />
@@ -289,7 +289,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârstă: "}
                                             </strong>
-                                            {"5-7 ani"}
+                                            {"5 - 7 ani"}
                                           </li>
                                         </ul>
                                         <p></p>
@@ -325,7 +325,7 @@ export default function Page() {
                                           {"300"}
                                         </span>
                                         <sup>
-                                          {"Modul copii 8-10 ani"}
+                                          {"Modul copii 8 - 10 ani"}
                                         </sup>
                                       </div>
                                       <hr />
@@ -400,7 +400,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârstă: "}
                                             </strong>
-                                            {"8-10 ani"}
+                                            {"8 - 10 ani"}
                                           </li>
                                         </ul>
                                         <p></p>
@@ -557,7 +557,7 @@ export default function Page() {
                             <div>
                               <h3>
                                 {"Alte cursuri"}
-                                {"pentru copii:"}
+                                {" pentru copii:"}
                               </h3>
                             </div>
                           </div>
@@ -582,7 +582,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5–17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
+                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5 - 17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -603,7 +603,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar şi a exprimarii pasiunii, limba iubirii"}
+                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar și a exprimarii pasiunii, limba iubirii"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -666,7 +666,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Creioane și culori (pentru copii de 5-7 si 8-10 ani) Prezentare generală Desenul este"}
+                                    {"Creioane și culori (pentru copii de 5-7 si 8 - 10 ani) Prezentare generală Desenul este"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}

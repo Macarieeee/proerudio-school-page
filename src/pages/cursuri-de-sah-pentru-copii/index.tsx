@@ -74,7 +74,7 @@ export default function Page() {
                                   <div>
                                     <div>
                                       <h5>
-                                        {"Cursuri pentru copii de 5 – 9"}
+                                        {"Cursuri pentru copii de 5 - 9"}
                                         {"ani."}
                                       </h5>
                                       <div>
@@ -92,7 +92,7 @@ export default function Page() {
                                           </p>
                                           <p>
                                             {"Jocul și joaca sunt elemente specifice copilăriei, prin care copiii descoperă"}
-                                            {"și se adaptează lumii înconjurătoare. Ca activitate complementară, jocul are funcția de antrenare psihologica sau de preambul al activităților de muncă propriu-zise, respectiv "}
+                                            {" și se adaptează lumii înconjurătoare. Ca activitate complementară, jocul are funcția de antrenare psihologica sau de preambul al activităților de muncă propriu-zise, respectiv "}
                                             <strong>
                                               {"exersarea de strategii"}
                                             </strong>
@@ -105,8 +105,8 @@ export default function Page() {
                                               {"adaptarea la dificultăți"}
                                             </strong>
                                             {". Urmând cursuri de șah pentru copii, cel mic devine interesat și este implicat în activitățile ce se desfășoară; învață"}
-                                            {"cu plăcere din propria experiență"}
-                                            {"și de grup atunci cand acestea capătă forma unor întreceri, dovedindu-se un mijloc eficient de activizare a întregului colectiv, dezvoltând "}
+                                            {" cu plăcere din propria experiență"}
+                                            {" și de grup atunci cand acestea capătă forma unor întreceri, dovedindu-se un mijloc eficient de activizare a întregului colectiv, dezvoltând "}
                                             <strong>
                                               {"spiritul de echipă"}
                                             </strong>
@@ -176,8 +176,8 @@ export default function Page() {
                                   </p>
                                   <p>
                                     {"Practicând jocul de șah, copilul intră"}
-                                    {"în contact cu noțiuni care-i vor fi de folos pe parcursul anilor următori: strategie, ofensivă, defensivă, planificare, sacrifiu, capturare, competiție, rivalitate, anticipare, amenințare, autocontrol, raționament etc. Urmând aceste"}
-                                    {"cursuri de șah pentru copii, copilul își va antrena o serie de abilități și va învăța:"}
+                                    {" în contact cu noțiuni care-i vor fi de folos pe parcursul anilor următori: strategie, ofensivă, defensivă, planificare, sacrifiu, capturare, competiție, rivalitate, anticipare, amenințare, autocontrol, raționament etc. Urmând aceste"}
+                                    {" cursuri de șah pentru copii, copilul își va antrena o serie de abilități și va învăța:"}
                                   </p>
                                   <p>
                                     {"– să analizeze și să se autoanalizeze;"}
@@ -209,8 +209,8 @@ export default function Page() {
                                     {"\n– să-și respecte adversarul;"}
                                     <br />
                                     {"\n– să"}
-                                    {"prindă"}
-                                    {"încredere în forțele proprii."}
+                                    {" prindă"}
+                                    {" încredere în forțele proprii."}
                                   </p>
                                   <p>
                                     {"Fiecare capitol din aceste cursuri de șah pentru copii va cuprinde o lecție nouă, urmată de rezolvarea de diagrame, testarea cunoștințelor și jocul propriu-zis. Toate acestea se vor desfășura cu materiale (tablă didactică de prezentare, teste, diagrame, fișe educative, cărți) care-i vor antrena și le va menține curiozitatea copiilor, dornici să afle la fiecare lecție lucruri noi."}
@@ -221,8 +221,8 @@ export default function Page() {
                                       {"10 cursuri de șah pentru copii"}
                                     </strong>
                                     {" ne vom dezvolta gândirea logică"}
-                                    {"și aptitudinile matematice, vom promova imaginația și creativitatea, ne vom stimula capacitatea de a prevedea consecințele propriilor acțiuni, ne vom spori"}
-                                    {"încrederea în noi înșine și ne vom petrece timpul într-un mod plăcut."}
+                                    {" și aptitudinile matematice, vom promova imaginația și creativitatea, ne vom stimula capacitatea de a prevedea consecințele propriilor acțiuni, ne vom spori"}
+                                    {" încrederea în noi înșine și ne vom petrece timpul într-un mod plăcut."}
                                   </p>
                                 </div>
                               </div>
@@ -254,8 +254,8 @@ export default function Page() {
                                     </strong>
                                     <br />
                                     {"\nVom afla mai multe despre posibilitățile de mutare a fiecărei piese, precum și ce mutări putem face sau nu. De asemenea, vom lucra exerciții menite să"}
-                                    {"îi facă pe cei mici să"}
-                                    {"înțeleagă posibilitățile limitate de pași pe care îi poate face o piesă."}
+                                    {" îi facă pe cei mici să"}
+                                    {" înțeleagă posibilitățile limitate de pași pe care îi poate face o piesă."}
                                   </p>
                                   <p>
                                     <strong>
@@ -340,7 +340,7 @@ export default function Page() {
                                     </strong>
                                     <br />
                                     {"\nLa ultimul curs, vom lucra pe principiile de bază"}
-                                    {"ale mutărilor din șah, astfel încât cei mici să poată dezvolta abilitatea de a lucra singuri mai departe și de a-și dezvolta noua pasiune!"}
+                                    {" ale mutărilor din șah, astfel încât cei mici să poată dezvolta abilitatea de a lucra singuri mai departe și de a-și dezvolta noua pasiune!"}
                                   </p>
                                 </div>
                               </div>
@@ -571,7 +571,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârstă: "}
                                             </strong>
-                                            {"5 – 9 ani"}
+                                            {"5 - 9 ani"}
                                           </li>
                                         </ul>
                                         <p></p>
@@ -603,8 +603,8 @@ export default function Page() {
                                         <p>
                                           <strong>
                                             {"“N-avem cuvinte destule ca să"}
-                                            {"îndemn pe părinți și pe dascăli să"}
-                                            {"îndrume preocupările elevilor spre șah“"}
+                                            {" îndemn pe părinți și pe dascăli să"}
+                                            {" îndrume preocupările elevilor spre șah“"}
                                           </strong>
                                         </p>
                                       </blockquote>
@@ -763,7 +763,7 @@ export default function Page() {
                             <div>
                               <h3>
                                 {"Alte cursuri"}
-                                {"pentru copii:"}
+                                {" pentru copii:"}
                               </h3>
                             </div>
                           </div>
@@ -788,7 +788,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5–17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
+                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5 - 17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -809,7 +809,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar şi a exprimarii pasiunii, limba iubirii"}
+                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar și a exprimarii pasiunii, limba iubirii"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -851,7 +851,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Creioane și culori (pentru copii de 5-7 si 8-10 ani) Prezentare generală Desenul este"}
+                                    {"Creioane și culori (pentru copii de 5-7 si 8 - 10 ani) Prezentare generală Desenul este"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -872,7 +872,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Planeta animalelor (pentru copii de 5-7 și 8-10 ani) Prezentare generală Lumea animalelor"}
+                                    {"Planeta animalelor (pentru copii de 5-7 și 8 - 10 ani) Prezentare generală Lumea animalelor"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}

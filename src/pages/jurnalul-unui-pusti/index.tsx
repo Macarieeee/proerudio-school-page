@@ -90,11 +90,11 @@ export default function Page() {
 
 <section className="event-section">
 <p>
-                                          {"Înainte era mai bine. Toate erau mai bune şi mai frumoase. Să fie adevărat? Asta e întrebarea care-l"}
-                                          {"frământă pe Greg Heffley când toată lumea din oraşul lui alege să petreacă un weekend întreg fără"}
-                                          {"telefoane şi fără orice alte gadgeturi."}
-                                          {"Viaţa de azi are avantajele ei, iar Greg nu vrea să-şi refuze nimic, doar de dragul de a trăi ca pe"}
-                                          {"vremuri."}
+                                          {"Înainte era mai bine. Toate erau mai bune și mai frumoase. Să fie adevărat? Asta e întrebarea care-l"}
+                                          {" frământă pe Greg Heffley când toată lumea din orașul lui alege să petreacă un weekend întreg fără"}
+                                          {" telefoane și fără orice alte gadgeturi."}
+                                          {"Viața de azi are avantajele ei, iar Greg nu vrea să-și refuze nimic, doar de dragul de a trăi ca pe"}
+                                          {" vremuri."}
                                         </p>
 <p>
                                           {"Ziua de 6 decembrie a fost o zi cu adevarat specială pentru toți copiii fiindcă Moș Nicolae a venit încărcat cu bunătăți, dar în special pentru un grup de copii de la cursul nostru de teatru. Sub îndrumarea doamnei profesor Loreta Neculai, copiii au participat cu un mic spectacol cu prilejul lansării celui de-al zecelea volum al faimosului scriitor american Jeff Kinney, aflat într-un turneu mondial de promovare a ultimei sale publicații din seria "}
@@ -120,22 +120,22 @@ export default function Page() {
 <section className="event-section">
 <p>
                                           {"Am ajuns înfrigurați (la propriu și la figurat) în jurul orei 14.00 la Teatrul Național pentru ultimele pregătiri în sala Media. Am repetat replicile"}
-                                          {"și ordinea intrărilor, am făcut poze cu personajele din carte, iar în jurul orei 15.00 a început evenimentul organizat de Asociația Flower Power – mai întâi cu o discuție liberă"}
-                                          {"cu cei peste 100 de copii invitați. Ce cărți citesc? Câte volume din Jurnalul unui puști au citit? În cât timp citesc o carte? Ce părere au despre personajul principal?"}
+                                          {" și ordinea intrărilor, am făcut poze cu personajele din carte, iar în jurul orei 15.00 a început evenimentul organizat de Asociația Flower Power – mai întâi cu o discuție liberă"}
+                                          {" cu cei peste 100 de copii invitați. Ce cărți citesc? Câte volume din Jurnalul unui puști au citit? În cât timp citesc o carte? Ce părere au despre personajul principal?"}
                                         </p>
 <p>
                                           <img decoding={"async"} alt={"Jurnalul-unui-pusti-08-169x300"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-08-169x300.jpg 169w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-08-169x300-82x146.jpg 82w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-08-169x300-28x50.jpg 28w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-08-169x300-42x75.jpg 42w"} sizes={"(max-width:767px) 169px, 169px"} src={"http://pigproduction.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-08-169x300.jpg"} />
                                           {"În aplauzele copiilor "}
                                           <span contextMenu={"true"}>
-                                            {"îşi"}
+                                            {"își"}
                                           </span>
                                           {" face "}
                                           <span contextMenu={"true"}>
-                                            {"apariţia"}
+                                            {"apariția"}
                                           </span>
                                           {" Jeff Kinney, pentru a ne "}
                                           <span contextMenu={"true"}>
-                                            {"prezenţa"}
+                                            {"prezența"}
                                           </span>
                                           <span contextMenu={"true"}>
                                             {"povestea"}
@@ -160,7 +160,7 @@ export default function Page() {
                                           </span>
                                           {" anevoios (anul 2007) "}
                                           <span contextMenu={"true"}>
-                                            {"şi"}
+                                            {"și"}
                                           </span>
                                           {" refuzurile repetate ale diferitelor edituri de a-i "}
                                           <span contextMenu={"true"}>
@@ -168,11 +168,11 @@ export default function Page() {
                                           </span>
                                           {"benzile desenate, despre "}
                                           <span contextMenu={"true"}>
-                                            {"naşterea"}
+                                            {"nașterea"}
                                           </span>
                                           {" personajului Greg Heffley "}
                                           <span contextMenu={"true"}>
-                                            {"şi"}
+                                            {"și"}
                                           </span>
                                           {" felul "}
                                           <span contextMenu={"true"}>
@@ -213,21 +213,21 @@ export default function Page() {
                                           </span>
                                           {" timpul verii 15 ore pe zi), cum "}
                                           <span contextMenu={"true"}>
-                                            {"îşi"}
+                                            {"își"}
                                           </span>
                                           <span contextMenu={"true"}>
                                             {"adună"}
                                           </span>
                                           {" poantele (fiecare carte "}
                                           <span contextMenu={"true"}>
-                                            {"conţine"}
+                                            {"conține"}
                                           </span>
                                           <span contextMenu={"true"}>
                                             {"cam"}
                                           </span>
                                           {"300 de "}
                                           <span contextMenu={"true"}>
-                                            {"glumiţe"}
+                                            {"glumițe"}
                                           </span>
                                           {" pe "}
                                           <span contextMenu={"true"}>
@@ -249,7 +249,7 @@ export default function Page() {
                                           </span>
                                           {") "}
                                           <span contextMenu={"true"}>
-                                            {"şi"}
+                                            {"și"}
                                           </span>
                                           {" nu "}
                                           <span contextMenu={"true"}>
@@ -271,7 +271,7 @@ export default function Page() {
                                             {"când"}
                                           </span>
                                           <span contextMenu={"true"}>
-                                            {"ţine"}
+                                            {"ține"}
                                           </span>
                                           <span contextMenu={"true"}>
                                             {"în"}
@@ -288,7 +288,7 @@ export default function Page() {
                                           </span>
                                           {"produsul propriei"}
                                           <span contextMenu={"true"}>
-                                            {"imaginaţii"}
+                                            {"imaginații"}
                                           </span>
                                           {": "}
                                           <span contextMenu={"true"}>
@@ -303,13 +303,13 @@ export default function Page() {
                                           </span>
                                           {" discrete "}
                                           <span contextMenu={"true"}>
-                                            {"şi"}
+                                            {"și"}
                                           </span>
                                           <span contextMenu={"true"}>
                                             {"mai"}
                                           </span>
                                           <span contextMenu={"true"}>
-                                            {"puţin"}
+                                            {"puțin"}
                                           </span>
                                           {" discrete "}
                                           <span contextMenu={"true"}>
@@ -337,10 +337,10 @@ export default function Page() {
                                             {"Câte"}
                                           </span>
                                           <span contextMenu={"true"}>
-                                            {"cărţi"}
+                                            {"cărți"}
                                           </span>
                                           <span contextMenu={"true"}>
-                                            {"intenţionează"}
+                                            {"intenționează"}
                                           </span>
                                           <span contextMenu={"true"}>
                                             {"să"}
@@ -357,7 +357,7 @@ export default function Page() {
                                           </span>
                                           {" personajele "}
                                           <span contextMenu={"true"}>
-                                            {"cărţii"}
+                                            {"cărții"}
                                           </span>
                                           <span contextMenu={"true"}>
                                             {"sunt"}
@@ -385,7 +385,7 @@ export default function Page() {
                                           </span>
                                           {" are despre transpunerea "}
                                           <span contextMenu={"true"}>
-                                            {"peripeţiilor"}
+                                            {"peripețiilor"}
                                           </span>
                                           {" lui Greg "}
                                           <span contextMenu={"true"}>
@@ -398,7 +398,7 @@ export default function Page() {
                                         </p>
 <p>
                                           {"Imediat după ce copiii au aflat raspunsurile la întrebările care îi frământau, au intrat în scena micii noștri actori. Filip l-a întruchipat pe Greg care se opune inițiativei mamei de a semna o petiție prin care să interzică folosirea telefoanelor mobile si a tuturor celorlalte tehnologii timp de 48 de ore, dar și adoptarii unui purceluș pe post de animal de companie. Totul, mai mult sugerat prin mimică"}
-                                          {"și gestică decât spus, perfect înțeles atât ca substrat, cât și ca mesaj direct exprimat. Jeff Kinney a felicitat călduros întreaga echipă."}
+                                          {" și gestică decât spus, perfect înțeles atât ca substrat, cât și ca mesaj direct exprimat. Jeff Kinney a felicitat călduros întreaga echipă."}
                                         </p>
 </section>
 
@@ -411,12 +411,12 @@ export default function Page() {
 <p>
                                           <img decoding={"async"} alt={"Jurnalul-unui-pusti-010-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-010-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-010-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-010-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-010-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-010-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-010-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"http://pigproduction.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-010-150x150.jpg"} />
                                           {"Evenimentul s-a încheiat cu împărțirea cărților (toți participanții au primit un volum ) și a autografelor. Cei mici au avut ocazia să pună"}
-                                          {"întrebările pe care nu au avut curajul să le adreseze"}
-                                          {"în public."}
+                                          {" întrebările pe care nu au avut curajul să le adreseze"}
+                                          {" în public."}
                                         </p>
 <p>
                                           {"Dupa ce trupa noastră"}
-                                          {"și-a încheiat numărul, am răsuflat ușurați."}
+                                          {" și-a încheiat numărul, am răsuflat ușurați."}
                                           <br />
                                           {"\nNe-am simțit împliniți la sfârșitul primei noastre ieșiri pe scena și nu oricum, ci în prezența unui superstar – Jeff Kinney, autorul seriei "}
                                           <strong>
@@ -629,7 +629,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Distracție la căldurică Deşi iarnă cu zăpadă se lasă aşteptată, “Distracţia la căldurică” nu a avut nimic de pierdut. Ne-am"}
+              {"Distracție la căldurică Deși iarnă cu zăpadă se lasă așteptată, “Distracția la căldurică” nu a avut nimic de pierdut. Ne-am"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -650,7 +650,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Christmas is coming… Vine Crăciunul şi ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
+              {"Christmas is coming… Vine Crăciunul și ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

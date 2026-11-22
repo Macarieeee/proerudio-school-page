@@ -53,7 +53,7 @@ export default function Page() {
             {"Descoperiți cursurile potrivite vârstei și nivelului de cunoștințe al copilului dumneavoastră."}
           </p>
           <h2>
-            {"Cursuri de limba engleză pentru copii de 4–11 ani"}
+            {"Cursuri de limba engleză pentru copii de 4 - 11 ani"}
           </h2>
           <p>
             {"Primii ani de învățare sunt o ocazie de a construi o relație pozitivă cu limba engleză. Prin contact constant cu aceasta, joc și interacțiune, copiii se familiarizează cu sunetele, cuvintele și expresiile noi și capătă treptat încredere să le folosească."}
@@ -91,16 +91,16 @@ export default function Page() {
             </div>
             <div className={"course-overview-body"}>
               <h3>
-                {"Join Us in Englishland"}
+                <strong>{"Join Us in Englishland"}</strong>
               </h3>
               <p>
-                {"Cursuri de limba engleză pentru copii de 4–7 ani"}
+                {"Cursuri de limba engleză pentru copii de 4 - 7 ani"}
               </p>
               <p>
-                {"Primii pași în limba engleză încep cu joc, povești și curiozitate. „Join Us in Englishland” cultivă interesul și plăcerea de a învăța, punând accent pe înțelegerea mesajelor audiate și pe dezvoltarea comunicării orale."}
+                {"Primii pași în limba engleză încep cu joc, povești și curiozitate. "}<strong>{"Join Us in Englishland"}</strong>{" cultivă interesul și plăcerea de a învăța, punând accent pe înțelegerea mesajelor audiate și pe dezvoltarea comunicării orale."}
               </p>
               <span className={"course-overview-action"}>
-                {"Descoperiți cursul „Join Us in Englishland”"}
+                {"Descoperiți cursul "}<strong>{"Join Us in Englishland"}</strong>
                 <span aria-hidden={"true"}>
                   {" →"}
                 </span>
@@ -113,19 +113,19 @@ export default function Page() {
             </div>
             <div className={"course-overview-body"}>
               <h3>
-                {"Join Us for English"}
+                <strong>{"Join Us for English"}</strong>
               </h3>
               <p>
-                {"Cursuri de limba engleză pentru copii de 8–11 ani"}
+                {"Cursuri de limba engleză pentru copii de 8 - 11 ani"}
               </p>
               <p>
-                {"„Join Us for English” dezvoltă abilitățile de comunicare și cultivă plăcerea de a învăța limba engleză. Prin activități interactive, adaptate vârstei și nivelului de cunoștințe, copiii își consolidează înțelegerea mesajelor orale și scrise, își îmbogățesc vocabularul și capătă mai multă încredere în exprimare."}
+                <strong>{"Join Us for English"}</strong>{" dezvoltă abilitățile de comunicare și cultivă plăcerea de a învăța limba engleză. Prin activități interactive, adaptate vârstei și nivelului de cunoștințe, copiii își consolidează înțelegerea mesajelor orale și scrise, își îmbogățesc vocabularul și capătă mai multă încredere în exprimare."}
               </p>
               <p>
                 {"Jocurile, conversațiile și proiectele se îmbină cu exerciții de citire, scriere și gramatică, oferind o bază solidă pentru următoarele etape de învățare."}
               </p>
               <span className={"course-overview-action"}>
-                {"Descoperiți cursul „Join Us for English”"}
+                {"Descoperiți cursul "}<strong>{"Join Us for English"}</strong>
                 <span aria-hidden={"true"}>
                   {" →"}
                 </span>
@@ -182,9 +182,7 @@ export default function Page() {
                 {"Cursuri de limba engleză"}
               </p>
               <p>
-                {"pentru copii de "}
-                {"12 – 14"}
-                {"ani"}
+                {"pentru copii de 12 - 14 ani"}
               </p>
               <span className={"course-overview-action"}>
                 {"Descoperă cursul"}
@@ -206,8 +204,7 @@ export default function Page() {
                 {"Cursuri de limba engleză"}
               </p>
               <p>
-                {"pentru copii de "}
-                {"14"}
+                {"pentru copii de 14"}
                 {"– 19 ani"}
               </p>
               <span className={"course-overview-action"}>
@@ -224,14 +221,13 @@ export default function Page() {
             </div>
             <div className={"course-overview-body"}>
               <h3>
-                {"HEAD FOR IELTS"}
+                <strong>{"HEAD FOR IELTS"}</strong>
               </h3>
               <p>
                 {"Cursuri de limba engleză"}
               </p>
               <p>
-                {"pentru copii de 17+"}
-                {"ani"}
+                {"pentru copii de 17+ani"}
               </p>
               <span className={"course-overview-action"}>
                 {"Descoperă cursul"}
@@ -247,14 +243,13 @@ export default function Page() {
             </div>
             <div className={"course-overview-body"}>
               <h3>
-                {"HEAD FOR TOEFL"}
+                <strong>{"HEAD FOR TOEFL"}</strong>
               </h3>
               <p>
                 {"Cursuri de limba engleză"}
               </p>
               <p>
-                {"pentru copii de 17+"}
-                {"ani"}
+                {"pentru copii de 17+ani"}
               </p>
               <span className={"course-overview-action"}>
                 {"Descoperă cursul"}

@@ -66,7 +66,7 @@ export default function Page() {
                               <p>
                                 <strong>
                                   <span>
-                                    {"Pentru copii de 9-12 ani"}
+                                    {"Pentru copii de 9 - 12 ani"}
                                   </span>
                                 </strong>
                               </p>
@@ -125,7 +125,7 @@ export default function Page() {
                                   {"Copilul are ocazia să găsească instrumente care să-l ajute să facă față temerilor;"}
                                 </li>
                                 <li>
-                                  {"Copilul descopera ca nu este singurul care se confrunta cu temeri, si alti copii trec prin experiente similar;"}
+                                  {"Copilul descoperă că nu este singurul care se confruntă cu temeri; și alți copii trec prin experiențe similare;"}
                                 </li>
                               </ul>
                             </div>
@@ -149,7 +149,7 @@ export default function Page() {
                                 <strong>
                                   {"primului modul"}
                                 </strong>
-                                {" vorbim despre ce însemna temerea, cum ne afectează corpul, despre conștientizarea emoțională și învățăm diverse instrumente și tehnici pe care le putem folosi pentru a gestiona temerile si grijile ("}
+                                {" vorbim despre ce înseamnă temerea, cum ne afectează corpul, despre conștientizarea emoțională și învățăm diverse instrumente și tehnici pe care le putem folosi pentru a gestiona temerile și grijile ("}
                                 <em>
                                   {"camera foto a temerilor"}
                                 </em>
@@ -252,7 +252,7 @@ export default function Page() {
                                       <hr />
                                       <p>
                                         <big>
-                                          {"VÂRSTĂ RECOMANDATĂ: 9-12 ani"}
+                                          {"VÂRSTĂ RECOMANDATĂ: 9 - 12 ani"}
                                         </big>
                                       </p>
                                     </div>
@@ -308,7 +308,7 @@ export default function Page() {
                                               {"Vârstă:"}
                                             </strong>
                                             <br />
-                                            {"9-12 ani"}
+                                            {"9 - 12 ani"}
                                           </li>
                                         </ul>
                                         <p>

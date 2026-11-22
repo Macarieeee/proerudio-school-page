@@ -114,24 +114,24 @@ export default function Page() {
                                   {"Ziua 1"}
                                 </h4>
                                 <p>
-                                  {"Ne-am întâlnit lângă microbuz în gaşcă veselă şi entuziastă în ciuda orei matinale. Punctualitatea a fost cuvânt de ordine pentru toată lumea, prin urmare am plecat mai devreme cu câteva minute decât plănuisem. La revedere, părinţi !"}
+                                  {"Ne-am întâlnit lângă microbuz în gașcă veselă și entuziastă în ciuda orei matinale. Punctualitatea a fost cuvânt de ordine pentru toată lumea, prin urmare am plecat mai devreme cu câteva minute decât plănuisem. La revedere, părinți!"}
                                 </p>
                               </div>
                             </div>
                             <div>
                               <div>
                                 <p>
-                                  {"Am pornit în linişte şi cu ceva emoţii, însă curând vocile copiilor au început să se audă pe fundal. Au făcut cunoştinţă, au discutat, au ascultat muzică, au glumit şi au ras împreună de parcă se cunoşteau de-o viaţă. Am făcut un mic popas la Pârâul Rece să ne întindem picioarele şi să înghiţim câte ceva. O supă a mers excelent şi am repornit la drum cu forţe proaspete. În a două parte a drumului nerăbdarea a crescut simţitor, însă compania plăcută a făcut să treacă timpul repede şi cât ai zice ‘"}
+                                  {"Am pornit în liniște și cu ceva emoții, însă curând vocile copiilor au început să se audă pe fundal. Au făcut cunoștință, au discutat, au ascultat muzică, au glumit și au ras împreună de parcă se cunoșteau de-o viață. Am făcut un mic popas la Pârâul Rece să ne întindem picioarele și să înghițim câte ceva. O supă a mers excelent și am repornit la drum cu forțe proaspete. În a două parte a drumului nerăbdarea a crescut simțitor, însă compania plăcută a făcut să treacă timpul repede și cât ai zice ‘"}
                                   <a href={"https://www.facebook.com/BritishCampsRomania"} target={"_blank"}>
                                     {"British Camps"}
                                   </a>
-                                  {"’ am ajuns la destinaţie."}
+                                  {"’ am ajuns la destinație."}
                                 </p>
                                 <p>
-                                  {"Aer curat, munţi şi păduri cât vezi cu ochii… Albinele locului au fost mai mult decât prietenoase şi ne-au cercetat pe toţi pe rând."}
+                                  {"Aer curat, munți și păduri cât vezi cu ochii… Albinele locului au fost mai mult decât prietenoase și ne-au cercetat pe toți pe rând."}
                                 </p>
                                 <p>
-                                  {"Ne-am lăsat bagajele şi am pornit în explorare. Hoteluri şi vile cu multe finisaje din lemn, terenuri de fotbal şi tenis, biciclete de închiriat, masă de ping-pong, de biliard, sala pentru discotecă, spaţiu deschis numai bun pentru alergat, dar şi leagăne, tobogane, minicasuțe de lemn, foişoare… tot ce ne puteam imagina şi dori."}
+                                  {"Ne-am lăsat bagajele și am pornit în explorare. Hoteluri și vile cu multe finisaje din lemn, terenuri de fotbal și tenis, biciclete de închiriat, masă de ping-pong, de biliard, sala pentru discotecă, spațiu deschis numai bun pentru alergat, dar și leagăne, tobogane, minicasuțe de lemn, foișoare… tot ce ne puteam imagina și dori."}
                                 </p>
                               </div>
                             </div>
@@ -146,14 +146,14 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Încet, încet ne-am strâns întregul grup. Copiii care au fost aduşi de părinţii lor s-au instalat şi şi-au luat rămas bun. Atât ne-a trebuit! "}
+                                  {"Încet, încet ne-am strâns întregul grup. Copiii care au fost aduși de părinții lor s-au instalat și și-au luat rămas bun. Atât ne-a trebuit! "}
                                   <a href={"http://www.proerudio.ro/tabere/tabara-de-limba-engleza-in-romania/"}>
                                     {"Tabăra"}
                                   </a>
-                                  {" a început în mod oficial. După atâta agitaţie am servit o binemeritată şi mult dorită cină: mămăliguţă cu brânză şi smântână urmată de piept de pui la grătar cu orez şi salată de roşii, iar la deşert o bucată de cremşnit."}
+                                  {" a început în mod oficial. După atâta agitație am servit o binemeritată și mult dorită cină: mămăliguță cu brânză și smântână urmată de piept de pui la grătar cu orez și salată de roșii, iar la deșert o bucată de cremșnit."}
                                 </p>
                                 <p>
-                                  {"Festivitatea de deschidere a început mai pe inserat. Ne-am strâns toţi în sala DISCO unde am găsit muzică, lumini şi voie bună. Am cântat împreună câteva melodii rock şi nelipsitul ‘Andrii Popa’, am dansat de parcă eram singuri pe lume şi apoi a venit momentul mult aşteptat : prezentarea instructorilor britanici. I-am primit în aplauze şi strigăte de veselie, iar ei ne-au încântat cu baloane viu colorate şi zâmbete largi. Presimţim o "}
+                                  {"Festivitatea de deschidere a început mai pe inserat. Ne-am strâns toți în sala DISCO unde am găsit muzică, lumini și voie bună. Am cântat împreună câteva melodii rock și nelipsitul ‘Andrii Popa’, am dansat de parcă eram singuri pe lume și apoi a venit momentul mult așteptat : prezentarea instructorilor britanici. I-am primit în aplauze și strigăte de veselie, iar ei ne-au încântat cu baloane viu colorate și zâmbete largi. Presimțim o "}
                                   <a href={"http://www.proerudio.ro/tabere/tabara-de-limba-engleza-in-romania/"}>
                                     {"tabăra de milioane"}
                                   </a>
@@ -185,11 +185,11 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"După un moment de pură încântare a venit timpul pentru puţină organizare. Copiii au fost invitaţi să ia loc pe jos şi fiecare a fost repartizat unui instructor. Aceştia şi-au condus grupurile de copiii către un loc mai retras pentru a se cunoaşte. S-au prezentat, au discutat, s-au jucat, fiecare instructor a ales activitatea cea mai potrivită în funcţie de componentă grupei. După aceea a urmat adevărată discotecă unde am dansat cu toţii, cu mic şi cu mare, români şi britanici, instructori şi copiii. Maşinile de fum, baloanele de săpun şi proiecţiile de lumini au completat atmosfera festivă."}
+                                  {"După un moment de pură încântare a venit timpul pentru puțină organizare. Copiii au fost invitați să ia loc pe jos și fiecare a fost repartizat unui instructor. Aceștia și-au condus grupurile de copiii către un loc mai retras pentru a se cunoaște. S-au prezentat, au discutat, s-au jucat, fiecare instructor a ales activitatea cea mai potrivită în funcție de componentă grupei. După aceea a urmat adevărată discotecă unde am dansat cu toții, cu mic și cu mare, români și britanici, instructori și copiii. Mașinile de fum, baloanele de săpun și proiecțiile de lumini au completat atmosfera festivă."}
                                 </p>
                                 <p>
                                   <strong>
-                                    {"La 11.00 s-a dat stingerea, iar noi am pus capusoarele pe pernă cu un mare zâmbet încă lipit de faţă şi aşteptând cu nerăbdare ziua de mâine."}
+                                    {"La 11.00 s-a dat stingerea, iar noi am pus capusoarele pe pernă cu un mare zâmbet încă lipit de față și așteptând cu nerăbdare ziua de mâine."}
                                   </strong>
                                 </p>
                               </div>

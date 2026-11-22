@@ -101,13 +101,13 @@ export default function Page() {
                               <div>
                                 <p>
                                   <span>
-                                    {"Când vă gândiţi la dezvoltarea copilului dumneavoastră şi plănuiţi cu atâta grijă educaţia sa şi activităţile extracurriculare ce îl vor ajută să devină un adult de succes şi fericit, nu uitaţi că "}
+                                    {"Când vă gândiți la dezvoltarea copilului dumneavoastră și plănuiți cu atâta grijă educația sa și activitățile extracurriculare ce îl vor ajuta să devină un adult de succes și fericit, nu uitați că "}
                                     <strong>
                                       {"verile sunt o oportunitate, nu timp pierdut"}
                                     </strong>
                                     {". O"}
                                     {" tabăra este un mod"}
-                                    {" ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ), de a se responsabiliza, dar mai ales de a se distra şi a-şi face prieteni noi."}
+                                    {" ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ), de a se responsabiliza, dar mai ales de a se distra și a-și face prieteni noi."}
                                   </span>
                                 </p>
                               </div>
@@ -117,7 +117,7 @@ export default function Page() {
                                 <p>
                                   <span>
                                     <strong>
-                                      {"Dacă va întrebaţi care sunt beneficiile participării la tabăra, iată o lista sumară:"}
+                                      {"Dacă va întrebați care sunt beneficiile participării la tabăra, iată o lista sumară:"}
                                     </strong>
                                   </span>
                                 </p>
@@ -132,7 +132,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"1. Dezvoltarea independenţei "}
+                                              {"1. Dezvoltarea independenței "}
                                             </span>
                                           </span>
                                         </h3>
@@ -143,22 +143,22 @@ export default function Page() {
                                         <p>
                                           <strong>
                                             <span>
-                                              {"În tabăra copiii sunt scoşi din mediul lor obişnuit. "}
+                                              {"În tabăra copiii sunt scoși din mediul lor obișnuit. "}
                                             </span>
                                           </strong>
                                         </p>
                                         <p>
                                           <span>
-                                            {"Departe de familie, au ocazia de a se descoperi în interacţiunea cu alţi copii şi adulţi ce nu fac parte din anturajul lui obişnuit. "}
+                                            {"Departe de familie, au ocazia de a se descoperi în interacțiunea cu alți copii și adulți ce nu fac parte din anturajul lui obișnuit. "}
                                             <strong>
-                                              {"Vor învăţa să aibă grijă de ei înşişi"}
+                                              {"Vor învăța să aibă grijă de ei înșiși"}
                                             </strong>
-                                            {", vor avea ocazia să ia singuri decizii şi să gestioneze diverse aspecte ale rutinei zilnice: spălatul zilnic, alegerea vestimentaţiei potrivite pentru vremea de afară, dar şi activităţile la care doresc să participe. Desigur, ei sunt încurajaţi să fie independenţi, însă"}
+                                            {", vor avea ocazia să ia singuri decizii și să gestioneze diverse aspecte ale rutinei zilnice: spălatul zilnic, alegerea vestimentației potrivite pentru vremea de afară, dar și activitățile la care doresc să participe. Desigur, ei sunt încurajați să fie independenți, însă"}
                                             <strong>
-                                              {" sunt şi supravegheaţi"}
+                                              {" sunt și supravegheați"}
                                             </strong>
-                                            {", acesta fiind modul ideal de a învaţă să fie responsabili, fără a-şi asumă riscul alegerilor complet greşite. Este mediul potrivit pentru a-şi testa limitele şi a experimenta, în siguranţă, alături de oameni dedicaţi, tineri şi energici. Ghizii, supraveghetorii şi instructorii din tabere sunt văzuţi mai puţin ca autorităţi şi mai mult ca"}
-                                            {"prieteni, ceea ce le dă copiilor încrederea de a se deschide şi a se bucura din plin de toate activităţile."}
+                                            {", acesta fiind modul ideal de a învăța să fie responsabili, fără a-și asuma riscul alegerilor complet greșite. Este mediul potrivit pentru a-și testa limitele și a experimenta, în siguranță, alături de oameni dedicați, tineri și energici. Ghizii, supraveghetorii și instructorii din tabere sunt văzuți mai puțin ca autorități și mai mult ca"}
+                                            {" prieteni, ceea ce le dă copiilor încrederea de a se deschide și a se bucura din plin de toate activitățile."}
                                           </span>
                                         </p>
                                       </div>
@@ -176,7 +176,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"2. Creşterea încrederii în sine"}
+                                              {"2. Creșterea încrederii în sine"}
                                             </span>
                                           </span>
                                         </h3>
@@ -187,16 +187,16 @@ export default function Page() {
                                         <p>
                                           <strong>
                                             <span>
-                                              {"A-ţi face noi prieteni este întotdeauna o experienţă complexă presărată cu teamă, curiozitate, dar şi entuziasm şi satisfacţie. "}
+                                              {"A-ți face noi prieteni este întotdeauna o experiență complexă presărată cu teamă, curiozitate, dar și entuziasm și satisfacție. "}
                                             </span>
                                           </strong>
                                         </p>
                                         <p>
                                           <span>
-                                            {"Când nu îi mai ai pe mama şi pe tată să te ajute să abordezi pe cineva şi să creezi o conexiune, trebuie să fii tu însuţi, să-ţi asculţi instinctul şi să înveţi să te descurci. Odată ajunşi în tabăra, copiii realizează că toţi sunt în aceeaşi situaţie şi sunt toţi o comunitate. "}
+                                            {"Când nu îi mai ai pe mama și pe tată să te ajute să abordezi pe cineva și să creezi o conexiune, trebuie să fii tu însuți, să-ți asculți instinctul și să înveți să te descurci. Odată ajunși în tabăra, copiii realizează că toți sunt în aceeași situație și sunt toți o comunitate. "}
                                             <span>
                                               <strong>
-                                                {"Încrederea în sine se dezvoltă atunci când copiii se simt bine în legătură cu propria lor contribuţie"}
+                                                {"Încrederea în sine se dezvoltă atunci când copiii se simt bine în legătură cu propria lor contribuție"}
                                               </strong>
                                             </span>
                                             {" la activitatea de grup, atunci când ideea lor este pusă în practică, când opinia lor este luată în considerare, când trăiesc într-un mediu în care nu decide nimeni pentru ei."}
@@ -217,7 +217,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"3. Pe mâini bune şi în siguranţă"}
+                                              {"3. Pe mâini bune și în siguranță"}
                                             </span>
                                           </span>
                                         </h3>
@@ -227,14 +227,14 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"Din păcate, majoritatea părinţilor nu au la fel de multă vacanţă ca şi copiii, de aceea este confortabil pentru ei să"}
-                                            {" ştie că în tabăra copilul este pe mâini bune şi în siguranţă. "}
+                                            {"Din păcate, majoritatea părinților nu au la fel de multă vacanță ca și copiii, de aceea este confortabil pentru ei să"}
+                                            {" știe că în tabăra copilul este pe mâini bune și în siguranță. "}
                                             <strong>
-                                              {"Pentru copiii crescuţi în oraş, o săptămâna de tabăra poate reprezenta libertatea pe care nu au cunoscut-o niciodată."}
+                                              {"Pentru copiii crescuți în oraș, o săptămâna de tabăra poate reprezenta libertatea pe care nu au cunoscut-o niciodată."}
                                             </strong>
-                                            {" Acest lucru este valabil pentru majoritatea copiilor, nicidecum doar pentru aceia ai căror părinţi sunt hiperprotectivi. Cu toţii ştim că nu este bine să ţinem copiii închişi în casă, însă oricui i-ar fi teamă să-i lase să hoinărească nesupravegheați pe străzi sau chiar prin parc. Sute de scenarii groteşti ne trec prin minte… însă în tabăra putem găsi un echilibru liniştitor între libertatea copilului şi siguranţa sa. În tabăra va sta afară, va respira aer curat, va alerga, îşi va face prieteni şi va sta departe de trafic, aglomeraţie şi toate celelalte neajunsuri şi influenţe negative ale oraşului. În plus, nu va avea acces la calculator, la tabletă, la televizor toată ziua şi, cu sprijinul părinţilor, foarte puţin acces la telefon. "}
+                                            {" Acest lucru este valabil pentru majoritatea copiilor, nicidecum doar pentru aceia ai căror părinți sunt hiperprotectivi. Cu toții știm că nu este bine să ținem copiii închiși în casă, însă oricui i-ar fi teamă să-i lase să hoinărească nesupravegheați pe străzi sau chiar prin parc. Sute de scenarii grotești ne trec prin minte… însă în tabăra putem găsi un echilibru liniștitor între libertatea copilului și siguranța sa. În tabăra va sta afară, va respira aer curat, va alerga, își va face prieteni și va sta departe de trafic, aglomerație și toate celelalte neajunsuri și influențe negative ale orașului. În plus, nu va avea acces la calculator, la tabletă, la televizor toată ziua și, cu sprijinul părinților, foarte puțin acces la telefon. "}
                                             <strong>
-                                              {"Va fi ca o binemeritată vacanţă pentru mintea şi sufletului ambelor părţi: părinţi şi copii."}
+                                              {"Va fi ca o binemeritată vacanță pentru mintea și sufletului ambelor părți: părinți și copii."}
                                             </strong>
                                           </span>
                                         </p>
@@ -253,7 +253,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"4. Întărirea abilităţilor sociale"}
+                                              {"4. Întărirea abilităților sociale"}
                                             </span>
                                           </span>
                                         </h3>
@@ -263,30 +263,30 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"Surprinzător pentru unii, în tabără se pot lega adevărate prietenii, prietenii de o viaţă. Odată ajunşi în tabără, anturajul lor devine extrem de divers, ceea ce le dă oportunitatea să găsească persoane compatibile sau interesante, extinzându-şi cercul de prieteni. "}
+                                            {"Surprinzător pentru unii, în tabără se pot lega adevărate prietenii, prietenii de o viață. Odată ajunși în tabără, anturajul lor devine extrem de divers, ceea ce le dă oportunitatea să găsească persoane compatibile sau interesante, extinzându-și cercul de prieteni. "}
                                           </span>
                                         </p>
                                         <p>
                                           <strong>
                                             <span>
-                                              {"Crescând încrederea socială a copilului, această experienţă se poate dovedi extrem de valoroasă, mai ales atunci când trebuie să schimbe colectivul (spre exemplu când trece din grădiniţă în clasa I sau din clasa a VIII-a în liceu). "}
+                                              {"Crescând încrederea socială a copilului, această experiență se poate dovedi extrem de valoroasă, mai ales atunci când trebuie să schimbe colectivul (spre exemplu când trece din grădiniță în clasa I sau din clasa a VIII-a în liceu). "}
                                             </span>
                                           </strong>
                                         </p>
                                         <p>
                                           <span>
-                                            {"Alt efect ale acestei expuneri este că îi face mai toleranţi."}
+                                            {"Alt efect ale acestei expuneri este că îi face mai toleranți."}
                                           </span>
                                         </p>
                                         <p>
                                           <span>
                                             <span>
                                               <strong>
-                                                {"Departe de tablete, computere şi pe cât se poate departe şi de telefoane"}
+                                                {"Departe de tablete, computere și pe cât se poate departe și de telefoane"}
                                               </strong>
                                             </span>
-                                            {", copiii învaţă că există soluţii la orice problema şi că stă în puterea lor să le găsească (în special dacă discută despre ele),"}
-                                            {" descoperă plăcerea de a sta la poveşti după ora stingerii, de a face planuri pentru a doua zi şi de a împărtăşi păreri şi sentimentele despre orice, pe scurt: învaţă"}
+                                            {", copiii învață că există soluții la orice problema și că stă în puterea lor să le găsească (în special dacă discută despre ele),"}
+                                            {" descoperă plăcerea de a sta la povești după ora stingerii, de a face planuri pentru a doua zi și de a împărtăși păreri și sentimentele despre orice, pe scurt: învață"}
                                             {" cum trebuie să procedeze pentru a comunica eficient."}
                                           </span>
                                         </p>
@@ -315,9 +315,9 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"Programul încărcat şi divers al taberelor permite copiilor să încerce lucruri noi: de la sporturi de tot felul şi ore de limba engleză până la drumeţii, jocuri pe echipe, dansuri şi karaoke. Astfel, copiii pleacă din tabără cu o nouă mare pasiune sau cu o experienţă ce le va deschide noi perspective în viaţă şi, poate, vor înţelege că "}
+                                            {"Programul încărcat și divers al taberelor permite copiilor să încerce lucruri noi: de la sporturi de tot felul și ore de limba engleză până la drumeții, jocuri pe echipe, dansuri și karaoke. Astfel, copiii pleacă din tabără cu o nouă mare pasiune sau cu o experiență ce le va deschide noi perspective în viață și, poate, vor înțelege că "}
                                             <strong>
-                                              {"distracţia adevărată nu este în faţă unui ecran, ci în interacţiunea cu copii de vârstă lor."}
+                                              {"distracția adevărată nu este în față unui ecran, ci în interacțiunea cu copii de vârstă lor."}
                                             </strong>
                                           </span>
                                         </p>
@@ -346,17 +346,17 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"Majoritatea taberelor sunt situate în zone ceva mai depărtate de civilizaţie şi mai apropiate de natură. Copiii care şi-au petrecut majoritatea timpului în oraş vor avea ocazia să exploreze şi să descopere natura. "}
+                                            {"Majoritatea taberelor sunt situate în zone ceva mai depărtate de civilizație și mai apropiate de natură. Copiii care și-au petrecut majoritatea timpului în oraș vor avea ocazia să exploreze și să descopere natura. "}
                                           </span>
                                         </p>
                                         <h4>
                                           <span>
-                                            {"Nicio poveste sau înregistrare video nu poate înlocui mirosul de pădure, cântecul păsărilor, senzaţia atingerii unui melc sau gustul unei coacăze sălbatice. "}
+                                            {"Nicio poveste sau înregistrare video nu poate înlocui mirosul de pădure, cântecul păsărilor, senzația atingerii unui melc sau gustul unei coacăze sălbatice. "}
                                           </span>
                                         </h4>
                                         <p>
                                           <span>
-                                            {"Multe tabere oferă programe special concepute pentru a integra cât mai multe activităţi în aer liber, deci o ocazia de a vedea, simţi, miroşi, încerca senzaţii noi, ocazia de a se apropia de natură."}
+                                            {"Multe tabere oferă programe special concepute pentru a integra cât mai multe activități în aer liber, deci o ocazia de a vedea, simți, miroși, încerca senzații noi, ocazia de a se apropia de natură."}
                                           </span>
                                         </p>
                                       </div>
@@ -374,7 +374,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"7. Investiţie în amintiri plăcute"}
+                                              {"7. Investiție în amintiri plăcute"}
                                             </span>
                                           </span>
                                         </h3>
@@ -384,7 +384,7 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"Copiii se întorc de obicei din tabăra după cea mai grozavă săptămâna din viaţă lor. Şi-au făcut noi prieteni (de multe ori pe viaţă, deoarece îi unesc interese comune, nu doar proximitatea), au avut parte de o mulţime de experienţe şi activităţi noi, dar, cel mai important, se simt plini de încredere. Amintirile din timpul taberei vor dăinui peste ani, vor rămâne alături de ei şi în anii maturităţii."}
+                                            {"Copiii se întorc de obicei din tabăra după cea mai grozavă săptămâna din viață lor. Și-au făcut noi prieteni (de multe ori pe viață, deoarece îi unesc interese comune, nu doar proximitatea), au avut parte de o mulțime de experiențe și activități noi, dar, cel mai important, se simt plini de încredere. Amintirile din timpul taberei vor dăinui peste ani, vor rămâne alături de ei și în anii maturității."}
                                           </span>
                                         </p>
                                       </div>
@@ -402,7 +402,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"8. Exersarea abilităţilor de lider "}
+                                              {"8. Exersarea abilităților de lider "}
                                             </span>
                                           </span>
                                         </h3>
@@ -412,12 +412,12 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"Taberele sunt mediul ideal pentru exersarea abilităţilor de lider, deoarece copiii vor trebui să facă alegeri"}
-                                            {" şi să ia decizii, să conducă proiecte şi să coordoneze echipe. Unii copii se vor remarcă prin iniţiativa, fiind cei care vor seta pasul şi tonul pentru alţi copii. Ordinea între ei se va crea natural şi ei se vor simţi că o echipa. Programul încărcat de la şcoală şi atracţia produselor tehnologice creează un adevărat deficit de abilităţi "}
+                                            {"Taberele sunt mediul ideal pentru exersarea abilităților de lider, deoarece copiii vor trebui să facă alegeri"}
+                                            {" și să ia decizii, să conducă proiecte și să coordoneze echipe. Unii copii se vor remarcă prin inițiativa, fiind cei care vor seta pasul și tonul pentru alți copii. Ordinea între ei se va crea natural și ei se vor simți că o echipa. Programul încărcat de la școală și atracția produselor tehnologice creează un adevărat deficit de abilități "}
                                             <a href={"https://www.facebook.com/proerudio"} target={"_blank"} rel={"noopener"}>
                                               {"sociale "}
                                             </a>
-                                            {"în rândul copiilor, iar tabăra este locul ideal pentru a redobândi aceste abilităţi. Un studiu din 2014 condus de Universitatea din California, Los Angeles, a revelat că după doar o săptămâna de tabăra, departe de orice ecran sau monitor, elevii de clasa a şasea aveau o capacitate sesizabil mai bună de a desluşi indiciile emoţionale non-verbale ale oamenilor din jur – un indicator cheie a inteligenței sociale/emoţionale."}
+                                            {"în rândul copiilor, iar tabăra este locul ideal pentru a redobândi aceste abilități. Un studiu din 2014 condus de Universitatea din California, Los Angeles, a revelat că după doar o săptămâna de tabăra, departe de orice ecran sau monitor, elevii de clasa a șasea aveau o capacitate sesizabil mai bună de a desluși indiciile emoționale non-verbale ale oamenilor din jur – un indicator cheie a inteligenței sociale/emoționale."}
                                           </span>
                                         </p>
                                       </div>
@@ -434,11 +434,11 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"Dacă v-am convins cât de benefică este pentru copii participarea la tabere, va invităm să accesaţi atât "}
+                                            {"Dacă v-am convins cât de benefică este pentru copii participarea la tabere, va invităm să accesați atât "}
                                             <a href={"/tabere/"} target={"_blank"} rel={"noopener"}>
                                               {"programele noastre de tabăra pentru vara 2016"}
                                             </a>
-                                            {", cât şi jurnalele de anul trecut din taberele de limba engleză de la Poiana Braşov şi Cheile Grădiştei."}
+                                            {", cât și jurnalele de anul trecut din taberele de limba engleză de la Poiana Brașov și Cheile Grădiștei."}
                                           </span>
                                         </p>
                                       </div>
@@ -605,7 +605,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"10 motive pentru a învăţa o limbă străină indiferent de vârstă Ne străduim să învăţăm o limbă străină dintr-o multitudine"}
+              {"10 motive pentru a învăța o limbă străină indiferent de vârstă Ne străduim să învățăm o limbă străină dintr-o multitudine"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -626,7 +626,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -647,7 +647,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -668,7 +668,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -689,7 +689,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -710,7 +710,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro"}
+              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

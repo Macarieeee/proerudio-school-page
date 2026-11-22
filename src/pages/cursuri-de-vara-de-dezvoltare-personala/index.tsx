@@ -58,23 +58,23 @@ export default function Page() {
                             <div>
                               <p>
                                 <span>
-                                  {"Cursurile de dezvoltare personală oferă copiilor posibilitatea de a se cunoaşte mai bine pe sine, de a-şi descoperi resursele personale şi de a le valorifica în interacţiunea cu ceilalţi, astfel încât această interacţiune să fie productivă pentru fiecare. Pentru micuţii care se află la vârstă descoperirilor, astfel de cursuri le deschid drumul pentru creionarea unei personalităţi adaptate cerinţelor sistemului social și dezvoltarea unei personalități sigure în interacțiunea cu cei din jur."}
+                                  {"Cursurile de dezvoltare personală oferă copiilor posibilitatea de a se cunoaște mai bine pe sine, de a-și descoperi resursele personale și de a le valorifica în interacțiunea cu ceilalți, astfel încât această interacțiune să fie productivă pentru fiecare. Pentru micuții care se află la vârstă descoperirilor, astfel de cursuri le deschid drumul pentru creionarea unei personalități adaptate cerințelor sistemului social și dezvoltarea unei personalități sigure în interacțiunea cu cei din jur."}
                                 </span>
                               </p>
                               <p>
                                 <span>
-                                  {"Succesul este asigurat de interacţiunea la nivel non-verbal, de prezentarea eficientă a propriei persoane, de modelarea interacţiunilor sociale, de luarea în calcul a nevoilor celorlalţi/a mediului înconjurător şi acţionarea în consecinţă în urmă prioritizării conform planificării personale. În plus, atât îmbogățirea culturii generale, cât și educarea în spirit artistic conferă copilului o viziune amplă, complexă asupra universului înconjurător și îi asigură un loc privilegiat, de lider informal în grupul de prieteni."}
+                                  {"Succesul este asigurat de interacțiunea la nivel non-verbal, de prezentarea eficientă a propriei persoane, de modelarea interacțiunilor sociale, de luarea în calcul a nevoilor celorlalți/a mediului înconjurător și acționarea în consecință în urmă prioritizării conform planificării personale. În plus, atât îmbogățirea culturii generale, cât și educarea în spirit artistic conferă copilului o viziune amplă, complexă asupra universului înconjurător și îi asigură un loc privilegiat, de lider informal în grupul de prieteni."}
                                 </span>
                               </p>
                               <p>
                                 <span>
-                                  {"Toate noțiunile vor fi prezentate într-un mod dinamic, interactiv și jucăuș, toate abilitățile vor fi exersate prin joc (conform particularităţilor de vârstă). Jocul oferă simultan şi libertate şi rigoare, dezvoltând încrederea în sine, creând posibilitatea de a-și descoperi şi folosi cele mai bune abilităţi, fiind cel mai bun stimulent pentru capacitatea de expresie a copilului. Jocul are scop educativ şi asigură o bază de înţelegere cu sine şi cu ceilalţi, dezvoltând adaptabilitatea la diverse situaţii sociale, influenţează pozitiv procesul de învăţare, dezvoltă psihicul şi socialul printr-o metodă plăcută şi veselă."}
+                                  {"Toate noțiunile vor fi prezentate într-un mod dinamic, interactiv și jucăuș, toate abilitățile vor fi exersate prin joc (conform particularităților de vârstă). Jocul oferă simultan și libertate și rigoare, dezvoltând încrederea în sine, creând posibilitatea de a-și descoperi și folosi cele mai bune abilități, fiind cel mai bun stimulent pentru capacitatea de expresie a copilului. Jocul are scop educativ și asigură o bază de înțelegere cu sine și cu ceilalți, dezvoltând adaptabilitatea la diverse situații sociale, influențează pozitiv procesul de învățare, dezvoltă psihicul și socialul printr-o metodă plăcută și veselă."}
                                 </span>
                               </p>
                               <p>
                                 <span>
                                   <strong>
-                                    {"Indiferent de vârstă, personalitatea şi talentul copilului, cursurile sunt gândite în aşa fel încât copiii să se simtă bine, să se distreze şi să plece încântaţi de la ore şi cu un bagaj de informaţii utile."}
+                                    {"Indiferent de vârstă, personalitatea și talentul copilului, cursurile sunt gândite în așa fel încât copiii să se simtă bine, să se distreze și să plece încântați de la ore și cu un bagaj de informații utile."}
                                   </strong>
                                 </span>
                               </p>
@@ -106,7 +106,7 @@ export default function Page() {
                                     {"Cursuri de vară"}
                                   </span>
                                   <p>
-                                    {"Planeta animalelor (pentru copii de 5-7 și 8-10 ani) Pentru prezentarea completă a cursului"}
+                                    {"Planeta animalelor (pentru copii de 5-7 și 8 - 10 ani) Pentru prezentarea completă a cursului"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -127,7 +127,7 @@ export default function Page() {
                                     {"Cursuri de vară"}
                                   </span>
                                   <p>
-                                    {"Creioane și culori (pentru copii de 5-7 si 8-10 ani) Desenul este o activitate"}
+                                    {"Creioane și culori (pentru copii de 5-7 si 8 - 10 ani) Desenul este o activitate"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -148,7 +148,7 @@ export default function Page() {
                                     {"Cursuri de vară"}
                                   </span>
                                   <p>
-                                    {"Curs de dezvoltare personală cu psiholog Dezvoltarea inteligenţei sociale la copii de 11 -15 ani “ Inteligenţă socială este un garant"}
+                                    {"Curs de dezvoltare personală cu psiholog Dezvoltarea inteligenței sociale la copii de 11 - 15 ani “ Inteligență socială este un garant"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -169,7 +169,7 @@ export default function Page() {
                                     {"Cursuri de vară"}
                                   </span>
                                   <p>
-                                    {"Curs de dezvoltare personală cu psiholog Dezvoltare emoţională pentru copii de 7 – 11 ani nteligenţa emoţională este acea abilitate a omului de"}
+                                    {"Curs de dezvoltare personală cu psiholog Dezvoltare emoțională pentru copii de 7 - 11 ani nteligența emoțională este acea abilitate a omului de"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -190,7 +190,7 @@ export default function Page() {
                                     {"Cursuri de vară"}
                                   </span>
                                   <p>
-                                    {"Curs de dezvoltare personală cu psiholog Dezvoltare emoţională pentru copii de 4 – 7 ani ezvolatere emoţională înseamnă faptul de a"}
+                                    {"Curs de dezvoltare personală cu psiholog Dezvoltare emoțională pentru copii de 4 - 7 ani ezvoltare emoțională înseamnă faptul de a"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}

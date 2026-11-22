@@ -103,16 +103,16 @@ export default function Page() {
                               <div>
                                 <p>
                                   <strong>
-                                    {"Marţi, 25 August"}
+                                    {"Marți, 25 August"}
                                   </strong>
-                                  {", Poiana Braşov 2015"}
+                                  {", Poiana Brașov 2015"}
                                 </p>
                                 <p>
-                                  {"Bună dimineaţa!"}
+                                  {"Bună dimineața!"}
                                   <br />
-                                  {"\nSuntem în a două zi de tabăra. După ce mai întâi am fost treziţi de căpitanii de echipe rând pe rând, a venit şi rândul"}
-                                  {" ghizilor la ora 8.00 să facă trezirea “pe muzică” pentru ultimii somnoroşi. Odată ajunşi în faţă hotelului, suntem aliniaţi în 8 şiruri indiene în funcţie de culorile fiecărei echipe. Începem înviorarea cu toţi ghizii în faţă noastră, în frunte cu Jerry şi Andreea coordonatori. Prima opţiune a fost prezentată de Jerry: încălzire “Army Style”."}
-                                  {" A două, prezentată de Andreea “Chocolate dance”. După ce ne-am dezmorţit şi am ales felul în care vom face încălzirea de acum încolo, plecăm două câte două echipe la masă. "}
+                                  {"\nSuntem în a două zi de tabăra. După ce mai întâi am fost treziți de căpitanii de echipe rând pe rând, a venit și rândul"}
+                                  {" ghizilor la ora 8.00 să facă trezirea “pe muzică” pentru ultimii somnoroși. Odată ajunși în față hotelului, suntem aliniați în 8 șiruri indiene în funcție de culorile fiecărei echipe. Începem înviorarea cu toți ghizii în față noastră, în frunte cu Jerry și Andreea coordonatori. Prima opțiune a fost prezentată de Jerry: încălzire “Army Style”."}
+                                  {" A două, prezentată de Andreea “Chocolate dance”. După ce ne-am dezmorțit și am ales felul în care vom face încălzirea de acum încolo, plecăm două câte două echipe la masă. "}
                                   <strong>
                                     {"Criteriul:"}
                                   </strong>
@@ -123,34 +123,34 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Ajunşi la masă, suntem întâmpinaţi de ghizii gata pregătiţi să ne servească de la bufetul suedez"}
-                                  {" cu super-omletă, super-crenvurşti cu ketchup şi muştar, lapte cu cereale de două feluri, lapte cu cacao, super-cornuri, cremă de ciocolată (Finetti),"}
-                                  {" iaurturi simple sau cu fructe, ceaiuri, cubuleţe de unt şi gemuri. Ajunşi la mesele noastre, ne aşteaptă felii de şuncă de porc şi caşcaval, roşii şi castraveţi şi pâine de două feluri, inclusiv pâine prăjită. De toate pentru toţi!"}
+                                  {"Ajunși la masă, suntem întâmpinați de ghizii gata pregătiți să ne servească de la bufetul suedez"}
+                                  {" cu super-omletă, super-crenvurști cu ketchup și muștar, lapte cu cereale de două feluri, lapte cu cacao, super-cornuri, cremă de ciocolată (Finetti),"}
+                                  {" iaurturi simple sau cu fructe, ceaiuri, cubulețe de unt și gemuri. Ajunși la mesele noastre, ne așteaptă felii de șuncă de porc și cașcaval, roșii și castraveți și pâine de două feluri, inclusiv pâine prăjită. De toate pentru toți!"}
                                 </p>
                                 <p>
-                                  {"La 10 şi un sfert, după o jumătate de ora de program de voie, mergem cu toţii afară şi, organizaţi pe echipe, ni se alocă un ghid responsabil pentru câte o activitate. Jerry ne povesteşte despre aventurile lui Marco Polo şi ne invită să experimentăm câteva dintre păţaniile acestuia: tuburile mişcătoare, întâlnire cu Yeti, peştera întunecată, ouăle dragonului, camuflarea cu baloane, puntea de gheaţă,"}
-                                  {" avalanşă etc. 8 echipe, 8 staţii de jocuri, 8 aventuri diferite, 8 rotaţii consecutive în aşa fel încât fiecare echipa să participe la toate jocurile."}
+                                  {"La 10 și un sfert, după o jumătate de ora de program de voie, mergem cu toții afară și, organizați pe echipe, ni se alocă un ghid responsabil pentru câte o activitate. Jerry ne povestește despre aventurile lui Marco Polo și ne invită să experimentăm câteva dintre pățaniile acestuia: tuburile mișcătoare, întâlnire cu Yeti, peștera întunecată, ouăle dragonului, camuflarea cu baloane, puntea de gheață,"}
+                                  {" avalanșă etc. 8 echipe, 8 stații de jocuri, 8 aventuri diferite, 8 rotații consecutive în așa fel încât fiecare echipa să participe la toate jocurile."}
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"tabara_poiana_brasov_atgr_oldline-0124-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0124-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0124-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0124-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0124-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0124-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0124-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0124-150x150.jpg"} />
-                                  {"Fiecare activitate trebuie să unească echipa şi să ne înveţe să ne coordonăm ca şi grup, să ascultăm de liderul nostru, să"}
-                                  {" ţinem cont de indicaţiile ghidului şi ale colegilor. Partea cea mai interesantă este că la sfârşitul fiecărei activităţi primim puncte în funcţie de răspunsuri şi performanţă, dar şi un cuvânt cheie pe care să-l folosim într-o compunere despre aventurile prin care am trecut. Ultimul joc înainte de masă (Splat!) este cu câte doi reprezentanţi din fiecare echipa până participa toţi copii, deci o nouă şansă să se cunoască şi să se împrietenească."}
-                                  {" Suntem atât de concentraţi să câştigăm puncte şi cuvinte magice, să ne cunoaştem între noi, să ne coordonăm în timpii precizaţi încât nici nu ştim când a trecut vremea. Mai responsabili şi mai disciplinaţi, ne încolonăm din nou pentru a merge la masă."}
+                                  {"Fiecare activitate trebuie să unească echipa și să ne învețe să ne coordonăm ca și grup, să ascultăm de liderul nostru, să"}
+                                  {" ținem cont de indicațiile ghidului și ale colegilor. Partea cea mai interesantă este că la sfârșitul fiecărei activități primim puncte în funcție de răspunsuri și performanță, dar și un cuvânt cheie pe care să-l folosim într-o compunere despre aventurile prin care am trecut. Ultimul joc înainte de masă (Splat!) este cu câte doi reprezentanți din fiecare echipa până participa toți copii, deci o nouă șansă să se cunoască și să se împrietenească."}
+                                  {" Suntem atât de concentrați să câștigăm puncte și cuvinte magice, să ne cunoaștem între noi, să ne coordonăm în timpii precizați încât nici nu știm când a trecut vremea. Mai responsabili și mai disciplinați, ne încolonăm din nou pentru a merge la masă."}
                                 </p>
                                 <p>
-                                  {"După prânz (supă crema de legume cu crutoane şi piure cu şniţel de porc, apoi o delicioasă porţie de cheese cake), am început "}
+                                  {"După prânz (supă crema de legume cu crutoane și piure cu șnițel de porc, apoi o delicioasă porție de cheese cake), am început "}
                                   <a href={"/cursuri-de-limba-engleza-pentru-copii-si-adolescenti/"} target={"_blank"}>
                                     {"cursurile de engleză"}
                                   </a>
-                                  {". Până la ora 15.00 ştiam deja fiecare în ce grupa este şi care este sistemul de rotire al profesorilor în aşa fel încât fiecare grupa să lucreze cu toţi profesorii de engleză: Blake din Statele Unite, Azka din Indonezia, Ola din Polonia şi Dodi din România. La grupele de nivel 1 şi 2 ultimul curs a fost cu profesoară de limba engleză din România pentru a uşura pe alocuri comunicarea întrucât este dificil să urmăreşti 4.5 ore explicaţii într-o limba străină când eşti la începutul învăţării limbii engleze."}
+                                  {". Până la ora 15.00 știam deja fiecare în ce grupa este și care este sistemul de rotire al profesorilor în așa fel încât fiecare grupa să lucreze cu toți profesorii de engleză: Blake din Statele Unite, Azka din Indonezia, Ola din Polonia și Dodi din România. La grupele de nivel 1 și 2 ultimul curs a fost cu profesoară de limba engleză din România pentru a ușura pe alocuri comunicarea întrucât este dificil să urmărești 4.5 ore explicații într-o limbă străină când ești la începutul învățării limbii engleze."}
                                 </p>
                                 <p>
-                                  {"A urmat cină (piept de pui la grătar cu paşte cu caşcaval şi parmesan şi o nectarine) şi mult-aşteptată discotecă."}
-                                  {" Am dansat, am cântat, am urmărit jocurile de lumini, baloanele de săpun şi maşinile de fum. Am făcut trenuleţ la “Joanna, give me hope” şi “Follow the leader”, am trecut pe sub podul din mâini la “"}
+                                  {"A urmat cină (piept de pui la grătar cu paște cu cașcaval și parmesan și o nectarine) și mult-așteptată discotecă."}
+                                  {" Am dansat, am cântat, am urmărit jocurile de lumini, baloanele de săpun și mașinile de fum. Am făcut trenuleț la “Joanna, give me hope” și “Follow the leader”, am trecut pe sub podul din mâini la “"}
                                   <a href={"https://www.youtube.com/watch?v=VcDy8HEg1QY"} target={"_blank"}>
                                     {"Cotton Eye Joe"}
                                   </a>
-                                  {"”, am dansat în cerc, în perechi şi individual. Cei mai mici s-au retras la somn puţin mai devreme, dar cei mai mari au rezistat până la sfârşit în ciuda oboselii acumulate peste zi."}
+                                  {"”, am dansat în cerc, în perechi și individual. Cei mai mici s-au retras la somn puțin mai devreme, dar cei mai mari au rezistat până la sfârșit în ciuda oboselii acumulate peste zi."}
                                 </p>
                               </div>
                             </div>
@@ -338,7 +338,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 7 Duminică, 30 august, Poiana Braşov 2015 – Ziua 7 În dimineaţă ultimei zile de tabăra copiii"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 7 Duminică, 30 august, Poiana Brașov 2015 – Ziua 7 În dimineață ultimei zile de tabăra copiii"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -359,7 +359,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiţi pentru încălzire. Pentru dimineaţă ghizii ne-au pregătit o drumeţie."}
+              {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiți pentru încălzire. Pentru dimineață ghizii ne-au pregătit o drumeție."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -380,7 +380,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 5 Vineri, 28 august, Poiana Braşov 2015 – Ziua 5 A venit în sfârşit ziua a"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 5 Vineri, 28 august, Poiana Brașov 2015 – Ziua 5 A venit în sfârșit ziua a"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -401,7 +401,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 4 Joi, 27 august, Poiana Braşov 2015 – Ziua 4 Ne-am trezit în dimineaţă zilei"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 4 Joi, 27 august, Poiana Brașov 2015 – Ziua 4 Ne-am trezit în dimineață zilei"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -422,7 +422,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 3 Miercuri, 26 august, Poiana Braşov 2015 O nouă zi, o nouă aventură. După trezirea"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 3 Miercuri, 26 august, Poiana Brașov 2015 O nouă zi, o nouă aventură. După trezirea"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -443,7 +443,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 1 Luni, 24 august, Poiana Braşov 2015 După o călătorie cu microbuzul de aproape 4"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 1 Luni, 24 august, Poiana Brașov 2015 După o călătorie cu microbuzul de aproape 4"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

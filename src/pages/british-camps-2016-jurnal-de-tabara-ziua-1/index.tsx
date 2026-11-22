@@ -96,19 +96,19 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"La 10 fix am fost toţi în microbuz şi gata de plecare uşor somnoroşi, dar evident nerăbdători. În sfârşit! Fără părinţi :D. Drumul a fost lipsit de peripeţii sau incidente, deşi ne-a prins ploaia. Am vorbit puţin între noi, unii au ascultat muzică, alţii au citit, iar alţii au jucat cărţi. Odată ajunşi, desigur că am avut puţin de aşteptat, dar ne-am făcut comozi pe canapelele Pub-ului de lângă recepţie. O rundă de ping-pong, una de biliard sau un joc de cărţi şi cât ai zice peşte filetat şi afumat în fum de scoarţă de copac au ajuns şi ceilalţi copii."}
+                                  {"La 10 fix am fost toți în microbuz și gata de plecare ușor somnoroși, dar evident nerăbdători. În sfârșit! Fără părinți :D. Drumul a fost lipsit de peripeții sau incidente, deși ne-a prins ploaia. Am vorbit puțin între noi, unii au ascultat muzică, alții au citit, iar alții au jucat cărți. Odată ajunși, desigur că am avut puțin de așteptat, dar ne-am făcut comozi pe canapelele Pub-ului de lângă recepție. O rundă de ping-pong, una de biliard sau un joc de cărți și cât ai zice pește filetat și afumat în fum de scoarță de copac au ajuns și ceilalți copii."}
                                 </p>
                                 <p>
-                                  {"Ne-am instalat câte doi, trei sau patru în cameră, veseli, dar flămânzi. La 19.00 am luat cina: caşcaval pane la aperitiv, pui şi pilaf pentru felul principal şi o cănuţă de compot dulce şi cald de mere. Cu burţile pline am urcat în camere să ne facem siesta şi să ne pregătim pentru marea deschidere de la 20.30."}
+                                  {"Ne-am instalat câte doi, trei sau patru în cameră, veseli, dar flămânzi. La 19.00 am luat cina: cașcaval pane la aperitiv, pui și pilaf pentru felul principal și o cănuță de compot dulce și cald de mere. Cu burțile pline am urcat în camere să ne facem siesta și să ne pregătim pentru marea deschidere de la 20.30."}
                                 </p>
                                 <p>
-                                  {"Ne-am adunat în centrul de evenimente, iar festivitatea a început în adevărat spirit de petrecere cu dans şi cântec, baloane de săpun şi lumini. Meneaito, Cotton Eye Joe, It’s my life şi Andri Popa au setat atmosfera pentru momentul mult aşteptat: întâlnirea cu trainerii britanici. Au sosit cu baloane pentru toată lumea, iar noi ne-am înghesuit să-i vedem, să-i salutăm şi să primim cu aplauze, desigur. Câteva minute mai târziu am fost repartizaţi pe grupe şi am avut ocazia să petrecem puţin timp cu trainerul desemnat. Short and sweet."}
+                                  {"Ne-am adunat în centrul de evenimente, iar festivitatea a început în adevărat spirit de petrecere cu dans și cântec, baloane de săpun și lumini. Meneaito, Cotton Eye Joe, It’s my life și Andri Popa au setat atmosfera pentru momentul mult așteptat: întâlnirea cu trainerii britanici. Au sosit cu baloane pentru toată lumea, iar noi ne-am înghesuit să-i vedem, să-i salutăm și să primim cu aplauze, desigur. Câteva minute mai târziu am fost repartizați pe grupe și am avut ocazia să petrecem puțin timp cu trainerul desemnat. Short and sweet."}
                                 </p>
                                 <p>
-                                  {"După aceea a început prima seară DISCO, iar noi, în ciuda oboselii, am refuzat să părăsim sala până nu ne-am zbenguim alături de traineri. La 23.00 muzica a încetat, dar distracţia încă nu. Până la miezul nopţii am stat de vorbă cu noii noştri prieteni, am jucat cărţi şi am ras. O să dormim atât de bine! Noapte bună."}
+                                  {"După aceea a început prima seară DISCO, iar noi, în ciuda oboselii, am refuzat să părăsim sala până nu ne-am zbenguim alături de traineri. La 23.00 muzica a încetat, dar distracția încă nu. Până la miezul nopții am stat de vorbă cu noii noștri prieteni, am jucat cărți și am ras. O să dormim atât de bine! Noapte bună."}
                                 </p>
                                 <p>
-                                  {"Dacă doriţi să va faceţi o idee mai clară despre atmosfera de la festivitatea de deschidere a taberei, va invităm să vizionaţi filmuleţul de mai jos."}
+                                  {"Dacă doriți să va faceți o idee mai clară despre atmosfera de la festivitatea de deschidere a taberei, va invităm să vizionați filmulețul de mai jos."}
                                 </p>
                               </div>
                             </div>
@@ -299,7 +299,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 7 Am deschis ochii la îndemnul vocii Elenei care ne anunţa că e trecut de 8.00."}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 7 Am deschis ochii la îndemnul vocii Elenei care ne anunța că e trecut de 8.00."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -320,7 +320,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 6 Dimineaţa zilei a şasea ne-a găsit pe unii energici şi pregătiţi de o nouă aventură,"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 6 Dimineața zilei a șasea ne-a găsit pe unii energici și pregătiți de o nouă aventură,"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -341,7 +341,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 5 În această dimineaţă mai puţini dintre noi au fost matinali. Normal că ne-am trezit mai"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 5 În această dimineață mai puțini dintre noi au fost matinali. Normal că ne-am trezit mai"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -362,7 +362,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 4 Bună dimineaţa, ziua a treia a taberei! După ce am adormit cu toţii la orele"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 4 Bună dimineața, ziua a treia a taberei! După ce am adormit cu toții la orele"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -383,7 +383,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 3 Bună dimineaţa, ziua a treia a taberei! După ce am adormit cu toţii la orele"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 3 Bună dimineața, ziua a treia a taberei! După ce am adormit cu toții la orele"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

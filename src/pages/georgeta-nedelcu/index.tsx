@@ -60,10 +60,10 @@ export default function Page() {
                               </h3>
                               <ul>
                                 <li>
-                                  {"2010-2013, Universitatea “ Dunarea de Jos” , specializarea actorie"}
+                                  {"2010-2013, Universitatea “ Dunarea de Jos”, specializarea actorie"}
                                 </li>
                                 <li>
-                                  {"2013-2015, Universitatea “ Dunarea de Jos” , masterat teatrul-muzical"}
+                                  {"2013-2015, Universitatea “ Dunarea de Jos”, masterat teatrul-muzical"}
                                 </li>
                               </ul>
                               <h3>

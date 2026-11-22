@@ -105,46 +105,46 @@ export default function Page() {
                                   <strong>
                                     {"Joi, 27 august"}
                                   </strong>
-                                  {", Poiana Braşov 2015 – "}
+                                  {", Poiana Brașov 2015 – "}
                                   <strong>
                                     {"Ziua 4"}
                                   </strong>
                                 </p>
                                 <p>
-                                  {"Ne-am trezit în dimineaţă zilei a patra de tabăra pe fundalul melodiei ‘Bună dimineaţa’, plini de entuziasm deoarece am fost anunţaţi cu o seară înainte la ce să ne aşteptăm pentru activităţile de dimineaţă: trasul la ţintă!"}
+                                  {"Ne-am trezit în dimineață zilei a patra de tabăra pe fundalul melodiei ‘Bună dimineața’, plini de entuziasm deoarece am fost anunțați cu o seară înainte la ce să ne așteptăm pentru activitățile de dimineață: trasul la țintă!"}
                                 </p>
                               </div>
                             </div>
                             <div>
                               <div>
                                 <p>
-                                  {"Coordonarea şi acurateţea, puterea de concentrare şi lucrul în echipă, toate acestea ne vor fi puse la încercare. Ne-am aliniat, ca de obicei, pe echipe şi am fost repartizaţi pe diferite staţii. Au fost două staţii pentru tirul cu arcul, unde am fost instruiţi de un ghid în privinţa tehnicii de tragere, dar mai ales referitor la regulile de siguranţă. Pe rând, am venit în faţa ţintei şi am avut ocazia să exersăm, apoi să tragem trei săgeţi pentru a strânge puncte. Restul echipei a aşteptat cuminte în spatele zonei de ‘foc’."}
+                                  {"Coordonarea și acuratețea, puterea de concentrare și lucrul în echipă, toate acestea ne vor fi puse la încercare. Ne-am aliniat, ca de obicei, pe echipe și am fost repartizați pe diferite stații. Au fost două stații pentru tirul cu arcul, unde am fost instruiți de un ghid în privința tehnicii de tragere, dar mai ales referitor la regulile de siguranță. Pe rând, am venit în fața țintei și am avut ocazia să exersăm, apoi să tragem trei săgeți pentru a strânge puncte. Restul echipei a așteptat cuminte în spatele zonei de ‘foc’."}
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"English-Adventure-Camp-2015-Ziua-4_043-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/English-Adventure-Camp-2015-Ziua-4_043-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/English-Adventure-Camp-2015-Ziua-4_043-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/English-Adventure-Camp-2015-Ziua-4_043-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/English-Adventure-Camp-2015-Ziua-4_043-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/English-Adventure-Camp-2015-Ziua-4_043-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/English-Adventure-Camp-2015-Ziua-4_043-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/English-Adventure-Camp-2015-Ziua-4_043-150x150.jpg"} />
-                                  {"La staţiile de tragere cu "}
+                                  {"La stațiile de tragere cu "}
                                   <a href={"https://en.wikipedia.org/wiki/Blowgun"} target={"_blank"}>
                                     {"blowgun"}
                                   </a>
-                                  {"-ul (una dintre cele mai vechi şi mai primitive arme consistând dintr-un tub subţire din care se proiectează prin suflare o săgeata mică) am aşteptat în formaţie să ne vină rândul. În faţă am fost instruiţi cu privire la ţintire şi la tehnică de suflare, apoi am avut tot trei şanse să câştigăm puncte pentru echipa noastră."}
+                                  {"-ul (una dintre cele mai vechi și mai primitive arme consistând dintr-un tub subțire din care se proiectează prin suflare o săgeata mică) am așteptat în formație să ne vină rândul. În față am fost instruiți cu privire la țintire și la tehnică de suflare, apoi am avut tot trei șanse să câștigăm puncte pentru echipa noastră."}
                                 </p>
                                 <p>
-                                  {"La staţiile de tir cu puşca Airsoft ne-am simţit că într-un film cu spioni, fiind întinşi pe burtă pentru a trage la ţintă că nişte lunetiști. Desigur, inamicii noştrii erau cutii goale de suc aşezate în şir, dar satisfacţia de a le doborî a fost nemărginită. Echipa a aşteptat la o distanţă sigură până când fiecare a avut ocazia să tragă. Trei ‘gloanţe’, trei şanse de câştig."}
+                                  {"La stațiile de tir cu pușca Airsoft ne-am simțit că într-un film cu spioni, fiind întinși pe burtă pentru a trage la țintă că niște lunetiști. Desigur, inamicii noștrii erau cutii goale de suc așezate în șir, dar satisfacția de a le doborî a fost nemărginită. Echipa a așteptat la o distanță sigură până când fiecare a avut ocazia să tragă. Trei ‘gloanțe’, trei șanse de câștig."}
                                 </p>
                                 <p>
-                                  {"Ultima staţie ne-a provocat întreaga echipă"}
-                                  {"printr-un joc: Castelul. O echipa apăra castelul (un turnuleţ format din 7 pietre suprapuse), iar o echipa încerca să-l distrugă. Armă disponibilă: o minge. După prima lovitură trimisă de atacatori, echipa apărătorilor trebuie să scoată adversarii din joc prin a-i atinge cu mingea. Coordonarea este cuvânt de ordine, iar noi ne-am străduit să profităm de încă o şansă pentru a câştigă puncte."}
+                                  {"Ultima stație ne-a provocat întreaga echipă"}
+                                  {" printr-un joc: Castelul. O echipa apăra castelul (un turnuleț format din 7 pietre suprapuse), iar o echipa încerca să-l distrugă. Armă disponibilă: o minge. După prima lovitură trimisă de atacatori, echipa apărătorilor trebuie să scoată adversarii din joc prin a-i atinge cu mingea. Coordonarea este cuvânt de ordine, iar noi ne-am străduit să profităm de încă o șansă pentru a câștigă puncte."}
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"English-Adventure-Camp-2015-Ziua-4_072-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/English-Adventure-Camp-2015-Ziua-4_072-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/English-Adventure-Camp-2015-Ziua-4_072-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/English-Adventure-Camp-2015-Ziua-4_072-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/English-Adventure-Camp-2015-Ziua-4_072-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/English-Adventure-Camp-2015-Ziua-4_072-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/English-Adventure-Camp-2015-Ziua-4_072-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/English-Adventure-Camp-2015-Ziua-4_072-150x150.jpg"} />
-                                  {"După ce fiecare echipa a trecut pe la fiecare staţie, a urmat o nouă provocare: un concurs de compoziţie fotografică. Am tras bilete cu tot felul de teme şi ne-am pus pe pozat. La prânz ni s-a servit ciorbă de pui, apoi piept de pui, cartofi copţi şi o nectarină. La"}
+                                  {"După ce fiecare echipa a trecut pe la fiecare stație, a urmat o nouă provocare: un concurs de compoziție fotografică. Am tras bilete cu tot felul de teme și ne-am pus pe pozat. La prânz ni s-a servit ciorbă de pui, apoi piept de pui, cartofi copți și o nectarină. La"}
                                   <a href={"/cursuri-de-limba-engleza-pentru-copii-si-adolescenti/"} target={"_blank"}>
                                     {" cursurile de engleză"}
                                   </a>
-                                  {" de după masă am continuat să scriem în jurnale, am discutat despre muzică, dar am făcut şi măşti pentru activitatea de seară: carnavalul."}
+                                  {" de după masă am continuat să scriem în jurnale, am discutat despre muzică, dar am făcut și măști pentru activitatea de seară: carnavalul."}
                                 </p>
                                 <p>
-                                  {"La ora 9.00 toate creaturile pământului s-au prezentat la carnaval: iepuri, vulpi, lupi şi urşi, tigri, bufniţe şi broscuţe, minioni şi supereroi. Fiecare masca a venit în faţă să se prezinte şi să prezinte o « super mişcare » sau un « super dans », iar ghizii noştri au făcut tot posibilul să îi imite îndeaproape în hohotele de ras ale publicului. Iată că a mai trecut o « superzi » în « supertabăra «"}
+                                  {"La ora 9.00 toate creaturile pământului s-au prezentat la carnaval: iepuri, vulpi, lupi și urși, tigri, bufnițe și broscuțe, minioni și supereroi. Fiecare masca a venit în față să se prezinte și să prezinte o « super mișcare » sau un « super dans », iar ghizii noștri au făcut tot posibilul să îi imite îndeaproape în hohotele de ras ale publicului. Iată că a mai trecut o « superzi » în « supertabăra «"}
                                   {" noastră."}
                                 </p>
                               </div>
@@ -333,7 +333,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 7 Duminică, 30 august, Poiana Braşov 2015 – Ziua 7 În dimineaţă ultimei zile de tabăra copiii"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 7 Duminică, 30 august, Poiana Brașov 2015 – Ziua 7 În dimineață ultimei zile de tabăra copiii"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -354,7 +354,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiţi pentru încălzire. Pentru dimineaţă ghizii ne-au pregătit o drumeţie."}
+              {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiți pentru încălzire. Pentru dimineață ghizii ne-au pregătit o drumeție."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -375,7 +375,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 5 Vineri, 28 august, Poiana Braşov 2015 – Ziua 5 A venit în sfârşit ziua a"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 5 Vineri, 28 august, Poiana Brașov 2015 – Ziua 5 A venit în sfârșit ziua a"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -396,7 +396,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 3 Miercuri, 26 august, Poiana Braşov 2015 O nouă zi, o nouă aventură. După trezirea"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 3 Miercuri, 26 august, Poiana Brașov 2015 O nouă zi, o nouă aventură. După trezirea"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -417,7 +417,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 2 Marţi, 25 August, Poiana Braşov 2015 Bună dimineaţa! Suntem în a două zi de"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 2 Marți, 25 August, Poiana Brașov 2015 Bună dimineața! Suntem în a două zi de"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -438,7 +438,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 1 Luni, 24 august, Poiana Braşov 2015 După o călătorie cu microbuzul de aproape 4"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 1 Luni, 24 august, Poiana Brașov 2015 După o călătorie cu microbuzul de aproape 4"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

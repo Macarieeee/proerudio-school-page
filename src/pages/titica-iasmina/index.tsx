@@ -90,7 +90,7 @@ export default function Page() {
                               </h2>
                               <ul>
                                 <li>
-                                  {"Şcoala doctorală “Limbi și Identități Culturale”, Facultatea de Limbi și Literaturi Străine, Universitatea din București (2025 – prezent)"}
+                                  {"Școala doctorală “Limbi și Identități Culturale”, Facultatea de Limbi și Literaturi Străine, Universitatea din București (2025 – prezent)"}
                                 </li>
                                 <li>
                                   {"Masteratul de Lingvistică a Limbii Engleze. Metode și Aplicații, Facultatea de Limbi și Literaturi Străine, Universitatea din București, 2023-2025"}

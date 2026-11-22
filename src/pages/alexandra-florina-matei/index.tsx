@@ -83,28 +83,28 @@ export default function Page() {
                               <ul>
                                 <li>
                                   <span>
-                                    {"2006 – 2009 Facultate de Litere, specializarea limba şi literatură română – engleză, Universitatea din Piteşti"}
+                                    {"2006 – 2009 Facultate de Litere, specializarea limba și literatură română – engleză, Universitatea din Pitești"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
-                                    {"2009 – 2012 Facultatea de Ştiinţe ale Comunicării – Jurnalism, Universitatea din Piteşti"}
+                                    {"2009 – 2012 Facultatea de Științe ale Comunicării – Jurnalism, Universitatea din Pitești"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
                                     {"2009 – 2012 Modul pedagogic Nivel 1"}
-                                    {" – Universitatea din Piteşti"}
+                                    {" – Universitatea din Pitești"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
-                                    {"2011 – 2012 College of Social Sciences- Bursă Erasmus – Internaţional Business|Vilnius/Lituania"}
+                                    {"2011 – 2012 College of Social Sciences- Bursă Erasmus – Internațional Business|Vilnius/Lituania"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
-                                    {"2011 – 2013 Masterat – Traductologie Limba Engleză, Universitatea din Piteşti"}
+                                    {"2011 – 2013 Masterat – Traductologie Limba Engleză, Universitatea din Pitești"}
                                   </span>
                                 </li>
                               </ul>
@@ -115,17 +115,17 @@ export default function Page() {
                               <ul>
                                 <li>
                                   <span>
-                                    {"Profesor de limba engleză – Grădiniţă „Happy Kids” şi Grădiniţă „Casă cu Pitici”, Bucureşti"}
+                                    {"Profesor de limba engleză – Grădiniță „Happy Kids” și Grădiniță „Casă cu Pitici”, București"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
-                                    {"Profesor Pingu’s English – Grădinţă „Casă cu Pitici” (Predarea cursului Pingu’s English acreditat de Linguaphone)"}
+                                    {"Profesor Pingu’s English – Grădință „Casă cu Pitici” (Predarea cursului Pingu’s English acreditat de Linguaphone)"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
-                                    {"Profesor de jurnalism (voluntar) „Reporterii de mâine” – Şcoală de Excelenţă Sf. Filofteia, Piteşti"}
+                                    {"Profesor de jurnalism (voluntar) „Reporterii de mâine” – Școală de Excelență Sf. Filofteia, Pitești"}
                                   </span>
                                 </li>
                               </ul>
@@ -156,12 +156,12 @@ export default function Page() {
                                 </li>
                                 <li>
                                   <span>
-                                    {"The Internaţional Conference „Teaching English în the Age of Digital Culture”, organizată de Uniscan, 2016"}
+                                    {"The Internațional Conference „Teaching English în the Age of Digital Culture”, organizată de Uniscan, 2016"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
-                                    {"The 2015 Naţional Conference for English Language Teachers organised by Fischer Internaţional, 2015"}
+                                    {"The 2015 Național Conference for English Language Teachers organised by Fischer Internațional, 2015"}
                                   </span>
                                 </li>
                                 <li>
@@ -186,17 +186,17 @@ export default function Page() {
                                 </li>
                                 <li>
                                   <span>
-                                    {"DISSEMINATION AND EXPLOITATION OF RESULTS UNDER Erasmus + Programme, workshop, Martie 2015, Piteşti"}
+                                    {"DISSEMINATION AND EXPLOITATION OF RESULTS UNDER Erasmus + Programme, workshop, Martie 2015, Pitești"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
-                                    {"21 de Metode pentru Afacerea ta, seminar, Piteşti, 2015"}
+                                    {"21 de Metode pentru Afacerea ta, seminar, Pitești, 2015"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
-                                    {"MONTESSORI METHODOLOGY ÎN LANGUAGE TEACHING, Piteşti, 2014"}
+                                    {"MONTESSORI METHODOLOGY ÎN LANGUAGE TEACHING, Pitești, 2014"}
                                   </span>
                                 </li>
                               </ul>
@@ -211,7 +211,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   <span>
-                                    {"Secretar CEAC – Grădiniţă cu program prelungit „Casă cu Pitici”"}
+                                    {"Secretar CEAC – Grădiniță cu program prelungit „Casă cu Pitici”"}
                                   </span>
                                 </li>
                                 <li>
@@ -221,7 +221,7 @@ export default function Page() {
                                   <ul>
                                     <li>
                                       <span>
-                                        {"participarea la proiecte europene în cadrul programului Erasmus + (Formare profesională, parteneriate strategice, domeniul universitar, educaţia adulţilor, tineret şi domeniul şcolar)"}
+                                        {"participarea la proiecte europene în cadrul programului Erasmus + (Formare profesională, parteneriate strategice, domeniul universitar, educația adulților, tineret și domeniul școlar)"}
                                       </span>
                                     </li>
                                   </ul>
@@ -233,7 +233,7 @@ export default function Page() {
                                   <ul>
                                     <li>
                                       <span>
-                                        {"ativitati pentru copii, desfăşurate în cadrul proiectului MultiKulti"}
+                                        {"ativitati pentru copii, desfășurate în cadrul proiectului MultiKulti"}
                                       </span>
                                     </li>
                                     <li>
@@ -243,7 +243,7 @@ export default function Page() {
                                     </li>
                                     <li>
                                       <span>
-                                        {"activităţi desfăşurate la Centrul de Voluntariat Local ( Polites Association)"}
+                                        {"activități desfășurate la Centrul de Voluntariat Local ( Polites Association)"}
                                       </span>
                                     </li>
                                   </ul>

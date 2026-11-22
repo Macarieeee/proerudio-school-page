@@ -100,7 +100,7 @@ export default function Page() {
                                 <p>
                                   <span>
                                     <strong>
-                                      {"Structura anului şcolar la Pro Erudio o urmează în mare pe cea din învăţământul de stat, asa cum a fost publicată în Monitorul Oficial, aprobată prin Ordinul ministrului Educației nr. 3800/09 martie 2023"}
+                                      {"Structura anului școlar la Pro Erudio o urmează în mare pe cea din învățământul de stat, asa cum a fost publicată în Monitorul Oficial, aprobată prin Ordinul ministrului Educației nr. 3800/09 martie 2023"}
                                     </strong>
                                     {", cu diferența că la noi prima zi de curs va fi"}
                                     <strong>
@@ -114,7 +114,7 @@ export default function Page() {
                             <div>
                               <div>
                                 <h4>
-                                  {"Anul şcolar 2023-2024 la Pro Erudio cuprinde "}
+                                  {"Anul școlar 2023-2024 la Pro Erudio cuprinde "}
                                   <strong>
                                     {"35 de săptămâni de cursuri"}
                                   </strong>
@@ -190,7 +190,7 @@ export default function Page() {
                                   <strong>
                                     {"ZILE LIBERE"}
                                   </strong>
-                                  {"până la sfârşitul anului școlar 2023-2024 vor fi:"}
+                                  {"până la sfârșitul anului școlar 2023-2024 vor fi:"}
                                 </p>
                                 <ul>
                                   <li>
@@ -230,7 +230,7 @@ export default function Page() {
                                       <strong>
                                         {"5 octombrie "}
                                       </strong>
-                                      {"(Ziua internaţională a educaţiei)"}
+                                      {"(Ziua internațională a educației)"}
                                       {"vor fi ore obișnuite de curs."}
                                     </span>
                                   </li>
@@ -272,7 +272,7 @@ export default function Page() {
                               <div>
                                 <h4>
                                   <strong>
-                                    {"Alte activităţi:"}
+                                    {"Alte activități:"}
                                   </strong>
                                 </h4>
                                 <p>
@@ -322,7 +322,7 @@ export default function Page() {
                                     <strong>
                                       {"Halloween/Crăciun/1 Martie/Paște"}
                                     </strong>
-                                    {") este dedicată învăţării vocabularului specific și/sau familiarizării copiilor cu obiceiuri şi tradiţii din spaţiul ţărilor vorbitoare de limbă engleză/germană/franceză, prin comparaţie cu tradiţiile şi obiceiurile noastre."}
+                                    {") este dedicată învățării vocabularului specific și/sau familiarizării copiilor cu obiceiuri și tradiții din spațiul țărilor vorbitoare de limbă engleză/germană/franceză, prin comparație cu tradițiile și obiceiurile noastre."}
                                   </span>
                                 </p>
                                 <p>
@@ -494,7 +494,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -515,7 +515,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -536,7 +536,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro"}
+              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -557,7 +557,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului şcolar la Pro Erudio o urmează pe cea din învăţământul de stat, aşa cum este prezentată în Ordinul ministrului Educației și Cercetării"}
+              {"Structura anului școlar la Pro Erudio o urmează pe cea din învățământul de stat, așa cum este prezentată în Ordinul ministrului Educației și Cercetării"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -578,7 +578,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2020-2021 și cele mai importante activități Structura anului şcolar la Pro Erudio urmează structura"}
+              {"Structura anului școlar 2020-2021 și cele mai importante activități Structura anului școlar la Pro Erudio urmează structura"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -599,7 +599,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2018-2019 și cele mai importante activități Structura anului şcolar la Pro Erudio urmează structura anului şcolar din învăţământul"}
+              {"Structura anului școlar 2018-2019 și cele mai importante activități Structura anului școlar la Pro Erudio urmează structura anului școlar din învățământul"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

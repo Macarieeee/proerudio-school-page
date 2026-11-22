@@ -48,7 +48,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={"Cursuri de limba spaniolă pentru copii"} title={"Cursuri de limba spaniolă pentru copii: “¿Hablas español?”"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-spaniola-Hablas-espanol.jpg 870w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-spaniola-Hablas-espanol-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-spaniola-Hablas-espanol-768x401.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-spaniola-Hablas-espanol-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-spaniola-Hablas-espanol-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-spaniola-Hablas-espanol-144x75.jpg 144w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-spaniola-Hablas-espanol.jpg"} />
+                                <img decoding={"async"} alt={"Cursuri de limba spaniolă pentru copii"} title={"Cursuri de limba spaniolă pentru copii: ¿Hablas español?"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-spaniola-Hablas-espanol.jpg 870w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-spaniola-Hablas-espanol-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-spaniola-Hablas-espanol-768x401.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-spaniola-Hablas-espanol-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-spaniola-Hablas-espanol-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-spaniola-Hablas-espanol-144x75.jpg 144w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-spaniola-Hablas-espanol.jpg"} />
                               </div>
                             </figure>
                           </div>
@@ -58,7 +58,7 @@ export default function Page() {
                                 {"Cursuri de limba spaniolă pentru copii:"}
                                 <br />
                                 <span>
-                                  {"“¿Hablas español?”"}
+                                  <strong>{"¿Hablas español?"}</strong>
                                 </span>
                               </h2>
                             </div>
@@ -81,9 +81,8 @@ export default function Page() {
                                 </strong>
                               </h4>
                               <p>
-                                {"Deşi probabil că sunt mult mai multe (multe personale, deci greu de sistematizat într-o listă), am dori să va prezentăm mai jos 10 motive pentru a îți inscrie copilul la cursurile de limba"}
-                                {"spaniolă pentru copii la"}
-                                {"Pro Erudio:"}
+                                {"Deși probabil că sunt mult mai multe (multe personale, deci greu de sistematizat într-o listă), am dori să va prezentăm mai jos 10 motive pentru a îți inscrie copilul la cursurile de limba spaniolă pentru copii la"}
+                                {" Pro Erudio:"}
                               </p>
                               <h5>
                                 {"În primul rând, sunt motivele legate de cifre:"}
@@ -92,39 +91,37 @@ export default function Page() {
                                 {"1. Spaniolă este a două cea mai vorbită limba din lume că limba maternă, după chineza mandarin. Peste 350 de milioane de persoane vorbesc spaniolă încă din copilărie, că prima limba."}
                               </p>
                               <p>
-                                {"2. Teritoriul pe care se vorbeşte această limba este enorm. Nu cuprinde doar Spania, ci şi America Latină şi sudul Statelor Unite ale Americii, Guineea Ecuatorială şi o parte din Filipine. Actualmente, 500 de milioane de persoane vorbesc această limba care este oficială în 21 de ţări, că prima sau a două limba."}
+                                {"2. Teritoriul pe care se vorbește această limba este enorm. Nu cuprinde doar Spania, ci și America Latină și sudul Statelor Unite ale Americii, Guineea Ecuatorială și o parte din Filipine. Actualmente, 500 de milioane de persoane vorbesc această limba care este oficială în 21 de țări, că prima sau a două limba."}
                               </p>
                               <p>
-                                {"3. Spaniolă este a două cea mai studiată limba, după engleză și în acest scop, la nivel internațional se susțin numeroase"}
-                                {"cursuri de limba spaniolă pentru copii. De asemenea, este a două limba academică din lume şi a două limba în care se publică cele mai multe cărţi, ziare sau pagini web. În plus, spaniolă este a treia cea mai folosită limba pe internet, după engleză şi chineza mandarin. Cu alte cuvinte, este o limbă potrivită pentru a comunica în lumea virtuală."}
+                                {"3. Spaniolă este a două cea mai studiată limba, după engleză și în acest scop, la nivel internațional se susțin numeroasecursuri de limba spaniolă pentru copii. De asemenea, este a două limba academică din lume și a două limba în care se publică cele mai multe cărți, ziare sau pagini web. În plus, spaniolă este a treia cea mai folosită limba pe internet, după engleză și chineza mandarin. Cu alte cuvinte, este o limbă potrivită pentru a comunica în lumea virtuală."}
                               </p>
                               <p>
-                                {"4. Spaniolă este una dintre limbile oficiale ale ONU, UNESCO, UE, dar şi a altor instituţii internaţionale (FMI, UNICEF, NATO, FAO, etc…)."}
+                                {"4. Spaniolă este una dintre limbile oficiale ale ONU, UNESCO, UE, dar și a altor instituții internaționale (FMI, UNICEF, NATO, FAO, etc…)."}
                               </p>
                               <p>
-                                {"5. Spaniolă este o limba uşor de învăţat, cu un vocabular de baza latin şi multă influenţă din limba engleză, cu puţine dificultăţi fonetice, pentru că se citeşte cum se scrie, şi cu o gramatică complexă, dar bine structurată."}
+                                {"5. Spaniolă este o limba ușor de învățat, cu un vocabular de baza latin și multă influență din limba engleză, cu puține dificultăți fonetice, pentru că se citește cum se scrie, și cu o gramatică complexă, dar bine structurată."}
                               </p>
                               <h5>
-                                {"În al doilea rând copiii urmează cursuri de limba spaniolă pentru copii constientizând"}
-                                {"avantajele personale pe care le presupune învăţarea limbii spaniole:"}
+                                {"În al doilea rând copiii urmează cursuri de limba spaniolă pentru copii constientizândavantajele personale pe care le presupune învățarea limbii spaniole:"}
                               </h5>
                               <p>
-                                {"6. În călătorii: vorbind spaniolă vei putea vizită toate cele cinci continente. Dacă, pe lângă asta, mai ştii şi engleză, lumea va fi la picioarele tale."}
+                                {"6. În călătorii: vorbind spaniolă vei putea vizită toate cele cinci continente. Dacă, pe lângă asta, mai știi și engleză, lumea va fi la picioarele tale."}
                               </p>
                               <p>
-                                {"7. Pentru a munci şi pentru a face afaceri: precum am văzut, dacă scrii în CV-ul tău că ştii limba spaniolă, vor creşte exponenţial şansele de a-ţi găsi un loc de muncă bun, în special într-o multinaţională. În plus, afacerea ta s-ar putea dezvoltă în mult mai multe sectoare şi într-un număr mare de ţări de pe mapamond."}
+                                {"7. Pentru a munci și pentru a face afaceri: precum am văzut, dacă scrii în CV-ul tău că știi limba spaniolă, vor crește exponențial șansele de a-ți găsi un loc de muncă bun, în special într-o multinațională. În plus, afacerea ta s-ar putea dezvoltă în mult mai multe sectoare și într-un număr mare de țări de pe mapamond."}
                               </p>
                               <p>
-                                {"8. Pentru a citi: limba spaniolă este a două cea mai editată limba în actualitate. Afacerea cu cărţi în spaniolă se află pe locul doi că şi nivel de rentabilitate, după ediţiile în engleză. Aceeaşi poziţie, a două, o ocupă spaniolă şi în cazul ziarelor sau al paginilor web."}
+                                {"8. Pentru a citi: limba spaniolă este a două cea mai editată limba în actualitate. Afacerea cu cărți în spaniolă se află pe locul doi că și nivel de rentabilitate, după edițiile în engleză. Aceeași poziție, a două, o ocupă spaniolă și în cazul ziarelor sau al paginilor web."}
                               </p>
                               <p>
-                                {"9. Pentru distracţie: Spaniolă este o limba uşoară, distractivă, atât de învăţat, cât şi de experimentat. Spaniolă are structura identică cu popoarele latine care o vorbesc, fiind plină de pasiune şi de bucurie."}
+                                {"9. Pentru distracție: Spaniolă este o limba ușoară, distractivă, atât de învățat, cât și de experimentat. Spaniolă are structura identică cu popoarele latine care o vorbesc, fiind plină de pasiune și de bucurie."}
                               </p>
                               <p>
-                                {"10. Pentru a exprimă sentimente: spaniolă nu este numai limba telenovelelor, ci şi un vehicul excepţional pentru iubire, pasiune, tandreţe, inima şi senzualitate. Poezia şi muzică spaniolă se remarcă prin căldură şi blândeţea ei, această limba fiind, fără discuţie, cea mai potrivită pentru a spune cuvinte frumoase."}
+                                {"10. Pentru a exprima sentimente: spaniolă nu este numai limba telenovelelor, ci și un vehicul excepțional pentru iubire, pasiune, tandrețe, inima și senzualitate. Poezia și muzică spaniolă se remarcă prin căldură și blândețea ei, această limba fiind, fără discuție, cea mai potrivită pentru a spune cuvinte frumoase."}
                               </p>
                               <p>
-                                {"În definitiv, la Pro Erudio vei putea învaţă spaniolă cu profesori nativi într-un mod distractiv, eficace, profesionist şi centrat pe succesul tău, fără a se scapă o clipă din vedere nevoile şi interesele personale. Dacă înveţi limba spaniolă, viaţă ta se va schimbă în bine."}
+                                {"În definitiv, la Pro Erudio vei putea învăța spaniolă cu profesori nativi într-un mod distractiv, eficace, profesionist și centrat pe succesul tău, fără a se scapă o clipă din vedere nevoile și interesele personale. Dacă înveți limba spaniolă, viață ta se va schimbă în bine."}
                               </p>
                             </div>
                           </div>
@@ -158,7 +155,7 @@ export default function Page() {
                                   <div className={"course-details-panel"}>
                                     <div className={"course-details-header"}>
                                       <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                                        <img decoding={"async"} alt={"Cursuri de limba spaniolă pentru copii: “¿Hablas español?”"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/spaniola-brut.jpg"} />
+                                        <img decoding={"async"} alt={"Cursuri de limba spaniolă pentru copii: ¿Hablas español?"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/spaniola-brut.jpg"} />
                                       </div>
                                       <h2>
                                         {"Grup 3 cursanți"}
@@ -257,7 +254,7 @@ export default function Page() {
                                   <div className={"course-details-panel"}>
                                     <div className={"course-details-header"}>
                                       <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                                        <img decoding={"async"} alt={"Cursuri de limba spaniolă pentru copii: “¿Hablas español?”"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/spaniola-brut.jpg"} />
+                                        <img decoding={"async"} alt={"Cursuri de limba spaniolă pentru copii: ¿Hablas español?"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/spaniola-brut.jpg"} />
                                       </div>
                                       <h2>
                                         {"Grup 4 - 6 cursanti"}
@@ -368,8 +365,7 @@ export default function Page() {
                                           {"Taxa de curs se achită până pe data de 5 a fiecărei luni pentru luna în curs la secretariatul școlii sau prin virament bancar."}
                                         </li>
                                         <li>
-                                          {"Toate materiale folosite în timpul cursului (mai puțin manualele care se vor achita separat la înscriere) intră"}
-                                          {"în taxa de curs."}
+                                          {"Toate materiale folosite în timpul cursului (mai puțin manualele care se vor achita separat la înscriere) intrăîn taxa de curs."}
                                         </li>
                                       </ul>
                                     </div>
@@ -628,7 +624,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Creioane și culori (pentru copii de 5-7 si 8-10 ani) Prezentare generală Desenul este"}
+                                    {"Creioane și culori (pentru copii de 5-7 si 8 - 10 ani) Prezentare generală Desenul este"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -649,7 +645,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Planeta animalelor (pentru copii de 5-7 și 8-10 ani) Prezentare generală Lumea animalelor"}
+                                    {"Planeta animalelor (pentru copii de 5-7 și 8 - 10 ani) Prezentare generală Lumea animalelor"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -670,7 +666,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5–17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
+                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5 - 17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}

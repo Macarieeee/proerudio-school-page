@@ -77,7 +77,7 @@ export default function Page() {
                                   <div>
                                     <div>
                                       <h5>
-                                        {"Pentru copii și adolescenți de 11–17 ani (nivel A1- B1)"}
+                                        {"Pentru copii și adolescenți de 11 - 17 ani (nivel A1- B1)"}
                                       </h5>
                                       <div>
                                         <div>
@@ -95,7 +95,7 @@ export default function Page() {
                           <div>
                             <div>
                               <p>
-                                {"Odată cu răspândirea limbii engleze în lume și dezvoltarea tehnologiei în această limbă, interesul pentru învățarea limbii franceze a scăzut. În aceste condiții, cunoaşterea limbii franceze devine un avantaj, oferind o şansă în plus celor care o învață, mai precis numeroase perspective de dezvoltare, inclusiv căi de acces către universul de afaceri și cel cultural."}
+                                {"Odată cu răspândirea limbii engleze în lume și dezvoltarea tehnologiei în această limbă, interesul pentru învățarea limbii franceze a scăzut. În aceste condiții, cunoașterea limbii franceze devine un avantaj, oferind o șansă în plus celor care o învață, mai precis numeroase perspective de dezvoltare, inclusiv căi de acces către universul de afaceri și cel cultural."}
                               </p>
                               <p>
                                 {"În plus, începând din anul scolar 2029-2030, competențele lingvistice la examenul de Bacalaureat se susțin la două limbi străine, iar învățarea limbii franceze este destul de facilă copiilor români datorită originilor comune în limba latină."}
@@ -105,7 +105,7 @@ export default function Page() {
                           <div>
                             <div>
                               <p>
-                                {"Cursul de limba franceză Parler français, c’est cool! se adresează copiilor cu vârste de peste 11 ani (adică din clasa a V-a, când începe învățarea celei de a doua limbi străine și la școala de stat) şi este structurat pe trei niveluri. La plasarea în grupe se va ține cont de vârstă şi de nivelul de cunoştințe de limba franceză. Pentru plasarea în grupa corectă în cazul copiilor care au mai studiat limba franceză și în alte contexte, organizăm testare gratuită la sediul nostru."}
+                                {"Cursul de limba franceză Parler français, c’est cool! se adresează copiilor cu vârste de peste 11 ani (adică din clasa a V-a, când începe învățarea celei de a doua limbi străine și la școala de stat) și este structurat pe trei niveluri. La plasarea în grupe se va ține cont de vârstă și de nivelul de cunoștințe de limba franceză. Pentru plasarea în grupa corectă în cazul copiilor care au mai studiat limba franceză și în alte contexte, organizăm testare gratuită la sediul nostru."}
                               </p>
                               <p>
                                 {"La Parler français, c’est cool!, aducem limba franceză aproape de interesele copiilor și adolescenților. Prin activități interactive și teme relevante pentru vârsta lor, îi încurajăm să participe, să își exprime ideile și să folosească ceea ce învață în situații concrete de comunicare."}
@@ -278,7 +278,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârstă: "}
                                             </strong>
-                                            {"11–16 ani"}
+                                            {"11 - 16 ani"}
                                           </li>
                                         </ul>
                                         <p></p>
@@ -368,7 +368,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5–17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
+                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5 - 17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -389,7 +389,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar şi a exprimarii pasiunii, limba iubirii"}
+                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar și a exprimarii pasiunii, limba iubirii"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -452,7 +452,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Creioane și culori (pentru copii de 5-7 si 8-10 ani) Prezentare generală Desenul este"}
+                                    {"Creioane și culori (pentru copii de 5-7 si 8 - 10 ani) Prezentare generală Desenul este"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -473,7 +473,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Planeta animalelor (pentru copii de 5-7 și 8-10 ani) Prezentare generală Lumea animalelor"}
+                                    {"Planeta animalelor (pentru copii de 5-7 și 8 - 10 ani) Prezentare generală Lumea animalelor"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}

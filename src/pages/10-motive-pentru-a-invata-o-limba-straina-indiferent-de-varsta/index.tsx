@@ -86,7 +86,7 @@ export default function Page() {
                               <div>
                                 <h2>
                                   <span>
-                                    {"10 motive pentru a învăţa o limbă străină indiferent de vârstă"}
+                                    {"10 motive pentru a învăța o limbă străină indiferent de vârstă"}
                                   </span>
                                 </h2>
                               </div>
@@ -100,7 +100,7 @@ export default function Page() {
                               <div>
                                 <h4>
                                   <strong>
-                                    {"Ne străduim să învăţăm o limbă străină dintr-o multitudine de motive:"}
+                                    {"Ne străduim să învățăm o limbă străină dintr-o multitudine de motive:"}
                                   </strong>
                                 </h4>
                                 <ul>
@@ -111,7 +111,7 @@ export default function Page() {
                                   </li>
                                   <li>
                                     <span>
-                                      {"pentru a comunica cu prieteni din alte ţări;"}
+                                      {"pentru a comunica cu prieteni din alte țări;"}
                                     </span>
                                   </li>
                                   <li>
@@ -121,7 +121,7 @@ export default function Page() {
                                   </li>
                                   <li>
                                     <span>
-                                      {"pentru a avea acces la informaţii în limba ţintă fără a apela la traducere etc."}
+                                      {"pentru a avea acces la informații în limba țintă fără a apela la traducere etc."}
                                     </span>
                                   </li>
                                 </ul>
@@ -133,8 +133,8 @@ export default function Page() {
                               </div>
                               <p>
                                 {"Fără a încerca să minimizăm importanța celor mai sus enumerate, beneficiile învățării a"}
-                                {"minim o"}
-                                {"limbă străină nu se limitează la ele, ci am putea chiar să spunem că sunt depăşite de altele, mai puţin cunoscute poate, dar cel puţin la fel de valoroase."}
+                                {" minim o"}
+                                {" limbă străină nu se limitează la ele, ci am putea chiar să spunem că sunt depășite de altele, mai puțin cunoscute poate, dar cel puțin la fel de valoroase."}
                               </p>
                             </div>
                             <div>
@@ -142,13 +142,13 @@ export default function Page() {
                                 <p>
                                   <span>
                                     <strong>
-                                      {"Vă invităm să citiţi cele ce urmează pentru a va face o idee mai exactă."}
+                                      {"Vă invităm să citiți cele ce urmează pentru a va face o idee mai exactă."}
                                     </strong>
                                   </span>
                                 </p>
                                 <p>
                                   <span>
-                                    {"Învăţarea unei limbi străine:"}
+                                    {"Învățarea unei limbi străine:"}
                                   </span>
                                 </p>
                               </div>
@@ -162,7 +162,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"1. Îmbunătăţeşte calitatea conexiunilor neuronale. "}
+                                              {"1. Îmbunătățește calitatea conexiunilor neuronale. "}
                                             </span>
                                           </span>
                                         </h3>
@@ -172,7 +172,7 @@ export default function Page() {
                                       <div>
                                         <h4>
                                           <span>
-                                            {"Cu alte cuvinte, ne face mai inteligenţi"}
+                                            {"Cu alte cuvinte, ne face mai inteligenți"}
                                           </span>
                                         </h4>
                                         <p>
@@ -182,7 +182,7 @@ export default function Page() {
                                               {"limbă străină"}
                                             </a>
                                             {" este un întreg nou sistem de reguli"}
-                                            {" şi înţelesuri ce trebuie corelate, iar în timp ce creierul lucrează pentru a înţelege noul cod de funcţionare, îşi îmbunătăţeşte capacitatea de interpretare, abstractizare şi generalizare, de deducere şi negocire, de găsire de soluţii în vederea comunicării etc."}
+                                            {" și înțelesuri ce trebuie corelate, iar în timp ce creierul lucrează pentru a înțelege noul cod de funcționare, își îmbunătățește capacitatea de interpretare, abstractizare și generalizare, de deducere și negocire, de găsire de soluții în vederea comunicării etc."}
                                           </span>
                                         </p>
                                       </div>
@@ -200,7 +200,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"2. Îmbunătăţeşte capacitatea de multitasking"}
+                                              {"2. Îmbunătățește capacitatea de multitasking"}
                                             </span>
                                           </span>
                                         </h3>
@@ -215,8 +215,8 @@ export default function Page() {
                                         </h4>
                                         <p>
                                           <span>
-                                            {"Vorbitorii de mai multe limbi (cel puţin una maternă şi o limbă"}
-                                            {"străină) sunt obişnuiţi să treacă de la o limbă străină la cealaltă, de la un sistem lingvistic la unul total diferit. Această activitate este deosebit de dificilă pentru creier, dar odată ce acesta s-a obişnuit cu această conversie, poate desfăşura fără un consum energetic foarte mare şi alte acţiuni variate simultan fără greşeală."}
+                                            {"Vorbitorii de mai multe limbi (cel puțin una maternă și o limbă"}
+                                            {" străină) sunt obișnuiți să treacă de la o limbă străină la cealaltă, de la un sistem lingvistic la unul total diferit. Această activitate este deosebit de dificilă pentru creier, dar odată ce acesta s-a obișnuit cu această conversie, poate desfășura fără un consum energetic foarte mare și alte acțiuni variate simultan fără greșeală."}
                                           </span>
                                         </p>
                                       </div>
@@ -234,7 +234,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"3. Întârzie instalarea demenţei de bătrâneţe şi a Alzheimer-ului"}
+                                              {"3. Întârzie instalarea demenței de bătrânețe și a Alzheimer-ului"}
                                             </span>
                                           </span>
                                         </h3>
@@ -244,13 +244,13 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"Studiile arată constant că, păstrând constanţi factori cum ar fi vârsta, zona geografică, nivelul de studii, situaţia economică etc, subiecţii vorbitori de cel puţin două limbi au o rată de îmbolnăvire din aceste motive mai mică decât subiecţii monolingvi."}
+                                            {"Studiile arată constant că, păstrând constanți factori cum ar fi vârsta, zona geografică, nivelul de studii, situația economică etc., subiecții vorbitori de cel puțin două limbi au o rată de îmbolnăvire din aceste motive mai mică decât subiecții monolingvi."}
                                             <br />
-                                            {"\nÎn plus, în ultimul timp medicii curanţi ai pacienţilor care au suferit tratamente cu "}
+                                            {"\nÎn plus, în ultimul timp medicii curanți ai pacienților care au suferit tratamente cu "}
                                             <a href={"https://ro.wikipedia.org/wiki/Coenzima_Q10"}>
                                               {"citostatice"}
                                             </a>
-                                            {" recomandă învăţarea unei limbi străine pentru îmbunătăţirea calităţii activităţii neuronale, ştiut fiind că aceste tratamente afectează major funcţionarea celulei nervoase."}
+                                            {" recomandă învățarea unei limbi străine pentru îmbunătățirea calității activității neuronale, știut fiind că aceste tratamente afectează major funcționarea celulei nervoase."}
                                           </span>
                                         </p>
                                       </div>
@@ -268,7 +268,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"4. Îmbunătăţeşte memoria"}
+                                              {"4. Îmbunătățește memoria"}
                                             </span>
                                           </span>
                                         </h3>
@@ -278,7 +278,7 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"Cu cât ne folosim mai mult creierul (ca in cazul în care înveți o limbă străină), cu atât acesta funcţionează mai bine. Învăţarea unei limbi străine presupune familiarizarea cu vocabularul şi regulile de gramatică şi folosirea acestor informaţii pentru comunicare. Acest process complex antrenează funcţiile creierul, care este adesea comparat cu un muşchi fiindcă funcţionează mai bine în urmă unui exerciţiu susţinut."}
+                                            {"Cu cât ne folosim mai mult creierul (ca în cazul în care înveți o limbă străină), cu atât acesta funcționează mai bine. Învățarea unei limbi străine presupune familiarizarea cu vocabularul și regulile de gramatică și folosirea acestor informații pentru comunicare. Acest proces complex antrenează funcțiile creieruluiuiui, care este adesea comparat cu un mușchi fiindcă funcționează mai bine în urma unui exercițiu susținut."}
                                           </span>
                                         </p>
                                       </div>
@@ -306,7 +306,7 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"Un studiu condus de Universitatea din Pompeu Fabra, Spania, arată că subiecţii poligloţi și cei care învață o limbă străină sunt mai perspicace atunci când vine vorba de discriminarea informaţiilor relevante de cele irelevante şi de identificarea informaţiilor false. Nu degeaba detectivi ca Sherlock Holmes şi Hercule Poirot erau vorbitori fluenţi de mai multe limbi străine…"}
+                                            {"Un studiu condus de Universitatea din Pompeu Fabra, Spania, arată că subiecții poligloți și cei care învață o limbă străină sunt mai perspicace atunci când vine vorba de discriminarea informațiilor relevante de cele irelevante și de identificarea informațiilor false. Nu degeaba detectivi ca Sherlock Holmes și Hercule Poirot erau vorbitori fluenți de mai multe limbi străine…"}
                                           </span>
                                         </p>
                                       </div>
@@ -324,7 +324,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"6. Îmbunătăţeşte abilităţile de luare de decizii"}
+                                              {"6. Îmbunătățește abilitățile de luare de decizii"}
                                             </span>
                                           </span>
                                         </h3>
@@ -334,11 +334,11 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"Conform concluziilor unui studiu efectuat de Universitatea din Chicago, subiecţii bilingvi sunt mai siguri de alegerile lor fiindcă în mod inconştient folosesc resurse din ambele limbi atunci când analizează o situaţie, iar uneori nuanţele şi implicaţiile subtile din vocabular din "}
+                                            {"Conform concluziilor unui studiu efectuat de Universitatea din Chicago, subiecții bilingvi sunt mai siguri de alegerile lor fiindcă în mod inconștient folosesc resurse din ambele limbi atunci când analizează o situație, iar uneori nuanțele și implicațiile subtile din vocabular din "}
                                             <a href={"/alte-cursuri-pentru-copii/cursuri-de-limba-germana-pentru-copii-si-adolescenti/"}>
                                               {"limba a doua"}
                                             </a>
-                                            {"influenţează pozitiv luarea deciziilor."}
+                                            {"influențează pozitiv luarea deciziilor."}
                                           </span>
                                         </p>
                                       </div>
@@ -366,7 +366,7 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"Învăţarea modului de funcţionare al unei limbi străine te face mai conştient de modul în care funcţionează propria limbă fiindcă acesta este dată, nu învăţată cu efort… Te face mai atent la expresii şi nuanţe în exprimare, mai pretenţios la felul în care transmiţi informaţia şi la modul în care se exprimă cei din jur."}
+                                            {"Învățarea modului de funcționare al unei limbi străine te face mai conștient de modul în care funcționează propria limbă fiindcă acesta este dată, nu învățată cu efort… Te face mai atent la expresii și nuanțe în exprimare, mai pretențios la felul în care transmiți informația și la modul în care se exprimă cei din jur."}
                                           </span>
                                         </p>
                                       </div>
@@ -384,7 +384,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"8. Creşte performanţă academică"}
+                                              {"8. Crește performanță academică"}
                                             </span>
                                           </span>
                                         </h3>
@@ -394,12 +394,12 @@ export default function Page() {
                                       <div>
                                         <h4>
                                           <span>
-                                            {"în toate celelalte materii de studiu în timpul şcolii"}
+                                            {"în toate celelalte materii de studiu în timpul școlii"}
                                           </span>
                                         </h4>
                                         <p>
                                           <span>
-                                            {"Fiindcă creierul are capacitatea de a opera în moduri diferite, dezvoltă o varietate de abilităţi cognitive. Studiile arată că beneficiile învăţării unei limbi străine includ rezultate mai bune la examenele standard la toate disciplinele, incluzând matematica şi celalalte ştiinţe exacte, la subiecţii bilingvi în comparaţie cu cei monolingvi, în condiţiile păstrării tuturor celorlalţi factori constanţi."}
+                                            {"Fiindcă creierul are capacitatea de a opera în moduri diferite, dezvoltă o varietate de abilități cognitive. Studiile arată că beneficiile învățării unei limbi străine includ rezultate mai bune la examenele standard la toate disciplinele, incluzând matematica și celalalte științe exacte, la subiecții bilingvi în comparație cu cei monolingvi, în condițiile păstrării tuturor celorlalți factori constanți."}
                                           </span>
                                         </p>
                                       </div>
@@ -417,7 +417,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"9. Creşte capacitatea de toleranţă"}
+                                              {"9. Crește capacitatea de toleranță"}
                                             </span>
                                           </span>
                                         </h3>
@@ -427,12 +427,12 @@ export default function Page() {
                                       <div>
                                         <h4>
                                           <span>
-                                            {"faţă de diversitatea culturală şi comportamentală"}
+                                            {"față de diversitatea culturală și comportamentală"}
                                           </span>
                                         </h4>
                                         <p>
                                           <span>
-                                            {"Din moment ce învăţarea unei limbi străine este poartă de intrarea într-o anumită cultură, această deschidere îţi permite nu doar să fi mai tolerant, mai flexibil referitor la modul altora de a acţiona şi aborda diferite aspecte ale vieţii, dar îţi şi conferă poziţia privilegiată de a privi lumea cu mai multă înţelegere şi înţelepciune."}
+                                            {"Din moment ce învățarea unei limbi străine este poartă de intrarea într-o anumită cultură, această deschidere îți permite nu doar să fi mai tolerant, mai flexibil referitor la modul altora de a acționa și aborda diferite aspecte ale vieții, dar îți și conferă poziția privilegiată de a privi lumea cu mai multă înțelegere și înțelepciune."}
                                           </span>
                                         </p>
                                       </div>
@@ -450,7 +450,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"10. Îţi oferă un avantaj pe piaţă muncii"}
+                                              {"10. Îți oferă un avantaj pe piața muncii"}
                                             </span>
                                           </span>
                                         </h3>
@@ -460,7 +460,7 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"În era tehnologiei când totul se află la un click distanţă, într-o lume în care suntem dependenţi unii de ceilalţi ca şi naţiuni pentru libera circulaţie a bunurilor, a oamenilor şi a informaţiei, într-o lume în care disputele politice, crizele economice şi siguranţa naţională au devenit de interes internaţional, învăţarea unei limbi străine nu mai reprezintă o necesitate pentru promovare în carieră, ci pentru supravieţuire pe piaţă muncii. Dacă acum 50 de ani cunosterea unei limbi străine ţinea de etalarea unei culturi solide, acum cunoaşterea unei limbi străine de circulaţie internaţională este o necesitate de prim rang şi abia cunoaşterea celei de-a doua constituie o diferenţiere de educaţie şi pe piaţă muncii. Așa că învață minim o limbă străină!"}
+                                            {"În era tehnologiei când totul se află la un click distanță, într-o lume în care suntem dependenți unii de ceilalți ca și națiuni pentru libera circulație a bunurilor, a oamenilor și a informației, într-o lume în care disputele politice, crizele economice și siguranța națională au devenit de interes internațional, învățarea unei limbi străine nu mai reprezintă o necesitate pentru promovare în carieră, ci pentru supraviețuire pe piața muncii. Dacă acum 50 de ani cunoașterea unei limbi străine ținea de etalarea unei culturi solide, acum cunoașterea unei limbi străine de circulație internațională este o necesitate de prim rang și abia cunoașterea celei de-a doua constituie o diferențiere de educație și pe piața muncii. Așa că învață minim o limbă străină!"}
                                           </span>
                                         </p>
                                       </div>
@@ -471,14 +471,14 @@ export default function Page() {
                                       </div>
                                       <p>
                                         <span>
-                                          {"Învăţarea unei limbi străine nu este o activitate care trebuie să înceapă la o anumită vârstă şi să se oprească la o altă, este o activitate cu numeroase beneficii atât pentru minţile tinere, cât şi pentru cele experimentate. La vârste diferite vom găsi motive diferite pentru"}
-                                          {" care învăţarea unei limbi străine capătă sens şi conferă avantaje. "}
+                                          {"Învățarea unei limbi străine nu este o activitate care trebuie să înceapă la o anumită vârstă și să se oprească la o alta, este o activitate cu numeroase beneficii atât pentru mințile tinere, cât și pentru cele experimentate. La vârste diferite vom găsi motive diferite pentru"}
+                                          {" care învățarea unei limbi străine capătă sens și conferă avantaje. "}
                                         </span>
                                       </p>
                                       <p>
                                         <span>
                                           {"Vă"}
-                                          {"invităm să le treceţi încă o dată în revista şi să va raportaţi exact la acelea care se referă la situaţia dumneavoastră actuală."}
+                                          {" invităm să le treceți încă o dată în revistă și să vă raportați exact la acelea care se referă la situația dumneavoastră actuală."}
                                         </span>
                                       </p>
                                     </div>
@@ -487,7 +487,7 @@ export default function Page() {
                                         <p>
                                           <span>
                                             <strong>
-                                              {"Aceste fiind spuse, vă dorim spor la învăţat, indiferent ce vârstă aveţi! O limbă străină invăț"}
+                                              {"Acestea fiind spuse, vă dorim spor la învățat, indiferent ce vârstă aveți! O limbă străină invăț"}
                                             </strong>
                                             <strong>
                                               {"ată aduce numai beneficii!"}
@@ -658,7 +658,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -679,7 +679,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"De ce limba engleză? Într-o lume dominată de internet şi tehnologie – care avansează mai repede decât putem noi ţine"}
+              {"De ce limba engleză? Într-o lume dominată de internet și tehnologie – care avansează mai repede decât putem noi ține"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -700,7 +700,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -721,7 +721,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -742,7 +742,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -763,7 +763,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro"}
+              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

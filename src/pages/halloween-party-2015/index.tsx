@@ -89,12 +89,12 @@ export default function Page() {
                                   {", 31 octombrie 2015"}
                                 </p>
 <p>
-                                  {"M-am trezit de dimineaţă cu gândul la petrecerea ce urmează, după o săptămâna întreagă în care la "}
+                                  {"M-am trezit de dimineață cu gândul la petrecerea ce urmează, după o săptămâna întreagă în care la "}
                                   <a href={"/cursuri-de-limba-engleza-pentru-copii-si-adolescenti/"} target={"_blank"}>
                                     {"cursurile de engleză"}
                                   </a>
-                                  {" am învăţat despre simboluri şi tradiţii de Halloween. Am dat o fugă la piaţă să cumpărăm un dovleac pentru sculptat şi am mai probat o dată costumul de vrăjitoare ca să mă asigur că voi face impresie la petrecere. În sfârşit a sosit şi mult-aşteptata ora 17.00 şi am plecat „cu fluturi în stomac”, cum spune englezul, la petrecerea de Halloween. După primirea cu muzică şi lumânărele am început să ne împrietenim: o fantomiță"}
-                                  {"cu glugă albă, o mulţime de vrăjitoare care mai de care cu ceaune şi mături zburătoare, o cadână, Albă-ca-Zăpadă, o panteră roz şi câteva pisici negre, un pirat, Călăreţul-fără-Cap, Spiderman, Zorro, un dovleac plimbător, un prinţ printre multe prinţese şi zâne, scheleţi, lupi, drăcuşori şi tot felul de alte creaturi cu măşti de toate felurile, pelerine şi pălării…"}
+                                  {" am învățat despre simboluri și tradiții de Halloween. Am dat o fugă la piață să cumpărăm un dovleac pentru sculptat și am mai probat o dată costumul de vrăjitoare ca să mă asigur că voi face impresie la petrecere. În sfârșit a sosit și mult-așteptata ora 17.00 și am plecat „cu fluturi în stomac”, cum spune englezul, la petrecerea de Halloween. După primirea cu muzică și lumânărele am început să ne împrietenim: o fantomiță"}
+                                  {" cu glugă albă, o mulțime de vrăjitoare care mai de care cu ceaune și mături zburătoare, o cadână, Albă-ca-Zăpadă, o panteră roz și câteva pisici negre, un pirat, Călărețul-fără-Cap, Spiderman, Zorro, un dovleac plimbător, un prinț printre multe prințese și zâne, scheleți, lupi, drăcușori și tot felul de alte creaturi cu măști de toate felurile, pelerine și pălării…"}
                                   {" Gata! Petrecerea poată să înceapă…"}
                                 </p>
 </section>
@@ -102,23 +102,23 @@ export default function Page() {
 <section className="event-section">
 <p>
                                   <img decoding={"async"} alt={"DSC00823-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/DSC00823-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/DSC00823-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/DSC00823-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/DSC00823-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/DSC00823-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/DSC00823-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/DSC00823-150x150.jpg"} />
-                                  {"Mai întâi ne-am împărţit în două tabere: cei care au venit cu dovleacul gata pregătit şi cei ce urmează să-l scobească pe loc. Primul grup va participa la “Dansul magic al dovlecilor” alături de Loreta, iar ceilalţi împărţiţi în săli diferite încep marea mozoleală: miez şi seminţe de dovleac împrăştiate peste tot, mânuţe murdare, degete lipicioase – nimic din toate acestea nu contează când zâmbetele se întind de la o ureche la altă… După 30 de minute de lucru intens încep să apară faimoşii Jack-o-Lanterns. La sugestia profesorilor, cei care nu au terminat vor continuă acasă pentru a avea timp şi de alte activităţi."}
+                                  {"Mai întâi ne-am împărțit în două tabere: cei care au venit cu dovleacul gata pregătit și cei ce urmează să-l scobească pe loc. Primul grup va participa la “Dansul magic al dovlecilor” alături de Loreta, iar ceilalți împărțiți în săli diferite încep marea mozoleală: miez și semințe de dovleac împrăștiate peste tot, mânuțe murdare, degete lipicioase – nimic din toate acestea nu contează când zâmbetele se întind de la o ureche la altă… După 30 de minute de lucru intens încep să apară faimoșii Jack-o-Lanterns. La sugestia profesorilor, cei care nu au terminat vor continuă acasă pentru a avea timp și de alte activități."}
                                 </p>
 <p>
-                                  {"După atâta muncă, să fie şi distracţie! Gangnam Style, joculeţul Cotton Eye Joe, Meneaito, „limbo dance” şi statuile muzicale. Super atmosferă! Dar între timp ni s-a făcut foame, deci gustarea de după dans ne prinde super bine…"}
+                                  {"După atâta muncă, să fie și distracție! Gangnam Style, joculețul Cotton Eye Joe, Meneaito, „limbo dance” și statuile muzicale. Super atmosferă! Dar între timp ni s-a făcut foame, deci gustarea de după dans ne prinde super bine…"}
                                 </p>
 <p>
-                                  {"Dar să nu credeţi că asta a fost totul! Împărţiţi pe staţii de lucru şi în funcţie de vârste, am jucat popice cu soldăţeii din lemn, am construit o pânză uriaşă de păianjen, am jucat „Follow the Leader” şi „Impersonate the Scary Character”, ne-am testat curajul şi intuiţia pentru a ghici obiectele din „Cutia Misterelor”, ne-am împărţit în echipe pentru provocările de la Halloween Hunt şi Halloween Quiz (ambele jocuri în "}
+                                  {"Dar să nu credeți că asta a fost totul! Împărțiți pe stații de lucru și în funcție de vârste, am jucat popice cu soldățeii din lemn, am construit o pânză uriașă de păianjen, am jucat „Follow the Leader” și „Impersonate the Scary Character”, ne-am testat curajul și intuiția pentru a ghici obiectele din „Cutia Misterelor”, ne-am împărțit în echipe pentru provocările de la Halloween Hunt și Halloween Quiz (ambele jocuri în "}
                                   <a href={"/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/"} target={"_blank"}>
                                     {"limba engleză"}
                                   </a>
-                                  {"), am colorat dovleci şi ne-am uitat la desene animate cu creaturi supranaturale."}
+                                  {"), am colorat dovleci și ne-am uitat la desene animate cu creaturi supranaturale."}
                                 </p>
 <p>
-                                  {"Ce seară grozavă! Ne-am deghizat, am dansat, am mâncat, am cioplit dovleci, ne-am distrat şi mai ales ne-am făcut noi prieteni dintre copiii cu care nu suntem colegi la cursurile de engleză, dar de care ne leagă plăcerea de a învaţă limbi străine."}
+                                  {"Ce seară grozavă! Ne-am deghizat, am dansat, am mâncat, am cioplit dovleci, ne-am distrat și mai ales ne-am făcut noi prieteni dintre copiii cu care nu suntem colegi la cursurile de engleză, dar de care ne leagă plăcerea de a învăța limbi străine."}
                                 </p>
 <p>
-                                  {"Mulţumiri participanţilor şi tuturor celor implicaţi (în special părinţilor care ne-au ajutat să curăţăm sălile după aventură cu dovlecii)!"}
+                                  {"Mulțumiri participanților și tuturor celor implicați (în special părinților care ne-au ajutat să curățăm sălile după aventură cu dovlecii)!"}
                                 </p>
 <p>
                                   <strong>
@@ -340,7 +340,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Distracție la căldurică Deşi iarnă cu zăpadă se lasă aşteptată, “Distracţia la căldurică” nu a avut nimic de pierdut. Ne-am"}
+              {"Distracție la căldurică Deși iarnă cu zăpadă se lasă așteptată, “Distracția la căldurică” nu a avut nimic de pierdut. Ne-am"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -361,7 +361,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Christmas is coming… Vine Crăciunul şi ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
+              {"Christmas is coming… Vine Crăciunul și ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

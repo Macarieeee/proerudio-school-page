@@ -47,6 +47,29 @@ export default function Page() {
                         <div>
                           <div>
                             <div className={"related-content-grid"} id={"card-grid-0"}>
+<a href={"/atelier-de-dansuri-populare/"} className={"related-content-card"}>
+                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2026/01/dansuri-24-ian-Orizont-1024x576.jpg\")"}}>
+                                          <h3>
+                                            {"Atelierul de dansuri populare"}
+                                          </h3>
+                                        </div>
+                                        <div className={"related-content-body"}>
+                                          <span className={"related-content-badge"}>
+                                            {"Articole"}
+                                          </span>
+                                          <p>
+                                            {"De Ziua Unirii, ne prindem de mâini și jucăm românește! 💃🕺 🎶 Atelier GRATUIT de dansuri tradiționale pentru copii În spiritul acestei zile pline de semnificație, te invităm gratuit la un atelier de dansuri tradiționale românești – un prilej de bucurie, tradiție și comuniune prin mișcare și muzică populară. ✨ De ce este special acest atelier? Pentru că este gândit ca o activitate distractivă și accesibilă copiilor neinițiați în dansurile populare. Așadar, vino fără teamă să „dăm mână cu mână” într-o horă a prieteniei și a tradiției! 📅 Când: Sâmbătă, 24 ianuarie 2026 📍 Unde: Sediul Pro Erudio Orizont (https://maps.app.goo.gl/naCZdCYF6gEhfKmQ7) ⏰ Ora: Va fi anunțată prin email în data de 22 ianuarie 👧 Vârste: copii 5–12 ani (grupe de vârste apropiate) 🎵 Ce facem la atelier? • Învățăm dansuri populare românești prin demonstrații și explicații pas cu pas •"}
+                                          </p>
+                                          <span className={"related-content-action"}>
+                                            {"Citește articolul"}
+                                            <span aria-hidden={"true"}>
+                                              {"→"}
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </a>
+
+
                               <a href={"/parinti-informati-copii-motivati-galerie-foto/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/18926483793_5a06806a2b_b-1024x480-1024x480.jpg\")"}}>
                                   <h3>
@@ -71,7 +94,7 @@ export default function Page() {
                               <a href={"/storytime-5-6-ani-galerie-foto/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-vara-de-limba-engleza-Storytime-5-6-ani2-1024x410.jpg\")"}}>
                                   <h3>
-                                    {"Storytime (5-6 ani) – Galerie foto"}
+                                    <strong>{"Storytime"}</strong>{" (5 - 6 ani) – Galerie foto"}
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -79,7 +102,7 @@ export default function Page() {
                                     {"Articole"}
                                   </span>
                                   <p>
-                                    {"Curs de vară de limba engleză – Storytime (5-6 ani) Am fost un grup plin de energie şi"}
+                                    {"Curs de vară de limba engleză – "}<strong>{"Storytime"}</strong>{" (5 - 6 ani) Am fost un grup plin de energie și"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}
@@ -113,7 +136,7 @@ export default function Page() {
                               <a href={"/storytime-13-24-iulie/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/storytime-1024x410.jpg\")"}}>
                                   <h3>
-                                    {"Curs de vara de limba engleza STORYTIME – (8-10 ani)"}
+                                    {"Curs de vara de limba engleza "}<strong>{"STORYTIME"}</strong>{" – (8 - 10 ani)"}
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -121,7 +144,7 @@ export default function Page() {
                                     {"Articole"}
                                   </span>
                                   <p>
-                                    {"Storytime – seria 13-24 iulie (8-10 ani) Poveştile sunt o mare parte din viaţa noastră, fie că e vorba de"}
+                                    <strong>{"Storytime"}</strong>{" – seria 13-24 iulie (8 - 10 ani) Poveștile sunt o mare parte din viața noastră, fie că e vorba de"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}
@@ -163,7 +186,7 @@ export default function Page() {
                                     {"Articole"}
                                   </span>
                                   <p>
-                                    {"Distracție la căldurică Deşi iarnă cu zăpadă se lasă aşteptată, “Distracţia la căldurică” nu a avut nimic de pierdut. Ne-am"}
+                                    {"Distracție la căldurică Deși iarnă cu zăpadă se lasă așteptată, “Distracția la căldurică” nu a avut nimic de pierdut. Ne-am"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}
@@ -184,7 +207,7 @@ export default function Page() {
                                     {"Articole"}
                                   </span>
                                   <p>
-                                    {"Halloween Party– 2015 Sâmbătă, 31 octombrie 2015 M-am trezit de dimineaţă cu gândul la petrecerea ce urmează, după o săptămâna întreagă"}
+                                    {"Halloween Party– 2015 Sâmbătă, 31 octombrie 2015 M-am trezit de dimineață cu gândul la petrecerea ce urmează, după o săptămâna întreagă"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}
@@ -197,7 +220,7 @@ export default function Page() {
                               <a href={"/cursuri-de-vara-in-limba-engleza-cinematics-sesiunea-1/"} className={"related-content-card"} hidden={true}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-in-limba-engleza-Cinematics-sesiunea-1-1024x410.jpg\")"}}>
                                   <h3>
-                                    {"Cursuri de vara in limba engleza “Cinematics” – sesiunea 1"}
+                                    {"Cursuri de vara in limba engleza "}<strong>{"Cinematics"}</strong>{" – sesiunea 1"}
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -205,7 +228,7 @@ export default function Page() {
                                     {"Cursuri de vară"}
                                   </span>
                                   <p>
-                                    {"Cursuri de vară în limba engleză “Cinematics” – Sesiunea 1 5, 4, 3, 2, 1 START! Începe incursiunea în lumea filmului."}
+                                    {"Cursuri de vară în limba engleză "}<strong>{"Cinematics"}</strong>{" – Sesiunea 1 5, 4, 3, 2, 1 START! Începe incursiunea în lumea filmului."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}
@@ -218,7 +241,7 @@ export default function Page() {
                               <a href={"/puppet-theatre-13-24-iulie/"} className={"related-content-card"} hidden={true}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/puppet-theatre-1024x410.jpg\")"}}>
                                   <h3>
-                                    {"Curs de vară de limba engleză PUPPET THEATRE (4-6 ani)"}
+                                    {"Curs de vară de limba engleză "}<strong>{"PUPPET THEATRE"}</strong>{" (4 - 6 ani)"}
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -226,7 +249,7 @@ export default function Page() {
                                     {"Articole"}
                                   </span>
                                   <p>
-                                    {"PUPPET THEATRE – seria 13 – 24 iulie (4-6 ani) Vara este momentul cel mai potrivit să încercăm ceva nou."}
+                                    <strong>{"PUPPET THEATRE"}</strong>{" – seria 13 – 24 iulie (4 - 6 ani) Vara este momentul cel mai potrivit să încercăm ceva nou."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}
@@ -239,7 +262,7 @@ export default function Page() {
                               <a href={"/storytime-6-8-ani-galerie-foto/"} className={"related-content-card"} hidden={true}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-vara-de-limba-engleza-Storytime-6-8-ani-1024x410.jpg\")"}}>
                                   <h3>
-                                    {"Curs de vara de limba engleza STORYTIME (6-8 ani)"}
+                                    {"Curs de vara de limba engleza "}<strong>{"STORYTIME"}</strong>{" (6 - 8 ani)"}
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -247,7 +270,7 @@ export default function Page() {
                                     {"Articole"}
                                   </span>
                                   <p>
-                                    {"Curs de vară de limba engleză “Storytime” (6-8) ani Am citit, ascultat și vizionat povești în limba engleză, am interpretat"}
+                                    {"Curs de vară de limba engleză "}<strong>{"Storytime"}</strong>{" (6-8) ani Am citit, ascultat și vizionat povești în limba engleză, am interpretat"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}
@@ -268,7 +291,7 @@ export default function Page() {
                                     {"Articole"}
                                   </span>
                                   <p>
-                                    {"Christmas is coming… Vine Crăciunul şi ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
+                                    {"Christmas is coming… Vine Crăciunul și ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}
@@ -352,7 +375,7 @@ export default function Page() {
                                     {"Articole"}
                                   </span>
                                   <p>
-                                    {"Conversație cu profesor nativ englez – Cadoul meu de Moș Nicolae De unde o fi ştiut Moş"}
+                                    {"Conversație cu profesor nativ englez – Cadoul meu de Moș Nicolae De unde o fi știut Moș"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}

@@ -62,7 +62,7 @@ export default function Page() {
 <dl className="event-facts">
           <div><dt>Când</dt><dd>24 ianuarie 2026</dd></div>
           <div><dt>Unde</dt><dd>Pro Erudio Orizont · <a href="https://maps.app.goo.gl/naCZdCYF6gEhfKmQ7">Vezi pe hartă</a></dd></div>
-          <div><dt>Pentru cine</dt><dd>Copii de 5–12 ani, în grupe de vârste apropiate</dd></div>
+          <div><dt>Pentru cine</dt><dd>Copii de 5 - 12 ani, în grupe de vârste apropiate</dd></div>
           <div><dt>Ora</dt><dd>Anunțată prin email în data de 22 ianuarie</dd></div>
         </dl>
 </section>
@@ -114,7 +114,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/atelierul-lui-mos-craciun/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/12/atelier-1.jpg\")"}}>
             <h3>
-              {"Atelierul lui Moş Crăciun"}
+              {"Atelierul lui Moș Crăciun"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -122,7 +122,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Sezonul sărbătorilor se apropie cu paşi grăbiţi. Aşa cum v-am obişnuit, luna decembrie este luna cadourilor şi la Pro Erudio. Astfel, îi invităm pe copilaşi sâmbătă, 9"}
+              {"Sezonul sărbătorilor se apropie cu pași grăbiți. Așa cum v-am obișnuit, luna decembrie este luna cadourilor și la Pro Erudio. Astfel, îi invităm pe copilași sâmbătă, 9"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -164,7 +164,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -185,7 +185,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -206,7 +206,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

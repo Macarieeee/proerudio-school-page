@@ -106,18 +106,18 @@ export default function Page() {
                                     {"Duminică, 30"}
                                     {"august"}
                                   </strong>
-                                  {", Poiana Braşov 2015 – "}
+                                  {", Poiana Brașov 2015 – "}
                                   <strong>
                                     {"Ziua"}
                                     {"7"}
                                   </strong>
                                 </p>
                                 <p>
-                                  {"În dimineaţă ultimei zile de tabăra copiii s-au trezit mai devreme decât de obicei şi au aşteptat cuminţi şi în linişte să se dea semnalul pentru aliniere. Obişnuinţă, e obişnuită, iar absenţa momentului de „încălzire” ne reaminteşte că este ultima zi de "}
+                                  {"În dimineață ultimei zile de tabăra copiii s-au trezit mai devreme decât de obicei și au așteptat cuminți și în liniște să se dea semnalul pentru aliniere. Obișnuință, e obișnuită, iar absența momentului de „încălzire” ne reamintește că este ultima zi de "}
                                   <a href={"/tabere/tabara-de-limba-engleza-si-aventura-in-romania/"} target={"_blank"}>
                                     {"tabără"}
                                   </a>
-                                  {". Melancolia despărţirii pluteşte în aer. Această ultima dimineaţă este dedicată echipelor şi premierii copiilor. Cu toţii au demonstrat caracter, curaj, rezistenţă, inteligenţă şi imaginaţie, precum şi capacitatea de a-şi face prieteni noi, de a face compromisuri şi a lucra în echipa. Cu toţii merită admiraţia şi felicitările noastre."}
+                                  {". Melancolia despărțirii plutește în aer. Această ultima dimineață este dedicată echipelor și premierii copiilor. Cu toții au demonstrat caracter, curaj, rezistență, inteligență și imaginație, precum și capacitatea de a-și face prieteni noi, de a face compromisuri și a lucra în echipa. Cu toții merită admirația și felicitările noastre."}
                                 </p>
                               </div>
                             </div>
@@ -125,17 +125,17 @@ export default function Page() {
                               <div>
                                 <p>
                                   <img decoding={"async"} alt={"tabara_poiana_brasov_atgr_oldline-0124-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0124-150x150-1.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0124-150x150-1-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0124-150x150-1-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0124-150x150-1-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0124-150x150-1-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0124-150x150-1-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0124-150x150-1.jpg"} />
-                                  {"Pentru a încununa această săptămâna de succes, ghizii le-au oferit copiilor o diplomă de merit, o medalie şi câteva cadouri (un set de badminton, o trompetă şi un set de lanterne cu laser) în aplauzele colegilor şi ale profesorilor însoţitori. A urmat un cântec de despărţire şi un moment de „liber la trompete”. Vacarmul creat a fost dovadă energiei de grup."}
+                                  {"Pentru a încununa această săptămâna de succes, ghizii le-au oferit copiilor o diplomă de merit, o medalie și câteva cadouri (un set de badminton, o trompetă și un set de lanterne cu laser) în aplauzele colegilor și ale profesorilor însoțitori. A urmat un cântec de despărțire și un moment de „liber la trompete”. Vacarmul creat a fost dovadă energiei de grup."}
                                 </p>
                                 <p>
-                                  {"Cu toate că în cadrul acestei ceremonii toată lumea a predat bandanele colorate, spiritul de echipa nu s-a pierdut. Înainte de masă de prânz deja unii părinţi au venit pentru a-i lua acasă. Îmbrăţişări prelungi şi ochi înlăcrimaţi demonstrează adevăratul câştig al tuturor eforturilor din această săptămâna: prieteni adevăraţi. Toată lumea a asemănat atmosfera de tabăra cu cea din "}
+                                  {"Cu toate că în cadrul acestei ceremonii toată lumea a predat bandanele colorate, spiritul de echipa nu s-a pierdut. Înainte de masă de prânz deja unii părinți au venit pentru a-i lua acasă. Îmbrățișări prelungi și ochi înlăcrimați demonstrează adevăratul câștig al tuturor eforturilor din această săptămâna: prieteni adevărați. Toată lumea a asemănat atmosfera de tabăra cu cea din "}
                                   <a href={"https://en.wikipedia.org/wiki/Harry_Potter"} target={"_blank"}>
                                     {"Harry Potter"}
                                   </a>
-                                  {": întreceri pe echipe, sala de mese organizată pe culori, disciplină, reguli stricte şi mici pedepse pentru cei cei le încalcă, ghizi mai exigenţi sau mai permisivi, aventuri de tot felul, prietenii solide."}
+                                  {": întreceri pe echipe, sala de mese organizată pe culori, disciplină, reguli stricte și mici pedepse pentru cei cei le încalcă, ghizi mai exigenți sau mai permisivi, aventuri de tot felul, prietenii solide."}
                                 </p>
                                 <p>
-                                  {"Toate momentele libere ale dimineţii au fost presărate cu poze de grup şi vânarea ghizilor pentru câte un „selfie” emoţional, cu schimburi de adrese de e-mail, numere de telefon şi adăugări în listele de prieteni de pe Facebook. O să ne fie dor unii de alţii şi sperăm să ne mai întâlnim şi în alţi ani."}
+                                  {"Toate momentele libere ale dimineții au fost presărate cu poze de grup și vânarea ghizilor pentru câte un „selfie” emoțional, cu schimburi de adrese de e-mail, numere de telefon și adăugări în listele de prieteni de pe Facebook. O să ne fie dor unii de alții și sperăm să ne mai întâlnim și în alți ani."}
                                 </p>
                                 <p>
                                   {"La revedere, tabăra dragă! Pe vara viitoare!"}
@@ -326,7 +326,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiţi pentru încălzire. Pentru dimineaţă ghizii ne-au pregătit o drumeţie."}
+              {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiți pentru încălzire. Pentru dimineață ghizii ne-au pregătit o drumeție."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -347,7 +347,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 5 Vineri, 28 august, Poiana Braşov 2015 – Ziua 5 A venit în sfârşit ziua a"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 5 Vineri, 28 august, Poiana Brașov 2015 – Ziua 5 A venit în sfârșit ziua a"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -368,7 +368,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 4 Joi, 27 august, Poiana Braşov 2015 – Ziua 4 Ne-am trezit în dimineaţă zilei"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 4 Joi, 27 august, Poiana Brașov 2015 – Ziua 4 Ne-am trezit în dimineață zilei"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -389,7 +389,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 3 Miercuri, 26 august, Poiana Braşov 2015 O nouă zi, o nouă aventură. După trezirea"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 3 Miercuri, 26 august, Poiana Brașov 2015 O nouă zi, o nouă aventură. După trezirea"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -410,7 +410,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 2 Marţi, 25 August, Poiana Braşov 2015 Bună dimineaţa! Suntem în a două zi de"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 2 Marți, 25 August, Poiana Brașov 2015 Bună dimineața! Suntem în a două zi de"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -431,7 +431,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 1 Luni, 24 august, Poiana Braşov 2015 După o călătorie cu microbuzul de aproape 4"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 1 Luni, 24 august, Poiana Brașov 2015 După o călătorie cu microbuzul de aproape 4"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

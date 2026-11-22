@@ -233,7 +233,7 @@ export default function Page() {
                                     <a className={"team-card"} href={"/speranta-atasiei-2/"}>
                                       <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei.jpg"} alt={""} loading={"lazy"} />
                                       <h3>
-                                        {"Speranţa Atasiei"}
+                                        {"Speranța Atasiei"}
                                       </h3>
                                       <span className={"team-card-role"}>
                                         {"PROFESOR DE LIMBA ENGLEZĂ"}

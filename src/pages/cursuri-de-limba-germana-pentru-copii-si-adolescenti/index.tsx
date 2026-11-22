@@ -44,13 +44,13 @@ export default function Page() {
             {"Disponibil la sediu și online!"}
           </p>
           <h3>
-            {"Cursuri pentru copii de 5 – 17 ani (niveluri de la Pre-A1 la B1)"}
+            {"Cursuri pentru copii de 5 - 17 ani (niveluri de la Pre-A1 la B1)"}
           </h3>
           <p>
-            {"Învăţarea unei limbi străine de la o vârstă fragedă reprezintă un avantaj nu doar întrucât copilul mic are o deschidere deosebită către a învaţă, lucru care nu se va repetă în niciun alt moment al vieţii lui la aceleaşi cote, dar îi şi oferă perspective noi de înţelegere a celor din jur, de socializare într-un mediu educaţional plăcut și sigur. Prin joc şi verbalizarea jocului, copilul îşi dezvoltă imaginaţia şi cunoştinţele despre lumea înconjurătoare, învaţă să se exprime, să îşi concentreze atenţia, să respecte reguli şi să îşi educe răbdarea."}
+            {"Învățarea unei limbi străine de la o vârstă fragedă reprezintă un avantaj nu doar întrucât copilul mic are o deschidere deosebită către a învăța, lucru care nu se va repetă în niciun alt moment al vieții lui la aceleași cote, dar îi și oferă perspective noi de înțelegere a celor din jur, de socializare într-un mediu educațional plăcut și sigur. Prin joc și verbalizarea jocului, copilul își dezvoltă imaginația și cunoștințele despre lumea înconjurătoare, învață să se exprime, să își concentreze atenția, să respecte reguli și să își educe răbdarea."}
           </p>
           <p>
-            {"Cursul de limba germană Wieso nicht? vine ca o provocare atât pentru copii, cât şi pentru părinţii care cred că limba germană este o limba inabordabil de grea. Prin învățare interactivă, cu jocuri și materiale didactice adaptate vârstei (de exemplu marionete, cântece cu mişcare, poveşti în imagini, cartonașe tematice, suport audio şi video etc), limba germană devine o descoperire plină de bucurie, încă de la vârste mici. Fiecare întâlnire le trezește copiilor curiozitatea, îi încurajează să se exprime și le oferă noi motive să aștepte cu nerăbdare următorul curs."}
+            {"Cursul de limba germană Wieso nicht? vine ca o provocare atât pentru copii, cât și pentru părinții care cred că limba germană este o limba inabordabil de grea. Prin învățare interactivă, cu jocuri și materiale didactice adaptate vârstei (de exemplu marionete, cântece cu mișcare, povești în imagini, cartonașe tematice, suport audio și video etc), limba germană devine o descoperire plină de bucurie, încă de la vârste mici. Fiecare întâlnire le trezește copiilor curiozitatea, îi încurajează să se exprime și le oferă noi motive să aștepte cu nerăbdare următorul curs."}
           </p>
           <p>
             {"Un motiv în plus pentru învățarea limbii germane în contextul educațional românesc este faptul că, începând din anul scolar 2029-2030, competențele lingvistice la examenul de Bacalaureat se susțin la două limbi străine, iar învățarea limbii germane este destul de lent, probabil din cauza expunerii reduse la această limbă în contexte informale."}
@@ -70,7 +70,7 @@ export default function Page() {
                 <img decoding={"async"} alt={"Cursuri de limba germană Wieso nicht?"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-limba-germana-pentru-copii-si-adolescenti-brut.jpg"} />
               </div>
               <h2>
-                {"Wieso nicht? 1 | 5–7 ani (nivel Pre-A1)"}
+                {"Wieso nicht? 1 | 5 - 7 ani (nivel Pre-A1)"}
               </h2>
               <div className={"course-price"}>
                 <sup>
@@ -138,7 +138,7 @@ export default function Page() {
                   <strong>
                     {"Vârstă recomandată:"}
                   </strong>
-                  {" 5–7 ani"}
+                  {" 5 - 7 ani"}
                 </li>
               </ul>
             </div>
@@ -160,7 +160,7 @@ export default function Page() {
 
               </div>
               <h2>
-                {"Wieso nicht? 2 | 8–11 ani (nivel A1-A2)"}
+                {"Wieso nicht? 2 | 8 - 11 ani (nivel A1-A2)"}
               </h2>
               <div className={"course-price"}>
                 <sup>
@@ -228,7 +228,7 @@ export default function Page() {
                   <strong>
                     {"Vârstă recomandată:"}
                   </strong>
-                  {" 8–11 ani"}
+                  {" 8 - 11 ani"}
                 </li>
               </ul>
             </div>
@@ -250,7 +250,7 @@ export default function Page() {
 
               </div>
               <h2>
-                {"Wieso nicht? 3 | 12–17 ani (nivel A1-B1)"}
+                {"Wieso nicht? 3 | 12 - 17 ani (nivel A1-B1)"}
               </h2>
               <div className={"course-price"}>
                 <sup>
@@ -318,7 +318,7 @@ export default function Page() {
                   <strong>
                     {"Vârstă recomandată:"}
                   </strong>
-                  {" 12–17 ani"}
+                  {" 12 - 17 ani"}
                 </li>
               </ul>
             </div>
@@ -509,7 +509,7 @@ export default function Page() {
                     {"Cursuri Pro Erudio"}
                   </span>
                   <p>
-                    {"Creioane și culori (pentru copii de 5-7 si 8-10 ani) Prezentare generală Desenul este"}
+                    {"Creioane și culori (pentru copii de 5-7 si 8 - 10 ani) Prezentare generală Desenul este"}
                   </p>
                   <span className={"related-content-action"}>
                     {"Vezi cursul"}
@@ -530,7 +530,7 @@ export default function Page() {
                     {"Cursuri Pro Erudio"}
                   </span>
                   <p>
-                    {"Planeta animalelor (pentru copii de 5-7 și 8-10 ani) Prezentare generală Lumea animalelor"}
+                    {"Planeta animalelor (pentru copii de 5-7 și 8 - 10 ani) Prezentare generală Lumea animalelor"}
                   </p>
                   <span className={"related-content-action"}>
                     {"Vezi cursul"}
@@ -572,7 +572,7 @@ export default function Page() {
                     {"Cursuri Pro Erudio"}
                   </span>
                   <p>
-                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar şi a exprimarii pasiunii, limba iubirii"}
+                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar și a exprimarii pasiunii, limba iubirii"}
                   </p>
                   <span className={"related-content-action"}>
                     {"Vezi cursul"}

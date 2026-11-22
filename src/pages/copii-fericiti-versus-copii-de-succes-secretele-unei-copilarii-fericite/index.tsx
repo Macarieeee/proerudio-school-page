@@ -22,7 +22,7 @@ export default function Page() {
           {"Resurse Pro Erudio"}
         </p>
         <h1 className={"max-w-5xl text-4xl font-bold leading-tight md:text-6xl"}>
-          {"Copii fericiţi versus copii de succes – secretele unei copilării fericite"}
+          {"Copii fericiți versus copii de succes – secretele unei copilării fericite"}
         </h1>
         <p className={"mt-6 flex items-center gap-2 text-sm text-background/80"}>
           <svg xmlns={"http://www.w3.org/2000/svg"} width={"24"} height={"24"} viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"2"} strokeLinecap={"round"} strokeLinejoin={"round"} className={"lucide lucide-calendar-days h-4 w-4"}>
@@ -45,10 +45,10 @@ export default function Page() {
     </section>
   }>
     <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Copii fericiţi versus copii de succes – secretele unei copilării fericite"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Copii-fericiti-versus-copii-de-succes-secretele-unei-copilarii-fericite.jpg"} alt={"Copii fericiţi versus copii de succes – secretele unei copilării fericite"} decoding={"async"} />
+      <section className={"mobile-page-intro"} aria-label={"Copii fericiți versus copii de succes – secretele unei copilării fericite"}>
+        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Copii-fericiti-versus-copii-de-succes-secretele-unei-copilarii-fericite.jpg"} alt={"Copii fericiți versus copii de succes – secretele unei copilării fericite"} decoding={"async"} />
         <h1>
-          {"Copii fericiţi versus copii de succes – secretele unei copilării fericite"}
+          {"Copii fericiți versus copii de succes – secretele unei copilării fericite"}
         </h1>
       </section>
       <div>
@@ -88,7 +88,7 @@ export default function Page() {
                                   <span>
                                     {"Copii "}
                                     <span>
-                                      {"fericiţi"}
+                                      {"fericiți"}
                                     </span>
                                     {" versus copii "}
                                     <span>
@@ -108,7 +108,7 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Când vine vorba de copii, părinţii din zilele noastre par să fi înlocuit noţiunea de “"}
+                                  {"Când vine vorba de copii, părinții din zilele noastre par să fi înlocuit noțiunea de “"}
                                   <strong>
                                     {"fericire"}
                                   </strong>
@@ -116,13 +116,13 @@ export default function Page() {
                                   <strong>
                                     {"succes"}
                                   </strong>
-                                  {"”. Evaluează reuşitele propriilor copii prin comparaţie cu cele ale copilului prietenei / vecinei etc."}
+                                  {"”. Evaluează reușitele propriilor copii prin comparație cu cele ale copilului prietenei / vecinei etc."}
                                   <br />
-                                  {"\nCe rezultat a obţinut la olimpiada de matematică? Care este media generală de anul trecut? La ce vârstă şi-a dat "}
+                                  {"\nCe rezultat a obținut la olimpiada de matematică? Care este media generală de anul trecut? La ce vârstă și-a dat "}
                                   <a href={"http://www.proerudio.ro/client-item/cursuri-pregatire-examene-cambridge/"} target={"_blank"}>
                                     {"examenul Cambridge"}
                                   </a>
-                                  {"? Ce nivel? Ce activităţi extracurriculare mai face? Dar sporturi? La ce facultate (de preferat în străinătate) ar vrea să-l trimită? Cum reuşesc ei să aibă un copil atât de sociabil/perseverent/haios etc.? Ce altceva pot face eu ca părinte pentru a avea un copil ca şi ei? Iar de aici până la sentimentul de vina că nu am făcut suficient sau că am greşit (având totuşi cele mai bune intenţii) este doar un pas."}
+                                  {"? Ce nivel? Ce activități extracurriculare mai face? Dar sporturi? La ce facultate (de preferat în străinătate) ar vrea să-l trimită? Cum reușesc ei să aibă un copil atât de sociabil/perseverent/haios etc.? Ce altceva pot face eu ca părinte pentru a avea un copil ca și ei? Iar de aici până la sentimentul de vina că nu am făcut suficient sau că am greșit (având totuși cele mai bune intenții) este doar un pas."}
                                 </p>
                               </div>
                             </div>
@@ -132,12 +132,12 @@ export default function Page() {
                               </div>
                               <p>
                                 <span>
-                                  {"Convingerea că un părinte “responsabil” ia în considerare toate obstacolele pe care le-ar putea întâmpina în crearea unui copil model şi munceşte peste măsură pentru a-i asigura acestuia condiţiile optime pentru a deveni cel mai bun, cel mai apreciat, cel mai inteligent, etc. pune foarte multă presiune atât pe copil, cât şi pe părinte. Acest fapt riscă să compromită relaţia pe care aceştia ar putea să o clădească în absenţa acestor comparaţii demoralizatoare. "}
+                                  {"Convingerea că un părinte “responsabil” ia în considerare toate obstacolele pe care le-ar putea întâmpina în crearea unui copil model și muncește peste măsură pentru a-i asigura acestuia condițiile optime pentru a deveni cel mai bun, cel mai apreciat, cel mai inteligent, etc. pune foarte multă presiune atât pe copil, cât și pe părinte. Acest fapt riscă să compromită relația pe care aceștia ar putea să o clădească în absența acestor comparații demoralizatoare. "}
                                 </span>
                               </p>
                               <p>
                                 <span>
-                                  {"În plus, din dorinţa exagerată de a găsi această formulă “de succes” părinţii uită ceva esenţial, anume ceea ce îşi doreşte copilul, ceea ce îl face pe el fericit, care sunt nevoile lui, iar uneori răspunsul este atât de simplu încât este neglijat sau desfiinţat pe loc că fiind o prostie."}
+                                  {"În plus, din dorința exagerată de a găsi această formulă “de succes” părinții uită ceva esențial, anume ceea ce își dorește copilul, ceea ce îl face pe el fericit, care sunt nevoile lui, iar uneori răspunsul este atât de simplu încât este neglijat sau desființat pe loc că fiind o prostie."}
                                 </span>
                               </p>
                             </div>
@@ -146,9 +146,9 @@ export default function Page() {
                                 <p>
                                   {"În general copiii au nevoie "}
                                   <strong>
-                                    {"de mai puţine lucruri decât ne-am putea noi imagina"}
+                                    {"de mai puține lucruri decât ne-am putea noi imagina"}
                                   </strong>
-                                  {", iar fericirea lor este atât de uşor de obţinut încât"}
+                                  {", iar fericirea lor este atât de ușor de obținut încât"}
                                   <br />
                                   <span>
                                     {"este păcat să nu încercăm"}
@@ -169,7 +169,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"1. Mese regulate şi echilibrate"}
+                                              {"1. Mese regulate și echilibrate"}
                                             </span>
                                           </span>
                                         </h3>
@@ -178,15 +178,15 @@ export default function Page() {
                                     <div>
                                       <div>
                                         <h5>
-                                          {"Ştiu ce gândiţi!"}
+                                          {"Știu ce gândiți!"}
                                           <br />
                                           {"\nEste prea simplu să asigure fericirea!"}
                                         </h5>
                                         <p>
-                                          {"Poate că da, dar s-a întâmplat vreodată să simţiţi că nu va mai puteţi înţelege cu propriul copil după ce l-aţi luat direct de la grădiniţă şi l-aţi dus la înot fără să-i fi dat o gustare înainte fiindcă eraţi contra-cronometru? Sau poate aţi fost la o masă festivă în familie la care felul principal a fost servit cu 2 ore întârziere?"}
+                                          {"Poate că da, dar s-a întâmplat vreodată să simțiți că nu va mai puteți înțelege cu propriul copil după ce l-ați luat direct de la grădiniță și l-ați dus la înot fără să-i fi dat o gustare înainte fiindcă erați contra-cronometru? Sau poate ați fost la o masă festivă în familie la care felul principal a fost servit cu 2 ore întârziere?"}
                                         </p>
                                         <p>
-                                          {"Un copil fericit este un copil căruia părinţii îi satisfac în primul rând necesităţile de baza la timp. E adevărat că mesele regulate şi hrană sănătoasă nu aduc fericirea, însă o susţin, iar absenţa acestora poate crea neplăceri considerabile de ambele părţi."}
+                                          {"Un copil fericit este un copil căruia părinții îi satisfac în primul rând necesitățile de baza la timp. E adevărat că mesele regulate și hrană sănătoasă nu aduc fericirea, însă o susțin, iar absența acestora poate crea neplăceri considerabile de ambele părți."}
                                         </p>
                                       </div>
                                     </div>
@@ -212,14 +212,14 @@ export default function Page() {
                                     <div>
                                       <div>
                                         <h5>
-                                          {"Copiii au nevoie să înveţe să alterneze perioadele de veghe cu cele de somn,"}
+                                          {"Copiii au nevoie să învețe să alterneze perioadele de veghe cu cele de somn,"}
                                         </h5>
                                         <p>
-                                          {"cele de activitate intensă cu cele de relaxare. Ei nu ştiu să facă acest lucru fără sprijinul nostru, iar noi, părinţii, uneori fiindcă suntem noi înşine foarte ocupaţi, alteori din dorinţa de a avea copii cu rezultate foarte bune la şcoală şi de a reuşi în viaţă, punem presiune şi scurtăm foarte mult timpul alocat relaxării şi somnului. Este o greşeală frecventă"}
-                                          {"pe care o putem corecta cu foarte multă uşurinţă, pasul cel mai important este să recunoaştem această problemă. Gândiţi-vă la cât de obosiţi sunteţi dumneavoastră uneori după o zi încărcată."}
+                                          {"cele de activitate intensă cu cele de relaxare. Ei nu știu să facă acest lucru fără sprijinul nostru, iar noi, părinții, uneori fiindcă suntem noi înșine foarte ocupați, alteori din dorința de a avea copii cu rezultate foarte bune la școală și de a reuși în viață, punem presiune și scurtăm foarte mult timpul alocat relaxării și somnului. Este o greșeală frecventă"}
+                                          {" pe care o putem corecta cu foarte multă ușurință, pasul cel mai important este să recunoaștem această problemă. Gândiți-vă la cât de obosiți sunteți dumneavoastră uneori după o zi încărcată."}
                                         </p>
                                         <p>
-                                          {"Încercaţi să transferaţi această stare unui copil în creştere, copil care nu are mecanismele de control şi autocontrol suficient dezvoltate şi nici nu conştientizează felul în care se simte pentru a vă putea explica. Lipsa unui program de odihnă eficient şi echilibrat va afecta negativ evoluţia copiilor, atât mentală cât şi fizică, dar mai ales emoţională."}
+                                          {"Încercați să transferați această stare unui copil în creștere, copil care nu are mecanismele de control și autocontrol suficient dezvoltate și nici nu conștientizează felul în care se simte pentru a vă putea explica. Lipsa unui program de odihnă eficient și echilibrat va afecta negativ evoluția copiilor, atât mentală cât și fizică, dar mai ales emoțională."}
                                         </p>
                                       </div>
                                     </div>
@@ -248,16 +248,16 @@ export default function Page() {
                                           {"Joaca nestructurată a devenit o raritate în zilele noastre."}
                                         </h5>
                                         <p>
-                                          {"Pe vremuri, copiii îşi inventau propriile jocuri. Imaginaţia zburda şi cu câteva maşini făcute din cutii de chibrituri, iar celelalte chibriturile aranjate sub formă de stradă, inventau poveşti cu super-eroi şi curse fantastice. Astfel, se jucau, îşi îmbogăţeau vocabularul, exprimarea, imaginaţia şi mai presus de toate se distrau alături de prietenii lor."}
+                                          {"Pe vremuri, copiii își inventau propriile jocuri. Imaginația zburda și cu câteva mașini făcute din cutii de chibrituri, iar celelalte chibriturile aranjate sub formă de stradă, inventau povești cu super-eroi și curse fantastice. Astfel, se jucau, își îmbogățeau vocabularul, exprimarea, imaginația și mai presus de toate se distrau alături de prietenii lor."}
                                           <br />
-                                          {"\nAstăzi copiii sunt copleşiţi de jucării sofisticate (care uneori produc singure toată joacă, iar copiii devin spectatori), jocuri pe calculator şi alte dispozitive electronice. Viaţa lor a devenit un scenariu prestabilit de părinţi: ore la şcoală, teme, activităţi extracurriculare, sporturi la cluburi (nu în faţă blocului sau în curtea şcolii ), meditaţii, timp petrecut în faţă calculatorului (în cazul cel mai bun cu limită"}
-                                          {"de timp) – nu mai este loc nici pentru timpul petrecut în familie, nici pentru prieteni."}
+                                          {"\nAstăzi copiii sunt copleșiți de jucării sofisticate (care uneori produc singure toată joacă, iar copiii devin spectatori), jocuri pe calculator și alte dispozitive electronice. Viața lor a devenit un scenariu prestabilit de părinți: ore la școală, teme, activități extracurriculare, sporturi la cluburi (nu în față blocului sau în curtea școlii ), meditații, timp petrecut în față calculatorului (în cazul cel mai bun cu limită"}
+                                          {" de timp) – nu mai este loc nici pentru timpul petrecut în familie, nici pentru prieteni."}
                                         </p>
                                         <h5>
-                                          {"Nimic mai greşit!"}
+                                          {"Nimic mai greșit!"}
                                         </h5>
                                         <p>
-                                          {"Joaca cu prietenii în absenţa părinţilor este esenţială pentru dezvoltarea armonioasă a copilului. Doar aşa se simt liberi să inventeze, să se exprime, fără stresul adultului care este în spatele lui pentru a-i evalua şi corecta fiecare mişcare, fiecare cuvânt, pentru a face o lecţie de viaţă din orice întâmplare."}
+                                          {"Joaca cu prietenii în absența părinților este esențială pentru dezvoltarea armonioasă a copilului. Doar așa se simt liberi să inventeze, să se exprime, fără stresul adultului care este în spatele lui pentru a-i evalua și corecta fiecare mișcare, fiecare cuvânt, pentru a face o lecție de viață din orice întâmplare."}
                                         </p>
                                       </div>
                                     </div>
@@ -274,7 +274,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"4. Acceptarea emoţiilor"}
+                                              {"4. Acceptarea emoțiilor"}
                                             </span>
                                           </span>
                                         </h3>
@@ -283,10 +283,10 @@ export default function Page() {
                                     <div>
                                       <div>
                                         <h5>
-                                          {"Copiii ţipă când sunt nervoşi."}
+                                          {"Copiii țipă când sunt nervoși."}
                                         </h5>
                                         <p>
-                                          {"Plâng când sunt trişti. Bat din picioare şi chiar aleargă în cerc atunci când sunt forţaţi să facă ceva ce nu le convine. Dacă acest lucru se întâmplă"}
+                                          {"Plâng când sunt triști. Bat din picioare și chiar aleargă în cerc atunci când sunt forțați să facă ceva ce nu le convine. Dacă acest lucru se întâmplă"}
                                           {" în public, spiritele iau foc."}
                                           <br />
                                           <span>
@@ -294,7 +294,7 @@ export default function Page() {
                                               {"Vă sună cunoscut? Ce e de făcut?"}
                                             </strong>
                                           </span>
-                                          {" E imposibil să-i liniștești pe loc, iar ochiul critic la adresa proastei creşteri nu ajută chiar deloc… Singur lucru pe care îl putem face este să ne păstrăm calmul şi să acceptăm emoţiile copilului oricât de negative ar fi ele."}
+                                          {" E imposibil să-i liniștești pe loc, iar ochiul critic la adresa proastei creșteri nu ajută chiar deloc… Singur lucru pe care îl putem face este să ne păstrăm calmul și să acceptăm emoțiile copilului oricât de negative ar fi ele."}
                                         </p>
                                         <p>
                                           {"Este de preferat să îndurăm "}
@@ -303,11 +303,11 @@ export default function Page() {
                                           </strong>
                                           {" (manifestările zgomotoase de obicei nu durează prea mult), după care "}
                                           <strong>
-                                            {"copiii se calmează şi acceptă punctul nostru de vedere sau măcar nişte termeni de negociere"}
+                                            {"copiii se calmează și acceptă punctul nostru de vedere sau măcar niște termeni de negociere"}
                                           </strong>
                                           {"."}
                                           <br />
-                                          {"\nÎn această abordare trebuie să ţinem cont de faptul că normele sociale sunt în consolidare, primitive că şi manifestare la copii şi doar cu răbdare şi înţelegere din partea părinţilor, aceştia pot depăşi momentele dificile."}
+                                          {"\nÎn această abordare trebuie să ținem cont de faptul că normele sociale sunt în consolidare, primitive că și manifestare la copii și doar cu răbdare și înțelegere din partea părinților, aceștia pot depăși momentele dificile."}
                                         </p>
                                       </div>
                                     </div>
@@ -333,17 +333,17 @@ export default function Page() {
                                     <div>
                                       <div>
                                         <h5>
-                                          {"La începutul vieţii, copiii au foarte puţin control asupra propriei lor vieţi."}
+                                          {"La începutul vieții, copiii au foarte puțin control asupra propriei lor vieți."}
                                         </h5>
                                         <p>
-                                          {"Li se spune constant ce să facă, cum să se îmbrace, unde să meargă, ce să mănânce, când să se culce, iar părinţii uită că pe măsură ce aceştia cresc, sunt capabili să aibă propria părere şi să facă propriile alegeri, cel puţin în unele privinţe. "}
+                                          {"Li se spune constant ce să facă, cum să se îmbrace, unde să meargă, ce să mănânce, când să se culce, iar părinții uită că pe măsură ce aceștia cresc, sunt capabili să aibă propria părere și să facă propriile alegeri, cel puțin în unele privințe. "}
                                           <span>
-                                            {"Oferiţi-le ocazia să aleagă şi veţi vedea un zâmbet înflorindu-le pe faţă."}
+                                            {"Oferiți-le ocazia să aleagă și veți vedea un zâmbet înflorindu-le pe față."}
                                           </span>
-                                          {" Este datoria noastră să ajutăm copiii să-şi dezvolte spiritul critic, să analizeze fiecare situaţie şi să ia o decizie conform propriei gândiri."}
+                                          {" Este datoria noastră să ajutăm copiii să-și dezvolte spiritul critic, să analizeze fiecare situație și să ia o decizie conform propriei gândiri."}
                                         </p>
                                         <p>
-                                          {"Este bine să intervenim doar când este absolut necesar (sănătatea copilului este pusă în pericol) şi să ne înfrânăm pornirile de a face toate alegerile în locul lor. Formularea de opţiuni şi alegerea uneia dintre ele pentru a fi pusă în practică prezintă atât avantajul dezvoltării exprimării, cât şi pe acela al creării independenţei şi sentimentului de încredere în propriile forţe şi alegeri."}
+                                          {"Este bine să intervenim doar când este absolut necesar (sănătatea copilului este pusă în pericol) și să ne înfrânăm pornirile de a face toate alegerile în locul lor. Formularea de opțiuni și alegerea uneia dintre ele pentru a fi pusă în practică prezintă atât avantajul dezvoltării exprimării, cât și pe acela al creării independenței și sentimentului de încredere în propriile forțe și alegeri."}
                                         </p>
                                       </div>
                                     </div>
@@ -360,7 +360,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"6. Ascultaţi-i"}
+                                              {"6. Ascultați-i"}
                                             </span>
                                           </span>
                                         </h3>
@@ -372,10 +372,10 @@ export default function Page() {
                                           {"Copiii sunt intuitivi."}
                                         </h5>
                                         <p>
-                                          {"Chiar şi bebeluşii simt când părinţii le acordă toată atenţia şi când sunt pe “pilot automat”. Atunci când copiii simt că părinţii chiar îi ascultă (indiferent că povestesc despre cea mai bună cursa a lui Fulger McQueen sau despre o colegă de clasă), creşte gradul de conectare dintre ei, încrederea în sine şi implicit fericirea copilului."}
+                                          {"Chiar și bebelușii simt când părinții le acordă toată atenția și când sunt pe “pilot automat”. Atunci când copiii simt că părinții chiar îi ascultă (indiferent că povestesc despre cea mai bună cursa a lui Fulger McQueen sau despre o colegă de clasă), crește gradul de conectare dintre ei, încrederea în sine și implicit fericirea copilului."}
                                         </p>
                                         <p>
-                                          {"În plus, doar ascultând ceea ce au de spus îi putem cunoaşte cu adevărat şi doar aşa îi putem sfătui sau îi putem ajută să ia cele mai bune decizii."}
+                                          {"În plus, doar ascultând ceea ce au de spus îi putem cunoaște cu adevărat și doar așa îi putem sfătui sau îi putem ajută să ia cele mai bune decizii."}
                                         </p>
                                       </div>
                                     </div>
@@ -392,7 +392,7 @@ export default function Page() {
                                         <h3>
                                           <span>
                                             <span>
-                                              {"7. Oferiţi-le dragoste necondiţionată "}
+                                              {"7. Oferiți-le dragoste necondiționată "}
                                             </span>
                                           </span>
                                         </h3>
@@ -401,18 +401,18 @@ export default function Page() {
                                     <div>
                                       <div>
                                         <h5>
-                                          {"Copiii greşesc mereu."}
+                                          {"Copiii greșesc mereu."}
                                         </h5>
                                         <p>
-                                          {"Le spui să nu mai sară pe canapea şi o fac din nou. După aceea, plâng. Fac acest lucru din dorinţa firească de a încerca, de a riscă (uneori fără să ştie că o fac), de a verifică limitele (proprii şi pe ale noastre). "}
+                                          {"Le spui să nu mai sară pe canapea și o fac din nou. După aceea, plâng. Fac acest lucru din dorința firească de a încerca, de a riscă (uneori fără să știe că o fac), de a verifică limitele (proprii și pe ale noastre). "}
                                           <strong>
                                             <span>
-                                              {"Iertaţi-i şi iubiţi-i necondiţionat indiferent ce fac."}
+                                              {"Iertați-i și iubiți-i necondiționat indiferent ce fac."}
                                             </span>
                                           </strong>
                                         </p>
                                         <p>
-                                          {"Atunci când copiii ştiu că vor avea oricum sprijinul necondiţionat şi dragostea părinţilor, devin mai rezonabili în riscurile pe care şi le asumă. Sunt mai siguri pe propriile alegeri. Învaţă că uneori oamenii mai greşesc, dar există întotdeauna o soluţie pentru a îndrepta lucrurile."}
+                                          {"Atunci când copiii știu că vor avea oricum sprijinul necondiționat și dragostea părinților, devin mai rezonabili în riscurile pe care și le asumă. Sunt mai siguri pe propriile alegeri. Învață că uneori oamenii mai greșesc, dar există întotdeauna o soluție pentru a îndrepta lucrurile."}
                                         </p>
                                       </div>
                                     </div>
@@ -430,7 +430,7 @@ export default function Page() {
                                       </div>
                                       <p>
                                         <span>
-                                          {"În concluzie, secretul unei copilării fericite şi al unei relaţii armonioase în familie nu stă în succesul la şcoală, nici măcar în popularitatea în grupul de prieteni sau în volumul de activităţi extraşcolare, ci în relaţia pe care ne-o clădim cu copilul. De cele mai multe ori este suficient să-l acceptăm aşa cum este, să-i acceptăm emoţiile de orice fel şi să îi acordăm atenţie şi timp pentru a-l înţelege cât mai bine."}
+                                          {"În concluzie, secretul unei copilării fericite și al unei relații armonioase în familie nu stă în succesul la școală, nici măcar în popularitatea în grupul de prieteni sau în volumul de activități extrașcolare, ci în relația pe care ne-o clădim cu copilul. De cele mai multe ori este suficient să-l acceptăm așa cum este, să-i acceptăm emoțiile de orice fel și să îi acordăm atenție și timp pentru a-l înțelege cât mai bine."}
                                         </span>
                                       </p>
                                     </div>
@@ -596,7 +596,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"JOCUL – modul perfect de a pune bazele unei educaţii solide Orice părinte îşi doreşte ca micuţul să se descurce"}
+              {"JOCUL – modul perfect de a pune bazele unei educații solide Orice părinte își dorește ca micuțul să se descurce"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -617,7 +617,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -638,7 +638,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -659,7 +659,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -680,7 +680,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -701,7 +701,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro"}
+              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

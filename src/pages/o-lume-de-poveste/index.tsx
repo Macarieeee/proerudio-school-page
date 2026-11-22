@@ -83,9 +83,9 @@ export default function Page() {
                                       </p>
                                       <p>
                                         {"Cursurile noastre bazate pe povești sunt ideale"}
-                                        {"pentru copiii mai timizi,"}
+                                        {" pentru copiii mai timizi,"}
                                         {"acestea reprezentând"}
-                                        {"un canal prin care se pot deschide mai ușor și o lume în care se simt în siguranță. Pentru un plus de dinamism, utilizam mai multe"}
+                                        {" un canal prin care se pot deschide mai ușor și o lume în care se simt în siguranță. Pentru un plus de dinamism, utilizam mai multe"}
                                         <b>
                                           <strong>
                                             {"modalități de"}
@@ -120,14 +120,14 @@ export default function Page() {
                                       </h2>
                                       <h4>
                                         <u>
-                                          {"(pentru copii de 4-5 ani)"}
+                                          {"(pentru copii de 4 - 5 ani)"}
                                         </u>
                                       </h4>
                                       <h3>
                                         {"Prezentare generală"}
                                       </h3>
                                       <p>
-                                        {"Cursul a fost special creat pentru grupa de vârstă 4-5 ani, această vârstă fiind momentul potrivit pentru a introduce copiilor povești mai lungi, mai complexe, cu o succesiune surprinzătoare de acțiuni și consecințe. Scopul principal este"}
+                                        {"Cursul a fost special creat pentru grupa de vârstă 4 - 5 ani, această vârstă fiind momentul potrivit pentru a introduce copiilor povești mai lungi, mai complexe, cu o succesiune surprinzătoare de acțiuni și consecințe. Scopul principal este"}
                                         <b>
                                           <strong>
                                             {"crearea unui mediu relaxant, pozitiv și interactiv"}
@@ -172,7 +172,7 @@ export default function Page() {
                                       </h2>
                                       <h4>
                                         <u>
-                                          {"(pentru copii de 6-8 ani)"}
+                                          {"(pentru copii de 6 - 8 ani)"}
                                         </u>
                                       </h4>
                                       <h3>
@@ -183,12 +183,12 @@ export default function Page() {
                                         {"Acest curs este dedicat copiilor cu vârste între"}
                                         {"6 și 8"}
                                         {"ani, fiind centrat în jurul comunicării și exprimării libere. Copilăria și poveștile sunt strâns legate în atât de multe culturi încât am văzut oportunitatea de"}
-                                        {"a împărtăși copiilor povești din diferite colțuri ale lumii. Acestea le vor da posibilitatea să identifice aspecte culturale comune și să reinterpreteze firele narative."}
+                                        {" a împărtăși copiilor povești din diferite colțuri ale lumii. Acestea le vor da posibilitatea să identifice aspecte culturale comune și să reinterpreteze firele narative."}
                                         {"Într-un mediu sigur, în care părerile lor vor fi valorizate, copiii vor fi motivați să-și exprime și să-și susțină ideile. Când o diferența de opinii este abordată pozitiv, devine interesant să afli ce cred alții și ușor de acceptat că oamenii pot avea viziuni diferite."}
                                         {"Îi vom provoca pe cei mici să-și imagineze și să creeze propria lor poveste prin jocuri și activități de grup și individuale. Fie că li se oferă câteva personaje în jurul cărora vor crea o întâmplare sau că le este prezentată o prima scenă de la care ei vor continuă propriul fir narativ,"}
                                         {"scopul"}
-                                        {"este să dea"}
-                                        {"frâu liber imaginației."}
+                                        {" este să dea"}
+                                        {" frâu liber imaginației."}
                                       </p>
                                       <h3>
                                         <b></b>
@@ -197,10 +197,10 @@ export default function Page() {
                                       <ul>
                                         <li>
                                           {"Îmbunătățirea capacității de"}
-                                          {"exprimare liberă a opiniilor"}
+                                          {" exprimare liberă a opiniilor"}
                                           {"(copiii"}
-                                          {"sunt"}
-                                          {"încurajați să ia cuvântul, să adreseze întrebări și să accepte păreri diferite);"}
+                                          {" sunt"}
+                                          {" încurajați să ia cuvântul, să adreseze întrebări și să accepte păreri diferite);"}
                                         </li>
                                         <li>
                                           {"Îmbunătățirea calitățîi comunicării între copii ( copiii au ocazia să interacționeze și să relaționeze cu alți copii, să descopere câte lucruri au în comun și că diferențele ii fac speciali);"}
@@ -358,10 +358,10 @@ export default function Page() {
                                       </p>
                                       <p>
                                         {"– Autori"}
-                                        {"români: Petre Ispirescu, Ion"}
-                                        {"Creangă, Victor Eftimiu,"}
+                                        {" români: Petre Ispirescu, Ion"}
+                                        {" Creangă, Victor Eftimiu,"}
                                         {"Călin"}
-                                        {"Gruia, Gellu Naum, etc"}
+                                        {" Gruia, Gellu Naum, etc"}
                                       </p>
                                     </div>
                                   </div>
@@ -415,7 +415,7 @@ export default function Page() {
                                           {"230"}
                                         </span>
                                         <sup>
-                                          {"Modul copii 4-5 ani"}
+                                          {"Modul copii 4 - 5 ani"}
                                         </sup>
                                       </div>
                                       <hr />
@@ -490,7 +490,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârstă: "}
                                             </strong>
-                                            {"4-5 ani"}
+                                            {"4 - 5 ani"}
                                           </li>
                                         </ul>
                                         <p></p>
@@ -526,7 +526,7 @@ export default function Page() {
                                           {"300"}
                                         </span>
                                         <sup>
-                                          {"Modul copii 7-8 ani"}
+                                          {"Modul copii 7 - 8 ani"}
                                         </sup>
                                       </div>
                                       <hr />
@@ -601,7 +601,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârstă: "}
                                             </strong>
-                                            {"7-8 ani"}
+                                            {"7 - 8 ani"}
                                           </li>
                                         </ul>
                                         <p></p>
@@ -758,7 +758,7 @@ export default function Page() {
                             <div>
                               <h3>
                                 {"Alte cursuri"}
-                                {"pentru copii:"}
+                                {" pentru copii:"}
                               </h3>
                             </div>
                           </div>
@@ -783,7 +783,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5–17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
+                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5 - 17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -804,7 +804,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar şi a exprimarii pasiunii, limba iubirii"}
+                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar și a exprimarii pasiunii, limba iubirii"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -867,7 +867,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Creioane și culori (pentru copii de 5-7 si 8-10 ani) Prezentare generală Desenul este"}
+                                    {"Creioane și culori (pentru copii de 5-7 si 8 - 10 ani) Prezentare generală Desenul este"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -888,7 +888,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Planeta animalelor (pentru copii de 5-7 și 8-10 ani) Prezentare generală Lumea animalelor"}
+                                    {"Planeta animalelor (pentru copii de 5-7 și 8 - 10 ani) Prezentare generală Lumea animalelor"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}

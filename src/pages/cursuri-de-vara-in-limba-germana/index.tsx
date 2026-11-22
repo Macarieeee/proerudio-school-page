@@ -69,16 +69,16 @@ export default function Page() {
                             <div>
                               <p>
                                 <span>
-                                  {"Dacă nu ai început studiul limbii germane, este timpul să o faci chiar vara aceasta. În mod sigur, ai deja cunoştinţe de limba engleză (acumulate în mod formal, la şcoală/gradinita, sau informal, din filme, cântece sau chiar de la prieteni), ceea ce reprezintă un avantaj în învăţarea limbii germane."}
+                                  {"Dacă nu ai început studiul limbii germane, este timpul să o faci chiar vara aceasta. În mod sigur, ai deja cunoștințe de limba engleză (acumulate în mod formal, la școală/gradinita, sau informal, din filme, cântece sau chiar de la prieteni), ceea ce reprezintă un avantaj în învățarea limbii germane."}
                                 </span>
                               </p>
                               <p>
                                 <span>
-                                  {"Se spune adesea că germana este o limbă imposibilă, cu gramatică complicată şi greu de înţeles."}
+                                  {"Se spune adesea că germana este o limbă imposibilă, cu gramatică complicată și greu de înțeles."}
                                 </span>
                                 <br />
                                 <span>
-                                  {"Posibil! Însă, dacă afli că engleza şi germana fac parte din aceeaşi familie de limbi, limbi germanice, deci au foarte mult vocabular asemănător şi o gramatică logică, probabil că deja lucrurile par mai uşoare fiindcă vei putea învăţa foarte uşor prin analogie, făcând asocieri cu elemente din limba engleză."}
+                                  {"Posibil! Însă, dacă afli că engleza și germana fac parte din aceeași familie de limbi, limbi germanice, deci au foarte mult vocabular asemănător și o gramatică logică, probabil că deja lucrurile par mai ușoare fiindcă vei putea învăța foarte ușor prin analogie, făcând asocieri cu elemente din limba engleză."}
                                 </span>
                               </p>
                             </div>
@@ -99,7 +99,7 @@ export default function Page() {
                               <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-germana/deutsch-durch-geschichten-1-copii-8-11-ani/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Deutsch-durch-Geschichten-1-Copii-6-9-ani.jpg\")"}}>
                                   <h3>
-                                    {"Deutsch durch Geschichten – Copii 6 – 9 ani"}
+                                    <strong>{"Deutsch durch Geschichten"}</strong>{" – Copii 6 - 9 ani"}
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -107,7 +107,7 @@ export default function Page() {
                                     {"Cursuri de vară"}
                                   </span>
                                   <p>
-                                    {"În cadrul cursului de vară de limba germană, vă propunem un curs de învăţare prin poveşti. Mai întâi copiilor li se prezintă vocabularul necesar înţelegerii poveştii, învaţă un cântec sau participă la un joc pentru consolidarea vocabularului, după care ascultă povestea, o citesc,"}
+                                    {"În cadrul cursului de vară de limba germană, vă propunem un curs de învățare prin povești. Mai întâi copiilor li se prezintă vocabularul necesar înțelegerii poveștii, învață un cântec sau participă la un joc pentru consolidarea vocabularului, după care ascultă povestea, o citesc,"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -120,7 +120,7 @@ export default function Page() {
                               <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-germana/deutsch-durch-geschichten-2-copii-8-11-ani/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Deutsch-durch-Geschichten-2-Copii-9-11-ani.jpg\")"}}>
                                   <h3>
-                                    {"Deutsch durch Geschichten – Copii 9 – 11 ani"}
+                                    <strong>{"Deutsch durch Geschichten"}</strong>{" – Copii 9 - 11 ani"}
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -128,7 +128,7 @@ export default function Page() {
                                     {"Cursuri de vară"}
                                   </span>
                                   <p>
-                                    {"Prin exerciţii distractive, jocuri şi fişe de lucru copiii vor fi provocaţi să îşi exerseze scrierea, înţelegerea şi formarea conexiunilor între diferite concepte. Se urmăreşte extinderea vocabularului şi introducerea unor contexte mai complexe, precum şi sedimentarea vocabularului de bază prin utilizarea lui în contexte inedite."}
+                                    {"Prin exerciții distractive, jocuri și fișe de lucru copiii vor fi provocați să își exerseze scrierea, înțelegerea și formarea conexiunilor între diferite concepte. Se urmărește extinderea vocabularului și introducerea unor contexte mai complexe, precum și sedimentarea vocabularului de bază prin utilizarea lui în contexte inedite."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -141,7 +141,7 @@ export default function Page() {
                               <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-germana/sprechen-sie-deutsch-copii-5-8-ani/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/sprechen-1.jpg\")"}}>
                                   <h3>
-                                    {"Sprechen Sie Deutsch? – Copii 5 – 8 ani"}
+                                    <strong>{"Sprechen Sie Deutsch?"}</strong>{" – Copii 5 - 8 ani"}
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -162,7 +162,7 @@ export default function Page() {
                               <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-germana/sprechen-sie-deutsch-copii-9-13-ani/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Sprechen-und-Schreiben-Sie-Deutsch.jpg\")"}}>
                                   <h3>
-                                    {"Sprechen und Schreiben Sie Deutsch? – Copii 9 – 13 ani"}
+                                    <strong>{"Sprechen und Schreiben Sie Deutsch?"}</strong>{" – Copii 9 - 13 ani"}
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -170,7 +170,7 @@ export default function Page() {
                                     {"Cursuri de vară"}
                                   </span>
                                   <p>
-                                    {"Curs de vară de limba germană “Sprechen und Schreiben Sie Deutsch?” Cursuri pentru copii de 9 – 13 ani ţi avut"}
+                                    {"Curs de vară de limba germană "}<strong>{"Sprechen und Schreiben Sie Deutsch?"}</strong>{" Cursuri pentru copii de 9 - 13 ani."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}

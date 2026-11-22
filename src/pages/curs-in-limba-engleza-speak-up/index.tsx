@@ -22,7 +22,7 @@ export default function Page() {
           {"Pro Erudio · School of English"}
         </p>
         <h1 className={"max-w-5xl text-4xl font-bold leading-tight md:text-6xl"}>
-          {"Curs în limba engleză Speak Up!"}
+          {"Curs în limba engleză "}<strong>{"Speak Up!"}</strong>
         </h1>
       </div>
     </section>
@@ -31,7 +31,7 @@ export default function Page() {
       <section className={"mobile-page-intro"} aria-label={"Curs în limba engleză Speak Up!"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP-.webp"} alt={"Curs în limba engleză Speak Up!"} decoding={"async"} />
         <h1>
-          {"Curs în limba engleză Speak Up!"}
+          {"Curs în limba engleză "}<strong>{"Speak Up!"}</strong>
         </h1>
       </section>
       <div>
@@ -48,7 +48,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={"Curs în limba engleză “SPEAK UP!”"} title={"Curs-de-weekend-in-limba-engleza-SPEAK-UP-"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP-.webp 870w, https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP--300x157.webp 300w, https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP--768x401.webp 768w, https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP--260x136.webp 260w, https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP--50x26.webp 50w, https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP--144x75.webp 144w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP-.webp"} />
+                                <img decoding={"async"} alt={"Curs în limba engleză SPEAK UP!"} title={"Curs-de-weekend-in-limba-engleza-SPEAK-UP-"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP-.webp 870w, https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP--300x157.webp 300w, https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP--768x401.webp 768w, https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP--260x136.webp 260w, https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP--50x26.webp 50w, https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP--144x75.webp 144w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP-.webp"} />
                               </div>
                             </figure>
                           </div>
@@ -57,7 +57,7 @@ export default function Page() {
                               <h2>
                                 {"Curs în limba engleză"}
                                 <span>
-                                  {"“SPEAK UP!”"}
+                                  <strong>{"SPEAK UP!"}</strong>
                                 </span>
                               </h2>
                             </div>
@@ -75,22 +75,22 @@ export default function Page() {
                                 </span>
                               </h5>
                               <p>
-                                {"Toată lumea înţelege în zilele noastre nevoia de a te exprimă liber, coerent şi într-un mod persuasiv în faţă unui public. Majoritatea adulţilor găsesc această activitate deosebit de dificilă şi regretă lipsa de oportunităţi pentru dezvoltarea acestor aptitudini în sistemul educaţional în care s-au format."}
+                                {"Toată lumea înțelege în zilele noastre nevoia de a te exprimă liber, coerent și într-un mod persuasiv în față unui public. Majoritatea adulților găsesc această activitate deosebit de dificilă și regretă lipsa de oportunități pentru dezvoltarea acestor aptitudini în sistemul educațional în care s-au format."}
                                 <br />
                                 {"\nDe asemenea, majoritatea consideră că "}
                                 <strong>
                                   {"aptitudinile oratorice"}
                                 </strong>
-                                {" reprezintă un avantaj social (cât este de important cum să ţii un toast la un eveniment!!!) şi profesional (o prezentare bine făcută valorează uneori cât un contract deja semnat)."}
+                                {" reprezintă un avantaj social (cât este de important cum să ții un toast la un eveniment!!!) și profesional (o prezentare bine făcută valorează uneori cât un contract deja semnat)."}
                               </p>
                               <p>
-                                {"Cursul pe care vi-l propunem este o iniţiere în artă retoricii fiindcă nu este niciodată prea devreme să înveţi cum "}
+                                {"Cursul pe care vi-l propunem este o inițiere în artă retoricii fiindcă nu este niciodată prea devreme să înveți cum "}
                                 <strong>
-                                  {"să-ţi argumentezi propriul punct de vedere"}
+                                  {"să-ți argumentezi propriul punct de vedere"}
                                 </strong>
                                 {", cum "}
                                 <strong>
-                                  {"să-ţi organizezi un discurs"}
+                                  {"să-ți organizezi un discurs"}
                                 </strong>
                                 {", cum "}
                                 <strong>
@@ -100,27 +100,27 @@ export default function Page() {
                                 <strong>
                                   {"să iei un interviu"}
                                 </strong>
-                                {" şi "}
+                                {" și "}
                                 <strong>
                                   {"să răspunzi la întrebări incomode"}
                                 </strong>
-                                {" fără să clipeşti."}
+                                {" fără să clipești."}
                               </p>
                               <p>
                                 {"Evaluarea va constă într-o "}
                                 <strong>
                                   {"proba filmată"}
                                 </strong>
-                                {" care poate fi o dezbatere, un discurs sau un interviu. Vor fi în mod deosebit apreciate evoluţiile convingătoare, cu gestică şi mimica potrivită contextului şi argumente bine alese."}
+                                {" care poate fi o dezbatere, un discurs sau un interviu. Vor fi în mod deosebit apreciate evoluțiile convingătoare, cu gestică și mimica potrivită contextului și argumente bine alese."}
                               </p>
                               <p>
-                                {"Iar dumneavoastră, dragi părinţi, veţi avea ocazia (evaluarea la sfârşitul modulului va fi filmată) să va admiraţi copiii vorbind în limba engleză pentru a îndeplini o sarcina de lucru bazată pe comunicare."}
+                                {"Iar dumneavoastră, dragi părinți, veți avea ocazia (evaluarea la sfârșitul modulului va fi filmată) să va admirați copiii vorbind în limba engleză pentru a îndeplini o sarcina de lucru bazată pe comunicare."}
                                 <br />
-                                {"\nNu e uşor, dar face parte din e"}
+                                {"\nNu e ușor, dar face parte din e"}
                                 <strong>
-                                  {"ducaţia pentru viaţă"}
+                                  {"ducația pentru viață"}
                                 </strong>
-                                {" şi e bine să începem devreme."}
+                                {" și e bine să începem devreme."}
                               </p>
                             </div>
                           </div>
@@ -146,10 +146,10 @@ export default function Page() {
                                   <div className={"course-details-panel"}>
                                     <div className={"course-details-header"}>
                                       <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                                        <img decoding={"async"} alt={"Curs în limba engleză “SPEAK UP!”"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/SPEAK-UP-BRUT.jpg"} />
+                                        <img decoding={"async"} alt={"Curs în limba engleză SPEAK UP!"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/SPEAK-UP-BRUT.jpg"} />
                                       </div>
                                       <h2>
-                                        {"“SPEAK UP!”"}
+                                        <strong>{"SPEAK UP!"}</strong>
                                       </h2>
                                       <div className={"course-price"}>
                                         <sup>
@@ -259,7 +259,7 @@ export default function Page() {
                               <a href={"/cursuri-de-weekend-in-limba-engleza/curs-de-limba-engleza-style-up/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP.jpg\")"}}>
                                   <h3>
-                                    {"Curs de creație în limba engleză Style Up!"}
+                                    {"Curs de creație în limba engleză "}<strong>{"Style Up!"}</strong>
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -267,7 +267,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursul de creaţie în limba engleză “Style Up!” este o combinaţie de stiluri şi tehnici, teorie şi practică, materiale şi resurse creative. Participarea la acest curs nu necesită experienţă, ci doar entuziasm şi dorinţa de a descoperi lucruri noi folosind în acelaşi timp pentru comunicare cunoştinţele de limba engleză."}
+                                    {"Cursul de creație în limba engleză "}<strong>{"Style Up!"}</strong>{" este o combinație de stiluri și tehnici, teorie și practică, materiale și resurse creative. Participarea la acest curs nu necesită experiență, ci doar entuziasm și dorința de a descoperi lucruri noi folosind în același timp pentru comunicare cunoștințele de limba engleză."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -280,7 +280,7 @@ export default function Page() {
                               <a href={"/cursuri-de-weekend-in-limba-engleza/curs-de-limba-engleza-act-out/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2.jpg\")"}}>
                                   <h3>
-                                    {"Curs în limba engleză “Act Out!”"}
+                                    {"Curs în limba engleză "}<strong>{"Act Out!"}</strong>
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -288,7 +288,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Poeziile şi cântecelele englezeşti clasice pentru copii (celebrele nursery rhymes şi chants), îi vor ajută pe copiii dumneavoastă să înveţe primele cuvinte şi noţiuni în limba engleză într-un mod plăcut. Elementul nou constă în dramatizarea textelor, fiecare poezie fiind transpusă de grupul de copii în scurte scenete jucate chiar de ei."}
+                                    {"Poeziile și cântecelele englezești clasice pentru copii (celebrele nursery rhymes și chants), îi vor ajută pe copiii dumneavoastă să învețe primele cuvinte și noțiuni în limba engleză într-un mod plăcut. Elementul nou constă în dramatizarea textelor, fiecare poezie fiind transpusă de grupul de copii în scurte scenete jucate chiar de ei."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -309,7 +309,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Optica părinţilor şi cea a profesorilor cu privire la modul în care ar trebui învăţată o limbă străină în zilele noastre diferă extrem de mult: de la părerea că tot ce ai nevoie este să petreci timp într-o ţară în care limba maternă este limba ţintă a cursantului, până la părerea că aşa cum noi am învăţat totul din cărţi, copiii noştri trebuie să procedeze la fel, ajutaţi fiind de toate resursele tehnologiei moderne de care noi, evident, nu ne-am bucurat în anii şcolii."}
+                                    {"Optica părinților și cea a profesorilor cu privire la modul în care ar trebui învățată o limbă străină în zilele noastre diferă extrem de mult: de la părerea că tot ce ai nevoie este să petreci timp într-o țară în care limba maternă este limba țintă a cursantului, până la părerea că așa cum noi am învățat totul din cărți, copiii noștri trebuie să procedeze la fel, ajutați fiind de toate resursele tehnologiei moderne de care noi, evident, nu ne-am bucurat în anii școlii."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}

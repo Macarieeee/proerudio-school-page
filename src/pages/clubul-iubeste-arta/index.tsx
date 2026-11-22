@@ -58,7 +58,7 @@ export default function Page() {
                                 <span>
                                   {"Clubul"}
                                 </span>
-                                {" iubește ARTA"}
+                                {" "}<strong>{"iubește ARTA"}</strong>
                               </h2>
                             </div>
                           </div>
@@ -76,7 +76,7 @@ export default function Page() {
                                       <div data-wow-delay={"0ms"} data-wow-iteration={"1"}>
                                         <h2>
                                           <span>
-                                            {"Clubul iubește ARTA – prezentare generală"}
+                                            {"Clubul "}<strong>{"iubește ARTA"}</strong>{" – prezentare generală"}
                                           </span>
                                         </h2>
                                       </div>
@@ -200,8 +200,7 @@ export default function Page() {
                                             {"PERFORMANȚA ACADEMICĂ"}
                                           </h4>
                                           <p>
-                                            {"Un proiect de artă dezvoltă o gamă largă de abilități ce vor contribui și la îmbunătățirea progresului academic al copiilor. Dexteritatea, motricitatea fină, răbdarea și"}
-                                            {"atenția la detalii sunt doar câteva exemple de abilități dezvoltate în cadrul orelor de artă, abilități care susțin capacitatea copiilor de a învăța și a se adapta diferitelor situații din viața de școlar."}
+                                            {"Un proiect de artă dezvoltă o gamă largă de abilități ce vor contribui și la îmbunătățirea progresului academic al copiilor. Dexteritatea, motricitatea fină, răbdarea șiatenția la detalii sunt doar câteva exemple de abilități dezvoltate în cadrul orelor de artă, abilități care susțin capacitatea copiilor de a învăța și a se adapta diferitelor situații din viața de școlar."}
                                           </p>
                                         </div>
                                       </div>
@@ -277,7 +276,7 @@ export default function Page() {
                                         <p>
                                           <b>
                                             <strong>
-                                              {"Clubul “Iubește arta”"}
+                                              {"Clubul Iubește arta"}
                                             </strong>
                                           </b>
                                           {"este o comunitate de oameni care apreciază și înțeleg importanța artei. În fiecare dintre noi există un mic artist sau chiar un mic critic de artă. Ca membru al clubului, veți primi invitații la toate evenimentele noastre, ce vor avea loc, în general, în zile de sâmbătă și vor dura 2 ore."}
@@ -286,7 +285,7 @@ export default function Page() {
                                           {"Atmosfera evenimentelor este una destinsă și relaxată, potrivită pentru a crește confortul și încrederea de sine a copiilor, precum și pentru a-i încuraja să comunice și să interacționeze unii cu alții. Nu vor exista două ședințe la fel, scopul fiind să oferim experiențe cât mai diverse micuților. Accentul în cadrul activităților clubului este pus pe libertatea copiilor de exprimare artistică prin proiectele individuale și de grup, dar și pe exprimarea opiniilor personale într-un mod cât mai coerent și argumentat."}
                                         </p>
                                         <p>
-                                          {"Spre deosebire de cursurile oferite în cadrul Proiectului “ARTA”, clubul nu separă copiii în grupe de vârstă. Ne întâlnim cu toții în același spațiu, în același timp, fiind o oportunitate educativă de a interacționa și a învață să comunice cu alți copii, de vârste diferite. Desigur, coordonatorul nostru va fi prezent pentru a-i ajuta și a le dirija conversațiile la început. Din experiența noastră, în mediul potrivit, copiii învață repede să se asculte și să se respecte reciproc, făcând orice activitate mai plăcută."}
+                                          {"Spre deosebire de cursurile oferite în cadrul Proiectului “ARTA”, clubul nu separă copiii în grupe de vârstă. Ne întâlnim cu toții în același spațiu, în același timp, fiind o oportunitate educativă de a interacționa și a învăța să comunice cu alți copii, de vârste diferite. Desigur, coordonatorul nostru va fi prezent pentru a-i ajuta și a le dirija conversațiile la început. Din experiența noastră, în mediul potrivit, copiii învață repede să se asculte și să se respecte reciproc, făcând orice activitate mai plăcută."}
                                         </p>
                                         <p>
                                           {"În cadrul ședințelor, copiii pot face cunoștință cu opere de artă celebre, unele clasice, altele moderne și de-a dreptul ciudate, pot crea ei mici opere de artă sau pot lucra în echipă pentru a construi un mic orășel de hârtie. Pot învață să creeze obiecte de utilizare obișnuită, precum o brățară, o jucărie sau un obiect decorativ pentru casă."}
@@ -334,7 +333,7 @@ export default function Page() {
                                         <img decoding={"async"} alt={"clubul-iubeste-arta-b"} src={"https://www.proerudio.ro/wp-content/uploads/2018/10/clubul-iubeste-arta-b.jpg"} />
                                       </div>
                                       <h2>
-                                        {"CLUBUL IUBEȘTE ARTA"}
+                                        {"CLUBUL "}<strong>{"IUBEȘTE ARTA"}</strong>
                                       </h2>
                                       <div className={"course-price"}>
                                         <sup>
@@ -402,7 +401,7 @@ export default function Page() {
                                   <div>
                                     <div>
                                       <h2>
-                                        {"Clubul “Iubește ARTA” pe scurt …"}
+                                        {"Clubul "}<strong>{"Iubește ARTA"}</strong>{" pe scurt …"}
                                       </h2>
                                     </div>
                                   </div>

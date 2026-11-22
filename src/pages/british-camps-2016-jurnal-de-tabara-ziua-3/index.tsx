@@ -97,31 +97,31 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Bună dimineaţa, ziua a treia a taberei! După ce am adormit cu toţii la orele 23.00, la 8 şi jumătate am ajuns semi-adormiţi la micul dejun. Cu vreo… 3, 4 excepţii ….. Brânză topită, salam, lapte cu cereale şi cremvurşti, suficient cât să ne luăm energia pentru prima parte a zilei."}
+                                  {"Bună dimineața, ziua a treia a taberei! După ce am adormit cu toții la orele 23.00, la 8 și jumătate am ajuns semi-adormiți la micul dejun. Cu vreo… 3, 4 excepții ….. Brânză topită, salam, lapte cu cereale și cremvurști, suficient cât să ne luăm energia pentru prima parte a zilei."}
                                 </p>
                                 <p>
-                                  {"În Centrul de evenimente ne-au întâmpinat trainerii englezi, pregătiţi pentru încălzirea de dimineaţă. Am făcut întinderi pentru tot corpul şi un exerciţiu de încredere cu un partener. Apoi ne-am împărţit în grupe şi alături de trainerii noştri am început prima lecţie a zilei."}
+                                  {"În Centrul de evenimente ne-au întâmpinat trainerii englezi, pregătiți pentru încălzirea de dimineață. Am făcut întinderi pentru tot corpul și un exercițiu de încredere cu un partener. Apoi ne-am împărțit în grupe și alături de trainerii noștri am început prima lecție a zilei."}
                                 </p>
                                 <p>
-                                  {"Cei mici au desenat un prieten, şi-au imaginat o ţară nouă, alţii au inventat un animal. Au jucat Splat, Zip-zap şi jocul cu nava şi indicaţiile căpitanului. În timpul unei alte activităţi, şi-au desenat şi prezentat casele sau apartamentele în care locuiesc. Cei mai mărişori au jucat Blind Guess, au discutat despre ţările pe care le-au vizitat şi au conceput un super-erou. Şi mai distractiv a fost când a trebuit să aleagă o super-putere pe care ar vrea ei să o deţină."}
+                                  {"Cei mici au desenat un prieten, și-au imaginat o țară nouă, alții au inventat un animal. Au jucat Splat, Zip-zap și jocul cu nava și indicațiile căpitanului. În timpul unei alte activități, și-au desenat și prezentat casele sau apartamentele în care locuiesc. Cei mai mărișori au jucat Blind Guess, au discutat despre țările pe care le-au vizitat și au conceput un super-erou. Și mai distractiv a fost când a trebuit să aleagă o super-putere pe care ar vrea ei să o dețină."}
                                 </p>
                                 <p>
-                                  {"La masa de prânz am primit o porţie fierbinte de supă cu găluşti, friptură de porc în sos şi piure. Nici salata nu a lipsit, iar ca desert am primit câte o piersică dulce şi zemoasă."}
+                                  {"La masa de prânz am primit o porție fierbinte de supă cu găluști, friptură de porc în sos și piure. Nici salata nu a lipsit, iar ca desert am primit câte o piersică dulce și zemoasă."}
                                 </p>
                                 <p>
-                                  {"Mare ne-a fost bucuria când am aflat că astăzi suntem programaţi la Aventura Park, puţin mai sus de hotelul nostru. Ne-am strâns la ora stabilită în faţă clădirii şi am plecat împreună către trasee. Ni s-a spus de la început că toată lumea, copii sau adulţi, va parcurge traseul de dificultate scăzută. Ni s-a făcut instructajul şi o demonstraţie pentru a înţelege cum funcţionează carabinierele, rolele şi pentru ce le folosim. Am avut ceva de aşteptat, dar a meritat pe deplin. Am traversat poduri, ne-am dat cu tiroliana, am mers pe buşteni suspendaţi, pe o scară cu trepte foarte depărtate şi am mers pe un cablu echilibrandu-ne cu ajutorul unui trapez."}
+                                  {"Mare ne-a fost bucuria când am aflat că astăzi suntem programați la Aventura Park, puțin mai sus de hotelul nostru. Ne-am strâns la ora stabilită în față clădirii și am plecat împreună către trasee. Ni s-a spus de la început că toată lumea, copii sau adulți, va parcurge traseul de dificultate scăzută. Ni s-a făcut instructajul și o demonstrație pentru a înțelege cum funcționează carabinierele, rolele și pentru ce le folosim. Am avut ceva de așteptat, dar a meritat pe deplin. Am traversat poduri, ne-am dat cu tiroliana, am mers pe bușteni suspendați, pe o scară cu trepte foarte depărtate și am mers pe un cablu echilibrandu-ne cu ajutorul unui trapez."}
                                 </p>
                                 <p>
-                                  {"Pentru activităţile de după-amiază am avut de ales între mai multe ateliere sau jocuri. Pentru primul atelier am putut alege între muzică, construcţie de poduri în miniatură, jocul Capturează steagul şi Comic making. O mare parte din noi am dat năvală să jucăm Capturează steagul şi până la urmă s-a transformat într-un joc de Raţele şi vânătorii. La atelierul de muzică am zdrăngănit o chitară, tobe şi o pianină, unii dintre noi au reuşit chiar să scoată o serie de sunete care să semene a muzică :D."}
+                                  {"Pentru activitățile de după-amiază am avut de ales între mai multe ateliere sau jocuri. Pentru primul atelier am putut alege între muzică, construcție de poduri în miniatură, jocul Capturează steagul și Comic making. O mare parte din noi am dat năvală să jucăm Capturează steagul și până la urmă s-a transformat într-un joc de Rațele și vânătorii. La atelierul de muzică am zdrăngănit o chitară, tobe și o pianină, unii dintre noi au reușit chiar să scoată o serie de sunete care să semene a muzică :D."}
                                 </p>
                                 <p>
-                                  {"Opţiunile pentru al doilea atelier al după-amiezei au fost hokey, campionatul de fotbal (unde s-au dus toţi cei înscrişi şi câţiva suporteri) şi atelierul medieval. La hokey am fost mai mult fete şi, deşi nu am avut gheaţă, a fost foarte distractiv. La atelierul medieval am făcut cunoştinţă cu sarbacana, un tub prin care am suflat săgeţi la ţintă şi am tras cu arcul. Inamici, feriţi-va! 😀"}
+                                  {"Opțiunile pentru al doilea atelier al după-amiezei au fost hokey, campionatul de fotbal (unde s-au dus toți cei înscriși și câțiva suporteri) și atelierul medieval. La hokey am fost mai mult fete și, deși nu am avut gheață, a fost foarte distractiv. La atelierul medieval am făcut cunoștință cu sarbacana, un tub prin care am suflat săgeți la țintă și am tras cu arcul. Inamici, feriți-va! 😀"}
                                 </p>
                                 <p>
-                                  {"Cina a început cu o porţie de mămăliguţă cu smântână şi brânză, apoi a urmat friptura cu pilaf şi nelipsita salată, precum şi o felie de plăcintă de mere. Sătui şi energizati, ne-am retras în camere să ne pregătim pentru activitatea de seară: concurs de fotografie. Împărţiţi pe echipe, am primit o listă cu elemente pe care trebuie să le surprindem în poze fiind nevoiţi să alergăm prin tot complexul."}
+                                  {"Cina a început cu o porție de mămăliguță cu smântână și brânză, apoi a urmat friptura cu pilaf și nelipsita salată, precum și o felie de plăcintă de mere. Sătui și energizati, ne-am retras în camere să ne pregătim pentru activitatea de seară: concurs de fotografie. Împărțiți pe echipe, am primit o listă cu elemente pe care trebuie să le surprindem în poze fiind nevoiți să alergăm prin tot complexul."}
                                 </p>
                                 <p>
-                                  {"Până la 12.00, când s-a dat stingerea, am jucat cărţi, am stat de vorbă, am glumit, am râs şi, cu ocazia aceasta, ne-am cunoscut puţin mai bine. Oare ce surprize ne mai aşteaptă mâine?"}
+                                  {"Până la 12.00, când s-a dat stingerea, am jucat cărți, am stat de vorbă, am glumit, am râs și, cu ocazia aceasta, ne-am cunoscut puțin mai bine. Oare ce surprize ne mai așteaptă mâine?"}
                                 </p>
                               </div>
                             </div>
@@ -306,7 +306,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 7 Am deschis ochii la îndemnul vocii Elenei care ne anunţa că e trecut de 8.00."}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 7 Am deschis ochii la îndemnul vocii Elenei care ne anunța că e trecut de 8.00."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -327,7 +327,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 6 Dimineaţa zilei a şasea ne-a găsit pe unii energici şi pregătiţi de o nouă aventură,"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 6 Dimineața zilei a șasea ne-a găsit pe unii energici și pregătiți de o nouă aventură,"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -348,7 +348,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 5 În această dimineaţă mai puţini dintre noi au fost matinali. Normal că ne-am trezit mai"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 5 În această dimineață mai puțini dintre noi au fost matinali. Normal că ne-am trezit mai"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -369,7 +369,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 4 Bună dimineaţa, ziua a treia a taberei! După ce am adormit cu toţii la orele"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 4 Bună dimineața, ziua a treia a taberei! După ce am adormit cu toții la orele"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -411,7 +411,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 1 La 10 fix am fost toţi în microbuz şi gata de plecare uşor somnoroşi,"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 1 La 10 fix am fost toți în microbuz și gata de plecare ușor somnoroși,"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

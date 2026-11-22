@@ -7,7 +7,7 @@ const PersonalDevelopmentSection = () => {
       icon: Music,
       title: "Cursuri de dans",
       description:
-        "Pentru copii de 5-9 ani completează oferta noastră educațională, contribuind prin mișcare și expresie artistică la dezvoltarea coordonării, creativității și încrederii în sine a copiilor.",
+        "Pentru copii de 5 - 9 ani completează oferta noastră educațională, contribuind prin mișcare și expresie artistică la dezvoltarea coordonării, creativității și încrederii în sine a copiilor.",
       color: "bg-primary",
       href: "/descopera-magia-dansului/",
     },

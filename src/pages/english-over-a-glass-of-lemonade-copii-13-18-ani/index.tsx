@@ -1,11 +1,11 @@
-import heroImage from '@/assets/english-over-a-glass-of-lemonade-copii-13-18-ani.jpg';
+import heroImage from '@/assets/3afd7962e92217458ad4e0ec5e0e03f32e9d02ca_1600x1200.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 import image0 from "@/assets/about-classroom.jpg";
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={heroImage} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={heroImage} style={{ objectPosition: '50% 0%' }} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -23,16 +23,16 @@ export default function Page() {
           {"Pro Erudio · School of English"}
         </p>
         <h1 className={"max-w-5xl text-4xl font-bold leading-tight md:text-6xl"}>
-          {"Find Your Voice – Copii 13 – 18 ani"}
+          <strong>{"Find Your Voice"}</strong>{" – Copii 13 - 18 ani"}
         </h1>
       </div>
     </section>
   }>
     <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Find Your Voice – Copii 13 – 18 ani"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2019/05/find-your-voice.jpg"} alt={"Find Your Voice – Copii 13 – 18 ani"} decoding={"async"} />
+      <section className={"mobile-page-intro"} aria-label={"Find Your Voice – Copii 13 - 18 ani"}>
+        <img src={heroImage} style={{ objectPosition: '50% 0%' }} alt={"Find Your Voice – Copii 13 - 18 ani"} decoding={"async"} />
         <h1>
-          {"Find Your Voice – Copii 13 – 18 ani"}
+          <strong>{"Find Your Voice"}</strong>{" – Copii 13 - 18 ani"}
         </h1>
       </section>
       <div>
@@ -58,7 +58,7 @@ export default function Page() {
                               <h2>
                                 {"Cursuri de vară de limba engleză"}
                                 <span>
-                                  {"“Find Your Voice” "}
+                                  <strong>{"Find Your Voice"}</strong>{" "}
                                 </span>
                               </h2>
                             </div>
@@ -85,15 +85,11 @@ export default function Page() {
                             <div>
                               <h5>
                                 <span>
-                                  {"Cursuri pentru copii de 13"}
-                                  {"– 18 ani"}
+                                  {"Cursuri pentru copii de 13 - 18 ani"}
                                 </span>
                               </h5>
                               <p>
-                                <span>
-                                  {"E"}
-                                </span>
-                                {"\nste vară, este cald şi avem muult timp de pierdut, deci momentul cel mai potrivit să ne adunăm să depănăm amintiri, să intrăm în polemici prietenoase pe teme arzătoare şi de ce nu, să ne răcorim sufletul cu un pahar de limonadă în faţă. Dar dacă e să fie petrecere, atunci să fie în limba engleză ca să şi câştigăm câte ceva, de exemplu fluenţă în exprimare, coerenţă în organizarea discursului, rapiditate în procesarea întrebării şi pregătirea răspunsului, spontaneitate şi creativitate în argumentaţie etc."}
+                                {"Este vară, este cald și avem mult timp de pierdut, deci momentul cel mai potrivit să ne adunăm să depănăm amintiri, să intrăm în polemici prietenoase pe teme arzătoare și de ce nu, să ne răcorim sufletul cu un pahar de limonadă în față. Dar dacă e să fie petrecere, atunci să fie în limba engleză ca să și câștigăm câte ceva, de exemplu fluență în exprimare, coerență în organizarea discursului, rapiditate în procesarea întrebării și pregătirea răspunsului, spontaneitate și creativitate în argumentație etc."}
                               </p>
                               <h5>
                                 {"Dintre temele abordate amintim:"}
@@ -158,15 +154,15 @@ export default function Page() {
                                   <div>
                                     <div>
                                       <p>
-                                        {"Dacă temele sugerate de noi nu vă inspiră, nici o problemă! Propuneţi altele şi ne vom conforma!"}
+                                        {"Dacă temele sugerate de noi nu vă inspiră, nici o problemă! Propuneți altele și ne vom conforma!"}
                                       </p>
                                       <p>
-                                        {"Vara este momentul ideal pentru a ne întoarce atenţia spre noi înşine, spre întrebări de care nu avem timp să ne ocupăm în timpul şcolii şi spre lucruri care ne frământă şi pe care nu ştim cum să le exprimăm sau nu avem cui."}
+                                        {"Vara este momentul ideal pentru a ne întoarce atenția spre noi înșine, spre întrebări de care nu avem timp să ne ocupăm în timpul școlii și spre lucruri care ne frământă și pe care nu știm cum să le exprimăm sau nu avem cui."}
                                         <br />
-                                        {"\nInvită-ţi prietenii să se alăture discuţiei!"}
+                                        {"\nInvită-ți prietenii să se alăture discuției!"}
                                       </p>
                                       <p>
-                                        {"Vara aceasta vrem să fiţi mai vocali că niciodată !"}
+                                        {"Vara aceasta vrem să fiți mai vocali că niciodată!"}
                                       </p>
                                     </div>
                                   </div>
@@ -181,7 +177,7 @@ export default function Page() {
                                   <div>
                                     <div>
                                       <h4>
-                                        {"Câteva imagini de la cursurile de vară de limba engleză:"}
+                                        {"Câteva imagini de la cursurile de vară:"}
                                       </h4>
                                       <div id={"jig1"} className={"photo-gallery"}>
                                         <div></div>
@@ -189,8 +185,7 @@ export default function Page() {
                                       <p>
                                         {"Mai multe imagini găsiți aici: Galerie “"}
                                         <a href={"https://www.facebook.com/media/set/?set=a.713555685412609.1073741875.114304442004406&type=3"} target={"_blank"} rel={"noopener noreferrer"}>
-                                          {"cursuri de vară "}
-                                          {"2015"}
+                                          {"cursuri de vară 2015"}
                                         </a>
                                         {"“"}
                                       </p>
@@ -231,7 +226,7 @@ export default function Page() {
                                         <img decoding={"async"} alt={"find-your-voice-b"} src={"https://www.proerudio.ro/wp-content/uploads/2019/05/find-your-voice-b.jpg"} />
                                       </div>
                                       <h2>
-                                        {"Find Your Voice"}
+                                        <strong>{"Find Your Voice"}</strong>
                                       </h2>
                                       <div className={"course-price"}>
                                         <sup>
@@ -303,7 +298,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârsta: "}
                                             </strong>
-                                            {"copii de 13-17 ani"}
+                                            {"copii de 13 - 17 ani"}
                                           </li>
                                         </ul>
                                         <p>
@@ -339,13 +334,13 @@ export default function Page() {
                                       <aside id={"block-2"} className={"course-schedule"}>
                                         <h4>
                                           <span>
-                                            {"Program vară 2026:"}
+                                            {"Program vară 2027:"}
                                           </span>
                                         </h4>
                                         <p>
                                           <span>
                                             <i aria-hidden={"true"}></i>
-                                            {" 22 iunie – 31 iulie"}
+                                            {" 21 iunie - 30 iulie"}
                                           </span>
                                         </p>
                                       </aside>
@@ -506,7 +501,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/puppet-theatre-copii-4-6-ani/"} className={"related-content-card"}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/puppet-theatre-6-8-ani.jpg\")"}}>
                                           <h3>
-                                            {"Puppet Theatre – Copii 6 – 8 ani"}
+                                            <strong>{"Puppet Theatre"}</strong>{" – Copii 6 - 8 ani"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -514,7 +509,7 @@ export default function Page() {
                                             {"Cursuri de vară"}
                                           </span>
                                           <p>
-                                            {"Cursuri de vara de limba engleza “Puppet Theatre” In timp ce se joaca cu marioneta copilul devine un alt personaj si chiar un copil timid se poate exprima fara inhibitii cand vorbeste marioneta, nu el insusi. In plus, in lumea papusilor totul devine posibil,"}
+                                            {"Cursuri de vara de limba engleza "}<strong>{"Puppet Theatre"}</strong>{" In timp ce se joaca cu marioneta copilul devine un alt personaj si chiar un copil timid se poate exprima fara inhibitii cand vorbeste marioneta, nu el insusi. In plus, in lumea papusilor totul devine posibil,"}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi cursul"}
@@ -527,7 +522,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/storytime-copii-4-7-ani/"} className={"related-content-card"}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/story-brut.jpg\")"}}>
                                           <h3>
-                                            {"Storytime! – Copii 4 – 7 ani"}
+                                            <strong>{"Storytime!"}</strong>{" – Copii 4 - 7 ani"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -535,7 +530,7 @@ export default function Page() {
                                             {"Cursuri de vară"}
                                           </span>
                                           <p>
-                                            {"“Storytime” este mijlocul magic de transport cu ajutorul caruia putem sa ne deplasam in timp si spatiu si sa traim aventuri de neuitat. Limba engleza va fi doar mijlocul de comunicare pentru dezlegarea misterelor, iar noi vom invata prin joc la fiecare ora o alta poveste. (“The Princess and the Frog”; “Archie’s pet”; “What’s the matter, Tiger?”; “I’m very hungry!”; “Gerry the Giant”; “Puss in boots” etc)."}
+                                            <strong>{"Storytime"}</strong>{" este mijlocul magic de transport cu ajutorul caruia putem sa ne deplasam in timp si spatiu si sa traim aventuri de neuitat. Limba engleza va fi doar mijlocul de comunicare pentru dezlegarea misterelor, iar noi vom invata prin joc la fiecare ora o alta poveste. (“The Princess and the Frog”; “Archie’s pet”; “What’s the matter, Tiger?”; “I’m very hungry!”; “Gerry the Giant”; “Puss in boots” etc)."}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi cursul"}
@@ -548,7 +543,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/storytime-copii-8-11-ani/"} className={"related-content-card"}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/story-brut.jpg\")"}}>
                                           <h3>
-                                            {"Storytime! – Copii 8 – 11 ani"}
+                                            <strong>{"Storytime!"}</strong>{" – Copii 8 - 11 ani"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -556,7 +551,7 @@ export default function Page() {
                                             {"Cursuri de vară"}
                                           </span>
                                           <p>
-                                            {"Vom citi, vom privi, vom canta, vom interpreta roluri, vom participa la intreceri distractive si vom invata o gramada de lucruri noi in limba engleza. Sunteti gata sa inceapa distractia?La sfarsitul cursului copiii:Vor descoperi placerea de a citi si de a asculta povesti in limba engleza"}
+                                            {"Vom citi, vom privi, vom canta, vom interpreta roluri, vom participa la intreceri distractive si vom invata o gramada de lucruri noi in limba engleza. Sunteti gata sa inceapa distractia? La sfarsitul cursului copiii:Vor descoperi placerea de a citi si de a asculta povesti in limba engleza"}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi cursul"}
@@ -569,7 +564,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/be-dramatic-copii-9-12-ani/"} className={"related-content-card"}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/dramatic-brut-1.jpg\")"}}>
                                           <h3>
-                                            {"Be DRAMAtic! – Copii 9 – 12 ani"}
+                                            <strong>{"Be DRAMAtic!"}</strong>{" – Copii 9 - 12 ani"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -590,7 +585,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/english-through-songs-copii-9-12-ani/"} className={"related-content-card"}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-English-through-Songs.jpg\")"}}>
                                           <h3>
-                                            {"English through Songs Copii 9 – 12 ani"}
+                                            <strong>{"English through Songs"}</strong>{" Copii 9 - 12 ani"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -611,7 +606,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/cinematics-copii-13-18-ani/"} className={"related-content-card"}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-de-limba-engleza-Cinematics.jpg\")"}}>
                                           <h3>
-                                            {"Cinematics – Copii 13 – 18 ani"}
+                                            <strong>{"Cinematics"}</strong>{" – Copii 13 - 18 ani"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -632,7 +627,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-germana/deutsch-durch-geschichten-1-copii-8-11-ani/"} className={"related-content-card"} hidden={true}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Deutsch-durch-Geschichten-1-Copii-6-9-ani.jpg\")"}}>
                                           <h3>
-                                            {"Deutsch durch Geschichten – Copii 6 – 9 ani"}
+                                            <strong>{"Deutsch durch Geschichten"}</strong>{" – Copii 6 - 9 ani"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -640,7 +635,7 @@ export default function Page() {
                                             {"Cursuri de vară"}
                                           </span>
                                           <p>
-                                            {"În cadrul cursului de vară de limba germană, vă propunem un curs de învăţare prin poveşti. Mai întâi copiilor li se prezintă vocabularul necesar înţelegerii poveştii, învaţă un cântec sau participă la un joc pentru consolidarea vocabularului, după care ascultă povestea, o citesc,"}
+                                            {"În cadrul cursului de vară de limba germană, vă propunem un curs de învățare prin povești. Mai întâi copiilor li se prezintă vocabularul necesar înțelegerii poveștii, învață un cântec sau participă la un joc pentru consolidarea vocabularului, după care ascultă povestea, o citesc,"}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi cursul"}
@@ -653,7 +648,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-germana/deutsch-durch-geschichten-2-copii-8-11-ani/"} className={"related-content-card"} hidden={true}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Deutsch-durch-Geschichten-2-Copii-9-11-ani.jpg\")"}}>
                                           <h3>
-                                            {"Deutsch durch Geschichten – Copii 9 – 11 ani"}
+                                            <strong>{"Deutsch durch Geschichten"}</strong>{" – Copii 9 - 11 ani"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -661,7 +656,7 @@ export default function Page() {
                                             {"Cursuri de vară"}
                                           </span>
                                           <p>
-                                            {"Prin exerciţii distractive, jocuri şi fişe de lucru copiii vor fi provocaţi să îşi exerseze scrierea, înţelegerea şi formarea conexiunilor între diferite concepte. Se urmăreşte extinderea vocabularului şi introducerea unor contexte mai complexe, precum şi sedimentarea vocabularului de bază prin utilizarea lui în contexte inedite."}
+                                            {"Prin exerciții distractive, jocuri și fișe de lucru copiii vor fi provocați să își exerseze scrierea, înțelegerea și formarea conexiunilor între diferite concepte. Se urmărește extinderea vocabularului și introducerea unor contexte mai complexe, precum și sedimentarea vocabularului de bază prin utilizarea lui în contexte inedite."}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi cursul"}
@@ -674,7 +669,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-germana/sprechen-sie-deutsch-copii-5-8-ani/"} className={"related-content-card"} hidden={true}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/sprechen-1.jpg\")"}}>
                                           <h3>
-                                            {"Sprechen Sie Deutsch? – Copii 5 – 8 ani"}
+                                            <strong>{"Sprechen Sie Deutsch?"}</strong>{" – Copii 5 - 8 ani"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -695,7 +690,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-germana/sprechen-sie-deutsch-copii-9-13-ani/"} className={"related-content-card"} hidden={true}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Sprechen-und-Schreiben-Sie-Deutsch.jpg\")"}}>
                                           <h3>
-                                            {"Sprechen und Schreiben Sie Deutsch? – Copii 9 – 13 ani"}
+                                            <strong>{"Sprechen und Schreiben Sie Deutsch?"}</strong>{" – Copii 9 - 13 ani"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -703,7 +698,7 @@ export default function Page() {
                                             {"Cursuri de vară"}
                                           </span>
                                           <p>
-                                            {"Curs de vară de limba germană “Sprechen und Schreiben Sie Deutsch?” Cursuri pentru copii de 9 – 13 ani ţi avut"}
+                                            {"Curs de vară de limba germană "}<strong>{"Sprechen und Schreiben Sie Deutsch?"}</strong>{" Cursuri pentru copii de 9 - 13 ani."}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi cursul"}
@@ -716,7 +711,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-romana-si-engleza/the-earth-is-alive-copii-6-10-ani/"} className={"related-content-card"} hidden={true}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/earth-is-alive.jpg\")"}}>
                                           <h3>
-                                            {"The Earth Is Alive – Copii 6 – 10 ani"}
+                                            <strong>{"The Earth Is Alive"}</strong>{" – Copii 6 - 10 ani"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -724,7 +719,7 @@ export default function Page() {
                                             {"Cursuri de vară"}
                                           </span>
                                           <p>
-                                            {"Cursuri intensive de vară “The Earth Is Alive” Cursuri bilingve (română-engleză) pentru copii de 9-12 ani amântul are o istorie fascinantă,"}
+                                            {"Cursuri intensive de vară "}<strong>{"The Earth Is Alive"}</strong>{" Cursuri bilingve (română-engleză) pentru copii de 9 - 12 ani amântul are o istorie fascinantă,"}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi cursul"}
@@ -737,7 +732,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/british-games-cursuri-intensive-de-vara/"} className={"related-content-card"} hidden={true}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/05/british-games.jpg\")"}}>
                                           <h3>
-                                            {"British Games – cursuri intensive de vară"}
+                                            <strong>{"British Games"}</strong>{" – cursuri intensive de vară"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -745,7 +740,7 @@ export default function Page() {
                                             {"Cursuri de vară"}
                                           </span>
                                           <p>
-                                            {"Vă propunem să explorăm cele mai populare jocuri din Marea Britanie în limba engleză. La acest curs Vom învaţă jocuri noi, încurajând jocul creativ şi dinamic în locul celui electronic"}
+                                            {"Vă propunem să explorăm cele mai populare jocuri din Marea Britanie în limba engleză. La acest curs Vom învață jocuri noi, încurajând jocul creativ și dinamic în locul celui electronic"}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi cursul"}
@@ -758,7 +753,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/dig-into-reading/"} className={"related-content-card"} hidden={true}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2023/05/Curs-dig-into-reading-1024x536.jpg\")"}}>
                                           <h3>
-                                            {"Dig into Reading"}
+                                            <strong>{"Dig into Reading"}</strong>
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -766,7 +761,7 @@ export default function Page() {
                                             {"Cursuri de vară"}
                                           </span>
                                           <p>
-                                            {"Cursuri intensive de vară pentru copii “Dig into Reading” Disponibil la sediu și online! Cluburi de lectură în limba engleză"}
+                                            {"Cursuri intensive de vară pentru copii "}<strong>{"Dig into Reading"}</strong>{" Disponibil la sediu și online! Cluburi de lectură în limba engleză"}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi cursul"}
@@ -779,7 +774,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/a-world-of-words-2/"} className={"related-content-card"} hidden={true}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2026/05/A-World-of-Words-9-12-ani-1024x536.png\")"}}>
                                           <h3>
-                                            {"A World Of Words 2"}
+                                            <strong>{"A World Of Words"}</strong>{" 2"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -787,7 +782,7 @@ export default function Page() {
                                             {"Cursuri de vară"}
                                           </span>
                                           <p>
-                                            {"A WORLD OF WORDS Curs de vară de limba engleză"}
+                                            <strong>{"A WORLD OF WORDS"}</strong>{" Curs de vară de limba engleză"}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi cursul"}
@@ -800,7 +795,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/head-for-exams-copii-13-18-ani/"} className={"related-content-card"} hidden={true}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2021/10/Cursuri-de-vara-in-limba-engleza-Engleza-pentru-examene-Head-for-Exams.webp\")"}}>
                                           <h3>
-                                            {"Head for Exams – Copii 13 – 18 ani"}
+                                            <strong>{"Head for Exams"}</strong>{" – Copii 13 - 18 ani"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -808,7 +803,7 @@ export default function Page() {
                                             {"Cursuri de vară"}
                                           </span>
                                           <p>
-                                            {"Cursuri de vară de limba engleza “Head for Exams” Cursuri pentru copii de 13 – 18 ani aca intentionezi sa sustii"}
+                                            {"Cursuri de vară de limba engleza "}<strong>{"Head for Exams"}</strong>{" Cursuri pentru copii de 13 - 18 ani. Pregătire pentru examenele de limba engleză."}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi cursul"}
@@ -821,7 +816,7 @@ export default function Page() {
                                       <a href={"/summer-school-perfect-fit/"} className={"related-content-card"} hidden={true}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2021/05/Summer-school-perfect-fit.jpg\")"}}>
                                           <h3>
-                                            {"Summer School PERFECT FIT"}
+                                            <strong>{"Summer School PERFECT FIT"}</strong>
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -829,7 +824,7 @@ export default function Page() {
                                             {"Cursuri Pro Erudio"}
                                           </span>
                                           <p>
-                                            {"Cursuri de vară “Summer School PERFECT FIT” Engleză pentru copii de 6-11 ani În sfârșit, după o"}
+                                            {"Cursuri de vară "}<strong>{"Summer School PERFECT FIT"}</strong>{" Engleză pentru copii de 6 - 11 ani În sfârșit, după o"}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi cursul"}
@@ -947,7 +942,7 @@ export default function Page() {
                                       <a href={"/cursuri-de-vara/cursuri-de-vara-in-limba-engleza/a-world-of-words/"} className={"related-content-card"} hidden={true}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2026/05/A-World-of-Words-6-8-ani-1024x537.png\")"}}>
                                           <h3>
-                                            {"A World Of Words"}
+                                            <strong>{"A World Of Words"}</strong>
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -955,7 +950,7 @@ export default function Page() {
                                             {"Cursuri de vară"}
                                           </span>
                                           <p>
-                                            {"A WORLD OF WORDS Curs de vară de limba engleză"}
+                                            <strong>{"A WORLD OF WORDS"}</strong>{" Curs de vară de limba engleză"}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi cursul"}

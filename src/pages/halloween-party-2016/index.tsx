@@ -101,7 +101,7 @@ export default function Page() {
                               <div>
                                 <p>
                                   <span>
-                                    {"În atmosfera mai mohorâtă de început de toamnă, o petrecere tematică de Halloween este alegerea perfectă pentru o după-amiază de sâmbătă. Sărbătoarea de Halloween este apreciată şi mult aşteptată de către cei mici, atât în cultură occidentală, cât şi la Pro Erudio fiind un centru de învăţare a limbii engleze nu poate decât să cinstească cum se cuvine tradiţiile spaţiului în care se vorbeşte engleză că limba maternă."}
+                                    {"În atmosfera mai mohorâtă de început de toamnă, o petrecere tematică de Halloween este alegerea perfectă pentru o după-amiază de sâmbătă. Sărbătoarea de Halloween este apreciată și mult așteptată de către cei mici, atât în cultură occidentală, cât și la Pro Erudio fiind un centru de învățare a limbii engleze nu poate decât să cinstească cum se cuvine tradițiile spațiului în care se vorbește engleză că limba maternă."}
                                   </span>
                                 </p>
                               </div>
@@ -114,12 +114,12 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"Aşadar, pe data de 29 octombrie ne-am întâmpinat oaspeţii, într-un decor plin de dovleci, bomboane, scheleţi din hârtie sau cauciuc, păianjeni şi fantome, muzică ambientală înfricoşătoare sau ritmuri celebre, dar „spooky”."}
+                                            {"Așadar, pe data de 29 octombrie ne-am întâmpinat oaspeții, într-un decor plin de dovleci, bomboane, scheleți din hârtie sau cauciuc, păianjeni și fantome, muzică ambientală înfricoșătoare sau ritmuri celebre, dar „spooky”."}
                                           </span>
                                         </p>
                                         <p>
                                           <span>
-                                            {"Primul grup de petrecăreţi a fost format din copiii cu vârste între 4 şi 8 ani. Prichindeii şi-au etalat rând pe rând ţinutele într-o paradă a costumelor, însoţită de aplauze şi încurajări din partea colegilor şi profesorilor. Am discutat cu vrăjitoare şi vrăjitori, şi din cei buni, şi din cei răi, vampiri, fantome, scheleţi, zâne şi roboţi, piraţi şi luptători Jedi, Spiderman, dovleci etc."}
+                                            {"Primul grup de petrecăreți a fost format din copiii cu vârste între 4 și 8 ani. Prichindeii și-au etalat rând pe rând ținutele într-o paradă a costumelor, însoțită de aplauze și încurajări din partea colegilor și profesorilor. Am discutat cu vrăjitoare și vrăjitori, și din cei buni, și din cei răi, vampiri, fantome, scheleți, zâne și roboți, pirați și luptători Jedi, Spiderman, dovleci etc."}
                                           </span>
                                         </p>
                                       </div>
@@ -145,7 +145,7 @@ export default function Page() {
                               <div>
                                 <p>
                                   <span>
-                                    {"Au urmat “masăa şi dansul”. Copiii au fost serviţi cu jeleuri, bomboane, biscuiţi şi fursecuri pentru a-şi recăpăta energia şi a da startul dansurilor înfricoşătoare. Împreună cu doamnele profesoare, au cântat şi dansat că nişte veritabili eroi de poveste sau creaturi ale nopţii."}
+                                    {"Au urmat “masăa și dansul”. Copiii au fost serviți cu jeleuri, bomboane, biscuiți și fursecuri pentru a-și recăpăta energia și a da startul dansurilor înfricoșătoare. Împreună cu doamnele profesoare, au cântat și dansat că niște veritabili eroi de poveste sau creaturi ale nopții."}
                                   </span>
                                 </p>
                               </div>
@@ -187,7 +187,7 @@ export default function Page() {
                               <div>
                                 <p>
                                   <span>
-                                    {"Petrecerea noastră a continuat cu cel de-al doilea grup de copii, cu vârste între 8 şi 12 ani. Aceştia au fost întâmpinaţi rând pe rând, iar apoi a început parada costumelor, însă de dată aceasta, deoarece cunoştinţele de limba engleză erau la alte cote, am avut parte de discursuri, nu de interviuri :), pentru a afla ce personaj întruchipează fiecare copil. Astfel, fiecare “personaj” s-a prezentat şi şi-a descris costumul în cel mai neaşteptat fel şi au defilat pe podium în aplauzele tuturor."}
+                                    {"Petrecerea noastră a continuat cu cel de-al doilea grup de copii, cu vârste între 8 și 12 ani. Aceștia au fost întâmpinați rând pe rând, iar apoi a început parada costumelor, însă de dată aceasta, deoarece cunoștințele de limba engleză erau la alte cote, am avut parte de discursuri, nu de interviuri :), pentru a afla ce personaj întruchipează fiecare copil. Astfel, fiecare “personaj” s-a prezentat și și-a descris costumul în cel mai neașteptat fel și au defilat pe podium în aplauzele tuturor."}
                                   </span>
                                 </p>
                               </div>
@@ -207,13 +207,12 @@ export default function Page() {
                                       <div>
                                         <p>
                                           <span>
-                                            {"Plini de energie, copiii au gustat din tradiţionalele jeleuri şi bezele în forme inedite, de la dinţi şi ochi până la viermi şi fantome şi şi-au potolit setea cu un pahar de suc natural de portocale. Am continuat cu dansul până la sosirea părinţilor."}
+                                            {"Plini de energie, copiii au gustat din tradiționalele jeleuri și bezele în forme inedite, de la dinți și ochi până la viermi și fantome și și-au potolit setea cu un pahar de suc natural de portocale. Am continuat cu dansul până la sosirea părinților."}
                                           </span>
                                         </p>
                                         <p>
                                           <span>
-                                            {"Bineînţeles că am avut la îndemână şi aparatul foto pentru a imortaliza cât mai multe momente. Astfel, sub ochiul vigilent al unui fotograf profesionist, petrecerea noastră s-a transformat într-o amintire de neuitat. Ne-am bucurat să petrecem alături de minunaţii noştri copii, iar entuziasmul şi bucuria lor ne-au confirmat că petrecerea a fost reuşită şi acest sentiment ne dă"}
-                                            {"energie pentru a repeta evenimentul şi anul viitor."}
+                                            {"Bineînțeles că am avut la îndemână și aparatul foto pentru a imortaliza cât mai multe momente. Astfel, sub ochiul vigilent al unui fotograf profesionist, petrecerea noastră s-a transformat într-o amintire de neuitat. Ne-am bucurat să petrecem alături de minunații noștri copii, iar entuziasmul și bucuria lor ne-au confirmat că petrecerea a fost reușită și acest sentiment ne dăenergie pentru a repeta evenimentul și anul viitor."}
                                           </span>
                                         </p>
                                       </div>
@@ -430,7 +429,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Christmas is coming… Vine Crăciunul şi ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
+              {"Christmas is coming… Vine Crăciunul și ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -443,7 +442,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/puppet-theatre-13-24-iulie/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/puppet-theatre.jpg\")"}}>
             <h3>
-              {"Curs de vară de limba engleză PUPPET THEATRE (4-6 ani)"}
+              {"Curs de vară de limba engleză "}<strong>{"PUPPET THEATRE"}</strong>{" (4 - 6 ani)"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -451,7 +450,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"PUPPET THEATRE – seria 13 – 24 iulie (4-6 ani) Vara este momentul cel mai potrivit să încercăm ceva nou."}
+              <strong>{"PUPPET THEATRE"}</strong>{" – seria 13 – 24 iulie (4 - 6 ani) Vara este momentul cel mai potrivit să încercăm ceva nou."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -464,7 +463,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-13-24-iulie/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/storytime.jpg\")"}}>
             <h3>
-              {"Curs de vara de limba engleza STORYTIME – (8-10 ani)"}
+              {"Curs de vara de limba engleza "}<strong>{"STORYTIME"}</strong>{" – (8 - 10 ani)"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -472,7 +471,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Storytime – seria 13-24 iulie (8-10 ani) Poveştile sunt o mare parte din viaţa noastră, fie că e vorba de"}
+              <strong>{"Storytime"}</strong>{" – seria 13-24 iulie (8 - 10 ani) Poveștile sunt o mare parte din viața noastră, fie că e vorba de"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -506,7 +505,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-6-8-ani-galerie-foto/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-vara-de-limba-engleza-Storytime-6-8-ani.jpg\")"}}>
             <h3>
-              {"Curs de vara de limba engleza STORYTIME (6-8 ani)"}
+              {"Curs de vara de limba engleza "}<strong>{"STORYTIME"}</strong>{" (6 - 8 ani)"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -514,7 +513,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Curs de vară de limba engleză “Storytime” (6-8) ani Am citit, ascultat și vizionat povești în limba engleză, am interpretat"}
+              {"Curs de vară de limba engleză "}<strong>{"Storytime"}</strong>{" (6-8) ani Am citit, ascultat și vizionat povești în limba engleză, am interpretat"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -527,7 +526,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-5-6-ani-galerie-foto/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-vara-de-limba-engleza-Storytime-5-6-ani2.jpg\")"}}>
             <h3>
-              {"Storytime (5-6 ani) – Galerie foto"}
+              <strong>{"Storytime"}</strong>{" (5 - 6 ani) – Galerie foto"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -535,7 +534,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Curs de vară de limba engleză – Storytime (5-6 ani) Am fost un grup plin de energie şi"}
+              {"Curs de vară de limba engleză – "}<strong>{"Storytime"}</strong>{" (5 - 6 ani) Am fost un grup plin de energie și"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

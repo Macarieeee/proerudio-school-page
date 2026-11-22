@@ -97,28 +97,28 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Elena ne-a spus că o să ne trezească la 8.30, dar noi am fost matinali şi până a venit ea, eram treji, spălaţi şi, mulţi dintre noi, deja la micul dejun. Cereale cu lapte, ouă fierte, şuncă presată, caşcaval şi ardei verde pe lângă o cană de ceai fierbinte a fost tot ce am avut nevoie să ne umplem de energie pentru primele activităţi ale zilei."}
+                                  {"Elena ne-a spus că o să ne trezească la 8.30, dar noi am fost matinali și până a venit ea, eram treji, spălați și, mulți dintre noi, deja la micul dejun. Cereale cu lapte, ouă fierte, șuncă presată, cașcaval și ardei verde pe lângă o cană de ceai fierbinte a fost tot ce am avut nevoie să ne umplem de energie pentru primele activități ale zilei."}
                                 </p>
                                 <p>
-                                  {"Înainte de a ne împărţi pe grupe, am făcut înviorarea de dimineaţă: genuflexiuni, sărituri şi tot felul de alte exerciţii. Cei mai mici dintre noi am început prin a ne prezenţa, a spune ce ne place şi ce nu şi a completa fişe cu activităţi pentru timpul liber. După ce am terminat, ne-am îmbulzit să răspundem fiecare în funcţie de ce ne-am ales pe fişele de lucru. După aceea, am dinamizat atmosfera cu un joc de-a prinselea, varianta în engleză, cu parole 🙂"}
+                                  {"Înainte de a ne împărți pe grupe, am făcut înviorarea de dimineață: genuflexiuni, sărituri și tot felul de alte exerciții. Cei mai mici dintre noi am început prin a ne prezența, a spune ce ne place și ce nu și a completa fișe cu activități pentru timpul liber. După ce am terminat, ne-am îmbulzit să răspundem fiecare în funcție de ce ne-am ales pe fișele de lucru. După aceea, am dinamizat atmosfera cu un joc de-a prinselea, varianta în engleză, cu parole 🙂"}
                                 </p>
                                 <p>
-                                  {"În altă grupa, împărţiţi în două echipe, am desenat pe o coală cât noi de mare corpul uman (bineînţeles, forma autentică a colegilor noştri întinşi pe hârtie ). A fost amuzant că am putut să ne mâzgălim desenele şi să le facem haioase. Apoi trainerul ne-a transpus pe un vas, iar noi trebuia să urmăm indicaţiile căpitanului: Go to the bow, stern, port or starboard of the ship, climb the mast, mop the floor etc."}
+                                  {"În altă grupa, împărțiți în două echipe, am desenat pe o coală cât noi de mare corpul uman (bineînțeles, forma autentică a colegilor noștri întinși pe hârtie ). A fost amuzant că am putut să ne mâzgălim desenele și să le facem haioase. Apoi trainerul ne-a transpus pe un vas, iar noi trebuia să urmăm indicațiile căpitanului: Go to the bow, stern, port or starboard of the ship, climb the mast, mop the floor etc."}
                                 </p>
                                 <p>
-                                  {"Cei mai mari dintre noi am discutat liber pentru a ne cunoaşte mai bine, am conceput propriul nostru super-erou şi chiar propria ţară. Am jucat jocul Blind Guess în care trebuia să punem întrebări colegilor pentru a ne da seama cine este personajul lipit pe fruntea noastră."}
+                                  {"Cei mai mari dintre noi am discutat liber pentru a ne cunoaște mai bine, am conceput propriul nostru super-erou și chiar propria țară. Am jucat jocul Blind Guess în care trebuia să punem întrebări colegilor pentru a ne da seama cine este personajul lipit pe fruntea noastră."}
                                 </p>
                                 <p>
-                                  {"Masa de prânz a venit la fix. Ne era foame. Am început cu o ciorbă de văcuţă, apoi un şniţel de pui cu mult-iubiţii cartofi prăjiţi. Pentru desert am savurat câte un măr crocant şi delicios. În timpul mesei am primit şi o veste bună: este ziua noastră de piscină. La 13.45 ne-am întâlnit în faţă hotelului cu mare dorinţă de bălăceala. Am înotat, ne-am stropit, ne-am întrecut în apă şi ne-am relaxat în Jacuzzi. A fost scurt, dar super distractiv."}
+                                  {"Masa de prânz a venit la fix. Ne era foame. Am început cu o ciorbă de văcuță, apoi un șnițel de pui cu mult-iubiții cartofi prăjiți. Pentru desert am savurat câte un măr crocant și delicios. În timpul mesei am primit și o veste bună: este ziua noastră de piscină. La 13.45 ne-am întâlnit în față hotelului cu mare dorință de bălăceala. Am înotat, ne-am stropit, ne-am întrecut în apă și ne-am relaxat în Jacuzzi. A fost scurt, dar super distractiv."}
                                 </p>
                                 <p>
-                                  {"După amiază ne-am ales cele două ateliere ale zilei. Pentru primul am avut brăţările prieteniei, desenarea de peisaje, confecţionarea de paraşute şi zumba. Fiecare şi-a ales câte unul, dar dacă am terminat brăţară repede, am încercat şi zumba unde se strânsese un grup mare şi vesel. Cum vremea ne-a surprins şi ploaia a încetat, organizatorii au inclus în variantele pentru cel de-al doilea atelier şi fotbal. Tot ce vroiau băieţii să audă. Pentru cei mai puţin pasionaţi de fotbal au fost alte trei opţiuni: drama, yoga şi confecţionarea de dream catchers."}
+                                  {"După amiază ne-am ales cele două ateliere ale zilei. Pentru primul am avut brățările prieteniei, desenarea de peisaje, confecționarea de parașute și zumba. Fiecare și-a ales câte unul, dar dacă am terminat brățară repede, am încercat și zumba unde se strânsese un grup mare și vesel. Cum vremea ne-a surprins și ploaia a încetat, organizatorii au inclus în variantele pentru cel de-al doilea atelier și fotbal. Tot ce vroiau băieții să audă. Pentru cei mai puțin pasionați de fotbal au fost alte trei opțiuni: drama, yoga și confecționarea de dream catchers."}
                                 </p>
                                 <p>
-                                  {"Pentru cină am avut pulpe de pui dezosate, la grătar cu legume şi orez cu lapte. Am mâncat cu poftă după atâta acţiune şi în pregătire pentru activitatea de seară: BOOTCAMP. Trainerii ne aşteptau costumaţi în soldaţi şi pictaţi pe faţă, încercând să-şi ascundă zâmbetele când ne-au văzut venind ca să păstreze iluzia atmosferei de armată. Ne-au împărţit în grupe şi au creat staţii de antrenament la care trebuia să ajungem toţi. Am făcut întinderi, abdomene, flotări, sărituri-steluţă, am alergat, am boxat şi cel mai important, ne-am distrat de minune."}
+                                  {"Pentru cină am avut pulpe de pui dezosate, la grătar cu legume și orez cu lapte. Am mâncat cu poftă după atâta acțiune și în pregătire pentru activitatea de seară: BOOTCAMP. Trainerii ne așteptau costumați în soldați și pictați pe față, încercând să-și ascundă zâmbetele când ne-au văzut venind ca să păstreze iluzia atmosferei de armată. Ne-au împărțit în grupe și au creat stații de antrenament la care trebuia să ajungem toți. Am făcut întinderi, abdomene, flotări, sărituri-steluță, am alergat, am boxat și cel mai important, ne-am distrat de minune."}
                                 </p>
                                 <p>
-                                  {"Ca de obicei, după activitatea de seară a urmat discoteca, dar de data aceasta ne-am retras repede în camere pentru a ne odihni. Am adormit cu zâmbetul pe buze şi cu gândul la ce ne aşteaptă mâine. Noapte bună!"}
+                                  {"Ca de obicei, după activitatea de seară a urmat discoteca, dar de data aceasta ne-am retras repede în camere pentru a ne odihni. Am adormit cu zâmbetul pe buze și cu gândul la ce ne așteaptă mâine. Noapte bună!"}
                                 </p>
                               </div>
                             </div>
@@ -303,7 +303,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 7 Am deschis ochii la îndemnul vocii Elenei care ne anunţa că e trecut de 8.00."}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 7 Am deschis ochii la îndemnul vocii Elenei care ne anunța că e trecut de 8.00."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -324,7 +324,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 6 Dimineaţa zilei a şasea ne-a găsit pe unii energici şi pregătiţi de o nouă aventură,"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 6 Dimineața zilei a șasea ne-a găsit pe unii energici și pregătiți de o nouă aventură,"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -345,7 +345,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 5 În această dimineaţă mai puţini dintre noi au fost matinali. Normal că ne-am trezit mai"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 5 În această dimineață mai puțini dintre noi au fost matinali. Normal că ne-am trezit mai"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -366,7 +366,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 4 Bună dimineaţa, ziua a treia a taberei! După ce am adormit cu toţii la orele"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 4 Bună dimineața, ziua a treia a taberei! După ce am adormit cu toții la orele"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -387,7 +387,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 3 Bună dimineaţa, ziua a treia a taberei! După ce am adormit cu toţii la orele"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 3 Bună dimineața, ziua a treia a taberei! După ce am adormit cu toții la orele"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -408,7 +408,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 1 La 10 fix am fost toţi în microbuz şi gata de plecare uşor somnoroşi,"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 1 La 10 fix am fost toți în microbuz și gata de plecare ușor somnoroși,"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

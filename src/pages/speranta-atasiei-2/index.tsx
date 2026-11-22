@@ -23,7 +23,7 @@ export default function Page() {
           {"Pro Erudio · School of English"}
         </p>
         <h1 className={"max-w-5xl text-4xl font-bold leading-tight md:text-6xl"}>
-          {"Speranţa Atasiei"}
+          {"Speranța Atasiei"}
         </h1>
       </div>
     </section>
@@ -43,10 +43,10 @@ export default function Page() {
                           <div>
                             <div>
                               <section className={"team-profile-header"}>
-                                <img decoding={"async"} alt={"Speranţa Atasiei"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei.jpg 226w, https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei-110x146.jpg 110w, https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei-38x50.jpg 38w, https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei-57x75.jpg 57w"} sizes={"180px"} src={"https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei.jpg"} />
+                                <img decoding={"async"} alt={"Speranța Atasiei"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei.jpg 226w, https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei-110x146.jpg 110w, https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei-38x50.jpg 38w, https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei-57x75.jpg 57w"} sizes={"180px"} src={"https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei.jpg"} />
                                 <div>
                                   <h2>
-                                    {"Speranţa Atasiei"}
+                                    {"Speranța Atasiei"}
                                   </h2>
                                   <h6>
                                     <span>
@@ -85,11 +85,11 @@ export default function Page() {
                                   <span>
                                     {"Facultatea"}
                                     {" de Limbi"}
-                                    {" şi"}
+                                    {" și"}
                                     {" Literaturi"}
                                     {" Străine,"}
                                     {" Universitatea"}
-                                    {" Bucureşti, 2004-2008"}
+                                    {" București, 2004-2008"}
                                   </span>
                                 </li>
                                 <li>
@@ -101,7 +101,7 @@ export default function Page() {
                                     {" psiho-pedagogic (Modulul"}
                                     {" 1),"}
                                     {" Universitatea"}
-                                    {" Bucureşti, 2016"}
+                                    {" București, 2016"}
                                   </span>
                                 </li>
                               </ul>
@@ -118,12 +118,12 @@ export default function Page() {
                                     {" engleză"}
                                     {" pentru"}
                                     {" copii"}
-                                    {" şi"}
-                                    {" adulţi"}
+                                    {" și"}
+                                    {" adulți"}
                                     {"–"}
-                                    {"Internaţional"}
+                                    {"Internațional"}
                                     {" House,"}
-                                    {" Bucureşti"}
+                                    {" București"}
                                   </span>
                                 </li>
                                 <li>
@@ -134,11 +134,11 @@ export default function Page() {
                                     {" engleză"}
                                     {" pentru"}
                                     {" copii"}
-                                    {" şi"}
-                                    {" adulţi"}
+                                    {" și"}
+                                    {" adulți"}
                                     {"–"}
                                     {"Britanica Learning Centre,"}
-                                    {" Bucureşti"}
+                                    {" București"}
                                   </span>
                                 </li>
                                 <li>
@@ -150,9 +150,9 @@ export default function Page() {
                                     {" pentru"}
                                     {" copii"}
                                     {"–"}
-                                    {"Fundaţia"}
+                                    {"Fundația"}
                                     {" Chance for Life,"}
-                                    {" Bucureşti"}
+                                    {" București"}
                                   </span>
                                 </li>
                               </ul>
@@ -244,7 +244,7 @@ export default function Page() {
                                     {"Cursul"}
                                     {"“AMI Children’s House Assistants”"}
                                     {"pentru"}
-                                    {" asistenţi"}
+                                    {" asistenți"}
                                     {" Montessori, 2017"}
                                   </span>
                                 </li>

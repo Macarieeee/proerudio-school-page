@@ -25,16 +25,16 @@ export default function Page() {
           {"Pro Erudio · School of English"}
         </p>
         <h1 className={"max-w-5xl text-4xl font-bold leading-tight md:text-6xl"}>
-          {"Cursuri de limba engleza pentru copii de 12 – 19 ani"}
+          {"Cursuri de limba engleza pentru copii de 12 - 19 ani"}
         </h1>
       </div>
     </section>
   }>
     <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Cursuri de limba engleza pentru copii de 12 – 19 ani"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani.jpg"} alt={"Cursuri de limba engleza pentru copii de 12 – 19 ani"} decoding={"async"} />
+      <section className={"mobile-page-intro"} aria-label={"Cursuri de limba engleza pentru copii de 12 - 19 ani"}>
+        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani.jpg"} alt={"Cursuri de limba engleza pentru copii de 12 - 19 ani"} decoding={"async"} />
         <h1>
-          {"Cursuri de limba engleza pentru copii de 12 – 19 ani"}
+          {"Cursuri de limba engleza pentru copii de 12 - 19 ani"}
         </h1>
       </section>
       <div>
@@ -53,12 +53,12 @@ export default function Page() {
                               <a href={"/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-head-for-fce-cae-cpe/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
                                   <h3>
-                                    {"Curs de limba engleza HEAD FOR FCE/CAE/CPE"}
+                                    {"Curs de limba engleza "}<strong>{"HEAD FOR FCE/CAE/CPE"}</strong>
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
                                   <span className={"related-content-badge"}>
-                                    {"12–19 ani"}
+                                    {"12 - 19 ani"}
                                   </span>
                                   <p>
                                     {"Cursurile Head for FCE/CAE urmează aceeași structura și au un scop bine-definit: să te ghideze către obținerea acestui certificat prin antrenarea tuturor abilităților: scris, citit, vorbit și întelegerea mesajului audiat pentru creșterea nivelului de cunoștințe la limba engleză."}
@@ -74,12 +74,12 @@ export default function Page() {
                               <a href={"/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-head-for-ielts/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"" + image1 + "\")"}}>
                                   <h3>
-                                    {"Curs de limba engleza HEAD FOR IELTS"}
+                                    {"Curs de limba engleza "}<strong>{"HEAD FOR IELTS"}</strong>
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
                                   <span className={"related-content-badge"}>
-                                    {"12–19 ani"}
+                                    {"12 - 19 ani"}
                                   </span>
                                   <p>
                                     {"Testul IELTS /ˈaɪ.ɛlts/ sau International English Language Testing System este un test standardizat internațional pentru a evalua competențele lingvistice de limba engleză. Este organizat de University of Cambridge ESOL Examinations, Consiliul Britanic și IDP Education."}
@@ -95,15 +95,15 @@ export default function Page() {
                               <a href={"/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-pentru-tineri-head-for-toefl/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"" + image2 + "\")"}}>
                                   <h3>
-                                    {"Curs de limba engleza pentru tineri HEAD FOR TOEFL"}
+                                    {"Curs de limba engleza pentru tineri "}<strong>{"HEAD FOR TOEFL"}</strong>
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
                                   <span className={"related-content-badge"}>
-                                    {"12–19 ani"}
+                                    {"12 - 19 ani"}
                                   </span>
                                   <p>
-                                    {"Testul TOEFL iBT® (Test of English as a Foreign Language – Internet Based Testing) se administrează prin intermediul Internetului și este o etapă importantă în călătoria ta către o universitate dintr-o țara în care se vorbește limba engleză."}
+                                    {"Testul "}<strong>{"TOEFL iBT®"}</strong>{" (Test of English as a Foreign Language – Internet Based Testing) se administrează prin intermediul Internetului și este o etapă importantă în călătoria ta către o universitate dintr-o țara în care se vorbește limba engleză."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -116,12 +116,12 @@ export default function Page() {
                               <a href={"/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-head-for-ketpet/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"" + image3 + "\")"}}>
                                   <h3>
-                                    {"Curs de limba engleza HEAD FOR KET/PET"}
+                                    {"Curs de limba engleza "}<strong>{"HEAD FOR KET/PET"}</strong>
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
                                   <span className={"related-content-badge"}>
-                                    {"12–19 ani"}
+                                    {"12 - 19 ani"}
                                   </span>
                                   <p>
                                     {"Promovarea unui astfel de examen este o victorie de etapă: te antrenează pentru susținerea altor examene mai importante și mai grele, iți dă încredere în tine și în propriile forțe, îți semnalează din timp anumite puncte slabe (timiditate excesivă la proba de speaking, lentoare în parcurgerea sarcinilor la probele de reading sau writing, etc.) și știi unde mai ai de lucrat."}

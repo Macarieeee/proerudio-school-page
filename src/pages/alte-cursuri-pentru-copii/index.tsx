@@ -75,50 +75,15 @@ export default function Page() {
                                 {"Cursuri de dezvoltare personală pentru copii"}
                               </h2>
                               <p>
-                                {"La Pro Erudio prioritatea noastră, pe lângă învăţarea limbii engleze,"}
-                                {" este să formăm caractere frumoase, copii încrezători în propriile puteri şi cu un sistem solid şi corect de valori. De aceea, venim în întâmpinarea acestei nevoi de formare cu trei variante de cursuri de dezvoltare personală pentru copii."}
+                                {"La Pro Erudio prioritatea noastră, pe lângă învățarea limbii engleze,"}
+                                {" este să formăm caractere frumoase, copii încrezători în propriile puteri și cu un sistem solid și corect de valori. De aceea, venim în întâmpinarea acestei nevoi de formare cu trei variante de cursuri de dezvoltare personală pentru copii."}
                               </p>
                             </div>
                           </div>
                           <div>
                             <div>
                               <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <h4>
-                                        <a href={"/ateliere-de-dezvoltare-emotionala-pentru-copii-1/"} target={"_blank"} rel={"noopener"}>
-                                          <span>
-                                            {"Ateliere de dezvoltare emoțională cu psiholog pentru copii "}
-                                          </span>
-                                        </a>
-                                      </h4>
-                                    </div>
-                                  </div>
-                                  <div>
-                                    <figure>
-                                      <a href={"/alte-cursuri-pentru-copii/cursuri-de-dezvoltare-personala-copii/cursuri-de-teatru-pentru-copii/"} target={"_blank"}>
-                                        <img decoding={"async"} alt={""} title={"ateliere-de-dezvoltare-emotionala"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala-1024x536.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala-768x402.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala-143x75.jpg 143w, https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala-480x251.jpg 480w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} src={"https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala.jpg"} />
-                                      </a>
-                                    </figure>
-                                  </div>
-                                  <div>
-                                    <div>
-                                      <p>
-                                        <span>
-                                          {"Cursuri pentru copii de 6 – 9 ani"}
-                                        </span>
-                                      </p>
-                                    </div>
-                                  </div>
-                                  <div>
-                                    <div>
-                                      <p>
-                                        {"Fără emoții am trăi precum robotii, indiferenti la ce ne înconjoară. Emoțiile fac parte din noi, iar datorită lor înțelegem ce ni se întâmplă. Ne dezvăluie ce contează pentru noi și pentru alții, ne ghidează deciziile și acțiunile."}
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
+
                               </div>
                             </div>
                             <div>
@@ -146,7 +111,7 @@ export default function Page() {
                                     <div>
                                       <p>
                                         <span>
-                                          {"Cursuri pentru copii de 9 – 12 ani"}
+                                          {"Cursuri pentru copii de 9 - 12 ani"}
                                         </span>
                                       </p>
                                     </div>
@@ -391,7 +356,7 @@ export default function Page() {
               {"Cursuri Pro Erudio"}
             </span>
             <p>
-              {"Planeta animalelor (pentru copii de 5-7 și 8-10 ani) Prezentare generală Lumea animalelor"}
+              {"Planeta animalelor (pentru copii de 5-7 și 8 - 10 ani) Prezentare generală Lumea animalelor"}
             </p>
             <span className={"related-content-action"}>
               {"Vezi cursul"}

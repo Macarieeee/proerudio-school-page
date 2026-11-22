@@ -102,21 +102,19 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Prima sesiune Playday a fost o petrecere în toată regula, după spusele copiilor participanți. Chiar dacă ne-am strâns mai greu, la ora 10 eram cu toţii pe poziţii şi unii dintre noi chiar erau deja pe cale să încheie primul joc. Ne-am aşezat în cerc şi am discutat puţin, am râs şi am glumit, toate cu scopul de a ne cunoaşte mai bine. Mai apoi, am convenit la o serie de reguli de comportament pe care le vom adopta cu toţii ca să profităm cât mai mult de timpul petrecut împreună. Am facut chiar și o poezie"}
-                                  {"pe această temă :"}
+                                  {"Prima sesiune Playday a fost o petrecere în toată regula, după spusele copiilor participanți. Chiar dacă ne-am strâns mai greu, la ora 10 eram cu toții pe poziții și unii dintre noi chiar erau deja pe cale să încheie primul joc. Ne-am așezat în cerc și am discutat puțin, am râs și am glumit, toate cu scopul de a ne cunoaște mai bine. Mai apoi, am convenit la o serie de reguli de comportament pe care le vom adopta cu toții ca să profităm cât mai mult de timpul petrecut împreună. Am facut chiar și o poeziepe această temă :"}
                                 </p>
                                 <p>
                                   <span>
-                                    {"«"}
-                                    {"Aici vorbim politicos"}
+                                    {"«Aici vorbim politicos"}
                                   </span>
                                   <br />
                                   <span>
-                                    {" Şi ne-ajutăm mereu."}
+                                    {" Și ne-ajutăm mereu."}
                                   </span>
                                   <br />
                                   <span>
-                                    {" Suntem atenţi să nu stricăm,"}
+                                    {" Suntem atenți să nu stricăm,"}
                                   </span>
                                   <br />
                                   <span>
@@ -124,8 +122,7 @@ export default function Page() {
                                   </span>
                                   <br />
                                   <span>
-                                    {" Şi nu e deloc greu"}
-                                    {"!"}
+                                    {" Și nu e deloc greu!"}
                                     {"»"}
                                   </span>
                                 </p>
@@ -142,8 +139,7 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Am început printr-o explorare a zonelor de joacă"}
-                                  {":"}
+                                  {"Am început printr-o explorare a zonelor de joacă:"}
                                   <br />
                                   {"\njocuri de constructie, "}
                                   <a href={"/playday-pro-erudio/"} target={"_blank"}>
@@ -152,13 +148,13 @@ export default function Page() {
                                   {", puzzle-uri, carti de rasfoit si fise de colorat, casa piticilor si marionete etc."}
                                 </p>
                                 <p>
-                                  {"Unele ne-au entuziasmat fiindca le-am recunoscut, altele ne-au facut curioşi. Am început să punem întrebări şi să invităm alţi colegi la joacă."}
+                                  {"Unele ne-au entuziasmat fiindca le-am recunoscut, altele ne-au facut curioși. Am început să punem întrebări și să invităm alți colegi la joacă."}
                                 </p>
                                 <p>
-                                  {"După aceea, am demarat un joc dinamic de ‘Pantomima’ în care ne-am maimuţărit şi la propriu şi la figurat."}
+                                  {"După aceea, am demarat un joc dinamic de ‘Pantomima’ în care ne-am maimuțărit și la propriu și la figurat."}
                                 </p>
                                 <p>
-                                  {"La sfârşitul acestui joc toţi am fost câştigători."}
+                                  {"La sfârșitul acestui joc toți am fost câștigători."}
                                 </p>
                               </div>
                             </div>
@@ -186,26 +182,24 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"După încă o sesiune de joc la alegere, ne-am adunat cu toţii pe terasă unde am fost…. grădinari"}
-                                  {"! Şi ce ne-am mai distrat! Am săpat în pământ ca să-l afânăm, am poziţionat plăntuţele şi le-am îngropat rădăcinile, le-am udat şi gata! Acum nu mai rămâne decât să avem grijă de ele"}
+                                  {"După încă o sesiune de joc la alegere, ne-am adunat cu toții pe terasă unde am fost…. grădinari! Și ce ne-am mai distrat! Am săpat în pământ ca să-l afânăm, am poziționat plăntuțele și le-am îngropat rădăcinile, le-am udat și gata! Acum nu mai rămâne decât să avem grijă de ele"}
                                   {"!"}
                                   <br />
                                   <span>
                                     {"În"}
                                   </span>
-                                  {"\n sala de lectură am fost câţiva doritori şi curioşi. Am răsfoit cărticele despre marii conducători ai Marii Britanii, despre animale si tinuturi exotice (colecţia de reviste "}
+                                  {"\n sala de lectură am fost câțiva doritori și curioși. Am răsfoit cărticele despre marii conducători ai Marii Britanii, despre animale si tinuturi exotice (colecția de reviste "}
                                   <a href={"http://www.nationalgeographic-magazine.com/eu/"} target={"_blank"}>
                                     {"National Geographic"}
                                   </a>
-                                  {" şi Big Explorer) şi ne-am dat cu părerea despre curiozitățile din filele revistelor în speranța că le vom vedea vreodată și în realitate."}
+                                  {" și Big Explorer) și ne-am dat cu părerea despre curiozitățile din filele revistelor în speranța că le vom vedea vreodată și în realitate."}
                                 </p>
                               </div>
                             </div>
                             <div>
                               <div>
                                 <h2>
-                                  {"Playday"}
-                                  {"(prima sesiune) – Galerie foto completa"}
+                                  {"Playday(prima sesiune) – Galerie foto completa"}
                                 </h2>
                                 <p></p>
                                 <p>
@@ -219,7 +213,7 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Am construit castele și le-am înfrumusețat cu flori după propria imaginație, am rezolvat puzzle-uri, am creat povești pe loc în sala cu papuși sau jocuri cu mingea de pluș în sala mare şi în tot acest timp am fost cuminţi, politicoşi şi prietenoşi. Înainte de a pleca am participat cu toţii la curăţenie. Am strâns jocurile, am aranjat cărţile şi apoi, în ultimele 10 minute, ne-am relaxat vizionând un film de animaţie de scurt metraj."}
+                                  {"Am construit castele și le-am înfrumusețat cu flori după propria imaginație, am rezolvat puzzle-uri, am creat povești pe loc în sala cu papuși sau jocuri cu mingea de pluș în sala mare și în tot acest timp am fost cuminți, politicoși și prietenoși. Înainte de a pleca am participat cu toții la curățenie. Am strâns jocurile, am aranjat cărțile și apoi, în ultimele 10 minute, ne-am relaxat vizionând un film de animație de scurt metraj."}
                                 </p>
                                 <p>
                                   <strong>
@@ -407,7 +401,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Christmas is coming… Vine Crăciunul şi ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
+              {"Christmas is coming… Vine Crăciunul și ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -420,7 +414,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/puppet-theatre-13-24-iulie/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/puppet-theatre.jpg\")"}}>
             <h3>
-              {"Curs de vară de limba engleză PUPPET THEATRE (4-6 ani)"}
+              {"Curs de vară de limba engleză "}<strong>{"PUPPET THEATRE"}</strong>{" (4 - 6 ani)"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -428,7 +422,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"PUPPET THEATRE – seria 13 – 24 iulie (4-6 ani) Vara este momentul cel mai potrivit să încercăm ceva nou."}
+              <strong>{"PUPPET THEATRE"}</strong>{" – seria 13 – 24 iulie (4 - 6 ani) Vara este momentul cel mai potrivit să încercăm ceva nou."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -441,7 +435,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-13-24-iulie/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/storytime.jpg\")"}}>
             <h3>
-              {"Curs de vara de limba engleza STORYTIME – (8-10 ani)"}
+              {"Curs de vara de limba engleza "}<strong>{"STORYTIME"}</strong>{" – (8 - 10 ani)"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -449,7 +443,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Storytime – seria 13-24 iulie (8-10 ani) Poveştile sunt o mare parte din viaţa noastră, fie că e vorba de"}
+              <strong>{"Storytime"}</strong>{" – seria 13-24 iulie (8 - 10 ani) Poveștile sunt o mare parte din viața noastră, fie că e vorba de"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -462,7 +456,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-6-8-ani-galerie-foto/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-vara-de-limba-engleza-Storytime-6-8-ani.jpg\")"}}>
             <h3>
-              {"Curs de vara de limba engleza STORYTIME (6-8 ani)"}
+              {"Curs de vara de limba engleza "}<strong>{"STORYTIME"}</strong>{" (6 - 8 ani)"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -470,7 +464,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Curs de vară de limba engleză “Storytime” (6-8) ani Am citit, ascultat și vizionat povești în limba engleză, am interpretat"}
+              {"Curs de vară de limba engleză "}<strong>{"Storytime"}</strong>{" (6-8) ani Am citit, ascultat și vizionat povești în limba engleză, am interpretat"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -483,7 +477,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-5-6-ani-galerie-foto/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-vara-de-limba-engleza-Storytime-5-6-ani2.jpg\")"}}>
             <h3>
-              {"Storytime (5-6 ani) – Galerie foto"}
+              <strong>{"Storytime"}</strong>{" (5 - 6 ani) – Galerie foto"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -491,7 +485,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Curs de vară de limba engleză – Storytime (5-6 ani) Am fost un grup plin de energie şi"}
+              {"Curs de vară de limba engleză – "}<strong>{"Storytime"}</strong>{" (5 - 6 ani) Am fost un grup plin de energie și"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

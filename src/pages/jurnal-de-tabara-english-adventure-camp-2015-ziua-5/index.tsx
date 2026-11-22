@@ -105,18 +105,18 @@ export default function Page() {
                                   <strong>
                                     {"Vineri, 28 august"}
                                   </strong>
-                                  {", Poiana Braşov 2015 – "}
+                                  {", Poiana Brașov 2015 – "}
                                   <strong>
                                     {"Ziua"}
                                     {"5"}
                                   </strong>
                                 </p>
                                 <p>
-                                  {"A venit în sfârşit ziua a cincea a "}
+                                  {"A venit în sfârșit ziua a cincea a "}
                                   <a href={"/tabere/tabara-de-limba-engleza-si-aventura-in-romania/"}>
                                     {"taberei "}
                                   </a>
-                                  {"şi mult aşteptată excursie! După micul dejun, ne-am pregătit rucsacurile pentru plecare: pelerine de ploaie, o haina mai groasă, apă şi eventual o şapcă şi Jerry, unul dintre ghizi, ne-a făcut o prezentare scurtă a obiectivelor pe care le vom vizită şi a regulilor de comportament pe durata excursiei. Ne-am pus toţi bandanele colorate pe cap pentru a ne feri de soare şi a fi uşor de recunoscut şi numărat. Siguranţă este desigur prioritară."}
+                                  {"și mult așteptată excursie! După micul dejun, ne-am pregătit rucsacurile pentru plecare: pelerine de ploaie, o haina mai groasă, apă și eventual o șapcă și Jerry, unul dintre ghizi, ne-a făcut o prezentare scurtă a obiectivelor pe care le vom vizită și a regulilor de comportament pe durata excursiei. Ne-am pus toți bandanele colorate pe cap pentru a ne feri de soare și a fi ușor de recunoscut și numărat. Siguranță este desigur prioritară."}
                                 </p>
                               </div>
                             </div>
@@ -124,30 +124,30 @@ export default function Page() {
                               <div>
                                 <p>
                                   <img decoding={"async"} alt={"tabara_poiana_brasov_atgr_oldline-7791-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7791-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7791-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7791-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7791-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7791-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7791-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7791-150x150.jpg"} />
-                                  {"Ne-am îmbarcat în autocar alături de patru ghizi şi, evident, doamnele profesoare însoţitoare, apoi am pornit la drum spre prima destinaţie: "}
+                                  {"Ne-am îmbarcat în autocar alături de patru ghizi și, evident, doamnele profesoare însoțitoare, apoi am pornit la drum spre prima destinație: "}
                                   <a href={"https://en.wikipedia.org/wiki/R%C3%A2%C8%99nov_Citadel"} target={"_blank"}>
-                                    {"Cetatea Râşnov"}
+                                    {"Cetatea Râșnov"}
                                   </a>
-                                  {". În autocar ghizii ne-au provocat să împărtăşim informaţii despre zona în care ne aflăm cu colegii noştri în schimbul unor puncte pentru echipa. Ne-au pus şi întrebări acolo unde informaţiile erau incomplete şi am fost recompensaţi pe măsură răspunsurilor. Autocarul ne-a lăsat la vreo 20 de minute de mers pe jos de cetate, apoi am înfruntat urcuşul pe picioarele noastre. La intrarea în cetate ne-am oprit pentru că unul din ghizi să ne povestească despre istoria cetăţii şi să ne pună câteva întrebări despre motivele pentru care cetatea a fost construită atât de sus, avantajele şi dezavantajele acestei amplasări, precum şi importantă ei. În ‘camera slăninii’ ne-a întâmpinat un domn în vârstă costumat şi înarmat că în secolul XV, pesemne gardianul cetăţii. Ne-a povestit despre acea încăpere cu dublu rol : în vreme de pace cămară pentru provizii şi în vreme de război punct strategic de supraveghere a cetăţii şi împrejurimilor. Am urcat şi în cel mai înalt punct al Cetăţii Râşnov de unde se pot vedea masivii ce o înconjoară: Munţii Piatră Craiului, Munţii Bucegi, Masivul Postăvarul şi Măgura Codlei."}
+                                  {". În autocar ghizii ne-au provocat să împărtășim informații despre zona în care ne aflăm cu colegii noștri în schimbul unor puncte pentru echipa. Ne-au pus și întrebări acolo unde informațiile erau incomplete și am fost recompensați pe măsură răspunsurilor. Autocarul ne-a lăsat la vreo 20 de minute de mers pe jos de cetate, apoi am înfruntat urcușul pe picioarele noastre. La intrarea în cetate ne-am oprit pentru că unul din ghizi să ne povestească despre istoria cetății și să ne pună câteva întrebări despre motivele pentru care cetatea a fost construită atât de sus, avantajele și dezavantajele acestei amplasări, precum și importantă ei. În ‘camera slăninii’ ne-a întâmpinat un domn în vârstă costumat și înarmat că în secolul XV, pesemne gardianul cetății. Ne-a povestit despre acea încăpere cu dublu rol : în vreme de pace cămară pentru provizii și în vreme de război punct strategic de supraveghere a cetății și împrejurimilor. Am urcat și în cel mai înalt punct al Cetății Râșnov de unde se pot vedea masivii ce o înconjoară: Munții Piatră Craiului, Munții Bucegi, Masivul Postăvarul și Măgura Codlei."}
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"tabara_poiana_brasov_atgr_oldline-7845-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7845-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7845-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7845-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7845-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7845-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7845-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7845-150x150.jpg"} />
-                                  {"A urmat în itineraiul nostru o incursiune în lumea de mult apusă a Jurasicului: Dino Park. Un ghid ne-a condus pe traseul amenajat şi ne-a povestit câte ceva despre fiecare dinozaur. Am văzut un vulcan pregătit să erupă, am învăţat despre dinozauri ierbivori şi carnivori, despre caracteristicile lor şi modul de viaţă, am văzut strămoşul broaştei ţestoase şi pe cel al crocodilului, am văzut o sumedenie de dinozauri mai puţin cunoscuţi, dar şi câţiva pe care i-am putut numi chiar noi: Diplodocus, Triceratops şi Tiranozaur."}
-                                  {" Am făcut poze cu unii dintre ei, iar pe unii i-am admirat de la distanţă. Până la sfârşitul turului cei mai mulţi dintre noi eram deja flamanzi, aşa că următoarea oprire a fost într-o poieniţă pentru masă de prânz."}
+                                  {"A urmat în itineraiul nostru o incursiune în lumea de mult apusă a Jurasicului: Dino Park. Un ghid ne-a condus pe traseul amenajat și ne-a povestit câte ceva despre fiecare dinozaur. Am văzut un vulcan pregătit să erupă, am învățat despre dinozauri ierbivori și carnivori, despre caracteristicile lor și modul de viață, am văzut strămoșul broaștei țestoase și pe cel al crocodilului, am văzut o sumedenie de dinozauri mai puțin cunoscuți, dar și câțiva pe care i-am putut numi chiar noi: Diplodocus, Triceratops și Tiranozaur."}
+                                  {" Am făcut poze cu unii dintre ei, iar pe unii i-am admirat de la distanță. Până la sfârșitul turului cei mai mulți dintre noi eram deja flamanzi, așa că următoarea oprire a fost într-o poieniță pentru masă de prânz."}
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"tabara_poiana_brasov_atgr_oldline-7899-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7899-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7899-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7899-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7899-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7899-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7899-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7899-150x150.jpg"} />
-                                  {"După ce ne-am potolit foamea, a venit momentul îmbarcării pentru a porni spre Braşov. Ghizii ne-au întreţinut tot drumul verificând dacă am fost atenţi la ce ni s-a povestit despre locaţiile vizitate şi nici nu ne-am dat seama când am ajuns la destinaţie. Am avut ceva de mers pe jos până la prima oprire din Braşov, însă a meritat tot efortul. La Muzeul ‘Prima Şcoală Românească’ am fost întâmpinaţi de dl. Profesor Teolog Vasile Oltean, director al muzeului. Ne-a aşezat în băncile din sala ‘Anton Pann’, bănci în care a stat chiar marele scriitor, şi ne-a povestit despre şcoală ‘de atunci’, despre elevi şi învăţătură care se oferea în şcoli, despre modalitatea de disciplinare – binecunoscutul « Sfântul Nicolae » din poveştile lui Ion Creangă, despre manuale şi tot felul de documente unice şi extrem de valoroase pentru istoria noastră, cum ar fi o harta a Daciei, o serie de manuscrise, pergamente din piele de ied nenăscut şi ediţii princeps ale unor cărţi de mare importantă istorică, prima Biblie tipărită în România, steagul de la încoronarea Regelui Ferdinand al ÎI-lea şi multe altele. Ne-a arătat cum funcţionează tiparniţa folosită de Diaconul Coresi, precum şi o parte din cărţile tipărite chiar de el în secolul al XVI-lea."}
+                                  {"După ce ne-am potolit foamea, a venit momentul îmbarcării pentru a porni spre Brașov. Ghizii ne-au întreținut tot drumul verificând dacă am fost atenți la ce ni s-a povestit despre locațiile vizitate și nici nu ne-am dat seama când am ajuns la destinație. Am avut ceva de mers pe jos până la prima oprire din Brașov, însă a meritat tot efortul. La Muzeul ‘Prima Școală Românească’ am fost întâmpinați de dl. Profesor Teolog Vasile Oltean, director al muzeului. Ne-a așezat în băncile din sala ‘Anton Pann’, bănci în care a stat chiar marele scriitor, și ne-a povestit despre școală ‘de atunci’, despre elevi și învățătură care se oferea în școli, despre modalitatea de disciplinare – binecunoscutul « Sfântul Nicolae » din poveștile lui Ion Creangă, despre manuale și tot felul de documente unice și extrem de valoroase pentru istoria noastră, cum ar fi o harta a Daciei, o serie de manuscrise, pergamente din piele de ied nenăscut și ediții princeps ale unor cărți de mare importantă istorică, prima Biblie tipărită în România, steagul de la încoronarea Regelui Ferdinand al ÎI-lea și multe altele. Ne-a arătat cum funcționează tiparnița folosită de Diaconul Coresi, precum și o parte din cărțile tipărite chiar de el în secolul al XVI-lea."}
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"tabara_poiana_brasov_atgr_oldline-7947-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7947-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7947-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7947-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7947-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7947-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7947-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-7947-150x150.jpg"} />
-                                  {"Următoarea destinaţie: Stradă Sforii. Am aflat că a fost construită pentru a uşura accesul pompierilor în centrul Braşovului şi am făcut câteva poze, apoi ne-am îndreptat către Biserica Neagră şi Piaţă Sfatului unde am avut 20 de minute pentru a cumpără suveniruri. După expirarea timpului stabilit ne-am întors cu toţii la locul de întâlnire, ne-am încolonat, ne-am numărat şi am pornit din nou spre autocar."}
+                                  {"Următoarea destinație: Stradă Sforii. Am aflat că a fost construită pentru a ușura accesul pompierilor în centrul Brașovului și am făcut câteva poze, apoi ne-am îndreptat către Biserica Neagră și Piață Sfatului unde am avut 20 de minute pentru a cumpără suveniruri. După expirarea timpului stabilit ne-am întors cu toții la locul de întâlnire, ne-am încolonat, ne-am numărat și am pornit din nou spre autocar."}
                                 </p>
                                 <p>
-                                  {"Ultima destinaţie a fost Grădina Zoologică din Braşov care a fost, spre norocul nostru, destul de liberă şi am putut privi toate animalele fără a ne înghesui sau a stă la coadă. Primele animale cu care am dat ochii au fost leii şi tigrii, apoi am văzut un jaguar, babuini, cerbi, o vulpe, porci mistreţi, castori, urşi, lame, cai sălbatici, lebede, rate şi gâste sălbatice, păuni, broaşte ţestoase şi o sumedenie de reptile exotice."}
+                                  {"Ultima destinație a fost Grădina Zoologică din Brașov care a fost, spre norocul nostru, destul de liberă și am putut privi toate animalele fără a ne înghesui sau a stă la coadă. Primele animale cu care am dat ochii au fost leii și tigrii, apoi am văzut un jaguar, babuini, cerbi, o vulpe, porci mistreți, castori, urși, lame, cai sălbatici, lebede, rate și gâste sălbatice, păuni, broaște țestoase și o sumedenie de reptile exotice."}
                                 </p>
                                 <p>
-                                  {"Obosiţi, dar veseli, am plecat spre hotel dansând şi ovaţionând culorile echipelor noastre. Şi această zi a fost presărată cu momente în care puteam câştigă puncte, iar ‘cât de tare ne distrăm’ pe drum înapoi a fost unul din ele. Când am ajuns, ne aştepta cină : supă crema de ciuperci cu crutoane, o porţie zdravănă de cartofi prăjiţi cu un muşchiuleţ umplut şi salată de varză, iar la deşert o prăjitură. Că activitate de seară am avut programată seară filmului şi ne-am uitat la ’The Croods’, apoi ne-am retras în camere şi am dormit mai adânc că niciodată."}
+                                  {"Obosiți, dar veseli, am plecat spre hotel dansând și ovaționând culorile echipelor noastre. Și această zi a fost presărată cu momente în care puteam câștigă puncte, iar ‘cât de tare ne distrăm’ pe drum înapoi a fost unul din ele. Când am ajuns, ne aștepta cină : supă crema de ciuperci cu crutoane, o porție zdravănă de cartofi prăjiți cu un mușchiuleț umplut și salată de varză, iar la deșert o prăjitură. Că activitate de seară am avut programată seară filmului și ne-am uitat la ’The Croods’, apoi ne-am retras în camere și am dormit mai adânc că niciodată."}
                                 </p>
                               </div>
                             </div>
@@ -335,7 +335,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 7 Duminică, 30 august, Poiana Braşov 2015 – Ziua 7 În dimineaţă ultimei zile de tabăra copiii"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 7 Duminică, 30 august, Poiana Brașov 2015 – Ziua 7 În dimineață ultimei zile de tabăra copiii"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -356,7 +356,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiţi pentru încălzire. Pentru dimineaţă ghizii ne-au pregătit o drumeţie."}
+              {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiți pentru încălzire. Pentru dimineață ghizii ne-au pregătit o drumeție."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -377,7 +377,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 4 Joi, 27 august, Poiana Braşov 2015 – Ziua 4 Ne-am trezit în dimineaţă zilei"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 4 Joi, 27 august, Poiana Brașov 2015 – Ziua 4 Ne-am trezit în dimineață zilei"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -398,7 +398,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 3 Miercuri, 26 august, Poiana Braşov 2015 O nouă zi, o nouă aventură. După trezirea"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 3 Miercuri, 26 august, Poiana Brașov 2015 O nouă zi, o nouă aventură. După trezirea"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -419,7 +419,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 2 Marţi, 25 August, Poiana Braşov 2015 Bună dimineaţa! Suntem în a două zi de"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 2 Marți, 25 August, Poiana Brașov 2015 Bună dimineața! Suntem în a două zi de"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -440,7 +440,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 1 Luni, 24 august, Poiana Braşov 2015 După o călătorie cu microbuzul de aproape 4"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 1 Luni, 24 august, Poiana Brașov 2015 După o călătorie cu microbuzul de aproape 4"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

@@ -193,7 +193,7 @@ export default function Page() {
                                 {" în România Consiliul Britanic, zona Bran, vara 2014"}
                               </p>
                               <p>
-                                {"Proiectarea activității în cadrul clubului Britteen pentru copii de 9-14 ani"}
+                                {"Proiectarea activității în cadrul clubului Britteen pentru copii de 9 - 14 ani"}
                               </p>
                               <p>
                                 {"Organizator evenimente în cadrul programului „Life After Work”"}

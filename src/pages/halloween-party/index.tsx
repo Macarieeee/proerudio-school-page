@@ -46,7 +46,7 @@ export default function Page() {
       <dl className="halloween-facts">
         <div><CalendarDays aria-hidden="true" /><dt>Când ne întâlnim</dt><dd>31 octombrie 2026<span>Sâmbătă · ora se comunică prin email</span></dd></div>
         <div><MapPin aria-hidden="true" /><dt>Unde are loc</dt><dd>Pro Erudio<span><a href="https://maps.app.goo.gl/4zpWVBFp12RsiEMU7" target="_blank" rel="noopener noreferrer">Vezi locația pe hartă ↗</a></span></dd></div>
-        <div><Users aria-hidden="true" /><dt>Pentru cine</dt><dd>Copii de 6–14 ani<span>Activități adaptate pe grupe de vârstă</span></dd></div>
+        <div><Users aria-hidden="true" /><dt>Pentru cine</dt><dd>Copii de 6 - 14 ani<span>Activități adaptate pe grupe de vârstă</span></dd></div>
       </dl>
 
       <section className="halloween-section" aria-labelledby="activities-title">

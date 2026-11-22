@@ -50,28 +50,7 @@ export default function Page() {
                                 <div>
                                   <div>
                                     <div className={"related-content-grid"} id={"card-grid-0"}>
-                                      <a href={"/atelier-de-dansuri-populare/"} className={"related-content-card"}>
-                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2026/01/dansuri-24-ian-Orizont-1024x576.jpg\")"}}>
-                                          <h3>
-                                            {"Atelierul de dansuri populare"}
-                                          </h3>
-                                        </div>
-                                        <div className={"related-content-body"}>
-                                          <span className={"related-content-badge"}>
-                                            {"Articole"}
-                                          </span>
-                                          <p>
-                                            {"De Ziua Unirii, ne prindem de mâini și jucăm românește! 💃🕺 🎶 Atelier GRATUIT de dansuri tradiționale pentru copii În spiritul acestei zile pline de semnificație, te invităm gratuit la un atelier de dansuri tradiționale românești – un prilej de bucurie, tradiție și comuniune prin mișcare și muzică populară. ✨ De ce este special acest atelier? Pentru că este gândit ca o activitate distractivă și accesibilă copiilor neinițiați în dansurile populare. Așadar, vino fără teamă să „dăm mână cu mână” într-o horă a prieteniei și a tradiției! 📅 Când: Sâmbătă, 24 ianuarie 2026 📍 Unde: Sediul Pro Erudio Orizont (https://maps.app.goo.gl/naCZdCYF6gEhfKmQ7) ⏰ Ora: Va fi anunțată prin email în data de 22 ianuarie 👧 Vârste: copii 5–12 ani (grupe de vârste apropiate) 🎵 Ce facem la atelier? • Învățăm dansuri populare românești prin demonstrații și explicații pas cu pas •"}
-                                          </p>
-                                          <span className={"related-content-action"}>
-                                            {"Citește articolul"}
-                                            <span aria-hidden={"true"}>
-                                              {"→"}
-                                            </span>
-                                          </span>
-                                        </div>
-                                      </a>
-                                      <a href={"/atelier-de-dansuri-de-craciun/"} className={"related-content-card"}>
+<a href={"/atelier-de-dansuri-de-craciun/"} className={"related-content-card"}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2026/01/Atelier-dansuri-Pro-Erudio-gratuit-1024x576.jpg\")"}}>
                                           <h3>
                                             {"Atelierul de dansuri de Craciun"}
@@ -92,6 +71,8 @@ export default function Page() {
                                           </span>
                                         </div>
                                       </a>
+
+
                                       <a href={"/simulare-cambridge-english-exams/"} className={"related-content-card"}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2026/01/Cambridge-simulare2-1-1024x536.jpg\")"}}>
                                           <h3>
@@ -103,7 +84,7 @@ export default function Page() {
                                             {"Cursuri Pro Erudio"}
                                           </span>
                                           <p>
-                                            {"Simularea de examen urmează formatul de examen şi rezultatele obţinute oferă informaţii foarte valoroase candidatului şi profesorului care îl pregăteşte"}
+                                            {"Simularea de examen urmează formatul de examen și rezultatele obținute oferă informații foarte valoroase candidatului și profesorului care îl pregătește"}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi cursul"}
@@ -137,7 +118,7 @@ export default function Page() {
                                       <a href={"/mos-nicolae-vine-cu-surprize-la-pro-erudio/"} className={"related-content-card"}>
                                         <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2019/11/mos-nicolae2-1024x536.jpg\")"}}>
                                           <h3>
-                                            {"Moş Nicolae vine cu surprize la Pro Erudio"}
+                                            {"Moș Nicolae vine cu surprize la Pro Erudio"}
                                           </h3>
                                         </div>
                                         <div className={"related-content-body"}>
@@ -145,7 +126,7 @@ export default function Page() {
                                             {"Pro Erudio"}
                                           </span>
                                           <p>
-                                            {"Moş Nicolae vine cu surprize la Pro Erudio Dragi părinţi, Sărbătorile de iarnă încep cu Sfântul Nicolae, iar noi, la Pro Erudio, ne"}
+                                            {"Moș Nicolae vine cu surprize la Pro Erudio Dragi părinți, Sărbătorile de iarnă încep cu Sfântul Nicolae, iar noi, la Pro Erudio, ne"}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi detaliile"}
@@ -166,7 +147,7 @@ export default function Page() {
                                             {"Pro Erudio"}
                                           </span>
                                           <p>
-                                            {"În cadrul acestei sesiuni de joacă micuţii vor avea ocazia să-şi pună în valoare talentele şi să cunoască alți copii cu interese comune. Vor lega prietenii, vor învăţa unii de la alţii şi se vor distra de minune în tot acest timp."}
+                                            {"În cadrul acestei sesiuni de joacă micuții vor avea ocazia să-și pună în valoare talentele și să cunoască alți copii cu interese comune. Vor lega prietenii, vor învăța unii de la alții și se vor distra de minune în tot acest timp."}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Vezi detaliile"}
@@ -187,7 +168,7 @@ export default function Page() {
                                             {"Articole"}
                                           </span>
                                           <p>
-                                            {"Halloween Party– 2015 Sâmbătă, 31 octombrie 2015 M-am trezit de dimineaţă cu gândul la petrecerea ce urmează, după o săptămâna întreagă"}
+                                            {"Halloween Party– 2015 Sâmbătă, 31 octombrie 2015 M-am trezit de dimineață cu gândul la petrecerea ce urmează, după o săptămâna întreagă"}
                                           </p>
                                           <span className={"related-content-action"}>
                                             {"Citește articolul"}
@@ -197,29 +178,7 @@ export default function Page() {
                                           </span>
                                         </div>
                                       </a>
-                                      <a href={"/seara-filmului/"} className={"related-content-card"} hidden={true}>
-                                        <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2017/11/seara-filmului-german-1024x536.jpg\")"}}>
-                                          <h3>
-                                            {"Seara filmului"}
-                                          </h3>
-                                        </div>
-                                        <div className={"related-content-body"}>
-                                          <span className={"related-content-badge"}>
-                                            {"Pro Erudio"}
-                                          </span>
-                                          <p>
-                                            {"Vă invităm sâmbătă la SEARA FILMULUI GERMAN. Vom viziona filmul Bibi "}
-                                            {"&"}
-                                            {" Tina, nominalizat în cadrul Premiilor Filmului German la categoria cel mai bun film pentru copii și tineri"}
-                                          </p>
-                                          <span className={"related-content-action"}>
-                                            {"Vezi detaliile"}
-                                            <span aria-hidden={"true"}>
-                                              {"→"}
-                                            </span>
-                                          </span>
-                                        </div>
-                                      </a>
+
                                     </div>
                                     <div className={"card-grid-more"}>
                                       <button type={"button"} className={"grid-more-button"} aria-controls={"card-grid-0"} aria-expanded={"false"} data-expand-card-grid={"true"}>

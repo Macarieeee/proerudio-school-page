@@ -124,37 +124,37 @@ export default function Page() {
                                   </strong>
                                 </p>
                                 <p>
-                                  {"A doua zi de dimineaţă toată lumea a fost în picioare la ora 8.00 şi în sala de mese la 8.30. Cereale cu lapte, ceai, unt şi brânză topită, şuncă presată, ouă, dulceaţă, toată lumea a mâncat pe săturate şi la alegere. Să ne fie de bine !"}
+                                  {"A doua zi de dimineață toată lumea a fost în picioare la ora 8.00 și în sala de mese la 8.30. Cereale cu lapte, ceai, unt și brânză topită, șuncă presată, ouă, dulceață, toată lumea a mâncat pe săturate și la alegere. Să ne fie de bine!"}
                                 </p>
                                 <p>
-                                  {"La 10 fără 10 ne-am întâlnit toţi cu trainerii în faţa hotelului pentru o încălzire jucăuşă: ‘Everybody, hands up !’ Ne-am împărţit pe grupe şi am pornit către locaţiile cursurilor. Nu am ştiut la ce să ne aşteptăm şi am fost plăcut surprinşi de cât de distractive pot fi cursurile. În funcţie de grupă, prima parte a cursurilor a constat în activităţi introductive în care copiii au aflat câte ceva unii despre alţii şi despre traineri. În a două parte a cursurilor, cei mici au exersat părţile corpului sau au vorbit despre animale şi s-au jucat tot felul de jocuri, unele de vocabular, altele de mişcare, au învăţat prin repetiţii în cor, au desenat şi au completat fişe cu diferite informaţii despre ei. Activităţile de la grupele mai mari s-au bazat pe "}
+                                  {"La 10 fără 10 ne-am întâlnit toți cu trainerii în fața hotelului pentru o încălzire jucăușă: ‘Everybody, hands up!’ Ne-am împărțit pe grupe și am pornit către locațiile cursurilor. Nu am știut la ce să ne așteptăm și am fost plăcut surprinși de cât de distractive pot fi cursurile. În funcție de grupă, prima parte a cursurilor a constat în activități introductive în care copiii au aflat câte ceva unii despre alții și despre traineri. În a două parte a cursurilor, cei mici au exersat părțile corpului sau au vorbit despre animale și s-au jucat tot felul de jocuri, unele de vocabular, altele de mișcare, au învățat prin repetiții în cor, au desenat și au completat fișe cu diferite informații despre ei. Activitățile de la grupele mai mari s-au bazat pe "}
                                   <a href={"/cursuri-de-weekend-in-limba-engleza/curs-in-limba-engleza-speak-up/"}>
-                                    {"conversaţie"}
+                                    {"conversație"}
                                   </a>
-                                  {". Au povestit despre cum au ajuns în această tabăra şi au împărtăşit idei pentru discuţiile viitoare. Au jucat ‘Two truths, one lie’ (joc de conversaţie) şi ‘Splat’ (joc de mişcare şi coordonare)."}
+                                  {". Au povestit despre cum au ajuns în această tabăra și au împărtășit idei pentru discuțiile viitoare. Au jucat ‘Two truths, one lie’ (joc de conversație) și ‘Splat’ (joc de mișcare și coordonare)."}
                                 </p>
                               </div>
                             </div>
                             <div>
                               <div>
                                 <p>
-                                  {"După atâta efort intelectual, am aşteptat cu toţii masa de prânz cu nerăbdare. Ne-am bucurat de o porţie de supă cu găluşti, urmată de şniţel, cartofi prăjiţi şi castraveţi muraţi (pentru cei câţiva copiii cu regim special au pregătit porţii separate), iar la desert am servit câte o piersică zemoasă şi dulce."}
+                                  {"După atâta efort intelectual, am așteptat cu toții masa de prânz cu nerăbdare. Ne-am bucurat de o porție de supă cu găluști, urmată de șnițel, cartofi prăjiți și castraveți murați (pentru cei câțiva copiii cu regim special au pregătit porții separate), iar la desert am servit câte o piersică zemoasă și dulce."}
                                 </p>
                                 <p>
-                                  {"Am plecat de la masă pe o ploaie torenţială cu puţine speranţe să putem merge la piscină, aşa cum eram programaţi. Ne-am strâns cu mic cu mare în faţă hotelului, sperând să se mai domolească. Unii au renunţat, dar cei mai hotărâţi au înfruntat vremea potrivnică chiar dacă cu o întârziere de 15 minute şi au făcut o băiţa scurtă în piscina de la Hotelul Grădiştea."}
+                                  {"Am plecat de la masă pe o ploaie torențială cu puține speranțe să putem merge la piscină, așa cum eram programați. Ne-am strâns cu mic cu mare în față hotelului, sperând să se mai domolească. Unii au renunțat, dar cei mai hotărâți au înfruntat vremea potrivnică chiar dacă cu o întârziere de 15 minute și au făcut o băița scurtă în piscina de la Hotelul Grădiștea."}
                                 </p>
                                 <p>
-                                  {"Primul workshop a fost la alegere între : drama, bridge building, bunting şi rounders. La drama au învăţat despre tehnici de respiraţie şi tonalitate, apoi au inventat pe grupe câte o mică scenetă, pe când la bridge building le-a fost pusă la încercare creativitatea într-o activitate de construcţie poduri de hârtie, tot pe grupe. Bunting s-a ţinut afară, în foişor, unde copiii au pictat fanioane şi le-au înşiruit pe sfori. Rounders este un joc de echipa, inspirat de baseball, puţin simplificat pentru copii."}
+                                  {"Primul workshop a fost la alegere între : drama, bridge building, bunting și rounders. La drama au învățat despre tehnici de respirație și tonalitate, apoi au inventat pe grupe câte o mică scenetă, pe când la bridge building le-a fost pusă la încercare creativitatea într-o activitate de construcție poduri de hârtie, tot pe grupe. Bunting s-a ținut afară, în foișor, unde copiii au pictat fanioane și le-au înșiruit pe sfori. Rounders este un joc de echipa, inspirat de baseball, puțin simplificat pentru copii."}
                                 </p>
                                 <p>
-                                  {"Pentru al doilea workshop au avut de ales între : airsoft, disc golf, zumba şi « capture the flag ». Airsoft-ul a fost bucuria băieţilor. După un instructaj serios, au avut ocazia să tragă la ţintă, iar cei mai mari şi-au exersat abilităţile de luptă pe terenul de lângă pârtie. Disc golf a fost un "}
+                                  {"Pentru al doilea workshop au avut de ales între : airsoft, disc golf, zumba și « capture the flag ». Airsoft-ul a fost bucuria băieților. După un instructaj serios, au avut ocazia să tragă la țintă, iar cei mai mari și-au exersat abilitățile de luptă pe terenul de lângă pârtie. Disc golf a fost un "}
                                   <a href={"/playday-pro-erudio/"}>
                                     {"joc "}
                                   </a>
-                                  {"ce le-a pus la încercare viteza şi coordonarea în grup. La jocul « capture the flag » s-au prezentat în număr mare şi au pus la cale strategii. În sala DISCO s-a ţinut o şedinţa energică de zumba."}
+                                  {"ce le-a pus la încercare viteza și coordonarea în grup. La jocul « capture the flag » s-au prezentat în număr mare și au pus la cale strategii. În sala DISCO s-a ținut o ședința energică de zumba."}
                                 </p>
                                 <p>
-                                  {"Cina a început cu o porţie delicioasă de macaroane cu brânză şi caşcaval, urmată de pulpe de pui cu legume, iar la desert câte o prăjitură."}
+                                  {"Cina a început cu o porție delicioasă de macaroane cu brânză și cașcaval, urmată de pulpe de pui cu legume, iar la desert câte o prăjitură."}
                                 </p>
                               </div>
                             </div>
@@ -188,11 +188,11 @@ export default function Page() {
                                   <a href={"https://en.wikipedia.org/wiki/Boot_camp"} target={"_blank"}>
                                     {"Bootcamp"}
                                   </a>
-                                  {". Din spirit de camaraderie Elena şi Aura s-au alăturat armatei de copii. Noii recruţi au trecut prin toate caznele unui antrenament milităresc. Împărţiţi pe staţii, au făcut genoflexiuni, abdomene, flotări, au exersat mişcări de box, s-au târât pe sub o pânză, au făcut sărituri şi alergări în aer liber, fiecare după puterile lui. Unii dintre cei care au rezitat până la sfârşitul antrenamentului au declarat că sunt extenuaţi şi au sărit sesiunea de disco."}
+                                  {". Din spirit de camaraderie Elena și Aura s-au alăturat armatei de copii. Noii recruți au trecut prin toate caznele unui antrenament milităresc. Împărțiți pe stații, au făcut genoflexiuni, abdomene, flotări, au exersat mișcări de box, s-au târât pe sub o pânză, au făcut sărituri și alergări în aer liber, fiecare după puterile lui. Unii dintre cei care au rezitat până la sfârșitul antrenamentului au declarat că sunt extenuați și au sărit sesiunea de disco."}
                                 </p>
                                 <p>
                                   <strong>
-                                    {"La ora 11 toată lumea era în camere şi am dormit neîntorşi până dimineaţă."}
+                                    {"La ora 11 toată lumea era în camere și am dormit neîntorși până dimineață."}
                                   </strong>
                                 </p>
                               </div>

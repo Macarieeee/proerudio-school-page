@@ -94,7 +94,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   <span>
-                                    {"Instructor de limbă engleză la Scoala Germana ,,Insam’’ si la Centrul Pedagogic Inovational „Ion Groza”, Chisinau, Republica Moldova, 2014 – 2016"}
+                                    {"Instructor de limbă engleză la Scoala Germana,,Insam’’ si la Centrul Pedagogic Inovational „Ion Groza”, Chisinau, Republica Moldova, 2014 – 2016"}
                                   </span>
                                 </li>
                                 <li>

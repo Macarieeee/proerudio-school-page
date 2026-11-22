@@ -53,10 +53,7 @@ export default function Page() {
                                         </span>
                                       </h2>
 <p>
-                                <span>
-                                  {"E"}
-                                </span>
-                                {"\nste vacanță, dumneavoastră sunteți încă la serviciu și aveți impresia că timpul nu va permite să vă ocupați suficient de copilul dumneavoastră? Căutați să-i ocupați timpul cu altceva decât televizor și tabletă, dar nu știți cum să procedați? Atunci este posibil să vă ajutăm să rezolvați, chiar dacă doar parțial, această problemă."}
+                                {"Este vacanță, dumneavoastră sunteți încă la serviciu și aveți impresia că timpul nu va permite să vă ocupați suficient de copilul dumneavoastră? Căutați să-i ocupați timpul cu altceva decât televizor și tabletă, dar nu știți cum să procedați? Atunci este posibil să vă ajutăm să rezolvați, chiar dacă doar parțial, această problemă."}
                               </p>
 </section>
 
@@ -69,23 +66,17 @@ export default function Page() {
                                         {"De ce Play Day?"}
                                       </h2>
 <p>
-                                        <span>
-                                          {"E"}
-                                        </span>
-                                        {"\nste esenţial pentru copii să înveţe să interacţioneze cu oameni diferiţi şi să se integreze natural într-un grup pentru a-şi dezvolta încrederea în sine şi abilităţile sociale. De asemenea, este important să le permitem să se exprime şi să se exteriorizeze, să graviteze către anumite activităţi şi anumite persoane conform propriilor alegeri, fară influența adultului."}
+                                        {"Este esențial pentru copii să învețe să interacționeze cu oameni diferiți și să se integreze natural într-un grup pentru a-și dezvolta încrederea în sine și abilitățile sociale. De asemenea, este important să le permitem să se exprime și să se exteriorizeze, să graviteze către anumite activități și anumite persoane conform propriilor alegeri, fară influența adultului."}
                                       </p>
 <p>
-                                        {"Dacă sunteţi de acord cu noi, atunci vă invităm cu mare drag la "}
+                                        {"Dacă sunteți de acord cu noi, atunci vă invităm cu mare drag la "}
                                         <span>
                                           {"Playday @ Pro Erudio"}
                                         </span>
-                                        {"\n, o sesiune de 4 ore de joacă, cântec şi distracţie, parţial structurată şi integral supravegheată."}
+                                        {"\n, o sesiune de 4 ore de joacă, cântec și distracție, parțial structurată și integral supravegheată."}
                                       </p>
 <p>
-                                        <span>
-                                          {"V"}
-                                        </span>
-                                        {"\nom pune la dispoziţia micuţilor zone de joacă: activităţi de desenat şi colorat, jocuri de masă (boardgames), jocuri de carti, puzzle-uri, jocuri de construcție, păpuşi şi animale de pluş, o zonă „linistita” dedicată cititului pentru pasionaţii de lectură etc. Vom împărţi timpul în intervale libere în care copiii pot explora zonele de joacă şi se pot juca în voie cu prietenii lor şi intervale structurate în care ne strângem cu toţii pentru activităţi comune ( jocuri de mișcare, cântece și dansuri, jocuri pe echipe etc)"}
+                                        {"Vom pune la dispoziția micuților zone de joacă: activități de desenat și colorat, jocuri de masă (boardgames), jocuri de carti, puzzle-uri, jocuri de construcție, păpuși și animale de pluș, o zonă „linistita” dedicată cititului pentru pasionații de lectură etc. Vom împărți timpul în intervale libere în care copiii pot explora zonele de joacă și se pot juca în voie cu prietenii lor și intervale structurate în care ne strângem cu toții pentru activități comune ( jocuri de mișcare, cântece și dansuri, jocuri pe echipe etc)"}
                                       </p>
 </section>
 
@@ -107,7 +98,7 @@ export default function Page() {
                                     </figure>
 <p>
                                         <span>
-                                          {"Desfasurarea cursului in text si imagini"}
+                                          {"Desfășurarea cursului în text și imagini"}
                                         </span>
                                       </p>
 <p>
@@ -131,14 +122,14 @@ export default function Page() {
 
 <section className="event-section">
 <p>
-                                {"În cadrul acestei sesiuni de joacă micuţii vor avea ocazia să-şi pună în valoare talentele şi să cunoască alți copii cu interese comune. De asemenea, vor trebui să împartă, să aibă răbdare, să-şi aştepte rândul, să înveţe să asculte şi să accepte că fiecare poate avea o opinie diferită, iar asta nu înseamnă că e greşită. Vor lega prietenii, vor învăţa unii de la alţii şi se vor distra de minune în tot acest timp."}
+                                {"În cadrul acestei sesiuni de joacă micuții vor avea ocazia să-și pună în valoare talentele și să cunoască alți copii cu interese comune. De asemenea, vor trebui să împartă, să aibă răbdare, să-și aștepte rândul, să învețe să asculte și să accepte că fiecare poate avea o opinie diferită, iar asta nu înseamnă că e greșită. Vor lega prietenii, vor învăța unii de la alții și se vor distra de minune în tot acest timp."}
                               </p>
 <p>
-                                {"O oportunitate pentru cei mici şi o binemeritată pauză pentru cei mari, "}
+                                {"O oportunitate pentru cei mici și o binemeritată pauză pentru cei mari, "}
                                 <em>
                                   {"Playday @ Pro Erudio"}
                                 </em>
-                                {" vă aşteaptă!"}
+                                {" vă așteaptă!"}
                               </p>
 <span id={"yiv7796420128yui_3_16_0_1_1436972026828_5144"}>
                                   {"Pentru înscrieri vă rugăm să trimiteți un email la "}
@@ -148,7 +139,7 @@ export default function Page() {
                                   {" în care să specificați numele și vârsta copilului, precum și un număr de telefon al părintelui. Plata se face în ziua activității."}
                                 </span>
 <span id={"yiv7796420128yui_3_16_0_1_1436972026828_5146"}>
-                                  {"Vârsta copiilor participanți: 5 – 11 ani"}
+                                  {"Vârsta copiilor participanți: 5 - 11 ani"}
                                 </span>
 <span id={"yiv7796420128yui_3_16_0_1_1436972026828_12879"}>
                                   {"Locurile sunt limitate."}

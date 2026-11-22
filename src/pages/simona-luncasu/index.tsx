@@ -99,7 +99,7 @@ export default function Page() {
                                   {"Universitatea din București, 2014"}
                                 </li>
                                 <li>
-                                  {"Absolventă a cursului de formare psiho-pedagogică (Modulul 1), Universitatea din Bucureşti, 2014"}
+                                  {"Absolventă a cursului de formare psiho-pedagogică (Modulul 1), Universitatea din București, 2014"}
                                 </li>
                                 <li>
                                   {"Studii postuniversitare, Programul de Masterat "}
@@ -151,11 +151,11 @@ export default function Page() {
                                   {", București, 2016"}
                                 </li>
                                 <li>
-                                  {"Profesor de limba engleză pentru copii şi adulţi –"}
+                                  {"Profesor de limba engleză pentru copii și adulți –"}
                                   <em>
                                     {"FollowMe,"}
                                   </em>
-                                  {" Bucureşti, 2016-2024"}
+                                  {" București, 2016-2024"}
                                 </li>
                               </ul>
                               <h3>

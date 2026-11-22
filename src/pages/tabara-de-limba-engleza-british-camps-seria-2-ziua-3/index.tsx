@@ -125,7 +125,7 @@ export default function Page() {
                                   {"3"}
                                 </h4>
                                 <p>
-                                  {"La 8.30 am început să ne strângem în sala de mese. După un somn bun ne-am încărcat bateriile cu un mic dejun copios : omletă, muşchiuleţ file, unt, brânză topită şi ceai, precum şi clasicele cereale cu lapte."}
+                                  {"La 8.30 am început să ne strângem în sala de mese. După un somn bun ne-am încărcat bateriile cu un mic dejun copios : omletă, mușchiuleț file, unt, brânză topită și ceai, precum și clasicele cereale cu lapte."}
                                 </p>
                               </div>
                             </div>
@@ -142,9 +142,9 @@ export default function Page() {
                                 <p>
                                   {"La "}
                                   <a href={"/cursuri-de-limba-engleza-pentru-copii-si-adolescenti/"} target={"_blank"}>
-                                    {"cursurile de dimineaţă"}
+                                    {"cursurile de dimineață"}
                                   </a>
-                                  {" subiectele de discuţie ale celor mici au fost inversate, cei care au vorbit despre animale cu o zi înainte, au vorbit despre corpul uman şi invers. Unii au întins un copil pe o foaie mare de hârtie şi i-au făcut conturul pentru a numi toate părţile corpului, alţii au vorbit despre ce acţiuni pot face animalele, pentru ca mai apoi să-şi imagineze ei un animal şi să-l deseneze. Au mai discutat şi despre mâncare, au inventat un meniu, apoi s-au jucat de-a restaurantul: ospătarii prezentau meniul, iar clienţii comandau. Şi pentru cei mai mari au fost jocuri, dar şi discuţii pertinente pentru vârstă lor. Astfel, au discutat despre reţele de socializare şi internet, au fost provocaţi să vină cu o idee de afacere pe care să o prezinte trainerilor ce jucau rolul de investitori şi să-i convingă de profitabilitatea ideii lor şi de implicarea socială pozitivă a acesteia."}
+                                  {" subiectele de discuție ale celor mici au fost inversate, cei care au vorbit despre animale cu o zi înainte, au vorbit despre corpul uman și invers. Unii au întins un copil pe o foaie mare de hârtie și i-au făcut conturul pentru a numi toate părțile corpului, alții au vorbit despre ce acțiuni pot face animalele, pentru ca mai apoi să-și imagineze ei un animal și să-l deseneze. Au mai discutat și despre mâncare, au inventat un meniu, apoi s-au jucat de-a restaurantul: ospătarii prezentau meniul, iar clienții comandau. Și pentru cei mai mari au fost jocuri, dar și discuții pertinente pentru vârstă lor. Astfel, au discutat despre rețele de socializare și internet, au fost provocați să vină cu o idee de afacere pe care să o prezinte trainerilor ce jucau rolul de investitori și să-i convingă de profitabilitatea ideii lor și de implicarea socială pozitivă a acesteia."}
                                 </p>
                               </div>
                             </div>
@@ -172,27 +172,27 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Prânzul a fost pe măsura provocărilor de dimineaţă : ciorbă de pui pentru felul întâi, carne de văcuţă în sos cu piure de cartofi şi salată de varză pentru felul al doilea, iar la desert un măr gustos şi sănătos."}
+                                  {"Prânzul a fost pe măsura provocărilor de dimineață : ciorbă de pui pentru felul întâi, carne de văcuță în sos cu piure de cartofi și salată de varză pentru felul al doilea, iar la desert un măr gustos și sănătos."}
                                 </p>
                                 <p>
-                                  {"Încântarea cea mai mare a venit odată cu programarea grupelor de copii cu vârste de sub 12 ani la Aventura Parc, însă când am ajuns acolo, dintr-o neînţelegere organizatorică instructorii erau pregătiţi cu echipamente pentru grupuri de copii cu vârste mai mari de 12 ani. Cei mai hotărâţi au acceptat provocarea şi au aşteptat rotirea echipamentelor potrivite vârstei lor timp de o oră, iar ceilalţi au avut de ales între alte activităţi, printre care şi mult aşteptatul paintball. Au fost grupe atât pentru cei mici, cât şi pentru cei mari, organizate în conformitate cu vârsta. Copiii sub 14 ani au avut ocazia să exerseze la ţintă, au învăţat despre echipament şi reguli, apoi s-au ‘împuşcat’ de la o distanţă sigură, în câmp deschis. Cei mari s-au îndepărtat ceva mai mult de hotel, într-o zona asigurată şi bine cunoscută de traineri, au fost instruiţi temeinic, apoi s-au jucat pe echipe. Pentru cei mai puţin aventuroşi au fost workshopuri din categoria ‘"}
+                                  {"Încântarea cea mai mare a venit odată cu programarea grupelor de copii cu vârste de sub 12 ani la Aventura Parc, însă când am ajuns acolo, dintr-o neînțelegere organizatorică instructorii erau pregătiți cu echipamente pentru grupuri de copii cu vârste mai mari de 12 ani. Cei mai hotărâți au acceptat provocarea și au așteptat rotirea echipamentelor potrivite vârstei lor timp de o oră, iar ceilalți au avut de ales între alte activități, printre care și mult așteptatul paintball. Au fost grupe atât pentru cei mici, cât și pentru cei mari, organizate în conformitate cu vârsta. Copiii sub 14 ani au avut ocazia să exerseze la țintă, au învățat despre echipament și reguli, apoi s-au ‘împușcat’ de la o distanță sigură, în câmp deschis. Cei mari s-au îndepărtat ceva mai mult de hotel, într-o zona asigurată și bine cunoscută de traineri, au fost instruiți temeinic, apoi s-au jucat pe echipe. Pentru cei mai puțin aventuroși au fost workshopuri din categoria ‘"}
                                   <a href={"https://ro.wikipedia.org/wiki/Mi%C8%99carea_artistic%C4%83_Arts_and_Crafts"} target={"_blank"}>
                                     {"arts "}
                                     {"&"}
                                     {" crafts"}
                                   </a>
-                                  {"’ : unii au desenat peisaje, iar alţii au construit bărcuţe de hârtie. Vremea a fost potrivnică pentru a doua sesiune de workshopuri deoarece erau plănuite activităţi sportive şi a plouat destul de tare. Cu toate acestea, fetele (şi câţiva băieţei) s-au bucurat de o sesiune de yoga, iar băieţii au încins un meci de fotbal când s-a domolit ploaia."}
+                                  {"’ : unii au desenat peisaje, iar alții au construit bărcuțe de hârtie. Vremea a fost potrivnică pentru a doua sesiune de workshopuri deoarece erau plănuite activități sportive și a plouat destul de tare. Cu toate acestea, fetele (și câțiva băieței) s-au bucurat de o sesiune de yoga, iar băieții au încins un meci de fotbal când s-a domolit ploaia."}
                                 </p>
                                 <p>
-                                  {"La masă de seară am început cu o porţie de caşcaval pane cu roşii, am continuat cu pulpe de pui dezosate, pregătite la grătar şi servite cu pilaf de orez şi am încheiat cu o porţie delicioasă de griș cu lapte şi dulceaţă."}
+                                  {"La masă de seară am început cu o porție de cașcaval pane cu roșii, am continuat cu pulpe de pui dezosate, pregătite la grătar și servite cu pilaf de orez și am încheiat cu o porție delicioasă de griș cu lapte și dulceață."}
                                 </p>
                                 <p>
-                                  {"La 20.30 ne-am strâns în sala DISCO pentru activitatea de seară. Ploaia a insistat să ne strice planurile şi concursul de fotografie a fost anulat deoarece copiii ar fi trebuit să iasă afară. Dar trainerii mereu pe faza ne-au pregătit repede un ‘quiz’ cu întrebări pentru toate vârstele. Mai întâi ne-au împărţit pe echipe, apoi am demarat runda întâi: geografie."}
-                                  {" Au urmat încă trei runde, fiecare cu altă tematică : pop culture, music, film. Ultima rundă a pus la încercare cunoştinţele copiilor despre trainerii britanici şi copiii s-au amuzat pe seama întrebărilor. După verificarea răspunsurilor a început dansul.O parte din noi au dansat până la 11.00 seară, alţii au jucat cărţi în living, iar cei mai mici s-au culcat mai devreme."}
+                                  {"La 20.30 ne-am strâns în sala DISCO pentru activitatea de seară. Ploaia a insistat să ne strice planurile și concursul de fotografie a fost anulat deoarece copiii ar fi trebuit să iasă afară. Dar trainerii mereu pe faza ne-au pregătit repede un ‘quiz’ cu întrebări pentru toate vârstele. Mai întâi ne-au împărțit pe echipe, apoi am demarat runda întâi: geografie."}
+                                  {" Au urmat încă trei runde, fiecare cu altă tematică : pop culture, music, film. Ultima rundă a pus la încercare cunoștințele copiilor despre trainerii britanici și copiii s-au amuzat pe seama întrebărilor. După verificarea răspunsurilor a început dansul.O parte din noi au dansat până la 11.00 seară, alții au jucat cărți în living, iar cei mai mici s-au culcat mai devreme."}
                                 </p>
                                 <p>
                                   <strong>
-                                    {"S-a dat stingerea, iar noi am închis ochii cu gândul la următoarea zi şi ce surprize ne mai aşteaptă."}
+                                    {"S-a dat stingerea, iar noi am închis ochii cu gândul la următoarea zi și ce surprize ne mai așteaptă."}
                                   </strong>
                                 </p>
                               </div>

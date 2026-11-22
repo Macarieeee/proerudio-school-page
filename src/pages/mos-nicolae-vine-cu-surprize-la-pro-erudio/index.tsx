@@ -22,16 +22,16 @@ export default function Page() {
           {"Pro Erudio · School of English"}
         </p>
         <h1 className={"max-w-5xl text-4xl font-bold leading-tight md:text-6xl"}>
-          {"Moş Nicolae vine cu surprize la Pro Erudio"}
+          {"Moș Nicolae vine cu surprize la Pro Erudio"}
         </h1>
       </div>
     </section>
   }>
     <article className={"page-content event-page event-theme-winter min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-<section className={"mobile-page-intro"} aria-label={"Moş Nicolae vine cu surprize la Pro Erudio"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2019/11/mos-nicolae2.jpg"} alt={"Moş Nicolae vine cu surprize la Pro Erudio"} decoding={"async"} />
+<section className={"mobile-page-intro"} aria-label={"Moș Nicolae vine cu surprize la Pro Erudio"}>
+        <img src={"https://www.proerudio.ro/wp-content/uploads/2019/11/mos-nicolae2.jpg"} alt={"Moș Nicolae vine cu surprize la Pro Erudio"} decoding={"async"} />
         <h1>
-          {"Moş Nicolae vine cu surprize la Pro Erudio"}
+          {"Moș Nicolae vine cu surprize la Pro Erudio"}
         </h1>
       </section>
 
@@ -43,7 +43,7 @@ export default function Page() {
 
 <section className="event-welcome">
 <h2>
-                                {"Moş Nicolae vine cu "}
+                                {"Moș Nicolae vine cu "}
                                 <span>
                                   {"surprize"}
                                 </span>
@@ -51,7 +51,7 @@ export default function Page() {
                               </h2>
 <p>
                                 <span>
-                                  {"Dragi părinţi,"}
+                                  {"Dragi părinți,"}
                                 </span>
                               </p>
 <p>
@@ -130,7 +130,7 @@ export default function Page() {
                                   <strong>
                                     {"orarul exact se va anunta prin sms"}
                                   </strong>
-                                  {" dupa terminarea perioadei de inscriere (4 decembrie), cu minim 24 de ore înainte de ziua de desfăşurare a cursurilor."}
+                                  {" dupa terminarea perioadei de inscriere (4 decembrie), cu minim 24 de ore înainte de ziua de desfășurare a cursurilor."}
                                 </span>
                               </p>
 <p className="event-participation">
@@ -146,18 +146,18 @@ export default function Page() {
                                   <strong>
                                     {"cu un sms"}
                                   </strong>
-                                  {" la 0771 753 323 pentru a avea o situaţie cât mai exactă a rezervărilor. Vă rugăm să specificati numele si varsta copilului, precum si ziua pentru care doriti sa faceti rezervarea."}
+                                  {" la 0771 753 323 pentru a avea o situație cât mai exactă a rezervărilor. Vă rugăm să specificati numele si varsta copilului, precum si ziua pentru care doriti sa faceti rezervarea."}
                                 </span>
                               </p>
 <p className="event-participation">
                                 <span>
-                                  {"Va rugăm să NU faceţi rezervări telefonic sau la profesorul de la grupă "}
-                                  {"pentru a nu crea situaţii incomode în ziua cursului. Avem rugămintea ca solicitările de rezervare de loc să fie făcute ferm pentru a oferi posibilitatea câtor mai mulţi copii de a interacţiona cu un profesor vorbitor nativ."}
+                                  {"Va rugăm să NU faceți rezervări telefonic sau la profesorul de la grupă "}
+                                  {"pentru a nu crea situații incomode în ziua cursului. Avem rugămintea ca solicitările de rezervare de loc să fie făcute ferm pentru a oferi posibilitatea câtor mai mulți copii de a interacționa cu un profesor vorbitor nativ."}
                                 </span>
                               </p>
 <p>
                                         <strong>
-                                          {"Vă transmitem mai jos mesajul lui Thom, trainer vorbitor nativ care va ţine cursul interactiv de"}
+                                          {"Vă transmitem mai jos mesajul lui Thom, trainer vorbitor nativ care va ține cursul interactiv de"}
                                         </strong>
                                         <strong>
                                           <a href={"/cursuri-de-limba-engleza-pentru-copii-si-adolescenti/"}>
@@ -206,7 +206,7 @@ export default function Page() {
                                         </span>
                                       </p>
 <p>
-                                        {"De unde o fi ştiut Moş Nicolae că eu îmi doresc să cunosc un englez adevărat ca să văd dacă reuşesc să mă înţeleg cu el, nu ştiu! Însă mare mi-a fost mirarea când azi-dimineaţă am găsit în cizmuliţe, pe …"}
+                                        {"De unde o fi știut Moș Nicolae că eu îmi doresc să cunosc un englez adevărat ca să văd dacă reușesc să mă înțeleg cu el, nu știu! Însă mare mi-a fost mirarea când azi-dimineață am găsit în cizmulițe, pe …"}
                                         <br />
                                         <span>
                                           <span>

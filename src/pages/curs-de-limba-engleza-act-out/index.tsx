@@ -22,16 +22,16 @@ export default function Page() {
           {"Pro Erudio · School of English"}
         </p>
         <h1 className={"max-w-5xl text-4xl font-bold leading-tight md:text-6xl"}>
-          {"Curs în limba engleză “Act Out!”"}
+          {"Curs în limba engleză "}<strong>{"Act Out!"}</strong>
         </h1>
       </div>
     </section>
   }>
     <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Curs în limba engleză “Act Out!”"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2.jpg"} alt={"Curs în limba engleză “Act Out!”"} decoding={"async"} />
+      <section className={"mobile-page-intro"} aria-label={"Curs în limba engleză Act Out!"}>
+        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2.jpg"} alt={"Curs în limba engleză Act Out!"} decoding={"async"} />
         <h1>
-          {"Curs în limba engleză “Act Out!”"}
+          {"Curs în limba engleză "}<strong>{"Act Out!"}</strong>
         </h1>
       </section>
       <div>
@@ -48,7 +48,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={"Curs în limba engleză “ACT OUT!”"} title={"Curs în limba engleză “ACT OUT!”"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2.jpg 870w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2-768x401.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2-144x75.jpg 144w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2.jpg"} />
+                                <img decoding={"async"} alt={"Curs în limba engleză ACT OUT!"} title={"Curs în limba engleză ACT OUT!"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2.jpg 870w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2-768x401.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2-144x75.jpg 144w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2.jpg"} />
                               </div>
                             </figure>
                           </div>
@@ -57,7 +57,7 @@ export default function Page() {
                               <h2>
                                 {"Curs în limba engleză"}
                                 <span>
-                                  {"“ACT OUT!”"}
+                                  <strong>{"ACT OUT!"}</strong>
                                 </span>
                               </h2>
                             </div>
@@ -76,11 +76,11 @@ export default function Page() {
                               </h5>
                               <h5>
                                 <strong>
-                                  {"Varianta pentru 8-10 ani"}
+                                  {"Varianta pentru 8 - 10 ani"}
                                 </strong>
                               </h5>
                               <p>
-                                {"Poeziile şi cântecelele englezeşti clasice pentru copii (celebrele nursery rhymes şi chants), îi vor ajută pe copiii dumneavoastă să înveţe primele cuvinte şi noţiuni în limba engleză într-un mod plăcut. Elementul nou constă în "}
+                                {"Poeziile și cântecelele englezești clasice pentru copii (celebrele nursery rhymes și chants), îi vor ajută pe copiii dumneavoastă să învețe primele cuvinte și noțiuni în limba engleză într-un mod plăcut. Elementul nou constă în "}
                                 <strong>
                                   {"dramatizarea textelor"}
                                 </strong>
@@ -89,33 +89,33 @@ export default function Page() {
                               <p>
                                 {"Astfel, prin "}
                                 <strong>
-                                  {"interacţiune cu ceilalţi"}
+                                  {"interacțiune cu ceilalți"}
                                 </strong>
-                                {" şi, fiecare copil se va simţi mereu implicat şi, pe lângă cunoştinţele de limba engleză acumulate într-un mod plăcut, va învaţă elemente de baza din cultură britanică. Copiii se vor simţi implicaţi în procesul creării unei piese ce va include fond muzical, paşi de dans, poziţie pe scenă, ritm al recitării, ton şi expresivitate etc ."}
+                                {" și, fiecare copil se va simți mereu implicat și, pe lângă cunoștințele de limba engleză acumulate într-un mod plăcut, va învăța elemente de baza din cultură britanică. Copiii se vor simți implicați în procesul creării unei piese ce va include fond muzical, pași de dans, poziție pe scenă, ritm al recitării, ton și expresivitate etc ."}
                               </p>
                               <p>
-                                {"Iar dumneavoastră, dragi părinţi, îi veţi putea admira pe micii actori şi regizori în liniştea de acasă fiindcă la sfârşitul fiecărui modul veţi primi "}
+                                {"Iar dumneavoastră, dragi părinți, îi veți putea admira pe micii actori și regizori în liniștea de acasă fiindcă la sfârșitul fiecărui modul veți primi "}
                                 <strong>
                                   {"o înregistrare cu “opera” lor."}
                                 </strong>
                               </p>
                               <h5>
-                                {"Varianta pentru 10-12 ani"}
+                                {"Varianta pentru 10 - 12 ani"}
                               </h5>
                               <p>
-                                {"Cursul de artă dramatică în limba engleză “Act Out!”se adresează grupelor de copii cu vârstă între 10 şi 14 ani şi foloseşte imaginaţia copiilor pentru a pune în scenă scurte "}
+                                {"Cursul de artă dramatică în limba engleză “Act Out!”se adresează grupelor de copii cu vârstă între 10 și 14 ani și folosește imaginația copiilor pentru a pune în scenă scurte "}
                                 <strong>
-                                  {"piese dramatice de inspiraţie proprie"}
+                                  {"piese dramatice de inspirație proprie"}
                                 </strong>
                                 {", rezultatul muncii în echipa sau rescrieri ale unor materiale clasice. Scopul acestui curs este pe de o parte să dezvolte "}
                                 <strong>
-                                  {"abilităţile de interacţiune"}
+                                  {"abilitățile de interacțiune"}
                                 </strong>
-                                {" în limba engleză ( copiii vor fi motivaţi în diverse feluri să folosească cu precădere sau chiar exclusiv, la vârste mai mari, limba engleză în timpul cursului) , iar pe de altă parte să imbunatateasca "}
+                                {" în limba engleză ( copiii vor fi motivați în diverse feluri să folosească cu precădere sau chiar exclusiv, la vârste mai mari, limba engleză în timpul cursului), iar pe de altă parte să imbunatateasca "}
                                 <strong>
                                   {"abilitatile de lucru în echipă"}
                                 </strong>
-                                {"– copiii vor lucra împreună pentru un scop comun folosind toate resursele proprii de creaţie (pentru scenariu, regie şi chiar decor), memorie şi cunoştinţe de limba engleză. Daţi copiilor dumneavoastră şansă de a rosti primele lor cuvinte “pe scenă” în limba engleză."}
+                                {"– copiii vor lucra împreună pentru un scop comun folosind toate resursele proprii de creație (pentru scenariu, regie și chiar decor), memorie și cunoștințe de limba engleză. Dați copiilor dumneavoastră șansă de a rosti primele lor cuvinte “pe scenă” în limba engleză."}
                               </p>
                             </div>
                           </div>
@@ -144,10 +144,10 @@ export default function Page() {
                                   <div className={"course-details-panel"}>
                                     <div className={"course-details-header"}>
                                       <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                                        <img decoding={"async"} alt={"Curs în limba engleză “ACT OUT!”"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/ACT-OUT-BRUT.jpg"} />
+                                        <img decoding={"async"} alt={"Curs în limba engleză ACT OUT!"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/ACT-OUT-BRUT.jpg"} />
                                       </div>
                                       <h2>
-                                        {"“ACT OUT!”"}
+                                        <strong>{"ACT OUT!"}</strong>
                                       </h2>
                                       <div className={"course-price"}>
                                         <sup>
@@ -218,7 +218,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârsta recomandată: "}
                                             </strong>
-                                            {" 5 – 14 ani"}
+                                            {" 5 - 14 ani"}
                                           </li>
                                         </ul>
                                         <p></p>
@@ -269,7 +269,7 @@ export default function Page() {
                               <a href={"/cursuri-de-weekend-in-limba-engleza/curs-de-limba-engleza-style-up/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP.jpg\")"}}>
                                   <h3>
-                                    {"Curs de creație în limba engleză Style Up!"}
+                                    {"Curs de creație în limba engleză "}<strong>{"Style Up!"}</strong>
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -277,7 +277,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursul de creaţie în limba engleză “Style Up!” este o combinaţie de stiluri şi tehnici, teorie şi practică, materiale şi resurse creative. Participarea la acest curs nu necesită experienţă, ci doar entuziasm şi dorinţa de a descoperi lucruri noi folosind în acelaşi timp pentru comunicare cunoştinţele de limba engleză."}
+                                    {"Cursul de creație în limba engleză "}<strong>{"Style Up!"}</strong>{" este o combinație de stiluri și tehnici, teorie și practică, materiale și resurse creative. Participarea la acest curs nu necesită experiență, ci doar entuziasm și dorința de a descoperi lucruri noi folosind în același timp pentru comunicare cunoștințele de limba engleză."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -290,7 +290,7 @@ export default function Page() {
                               <a href={"/cursuri-de-weekend-in-limba-engleza/curs-in-limba-engleza-speak-up/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP-.webp\")"}}>
                                   <h3>
-                                    {"Curs în limba engleză Speak Up!"}
+                                    {"Curs în limba engleză "}<strong>{"Speak Up!"}</strong>
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -298,7 +298,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursul pe care vi-l propunem este o iniţiere în artă retoricii fiindcă nu este niciodată prea devreme să înveţi cum să-ţi argumentezi propriul punct de vedere, cum să-ţi organizezi un discurs, cum să improvizezi pe o tema dată, cum să iei un interviu şi să răspunzi la întrebări incomode fără să clipeşti."}
+                                    {"Cursul pe care vi-l propunem este o inițiere în artă retoricii fiindcă nu este niciodată prea devreme să înveți cum să-ți argumentezi propriul punct de vedere, cum să-ți organizezi un discurs, cum să improvizezi pe o tema dată, cum să iei un interviu și să răspunzi la întrebări incomode fără să clipești."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -319,7 +319,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Optica părinţilor şi cea a profesorilor cu privire la modul în care ar trebui învăţată o limbă străină în zilele noastre diferă extrem de mult: de la părerea că tot ce ai nevoie este să petreci timp într-o ţară în care limba maternă este limba ţintă a cursantului, până la părerea că aşa cum noi am învăţat totul din cărţi, copiii noştri trebuie să procedeze la fel, ajutaţi fiind de toate resursele tehnologiei moderne de care noi, evident, nu ne-am bucurat în anii şcolii."}
+                                    {"Optica părinților și cea a profesorilor cu privire la modul în care ar trebui învățată o limbă străină în zilele noastre diferă extrem de mult: de la părerea că tot ce ai nevoie este să petreci timp într-o țară în care limba maternă este limba țintă a cursantului, până la părerea că așa cum noi am învățat totul din cărți, copiii noștri trebuie să procedeze la fel, ajutați fiind de toate resursele tehnologiei moderne de care noi, evident, nu ne-am bucurat în anii școlii."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}

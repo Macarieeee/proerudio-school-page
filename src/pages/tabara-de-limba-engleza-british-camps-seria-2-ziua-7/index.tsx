@@ -119,18 +119,18 @@ export default function Page() {
                                   {"Ziua 7"}
                                 </h4>
                                 <p>
-                                  {"Este în mod oficial ultima zi. Din timpul micului dejun se simte o oarecare melancolie în aer. Ştim că urmează despărţirea, însă trainerii nu ne-au lăsat să ne gândim la asta, ci ne-au provocat la un joc masiv de ‘Dodgeball’. Ne-am strâns în spatele hotelului, pe un teren bine cunoscut deja şi ne-am pus pe joacă: am alergat, am aruncat cu mingea, ne-am ferit de lovituri şi până în final, ne-am distrat copios."}
+                                  {"Este în mod oficial ultima zi. Din timpul micului dejun se simte o oarecare melancolie în aer. Știm că urmează despărțirea, însă trainerii nu ne-au lăsat să ne gândim la asta, ci ne-au provocat la un joc masiv de ‘Dodgeball’. Ne-am strâns în spatele hotelului, pe un teren bine cunoscut deja și ne-am pus pe joacă: am alergat, am aruncat cu mingea, ne-am ferit de lovituri și până în final, ne-am distrat copios."}
                                 </p>
                               </div>
                             </div>
                             <div>
                               <div>
                                 <p>
-                                  {"A venit şi momentul ceremoniei de final de "}
+                                  {"A venit și momentul ceremoniei de final de "}
                                   <a href={"/tabere/tabara-de-limba-engleza-si-aventura-in-romania/"} target={"_blank"}>
                                     {"tabără"}
                                   </a>
-                                  {". Ne-am adunat în sala DISCO unde trainerii au mulţumit tuturor pentru prezenţa, copii şi adulţi, au înmânat atestate de participare şi trofee profesorilor însoţitori şi au premiat câştigătorii activităţilor din timpul săptămânii: campionatul de fotbal, quiz-ul (care a înlocuit concursul de fotografie într-o zi ploioasă), concursul de talente şi costumele din cadrul carnavalului. La finalul ceremoniei am dansat împreună cu trainerii câteva piese, aşa cum am făcut întreagă săptămâna, apoi am cântat cu toţii o melodie de rămas bun: “My heart will go on”."}
+                                  {". Ne-am adunat în sala DISCO unde trainerii au mulțumit tuturor pentru prezența, copii și adulți, au înmânat atestate de participare și trofee profesorilor însoțitori și au premiat câștigătorii activităților din timpul săptămânii: campionatul de fotbal, quiz-ul (care a înlocuit concursul de fotografie într-o zi ploioasă), concursul de talente și costumele din cadrul carnavalului. La finalul ceremoniei am dansat împreună cu trainerii câteva piese, așa cum am făcut întreagă săptămâna, apoi am cântat cu toții o melodie de rămas bun: “My heart will go on”."}
                                 </p>
                               </div>
                             </div>
@@ -145,12 +145,12 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"A urmat o ultima întâlnire a fiecărui grup cu trainerul englez şi toată lumea a primit "}
+                                  {"A urmat o ultima întâlnire a fiecărui grup cu trainerul englez și toată lumea a primit "}
                                   <a href={"https://en.wikipedia.org/wiki/Diploma"} target={"_blank"}>
                                     {"diplome"}
                                   </a>
-                                  {", medalii şi cadouri. A fost un moment emoţionant pentru toată lumea, presărat cu bliţuri de aparate foto, promisiuni de revedere, zâmbete de părinţi mândri şi îmbrăţişări prelungi. Am reuşit într-o săptămână să ne facem prieteni pe viaţă. O să ne fie dor unii de alţii, dar o să încercăm să păstrăm legătură. Mai este şi anul viitor o vară"}
-                                  {"şi după cum ştim din tabăra trecută, ‘orice sfârşit are şi o continuare’ ."}
+                                  {", medalii și cadouri. A fost un moment emoționant pentru toată lumea, presărat cu blițuri de aparate foto, promisiuni de revedere, zâmbete de părinți mândri și îmbrățișări prelungi. Am reușit într-o săptămână să ne facem prieteni pe viață. O să ne fie dor unii de alții, dar o să încercăm să păstrăm legătură. Mai este și anul viitor o vară"}
+                                  {" și după cum știm din tabăra trecută, ‘orice sfârșit are și o continuare’ ."}
                                 </p>
                                 <p>
                                   <strong>

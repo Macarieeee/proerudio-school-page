@@ -223,7 +223,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârstă recomandată: "}
                                             </strong>
-                                            {"5-7 ani"}
+                                            {"5 - 7 ani"}
                                           </li>
                                         </ul>
                                         <p></p>
@@ -308,7 +308,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârstă recomandată: "}
                                             </strong>
-                                            {"8-10 ani"}
+                                            {"8 - 10 ani"}
                                           </li>
                                         </ul>
                                         <p></p>

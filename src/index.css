@@ -480,6 +480,7 @@ div.photo-gallery > a > img {
 /* Keep course offers compact without clipping their text or enrollment action. */
 .page-content .course-details-panel { margin: 1.5rem 0; }
 .page-content .course-details-header { padding: 1.25rem; }
+.page-content .course-details-header strong { color: inherit; }
 .page-content .course-details-header h2,
 .page-content .course-details-header h3,
 .page-content .course-details-header h4 {
@@ -492,26 +493,47 @@ div.photo-gallery > a > img {
 .page-content .course-price > span { font-size: 2.75rem; }
 .page-content .course-details-header hr { margin: 1rem 0; }
 .page-content .course-details-header big { font-size: .875rem; letter-spacing: .06em; }
-.page-content .course-details-facts { padding: 1.25rem 1.25rem .25rem; }
-.page-content .course-details-facts ul { flex: none; gap: .5rem; margin-bottom: .75rem; }
+.page-content .course-details-facts { padding: 1.5rem 1.25rem .25rem; }
+.page-content .course-details-facts ul { flex: none; gap: 1.25rem; margin-bottom: 1rem; }
 .page-content .course-details-facts ul > li:nth-child(n) { margin: 0; }
 .page-content .course-fact {
-  min-height: 4.5rem;
+  min-height: 6rem;
   min-width: 0;
-  padding: .75rem .75rem .75rem 3.5rem;
+  padding: 1.25rem 1rem 1.25rem 3.75rem;
   font-size: 1rem;
   line-height: 1.4;
   overflow-wrap: anywhere;
 }
-.page-content .course-fact strong { font-size: .875rem; letter-spacing: 0; }
-.page-content .course-fact-icon { left: .75rem; width: 2rem; height: 2rem; }
-.page-content .course-details-facts p { margin: .5rem 0; font-size: .875rem; line-height: 1.5; }
+.page-content .course-fact strong { margin-bottom: .6rem; font-size: .875rem; letter-spacing: 0; }
+.page-content .course-fact-icon { left: .85rem; width: 2rem; height: 2rem; }
+.page-content .course-details-facts p { margin: .75rem 0; font-size: .875rem; line-height: 1.6; }
 .page-content .course-details-facts p:empty { display: none; }
 .page-content .course-details-footer { padding: .5rem 1.25rem 1.25rem; }
 .page-content a.course-enroll-button { min-height: 2.75rem; padding: .65rem 1rem; }
+@media (min-width: 1024px) and (max-height: 800px) {
+  .page-content .course-details-facts { padding-top: 1.25rem; }
+  .page-content .course-details-facts ul { gap: 1.1rem; margin-bottom: .75rem; }
+  .page-content .course-fact { min-height: 5.75rem; padding-top: 1.15rem; padding-bottom: 1.15rem; }
+  .page-content .course-details-facts p { margin: .6rem 0; }
+}
 @media (min-width: 1024px) {
-  .page-content .course-details-panel { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); }
-  .page-content .course-details-facts ul { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .page-content .course-details-panel {
+    grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
+    /* Leave room for the navigation and a little space around the offer. */
+    min-height: min(38rem, calc(100svh - 150px));
+  }
+  .page-content .course-details-facts ul {
+    flex: 1;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1024px) and (min-height: 850px) {
+  .page-content .course-details-header { padding: 1.75rem; }
+  .page-content .course-details-photo img { max-height: 12rem; }
+  .page-content .course-details-photo:has(img) { margin-bottom: 1.5rem; }
+  .page-content .course-details-header hr { margin: 1.5rem 0; }
+  .page-content .course-details-facts { padding: 1.75rem 1.75rem .5rem; }
+  .page-content .course-details-footer { padding: .75rem 1.75rem 1.75rem; }
 }
 
 /* Shared detail pages: left-aligned content and a viewport-sized resource rail. */

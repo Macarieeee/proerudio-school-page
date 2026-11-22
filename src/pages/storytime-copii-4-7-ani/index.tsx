@@ -31,7 +31,7 @@ const activities = [
   {
     icon: BookOpen,
     title: "Povesti in engleza",
-    text: "The Princess and the Frog, Puss in Boots, Gerry the Giant si alte aventuri potrivite copiilor de 4-7 ani.",
+    text: "The Princess and the Frog, Puss in Boots, Gerry the Giant si alte aventuri potrivite copiilor de 4 - 7 ani.",
   },
   {
     icon: Palette,
@@ -79,7 +79,7 @@ const Storytime = () => {
                 Storytime!
               </h1>
               <p className="mb-8 max-w-2xl text-xl leading-relaxed text-background/90">
-                Engleza prin povesti pentru copii de 4-7 ani, cu jocuri, cantece, activitati creative si aventuri
+                Engleza prin povesti pentru copii de 4 - 7 ani, cu jocuri, cantece, activitati creative si aventuri
                 care ii ajuta pe cei mici sa invete natural.
               </p>
               <div className="flex flex-wrap gap-4">

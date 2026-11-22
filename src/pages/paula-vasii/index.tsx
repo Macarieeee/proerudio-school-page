@@ -183,7 +183,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   <span>
-                                    {"Workshop educațional „Educația 0-6 ani. Cine și ce contează?”, Oana Moraru – consilier educațional, fondatoare și manager Helikon;"}
+                                    {"Workshop educațional „Educația 0 - 6 ani. Cine și ce contează?”, Oana Moraru – consilier educațional, fondatoare și manager Helikon;"}
                                   </span>
                                 </li>
                                 <li>

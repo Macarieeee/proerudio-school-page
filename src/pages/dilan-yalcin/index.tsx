@@ -88,7 +88,7 @@ export default function Page() {
                                   </em>
                                   {", Universitatea "}
                                   <strong>
-                                    {"Nevşehir Hacı Bektaş Veli"}
+                                    {"Nevșehir Hacı Bektaș Veli"}
                                   </strong>
                                   {" (NEVU), Turcia"}
                                 </li>
@@ -96,10 +96,10 @@ export default function Page() {
                                   {"Oct 2021 – Feb 2022 – studentă în cadrul programului Erasmus+ la Facultatea de limbi și literaturi străine, Universitatea Ovidius din Constanța, România"}
                                 </li>
                                 <li>
-                                  {"Feb 2023- Jun 2023 – modul psihopedagogic pentru elevii de gimnaziu, Mihriban Emin Günel Secondary School, Nevşehir, Turcia"}
+                                  {"Feb 2023- Jun 2023 – modul psihopedagogic pentru elevii de gimnaziu, Mihriban Emin Günel Secondary School, Nevșehir, Turcia"}
                                 </li>
                                 <li>
-                                  {"Sep 2022 – Jan 2023 – modul psihopedagogic pentru elevii de liceu, Yavuz Sultan Selim Han Secondary School, Nevşehir, Turcia"}
+                                  {"Sep 2022 – Jan 2023 – modul psihopedagogic pentru elevii de liceu, Yavuz Sultan Selim Han Secondary School, Nevșehir, Turcia"}
                                 </li>
                               </ul>
                               <h3>
@@ -107,10 +107,10 @@ export default function Page() {
                               </h3>
                               <ul>
                                 <li>
-                                  {"Dec 2022 – Sep 2023 – Profesor de limba engleză la Nev-dil English Language Center din Nevşehir, Turcia"}
+                                  {"Dec 2022 – Sep 2023 – Profesor de limba engleză la Nev-dil English Language Center din Nevșehir, Turcia"}
                                 </li>
                                 <li>
-                                  {"Feb 2021 – Jun 2021- Profesor de limba engleză la Mayıs Primary School, Nevşehir, Turcia"}
+                                  {"Feb 2021 – Jun 2021- Profesor de limba engleză la Mayıs Primary School, Nevșehir, Turcia"}
                                 </li>
                                 <li>
                                   {"Jul 2022 – Sep 2022 – Profesor asistent de limba engleză în cadrul programului Erasmus+ la Pro Erudio School of English, București, România"}
@@ -135,7 +135,7 @@ export default function Page() {
                                 <li>
                                   {"Turkey for Preparing Teaching Materials "}
                                   {"&"}
-                                  {" Designing a New English Classroom in Alaettin Primary School, Avanos, Nevşehir (19 Dec 2022)"}
+                                  {" Designing a New English Classroom in Alaettin Primary School, Avanos, Nevșehir (19 Dec 2022)"}
                                 </li>
                                 <li>
                                   {"Speaker certificat la "}
@@ -151,7 +151,7 @@ export default function Page() {
                                   {", "}
                                   {"Active Learning Center, Bucure"}
                                   <span lang={"TR"}>
-                                    {"ş"}
+                                    {"ș"}
                                   </span>
                                   {" ti (25 Nov 2023)"}
                                 </li>
@@ -161,7 +161,7 @@ export default function Page() {
                                   </i>
                                   {", Active Learning Center, Bucure"}
                                   <span lang={"TR"}>
-                                    {"ş"}
+                                    {"ș"}
                                   </span>
                                   {" ti (24 Feb 2024)"}
                                 </li>
@@ -174,7 +174,7 @@ export default function Page() {
                                   </i>
                                   {", ELI, Bucure"}
                                   <span lang={"TR"}>
-                                    {"ş"}
+                                    {"ș"}
                                   </span>
                                   {" ti (23 Mar 2024)"}
                                 </li>
@@ -184,7 +184,7 @@ export default function Page() {
                                   </i>
                                   {", European Examinations Centre, Bucure"}
                                   <span lang={"TR"}>
-                                    {"ş"}
+                                    {"ș"}
                                   </span>
                                   {" ti (Mar 2024)"}
                                 </li>
@@ -195,7 +195,7 @@ export default function Page() {
                                   </span>
                                 </li>
                                 <li>
-                                  {"Fischer International ELT Conference, Bucureşti (Sep 2024)"}
+                                  {"Fischer International ELT Conference, București (Sep 2024)"}
                                 </li>
                                 <li>
                                   {"The 19th Annual Fischer International Conference for English Language Teachers, 4-5 septembrie 2026"}

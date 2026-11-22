@@ -186,7 +186,7 @@ export default function Page() {
                                   {"“The Methodology of Teaching Literature”"}
                                 </li>
                                 <li>
-                                  {"A 15-a Conferință Națională BETA , “English as a Global Language”"}
+                                  {"A 15-a Conferință Națională BETA, “English as a Global Language”"}
                                 </li>
                                 <li>
                                   {"“Ora de consiliere și orientare școlară – în vederea implementării noii programe de consiliere și orientare”"}
@@ -270,7 +270,7 @@ export default function Page() {
                                   {" în Marea Britanie (University of Kent, Canterbury), august, 2013"}
                                 </li>
                                 <li>
-                                  {"organizator de numeroase evenimente ( ” Tea, Quizzes and Fun” , “Talent Show”, “Our Future Is in Our Hands”, “Deserturi multiculturale pentru papile și timpane”, “Drama Is Fun”, “Essays and Watercolours” etc.)"}
+                                  {"organizator de numeroase evenimente ( ” Tea, Quizzes and Fun”, “Talent Show”, “Our Future Is in Our Hands”, “Deserturi multiculturale pentru papile și timpane”, “Drama Is Fun”, “Essays and Watercolours” etc.)"}
                                 </li>
                                 <li>
                                   {"activități în cadrul proiectelor (“School Inside Community and Community Inside School”, “Primăvara școlilor”)"}

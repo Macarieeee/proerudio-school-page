@@ -22,7 +22,7 @@ export default function Page() {
           {"Resurse Pro Erudio"}
         </p>
         <h1 className={"max-w-5xl text-4xl font-bold leading-tight md:text-6xl"}>
-          {"Curs de vară de limba engleză PUPPET THEATRE (4-6 ani)"}
+          {"Curs de vară de limba engleză "}<strong>{"PUPPET THEATRE"}</strong>{" (4 - 6 ani)"}
         </h1>
         <p className={"mt-6 flex items-center gap-2 text-sm text-background/80"}>
           <svg xmlns={"http://www.w3.org/2000/svg"} width={"24"} height={"24"} viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"2"} strokeLinecap={"round"} strokeLinejoin={"round"} className={"lucide lucide-calendar-days h-4 w-4"}>
@@ -45,10 +45,10 @@ export default function Page() {
     </section>
   }>
     <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Curs de vară de limba engleză PUPPET THEATRE (4-6 ani)"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/puppet-theatre.jpg"} alt={"Curs de vară de limba engleză PUPPET THEATRE (4-6 ani)"} decoding={"async"} />
+      <section className={"mobile-page-intro"} aria-label={"Curs de vară de limba engleză PUPPET THEATRE (4 - 6 ani)"}>
+        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/puppet-theatre.jpg"} alt={"Curs de vară de limba engleză PUPPET THEATRE (4 - 6 ani)"} decoding={"async"} />
         <h1>
-          {"Curs de vară de limba engleză PUPPET THEATRE (4-6 ani)"}
+          {"Curs de vară de limba engleză "}<strong>{"PUPPET THEATRE"}</strong>{" (4 - 6 ani)"}
         </h1>
       </section>
       <div>
@@ -86,9 +86,9 @@ export default function Page() {
                               <div>
                                 <h2>
                                   <span>
-                                    {"PUPPET THEATRE "}
+                                    <strong>{"PUPPET THEATRE"}</strong>{" "}
                                     <span>
-                                      {"– seria 13 – 24 iulie (4-6 ani) "}
+                                      {"– seria 13 – 24 iulie (4 - 6 ani) "}
                                     </span>
                                   </span>
                                 </h2>
@@ -124,7 +124,7 @@ export default function Page() {
                             <div>
                               <div>
                                 <div>
-                                  <iframe loading={"lazy"} title={"PUPPET THEATRE – seria 13 – 24 iulie (4-6 ani)"} frameBorder={"0"} allow={"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"} referrerPolicy={"strict-origin-when-cross-origin"} allowFullScreen={true} data-rocket-lazyload={"fitvidscompatible"} src={"https://www.youtube.com/embed/wHn5qo2aR-I?feature=oembed"}></iframe>
+                                  <iframe loading={"lazy"} title={"PUPPET THEATRE – seria 13 – 24 iulie (4 - 6 ani)"} frameBorder={"0"} allow={"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"} referrerPolicy={"strict-origin-when-cross-origin"} allowFullScreen={true} data-rocket-lazyload={"fitvidscompatible"} src={"https://www.youtube.com/embed/wHn5qo2aR-I?feature=oembed"}></iframe>
                                 </div>
                               </div>
                             </div>
@@ -153,8 +153,7 @@ export default function Page() {
                             <div>
                               <div>
                                 <h2>
-                                  {"Puppet Theatre"}
-                                  {"(seria 13-24 iulie) – Galerie foto completa"}
+                                  <strong>{"Puppet Theatre"}</strong>{"(seria 13-24 iulie) – Galerie foto completa"}
                                 </h2>
                                 <p></p>
                                 <p>
@@ -315,7 +314,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-13-24-iulie/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/storytime.jpg\")"}}>
             <h3>
-              {"Curs de vara de limba engleza STORYTIME – (8-10 ani)"}
+              {"Curs de vara de limba engleza "}<strong>{"STORYTIME"}</strong>{" – (8 - 10 ani)"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -323,7 +322,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Storytime – seria 13-24 iulie (8-10 ani) Poveştile sunt o mare parte din viaţa noastră, fie că e vorba de"}
+              <strong>{"Storytime"}</strong>{" – seria 13-24 iulie (8 - 10 ani) Poveștile sunt o mare parte din viața noastră, fie că e vorba de"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -336,7 +335,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-6-8-ani-galerie-foto/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-vara-de-limba-engleza-Storytime-6-8-ani.jpg\")"}}>
             <h3>
-              {"Curs de vara de limba engleza STORYTIME (6-8 ani)"}
+              {"Curs de vara de limba engleza "}<strong>{"STORYTIME"}</strong>{" (6 - 8 ani)"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -344,7 +343,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Curs de vară de limba engleză “Storytime” (6-8) ani Am citit, ascultat și vizionat povești în limba engleză, am interpretat"}
+              {"Curs de vară de limba engleză "}<strong>{"Storytime"}</strong>{" (6-8) ani Am citit, ascultat și vizionat povești în limba engleză, am interpretat"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -386,7 +385,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Christmas is coming… Vine Crăciunul şi ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
+              {"Christmas is coming… Vine Crăciunul și ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -420,7 +419,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-5-6-ani-galerie-foto/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-vara-de-limba-engleza-Storytime-5-6-ani2.jpg\")"}}>
             <h3>
-              {"Storytime (5-6 ani) – Galerie foto"}
+              <strong>{"Storytime"}</strong>{" (5 - 6 ani) – Galerie foto"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -428,7 +427,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Curs de vară de limba engleză – Storytime (5-6 ani) Am fost un grup plin de energie şi"}
+              {"Curs de vară de limba engleză – "}<strong>{"Storytime"}</strong>{" (5 - 6 ani) Am fost un grup plin de energie și"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

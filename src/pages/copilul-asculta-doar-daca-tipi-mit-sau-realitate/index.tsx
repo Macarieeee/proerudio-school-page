@@ -94,7 +94,7 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Ți se întâmplă adeseori să îi ceri copilului tău să facă ceva, cu amabilitate și calm. Dar el nu răspunde. Îi ceri din nou, puțin mai tare de data aceasta. Tot nimic. La a treia sau a patra încercare, vocea ta este ascuțită, corpul tău este încordat. Și, dintr-o dată, copilul reacţionează. Sarcina este îndeplinită!"}
+                                  {"Ți se întâmplă adeseori să îi ceri copilului tău să facă ceva, cu amabilitate și calm. Dar el nu răspunde. Îi ceri din nou, puțin mai tare de data aceasta. Tot nimic. La a treia sau a patra încercare, vocea ta este ascuțită, corpul tău este încordat. Și, dintr-o dată, copilul reacționează. Sarcina este îndeplinită!"}
                                 </p>
                               </div>
                             </div>
@@ -129,10 +129,10 @@ export default function Page() {
                                           <strong>
                                             {"Țipatul generează supunere prin presiune"}
                                           </strong>
-                                          {". El poate face ca un copil să îşi mişte corpul, dar nu construiește încredere sau respect. Creează tensiune, scurtcircuitează comunicarea și conectează sistemul său nervos pentru a echivala atenția cu amenințarea."}
+                                          {". El poate face ca un copil să își miște corpul, dar nu construiește încredere sau respect. Creează tensiune, scurtcircuitează comunicarea și conectează sistemul său nervos pentru a echivala atenția cu amenințarea."}
                                         </p>
                                         <p>
-                                          {"Dacă ai fost crescut într-un mediu în care ţipatul era la ordinea zilei, toate acestea s-ar putea să ți se pară ciudat de familiare, chiar normale. Poate că țipatul era pur și simplu modul în care se făceau lucrurile. Poate că nimeni nu asculta cu adevărat, decât dacă se vorbea răstit. Și poate că acum, chiar și atunci când îți auzi vocea ridicându-se, ceva din interiorul tău se crispează… dar nu știi exact cum să te oprești."}
+                                          {"Dacă ai fost crescut într-un mediu în care țipatul era la ordinea zilei, toate acestea s-ar putea să ți se pară ciudat de familiare, chiar normale. Poate că țipatul era pur și simplu modul în care se făceau lucrurile. Poate că nimeni nu asculta cu adevărat, decât dacă se vorbea răstit. Și poate că acum, chiar și atunci când îți auzi vocea ridicându-se, ceva din interiorul tău se crispează… dar nu știi exact cum să te oprești."}
                                         </p>
                                       </div>
                                     </div>
@@ -169,7 +169,7 @@ export default function Page() {
                                     <div>
                                       <div>
                                         <p>
-                                          {"Acest tipar nu se formează pentru că ești un părinte prea slab, prea înțelegător sau care nu ştie să gestioneze problemele de disciplină. Acest obicei se formează în liniște, pe fundalul vieții de zi cu zi, atunci când memento-urile repetate încep să înlocuiască îndeplinirea sarcinilor, când amânarea înlocuiește consecințele, când frustrarea începe să facă din comunicare o muncă grea."}
+                                          {"Acest tipar nu se formează pentru că ești un părinte prea slab, prea înțelegător sau care nu știe să gestioneze problemele de disciplină. Acest obicei se formează în liniște, pe fundalul vieții de zi cu zi, atunci când memento-urile repetate încep să înlocuiască îndeplinirea sarcinilor, când amânarea înlocuiește consecințele, când frustrarea începe să facă din comunicare o muncă grea."}
                                         </p>
                                         <p>
                                           {"Ceea ce se întâmplă cu adevărat nu este o problemă de ascultare. Este o problemă de ritm. "}
@@ -187,7 +187,7 @@ export default function Page() {
                                           </strong>
                                         </p>
                                         <p>
-                                          {"Dar această dinamică se poate schimba. Și nu trebuie să țipi, să-l faci de rușine sau să te încăpățânezi mai tare decât el. Trebuie doar să acţionezi cu claritate, nu cu solicitări repetate."}
+                                          {"Dar această dinamică se poate schimba. Și nu trebuie să țipi, să-l faci de rușine sau să te încăpățânezi mai tare decât el. Trebuie doar să acționezi cu claritate, nu cu solicitări repetate."}
                                         </p>
                                         <p>
                                           {"Să presupunem că e ora de culcare și îi spui copilului tău: „Te rog să te speli pe dinți”. El continuă să se joace cu piesele LEGO, fără să ridice măcar privirea. Aștepți un moment, apoi repeți:"}
@@ -199,7 +199,7 @@ export default function Page() {
                                           {"Tot nu răspunde. Așa că ridici vocea:"}
                                         </p>
                                         <p>
-                                          {"„De câte ori să îţi repet? Spală-te pe dinṭi”"}
+                                          {"„De câte ori să îți repet? Spală-te pe dinṭi”"}
                                         </p>
                                         <p>
                                           {"Abia atunci se mișcă."}
@@ -235,7 +235,7 @@ export default function Page() {
                                     <div>
                                       <div>
                                         <p>
-                                          {"Mulți părinți nu greşesc din cauza faptului că sunt prea „blânzi”. Ci din cauza faptului că ei cred că a spune ceva de mai multe ori este mai eficient decât dacă l-ar spune o singură dată. Dar, în realitate, "}
+                                          {"Mulți părinți nu greșesc din cauza faptului că sunt prea „blânzi”. Ci din cauza faptului că ei cred că a spune ceva de mai multe ori este mai eficient decât dacă l-ar spune o singură dată. Dar, în realitate, "}
                                           <strong>
                                             {"repetiția erodează claritatea, îi învață pe copii să aștepte repetarea și favorizeaz"}
                                           </strong>
@@ -255,7 +255,7 @@ export default function Page() {
                                             {"rzierea unei reac"}
                                           </strong>
                                           <strong>
-                                            {"ţ"}
+                                            {"ț"}
                                           </strong>
                                           <strong>
                                             {"ii imediate"}
@@ -274,7 +274,7 @@ export default function Page() {
                                             <strong>
                                               {"IA O PAUZĂ"}
                                             </strong>
-                                            {". Dă-te la o parte. Chiar și 10 secunde sunt utile pentru creier. Conştientizează: „Sunt inundat(ă) de furie. Mă simt lipsit(ă) de respect. Mă simt neajutorat(ă).” Numirea emoției este primul pas în recâștigarea controlului."}
+                                            {". Dă-te la o parte. Chiar și 10 secunde sunt utile pentru creier. Conștientizează: „Sunt inundat(ă) de furie. Mă simt lipsit(ă) de respect. Mă simt neajutorat(ă).” Numirea emoției este primul pas în recâștigarea controlului."}
                                           </li>
                                           <li>
                                             <strong>
@@ -366,7 +366,7 @@ export default function Page() {
                                           </strong>
                                         </p>
                                         <p>
-                                          {"Consecvența, atunci când este exprimată cu calm și încredere, îl face pe copilul tău să se simtă în siguranță, nu presat. Așa că data viitoare când ești pe cale să spui ceva repetitiv, fă o pauză. Întrebă-te: „Chiar trebuie să spun asta din nou? Sau are nevoie de ajutor pentru înţelege? Sau poate face altceva și nu este atent.”"}
+                                          {"Consecvența, atunci când este exprimată cu calm și încredere, îl face pe copilul tău să se simtă în siguranță, nu presat. Așa că data viitoare când ești pe cale să spui ceva repetitiv, fă o pauză. Întrebă-te: „Chiar trebuie să spun asta din nou? Sau are nevoie de ajutor pentru înțelege? Sau poate face altceva și nu este atent.”"}
                                         </p>
                                         <p>
                                           <strong>
@@ -640,7 +640,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -661,7 +661,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -682,7 +682,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -703,7 +703,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro"}
+              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -724,7 +724,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2023-2024 și cele mai importante activități Structura anului şcolar la Pro Erudio o urmează"}
+              {"Structura anului școlar 2023-2024 și cele mai importante activități Structura anului școlar la Pro Erudio o urmează"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -745,7 +745,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului şcolar la Pro Erudio o urmează pe cea din învăţământul de stat, aşa cum este prezentată în Ordinul ministrului Educației și Cercetării"}
+              {"Structura anului școlar la Pro Erudio o urmează pe cea din învățământul de stat, așa cum este prezentată în Ordinul ministrului Educației și Cercetării"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

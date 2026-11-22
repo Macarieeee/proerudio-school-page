@@ -2790,7 +2790,7 @@ export default function Page() {
                                 </h2>
                                 <p>
                                   <span>
-                                    {"Astăzi imediat după micul dejun, am avut orele de engleza. Copiii sunt foarte încântați atat de profesori, cat si de lucrurile noi care le sunt prezentate. După engleza, au o jumătate de oră sa se pregătească de pranz. Masa de prânz este un diversificată, dar copiii mai au pofta si de altceva si nimic un poate rivaliza cu o pizza la cafetería din campus, pe lângă ce mănâncă la cantina. Acum stim deja rutina dupa pranz: o sesiune TTT, unde copiii se înscriu pentru următoarele activitati si sunt impartiti pe grupe. Astazi cativa dintre noi am fost din nou la plimbare prin oras, Sonia a ales atelierul “pastry decorations”, unde a si mancat prăjitură pe care a ornat-o, iar ceilalți baieti s-au dus sa joace fotbal. Activitatile in aer liber au decurs foarte bine. În oras, am vazut o bucată din poarta medievală a vechiului oras, muzeul in care se afla masa regelui Arthur (nu am avut timp sa vizitam, speram ca in zilele urmatoare sa reusim). De asemenea, aici s-a născut faimoasa scriitoare Jane Austen și vrem să afla mai multe detalii si despre ea. Partea pietonală a orasului este foarte frumoasa, putem observa un sincretism de nou si vechi foarte placut: clădiri vechi si monument alaturi de restaurante si magazine moderne. De altfel, tot în centru este si o piață in aer liber de fructe, legume si produse de panificatie. Lucru clar: Winchester este un oras foarte frumos."}
+                                    {"Astăzi imediat după micul dejun, am avut orele de engleza. Copiii sunt foarte încântați atat de profesori, cat si de lucrurile noi care le sunt prezentate. După engleza, au o jumătate de oră sa se pregătească de pranz. Masa de prânz este diversificată, dar copiii mai au pofta si de altceva si nimic nu poate rivaliza cu o pizza la cafetería din campus, pe lângă ce mănâncă la cantina. Acum stim deja rutina dupa pranz: o sesiune TTT, unde copiii se înscriu pentru următoarele activitati si sunt impartiti pe grupe. Astazi cativa dintre noi am fost din nou la plimbare prin oras, Sonia a ales atelierul “pastry decorations”, unde a si mancat prăjitură pe care a ornat-o, iar ceilalți baieti s-au dus sa joace fotbal. Activitatile in aer liber au decurs foarte bine. În oras, am vazut o bucată din poarta medievală a vechiului oras, muzeul in care se afla masa regelui Arthur (nu am avut timp sa vizitam, speram ca in zilele urmatoare sa reusim). De asemenea, aici s-a născut faimoasa scriitoare Jane Austen și vrem să afla mai multe detalii si despre ea. Partea pietonală a orasului este foarte frumoasa, putem observa un sincretism de nou si vechi foarte placut: clădiri vechi si monument alaturi de restaurante si magazine moderne. De altfel, tot în centru este si o piață in aer liber de fructe, legume si produse de panificatie. Lucru clar: Winchester este un oras foarte frumos."}
                                   </span>
                                 </p>
                                 <p>
@@ -4988,7 +4988,7 @@ export default function Page() {
                                 </h2>
                                 <p>
                                   <span>
-                                    {"Astăzi am avut din nou cursuri de engleză, de unde copiii vin foarte încântați. Si profesorii sunt altii in fiecare zi, asa ca pot vedea mai multe stiluri de predare. După prânz, cativa dintre noi au fost din nou la plimbare prin oras, altii au preferat să participe la “pimp your t-shirt” unde au primit tricouri albe pe care le-au vopsit in diferite culori. Pretul tricoului a fost de o liră. Paralel s-a desfășurat meciul de basketball, la care au partcipat si cativadintre baietii din grupul nostru. După cina si discutiile de la TTT urma sa mergem pe un deal din apropiere si sa facem picnic, însă Anglia ne-a arătat inca o data ca vremea aici este schimbatoare si nu am mai putut merge la picnic fiindca a inceput ploaia. În loc de picnic am mers în Ocean Lounge si am dansat cu toții. Copiilor le-a plăcut foarte mult activitatea."}
+                                    {"Astăzi am avut din nou cursuri de engleză, de unde copiii vin foarte încântați. Si profesorii sunt altii in fiecare zi, asa ca pot vedea mai multe stiluri de predare. După prânz, cativa dintre noi au fost din nou la plimbare prin oras, altii au preferat să participe la “pimp your t-shirt” unde au primit tricouri albe pe care le-au vopsit in diferite culori. Pretul tricoului a fost de o liră. Paralel s-a desfășurat meciul de basketball, la care au participat si câțiva dintre baietii din grupul nostru. După cina si discutiile de la TTT urma sa mergem pe un deal din apropiere si sa facem picnic, însă Anglia ne-a arătat inca o data ca vremea aici este schimbatoare si nu am mai putut merge la picnic fiindca a inceput ploaia. În loc de picnic am mers în Ocean Lounge si am dansat cu toții. Copiilor le-a plăcut foarte mult activitatea."}
                                   </span>
                                 </p>
                               </div>
@@ -5051,7 +5051,7 @@ export default function Page() {
                                 </h2>
                                 <p>
                                   <span>
-                                    {"Astăzi ne-am trezit din nou mai devreme, la 6.30 si la 7.15 eram la micul dejun. După aceea, ne -am terminat bagajele, pe care incepusem sa le impachetam de seara si la 10.00 toata lumea a eliberat camerele. Ne-am dus bagajele in Ocean Lounge si ne-am mai relaxat acolo. Prânzul a fost la pachet, pentru ca toate grupurile plecau. Noi aveam microbuzul care venea sa ne duca la aeroport la orele 14.00. Pana atunci cativa dintre băieți s-au dus cu unul din superviseri la fotbal, iar restul am plecat, din nou, prin oras. Fiecare a mancat pranzul la activitatea la care era. Cina a fost si ea tot la pachet. Drumul spre aeroport nu a mai fost asa aglomerat si am ajuns aproximativ pe la 16.15. Pana la check in mai aveam timp, asa ca am mâncat sandwich-urile pe care le aveam pentru cina si apoi am intrat in aeroport."}
+                                    {"Astăzi ne-am trezit din nou mai devreme, la 6.30 si la 7.15 eram la micul dejun. După aceea, ne-am terminat bagajele, pe care incepusem sa le impachetam de seara si la 10.00 toata lumea a eliberat camerele. Ne-am dus bagajele in Ocean Lounge si ne-am mai relaxat acolo. Prânzul a fost la pachet, pentru ca toate grupurile plecau. Noi aveam microbuzul care venea sa ne duca la aeroport la orele 14.00. Pana atunci cativa dintre băieți s-au dus cu unul din superviseri la fotbal, iar restul am plecat, din nou, prin oras. Fiecare a mancat pranzul la activitatea la care era. Cina a fost si ea tot la pachet. Drumul spre aeroport nu a mai fost asa aglomerat si am ajuns aproximativ pe la 16.15. Pana la check in mai aveam timp, asa ca am mâncat sandwich-urile pe care le aveam pentru cina si apoi am intrat in aeroport."}
                                   </span>
                                 </p>
                                 <p>
@@ -6275,7 +6275,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Distracție la căldurică Deşi iarnă cu zăpadă se lasă aşteptată, “Distracţia la căldurică” nu a avut nimic de pierdut. Ne-am"}
+              {"Distracție la căldurică Deși iarnă cu zăpadă se lasă așteptată, “Distracția la căldurică” nu a avut nimic de pierdut. Ne-am"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -6296,7 +6296,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Christmas is coming… Vine Crăciunul şi ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
+              {"Christmas is coming… Vine Crăciunul și ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -6317,7 +6317,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Conversație cu profesor nativ englez – Cadoul meu de Moș Nicolae De unde o fi ştiut Moş"}
+              {"Conversație cu profesor nativ englez – Cadoul meu de Moș Nicolae De unde o fi știut Moș"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

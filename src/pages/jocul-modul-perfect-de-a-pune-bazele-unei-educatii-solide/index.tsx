@@ -88,7 +88,7 @@ export default function Page() {
                                   <span>
                                     {"JOCUL – modul perfect"}
                                     <br />
-                                    {"\nde a pune bazele unei educaţii solide"}
+                                    {"\nde a pune bazele unei educații solide"}
                                   </span>
                                 </h2>
                               </div>
@@ -101,7 +101,7 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Orice părinte îşi doreşte ca micuţul să se descurce foarte bine la şcoală și nu numai. Secretul pentru ca acest lucru să se întâmple poate părea paradoxal: jocul."}
+                                  {"Orice părinte își dorește ca micuțul să se descurce foarte bine la școală și nu numai. Secretul pentru ca acest lucru să se întâmple poate părea paradoxal: jocul."}
                                   <br />
                                   {"\nMulți părinți consideră că "}
                                   <a href={"/playday-pro-erudio/"} target={"_blank"}>
@@ -111,8 +111,8 @@ export default function Page() {
                                 </p>
                                 <p>
                                   {"„Nu te mai juca și treci la treaba!” am auzit adesea în anii noștri de școală"}
-                                  {"și acum probabil avem tendința să adresam aceleași imperative și copiilor noștri. Totuși, așa cum intuiți deja proabil, prin joacă"}
-                                  {"învățăm o mulțime de lucruri fără de care învățatul devine aproape imposibil."}
+                                  {" și acum probabil avem tendința să adresam aceleași imperative și copiilor noștri. Totuși, așa cum intuiți deja probabil, prin joacă"}
+                                  {" învățăm o mulțime de lucruri fără de care învățatul devine aproape imposibil."}
                                 </p>
                               </div>
                             </div>
@@ -121,7 +121,7 @@ export default function Page() {
                                 <i></i>
                               </div>
                               <p>
-                                {"Înainte să avem pretenţia ca micuţii să reţină informaţiile structurate şi stabilite de autorităţi, orice minte fragedă are nevoie de putere de concentrare, răbdare, capacitate de a corela informaţiile noi cu informaţiile deja cunoscute, disciplina de a aştepta, curiozitate şi iniţiativă, curajul de a pune întrebări, etc. Pe lângă toate acestea, micuţii mai au nevoie de abilităţi sociale, iar acestea se asimilează cel mai bine prin… aţi ghicit: joc!"}
+                                {"Înainte să avem pretenția ca micuții să rețină informațiile structurate și stabilite de autorități, orice minte fragedă are nevoie de putere de concentrare, răbdare, capacitate de a corela informațiile noi cu informațiile deja cunoscute, disciplina de a aștepta, curiozitate și inițiativă, curajul de a pune întrebări, etc. Pe lângă toate acestea, micuții mai au nevoie de abilități sociale, iar acestea se asimilează cel mai bine prin… ați ghicit: joc!"}
                               </p>
                             </div>
                             <div>
@@ -140,14 +140,14 @@ export default function Page() {
                                         <p></p>
                                         <p>
                                           <img decoding={"async"} alt={"jocul-216x300"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/jocul-216x300.jpg 216w, https://www.proerudio.ro/wp-content/uploads/2016/01/jocul-216x300-105x146.jpg 105w, https://www.proerudio.ro/wp-content/uploads/2016/01/jocul-216x300-36x50.jpg 36w, https://www.proerudio.ro/wp-content/uploads/2016/01/jocul-216x300-54x75.jpg 54w"} sizes={"(max-width:767px) 216px, 216px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/jocul-216x300.jpg"} />
-                                          {"Înainte de orice altă formă de educaţie, un copil va deprinde aptitudinile cu care va rămâne toată viaţă prin joc şi interacţiune cu alţi copii. Este demonstrat că o activitate distractivă, plăcută pentru cei mici are mai mult potenţial de învăţare decât orice altă activitate. Importanța"}
-                                          {"distracţiei devine aparentă dacă luăm în considerare deschiderea şi motivaţia copiilor de a învaţă atunci când învăţarea se face indirect, prin joc, într-un grup social în care copilul interacţionează uşor şi cu plăcere."}
+                                          {"Înainte de orice altă formă de educație, un copil va deprinde aptitudinile cu care va rămâne toată viață prin joc și interacțiune cu alți copii. Este demonstrat că o activitate distractivă, plăcută pentru cei mici are mai mult potențial de învățare decât orice altă activitate. Importanța"}
+                                          {" distracției devine aparentă dacă luăm în considerare deschiderea și motivația copiilor de a învăța atunci când învățarea se face indirect, prin joc, într-un grup social în care copilul interacționează ușor și cu plăcere."}
                                         </p>
                                         <p>
-                                          {"A învaţă este o disciplină în sine, iar primele eforturi de a învaţă ar trebui încurajate de activităţi care să-i încânte pe cei mici. Evident, la diferite vârste jocurile vor fi diferite, concentrându-se pe funcţii motorii, cognitive şi emoţionale de baza, apoi din ce în ce mai complexe. Învăţăm să ne jucăm din primele luni de viaţă: începem prin a ne juca cu degetele şi obiectele din imediată apropiere, apoi cu diferite piese de construcţie şi jucării, inventăm poveşti folosindu-ne imaginaţia, exersându-ne exprimarea şi puterea de convingere, dar şi umorul, cunoştinţele despre viaţă şi experienţă personală."}
+                                          {"A învață este o disciplină în sine, iar primele eforturi de a învăța ar trebui încurajate de activități care să-i încânte pe cei mici. Evident, la diferite vârste jocurile vor fi diferite, concentrându-se pe funcții motorii, cognitive și emoționale de baza, apoi din ce în ce mai complexe. Învățăm să ne jucăm din primele luni de viață: începem prin a ne juca cu degetele și obiectele din imediată apropiere, apoi cu diferite piese de construcție și jucării, inventăm povești folosindu-ne imaginația, exersându-ne exprimarea și puterea de convingere, dar și umorul, cunoștințele despre viață și experiență personală."}
                                         </p>
                                         <p>
-                                          {"O figura ilustră în domeniul dezvoltării mentale şi psihologice ale copiilor, Dr. Bruce D. Perry declara: „Jocul ia multiple forme, dar la baza oricărui joc stă plăcerea – o componentă importantă a procesului de învăţare”. Jocul are potenţialul de a îmbunătăţi o mulţime de abilităţi fizice de la a merge, a alerga, a lovi cu piciorul, a sări, a se coordona, a-şi menţine echilibrul, apoi putem vorbi despre abilităţi de fineţe şi artistice, de a desena, a colora sau a picta."}
+                                          {"O figura ilustră în domeniul dezvoltării mentale și psihologice ale copiilor, Dr. Bruce D. Perry declara: „Jocul ia multiple forme, dar la baza oricărui joc stă plăcerea – o componentă importantă a procesului de învățare”. Jocul are potențialul de a îmbunătăți o mulțime de abilități fizice de la a merge, a alerga, a lovi cu piciorul, a sări, a se coordona, a-și menține echilibrul, apoi putem vorbi despre abilități de finețe și artistice, de a desena, a colora sau a picta."}
                                         </p>
                                       </div>
                                     </div>
@@ -156,7 +156,7 @@ export default function Page() {
                                         <i></i>
                                       </div>
                                       <p>
-                                        {"Jocul va antrena abilităţile micuţilor de a comunica, de a lucra în echipă, de a se coordona unii cu alţii, de a crea strategii, de a anticipa mişcările adversarului, de a intui următoarea mişcare a co-echipierului."}
+                                        {"Jocul va antrena abilitățile micuților de a comunica, de a lucra în echipă, de a se coordona unii cu alții, de a crea strategii, de a anticipa mișcările adversarului, de a intui următoarea mișcare a co-echipierului."}
                                       </p>
                                     </div>
                                   </div>
@@ -179,10 +179,10 @@ export default function Page() {
                                         <p></p>
                                         <p>
                                           <img decoding={"async"} alt={"jocul-plictiselii-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/jocul-plictiselii-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/jocul-plictiselii-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/jocul-plictiselii-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/jocul-plictiselii-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/jocul-plictiselii-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/jocul-plictiselii-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/jocul-plictiselii-150x150.jpg"} />
-                                          {"În era tehnologiei şi a internetului, permitem din ce în ce mai puţin copiilor să-şi manifeste creativitatea şi spiritul inovator, iar în absenţa jocului pe calculator, aceştia declara prea repede că s-au plictisit. Paradoxal sau nu, „plictiseală” joacă un rol vital în educaţia copiilor. În momentele de plictiseală create de singurătate sau de absenţa stimulilor externi, copiii creează jocuri din orice au la îndemână: creioanele stau în picioare şi devin personaje, obiectele de îmbrăcăminte devin peisaje, o măzgăleală prinde viaţă într-o poveste inventată etc. În plus, în solitudine copilul îşi dezvoltă gândirea şi imaginaţia prin simplă analiză (joacă cu ideile) a evenimentelor pe care le-a trăit, prin restructurare şi reorganizare lor, prin fantasmare în dialoguri cu diferite persoane reale, personaje din poveşti sau chiar imaginare. În absenţa sentimentului de plictiseală, copilul nu are şansă să-şi dezvolte toate aceste abilităţi, ci dimpotrivă îşi cultivă nevoia de diversitate continuă şi imediată, iar sentimentul de nemulţumire nu va întârzia să apară."}
+                                          {"În era tehnologiei și a internetului, permitem din ce în ce mai puțin copiilor să-și manifeste creativitatea și spiritul inovator, iar în absența jocului pe calculator, aceștia declara prea repede că s-au plictisit. Paradoxal sau nu, „plictiseală” joacă un rol vital în educația copiilor. În momentele de plictiseală create de singurătate sau de absența stimulilor externi, copiii creează jocuri din orice au la îndemână: creioanele stau în picioare și devin personaje, obiectele de îmbrăcăminte devin peisaje, o măzgăleală prinde viață într-o poveste inventată etc. În plus, în solitudine copilul își dezvoltă gândirea și imaginația prin simplă analiză (joacă cu ideile) a evenimentelor pe care le-a trăit, prin restructurare și reorganizare lor, prin fantasmare în dialoguri cu diferite persoane reale, personaje din povești sau chiar imaginare. În absența sentimentului de plictiseală, copilul nu are șansă să-și dezvolte toate aceste abilități, ci dimpotrivă își cultivă nevoia de diversitate continuă și imediată, iar sentimentul de nemulțumire nu va întârzia să apară."}
                                         </p>
                                         <p>
-                                          {"Primul inhibator al jocului era până acum aproximativ 10 ani televizorul întrucât privitul la televizor este o activitate pasivă şi necreativă. În ultimii ani locul televizorului a fost luat de calculator şi tabletă, dar şi de supraaglomerarea copilului cu programul de după-şcoală sau alte activităţi. Desigur că nu vom pleda aici pentru lipsa activităţilor, fiecare joacă rolul ei în dezvoltarea copilului, însă insistăm asupra faptului că momentele de aşa-numită plictiseală în lipsa oricărui stimul extern (incluzând aici familia şi grupul de prieteni) sunt la fel de importante şi nu trebuie devalorizate sub nicio formă."}
+                                          {"Primul inhibator al jocului era până acum aproximativ 10 ani televizorul întrucât privitul la televizor este o activitate pasivă și necreativă. În ultimii ani locul televizorului a fost luat de calculator și tabletă, dar și de supraaglomerarea copilului cu programul de după-școală sau alte activități. Desigur că nu vom pleda aici pentru lipsa activităților, fiecare joacă rolul ei în dezvoltarea copilului, însă insistăm asupra faptului că momentele de așa-numită plictiseală în lipsa oricărui stimul extern (incluzând aici familia și grupul de prieteni) sunt la fel de importante și nu trebuie devalorizate sub nicio formă."}
                                         </p>
                                       </div>
                                     </div>
@@ -204,11 +204,11 @@ export default function Page() {
                                     <div>
                                       <div>
                                         <p>
-                                          {"Recunoaşterea importanţei jocului în vieţile copiilor este un pas foarte important, iar Înalta Comisie a Naţiunilor Unite pentru "}
+                                          {"Recunoașterea importanței jocului în viețile copiilor este un pas foarte important, iar Înalta Comisie a Națiunilor Unite pentru "}
                                           <a href={"https://ro.wikipedia.org/wiki/Drepturile_omului"} target={"_blank"}>
                                             {"Drepturile Omului"}
                                           </a>
-                                          {" a declarat in 1989 ca „jocul” este un drept fundamental al oricărui copil. Din păcate, statisticile arată ca în ultimii 25 de ani, timpul petrecut de copii jucându-se a scăzut din ce în ce mai mult. Efectele acestei descreşteri în timpul de joacă şi creşteri în timpul petrecut academic, sunt surprinzătoare pentru mulţi oameni şi deloc pozitive: de la depresie, la anxietate şi stres, ceea ce conduce la boli cronice la vârste fragede."}
+                                          {" a declarat in 1989 ca „jocul” este un drept fundamental al oricărui copil. Din păcate, statisticile arată ca în ultimii 25 de ani, timpul petrecut de copii jucându-se a scăzut din ce în ce mai mult. Efectele acestei descreșteri în timpul de joacă și creșteri în timpul petrecut academic, sunt surprinzătoare pentru mulți oameni și deloc pozitive: de la depresie, la anxietate și stres, ceea ce conduce la boli cronice la vârste fragede."}
                                         </p>
                                       </div>
                                     </div>
@@ -218,37 +218,37 @@ export default function Page() {
                                       </div>
                                       <p>
                                         {"Academia Americana a Pediatrilor"}
-                                        {"susţine că jocul este cel care ajută dezvoltarea abilităţilor sociale ale copiilor, abilităţi vitale în societate: lucrul in echipă, a împărţi, a negocia, a rezolva conflicte şi a fi auto-didact. De asemenea, Academia Americana a Pediatrilor face o serie de recomandari pentru orice părinte ce doreşte să readucă echilibrul în viaţa copilului său:"}
+                                        {" susține că jocul este cel care ajută dezvoltarea abilităților sociale ale copiilor, abilități vitale în societate: lucrul in echipă, a împărți, a negocia, a rezolva conflicte și a fi auto-didact. De asemenea, Academia Americana a Pediatrilor face o serie de recomandari pentru orice părinte ce dorește să readucă echilibrul în viața copilului său:"}
                                       </p>
                                     </div>
                                     <div>
                                       <div>
                                         <ul>
                                           <li>
-                                            {"Permiteţi copilului să se joace nestructurat pentru a-şi pune în valoare creativitatea, puterea de reflexie şi să se relaxeze"}
+                                            {"Permiteți copilului să se joace nestructurat pentru a-și pune în valoare creativitatea, puterea de reflexie și să se relaxeze"}
                                           </li>
                                           <li>
-                                            {"Încercați sî"}
-                                            {"ânfrânați reacția imediată de a vă ajuta copilul atunci când este în dificultate. Da-ți-i timp să"}
-                                            {"gândească"}
-                                            {"și să găsească singur soluții, însă nu exagerați. Este important copilul să"}
-                                            {"știe că dvs reprezentați o resursă valoroasă, dar și că el este capabil să se descurce singur."}
+                                            {"Încercați să"}
+                                            {" înfrânați reacția imediată de a vă ajuta copilul atunci când este în dificultate. Dați-i timp să"}
+                                            {" gândească"}
+                                            {" și să găsească singur soluții, însă nu exagerați. Este important ca acest copil să"}
+                                            {" știe că dvs reprezentați o resursă valoroasă, dar și că el este capabil să se descurce singur."}
                                           </li>
                                           <li>
-                                            {"Încurajaţi copii să se joace activ, alergând, căţărându-se, în locul distracţiei pasive, de tipul televizor sau computer"}
+                                            {"Încurajați copii să se joace activ, alergând, cățărându-se, în locul distracției pasive, de tipul televizor sau computer"}
                                           </li>
                                           <li>
-                                            {"Cumpăraţi pentru copii dumneavoastră jucării „adevărate”, care să le pună la lucru imaginaţia si creativitatea"}
+                                            {"Cumpărați pentru copii dumneavoastră jucării „adevărate”, care să le pună la lucru imaginația si creativitatea"}
                                           </li>
                                           <li>
-                                            {"Petreceţi timp liber, neplanificat şi nestructurat cu copii dumneavoastră"}
+                                            {"Petreceți timp liber, neplanificat și nestructurat cu copii dumneavoastră"}
                                           </li>
                                           <li>
-                                            {"Permiteţi copiilor să participe la alegerea activităţilor extracuriculare"}
+                                            {"Permiteți copiilor să participe la alegerea activităților extracuriculare"}
                                           </li>
                                         </ul>
                                         <p>
-                                          {"Nici o extremă nu va fi benefică pentru dezvoltarea copiilor, deci recomandarea mea finală ar fi să încercăm mereu să găsim un echilibru între joc liber, structură şi disciplină, pentru a-i pregăti pe cei mici pentru încercările vieţii."}
+                                          {"Nici o extremă nu va fi benefică pentru dezvoltarea copiilor, deci recomandarea mea finală ar fi să încercăm mereu să găsim un echilibru între joc liber, structură și disciplină, pentru a-i pregăti pe cei mici pentru încercările vieții."}
                                         </p>
                                       </div>
                                     </div>
@@ -406,7 +406,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/copii-fericiti-versus-copii-de-succes-secretele-unei-copilarii-fericite/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Copii-fericiti-versus-copii-de-succes-secretele-unei-copilarii-fericite.jpg\")"}}>
             <h3>
-              {"Copii fericiţi versus copii de succes – secretele unei copilării fericite"}
+              {"Copii fericiți versus copii de succes – secretele unei copilării fericite"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -414,7 +414,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Copii fericiţi versus copii de succes – secretele unei copilării fericite – Când vine vorba de copii, părinţii din zilele"}
+              {"Copii fericiți versus copii de succes – secretele unei copilării fericite – Când vine vorba de copii, părinții din zilele"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -435,7 +435,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -456,7 +456,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -477,7 +477,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -498,7 +498,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -519,7 +519,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro"}
+              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

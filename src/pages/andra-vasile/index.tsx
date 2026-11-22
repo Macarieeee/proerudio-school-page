@@ -140,7 +140,7 @@ export default function Page() {
                                   <em>
                                     {"Back to School Training Day"}
                                   </em>
-                                  {", 7 septembrie 2023, organizat de CartureştiEdu"}
+                                  {", 7 septembrie 2023, organizat de CartureștiEdu"}
                                 </li>
                                 <li>
                                   <em>

@@ -298,7 +298,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-5-6-ani-galerie-foto/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-vara-de-limba-engleza-Storytime-5-6-ani2.jpg\")"}}>
             <h3>
-              {"Storytime (5-6 ani) – Galerie foto"}
+              <strong>{"Storytime"}</strong>{" (5 - 6 ani) – Galerie foto"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -306,7 +306,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Curs de vară de limba engleză – Storytime (5-6 ani) Am fost un grup plin de energie şi"}
+              {"Curs de vară de limba engleză – "}<strong>{"Storytime"}</strong>{" (5 - 6 ani) Am fost un grup plin de energie și"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -411,7 +411,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Distracție la căldurică Deşi iarnă cu zăpadă se lasă aşteptată, “Distracţia la căldurică” nu a avut nimic de pierdut. Ne-am"}
+              {"Distracție la căldurică Deși iarnă cu zăpadă se lasă așteptată, “Distracția la căldurică” nu a avut nimic de pierdut. Ne-am"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

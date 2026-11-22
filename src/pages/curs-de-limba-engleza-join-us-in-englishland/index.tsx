@@ -17,13 +17,13 @@ export default function Page() {
             {" Înapoi la pagina principală"}
           </a>
           <p className={"mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-background/75"}>
-            {"Cursuri pentru copii de 4–11 ani"}
+            {"Cursuri pentru copii de 4 - 11 ani"}
           </p>
           <h1 className={"mb-6 text-4xl font-bold leading-tight md:text-6xl"}>
-            {"Join Us in Englishland — primii pași în limba engleză"}
+            <strong>{"Join Us in Englishland"}</strong>{" — primii pași în limba engleză"}
           </h1>
           <p className={"max-w-3xl text-lg leading-relaxed text-background/90 md:text-xl"}>
-            {"Cursuri pentru copii de 4–7 ani, disponibile la sediu (ocazional online, la solicitarea părinților)"}
+            {"Cursuri pentru copii de 4 - 7 ani, disponibile la sediu (ocazional online, la solicitarea părinților)"}
           </p>
         </div>
       </div>
@@ -33,15 +33,15 @@ export default function Page() {
       <section className={"mobile-page-intro"} aria-label={"Join Us in Englishland — primii pași în limba engleză"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2021/10/join-us-in-englishland-1.jpg.webp"} alt={"Join Us in Englishland — primii pași în limba engleză"} decoding={"async"} />
         <h1>
-          {"Join Us in Englishland — primii pași în limba engleză"}
+          <strong>{"Join Us in Englishland"}</strong>{" — primii pași în limba engleză"}
         </h1>
         <p>
-          {"Cursuri pentru copii de 4–7 ani, disponibile la sediu (ocazional online, la solicitarea părinților)"}
+          {"Cursuri pentru copii de 4 - 7 ani, disponibile la sediu (ocazional online, la solicitarea părinților)"}
         </p>
       </section>
       <div>
         <p>
-          {"„Join Us in Englishland” îi invită pe cei mici să descopere limba engleză prin joc, povești și activități creative, într-o atmosferă prietenoasă, adaptată vârstei lor."}
+          <strong>{"Join Us in Englishland"}</strong>{" îi invită pe cei mici să descopere limba engleză prin joc, povești și activități creative, într-o atmosferă prietenoasă, adaptată vârstei lor."}
         </p>
         <p>
           {"Programul se adresează preșcolarilor și elevilor din clasa pregătitoare și clasa I și este structurat pe trei niveluri:"}
@@ -51,19 +51,19 @@ export default function Page() {
             <strong>
               {"Join Us in Englishland 1"}
             </strong>
-            {" — pentru copii de 4–5 ani;"}
+            {" — pentru copii de 4 - 5 ani;"}
           </li>
           <li>
             <strong>
               {"Join Us in Englishland 2"}
             </strong>
-            {" — pentru copii de 5–6 ani;"}
+            {" — pentru copii de 5 - 6 ani;"}
           </li>
           <li>
             <strong>
               {"Join Us in Englishland 3"}
             </strong>
-            {" — pentru copii de 6–7 ani."}
+            {" — pentru copii de 6 - 7 ani."}
           </li>
         </ul>
         <h2>
@@ -148,8 +148,7 @@ export default function Page() {
           {"Prin fiecare activitate, îi încurajăm pe copii să descopere, să participe și să capete încredere în folosirea limbii engleze."}
         </p>
         <h4>
-          {"Câteva imagini de la cursurile de limba engleză “JOIN US IN "}
-          {"ENGLISHLAND”:"}
+          {"Câteva imagini de la cursurile de limba engleză "}<strong>{"JOIN US IN ENGLISHLAND"}</strong>{":"}
         </h4>
         <div className={"photo-gallery"} style={{"display": "grid", "gridTemplateColumns": "repeat(3,minmax(0,1fr))", "gap": "12px"}}>
           <a href={"https://www.proerudio.ro/wp-content/uploads/2021/10/18765591_1103021813132659_1325564205651648286_n_35905043594_o.jpg"} aria-label={"Mărește imaginea"}>
@@ -181,7 +180,7 @@ export default function Page() {
               <img src={image1 + ""} alt={""} />
             </div>
             <h2>
-              {"“JOIN US IN ENGLISHLAND”"}
+              <strong>{"JOIN US IN ENGLISHLAND"}</strong>
             </h2>
             <div className={"course-price"}>
               <sup>
@@ -254,7 +253,7 @@ export default function Page() {
                   {"Vârstă:"}
                 </strong>
                 <br />
-                {"4–7 ani"}
+                {"4 - 7 ani"}
               </li>
             </ul>
             <p></p>
@@ -293,8 +292,7 @@ export default function Page() {
             {"/trașă plată."}
           </li>
           <li>
-            {"Lunar până pe data de 5 a fiecarei luni prin înmulțirea numărului maxim de cursuri din lună "}
-            {"cu prețul pe curs."}
+            {"Lunar până pe data de 5 a fiecarei luni prin înmulțirea numărului maxim de cursuri din lună cu prețul pe curs."}
           </li>
         </ul>
         <div data-href={"https://www.facebook.com/proerudio"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"false"}></div>
@@ -305,22 +303,22 @@ export default function Page() {
             {"Continuă pregătirea"}
           </p>
           <h2 className={"!m-0 !border-0 !p-0 !text-xl font-bold !text-foreground md:!text-2xl"}>
-            {"Alte cursuri pentru copii de 4–11 ani"}
+            {"Alte cursuri pentru copii de 4 - 11 ani"}
           </h2>
         </div>
         <div id={":r0:"} className={"related-content-grid"}>
           <a className={"related-content-card"} href={"/cursuri-de-limba-engleza-pentru-copii-de-4-11-ani/curs-de-limba-engleza-join-us-for-english/"}>
             <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2021/10/join-us-in-english.webp\")"}}>
               <h3>
-                {"Curs de limba engleză – JOIN US FOR ENGLISH"}
+                {"Curs de limba engleză – "}<strong>{"JOIN US FOR ENGLISH"}</strong>
               </h3>
             </div>
             <div className={"related-content-body"}>
               <span className={"related-content-badge"}>
-                {"4–11 ani"}
+                {"4 - 11 ani"}
               </span>
               <p>
-                {"Cursuri pentru copii de 8–11 ani, disponibile la sediu și ocazional/permanent online"}
+                {"Cursuri pentru copii de 8 - 11 ani, disponibile la sediu și ocazional/permanent online"}
               </p>
               <span className={"related-content-action"}>
                 {"Vezi cursul"}

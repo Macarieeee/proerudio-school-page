@@ -73,7 +73,7 @@ export default function Page() {
                                 </span>
                               </h5>
                               <p>
-                                {"“Cei care au constiinta de sine dau dovada de o anumita subtilitate in viata afectiva… Sunt oameni independenti, cu o minte santatoasa, care au simtul masurii si o conceptie pozitiva despre viata. Atunci cand sunt intr-o dispozitie proasta, ei nu se framanta prea mult si sunt capabili sa scape repede de ea. Cunoasterea emotiilor inseamna sa poti sa le identifici. Stapanirea lor este capacitatea de a le adapta in functie de fiecare situatie, de a putea amana satisfacerea dorintelor, de a reprima impulsurile. Ei au capacitatea de a organiza grupuri de a negocia solutii si a percepe sentimentele, motivatiile si preocuparile celorlalti. Aceasta intelegere permite o mai mare intimitate si aparitia unui sentiment de simpatie. Aceasta aptitudine o intalnim la consilierii buni sau la psihoterapeuti, la marii romancieri, la liderii innascuti, la actorii buni si la vanzatorii eficienti”, spunea"}
+                                {"“Cei care au constiinta de sine dau dovada de o anumita subtilitate in viata afectiva… Sunt oameni independenti, cu o minte sănătoasă, care au simtul masurii si o conceptie pozitiva despre viata. Atunci cand sunt intr-o dispozitie proasta, ei nu se framanta prea mult si sunt capabili sa scape repede de ea. Cunoasterea emotiilor inseamna sa poti sa le identifici. Stapanirea lor este capacitatea de a le adapta in functie de fiecare situatie, de a putea amana satisfacerea dorintelor, de a reprima impulsurile. Ei au capacitatea de a organiza grupuri de a negocia solutii si a percepe sentimentele, motivatiile si preocuparile celorlalti. Aceasta intelegere permite o mai mare intimitate si aparitia unui sentiment de simpatie. Aceasta aptitudine o intalnim la consilierii buni sau la psihoterapeuti, la marii romancieri, la liderii innascuti, la actorii buni si la vanzatorii eficienti”, spunea"}
                                 <strong>
                                   {"Daniel Goleman"}
                                 </strong>
@@ -256,7 +256,7 @@ export default function Page() {
                                             <strong>
                                               {"Varsta: "}
                                             </strong>
-                                            {"4-9 ani"}
+                                            {"4 - 9 ani"}
                                           </li>
                                         </ul>
                                         <p></p>
@@ -432,7 +432,7 @@ export default function Page() {
                             <div>
                               <h3>
                                 {"Alte cursuri"}
-                                {"pentru copii:"}
+                                {" pentru copii:"}
                               </h3>
                             </div>
                           </div>
@@ -457,7 +457,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5–17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
+                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5 - 17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -478,7 +478,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar şi a exprimarii pasiunii, limba iubirii"}
+                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar și a exprimarii pasiunii, limba iubirii"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -541,7 +541,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Creioane și culori (pentru copii de 5-7 si 8-10 ani) Prezentare generală Desenul este"}
+                                    {"Creioane și culori (pentru copii de 5-7 si 8 - 10 ani) Prezentare generală Desenul este"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -562,7 +562,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Planeta animalelor (pentru copii de 5-7 și 8-10 ani) Prezentare generală Lumea animalelor"}
+                                    {"Planeta animalelor (pentru copii de 5-7 și 8 - 10 ani) Prezentare generală Lumea animalelor"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}

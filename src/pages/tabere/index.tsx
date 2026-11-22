@@ -314,7 +314,7 @@ export default function Page() {
               <div>
                 <div>
                   <p>
-                    {"Când vă gândiţi la dezvoltarea copilului dumneavoastră şi plănuiţi cu atâta grijă educaţia sa şi activităţile extracurriculare ce îl vor ajută să devină un adult de succes şi fericit, nu uitaţi că verile sunt o oportunitate, nu timp pierdut. O  tabăra este un mod  ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ), de a se responsabiliza, dar mai ales de a se distra şi a-şi face prieteni noi.\n\nDacă va întrebaţi care sunt beneficiile participării la tabăra, iată o lista sumară:"}
+                    {"Când vă gândiți la dezvoltarea copilului dumneavoastră și plănuiți cu atâta grijă educația sa și activitățile extracurriculare ce îl vor ajuta să devină un adult de succes și fericit, nu uitați că verile sunt o oportunitate, nu timp pierdut. O  tabăra este un mod  ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ), de a se responsabiliza, dar mai ales de a se distra și a-și face prieteni noi.\n\nDacă va întrebați care sunt beneficiile participării la tabăra, iată o lista sumară:"}
                   </p>
                   <div>
                     <a href={"/8-motive-sa-mi-trimit-copilul-in-tabara/"} target={"_blank"} rel={"noopener noreferrer"}>

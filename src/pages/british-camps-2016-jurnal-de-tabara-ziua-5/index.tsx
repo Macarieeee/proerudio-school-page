@@ -97,29 +97,29 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"În această dimineaţă mai puţini dintre noi au fost matinali. Normal că ne-am trezit mai greu când dormeam atât de bine. Am început dimineaţa în forţă cu ouă ochiuri, brânză, şuncă presată, cereale cu lapte, unt, gem şi ceai."}
+                                  {"În această dimineață mai puțini dintre noi au fost matinali. Normal că ne-am trezit mai greu când dormeam atât de bine. Am început dimineața în forță cu ouă ochiuri, brânză, șuncă presată, cereale cu lapte, unt, gem și ceai."}
                                 </p>
                                 <p>
-                                  {"La lecţiile de dimineaţă am inventat câte un produs şi l-am prezentat în faţa colegilor, am inventat o ţară nouă şi, ca de obicei, am jucat tot felul de jocuri. Cei mai mari au discutat despre modă şi concepte din lumea modei, au completat un dating profile, unii mai serios, alţii mai în glumă, dar a fost distractiv pentru toată lumea. Au discutat despre ce consideră copiii bun în lumea asta şi ar vrea să păstreze într-un viitor ipotetic îndepărtat şi ce elemente ar vrea să elimine. Desigur, de-a lungul taberei unele activităţi se repetă, dar mereu în grupe diferite."}
+                                  {"La lecțiile de dimineață am inventat câte un produs și l-am prezentat în fața colegilor, am inventat o țară nouă și, ca de obicei, am jucat tot felul de jocuri. Cei mai mari au discutat despre modă și concepte din lumea modei, au completat un dating profile, unii mai serios, alții mai în glumă, dar a fost distractiv pentru toată lumea. Au discutat despre ce consideră copiii bun în lumea asta și ar vrea să păstreze într-un viitor ipotetic îndepărtat și ce elemente ar vrea să elimine. Desigur, de-a lungul taberei unele activități se repetă, dar mereu în grupe diferite."}
                                 </p>
                                 <p>
-                                  {"Prânzul a început cu ciorbă de pui pe care unii au adorat-o, cerând o a două porţie, iar alţii nici nu s-au atins. Nimic neobişnuit pentru vârsta noastră, nu?  Felul doi, în schimb, a fost pe sufletul tuturor. Am primit un super-şniţel, cartofi prăjiţi şi salată de varză. O piersică la desert a încheiat masa în stil sănătos."}
+                                  {"Prânzul a început cu ciorbă de pui pe care unii au adorat-o, cerând o a două porție, iar alții nici nu s-au atins. Nimic neobișnuit pentru vârsta noastră, nu?  Felul doi, în schimb, a fost pe sufletul tuturor. Am primit un super-șnițel, cartofi prăjiți și salată de varză. O piersică la desert a încheiat masa în stil sănătos."}
                                 </p>
                                 <p>
-                                  {"După masă eram programaţi la piscină, dar după vizita la Paradisul Acvatic, cei mai mulţi dintre noi am preferat să ne facem siesta liniştiţi. De la ora 15.00, însă, am avut ocazia să pilotăm o drona, ceea ce a fost palpitant, mai ales pentru cei care nu avem o drona acasă."}
+                                  {"După masă eram programați la piscină, dar după vizita la Paradisul Acvatic, cei mai mulți dintre noi am preferat să ne facem siesta liniștiți. De la ora 15.00, însă, am avut ocazia să pilotăm o drona, ceea ce a fost palpitant, mai ales pentru cei care nu avem o drona acasă."}
                                 </p>
                                 <p>
-                                  {"Programul de după amiază s-a arătat foarte interesant. Pentru prima tură de ateliere am dat aproape toţi năvală la paintball (doar tras la ţintă), deşi aveam mai multe variante. La paintball am stat la coadă, dar am apucat să tragem de vreo 3 ori fiecare. Cei sub 14 ani cu arme de jucărie, de putere mică, iar cei de peste 14 ani cu arme ceva mai serioase, mai puternice şi semiautomate, ceea ce ne-a permis să lansăm bilele cu o viteză mai mare. Distractiv a fost pentru toată lumea şi nu ne mai săturam de împuşcat. Şi atelierul de origami a avut ceva succes la copii de toate vârstele. Nature collage"}
-                                  {" a fost un alt atelier, în cadrul căruia am cules plante de toate formele şi culorile pentru a crea o planşă."}
+                                  {"Programul de după amiază s-a arătat foarte interesant. Pentru prima tură de ateliere am dat aproape toți năvală la paintball (doar tras la țintă), deși aveam mai multe variante. La paintball am stat la coadă, dar am apucat să tragem de vreo 3 ori fiecare. Cei sub 14 ani cu arme de jucărie, de putere mică, iar cei de peste 14 ani cu arme ceva mai serioase, mai puternice și semiautomate, ceea ce ne-a permis să lansăm bilele cu o viteză mai mare. Distractiv a fost pentru toată lumea și nu ne mai săturam de împușcat. Și atelierul de origami a avut ceva succes la copii de toate vârstele. Nature collage"}
+                                  {" a fost un alt atelier, în cadrul căruia am cules plante de toate formele și culorile pentru a crea o planșă."}
                                 </p>
                                 <p>
-                                  {"Pentru cel de-al doilea atelier am avut ocazia să continuăm petrecerea paintball, de această dată, în formaţie de lupta. Înainte de orice, celor mari le-au fost citite o serie de reguli pe care trebuia nu doar să le ştie, ci şi să semneze că îşi asumă responsabilitatea de a respecta aceste reguli pe parcursul activităţii. Am primit echipament de protecţie, instrucţiuni de utilizare şi siguranţă, apoi am putut, în sfârşit, să tragem unii în alţii. Desigur că au existat şi alte variante de ateliere: crearea de fanioane şi cricket, dar atenţia noastră toată s-a îndreptat către mult-aşteptatul paintball."}
+                                  {"Pentru cel de-al doilea atelier am avut ocazia să continuăm petrecerea paintball, de această dată, în formație de lupta. Înainte de orice, celor mari le-au fost citite o serie de reguli pe care trebuia nu doar să le știe, ci și să semneze că își asumă responsabilitatea de a respecta aceste reguli pe parcursul activității. Am primit echipament de protecție, instrucțiuni de utilizare și siguranță, apoi am putut, în sfârșit, să tragem unii în alții. Desigur că au existat și alte variante de ateliere: crearea de fanioane și cricket, dar atenția noastră toată s-a îndreptat către mult-așteptatul paintball."}
                                 </p>
                                 <p>
-                                  {"Şi dacă paintball-ul nu ne-a înseninat ziua, concursul de talente cu siguranţă a făcut-o. Am avut şi noi în grup cinci fetiţe curajoase şi mega-talentate. Întregul eveniment a fost deschis de Laura cu un recital la pian ce s-a încheiat într-o nebunie de aplauze. Iulia şi Ariana ne-au încântat cu o versiune acapella a celebrului When I’m Gone din filmul Pitch Perfect şi, incredibil!!!, l-au învăţat cu câteva ore înainte de concurs. Iar Diana şi Lavinia ne-au arătat ce înseamnă să simţi ritmul muzicii cu o coregrafie originală şi dinamică ce ne-a făcut poftă de dans tuturor. Aplauzele nu au lipsit şi nici zâmbetele de admiraţie ale spectatorilor. Un mare BRAVO tuturor fetelor pentru că ne-au reprezentat grupul atât de frumos! Iar dacă nu ne credeţi, vă invităm să vizionaţi scurta înregistrare video de mai jos."}
+                                  {"Și dacă paintball-ul nu ne-a înseninat ziua, concursul de talente cu siguranță a făcut-o. Am avut și noi în grup cinci fetițe curajoase și mega-talentate. Întregul eveniment a fost deschis de Laura cu un recital la pian ce s-a încheiat într-o nebunie de aplauze. Iulia și Ariana ne-au încântat cu o versiune acapella a celebrului When I’m Gone din filmul Pitch Perfect și, incredibil!!!, l-au învățat cu câteva ore înainte de concurs. Iar Diana și Lavinia ne-au arătat ce înseamnă să simți ritmul muzicii cu o coregrafie originală și dinamică ce ne-a făcut poftă de dans tuturor. Aplauzele nu au lipsit și nici zâmbetele de admirație ale spectatorilor. Un mare BRAVO tuturor fetelor pentru că ne-au reprezentat grupul atât de frumos! Iar dacă nu ne credeți, vă invităm să vizionați scurta înregistrare video de mai jos."}
                                 </p>
                                 <p>
-                                  {"Concursul s-a terminat în jurul orei 23.00, dar Elena ne-a lăsat să ne culcăm la 12.00 astăzi, deci pentru noi distracţia continuă 😀 ."}
+                                  {"Concursul s-a terminat în jurul orei 23.00, dar Elena ne-a lăsat să ne culcăm la 12.00 astăzi, deci pentru noi distracția continuă 😀 ."}
                                 </p>
                               </div>
                             </div>
@@ -311,7 +311,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 7 Am deschis ochii la îndemnul vocii Elenei care ne anunţa că e trecut de 8.00."}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 7 Am deschis ochii la îndemnul vocii Elenei care ne anunța că e trecut de 8.00."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -332,7 +332,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 6 Dimineaţa zilei a şasea ne-a găsit pe unii energici şi pregătiţi de o nouă aventură,"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 6 Dimineața zilei a șasea ne-a găsit pe unii energici și pregătiți de o nouă aventură,"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -353,7 +353,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 4 Bună dimineaţa, ziua a treia a taberei! După ce am adormit cu toţii la orele"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 4 Bună dimineața, ziua a treia a taberei! După ce am adormit cu toții la orele"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -374,7 +374,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 3 Bună dimineaţa, ziua a treia a taberei! După ce am adormit cu toţii la orele"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 3 Bună dimineața, ziua a treia a taberei! După ce am adormit cu toții la orele"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -416,7 +416,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 1 La 10 fix am fost toţi în microbuz şi gata de plecare uşor somnoroşi,"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 1 La 10 fix am fost toți în microbuz și gata de plecare ușor somnoroși,"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

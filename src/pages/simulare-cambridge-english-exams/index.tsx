@@ -52,9 +52,9 @@ export default function Page() {
                               </h2>
 <p>
                                 <span>
-                                  {"Doriţi să vă înscrieţi la examenele Cambridge English, dar nu sunteţi siguri că aţi ajuns la nivelul de cunoştinţe de limba engleză necesar promovării?"}
+                                  {"Doriți să vă înscrieți la examenele Cambridge English, dar nu sunteți siguri că ați ajuns la nivelul de cunoștințe de limba engleză necesar promovării?"}
                                   <br />
-                                  {"\nSau poate doar doriţi să vă evaluaţi în mod obiectiv şi structurat cunoştinţele. "}
+                                  {"\nSau poate doar doriți să vă evaluați în mod obiectiv și structurat cunoștințele. "}
                                 </span>
                               </p>
 </section>
@@ -62,15 +62,15 @@ export default function Page() {
 <section className="event-section">
 <p>
                                 <span>
-                                  {"Pentru oricare dintre aceste scopuri, vă recomandăm să vă înscrieţi la simularea de examen corespunzătoare nivelului aşteptat"}
+                                  {"Pentru oricare dintre aceste scopuri, vă recomandăm să vă înscrieți la simularea de examen corespunzătoare nivelului așteptat"}
                                 </span>
                                 <br />
                                 <span>
-                                  {"(în acest sens, vă invităm să discutaţi cu profesorul de la grupă)."}
+                                  {"(în acest sens, vă invităm să discutați cu profesorul de la grupă)."}
                                 </span>
                               </p>
 <p>
-                                {"Aşa cum v-am obişnuit, sfârșitul iernii este perioada simulărilor pentru examenele Cambridge English după cum urmează:"}
+                                {"Așa cum v-am obișnuit, sfârșitul iernii este perioada simulărilor pentru examenele Cambridge English după cum urmează:"}
                               </p>
 </section>
 
@@ -80,7 +80,7 @@ export default function Page() {
                               </h3>
 <p>
                                 <strong>
-                                  {"simulare pentru examenele Cambridge English nivelurile KET, PET, FCE şi CAE"}
+                                  {"simulare pentru examenele Cambridge English nivelurile KET, PET, FCE și CAE"}
                                 </strong>
                                 <br />
                                 <em>
@@ -95,7 +95,7 @@ export default function Page() {
                               </h3>
 <p>
                                 <strong>
-                                  {"simulare pentru examenele Cambridge English nivelurile A1 şi A2 (YLE – Starters, Movers şi Flyers)"}
+                                  {"simulare pentru examenele Cambridge English nivelurile A1 și A2 (YLE – Starters, Movers și Flyers)"}
                                 </strong>
                                 <br />
                                 <em>
@@ -113,46 +113,46 @@ export default function Page() {
 <section className="event-section">
 <h2>
                                 <span>
-                                  {"De ce mi-aş înscrie copilul la o simulare de examen?"}
+                                  {"De ce mi-aș înscrie copilul la o simulare de examen?"}
                                 </span>
                               </h2>
 </section>
 
 <section className="event-section">
 <h3>
-                                {"1. Identificarea punctele forte şi "}
+                                {"1. Identificarea punctele forte și "}
                                 {"a celor"}
-                                {"slabe"}
+                                {" slabe"}
                               </h3>
 <p>
-                                {"Simularea de examen urmează formatul de examen şi rezultatele obţinute oferă informaţii foarte valoroase atât candidatului, cât şi profesorului care îl pregăteşte, dar şi familiei. Astfel, fiecare îşi cunoaşte punctele forte şi mai ales pe cele slabe pentru a-şi doza efortul de pregătire pe abilităţile care necesită îmbunătăţire."}
+                                {"Simularea de examen urmează formatul de examen și rezultatele obținute oferă informații foarte valoroase atât candidatului, cât și profesorului care îl pregătește, dar și familiei. Astfel, fiecare își cunoaște punctele forte și mai ales pe cele slabe pentru a-și doza efortul de pregătire pe abilitățile care necesită îmbunătățire."}
                               </p>
 </section>
 
 <section className="event-section">
 <h3>
-                                {"2. Creşterea motivaţiei"}
+                                {"2. Creșterea motivației"}
                               </h3>
 <p>
-                                {"Apropierea simulării de examen reprezintă un moment în care creşte motivaţia pentru învăţare, prin urmare şi timpul alocat pregătirii la limba engleză."}
+                                {"Apropierea simulării de examen reprezintă un moment în care crește motivația pentru învățare, prin urmare și timpul alocat pregătirii la limba engleză."}
                               </p>
 </section>
 
 <section className="event-section">
 <h3>
-                                {"3. Gestionarea emoţiilor"}
+                                {"3. Gestionarea emoțiilor"}
                               </h3>
 <p>
-                                {"Susţinerea oricărui examen reprezintă o situaţie tensionată, încărcată de emoţie, iar familiarizarea cu acest tip de presiune face emoţiile din examenul real mai uşor de confruntat."}
+                                {"Susținerea oricărui examen reprezintă o situație tensionată, încărcată de emoție, iar familiarizarea cu acest tip de presiune face emoțiile din examenul real mai ușor de confruntat."}
                               </p>
 </section>
 
 <section className="event-section">
 <h3>
-                                {"4. Familiarizarea cu atmosfera şi structura examenului"}
+                                {"4. Familiarizarea cu atmosfera și structura examenului"}
                               </h3>
 <p>
-                                {"Pregătirea pentru examen din timpul cursului se face pe probe întrucât durata întregului examen depăşeşte durata unui curs. Astfel, simularea devine esenţială ca parte a pregătirii pentru examen întrucât verifică toate probele într-o unitate de timp asemănătoare cu cea din examenul final."}
+                                {"Pregătirea pentru examen din timpul cursului se face pe probe întrucât durata întregului examen depășește durata unui curs. Astfel, simularea devine esențială ca parte a pregătirii pentru examen întrucât verifică toate probele într-o unitate de timp asemănătoare cu cea din examenul final."}
                               </p>
 </section>
 
@@ -161,30 +161,30 @@ export default function Page() {
                                 {"5. Gestionarea timpului"}
                               </h3>
 <p>
-                                {"Managementul timpului este un alt factor cheie pentru succesul la examen. Candidaţii care ştiu cum să-şi dozeze timpul pentru fiecare proba şi ce strategii trebuie să folosească pentru a-l folosi eficient, se apropie foarte mult de succes."}
+                                {"Managementul timpului este un alt factor cheie pentru succesul la examen. Candidații care știu cum să-și dozeze timpul pentru fiecare proba și ce strategii trebuie să folosească pentru a-l folosi eficient, se apropie foarte mult de succes."}
                               </p>
 </section>
 
 <section className="event-section">
 <h3>
-                                {"6. Creşterea încrederii şi independenţei în abordarea sarcinilor de lucru"}
+                                {"6. Creșterea încrederii și independenței în abordarea sarcinilor de lucru"}
                               </h3>
 <p>
-                                {"Simularea de examen este o oportunitate pentru folosirea şi exersarea individuală a tehnicilor de abordare învăţate în timpul cursului de limba engleză în absenţa îndrumării profesorului sau a sugestiilor venite din partea grupului de lucru."}
+                                {"Simularea de examen este o oportunitate pentru folosirea și exersarea individuală a tehnicilor de abordare învățate în timpul cursului de limba engleză în absența îndrumării profesorului sau a sugestiilor venite din partea grupului de lucru."}
                               </p>
 </section>
 
 <section className="event-section">
 <h3>
-                                {"7. Stabilirea nivelului de cunoaştere a limbii engleze într-un mod obiectiv şi detaliat"}
+                                {"7. Stabilirea nivelului de cunoaștere a limbii engleze într-un mod obiectiv și detaliat"}
                               </h3>
 <p className="event-participation">
-                                {"Rezultatele obţinute la simulare vor fi analizate într-un "}
+                                {"Rezultatele obținute la simulare vor fi analizate într-un "}
                                 <strong>
                                   {"Raport individual de evaluare"}
                                 </strong>
-                                {", în care se vi se va recomanda înscrierea pentru o anumită sesiune de examene. Aceste rezultate sunt relevante pentru performanţa la examenul propriu-zis. Astfel, în urma susţinerii simulării putem face recomandarea pentru înscrierea la examen fără "}
-                                {"riscul unei evaluări subiective. Totuşi, participarea la simulare nu obligă în niciun fel candidatul să se înscrie la examenul plătit."}
+                                {", în care se vi se va recomanda înscrierea pentru o anumită sesiune de examene. Aceste rezultate sunt relevante pentru performanța la examenul propriu-zis. Astfel, în urma susținerii simulării putem face recomandarea pentru înscrierea la examen fără "}
+                                {"riscul unei evaluări subiective. Totuși, participarea la simulare nu obligă în niciun fel candidatul să se înscrie la examenul plătit."}
                               </p>
 </section>
 
@@ -249,7 +249,7 @@ export default function Page() {
                                 <strong>
                                   {"În limita locurilor disponibile"}
                                 </strong>
-                                {", putem primi la simulare şi elevi care nu urmează cursurile noastre de an. În acest caz, taxa de examinare este cu 30 lei mai scumpă la YLE (Starters, Movers, Flyers) si cu 50 lei mai scumpă la nivelurile A2-C2 decât pentru elevii noștri."}
+                                {", putem primi la simulare și elevi care nu urmează cursurile noastre de an. În acest caz, taxa de examinare este cu 30 lei mai scumpă la YLE (Starters, Movers, Flyers) si cu 50 lei mai scumpă la nivelurile A2-C2 decât pentru elevii noștri."}
                               </p>
 <p>
                                 {"Pentru mai multe informații (inclusiv despre cum se achita), vă rugăm să ne contactați la 0724 527 838. Vă mulțumim!"}
@@ -305,7 +305,7 @@ export default function Page() {
 
 <section className="event-section">
 <h4>
-                                {"ATENŢIE! Locurile sunt limitate și se vor ocupa în ordinea înscrierii!"}
+                                {"ATENȚIE! Locurile sunt limitate și se vor ocupa în ordinea înscrierii!"}
                               </h4>
 </section>
 

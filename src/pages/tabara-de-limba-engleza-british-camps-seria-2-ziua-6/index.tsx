@@ -120,7 +120,7 @@ export default function Page() {
                                   {"6"}
                                 </h4>
                                 <p>
-                                  {"În ultima zi de cursuri în tabăra, copiii au avut parte de o mulţime de surprize şi activităţi amuzante. După micul dejun, ne-am strâns cu toţii în sala disco pentru o înviorare neobişnuită : o întrecere a omizilor (‘Caterpillar race’). A fost distractiv atât pentru participanţi, cât şi pentru observatori."}
+                                  {"În ultima zi de cursuri în tabăra, copiii au avut parte de o mulțime de surprize și activități amuzante. După micul dejun, ne-am strâns cu toții în sala disco pentru o înviorare neobișnuită : o întrecere a omizilor (‘Caterpillar race’). A fost distractiv atât pentru participanți, cât și pentru observatori."}
                                 </p>
                               </div>
                             </div>
@@ -132,8 +132,8 @@ export default function Page() {
                                   <a href={"/cursuri-de-limba-engleza-pentru-copii-si-adolescenti/"} target={"_blank"}>
                                     {"cursurile de engleză"}
                                   </a>
-                                  {" de dimineaţă copiii au creat scenete în care personaje să fie trainerii englezi, au avut loc dezbateri, au creat profile stil ‘dating profile’ etc. Distracţia cea mare a venit odată cu atelierele de după masa de prânz: salon de înfrumuseţare, atelier de creare a unor brăţări ‘ale prieteniei’, atelier de confecţionat măşti, precum şi rugby. Pentru atelierele de la 17.30 trainerii englezi au pregătit activităţi distractive de genul celor pe care le găsim la bâlciuri, un curs de film şi hockey pe iarbă (care, din păcate,"}
-                                  {" nu s-a mai ţinut din cauza ploii). La bâlci copiii au luat mere din apă fără mâini (cu gură), au aruncat cu mingi într-o mică piramidă de cutii de suc, au spart baloane cu săgeţi ca la jocul de ‘darts’, au vizitat o ghicitoare şi globul ei magic, au sărit şotronul etc. Cursul de film a avut două părţi: una teoretică în care copiii au învăţat să manevreze o camera de filmat şi câteva noţiuni tehnice despre cum se « trage » un film, după care au compus o scenă în care au fost şi actori. Mai apoi au filmat câteva scene şi le-au editat pentru a crea un scurt video. Între timp, câţiva băieţi din grupul nostru au participat la turneul de fotbal sau au încins un meci de tenis."}
+                                  {" de dimineață copiii au creat scenete în care personaje să fie trainerii englezi, au avut loc dezbateri, au creat profile stil ‘dating profile’ etc. Distracția cea mare a venit odată cu atelierele de după masa de prânz: salon de înfrumusețare, atelier de creare a unor brățări ‘ale prieteniei’, atelier de confecționat măști, precum și rugby. Pentru atelierele de la 17.30 trainerii englezi au pregătit activități distractive de genul celor pe care le găsim la bâlciuri, un curs de film și hockey pe iarbă (care, din păcate,"}
+                                  {" nu s-a mai ținut din cauza ploii). La bâlci copiii au luat mere din apă fără mâini (cu gură), au aruncat cu mingi într-o mică piramidă de cutii de suc, au spart baloane cu săgeți ca la jocul de ‘darts’, au vizitat o ghicitoare și globul ei magic, au sărit șotronul etc. Cursul de film a avut două părți: una teoretică în care copiii au învățat să manevreze o camera de filmat și câteva noțiuni tehnice despre cum se « trage » un film, după care au compus o scenă în care au fost și actori. Mai apoi au filmat câteva scene și le-au editat pentru a crea un scurt video. Între timp, câțiva băieți din grupul nostru au participat la turneul de fotbal sau au încins un meci de tenis."}
                                 </p>
                               </div>
                             </div>
@@ -148,11 +148,11 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"După cină copiii au fost aşteptaţi în sala DISCO pentru a fi pictaţi pe faţă sau pe mâini, după preferinţă, apoi a avut loc un carnaval unde copiii ce au venit costumaţi au defilat şi au descris personajul pe care îl îmbrăcaseră. A urmat o sesiune de karaoke de grup în care am cântat în engleză cât ne-au ţinut plămânii: “"}
+                                  {"După cină copiii au fost așteptați în sala DISCO pentru a fi pictați pe față sau pe mâini, după preferință, apoi a avut loc un carnaval unde copiii ce au venit costumați au defilat și au descris personajul pe care îl îmbrăcaseră. A urmat o sesiune de karaoke de grup în care am cântat în engleză cât ne-au ținut plămânii: “"}
                                   <a href={"https://www.youtube.com/watch?v=fWNaR-rxAic"} target={"_blank"}>
                                     {"Call me maybe"}
                                   </a>
-                                  {"”, “It’s my life”, “Let it go” şi alte melodii cunoscute copiilor. Apoi ne-am strâns lângă foişor pentru un foc de tabăra pe cinste, cu brăţări fosforescente, ceai fierbinte, bezele şi câteva artificii. Alături de trainerii englezi"}
+                                  {"”, “It’s my life”, “Let it go” și alte melodii cunoscute copiilor. Apoi ne-am strâns lângă foișor pentru un foc de tabăra pe cinste, cu brățări fosforescente, ceai fierbinte, bezele și câteva artificii. Alături de trainerii englezi"}
                                   {" ne-am bucurat să lansăm lampioane colorate către cerul întunecat."}
                                 </p>
                               </div>
@@ -181,11 +181,11 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"După ce ne-am delectat cu căldură focului şi a noilor prieteni, o parte ne-am retras somnoroşi în camere, iar o parte ne-am adunat în sala DISCO pentru ultima sesiune de dans."}
+                                  {"După ce ne-am delectat cu căldură focului și a noilor prieteni, o parte ne-am retras somnoroși în camere, iar o parte ne-am adunat în sala DISCO pentru ultima sesiune de dans."}
                                 </p>
                                 <p>
                                   <strong>
-                                    {"A fost o zi de neuitat pentru toată lumea !"}
+                                    {"A fost o zi de neuitat pentru toată lumea!"}
                                   </strong>
                                 </p>
                               </div>

@@ -202,7 +202,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Un examen Cambridge English are ca scop testarea cunoştinţelor de limbă engleză. În urma rezultatelor obţinute la examen, candidatul primeşte un certificat"}
+              {"Un examen Cambridge English are ca scop testarea cunoștințelor de limbă engleză. În urma rezultatelor obținute la examen, candidatul primește un certificat"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -223,7 +223,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 7 Duminică, 30 august, Poiana Braşov 2015 – Ziua 7 În dimineaţă ultimei zile de tabăra copiii"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 7 Duminică, 30 august, Poiana Brașov 2015 – Ziua 7 În dimineață ultimei zile de tabăra copiii"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -244,7 +244,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiţi pentru încălzire. Pentru dimineaţă ghizii ne-au pregătit o drumeţie."}
+              {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiți pentru încălzire. Pentru dimineață ghizii ne-au pregătit o drumeție."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -265,7 +265,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 5 Vineri, 28 august, Poiana Braşov 2015 – Ziua 5 A venit în sfârşit ziua a"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 5 Vineri, 28 august, Poiana Brașov 2015 – Ziua 5 A venit în sfârșit ziua a"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -286,7 +286,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 4 Joi, 27 august, Poiana Braşov 2015 – Ziua 4 Ne-am trezit în dimineaţă zilei"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 4 Joi, 27 august, Poiana Brașov 2015 – Ziua 4 Ne-am trezit în dimineață zilei"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -307,7 +307,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 3 Miercuri, 26 august, Poiana Braşov 2015 O nouă zi, o nouă aventură. După trezirea"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 3 Miercuri, 26 august, Poiana Brașov 2015 O nouă zi, o nouă aventură. După trezirea"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

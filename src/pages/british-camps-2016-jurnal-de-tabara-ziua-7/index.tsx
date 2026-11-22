@@ -97,21 +97,21 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Am deschis ochii la îndemnul vocii Elenei care ne anunţa că e trecut de 8.00. Pentru prima dată în această săptămâna de tabăra, majoritatea dintre noi dormeam adânc când a venit ea. La micul dejun am avut cereale cu lapte, omletă, salam, caşcaval şi ardei, unt, gem şi ceai. Tot ce avem nevoie pentru a ne începe ziua în forţă."}
+                                  {"Am deschis ochii la îndemnul vocii Elenei care ne anunța că e trecut de 8.00. Pentru prima dată în această săptămâna de tabăra, majoritatea dintre noi dormeam adânc când a venit ea. La micul dejun am avut cereale cu lapte, omletă, salam, cașcaval și ardei, unt, gem și ceai. Tot ce avem nevoie pentru a ne începe ziua în forță."}
                                 </p>
                                 <p>
                                   {"Cei harnici, cei"}
                                   {"&"}
-                                  {"nbsp;care ne-am făcut bagajele de seară am avut timp pentru siestă, iar restul am plecat repede în cameră pentru a ne pregăti. La 10 ne-am întâlnit cu trainerii noştri pentru un ultim joc de Dodgeball. Am jucat pe echipe, ne-am susţinut colegii şi am avut ocazia să stăm de vorba şi să schimbăm păreri."}
+                                  {"nbsp;care ne-am făcut bagajele de seară am avut timp pentru siestă, iar restul am plecat repede în cameră pentru a ne pregăti. La 10 ne-am întâlnit cu trainerii noștri pentru un ultim joc de Dodgeball. Am jucat pe echipe, ne-am susținut colegii și am avut ocazia să stăm de vorba și să schimbăm păreri."}
                                 </p>
                                 <p>
-                                  {"Până la 11.30 am eliberat cu toţii camerele şi ne-am pregătit pentru festivitate de închidere. Ne-am strâns, ca de obicei, în Centrul de evenimente unde am fost întâmpinaţi de muzică. Am cântat împreună câteva piese de final, am primit diplome şi medalii în aplauzele colegilor, apoi ne-am urmat trainerii englezi în afară centrului pentru alte câteva cadouri surpriză. Au fost mai multe momente emoţionante, dar până la sfârşit, cu toţii eram zâmbitori şi entuziasmaţi că urmează să ne revedem părinţii."}
+                                  {"Până la 11.30 am eliberat cu toții camerele și ne-am pregătit pentru festivitate de închidere. Ne-am strâns, ca de obicei, în Centrul de evenimente unde am fost întâmpinați de muzică. Am cântat împreună câteva piese de final, am primit diplome și medalii în aplauzele colegilor, apoi ne-am urmat trainerii englezi în afară centrului pentru alte câteva cadouri surpriză. Au fost mai multe momente emoționante, dar până la sfârșit, cu toții eram zâmbitori și entuziasmați că urmează să ne revedem părinții."}
                                 </p>
                                 <p>
-                                  {"Înainte de plecare, ne-am îndreptat cu toţii spre masa de prânz. Nu putem pleca cu stomacul gol, nu? Am început cu o supă cu tăiţei, urmată de friptură de pui, cartofi la cuptor şi salată. Pentru desert am primit câte un măr. Majoritatea dintre noi ne-am întâlnit cu părinţii în parcare şi ne-am luat rămas bun de la colegi şi de la Elena, iar cei ce ne-am întors împreună la Bucureşti ne-am făcut comozi în autocar şi am pornit la drum în jurul orei 14.00."}
+                                  {"Înainte de plecare, ne-am îndreptat cu toții spre masa de prânz. Nu putem pleca cu stomacul gol, nu? Am început cu o supă cu tăiței, urmată de friptură de pui, cartofi la cuptor și salată. Pentru desert am primit câte un măr. Majoritatea dintre noi ne-am întâlnit cu părinții în parcare și ne-am luat rămas bun de la colegi și de la Elena, iar cei ce ne-am întors împreună la București ne-am făcut comozi în autocar și am pornit la drum în jurul orei 14.00."}
                                 </p>
                                 <p>
-                                  {"Drumul a fost liniştit în ciuda faptului că am fost mulţi. Unii am ascultat muzică, alţii am citit sau ne-am jucat pe telefon, iar pe ici-colo am şi aţipit puţin. Odată ajunşi pe teritoriul capitalei ne-am lipit nasurile de gemuri uitându-ne după părinţi. Am plecat spre casele noastre cu zâmbete largi pe faţă şi cu amintirea unei săptămâni cu adevărat memorabile."}
+                                  {"Drumul a fost liniștit în ciuda faptului că am fost mulți. Unii am ascultat muzică, alții am citit sau ne-am jucat pe telefon, iar pe ici-colo am și ațipit puțin. Odată ajunși pe teritoriul capitalei ne-am lipit nasurile de gemuri uitându-ne după părinți. Am plecat spre casele noastre cu zâmbete largi pe față și cu amintirea unei săptămâni cu adevărat memorabile."}
                                 </p>
                               </div>
                             </div>
@@ -303,7 +303,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 6 Dimineaţa zilei a şasea ne-a găsit pe unii energici şi pregătiţi de o nouă aventură,"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 6 Dimineața zilei a șasea ne-a găsit pe unii energici și pregătiți de o nouă aventură,"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -324,7 +324,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 5 În această dimineaţă mai puţini dintre noi au fost matinali. Normal că ne-am trezit mai"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 5 În această dimineață mai puțini dintre noi au fost matinali. Normal că ne-am trezit mai"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -345,7 +345,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 4 Bună dimineaţa, ziua a treia a taberei! După ce am adormit cu toţii la orele"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 4 Bună dimineața, ziua a treia a taberei! După ce am adormit cu toții la orele"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -366,7 +366,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 3 Bună dimineaţa, ziua a treia a taberei! După ce am adormit cu toţii la orele"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 3 Bună dimineața, ziua a treia a taberei! După ce am adormit cu toții la orele"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -408,7 +408,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"British Camps 2016 – Jurnal de tabără – Ziua 1 La 10 fix am fost toţi în microbuz şi gata de plecare uşor somnoroşi,"}
+              {"British Camps 2016 – Jurnal de tabără – Ziua 1 La 10 fix am fost toți în microbuz și gata de plecare ușor somnoroși,"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

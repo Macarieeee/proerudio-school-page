@@ -101,7 +101,7 @@ export default function Page() {
                               <div>
                                 <p>
                                   <span>
-                                    {"Un examen Cambridge English, ca orice alt tip de evaluare, are ca scop testarea cunoştinţelor, în acest caz cele de limbă engleză. În urma rezultatelor obţinute la examen, candidatul primeşte un certificat recunoscut internaţional care îi va servi în scop educaţional sau profesional. Dar este oare obţinerea acestui certificat singurul motiv pentru care îţi recomandăm înscrierea la examen?"}
+                                    {"Un examen Cambridge English, ca orice alt tip de evaluare, are ca scop testarea cunoștințelor, în acest caz cele de limbă engleză. În urma rezultatelor obținute la examen, candidatul primește un certificat recunoscut internațional care îi va servi în scop educațional sau profesional. Dar este oare obținerea acestui certificat singurul motiv pentru care îți recomandăm înscrierea la examen?"}
                                   </span>
                                 </p>
                               </div>
@@ -109,7 +109,7 @@ export default function Page() {
                             <div>
                               <div>
                                 <h3>
-                                  {"Continuă să citeşti şi vei găsi 10 motive…"}
+                                  {"Continuă să citești și vei găsi 10 motive…"}
                                 </h3>
                               </div>
                             </div>
@@ -125,7 +125,7 @@ export default function Page() {
                                               {"1. Mai întâi să lăsăm cifrele să vorbească."}
                                             </span>
                                             <br />
-                                            {"\nCu o tradiţie de peste 100 de ani (începând cu anul 1913), examenele Cambridge English sunt susţinute anual de peste 2 milioane de candidaţi din mai mult de 130 de ţări. Certificatele obţinute sunt recunoscute de mai mult de 12 000 de companii, organizaţii, ministere şi întreprinderi de stat, universităţi şi colegii din întreagă lume."}
+                                            {"\nCu o tradiție de peste 100 de ani (începând cu anul 1913), examenele Cambridge English sunt susținute anual de peste 2 milioane de candidați din mai mult de 130 de țări. Certificatele obținute sunt recunoscute de mai mult de 12 000 de companii, organizații, ministere și întreprinderi de stat, universități și colegii din întreagă lume."}
                                           </span>
                                         </p>
                                       </div>
@@ -143,10 +143,10 @@ export default function Page() {
                                         <p>
                                           <span>
                                             <span>
-                                              {"2. Formatul unui examen Cambridge English este rezultatul unui efort continuu şi constant de perfecţionare. "}
+                                              {"2. Formatul unui examen Cambridge English este rezultatul unui efort continuu și constant de perfecționare. "}
                                             </span>
                                             <br />
-                                            {"\nAceste examene conţin atât itemi obiectivi (alegere multiplă, derivare, reformulare, completare text lacunar etc), cât şi subiectivi (redactări), care datorită standardizării schemei de evaluare sunt deosebit de relevanţi pentru stabilirea nivelului de limba engleză. În plus, nu există două examene identice, fiecare sesiune calibrând diferit ponderea pe care o vor avea probele în evaluarea finală."}
+                                            {"\nAceste examene conțin atât itemi obiectivi (alegere multiplă, derivare, reformulare, completare text lacunar etc), cât și subiectivi (redactări), care datorită standardizării schemei de evaluare sunt deosebit de relevanți pentru stabilirea nivelului de limba engleză. În plus, nu există două examene identice, fiecare sesiune calibrând diferit ponderea pe care o vor avea probele în evaluarea finală."}
                                           </span>
                                         </p>
                                       </div>
@@ -164,10 +164,10 @@ export default function Page() {
                                         <p>
                                           <span>
                                             <span>
-                                              {"3. Examenele Cambridge English sunt examene complexe, care testează toate competenţele lingvistice (speaking, listening, reading şi writing) începând cu cel mai mic nivel (A1), vârstă minimă fiind 7 ani. "}
+                                              {"3. Examenele Cambridge English sunt examene complexe, care testează toate competențele lingvistice (speaking, listening, reading și writing) începând cu cel mai mic nivel (A1), vârstă minimă fiind 7 ani. "}
                                             </span>
                                             <br />
-                                            {"\nAceste examene sunt structurate pe niveluri, de la A1 până la C2, şi sunt deopotrivă atractive pentru grupele de vârstă cărora se adresează (sarcini de lucru cu suport vizual pentru cei mici, texte interesante din punctul de vedere al conţinutului pentru cei cu niveluri superioare de cunoaştere a limbii engleze) şi relevante ca mod de evaluare pentru nivelurile la care se raportează conform descriptorilor de performanţă din Cadrul Comun European de Referinţă pentru Limbi Străine. "}
+                                            {"\nAceste examene sunt structurate pe niveluri, de la A1 până la C2, și sunt deopotrivă atractive pentru grupele de vârstă cărora se adresează (sarcini de lucru cu suport vizual pentru cei mici, texte interesante din punctul de vedere al conținutului pentru cei cu niveluri superioare de cunoaștere a limbii engleze) și relevante ca mod de evaluare pentru nivelurile la care se raportează conform descriptorilor de performanță din Cadrul Comun European de Referință pentru Limbi Străine. "}
                                           </span>
                                         </p>
                                       </div>
@@ -185,15 +185,15 @@ export default function Page() {
                                         <p>
                                           <span>
                                             <span>
-                                              {"4. Spre deosebire de alte examene, pentru a participa la un examen Cambridge, candidatul trebuie să ştie care este nivelul la care trebuie să se înscrie. "}
+                                              {"4. Spre deosebire de alte examene, pentru a participa la un examen Cambridge, candidatul trebuie să știe care este nivelul la care trebuie să se înscrie. "}
                                             </span>
                                             <br />
-                                            {"\nÎn acest sens, poate cere sfatul profesorului de engleză sau poate participa la o simulare (uneori chiar şi un test completat acasă poate fi suficient). "}
+                                            {"\nÎn acest sens, poate cere sfatul profesorului de engleză sau poate participa la o simulare (uneori chiar și un test completat acasă poate fi suficient). "}
                                           </span>
                                         </p>
                                         <h4>
                                           <span>
-                                            {"Iată şi lista de opţiuni:"}
+                                            {"Iată și lista de opțiuni:"}
                                           </span>
                                         </h4>
                                         <p>
@@ -201,13 +201,13 @@ export default function Page() {
                                             {"Young Learners English"}
                                           </strong>
                                           <br />
-                                          {"\nStarters şi Movers – A1"}
+                                          {"\nStarters și Movers – A1"}
                                           {"Nivel introductiv"}
-                                          {"sau de descoperire"}
+                                          {" sau de descoperire"}
                                           <br />
                                           {"\nFlyers – A2"}
                                           {"Nivel elementar"}
-                                          {"sau de supravieţuire"}
+                                          {" sau de supraviețuire"}
                                         </p>
                                         <p>
                                           <strong>
@@ -215,16 +215,16 @@ export default function Page() {
                                           </strong>
                                           <br />
                                           {"\n– KET (Key English Test"}
-                                          {"or Key for Schools) – A2"}
+                                          {" or Key for Schools) – A2"}
                                           {"Nivel elementar"}
-                                          {"sau de supravieţuire"}
+                                          {" sau de supraviețuire"}
                                           <br />
                                           {"\n– PET (Preliminary English Test"}
-                                          {"or Preliminary for Schools) – B1"}
+                                          {" or Preliminary for Schools) – B1"}
                                           {"Nivel intermediar"}
                                           <br />
                                           {"\n– FCE (First Certificate in English"}
-                                          {"or First for Schools) – B2"}
+                                          {" or First for Schools) – B2"}
                                           {"Nivel independent sau intermediar superior"}
                                         </p>
                                         <p>
@@ -253,10 +253,10 @@ export default function Page() {
                                         <p>
                                           <span>
                                             <span>
-                                              {"5. Pentru copii, participarea la un astfel de examen reprezintă un obiectiv de atins pe termen scurt, deci o motivaţie suplimentară pentru învăţare şi o satisfacţie în momentul promovării care dă elan pentru eforturi viitoare, dar şi creşterea stimei de sine şi a încrederii în propriile forţe şi cunoştinţe. "}
+                                              {"5. Pentru copii, participarea la un astfel de examen reprezintă un obiectiv de atins pe termen scurt, deci o motivație suplimentară pentru învățare și o satisfacție în momentul promovării care dă elan pentru eforturi viitoare, dar și creșterea stimei de sine și a încrederii în propriile forțe și cunoștințe. "}
                                             </span>
                                             <br />
-                                            {"\nÎn plus, familiarizarea cu atmosfera de examen, cu tehnici de lucru pentru încadrarea în timp şi strategii de abordare a fiecărui tip de subiecte, alături de exerciţiul continuu de păstrare a concentrării pentru un timp îndelungat, dar şi dezvoltarea abilităţii de a-şi gestiona propriile emoţii aduc multe beneficii copiilor de toate vârstele."}
+                                            {"\nÎn plus, familiarizarea cu atmosfera de examen, cu tehnici de lucru pentru încadrarea în timp și strategii de abordare a fiecărui tip de subiecte, alături de exercițiul continuu de păstrare a concentrării pentru un timp îndelungat, dar și dezvoltarea abilității de a-și gestiona propriile emoții aduc multe beneficii copiilor de toate vârstele."}
                                           </span>
                                         </p>
                                       </div>
@@ -274,7 +274,7 @@ export default function Page() {
                                         <p>
                                           <span>
                                             <span>
-                                              {"6. Pentru părinţi, înscrierea copiilor la un examen Cambridge English reprezintă o evaluare externă, o garanţie a calităţii cursurilor pe care le frecventează şi a efortului depus pentru învăţare. "}
+                                              {"6. Pentru părinți, înscrierea copiilor la un examen Cambridge English reprezintă o evaluare externă, o garanție a calității cursurilor pe care le frecventează și a efortului depus pentru învățare. "}
                                             </span>
                                           </span>
                                         </p>
@@ -293,13 +293,13 @@ export default function Page() {
                                         <p>
                                           <span>
                                             <span>
-                                              {"7. Certificatele Cambridge English se bucură de recunoaştere internaţională şi deschid calea către învăţământul superior la universităţi în străinătate, măresc şansele de angajare, dar şi echivalează anumite probe din cadrul examenelor naţionale:"}
+                                              {"7. Certificatele Cambridge English se bucură de recunoaștere internațională și deschid calea către învățământul superior la universități în străinătate, măresc șansele de angajare, dar și echivalează anumite probe din cadrul examenelor naționale:"}
                                             </span>
                                           </span>
                                         </p>
                                         <ul>
                                           <li>
-                                            {"nivelurile Movers şi Flyers – minim 11 scuturi din 15 posibile – (Young Learners English) pot echivala cu nota 10 proba de limba engleză din cadrul examenului de admitere în clasele cu profil intensiv engleză, clasa a V-a. Totuși, în situația în care se înscriu mai mulți candidați decât numărul locurilor din clasă, școala va organiza examene interne ("}
+                                            {"nivelurile Movers și Flyers – minim 11 scuturi din 15 posibile – (Young Learners English) pot echivala cu nota 10 proba de limba engleză din cadrul examenului de admitere în clasele cu profil intensiv engleză, clasa a V-a. Totuși, în situația în care se înscriu mai mulți candidați decât numărul locurilor din clasă, școala va organiza examene interne ("}
                                             <strong>
                                               {"Testul de competențe lingvistice"}
                                             </strong>
@@ -311,7 +311,7 @@ export default function Page() {
                                             </a>
                                           </li>
                                           <li>
-                                            {"nivelurile Key (A2), Preliminary (B1) şi First (B2) echivalează proba de verificare a cunoștințelor de limbă engleză pentru admiterea în clasele a IX-a cu predare în regim bilingv şi corespund calificativului ADMIS. Începând din anul 2025 echivalarea se poate face doar în baza unui certificat obținut în timpul gimnaziului. Mai multe informații despre metodologia de echivalare găsiți aici –"}
+                                            {"nivelurile Key (A2), Preliminary (B1) și First (B2) echivalează proba de verificare a cunoștințelor de limbă engleză pentru admiterea în clasele a IX-a cu predare în regim bilingv și corespund calificativului ADMIS. Începând din anul 2025 echivalarea se poate face doar în baza unui certificat obținut în timpul gimnaziului. Mai multe informații despre metodologia de echivalare găsiți aici –"}
                                             <a href={"https://www.proerudio.ro/wp-content/uploads/2026/03/Metodologia-de-recunoastere-si-echivalare-organizare-si-desfasurare-a-probei-de-verificare-a-cunostintelor-de-limba-moderna-pentru-admiterea-in-clasa-a-IX-a.pdf"}>
                                               <u>
                                                 {"Metodologia de recunoaștere și echivalare pentru admiterea în clasa a IX-a"}
@@ -320,7 +320,7 @@ export default function Page() {
                                             {"."}
                                           </li>
                                           <li>
-                                            {"nivelurile Preliminary (B1), First (B2), CAE (C1), CPE (C2) echivalează proba de competenţe lingvistice pentru limba engleză din cadrul examenului de Bacalaureat. Aici găsiți"}
+                                            {"nivelurile Preliminary (B1), First (B2), CAE (C1), CPE (C2) echivalează proba de competențe lingvistice pentru limba engleză din cadrul examenului de Bacalaureat. Aici găsiți"}
                                             <a href={"https://www.proerudio.ro/wp-content/uploads/2026/03/OM-nr.-5905-recunoastere-certificate.pdf"}>
                                               <u>
                                                 {"Ordinul de Ministru nr 5905"}
@@ -353,10 +353,10 @@ export default function Page() {
                                         <p>
                                           <span>
                                             <span>
-                                              {"8. Certificatele Cambridge English sunt valabile toată viaţă. "}
+                                              {"8. Certificatele Cambridge English sunt valabile toată viață. "}
                                             </span>
                                             <br />
-                                            {"\nTotuşi, atragem atenţia asupra faptului că anumite instituţii (în special anumite universităţi în virtutea autonomiei universitare) pot solicită reînnoirea certificării sau dovadă faptului că în perioada scursă de la dată examinării, limba engleză a fost folosită în mod constant. "}
+                                            {"\nTotuși, atragem atenția asupra faptului că anumite instituții (în special anumite universități în virtutea autonomiei universitare) pot solicită reînnoirea certificării sau dovadă faptului că în perioada scursă de la dată examinării, limba engleză a fost folosită în mod constant. "}
                                           </span>
                                         </p>
                                       </div>
@@ -374,10 +374,10 @@ export default function Page() {
                                         <p>
                                           <span>
                                             <span>
-                                              {"9. Un alt avantaj al susţinerii unui examen Cambridge English este faptul că toate probele (mai puţin cea de speaking) pot fi date pe calculator sau pe hârtie indiferent de vârstă candidatului. "}
+                                              {"9. Un alt avantaj al susținerii unui examen Cambridge English este faptul că toate probele (mai puțin cea de speaking) pot fi date pe calculator sau pe hârtie indiferent de vârstă candidatului. "}
                                             </span>
                                             <br />
-                                            {"\nAstfel, candidatul optează pentru o versiune sau cealalată în funcţie de sesiunile anunţate şi preferinţele personale."}
+                                            {"\nAstfel, candidatul optează pentru o versiune sau cealalată în funcție de sesiunile anunțate și preferințele personale."}
                                           </span>
                                         </p>
                                       </div>
@@ -398,7 +398,7 @@ export default function Page() {
                                               {"10. Nu în ultimul rând, pentru examenele Cambridge English, mai mult decât pentru orice alt tip de examen, există o mare varietate de materiale de pregătire: "}
                                             </span>
                                             <br />
-                                            {"\ncărţi dedicate fiecărui nivel, caiete de activităţi, seturi de teste cu sau fără răspunsuri, CD-uri pentru partea audio, materiale video cu exemple pentru proba de speaking şi feedback, broşuri cu greşeli frecvente şi strategii de abordare a fiecărui tip de sarcina de lucru etc. Că atare, procesul de pregătire este concentrat pe cunoştinţele şi abilităţile ţintă, ceea ce face studiul eficient şi la îndemână."}
+                                            {"\ncărți dedicate fiecărui nivel, caiete de activități, seturi de teste cu sau fără răspunsuri, CD-uri pentru partea audio, materiale video cu exemple pentru proba de speaking și feedback, broșuri cu greșeli frecvente și strategii de abordare a fiecărui tip de sarcina de lucru etc. Că atare, procesul de pregătire este concentrat pe cunoștințele și abilitățile țintă, ceea ce face studiul eficient și la îndemână."}
                                           </span>
                                         </p>
                                         <h4>
@@ -595,7 +595,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -616,7 +616,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -637,7 +637,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -658,7 +658,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -679,7 +679,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro"}
+              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -700,7 +700,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2023-2024 și cele mai importante activități Structura anului şcolar la Pro Erudio o urmează"}
+              {"Structura anului școlar 2023-2024 și cele mai importante activități Structura anului școlar la Pro Erudio o urmează"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

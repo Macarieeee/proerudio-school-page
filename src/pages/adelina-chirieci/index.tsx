@@ -110,7 +110,7 @@ export default function Page() {
                                   {"The 2014 National Conference for English Language Teachers, Fischer International"}
                                 </li>
                                 <li>
-                                  {"Conferința “Identitate şi conflict în context cultural şi geopolitic”, Universitatea Hyperion 2013"}
+                                  {"Conferința “Identitate și conflict în context cultural și geopolitic”, Universitatea Hyperion 2013"}
                                 </li>
                                 <li>
                                   {"Conferința internațională “Multiculturalism și/sau Transculturalism“, Universitatea Hyperion 2012"}

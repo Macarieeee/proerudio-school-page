@@ -35,6 +35,14 @@ export default function Page() {
           {"Înscriere cursuri Pro Erudio"}
         </h1>
       </section>
+      <section aria-labelledby="registration-intro-title" className="mb-10">
+        <h2 id="registration-intro-title">Lumea se deschide prin comunicare.</h2>
+        <p>O prietenie nouă, o călătorie, un proiect de școală sau o idee împărtășită cu cineva din altă țară — toate încep cu dorința de a ne înțelege. În lumea de astăzi, cunoașterea unei limbi străine îi ajută pe copii să descopere alte culturi, să găsească informații și să își exprime ideile cu încredere.</p>
+        <p>La <strong>Pro Erudio</strong>, oferim cursuri de <strong>engleză, germană, franceză și japoneză</strong>, prin care îi încurajăm pe copii să descopere bucuria de a comunica într-o limbă nouă.</p>
+        <p>Învățarea unei limbi străine poate fi mai ușoară atunci când începe devreme: curiozitatea, joaca și dorința de a imita sunete noi îi ajută pe cei mici să învețe firesc. Dar nu este niciodată prea târziu pentru a începe. La orice vârstă, fiecare pas aduce noi posibilități de comunicare.</p>
+        <p><strong>Punem accent pe comunicare</strong>, încurajând copiii să pună întrebări, să participe la conversații și să își exprime ideile cu încredere. În același timp, dezvoltăm echilibrat toate abilitățile lingvistice — ascultarea, vorbirea, citirea și scrierea — și acordăm atenție vocabularului, gramaticii și pronunției, pentru o comunicare clară, precisă și corectă.</p>
+        <p>Oferiți-i copilului dumneavoastră ocazia de a descoperi lumea printr-o limbă nouă <strong>înscriindu-l la cursurile de limbi străine Pro Erudio!</strong></p>
+      </section>
       <div>
         <div itemProp={"mainContentOfPage"}>
           <div data-id={"700"}></div>
@@ -111,7 +119,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Curs de limba engleza – JOIN US IN ENGLISHLAND"}
+                                    {"Curs de limba engleza – "}<strong>{"JOIN US IN ENGLISHLAND"}</strong>
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -127,7 +135,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Curs de limba engleza HEAD FOR KET/PET"}
+                                    {"Curs de limba engleza "}<strong>{"HEAD FOR KET/PET"}</strong>
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -139,11 +147,11 @@ export default function Page() {
                               </a>
                               <a className={"registration-course-card"} href={"/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-head-for-fce-cae-cpe/"}>
                                 <div className={"registration-course-media"}>
-                                  <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-engleza-HEAD-FOR-FCE-CAE-CPE.jpg"} alt={"Curs de limba engleză “HEAD FOR FCE/CAE/CPE”"} loading={"lazy"} decoding={"async"} />
+                                  <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-engleza-HEAD-FOR-FCE-CAE-CPE.jpg"} alt={"Curs de limba engleză HEAD FOR FCE/CAE/CPE"} loading={"lazy"} decoding={"async"} />
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Curs de limba engleza HEAD FOR FCE/CAE/CPE"}
+                                    {"Curs de limba engleza "}<strong>{"HEAD FOR FCE/CAE/CPE"}</strong>
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -155,11 +163,11 @@ export default function Page() {
                               </a>
                               <a className={"registration-course-card"} href={"/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-head-for-ielts/"}>
                                 <div className={"registration-course-media"}>
-                                  <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-engleza-HEAD-FOR-IELTS.jpg"} alt={"Curs de limba engleză “HEAD FOR IELTS”"} loading={"lazy"} decoding={"async"} />
+                                  <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-engleza-HEAD-FOR-IELTS.jpg"} alt={"Curs de limba engleză HEAD FOR IELTS"} loading={"lazy"} decoding={"async"} />
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Curs de limba engleza HEAD FOR IELTS"}
+                                    {"Curs de limba engleza "}<strong>{"HEAD FOR IELTS"}</strong>
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -171,11 +179,11 @@ export default function Page() {
                               </a>
                               <a className={"registration-course-card"} href={"/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-pentru-tineri-head-for-toefl/"}>
                                 <div className={"registration-course-media"}>
-                                  <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-engleza-TOEFL-iBT.jpg"} alt={"Curs de limba engleză “TOEFL iBT®”"} loading={"lazy"} decoding={"async"} />
+                                  <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-limba-engleza-TOEFL-iBT.jpg"} alt={"Curs de limba engleză TOEFL iBT®"} loading={"lazy"} decoding={"async"} />
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Curs de limba engleza pentru tineri HEAD FOR TOEFL"}
+                                    {"Curs de limba engleza pentru tineri "}<strong>{"HEAD FOR TOEFL"}</strong>
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -187,11 +195,11 @@ export default function Page() {
                               </a>
                               <a className={"registration-course-card"} href={"/cursuri-de-weekend-in-limba-engleza/curs-de-limba-engleza-style-up/"}>
                                 <div className={"registration-course-media"}>
-                                  <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP.jpg"} alt={"Curs de creație în limba engleză “STYLE UP!”"} loading={"lazy"} decoding={"async"} />
+                                  <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP.jpg"} alt={"Curs de creație în limba engleză STYLE UP!"} loading={"lazy"} decoding={"async"} />
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Curs de creație în limba engleză Style Up!"}
+                                    {"Curs de creație în limba engleză "}<strong>{"Style Up!"}</strong>
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -203,11 +211,11 @@ export default function Page() {
                               </a>
                               <a className={"registration-course-card"} href={"/cursuri-de-weekend-in-limba-engleza/curs-de-limba-engleza-act-out/"} hidden={true}>
                                 <div className={"registration-course-media"}>
-                                  <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2.jpg"} alt={"Curs în limba engleză “ACT OUT!”"} loading={"lazy"} decoding={"async"} />
+                                  <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2.jpg"} alt={"Curs în limba engleză ACT OUT!"} loading={"lazy"} decoding={"async"} />
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Curs în limba engleză “Act Out!”"}
+                                    {"Curs în limba engleză "}<strong>{"Act Out!"}</strong>
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -219,11 +227,11 @@ export default function Page() {
                               </a>
                               <a className={"registration-course-card"} href={"/cursuri-de-weekend-in-limba-engleza/curs-in-limba-engleza-speak-up/"} hidden={true}>
                                 <div className={"registration-course-media"}>
-                                  <img src={"https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP-.webp"} alt={"Curs în limba engleză “SPEAK UP!”"} loading={"lazy"} decoding={"async"} />
+                                  <img src={"https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP-.webp"} alt={"Curs în limba engleză SPEAK UP!"} loading={"lazy"} decoding={"async"} />
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Curs în limba engleză Speak Up!"}
+                                    {"Curs în limba engleză "}<strong>{"Speak Up!"}</strong>
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -299,11 +307,11 @@ export default function Page() {
                               </a>
                               <a className={"registration-course-card"} href={"/cursuri-de-limba-engleza-pentru-copii-de-4-11-ani/curs-de-limba-engleza-join-us-for-english/"} hidden={true}>
                                 <div className={"registration-course-media"}>
-                                  <img src={"https://www.proerudio.ro/wp-content/uploads/2021/10/join-us-in-english.webp"} alt={"Curs de limba engleză “JOIN US FOR ENGLISH”"} loading={"lazy"} decoding={"async"} />
+                                  <img src={"https://www.proerudio.ro/wp-content/uploads/2021/10/join-us-in-english.webp"} alt={"Curs de limba engleză JOIN US FOR ENGLISH"} loading={"lazy"} decoding={"async"} />
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Curs de limba engleza – JOIN US FOR ENGLISH"}
+                                    {"Curs de limba engleza – "}<strong>{"JOIN US FOR ENGLISH"}</strong>
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}

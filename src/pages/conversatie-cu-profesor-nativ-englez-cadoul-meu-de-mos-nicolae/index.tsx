@@ -102,15 +102,15 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"De unde o fi ştiut "}
+                                  {"De unde o fi știut "}
                                   <a href={"/mos-nicolae-vine-cu-surprize-la-pro-erudio/"}>
-                                    {"Moş Nicolae"}
+                                    {"Moș Nicolae"}
                                   </a>
                                   {" că eu îmi doresc să cunosc un "}
                                   <a href={"/cursuri-de-limba-engleza-pentru-copii-si-adolescenti/"}>
                                     {"englez adevărat"}
                                   </a>
-                                  {" ca să văd dacă reuşesc să mă înţeleg cu el, nu ştiu! Însă mare mi-a fost mirarea când azi-dimineaţă am găsit în cizmuliţe, pe lângă o pungă mare cu bunătăţi, o invitaţie la un curs interactiv cu profesor din Anglia la noi, la Pro Erudio, unde merg să învăţ engleză. Eram programată pentru ora 5 după-amiază, dar am ajuns mai devreme ca să fiu sigură că nu ratez nimic."}
+                                  {" ca să văd dacă reușesc să mă înțeleg cu el, nu știu! Însă mare mi-a fost mirarea când azi-dimineață am găsit în cizmulițe, pe lângă o pungă mare cu bunătăți, o invitație la un curs interactiv cu profesor din Anglia la noi, la Pro Erudio, unde merg să învăț engleză. Eram programată pentru ora 5 după-amiază, dar am ajuns mai devreme ca să fiu sigură că nu ratez nimic."}
                                 </p>
                               </div>
                             </div>
@@ -128,17 +128,17 @@ export default function Page() {
                                           </span>
                                           {"”!"}
                                           <br />
-                                          {"\nÎmi doream să întru şi eu, dar mama m-a oprit spunându-mi că o să vină şi rândul meu. Aşa s-a şi întâmplat şi a fost grozav! După ce s-a prezentat fiecare copil zicandu-şi numele, vârsta şi ce-i place cel mai mult să facă pe lumea asta, am început joaca cea adevărată! Am jucat “"}
+                                          {"\nÎmi doream să întru și eu, dar mama m-a oprit spunându-mi că o să vină și rândul meu. Așa s-a și întâmplat și a fost grozav! După ce s-a prezentat fiecare copil zicandu-și numele, vârsta și ce-i place cel mai mult să facă pe lumea asta, am început joaca cea adevărată! Am jucat “"}
                                           <span>
                                             {"Two truths, one lie"}
                                           </span>
-                                          {"” în care trebuia să ghicim ce e corect şi ce e invenţie;"}
+                                          {"” în care trebuia să ghicim ce e corect și ce e invenție;"}
                                           <br />
                                           {"\n“"}
                                           <span>
                                             {"Splat!"}
                                           </span>
-                                          {"” în care trebuia să fim atenţi să nu ne atingă glonţul adversarului;"}
+                                          {"” în care trebuia să fim atenți să nu ne atingă glonțul adversarului;"}
                                           <br />
                                           {"\n“"}
                                           <span>
@@ -162,7 +162,7 @@ export default function Page() {
                                           <span>
                                             {"What’s the time, Mr Wolf!"}
                                           </span>
-                                          {"” un fel de Omul negru pe care îl jucam şi noi la grădi, însă e mai tare în engleză! Chiar vreau să-i învăţ şi pe prietenii mei câteva dintre jocurile astea fiindcă tare mi-au plăcut!"}
+                                          {"” un fel de Omul negru pe care îl jucam și noi la grădi, însă e mai tare în engleză! Chiar vreau să-i învăț și pe prietenii mei câteva dintre jocurile astea fiindcă tare mi-au plăcut!"}
                                         </p>
                                       </div>
                                     </div>
@@ -181,12 +181,12 @@ export default function Page() {
                                           <span>
                                             {"1,2,3,4 Action"}
                                           </span>
-                                          {"!” şi trebuie să ne gândim la o mişcare pentru fiecare cifră, iar când cineva spune 1 toţi trebuie să facă acţiunea respectivă. Cine nu e atent, iese din joc! Asta este, nu e supărare fiindcă îl mai facem o dată…"}
+                                          {"!” și trebuie să ne gândim la o mișcare pentru fiecare cifră, iar când cineva spune 1 toți trebuie să facă acțiunea respectivă. Cine nu e atent, iese din joc! Asta este, nu e supărare fiindcă îl mai facem o dată…"}
                                         </p>
                                         <p>
-                                          {"Sper că şi anul viitor Moş Nicolae să îmi ghicească gândurile…"}
+                                          {"Sper că și anul viitor Moș Nicolae să îmi ghicească gândurile…"}
                                           <br />
-                                          {"\nSau, mai bine! Moş Crăciun, chiar anul acesta!"}
+                                          {"\nSau, mai bine! Moș Crăciun, chiar anul acesta!"}
                                         </p>
                                       </div>
                                     </div>
@@ -447,7 +447,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Distracție la căldurică Deşi iarnă cu zăpadă se lasă aşteptată, “Distracţia la căldurică” nu a avut nimic de pierdut. Ne-am"}
+              {"Distracție la căldurică Deși iarnă cu zăpadă se lasă așteptată, “Distracția la căldurică” nu a avut nimic de pierdut. Ne-am"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -468,7 +468,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Christmas is coming… Vine Crăciunul şi ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
+              {"Christmas is coming… Vine Crăciunul și ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

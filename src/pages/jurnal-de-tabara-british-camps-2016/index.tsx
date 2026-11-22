@@ -73,7 +73,7 @@ export default function Page() {
                                     {"Articole"}
                                   </span>
                                   <p>
-                                    {"British Camps 2016 – Jurnal de tabără – Ziua 1 La 10 fix am fost toţi în microbuz şi gata de plecare uşor somnoroşi,"}
+                                    {"British Camps 2016 – Jurnal de tabără – Ziua 1 La 10 fix am fost toți în microbuz și gata de plecare ușor somnoroși,"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}
@@ -115,7 +115,7 @@ export default function Page() {
                                     {"Articole"}
                                   </span>
                                   <p>
-                                    {"British Camps 2016 – Jurnal de tabără – Ziua 3 Bună dimineaţa, ziua a treia a taberei! După ce am adormit cu toţii la orele"}
+                                    {"British Camps 2016 – Jurnal de tabără – Ziua 3 Bună dimineața, ziua a treia a taberei! După ce am adormit cu toții la orele"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}
@@ -136,7 +136,7 @@ export default function Page() {
                                     {"Articole"}
                                   </span>
                                   <p>
-                                    {"British Camps 2016 – Jurnal de tabără – Ziua 4 Bună dimineaţa, ziua a treia a taberei! După ce am adormit cu toţii la orele"}
+                                    {"British Camps 2016 – Jurnal de tabără – Ziua 4 Bună dimineața, ziua a treia a taberei! După ce am adormit cu toții la orele"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}
@@ -157,7 +157,7 @@ export default function Page() {
                                     {"Articole"}
                                   </span>
                                   <p>
-                                    {"British Camps 2016 – Jurnal de tabără – Ziua 5 În această dimineaţă mai puţini dintre noi au fost matinali. Normal că ne-am trezit mai"}
+                                    {"British Camps 2016 – Jurnal de tabără – Ziua 5 În această dimineață mai puțini dintre noi au fost matinali. Normal că ne-am trezit mai"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}
@@ -178,7 +178,7 @@ export default function Page() {
                                     {"Articole"}
                                   </span>
                                   <p>
-                                    {"British Camps 2016 – Jurnal de tabără – Ziua 6 Dimineaţa zilei a şasea ne-a găsit pe unii energici şi pregătiţi de o nouă aventură,"}
+                                    {"British Camps 2016 – Jurnal de tabără – Ziua 6 Dimineața zilei a șasea ne-a găsit pe unii energici și pregătiți de o nouă aventură,"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}
@@ -199,7 +199,7 @@ export default function Page() {
                                     {"Articole"}
                                   </span>
                                   <p>
-                                    {"British Camps 2016 – Jurnal de tabără – Ziua 7 Am deschis ochii la îndemnul vocii Elenei care ne anunţa că e trecut de 8.00."}
+                                    {"British Camps 2016 – Jurnal de tabără – Ziua 7 Am deschis ochii la îndemnul vocii Elenei care ne anunța că e trecut de 8.00."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Citește articolul"}

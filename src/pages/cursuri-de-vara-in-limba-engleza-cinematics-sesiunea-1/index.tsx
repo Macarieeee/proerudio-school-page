@@ -22,7 +22,7 @@ export default function Page() {
           {"Resurse Pro Erudio"}
         </p>
         <h1 className={"max-w-5xl text-4xl font-bold leading-tight md:text-6xl"}>
-          {"Cursuri de vara in limba engleza “Cinematics” – sesiunea 1"}
+          {"Cursuri de vara in limba engleza "}<strong>{"Cinematics"}</strong>{" – sesiunea 1"}
         </h1>
         <p className={"mt-6 flex items-center gap-2 text-sm text-background/80"}>
           <svg xmlns={"http://www.w3.org/2000/svg"} width={"24"} height={"24"} viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"2"} strokeLinecap={"round"} strokeLinejoin={"round"} className={"lucide lucide-calendar-days h-4 w-4"}>
@@ -45,10 +45,10 @@ export default function Page() {
     </section>
   }>
     <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Cursuri de vara in limba engleza “Cinematics” – sesiunea 1"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-in-limba-engleza-Cinematics-sesiunea-1.jpg"} alt={"Cursuri de vara in limba engleza “Cinematics” – sesiunea 1"} decoding={"async"} />
+      <section className={"mobile-page-intro"} aria-label={"Cursuri de vara in limba engleza Cinematics – sesiunea 1"}>
+        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-vara-in-limba-engleza-Cinematics-sesiunea-1.jpg"} alt={"Cursuri de vara in limba engleza Cinematics – sesiunea 1"} decoding={"async"} />
         <h1>
-          {"Cursuri de vara in limba engleza “Cinematics” – sesiunea 1"}
+          {"Cursuri de vara in limba engleza "}<strong>{"Cinematics"}</strong>{" – sesiunea 1"}
         </h1>
       </section>
       <div>
@@ -88,7 +88,7 @@ export default function Page() {
                                   <span>
                                     {"Cursuri de vară în limba engleză "}
                                     <span>
-                                      {"“Cinematics”"}
+                                      <strong>{"Cinematics"}</strong>
                                     </span>
                                   </span>
                                   <span>
@@ -118,7 +118,7 @@ export default function Page() {
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"film-mut2"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/film-mut2.jpg 100w, https://www.proerudio.ro/wp-content/uploads/2016/01/film-mut2-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/film-mut2-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/film-mut2-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/film-mut2-85x85.jpg 85w"} sizes={"(max-width:767px) 100px, 100px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/film-mut2.jpg"} />
-                                  {"Aşa cum stă bine unui curs introductiv, prima sesiune a fost dedicată primelor încercări cinematografice. Am învăţat despre primul “motion picture”, prima proiecţie cu public, primul film original, pentru ca apoi să discutăm despre filmul alb-negru, despre filmul mut şi introducerea sunetului (mai întâi muzica live, apoi coloana sonoră), dezvoltarea industriei cinematografice americane şi introducerea filmului color ca normă în cinematografia modernă. Am vizionat câteva secvenţe de importantă istorică şi am discutat despre evoluţia tehnicilor şi viziunilor. Desigur, pentru a ne cunoaşte mai bine, am discutat despre filmul preferat şi ne-am pus la încercare cunoştinţele despre lumea filmului într-un quiz pe echipe."}
+                                  {"Așa cum stă bine unui curs introductiv, prima sesiune a fost dedicată primelor încercări cinematografice. Am învățat despre primul “motion picture”, prima proiecție cu public, primul film original, pentru ca apoi să discutăm despre filmul alb-negru, despre filmul mut și introducerea sunetului (mai întâi muzica live, apoi coloana sonoră), dezvoltarea industriei cinematografice americane și introducerea filmului color ca normă în cinematografia modernă. Am vizionat câteva secvențe de importantă istorică și am discutat despre evoluția tehnicilor și viziunilor. Desigur, pentru a ne cunoaște mai bine, am discutat despre filmul preferat și ne-am pus la încercare cunoștințele despre lumea filmului într-un quiz pe echipe."}
                                 </p>
                               </div>
                             </div>
@@ -131,11 +131,11 @@ export default function Page() {
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"hansel-si-gretel"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/hansel-si-gretel.jpg 100w, https://www.proerudio.ro/wp-content/uploads/2016/01/hansel-si-gretel-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/hansel-si-gretel-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/hansel-si-gretel-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/hansel-si-gretel-85x85.jpg 85w"} sizes={"(max-width:767px) 100px, 100px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/hansel-si-gretel.jpg"} />
-                                  {"În urma discuţiilor din ziua precedentă, ne-am supus regulilor democraţiei şi am vizionat (acasă) şi discutat (la curs) un film propus de copii."}
+                                  {"În urma discuțiilor din ziua precedentă, ne-am supus regulilor democrației și am vizionat (acasă) și discutat (la curs) un film propus de copii."}
                                   <br />
-                                  {"\nPoate alegerea nu a fost cea mai fericită (“Hansel and Gretel – The Witch Hunters”), dar am învaţă că orice pelicula poate stârni discuţii aprinse şi ne-am bucurat de câteva momente pline de energie."}
+                                  {"\nPoate alegerea nu a fost cea mai fericită (“Hansel and Gretel – The Witch Hunters”), dar am învață că orice pelicula poate stârni discuții aprinse și ne-am bucurat de câteva momente pline de energie."}
                                   <br />
-                                  {"\nAm descoperit câteva “greşeli” de regie, am comparat filmul cu povestea clasică, am discutat despre scenele groteşti, dar şi cele amuzante, am citit recenzii şi chiar ne-am erijat în critici şi am redactat o recenzie după ce am învăţat în prealabil care sunt etapele redactării şi ce trebuie să cuprindă un asemenea text funcţional."}
+                                  {"\nAm descoperit câteva “greșeli” de regie, am comparat filmul cu povestea clasică, am discutat despre scenele grotești, dar și cele amuzante, am citit recenzii și chiar ne-am erijat în critici și am redactat o recenzie după ce am învățat în prealabil care sunt etapele redactării și ce trebuie să cuprindă un asemenea text funcțional."}
                                 </p>
                               </div>
                             </div>
@@ -148,11 +148,11 @@ export default function Page() {
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"braveheart"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/braveheart.jpg 100w, https://www.proerudio.ro/wp-content/uploads/2016/01/braveheart-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/braveheart-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/braveheart-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/braveheart-85x85.jpg 85w"} sizes={"(max-width:767px) 100px, 100px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/braveheart.jpg"} />
-                                  {"A fost emoţionantă prin prisma filmului ales: “"}
+                                  {"A fost emoționantă prin prisma filmului ales: “"}
                                   <a href={"https://www.imdb.com/title/tt0112573/"} target={"_blank"}>
                                     {"Braveheart"}
                                   </a>
-                                  {"”, regie şi rol principal Mel Gibson. Am discutat despre filmul istoric: scene veridice, adevăr istoric şi ficţiune în prezentarea eroului William Wallace, despre elemente introduse în scenariu pentru plăcerea publicului, despre jocul actorilor şi tehnici cinematografice: zoom in şi zoom out, slow motion, gradarea tensiunii dramatice etc. Un alt moment important al cursului a fost discuţia despre tipurile de arme prezente în film şi strategiile de război folosite de ambele tabere, precum şi discursurile de îmbărbătare de la începuturile fiecărei bătălii. Am discutat despre tehnici de oratorie, despre puterea exemplului şi tipologia eroului de-al lungul timpului."}
+                                  {"”, regie și rol principal Mel Gibson. Am discutat despre filmul istoric: scene veridice, adevăr istoric și ficțiune în prezentarea eroului William Wallace, despre elemente introduse în scenariu pentru plăcerea publicului, despre jocul actorilor și tehnici cinematografice: zoom in și zoom out, slow motion, gradarea tensiunii dramatice etc. Un alt moment important al cursului a fost discuția despre tipurile de arme prezente în film și strategiile de război folosite de ambele tabere, precum și discursurile de îmbărbătare de la începuturile fiecărei bătălii. Am discutat despre tehnici de oratorie, despre puterea exemplului și tipologia eroului de-al lungul timpului."}
                                 </p>
                               </div>
                             </div>
@@ -165,7 +165,7 @@ export default function Page() {
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"sound-of-music"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/sound-of-music.jpg 100w, https://www.proerudio.ro/wp-content/uploads/2016/01/sound-of-music-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/sound-of-music-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/sound-of-music-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/sound-of-music-85x85.jpg 85w"} sizes={"(max-width:767px) 100px, 100px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/sound-of-music.jpg"} />
-                                  {"A fost dedicată filmului musical “The Sound of Music” şi am avut plăcuta surpriză (în ciuda faptului că toţi participanţii la curs au fost băieţi între 14 şi 16 ani) să nu fie respins ca demodat. Am discutat despre dramatizarea poveştii reale din viaţă familiei Von Trapp, despre expresivitatea cântecelor şi motivele pentru care sunt inserate în poveste, despre ce este încă de actualitate în povestea personajelor, despre jocul actorilor şi tehnicile cinematografiei destul de rudimentare, dat fiind că filmul a fost produs în anul 1965. În a două parte a cursului am discutat despre tipuri de filme şi am încercat să exemplificăm fiecare tip aducând motive care să justifice apartenenţa la tipul respectiv."}
+                                  {"A fost dedicată filmului musical “The Sound of Music” și am avut plăcuta surpriză (în ciuda faptului că toți participanții la curs au fost băieți între 14 și 16 ani) să nu fie respins ca demodat. Am discutat despre dramatizarea poveștii reale din viață familiei Von Trapp, despre expresivitatea cântecelor și motivele pentru care sunt inserate în poveste, despre ce este încă de actualitate în povestea personajelor, despre jocul actorilor și tehnicile cinematografiei destul de rudimentare, dat fiind că filmul a fost produs în anul 1965. În a două parte a cursului am discutat despre tipuri de filme și am încercat să exemplificăm fiecare tip aducând motive care să justifice apartenența la tipul respectiv."}
                                 </p>
                               </div>
                             </div>
@@ -178,12 +178,11 @@ export default function Page() {
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"divergent"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/divergent.jpg 100w, https://www.proerudio.ro/wp-content/uploads/2016/01/divergent-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/divergent-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/divergent-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/divergent-85x85.jpg 85w"} sizes={"(max-width:767px) 100px, 100px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/divergent.jpg"} />
-                                  {"A venit şi timpul filmului science fiction. Am ales un film recent “The Divergent” la sugestia copiilor şi am fost mulţumiţi de alegerea făcută întrucât filmul invită la o mulţime de "}
+                                  {"A venit și timpul filmului science fiction. Am ales un film recent “The Divergent” la sugestia copiilor și am fost mulțumiți de alegerea făcută întrucât filmul invită la o mulțime de "}
                                   <a href={"/alte-cursuri-pentru-copii/cursuri-de-dezvoltare-personala-copii/curs-pentru-dezvoltarea-inteligentei-emotionale-la-copii/"} target={"_blank"}>
-                                    {"discuţii"}
+                                    {"discuții"}
                                   </a>
-                                  {". După am trecut în revistă"}
-                                  {"cele mai importante tehnici folosite pentru crearea efectelor speciale de la machete şi ecrane verzi şi albastre până la animaţiile făcute pe calculator şi cascadorii spectaculoase, am identificat efectele special şi elementele de science fiction din film. Apoi am discutat despre diferenţele dintre lumea reală şi cea prezentată în film, am identificat tipologiile umane din fiecare facţiune şi posibilitatea evoluţiei omenirii în direcţia sugerată de film, precum şi stadiile iniţierii unei adolescente pentru a deveni eroina care restaurează pacea într-o societate aflată în criză."}
+                                  {". După am trecut în revistăcele mai importante tehnici folosite pentru crearea efectelor speciale de la machete și ecrane verzi și albastre până la animațiile făcute pe calculator și cascadorii spectaculoase, am identificat efectele special și elementele de science fiction din film. Apoi am discutat despre diferențele dintre lumea reală și cea prezentată în film, am identificat tipologiile umane din fiecare facțiune și posibilitatea evoluției omenirii în direcția sugerată de film, precum și stadiile inițierii unei adolescente pentru a deveni eroina care restaurează pacea într-o societate aflată în criză."}
                                 </p>
                               </div>
                             </div>
@@ -195,9 +194,9 @@ export default function Page() {
                                   </span>
                                 </p>
                                 <p>
-                                  {"A fost dedicată filmului de animaţie şi din nou la sugestia băieţilor, am discutat "}
+                                  {"A fost dedicată filmului de animație și din nou la sugestia băieților, am discutat "}
                                   <img decoding={"async"} alt={"Lorax"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Lorax.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/Lorax-50x32.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Lorax-117x75.jpg 117w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Lorax.jpg"} />
-                                  {"despre “The Lorax”. Am fost din nou plăcut impresionate de alegerea lor fiindcă este o pelicula cu tente ecologiste şi foarte moralizatoare. Fiind o animaţie bazată pe o carte de Dr Seuss, am discutat despre diferenţele şi asemănările dintre cele două, despre tipurile de personaje şi reprezentarea lor în lumea reală, despre mesajul filmului şi simbolurile diferitelor elemente. De asemenea, am folosit cântecul “How bad can I be?” care este plin de înţelesuri pentru o scurtă analiză pe text şi am discutat despre trăsăturile personajelor principale şi a felului în care ele evoluează de-a lungul filmului. În plus, am adus în discuţie rolul educativ al desenelor animate şi gesturi inadecvate ale personajelor ce apar în unele dintre ele: unii fumează, alţii se îmbată sau se iau la harța din orice."}
+                                  {"despre “The Lorax”. Am fost din nou plăcut impresionate de alegerea lor fiindcă este o pelicula cu tente ecologiste și foarte moralizatoare. Fiind o animație bazată pe o carte de Dr Seuss, am discutat despre diferențele și asemănările dintre cele două, despre tipurile de personaje și reprezentarea lor în lumea reală, despre mesajul filmului și simbolurile diferitelor elemente. De asemenea, am folosit cântecul “How bad can I be?” care este plin de înțelesuri pentru o scurtă analiză pe text și am discutat despre trăsăturile personajelor principale și a felului în care ele evoluează de-a lungul filmului. În plus, am adus în discuție rolul educativ al desenelor animate și gesturi inadecvate ale personajelor ce apar în unele dintre ele: unii fumează, alții se îmbată sau se iau la harța din orice."}
                                 </p>
                               </div>
                             </div>
@@ -210,7 +209,7 @@ export default function Page() {
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"birds"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/birds.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/birds-50x28.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/birds-134x75.jpg 134w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/birds.jpg"} />
-                                  {"Fiindcă ne apropiem deja de final, credem că este momentul potrivit pentru un alt classic. Am ales “Păsările” în regia lui Alfred Hitchcock şi ne-am temut că reacţia copiilor va fi una negativă. Chiar deloc! Ne-au mărturisit chiar (era prima vizionare pentru toţi) că au fost impresionaţi de încărcătură dramatică şi scenele atacurilor şi chiar au tresărit în câteva momente. Am găsit surprinzătoare reacţia lor în sensul că în lumea efectelor speciale uimitor de reale, un film în care în mod vizibil păsările sunt marionete în imagini juxtapuse peste personaje, spectatorul ar putea să nu mai guste intensitatea momentelor de suspans. Am discutat astfel despre trăsăturile primului film considerat thriller, despre elementele de gradare a suspansului (alternarea momentelor de calm cu cele dramatice), despre finalul incert, despre simbolistica celor două “love birds” etc. La final le-am provocat imaginaţia, cerându-le să modifice o scenă la alegere. Rezultatele au fost cel puţin interesante."}
+                                  {"Fiindcă ne apropiem deja de final, credem că este momentul potrivit pentru un alt classic. Am ales “Păsările” în regia lui Alfred Hitchcock și ne-am temut că reacția copiilor va fi una negativă. Chiar deloc! Ne-au mărturisit chiar (era prima vizionare pentru toți) că au fost impresionați de încărcătură dramatică și scenele atacurilor și chiar au tresărit în câteva momente. Am găsit surprinzătoare reacția lor în sensul că în lumea efectelor speciale uimitor de reale, un film în care în mod vizibil păsările sunt marionete în imagini juxtapuse peste personaje, spectatorul ar putea să nu mai guste intensitatea momentelor de suspans. Am discutat astfel despre trăsăturile primului film considerat thriller, despre elementele de gradare a suspansului (alternarea momentelor de calm cu cele dramatice), despre finalul incert, despre simbolistica celor două “love birds” etc. La final le-am provocat imaginația, cerându-le să modifice o scenă la alegere. Rezultatele au fost cel puțin interesante."}
                                 </p>
                               </div>
                             </div>
@@ -222,9 +221,9 @@ export default function Page() {
                                   </span>
                                 </p>
                                 <p>
-                                  {"A fost deosebit de intensă datorită greutăţii filmului discutat: “Life Is"}
+                                  {"A fost deosebit de intensă datorită greutății filmului discutat: “Life Is"}
                                   <img decoding={"async"} alt={"la-vita-e-bella"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/la-vita-e-bella.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/la-vita-e-bella-50x27.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/la-vita-e-bella-139x75.jpg 139w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/la-vita-e-bella.jpg"} />
-                                  {" Beautiful” sau în original “La vita e bella”, actor principal şi regizor Roberto Benigni. Am considerat că o incursiune în lumea cinematografiei nu poate fi completă fără un film non-Hollywood. Discuţiile au fost diverse: manifestul rasist şi contextul istoric general, aluzii la discriminare rasială, realitate şi ficţiune în felul în care este prezentat lagărul de concentrare, momente comice şi coincidenţe spectaculoase, povestea creată de tată în a doua parte a filmului – între veridic şi neveridic, personaje eroice, deznodământul Hollywood-ian puţin forţat prin sosirea trupelor americane salvatoare exact la momentul oportun şi întâlnirea cu mama etc. Mai apoi, am încercat să devenim noi scenarişti şi să scriem un alt final filmului."}
+                                  {" Beautiful” sau în original “La vita e bella”, actor principal și regizor Roberto Benigni. Am considerat că o incursiune în lumea cinematografiei nu poate fi completă fără un film non-Hollywood. Discuțiile au fost diverse: manifestul rasist și contextul istoric general, aluzii la discriminare rasială, realitate și ficțiune în felul în care este prezentat lagărul de concentrare, momente comice și coincidențe spectaculoase, povestea creată de tată în a doua parte a filmului – între veridic și neveridic, personaje eroice, deznodământul Hollywood-ian puțin forțat prin sosirea trupelor americane salvatoare exact la momentul oportun și întâlnirea cu mama etc. Mai apoi, am încercat să devenim noi scenariști și să scriem un alt final filmului."}
                                 </p>
                               </div>
                             </div>
@@ -237,7 +236,7 @@ export default function Page() {
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"Shanghai-Noon"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Shanghai-Noon.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/Shanghai-Noon-50x33.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Shanghai-Noon-113x75.jpg 113w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Shanghai-Noon.jpg"} />
-                                  {"Ne apropiem de sfârşit, deci e momentul pentru un film mai “light”, în special după experienţă din ziua precedentă. În urmă discuţiilor cu copiii, ne-am oprit la “Shanghai Noon” cu Jacky Chan şi Owen Wilson. Şi acest film s-a dovedit mai ofertant decât am fi crezut în privinţa discuţiilor. Am discutat despre diferenţele culturale dintre cele trei rase: albă, galbenă şi roşie, dar şi despre sursele umorului de-a lungul fimului. Am discutat despre cascadorii şi efectele speciale din timpul bătăilor, despre prietenia dintre cele două personaje principale, dar şi despre cele două poveşti de dragoste ce se conturează spre finalul filmului. În a două parte a cursului le-am pregătit o activitate interactivă pentru a înţelege felul în care filmul american poate distorsiona felul în care înţelegem lumea prin explorarea unor clişee tipice."}
+                                  {"Ne apropiem de sfârșit, deci e momentul pentru un film mai “light”, în special după experiență din ziua precedentă. În urmă discuțiilor cu copiii, ne-am oprit la “Shanghai Noon” cu Jacky Chan și Owen Wilson. Și acest film s-a dovedit mai ofertant decât am fi crezut în privința discuțiilor. Am discutat despre diferențele culturale dintre cele trei rase: albă, galbenă și roșie, dar și despre sursele umorului de-a lungul fimului. Am discutat despre cascadorii și efectele speciale din timpul bătăilor, despre prietenia dintre cele două personaje principale, dar și despre cele două povești de dragoste ce se conturează spre finalul filmului. În a două parte a cursului le-am pregătit o activitate interactivă pentru a înțelege felul în care filmul american poate distorsiona felul în care înțelegem lumea prin explorarea unor clișee tipice."}
                                 </p>
                               </div>
                             </div>
@@ -250,15 +249,14 @@ export default function Page() {
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"chicago"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/chicago.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/chicago-50x31.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/chicago-120x75.jpg 120w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/chicago.jpg"} />
-                                  {"Ultimul curs. Suntem deja trişti că ne apropiem de sfârşit… Este momentul bilanţului, aşa că am propus fiecărui participant să aleagă o scurtă secvenţă din filmul preferat şi să o discutăm împreună. Cătălin 1 a ales “Fast and Furious”,"}
-                                  {" Andrei “Star Wars”, Cătălin 2 “Jurassic World”, Vlad “Mordecai”, Mihai “American Sniper”, iar Elena “Chicago”. Au fost discuţii interesante, puncte de vedere diferite, dar bine argumentate şi pertinente de fiecare dată. La final, pentru a închide cercul, am făcut un nou quiz pentru cinefili în care băieţii trebuia să recunoască actorul, filmul şi să intuiască perioada în care a fost produs. Răspunsurile de cele mai multe ori exacte ne-au dovedit o dată în plus că cinematografia este un subiect de actualitate, că tinerii din ziua de astăzi sunt foarte interesaţi de îmbogăţirea culturii generale, dar şi de dezvoltarea capacităţii de analiză şi interpretare."}
+                                  {"Ultimul curs. Suntem deja triști că ne apropiem de sfârșit… Este momentul bilanțului, așa că am propus fiecărui participant să aleagă o scurtă secvență din filmul preferat și să o discutăm împreună. Cătălin 1 a ales “Fast and Furious”, Andrei “Star Wars”, Cătălin 2 “Jurassic World”, Vlad “Mordecai”, Mihai “American Sniper”, iar Elena “Chicago”. Au fost discuții interesante, puncte de vedere diferite, dar bine argumentate și pertinente de fiecare dată. La final, pentru a închide cercul, am făcut un nou quiz pentru cinefili în care băieții trebuia să recunoască actorul, filmul și să intuiască perioada în care a fost produs. Răspunsurile de cele mai multe ori exacte ne-au dovedit o dată în plus că cinematografia este un subiect de actualitate, că tinerii din ziua de astăzi sunt foarte interesați de îmbogățirea culturii generale, dar și de dezvoltarea capacității de analiză și interpretare."}
                                 </p>
                               </div>
                             </div>
                             <div>
                               <div>
                                 <h4>
-                                  {"Aşteptăm cu nerăbdare sesiunea următoare!"}
+                                  {"Așteptăm cu nerăbdare sesiunea următoare!"}
                                 </h4>
                               </div>
                             </div>
@@ -276,7 +274,7 @@ export default function Page() {
                                   <span>
                                     {"Cursuri de vară"}
                                     <span>
-                                      {"“Cinematics”"}
+                                      <strong>{"Cinematics"}</strong>
                                     </span>
                                   </span>
                                   <span>
@@ -443,7 +441,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-13-24-iulie/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/storytime.jpg\")"}}>
             <h3>
-              {"Curs de vara de limba engleza STORYTIME – (8-10 ani)"}
+              {"Curs de vara de limba engleza "}<strong>{"STORYTIME"}</strong>{" – (8 - 10 ani)"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -451,7 +449,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Storytime – seria 13-24 iulie (8-10 ani) Poveştile sunt o mare parte din viaţa noastră, fie că e vorba de"}
+              <strong>{"Storytime"}</strong>{" – seria 13-24 iulie (8 - 10 ani) Poveștile sunt o mare parte din viața noastră, fie că e vorba de"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -464,7 +462,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-6-8-ani-galerie-foto/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-vara-de-limba-engleza-Storytime-6-8-ani.jpg\")"}}>
             <h3>
-              {"Curs de vara de limba engleza STORYTIME (6-8 ani)"}
+              {"Curs de vara de limba engleza "}<strong>{"STORYTIME"}</strong>{" (6 - 8 ani)"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -472,7 +470,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Curs de vară de limba engleză “Storytime” (6-8) ani Am citit, ascultat și vizionat povești în limba engleză, am interpretat"}
+              {"Curs de vară de limba engleză "}<strong>{"Storytime"}</strong>{" (6-8) ani Am citit, ascultat și vizionat povești în limba engleză, am interpretat"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -485,7 +483,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/puppet-theatre-13-24-iulie/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/puppet-theatre.jpg\")"}}>
             <h3>
-              {"Curs de vară de limba engleză PUPPET THEATRE (4-6 ani)"}
+              {"Curs de vară de limba engleză "}<strong>{"PUPPET THEATRE"}</strong>{" (4 - 6 ani)"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -493,7 +491,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"PUPPET THEATRE – seria 13 – 24 iulie (4-6 ani) Vara este momentul cel mai potrivit să încercăm ceva nou."}
+              <strong>{"PUPPET THEATRE"}</strong>{" – seria 13 – 24 iulie (4 - 6 ani) Vara este momentul cel mai potrivit să încercăm ceva nou."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

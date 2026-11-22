@@ -102,18 +102,18 @@ export default function Page() {
                               <div>
                                 <p>
                                   <span>
-                                    {"Structura anului şcolar la Pro Erudio, urmează structura anului şcolar din învăţământul de stat, aşa cum este prezentată în Ordinul MENCS nr. 4577/2016 publicat în Monitorul Oficial, Partea I, nr. 552 din 21 iulie 2016, cu o singură excepţie: în perioada 29 octombrie – 6 noiembrie 2016, când copiii din învăţământul preşcolar şi primar sunt în vacanţă,"}
-                                    {" noi vom urmă cursurile conform orarului obişnuit."}
+                                    {"Structura anului școlar la Pro Erudio, urmează structura anului școlar din învățământul de stat, așa cum este prezentată în Ordinul MENCS nr. 4577/2016 publicat în Monitorul Oficial, Partea I, nr. 552 din 21 iulie 2016, cu o singură excepție: în perioada 29 octombrie – 6 noiembrie 2016, când copiii din învățământul preșcolar și primar sunt în vacanță,"}
+                                    {" noi vom urmă cursurile conform orarului obișnuit."}
                                   </span>
                                 </p>
                                 <p>
                                   <span>
-                                    {"În ceea ce priveşte programul naţional “Şcoală altfel”, Centrul Pro Erudio îşi rezervă dreptul de a desfăşura cursuri obişnuite sau deosebite, în funcţie de solicitările grupei şi organizarea noastră internă."}
+                                    {"În ceea ce privește programul național “Școală altfel”, Centrul Pro Erudio își rezervă dreptul de a desfășura cursuri obișnuite sau deosebite, în funcție de solicitările grupei și organizarea noastră internă."}
                                   </span>
                                 </p>
                                 <p>
                                   <span>
-                                    {"Anul şcolar 2016-2017 va avea 35 de săptămâni de cursuri, care vor însuma 169 de zile lucrătoare distribuite astfel:"}
+                                    {"Anul școlar 2016-2017 va avea 35 de săptămâni de cursuri, care vor însuma 169 de zile lucrătoare distribuite astfel:"}
                                   </span>
                                 </p>
                                 <h3>
@@ -124,13 +124,13 @@ export default function Page() {
                                     {"cursuri: 12 septembrie 2016 – 23 decembrie 2016;"}
                                   </li>
                                   <li>
-                                    {"vacanţă de iarnă: 24 decembrie 2016 – 8 ianuarie 2017;"}
+                                    {"vacanță de iarnă: 24 decembrie 2016 – 8 ianuarie 2017;"}
                                   </li>
                                   <li>
                                     {"cursuri: 9 ianuarie 2017 – 3 februarie 2017;"}
                                   </li>
                                   <li>
-                                    {"vacanţă intersemestriala: 4 februarie 2017 – 12 februarie 2017;"}
+                                    {"vacanță intersemestriala: 4 februarie 2017 – 12 februarie 2017;"}
                                   </li>
                                 </ul>
                                 <h3>
@@ -141,24 +141,24 @@ export default function Page() {
                                     {"cursuri: 13 februarie 2017 – 14 aprilie 2017;"}
                                   </li>
                                   <li>
-                                    {"vacanţă de primăvară: 19 aprilie 2017 – 30 aprilie 2017;"}
+                                    {"vacanță de primăvară: 19 aprilie 2017 – 30 aprilie 2017;"}
                                   </li>
                                   <li>
                                     {"cursuri: 2 mai 2017 – 16 iunie 2017;"}
                                   </li>
                                   <li>
-                                    {"vacanţă de vara: 17 iunie 2017 – 10 septembrie 2017."}
+                                    {"vacanță de vara: 17 iunie 2017 – 10 septembrie 2017."}
                                   </li>
                                 </ul>
                                 <h4>
-                                  {"ZILE LIBERE până la sfârşitul anului 2016, cuprinse în timpul semestrului:"}
+                                  {"ZILE LIBERE până la sfârșitul anului 2016, cuprinse în timpul semestrului:"}
                                 </h4>
                                 <ul>
                                   <li>
                                     {"Sfântul Andrei (miercuri, 30 noiembrie)"}
                                   </li>
                                   <li>
-                                    {"Ziua Naţională a României (joi, 1 decembrie)"}
+                                    {"Ziua Națională a României (joi, 1 decembrie)"}
                                   </li>
                                 </ul>
                                 <h4>
@@ -174,7 +174,7 @@ export default function Page() {
                                 </ul>
                                 <p>
                                   <span>
-                                    {"Testele periodice de progres vor fi susţinute în următoarele perioade pentru toate grupele de vârstă:"}
+                                    {"Testele periodice de progres vor fi susținute în următoarele perioade pentru toate grupele de vârstă:"}
                                   </span>
                                 </p>
                                 <ul>
@@ -189,7 +189,7 @@ export default function Page() {
                                   </li>
                                 </ul>
                                 <h4>
-                                  {"Alte activităţi:"}
+                                  {"Alte activități:"}
                                 </h4>
                                 <ul>
                                   <li>
@@ -214,7 +214,7 @@ export default function Page() {
                                     <strong>
                                       {"Notă!"}
                                     </strong>
-                                    {" Ultima săptămâna înaintea sărbătorilor importante, vor fi dedicate învăţării vocabularului specific şi familiarizării copiilor cu obiceiuri şi tradiţii din spaţiul ţărilor vorbitoare de limba engleză/germană, prin comparaţie cu tradiţiile şi obiceiurile noastre."}
+                                    {" Ultima săptămâna înaintea sărbătorilor importante, vor fi dedicate învățării vocabularului specific și familiarizării copiilor cu obiceiuri și tradiții din spațiul țărilor vorbitoare de limba engleză/germană, prin comparație cu tradițiile și obiceiurile noastre."}
                                   </span>
                                 </p>
                               </div>
@@ -377,7 +377,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -398,7 +398,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -419,7 +419,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro"}
+              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -440,7 +440,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2023-2024 și cele mai importante activități Structura anului şcolar la Pro Erudio o urmează"}
+              {"Structura anului școlar 2023-2024 și cele mai importante activități Structura anului școlar la Pro Erudio o urmează"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -461,7 +461,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului şcolar la Pro Erudio o urmează pe cea din învăţământul de stat, aşa cum este prezentată în Ordinul ministrului Educației și Cercetării"}
+              {"Structura anului școlar la Pro Erudio o urmează pe cea din învățământul de stat, așa cum este prezentată în Ordinul ministrului Educației și Cercetării"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -482,7 +482,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2020-2021 și cele mai importante activități Structura anului şcolar la Pro Erudio urmează structura"}
+              {"Structura anului școlar 2020-2021 și cele mai importante activități Structura anului școlar la Pro Erudio urmează structura"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

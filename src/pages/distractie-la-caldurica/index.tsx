@@ -100,17 +100,17 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Deşi iarnă cu zăpadă se lasă aşteptată, “Distracţia la căldurică” nu a avut nimic de pierdut. Ne-am cunoscut mai bine luni, în prima sesiune, jucând un joc pe echipe. Am avut nevoie de doar câteva minute să ţinem minte numele, vârstă şi jucăria preferată a coechipierilor, apoi ne-am întrecut în răspunsuri referitoare la noii prieteni şi am negociat jocul următor. Echipa câştigătoare a ales: Grădina zoologică. Ne-am maimuţărit şi la propriu şi la figurat, iar distracţia a fost pe măsură."}
+                                  {"Deși iarnă cu zăpadă se lasă așteptată, “Distracția la căldurică” nu a avut nimic de pierdut. Ne-am cunoscut mai bine luni, în prima sesiune, jucând un joc pe echipe. Am avut nevoie de doar câteva minute să ținem minte numele, vârstă și jucăria preferată a coechipierilor, apoi ne-am întrecut în răspunsuri referitoare la noii prieteni și am negociat jocul următor. Echipa câștigătoare a ales: Grădina zoologică. Ne-am maimuțărit și la propriu și la figurat, iar distracția a fost pe măsură."}
                                 </p>
                               </div>
                             </div>
                             <div>
                               <div>
                                 <p>
-                                  {"În a două sesiune ne-am întâlnit deja prieteni. Ne-am jucat mima, baba oarbă, am făcut avioane de hârtie, apoi am făcut piaţă, am pregătit mâncărurile preferate şi am servit pe toată lumea cu bunătăţi. Unii dintre noi au fugit de monştri, alţii s-au luptat cu extratereştri. Câte lumi extraordinare într-un singur loc! Şi pentru că spiritul Crăciunului este în toi, am învăţat să facem o altă decoraţiune pentru brăduţ: un Moc Crăciun în stil origami. Cu degetele mici şi nesigure, sau plini de încredere şi siguranţă, cu toţii am confecţionat câte un Moş de care să fim mândri."}
+                                  {"În a două sesiune ne-am întâlnit deja prieteni. Ne-am jucat mima, baba oarbă, am făcut avioane de hârtie, apoi am făcut piață, am pregătit mâncărurile preferate și am servit pe toată lumea cu bunătăți. Unii dintre noi au fugit de monștri, alții s-au luptat cu extratereștri. Câte lumi extraordinare într-un singur loc! Și pentru că spiritul Crăciunului este în toi, am învățat să facem o altă decorațiune pentru brăduț: un Moc Crăciun în stil origami. Cu degetele mici și nesigure, sau plini de încredere și siguranță, cu toții am confecționat câte un Moș de care să fim mândri."}
                                 </p>
                                 <p>
-                                  {"La 1 fără 20 toată lumea s-a pus pe strâns. Jucăriile în cutiile lor, piesele de puzzle în ale lor, animalele magnetice în cărţi, iar covorasele la perete. Toată lumea s-a descurcat de minune! Ne-am cerut scuze când am greşit, am împărţit jucăriile cu toată lumea şi la sfârşit am lăsat locul de joacă în ordine, aşa cum l-am găsit. Nu mai rămâne nimic de făcut decât să ne aşteptăm părinţii şi bunicii liniştiţi, savurând un desen animat cu Goofy sau Donald."}
+                                  {"La 1 fără 20 toată lumea s-a pus pe strâns. Jucăriile în cutiile lor, piesele de puzzle în ale lor, animalele magnetice în cărți, iar covorasele la perete. Toată lumea s-a descurcat de minune! Ne-am cerut scuze când am greșit, am împărțit jucăriile cu toată lumea și la sfârșit am lăsat locul de joacă în ordine, așa cum l-am găsit. Nu mai rămâne nimic de făcut decât să ne așteptăm părinții și bunicii liniștiți, savurând un desen animat cu Goofy sau Donald."}
                                 </p>
                                 <p>
                                   {"Sărbători fericite!"}
@@ -384,7 +384,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Christmas is coming… Vine Crăciunul şi ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
+              {"Christmas is coming… Vine Crăciunul și ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -405,7 +405,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Conversație cu profesor nativ englez – Cadoul meu de Moș Nicolae De unde o fi ştiut Moş"}
+              {"Conversație cu profesor nativ englez – Cadoul meu de Moș Nicolae De unde o fi știut Moș"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

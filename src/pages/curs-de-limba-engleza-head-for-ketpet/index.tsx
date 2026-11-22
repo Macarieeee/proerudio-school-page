@@ -20,13 +20,13 @@ export default function Page() {
             {" Înapoi la pagina principală"}
           </a>
           <p className={"mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-background/75"}>
-            {"Cursuri pentru copii de 12–19 ani"}
+            {"Cursuri pentru copii de 12 - 19 ani"}
           </p>
           <h1 className={"mb-6 text-4xl font-bold leading-tight md:text-6xl"}>
-            {"Head for Key/Preliminary — pregătire pentru examenele Cambridge English"}
+            <strong>{"Head for Key/Preliminary"}</strong>{" — pregătire pentru examenele Cambridge English"}
           </h1>
           <p className={"max-w-3xl text-lg leading-relaxed text-background/90 md:text-xl"}>
-            {"Cursuri pentru copii și adolescenți de 12–18 ani, disponibile la sediu și online"}
+            {"Cursuri pentru copii și adolescenți de 12 - 18 ani, disponibile la sediu și online"}
           </p>
         </div>
       </div>
@@ -36,10 +36,10 @@ export default function Page() {
       <section className={"mobile-page-intro"} aria-label={"Head for Key/Preliminary — pregătire pentru examenele Cambridge English"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-limba-engleza-HEAD-FOR-KET-PET-ProErudio1-1.webp"} alt={"Head for Key/Preliminary — pregătire pentru examenele Cambridge English"} decoding={"async"} />
         <h1>
-          {"Head for Key/Preliminary — pregătire pentru examenele Cambridge English"}
+          <strong>{"Head for Key/Preliminary"}</strong>{" — pregătire pentru examenele Cambridge English"}
         </h1>
         <p>
-          {"Cursuri pentru copii și adolescenți de 12–18 ani, disponibile la sediu și online"}
+          {"Cursuri pentru copii și adolescenți de 12 - 18 ani, disponibile la sediu și online"}
         </p>
       </section>
       <div>
@@ -47,7 +47,7 @@ export default function Page() {
           {"Ai crescut, ai acumulat cunoștințe și te gândești la primul tău examen Cambridge English? Te ajutăm să faci următorul pas cu încredere."}
         </p>
         <p>
-          {"Cursul „Head for Key/Preliminary” îmbină dezvoltarea competențelor de limba engleză cu pregătirea pentru "}
+          {"Cursul "}<strong>{"Head for Key/Preliminary"}</strong>{" îmbină dezvoltarea competențelor de limba engleză cu pregătirea pentru "}
           <strong>
             {"A2 Key for Schools (KET)"}
           </strong>
@@ -168,7 +168,7 @@ export default function Page() {
           </strong>
         </p>
         <h2>
-          {"Momente de la cursurile „Head for KET/PET”"}
+          {"Momente de la cursurile "}<strong>{"Head for KET/PET"}</strong>
         </h2>
         <div className={"photo-gallery"} style={{"display": "grid", "gridTemplateColumns": "repeat(3,minmax(0,1fr))", "gap": "12px"}}>
           <a href={"https://www.proerudio.ro/wp-content/uploads/2021/10/36739503115_d6b623ba4b_c.jpg"} aria-label={"Mărește imaginea"}>
@@ -203,7 +203,7 @@ export default function Page() {
               <img src={image1 + ""} alt={""} />
             </div>
             <h2>
-              {"“HEAD FOR KET/PET”"}
+              <strong>{"HEAD FOR KET/PET"}</strong>
             </h2>
             <div className={"course-price"}>
               <sup>
@@ -275,7 +275,7 @@ export default function Page() {
                   {"Vârstă:"}
                 </strong>
                 <br />
-                {"12–18 ani"}
+                {"12 - 18 ani"}
               </li>
             </ul>
             <p></p>
@@ -303,12 +303,10 @@ export default function Page() {
             </strong>
           </li>
           <li>
-            {"în 5 tranșe egale (septembrie, noiembrie, ianuarie, martie si mai) (5% reducere), "}
-            {"798 lei/trașă plată."}
+            {"în 5 tranșe egale (septembrie, noiembrie, ianuarie, martie si mai) (5% reducere), 798 lei/trașă plată."}
           </li>
           <li>
-            {"Lunar până pe data de 5 a fiecarei luni prin înmulțirea numărului maxim de cursuri din lună "}
-            {"cu prețul pe curs."}
+            {"Lunar până pe data de 5 a fiecarei luni prin înmulțirea numărului maxim de cursuri din lună cu prețul pe curs."}
           </li>
         </ul>
       </div>
@@ -318,22 +316,22 @@ export default function Page() {
             {"Continuă pregătirea"}
           </p>
           <h2 className={"!m-0 !border-0 !p-0 !text-xl font-bold !text-foreground md:!text-2xl"}>
-            {"Alte cursuri pentru copii de 12–19 ani"}
+            {"Alte cursuri pentru copii de 12 - 19 ani"}
           </h2>
         </div>
         <div id={":r0:"} className={"related-content-grid"}>
           <a className={"related-content-card"} href={"/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-head-for-fce-cae-cpe/"}>
             <div className={"related-content-media"} style={{"backgroundImage": "url(\"" + image2 + "\")"}}>
               <h3>
-                {"Head for FCE/CAE/CPE — engleză pentru noi perspective"}
+                <strong>{"Head for FCE/CAE/CPE"}</strong>{" — engleză pentru noi perspective"}
               </h3>
             </div>
             <div className={"related-content-body"}>
               <span className={"related-content-badge"}>
-                {"12–19 ani"}
+                {"12 - 19 ani"}
               </span>
               <p>
-                {"Cursuri pentru adolescenți (14–19 ani), disponibile la sediu și online"}
+                {"Cursuri pentru adolescenți (14 - 19 ani), disponibile la sediu și online"}
               </p>
               <span className={"related-content-action"}>
                 {"Vezi cursul"}
@@ -346,12 +344,12 @@ export default function Page() {
           <a className={"related-content-card"} href={"/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-head-for-ielts/"}>
             <div className={"related-content-media"} style={{"backgroundImage": "url(\"" + image3 + "\")"}}>
               <h3>
-                {"Head for IELTS — pregătire pentru următorul pas"}
+                <strong>{"Head for IELTS"}</strong>{" — pregătire pentru următorul pas"}
               </h3>
             </div>
             <div className={"related-content-body"}>
               <span className={"related-content-badge"}>
-                {"12–19 ani"}
+                {"12 - 19 ani"}
               </span>
               <p>
                 {"Cursuri pentru tineri de 17 ani și peste, disponibile la sediu și online"}
@@ -367,12 +365,12 @@ export default function Page() {
           <a className={"related-content-card"} href={"/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/curs-de-limba-engleza-pentru-tineri-head-for-toefl/"}>
             <div className={"related-content-media"} style={{"backgroundImage": "url(\"" + image4 + "\")"}}>
               <h3>
-                {"Head for TOEFL — engleză pentru parcursul tău academic"}
+                <strong>{"Head for TOEFL"}</strong>{" — engleză pentru parcursul tău academic"}
               </h3>
             </div>
             <div className={"related-content-body"}>
               <span className={"related-content-badge"}>
-                {"12–19 ani"}
+                {"12 - 19 ani"}
               </span>
               <p>
                 {"Cursuri pentru tineri de 17 ani și peste, disponibile la sediu și online"}

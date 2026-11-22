@@ -105,37 +105,37 @@ export default function Page() {
                                   <strong>
                                     {"Luni, 24 august"}
                                   </strong>
-                                  {", Poiana Braşov 2015"}
+                                  {", Poiana Brașov 2015"}
                                 </p>
                                 <p>
-                                  {"După o călătorie cu microbuzul de aproape 4 ore, am ajuns la Poiana Braşov, Hotel Poiana. Am fost întâmpinaţi de ghizi şi ghiduşe, care ne aşteptau cu cheile de la camerele deja pregătite pentru musafiri. Bagajele ne-au fost duse în camere în timp ce noi ne răcoream cu un pahar de apă de la dozatorul din recepţie. Pe la ora 18.00, după ce au sosit toţi copiii, a fost timpul pentru prima activitate ce urmă să ne introducă în atmosfera de tabăra: împărţirea pe echipe şi comunicarea regulilor de tabăra, cu bune şi cu rele."}
+                                  {"După o călătorie cu microbuzul de aproape 4 ore, am ajuns la Poiana Brașov, Hotel Poiana. Am fost întâmpinați de ghizi și ghidușe, care ne așteptau cu cheile de la camerele deja pregătite pentru musafiri. Bagajele ne-au fost duse în camere în timp ce noi ne răcoream cu un pahar de apă de la dozatorul din recepție. Pe la ora 18.00, după ce au sosit toți copiii, a fost timpul pentru prima activitate ce urmă să ne introducă în atmosfera de tabăra: împărțirea pe echipe și comunicarea regulilor de tabăra, cu bune și cu rele."}
                                   {" Dintr-o echipa fac parte "}
                                   <a href={"/cursuri-de-limba-engleza-pentru-copii-si-adolescenti/"} target={"_blank"}>
                                     {"copii de toate vârstele"}
                                   </a>
-                                  {", conduşi de un “căpitan”, democratic ales, cu multe sarcini în programul de tabăra. Fiecare echipa a primit o bandana într-o culoare distinctivă pentru echipă: galben, lila, turcoaz, verde, vernal, portocaliu, roz şi roşu. Personalul din tabăra poartă bandane albastre, iar profesorii însoţitori mov. Toată lumea are obligaţia de a purta semnele distinctive echipei căreia îi aparţine pe toată durata taberei. Pedeapsa pentru cei ce nu se conformează – profesori şi copii deopotrivă – este de 10 genuflexiuni “pe loc”."}
+                                  {", conduși de un “căpitan”, democratic ales, cu multe sarcini în programul de tabăra. Fiecare echipa a primit o bandana într-o culoare distinctivă pentru echipă: galben, lila, turcoaz, verde, vernal, portocaliu, roz și roșu. Personalul din tabăra poartă bandane albastre, iar profesorii însoțitori mov. Toată lumea are obligația de a purta semnele distinctive echipei căreia îi aparține pe toată durata taberei. Pedeapsa pentru cei ce nu se conformează – profesori și copii deopotrivă – este de 10 genuflexiuni “pe loc”."}
                                 </p>
                               </div>
                             </div>
                             <div>
                               <div>
                                 <p>
-                                  {"La ora 19.50 ne-am aliniat pe terenul din faţă, fiecare în echipa lui, am intrat pe rând la masă, în şir indian, câte două echipe. Încă sentimentul de apartenenţa nu este consolidat şi sunt câţiva nemulţumiţi care doresc să stea la masă cu prietenii de acasă, dar regulile sunt reguli şi fiecare a stat cu echipa. Am mâncat copănele de pui pregătite la cuptor cu orez şi salată asortată, iar la desert o prăjiturică de casă."}
+                                  {"La ora 19.50 ne-am aliniat pe terenul din față, fiecare în echipa lui, am intrat pe rând la masă, în șir indian, câte două echipe. Încă sentimentul de apartenența nu este consolidat și sunt câțiva nemulțumiți care doresc să stea la masă cu prietenii de acasă, dar regulile sunt reguli și fiecare a stat cu echipa. Am mâncat copănele de pui pregătite la cuptor cu orez și salată asortată, iar la desert o prăjiturică de casă."}
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"tabara_poiana_brasov_atgr_oldline-0148-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0148-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0148-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0148-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0148-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0148-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0148-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0148-150x150.jpg"} />
-                                  {"După masă am continuat activitatea pe echipe: confecţionarea steagului. Sub îndrumarea unui ghid, fiecare copil a contribuit la crearea poveştii din spatele desenelor de pe "}
+                                  {"După masă am continuat activitatea pe echipe: confecționarea steagului. Sub îndrumarea unui ghid, fiecare copil a contribuit la crearea poveștii din spatele desenelor de pe "}
                                   <a href={"https://en.wikipedia.org/wiki/Flag"} target={"_blank"}>
                                     {"steag"}
                                   </a>
-                                  {". Au ales un nume reprezentativ şi o emblemă, iar căpitanul a avut ca “sarcină de serviciu” să înveţe numele, vârstă, zodia şi camera fiecărui membru al echipei. După o jumătate de ora de lucru intens a urmat prezentarea steagurilor şi a echipelor în public. Mai întâi am aflat despre sistemul de acumulare/pierdere a punctelor, apoi a început prezentarea propriu-zisă. A fost primul moment în care copiii au simţit că aparţin unei echipe şi lupta pentru un scop comun: punctele pentru echipa. De acum nu vor mai există voci nemulţumite care să solicite mutarea din echipa."}
+                                  {". Au ales un nume reprezentativ și o emblemă, iar căpitanul a avut ca “sarcină de serviciu” să învețe numele, vârstă, zodia și camera fiecărui membru al echipei. După o jumătate de ora de lucru intens a urmat prezentarea steagurilor și a echipelor în public. Mai întâi am aflat despre sistemul de acumulare/pierdere a punctelor, apoi a început prezentarea propriu-zisă. A fost primul moment în care copiii au simțit că aparțin unei echipe și lupta pentru un scop comun: punctele pentru echipa. De acum nu vor mai există voci nemulțumite care să solicite mutarea din echipa."}
                                 </p>
                                 <p>
-                                  {"La 10.30 ne-am dus cu toţii în camera pentru a ne pregăti de culcare. Prima seară, primul control. Echipe formate din ghizi au verificat fiecare camera şi împărţit genuflexiuni unde a fost cazul."}
+                                  {"La 10.30 ne-am dus cu toții în camera pentru a ne pregăti de culcare. Prima seară, primul control. Echipe formate din ghizi au verificat fiecare camera și împărțit genuflexiuni unde a fost cazul."}
                                 </p>
                                 <p>
                                   <strong>
-                                    {"La 11.30 era deja linişte deplină. Somn uşor!"}
+                                    {"La 11.30 era deja liniște deplină. Somn ușor!"}
                                   </strong>
                                 </p>
                               </div>
@@ -324,7 +324,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 7 Duminică, 30 august, Poiana Braşov 2015 – Ziua 7 În dimineaţă ultimei zile de tabăra copiii"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 7 Duminică, 30 august, Poiana Brașov 2015 – Ziua 7 În dimineață ultimei zile de tabăra copiii"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -345,7 +345,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiţi pentru încălzire. Pentru dimineaţă ghizii ne-au pregătit o drumeţie."}
+              {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiți pentru încălzire. Pentru dimineață ghizii ne-au pregătit o drumeție."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -366,7 +366,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 5 Vineri, 28 august, Poiana Braşov 2015 – Ziua 5 A venit în sfârşit ziua a"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 5 Vineri, 28 august, Poiana Brașov 2015 – Ziua 5 A venit în sfârșit ziua a"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -387,7 +387,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 4 Joi, 27 august, Poiana Braşov 2015 – Ziua 4 Ne-am trezit în dimineaţă zilei"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 4 Joi, 27 august, Poiana Brașov 2015 – Ziua 4 Ne-am trezit în dimineață zilei"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -408,7 +408,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 3 Miercuri, 26 august, Poiana Braşov 2015 O nouă zi, o nouă aventură. După trezirea"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 3 Miercuri, 26 august, Poiana Brașov 2015 O nouă zi, o nouă aventură. După trezirea"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -429,7 +429,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 2 Marţi, 25 August, Poiana Braşov 2015 Bună dimineaţa! Suntem în a două zi de"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 2 Marți, 25 August, Poiana Brașov 2015 Bună dimineața! Suntem în a două zi de"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

@@ -74,7 +74,7 @@ export default function Page() {
                                   <div>
                                     <div>
                                       <h5>
-                                        {"Cursuri de dezvoltare personală prin teatru (copii de 4 – 9 ani)"}
+                                        {"Cursuri de dezvoltare personală prin teatru (copii de 4 - 9 ani)"}
                                       </h5>
                                       <div data-wow-delay={"0ms"} data-wow-iteration={"1"}>
                                         <h2>
@@ -87,11 +87,11 @@ export default function Page() {
                                         <div>
                                           <p>
                                             {"Jocurile teatrale și interpretarea unui rol, fie el într-o piesă clasică sau în teatrul de improvizație, sunt importante în educația noastră deoarece ne învață"}
-                                            {"cum să găsim soluții la probleme, ne ajută să ne integrăm mai ușor într-un colectiv, să ne dezvoltăm gândirea critică, să devenim mai empatici, să depășim teama de a vorbi în public, într-un cuvânt: să ne bucurăm mai mult de viață."}
+                                            {" cum să găsim soluții la probleme, ne ajută să ne integrăm mai ușor într-un colectiv, să ne dezvoltăm gândirea critică, să devenim mai empatici, să depășim teama de a vorbi în public, într-un cuvânt: să ne bucurăm mai mult de viață."}
                                           </p>
                                           <p>
                                             {"La cursul de teatru vom gusta puțin din toate. Exercițiile de respirație și dicție ne vor ajuta să fim mai siguri pe discursul nostru în public. Cele de teatru de improvizație ne vor învăța că fiecare dintre noi poate fi spontan și creativ și astfel ne vom descurca și în situațiile reale de viață"}
-                                            {"cu mult mai mult curaj."}
+                                            {" cu mult mai mult curaj."}
                                           </p>
                                         </div>
                                       </div>
@@ -111,8 +111,8 @@ export default function Page() {
                               </p>
                               <p>
                                 {"Astfel, la finalul cursurilor, sperăm să ne regasim mai atenți decât am început, cu poftă de viață"}
-                                {"și dornici să"}
-                                {"învățăm cât mai multe despre noi și de acum înainte."}
+                                {" și dornici să"}
+                                {" învățăm cât mai multe despre noi și de acum înainte."}
                               </p>
                               <h2>
                                 <span>
@@ -123,7 +123,7 @@ export default function Page() {
                                 <div>
                                   <p>
                                     {"– dezvoltarea aptitudinilor de lucru în echipă prin cooperare, întrajutorare, relaționare cu cei din jur, coordonare, înțelegere reciprocă"}
-                                    {"și luarea deciziilor în grup;"}
+                                    {" și luarea deciziilor în grup;"}
                                     <br />
                                     {"\n– dezvoltarea abilităților de a vorbi în public, de a-și stăpâni emoțiile, de a-și cunoaște mai bine limitele, de a improviza etc;"}
                                     <br />
@@ -302,7 +302,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârstă: "}
                                             </strong>
-                                            {"4 – 8 ani"}
+                                            {"4 - 8 ani"}
                                           </li>
                                         </ul>
                                         <p>
@@ -454,7 +454,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârstă: "}
                                             </strong>
-                                            {"6 – 9 ani"}
+                                            {"6 - 9 ani"}
                                           </li>
                                         </ul>
                                         <p>
@@ -564,7 +564,7 @@ export default function Page() {
                                                 <p>
                                                   <strong>
                                                     {"Pentru cei care își doresc să"}
-                                                    {"știe mai multe despre improvizație, vă recomandam filmulețul lui Dave Morris, The way of improvisation"}
+                                                    {" știe mai multe despre improvizație, vă recomandam filmulețul lui Dave Morris, The way of improvisation"}
                                                   </strong>
                                                 </p>
                                               </div>
@@ -583,7 +583,7 @@ export default function Page() {
                                         <div>
                                           <p>
                                             {"Dacă vreți să petreceți doua ore distractive, să vă faceți prieteni, să râdeți, să"}
-                                            {"deveniți mai dezinvolți, să vă descurcați în orice situație de viață, să nu vă mai temeți de eșec, atunci soluția este teatrul de improvizație! Ce vom face în cele doua ore petrecute împreună? În primul rând, ne vom juca de-a viața, inventând personaje, imitând altele deja cunoscute, vom crea împreună scene, povești și cântece, iar la finalul modulului, ca orice actor care se respectă, vom susține un binemeritat spectacol."}
+                                            {" deveniți mai dezinvolți, să vă descurcați în orice situație de viață, să nu vă mai temeți de eșec, atunci soluția este teatrul de improvizație! Ce vom face în cele doua ore petrecute împreună? În primul rând, ne vom juca de-a viața, inventând personaje, imitând altele deja cunoscute, vom crea împreună scene, povești și cântece, iar la finalul modulului, ca orice actor care se respectă, vom susține un binemeritat spectacol."}
                                           </p>
                                         </div>
                                       </div>
@@ -697,7 +697,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârstă: "}
                                             </strong>
-                                            {"9 – 15 ani"}
+                                            {"9 - 15 ani"}
                                           </li>
                                         </ul>
                                         <p>
@@ -865,7 +865,7 @@ export default function Page() {
                             <div>
                               <h3>
                                 {"Alte cursuri"}
-                                {"pentru copii:"}
+                                {" pentru copii:"}
                               </h3>
                             </div>
                           </div>
@@ -890,7 +890,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5–17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
+                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5 - 17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -911,7 +911,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar şi a exprimarii pasiunii, limba iubirii"}
+                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar și a exprimarii pasiunii, limba iubirii"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -953,7 +953,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Creioane și culori (pentru copii de 5-7 si 8-10 ani) Prezentare generală Desenul este"}
+                                    {"Creioane și culori (pentru copii de 5-7 si 8 - 10 ani) Prezentare generală Desenul este"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -974,7 +974,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Planeta animalelor (pentru copii de 5-7 și 8-10 ani) Prezentare generală Lumea animalelor"}
+                                    {"Planeta animalelor (pentru copii de 5-7 și 8 - 10 ani) Prezentare generală Lumea animalelor"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}

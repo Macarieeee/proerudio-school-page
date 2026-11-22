@@ -56,7 +56,7 @@ export default function Page() {
                           <div>
                             <div>
                               <h2>
-                                {"EMOŢIILE CONTEAZĂ!"}
+                                {"EMOȚIILE CONTEAZĂ!"}
                               </h2>
                             </div>
                           </div>
@@ -69,12 +69,12 @@ export default function Page() {
                             <div>
                               <p>
                                 <span>
-                                  {"Cursul de dezvoltare a inteligenţei emoţionale la copii le oferă acestora posibilitatea de a se cunoaşte mai bine pe sine, de a-şi descoperi resursele personale şi de a le valorifica în interacţiunea cu ceilalţi, astfel încât această să fie productivă pentru fiecare. Pentru micuţii care se află la vârstă descoperirilor, un astfel de grup le deschide drumul pentru creionarea unei personalităţi adaptate cerinţelor sistemului social. Succesul este asigurat de interacţiunea la nivel non-verbal, de prezentarea eficientă a propriei persoane, de modelarea interacţiunilor sociale şi de luarea în calcul a nevoilor celorlalţi şi acţionarea în consecinţă. Indiferent de vârstă, personalitatea şi talentul copilului, cursul este gândit în aşa fel încât copiii să se simtă bine, să se distreze şi să plece încântaţi de la ore şi cu un bagaj de informaţii utile."}
+                                  {"Cursul de dezvoltare a inteligenței emoționale la copii le oferă acestora posibilitatea de a se cunoaște mai bine pe sine, de a-și descoperi resursele personale și de a le valorifica în interacțiunea cu ceilalți, astfel încât această să fie productivă pentru fiecare. Pentru micuții care se află la vârstă descoperirilor, un astfel de grup le deschide drumul pentru creionarea unei personalități adaptate cerințelor sistemului social. Succesul este asigurat de interacțiunea la nivel non-verbal, de prezentarea eficientă a propriei persoane, de modelarea interacțiunilor sociale și de luarea în calcul a nevoilor celorlalți și acționarea în consecință. Indiferent de vârstă, personalitatea și talentul copilului, cursul este gândit în așa fel încât copiii să se simtă bine, să se distreze și să plece încântați de la ore și cu un bagaj de informații utile."}
                                 </span>
                               </p>
                               <p>
                                 <span>
-                                  {"Totul va decurge că un joc (conform particularităţilor de vârstă). Jocul oferă simultan şi libertate şi rigoare, dezvoltând încrederea în sine, creând posibilitatea de a-ţi descoperi şi folosi cele mai bune abilităţi, fiind cel mai bun stimulent pentru capacitatea de expresie a copilului. Jocul are scop educativ şi chiar terapeutic, asigura o baza de înţelegere cu sine şi cu ceilalţi, dezvoltând adaptabilitatea la diverse situaţii sociale, influenţează pozitiv procesul de învăţare, dezvoltând psihicul şi socialul printr-o metodă plăcută şi veselă."}
+                                  {"Totul va decurge că un joc (conform particularităților de vârstă). Jocul oferă simultan și libertate și rigoare, dezvoltând încrederea în sine, creând posibilitatea de a-ți descoperi și folosi cele mai bune abilități, fiind cel mai bun stimulent pentru capacitatea de expresie a copilului. Jocul are scop educativ și chiar terapeutic, asigura o baza de înțelegere cu sine și cu ceilalți, dezvoltând adaptabilitatea la diverse situații sociale, influențează pozitiv procesul de învățare, dezvoltând psihicul și socialul printr-o metodă plăcută și veselă."}
                                 </span>
                               </p>
                               <h3>
@@ -82,37 +82,37 @@ export default function Page() {
                               </h3>
                               <ul>
                                 <li>
-                                  {"să identificăm şi să etichetăm"}
-                                  {" corect emoţiile, să deosebim emoţiile funcţionale de cele disfuncţionale;"}
+                                  {"să identificăm și să etichetăm"}
+                                  {" corect emoțiile, să deosebim emoțiile funcționale de cele disfuncționale;"}
                                 </li>
                                 <li>
-                                  {"să dezvoltem capacitatea de a empatiza: să fim conştienţi de sentimentele noastre, să înţelegem şi să apreciem sentimentele celorlalţi;"}
+                                  {"să dezvoltem capacitatea de a empatiza: să fim conștienți de sentimentele noastre, să înțelegem și să apreciem sentimentele celorlalți;"}
                                 </li>
                                 <li>
-                                  {"să învăţăm cum putem face faţă emoţiilor;"}
+                                  {"să învățăm cum putem face față emoțiilor;"}
                                 </li>
                                 <li>
                                   {"să ne dezvoltăm stimă de sine;"}
                                 </li>
                                 <li>
                                   {"să dezvoltăm"}
-                                  {" abilitatea de a apară ceea ce este bine şi să avem disponibilitatea de a exprimă a gândurile, a sentimentele;"}
+                                  {" abilitatea de a apară ceea ce este bine și să avem disponibilitatea de a exprima a gândurile, a sentimentele;"}
                                 </li>
                                 <li>
-                                  {"să invetam despre ababilitatea de a respectă şi de a acceptă;"}
+                                  {"să invetam despre ababilitatea de a respectă și de a acceptă;"}
                                 </li>
                                 <li>
                                   {"să ne dezvoltăm"}
-                                  {" abilitatea de a realiza propriile capacităţi potenţiale şi capacitatea de a ne implică în căutarea unor scopuri;"}
+                                  {" abilitatea de a realiza propriile capacități potențiale și capacitatea de a ne implică în căutarea unor scopuri;"}
                                 </li>
                                 <li>
-                                  {"să fim independenţi, adică să ne"}
+                                  {"să fim independenți, adică să ne"}
                                   {" dezvoltăm"}
-                                  {" abilitatea de a ne direcţiona şi a ne controla singuri în propriile gânduri şi acţiuni, capacitatea de a fi liber de dependenţele emoţionale;"}
+                                  {" abilitatea de a ne direcționa și a ne controla singuri în propriile gânduri și acțiuni, capacitatea de a fi liber de dependențele emoționale;"}
                                 </li>
                                 <li>
                                   {"să ne"}
-                                  {" dezvoltăm abilitatea de a stabili şi de a menţine relaţii interpersonale;"}
+                                  {" dezvoltăm abilitatea de a stabili și de a menține relații interpersonale;"}
                                 </li>
                               </ul>
                               <h3>
@@ -121,26 +121,26 @@ export default function Page() {
                               <ul>
                                 <li>
                                   {"desen,"}
-                                  {" modelaj, improvizaţie ,jocul cu marionetele"}
+                                  {" modelaj, improvizație,jocul cu marionetele"}
                                 </li>
                                 <li>
-                                  {"joc de rol (fiecare sesiune va cuprinde o parte de joc de rol, pentru a-i ajută pe copii să socializeze, să-şi învingă timiditatea)"}
+                                  {"joc de rol (fiecare sesiune va cuprinde o parte de joc de rol, pentru a-i ajută pe copii să socializeze, să-și învingă timiditatea)"}
                                 </li>
                                 <li>
-                                  {"fişe de lucru (individuale şi de grup)"}
+                                  {"fișe de lucru (individuale și de grup)"}
                                 </li>
                                 <li>
-                                  {"jocuri de construcţie"}
+                                  {"jocuri de construcție"}
                                 </li>
                                 <li>
-                                  {"explicaţia / conversaţia / problematizare,"}
-                                  {" exerciţii şi jocuri simbolice"}
+                                  {"explicația / conversația / problematizare,"}
+                                  {" exerciții și jocuri simbolice"}
                                 </li>
                                 <li>
-                                  {"poveşti terapeutice, construirea de poveşti"}
+                                  {"povești terapeutice, construirea de povești"}
                                 </li>
                                 <li>
-                                  {"prezentări şi filme motivaţionale cu mesaj educativ"}
+                                  {"prezentări și filme motivaționale cu mesaj educativ"}
                                 </li>
                               </ul>
                             </div>
@@ -158,120 +158,120 @@ export default function Page() {
                               <h2>
                                 <span>
                                   <span>
-                                    {"Modulul 1 – Autocunoaştere şi dezvoltare emoţională"}
+                                    {"Modulul 1 – Autocunoaștere și dezvoltare emoțională"}
                                   </span>
                                 </span>
                                 <span>
-                                  {"(6 şedinţe)"}
+                                  {"(6 ședințe)"}
                                 </span>
                               </h2>
                               <h4>
-                                {"Activitatea 1 – Cine sunt eu? Cine eşti tu?"}
+                                {"Activitatea 1 – Cine sunt eu? Cine ești tu?"}
                               </h4>
                               <ul>
                                 <li>
-                                  {"vor descoperi cine sunt şi cum să se accepte în acest fel"}
+                                  {"vor descoperi cine sunt și cum să se accepte în acest fel"}
                                 </li>
                                 <li>
-                                  {"vor experimenta ce şi-ar dori să devină"}
+                                  {"vor experimenta ce și-ar dori să devină"}
                                 </li>
                                 <li>
-                                  {"îşi vor îmbunătăţi exprimarea sinelui prin cuvânt şi emoţie"}
+                                  {"își vor îmbunătăți exprimarea sinelui prin cuvânt și emoție"}
                                 </li>
                                 <li>
-                                  {"îşi vor perfecţiona modalitatea de relaţionare şi comunicare cu ceilalţi"}
+                                  {"își vor perfecționa modalitatea de relaționare și comunicare cu ceilalți"}
                                 </li>
                               </ul>
                               <h4>
-                                {"Activitatea 2 – Înţelegerea emoţiilor ( evenimentele sunt cele ce cauzează emoţii)"}
+                                {"Activitatea 2 – Înțelegerea emoțiilor ( evenimentele sunt cele ce cauzează emoții)"}
                               </h4>
                               <ul>
                                 <li>
-                                  {"să exprime emoţiile pe care le experimentează"}
+                                  {"să exprime emoțiile pe care le experimentează"}
                                 </li>
                                 <li>
-                                  {"să identifice emoţiile după indicatori nonverbali"}
+                                  {"să identifice emoțiile după indicatori nonverbali"}
                                 </li>
                                 <li>
-                                  {"să vorbească despre ceea ce simt atunci când trec printr-o situaţie dificilă"}
+                                  {"să vorbească despre ceea ce simt atunci când trec printr-o situație dificilă"}
                                 </li>
                                 <li>
-                                  {"să identifice emoţiile în funcţie de evenimentele ce le cauzează"}
+                                  {"să identifice emoțiile în funcție de evenimentele ce le cauzează"}
                                 </li>
                                 <li>
-                                  {"să identifice stările sufleteşti pe care le observă la alţii"}
+                                  {"să identifice stările sufletești pe care le observă la alții"}
                                 </li>
                                 <li>
-                                  {"să recunoască emoţia resimţită de personajul din poveste"}
+                                  {"să recunoască emoția resimțită de personajul din poveste"}
                                 </li>
                                 <li>
-                                  {"să observe că emoţiile vin şi trec"}
+                                  {"să observe că emoțiile vin și trec"}
                                 </li>
                               </ul>
                               <h4>
-                                {"Activitatea 3 – Cupa cu nelinişti ( gestionarea fricii)"}
+                                {"Activitatea 3 – Cupa cu neliniști ( gestionarea fricii)"}
                               </h4>
                               <ul>
                                 <li>
-                                  {"recunoaşterea stării de frică"}
+                                  {"recunoașterea stării de frică"}
                                 </li>
                                 <li>
-                                  {"să găsească soluţii prin care să se liniştească atunci când le este frică"}
+                                  {"să găsească soluții prin care să se liniștească atunci când le este frică"}
                                 </li>
                                 <li>
                                   {"să nu îi fie teamă de ceea ce este nou"}
                                 </li>
                                 <li>
-                                  {"să utilizeze abilităţile învăţate"}
-                                  {" pe situaţii în care simt"}
+                                  {"să utilizeze abilitățile învățate"}
+                                  {" pe situații în care simt"}
                                   {" frică"}
                                 </li>
                                 <li>
                                   {"găsim"}
-                                  {" împreună soluţii practice la problemele fiecărui participant"}
+                                  {" împreună soluții practice la problemele fiecărui participant"}
                                 </li>
                                 <li>
-                                  {"să se pună în situaţiile de care le este frică şi să nu fugă de ele"}
+                                  {"să se pună în situațiile de care le este frică și să nu fugă de ele"}
                                 </li>
                               </ul>
                               <h4>
-                                {"Activitatea 4 – Autoreglare emoţională"}
+                                {"Activitatea 4 – Autoreglare emoțională"}
                               </h4>
                               <ul>
                                 <li>
-                                  {"să identifice comportamente asociate unei emoţii specifice (de exemplu furia)"}
+                                  {"să identifice comportamente asociate unei emoții specifice (de exemplu furia)"}
                                 </li>
                                 <li>
-                                  {"să îşi comute atenţia de la un joc sau de la o discuţie care îl supără la altă activitate"}
+                                  {"să își comute atenția de la un joc sau de la o discuție care îl supără la altă activitate"}
                                 </li>
                                 <li>
-                                  {"să privească o situaţie supărătoare"}
+                                  {"să privească o situație supărătoare"}
                                   {" într-un mod diferit"}
                                 </li>
                                 <li>
-                                  {"să înveţe cum să-şi controleze emoţiile puternice"}
+                                  {"să învețe cum să-și controleze emoțiile puternice"}
                                 </li>
                               </ul>
                               <h4>
-                                {"Activitatea 5 – Cum mă văd eu, cum mă văd alţii"}
+                                {"Activitatea 5 – Cum mă văd eu, cum mă văd alții"}
                               </h4>
                               <ul>
                                 <li>
-                                  {"să își descopere punctele tari şi slabe"}
+                                  {"să își descopere punctele tari și slabe"}
                                 </li>
                                 <li>
-                                  {"să formuleze gânduri pozitive şi negative despre sine"}
+                                  {"să formuleze gânduri pozitive și negative despre sine"}
                                 </li>
                                 <li>
                                   {"cum să"}
-                                  {" capete încredere în propriile forţe"}
+                                  {" capete încredere în propriile forțe"}
                                 </li>
                                 <li>
-                                  {"să conștientizeze că perseverenţă este cheia succesului"}
+                                  {"să conștientizeze că perseverență este cheia succesului"}
                                 </li>
                               </ul>
                               <h4>
-                                {"Activitatea 6 – Eu şi timpul liber"}
+                                {"Activitatea 6 – Eu și timpul liber"}
                               </h4>
                               <ul>
                                 <li>
@@ -302,15 +302,15 @@ export default function Page() {
                               <h2>
                                 <span>
                                   <span>
-                                    {"Modulul 2 – Comunicare şi dezvoltare socială"}
+                                    {"Modulul 2 – Comunicare și dezvoltare socială"}
                                   </span>
                                 </span>
                                 <span>
-                                  {"(6 şedinţe)"}
+                                  {"(6 ședințe)"}
                                 </span>
                               </h2>
                               <h4>
-                                {"Activitatea 1 – Iniţierea conversaţiei şi integrarea în grup"}
+                                {"Activitatea 1 – Inițierea conversației și integrarea în grup"}
                               </h4>
                               <ul>
                                 <li>
@@ -318,25 +318,25 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"eu –"}
-                                  {" în relaţie cu mine, eu –"}
-                                  {" în relaţie cu ceilalţi"}
+                                  {" în relație cu mine, eu –"}
+                                  {" în relație cu ceilalți"}
                                 </li>
                                 <li>
-                                  {"să iniţieze şi să menţină o interacţiune cu alt copil"}
+                                  {"să inițieze și să mențină o interacțiune cu alt copil"}
                                 </li>
                                 <li>
                                   {"să manifeste comportamente adecvate de integrare în grup, joc etc"}
                                 </li>
                                 <li>
                                   {"ce este"}
-                                  {" corect şi incorect într-un grup de prietenie"}
+                                  {" corect și incorect într-un grup de prietenie"}
                                 </li>
                                 <li>
                                   {"care sunt dovezile de prietenie"}
                                 </li>
                               </ul>
                               <h4>
-                                {"Activitatea 2 – Timiditatea şi încrederea în sine"}
+                                {"Activitatea 2 – Timiditatea și încrederea în sine"}
                               </h4>
                               <ul>
                                 <li>
@@ -346,25 +346,25 @@ export default function Page() {
                                   {"semne ale unui copil timid"}
                                 </li>
                                 <li>
-                                  {"cum ajutăm un copil timid să înveţe să aibă încredere în sine"}
+                                  {"cum ajutăm un copil timid să învețe să aibă încredere în sine"}
                                 </li>
                                 <li>
-                                  {"-băieţii şi fetele"}
+                                  {"-băieții și fetele"}
                                   {" – împreună e bine!"}
                                 </li>
                               </ul>
                               <h4>
-                                {"Activitatea 3 – Rezolvarea problemelor şi identificarea consecinţelor"}
+                                {"Activitatea 3 – Rezolvarea problemelor și identificarea consecințelor"}
                               </h4>
                               <ul>
                                 <li>
-                                  {"să identifice paşi în rezolvarea problemelor"}
+                                  {"să identifice pași în rezolvarea problemelor"}
                                 </li>
                                 <li>
-                                  {"să identifice consecinţele propriilor acţiuni"}
+                                  {"să identifice consecințele propriilor acțiuni"}
                                 </li>
                                 <li>
-                                  {"să identifice cât mai multe modalităţi de rezolvare a unei probleme"}
+                                  {"să identifice cât mai multe modalități de rezolvare a unei probleme"}
                                 </li>
                               </ul>
                               <h4>
@@ -375,18 +375,18 @@ export default function Page() {
                                   {"să gestioneze eficient conflictele apărute"}
                                 </li>
                                 <li>
-                                  {"să găsească şi să numească modalităţi eficiente de soluţionarea a conflictelor"}
+                                  {"să găsească și să numească modalități eficiente de soluționarea a conflictelor"}
                                 </li>
                               </ul>
                               <h4>
-                                {"Activitatea 5 – Recunoaşterea şi gestionarea comportamentelor agresive"}
+                                {"Activitatea 5 – Recunoașterea și gestionarea comportamentelor agresive"}
                               </h4>
                               <ul>
                                 <li>
-                                  {"să înveţe modalităţi adecvate de a face faţă situaţiilor neplăcute cum ar fi tachinarea, ridiculizarea, etichetarea şi respingerea, în care subiecţii devin victime"}
+                                  {"să învețe modalități adecvate de a face față situațiilor neplăcute cum ar fi tachinarea, ridiculizarea, etichetarea și respingerea, în care subiecții devin victime"}
                                 </li>
                                 <li>
-                                  {"să înţeleagă de ce aceste tipuri de comportamente sunt inacceptabile"}
+                                  {"să înțeleagă de ce aceste tipuri de comportamente sunt inacceptabile"}
                                 </li>
                               </ul>
                               <h4>
@@ -394,18 +394,18 @@ export default function Page() {
                               </h4>
                               <ul>
                                 <li>
-                                  {"să înţeleagă beneficiile acţiunilor de a da, a primi, a cere, a refuză"}
+                                  {"să înțeleagă beneficiile acțiunilor de a da, a primi, a cere, a refuză"}
                                 </li>
                                 <li>
-                                  {"să-şi construiască un sistem de valori bazate pe generozitate, empatie şi înţelegere"}
+                                  {"să-și construiască un sistem de valori bazate pe generozitate, empatie și înțelegere"}
                                 </li>
                                 <li>
-                                  {"să înveţe care sunt limitele fiecărui gest de generozitate"}
+                                  {"să învețe care sunt limitele fiecărui gest de generozitate"}
                                 </li>
                               </ul>
                               <p>
                                 <em>
-                                  {"*În funcţie de specificul şi dinamică grupului, anumite teme pot fi modificate pentru a veni mai mult în sprijinul copiilor."}
+                                  {"*În funcție de specificul și dinamică grupului, anumite teme pot fi modificate pentru a veni mai mult în sprijinul copiilor."}
                                 </em>
                               </p>
                             </div>
@@ -681,7 +681,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5–17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
+                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5 - 17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -702,7 +702,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar şi a exprimarii pasiunii, limba iubirii"}
+                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar și a exprimarii pasiunii, limba iubirii"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -765,7 +765,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Creioane și culori (pentru copii de 5-7 si 8-10 ani) Prezentare generală Desenul este"}
+                                    {"Creioane și culori (pentru copii de 5-7 si 8 - 10 ani) Prezentare generală Desenul este"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -786,7 +786,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Planeta animalelor (pentru copii de 5-7 și 8-10 ani) Prezentare generală Lumea animalelor"}
+                                    {"Planeta animalelor (pentru copii de 5-7 și 8 - 10 ani) Prezentare generală Lumea animalelor"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}

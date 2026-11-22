@@ -54,16 +54,28 @@ const TestimonialsSection = () => {
           ))}
         </div>
 
-        <div className="mx-auto mb-12 max-w-3xl overflow-hidden rounded-2xl bg-foreground shadow-xl">
-          <div className="aspect-video">
-            <iframe
-              className="h-full w-full"
-              src="https://www.youtube.com/embed/LVf-xSG23KU"
-              title="Video de prezentare Pro Erudio"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            />
-          </div>
+        <div className="mb-12 grid grid-cols-1 gap-6 md:grid-cols-2">
+          {[
+            { name: "Coșbuc", src: "https://www.youtube.com/embed/LVf-xSG23KU" },
+            { name: "Orizont", src: "https://www.youtube.com/embed/onSvZc9-ZQw?rel=0" },
+          ].map((location) => (
+            <figure key={location.name} className="min-w-0 overflow-hidden rounded-2xl bg-background shadow-xl">
+              <div className="aspect-video bg-foreground">
+                <iframe
+                  className="h-full w-full"
+                  src={location.src}
+                  title={`Prezentarea sediului Pro Erudio ${location.name}`}
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  referrerPolicy="strict-origin-when-cross-origin"
+                />
+              </div>
+              <figcaption className="px-5 py-4 font-semibold text-foreground">
+                Sediul Pro Erudio {location.name}
+              </figcaption>
+            </figure>
+          ))}
         </div>
 
         <div className="bg-background rounded-2xl border border-border p-8 text-center shadow-lg">

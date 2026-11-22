@@ -22,7 +22,7 @@ export default function Page() {
           {"Resurse Pro Erudio"}
         </p>
         <h1 className={"max-w-5xl text-4xl font-bold leading-tight md:text-6xl"}>
-          {"Atelierul lui Moş Crăciun"}
+          {"Atelierul lui Moș Crăciun"}
         </h1>
         <p className={"mt-6 flex items-center gap-2 text-sm text-background/80"}>
           <svg xmlns={"http://www.w3.org/2000/svg"} width={"24"} height={"24"} viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"2"} strokeLinecap={"round"} strokeLinejoin={"round"} className={"lucide lucide-calendar-days h-4 w-4"}>
@@ -46,10 +46,10 @@ export default function Page() {
   }>
     <article className={"page-content event-page event-theme-winter min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
 <span id="post-9781" aria-hidden="true" />
-<section className={"mobile-page-intro"} aria-label={"Atelierul lui Moş Crăciun"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/12/atelier-1.jpg"} alt={"Atelierul lui Moş Crăciun"} decoding={"async"} />
+<section className={"mobile-page-intro"} aria-label={"Atelierul lui Moș Crăciun"}>
+        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/12/atelier-1.jpg"} alt={"Atelierul lui Moș Crăciun"} decoding={"async"} />
         <h1>
-          {"Atelierul lui Moş Crăciun"}
+          {"Atelierul lui Moș Crăciun"}
         </h1>
       </section>
 
@@ -76,16 +76,16 @@ export default function Page() {
 <section className="event-welcome">
 <p className="event-partners">
                                   <span>
-                                    {"Sezonul sărbătorilor se apropie cu paşi grăbiţi. Aşa cum v-am obişnuit, luna decembrie este luna cadourilor şi la Pro Erudio. Astfel, îi invităm pe copilaşi"}
+                                    {"Sezonul sărbătorilor se apropie cu pași grăbiți. Așa cum v-am obișnuit, luna decembrie este luna cadourilor și la Pro Erudio. Astfel, îi invităm pe copilași"}
                                     <strong>
                                       {"sâmbătă, 9 decembrie"}
                                     </strong>
                                     <strong>
                                       {","}
                                     </strong>
-                                    {"la un atelier de creaţie "}
+                                    {"la un atelier de creație "}
                                     <strong>
-                                      {"Atelierul lui Moş Crăciun"}
+                                      {"Atelierul lui Moș Crăciun"}
                                     </strong>
                                     {"începând cu ora 9.00. Atelierele arts and crafts sunt organizate în colaborare cu "}
                                     <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2016/12/puideom.jpg"} />
@@ -102,17 +102,17 @@ export default function Page() {
 <ul className="event-activity-list">
                                   <li>
                                     <span>
-                                      {"5-7 ani"}
+                                      {"5 - 7 ani"}
                                     </span>
                                   </li>
                                   <li>
                                     <span>
-                                      {"8-10 ani"}
+                                      {"8 - 10 ani"}
                                     </span>
                                   </li>
                                   <li>
                                     <span>
-                                      {"11-12 ani"}
+                                      {"11 - 12 ani"}
                                     </span>
                                   </li>
                                 </ul>
@@ -262,7 +262,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -283,7 +283,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

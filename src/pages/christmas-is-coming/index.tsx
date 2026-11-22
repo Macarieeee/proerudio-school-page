@@ -100,9 +100,8 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Vine Crăciunul şi ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii. Bradul este împodobit, decoraţiuni cu fulgi şi oameni de zăpadă, săniuţe, clopoţei, Moş Crăciun şi reni zburători, "}
-                                  {"coroniţe tradiţionale şi luminiţe sunt peste tot, în jurul nostru. "}
-                                  {"Zâmbetele de pe fețele copiilor şi sclipirea din ochi anunţă cea mai aşteptată întâlnire din an: cea cu Moş Crăciun."}
+                                  {"Vine Crăciunul și ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii. Bradul este împodobit, decorațiuni cu fulgi și oameni de zăpadă, săniuțe, clopoței, Moș Crăciun și reni zburători, coronițe tradiționale și luminițe sunt peste tot, în jurul nostru. "}
+                                  {"Zâmbetele de pe fețele copiilor și sclipirea din ochi anunță cea mai așteptată întâlnire din an: cea cu Moș Crăciun."}
                                 </p>
                                 <p>
                                   {"Iar pentru că această întâlnire să aibă rezultatul scontat, trebuie îndeplinite anumite ritualuri, după puterile vârstei:"}
@@ -113,34 +112,34 @@ export default function Page() {
                               <div>
                                 <ul>
                                   <li>
-                                    {"Să învăţăm să-i cântăm Moşului măcar un căntecel în limba engleză/germană"}
+                                    {"Să învățăm să-i cântăm Moșului măcar un căntecel în limba engleză/germană"}
                                   </li>
                                   <li>
-                                    {"Să îi confecţionăm o felicitare sau chiar să-i scriem o scrisoare în engleză sau germană"}
+                                    {"Să îi confecționăm o felicitare sau chiar să-i scriem o scrisoare în engleză sau germană"}
                                   </li>
                                   <li>
-                                    {"Să cântăm colinde şi să dansăm alături de toată “gaşca” de Crăciun: Moşu’, omul de zăpadă, bradul de Crăciun şi renii"}
+                                    {"Să cântăm colinde și să dansăm alături de toată “gașca” de Crăciun: Moșu’, omul de zăpadă, bradul de Crăciun și renii"}
                                   </li>
                                   <li>
                                     {"Să participăm într-o scenetă pe temele Crăciunului"}
                                   </li>
                                   <li>
-                                    {"Să organizăm între noi celebrul moment Secret Santa, dar nu oricum, ci oferindu-ne decoraţiuni confecţionate de mânuţele noastre"}
+                                    {"Să organizăm între noi celebrul moment Secret Santa, dar nu oricum, ci oferindu-ne decorațiuni confecționate de mânuțele noastre"}
                                   </li>
                                   <li>
-                                    {"Să învăţăm despre tradiţii şi să citim legende în limba engleză/germană"}
+                                    {"Să învățăm despre tradiții și să citim legende în limba engleză/germană"}
                                   </li>
                                   <li>
-                                    {"Să învăţăm vocabularul specific acestui moment din an şi în limba engleză/germană şi să facem multe, multe exerciţii distractive de consolidare"}
+                                    {"Să învățăm vocabularul specific acestui moment din an și în limba engleză/germană și să facem multe, multe exerciții distractive de consolidare"}
                                   </li>
                                   <li>
-                                    {"Să ne punem căciuliţe şi corniţe de ren pentru o poză de grup în jurul bradului"}
+                                    {"Să ne punem căciulițe și cornițe de ren pentru o poză de grup în jurul bradului"}
                                   </li>
                                 </ul>
                                 <p>
-                                  {"Mai jos găsiţi dovadă faptului că nu doar ne lăudăm!"}
+                                  {"Mai jos găsiți dovadă faptului că nu doar ne lăudăm!"}
                                   <br />
-                                  {"\nInvitaţi-l şi pe Moşul să caute clip-ul şi poza în care apăreţi. Veţi vedea ce impresionat va fi!"}
+                                  {"\nInvitați-l și pe Moșul să caute clip-ul și poza în care apăreți. Veți vedea ce impresionat va fi!"}
                                 </p>
                               </div>
                             </div>
@@ -601,7 +600,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/puppet-theatre-13-24-iulie/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/puppet-theatre.jpg\")"}}>
             <h3>
-              {"Curs de vară de limba engleză PUPPET THEATRE (4-6 ani)"}
+              {"Curs de vară de limba engleză "}<strong>{"PUPPET THEATRE"}</strong>{" (4 - 6 ani)"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -609,7 +608,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"PUPPET THEATRE – seria 13 – 24 iulie (4-6 ani) Vara este momentul cel mai potrivit să încercăm ceva nou."}
+              <strong>{"PUPPET THEATRE"}</strong>{" – seria 13 – 24 iulie (4 - 6 ani) Vara este momentul cel mai potrivit să încercăm ceva nou."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -622,7 +621,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-13-24-iulie/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/storytime.jpg\")"}}>
             <h3>
-              {"Curs de vara de limba engleza STORYTIME – (8-10 ani)"}
+              {"Curs de vara de limba engleza "}<strong>{"STORYTIME"}</strong>{" – (8 - 10 ani)"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -630,7 +629,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Storytime – seria 13-24 iulie (8-10 ani) Poveştile sunt o mare parte din viaţa noastră, fie că e vorba de"}
+              <strong>{"Storytime"}</strong>{" – seria 13-24 iulie (8 - 10 ani) Poveștile sunt o mare parte din viața noastră, fie că e vorba de"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -664,7 +663,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-6-8-ani-galerie-foto/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-vara-de-limba-engleza-Storytime-6-8-ani.jpg\")"}}>
             <h3>
-              {"Curs de vara de limba engleza STORYTIME (6-8 ani)"}
+              {"Curs de vara de limba engleza "}<strong>{"STORYTIME"}</strong>{" (6 - 8 ani)"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -672,7 +671,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Curs de vară de limba engleză “Storytime” (6-8) ani Am citit, ascultat și vizionat povești în limba engleză, am interpretat"}
+              {"Curs de vară de limba engleză "}<strong>{"Storytime"}</strong>{" (6-8) ani Am citit, ascultat și vizionat povești în limba engleză, am interpretat"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -685,7 +684,7 @@ export default function Page() {
         <a className={"related-content-card"} href={"/storytime-5-6-ani-galerie-foto/"}>
           <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-vara-de-limba-engleza-Storytime-5-6-ani2.jpg\")"}}>
             <h3>
-              {"Storytime (5-6 ani) – Galerie foto"}
+              <strong>{"Storytime"}</strong>{" (5 - 6 ani) – Galerie foto"}
             </h3>
           </div>
           <div className={"related-content-body"}>
@@ -693,7 +692,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Curs de vară de limba engleză – Storytime (5-6 ani) Am fost un grup plin de energie şi"}
+              {"Curs de vară de limba engleză – "}<strong>{"Storytime"}</strong>{" (5 - 6 ani) Am fost un grup plin de energie și"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

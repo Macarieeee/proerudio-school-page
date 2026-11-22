@@ -3136,7 +3136,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Distracție la căldurică Deşi iarnă cu zăpadă se lasă aşteptată, “Distracţia la căldurică” nu a avut nimic de pierdut. Ne-am"}
+              {"Distracție la căldurică Deși iarnă cu zăpadă se lasă așteptată, “Distracția la căldurică” nu a avut nimic de pierdut. Ne-am"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -3157,7 +3157,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Christmas is coming… Vine Crăciunul şi ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
+              {"Christmas is coming… Vine Crăciunul și ca în fiecare an, ne pregătim intens pentru sărbătoarea cea mai iubită de copii."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -3178,7 +3178,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Conversație cu profesor nativ englez – Cadoul meu de Moș Nicolae De unde o fi ştiut Moş"}
+              {"Conversație cu profesor nativ englez – Cadoul meu de Moș Nicolae De unde o fi știut Moș"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

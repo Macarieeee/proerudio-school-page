@@ -95,7 +95,7 @@ export default function Page() {
                                       </h4>
                                       <p>
                                         <span>
-                                          {"Pentru copiii care nu şi-au făcut încă planuri de vacanţă, dar şi pentru copiii care vor o vacanţă activă alături de noi, vă invităm la cursuri de vară intensive. Ne vom distra, ne vom face prieteni noi, vom afla informaţii diverse despre ceea ce ne interesează şi mai presus de toate, nu vom lasă lunile de vară să şteargă nimic din ce am acumulat cu spor în timpul cursurilor de an."}
+                                          {"Pentru copiii care nu și-au făcut încă planuri de vacanță, dar și pentru copiii care vor o vacanță activă alături de noi, vă invităm la cursuri de vară intensive. Ne vom distra, ne vom face prieteni noi, vom afla informații diverse despre ceea ce ne interesează și mai presus de toate, nu vom lasă lunile de vară să șteargă nimic din ce am acumulat cu spor în timpul cursurilor de an."}
                                         </span>
                                       </p>
                                       <p>
@@ -117,7 +117,7 @@ export default function Page() {
                                         <span>
                                           <strong>
                                             <span>
-                                              {"Toamna ne va găsi mai energici, mai informaţi şi mai pregătiţi pentru începerea unui nou an şcolar."}
+                                              {"Toamna ne va găsi mai energici, mai informați și mai pregătiți pentru începerea unui nou an școlar."}
                                             </span>
                                           </strong>
                                         </span>
@@ -227,7 +227,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Storytime! – Copii 4 – 7 ani"}
+                                    <strong>{"Storytime!"}</strong>{" – Copii 4 - 7 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -243,7 +243,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Storytime! – Copii 8 – 11 ani"}
+                                    <strong>{"Storytime!"}</strong>{" – Copii 8 - 11 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -259,7 +259,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"English through Songs Copii 9 – 12 ani"}
+                                    <strong>{"English through Songs"}</strong>{" Copii 9 - 12 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -275,7 +275,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Find Your Voice – Copii 13 – 18 ani"}
+                                    <strong>{"Find Your Voice"}</strong>{" – Copii 13 - 18 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -291,7 +291,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Cinematics – Copii 13 – 18 ani"}
+                                    <strong>{"Cinematics"}</strong>{" – Copii 13 - 18 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -307,7 +307,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Deutsch durch Geschichten – Copii 6 – 9 ani"}
+                                    <strong>{"Deutsch durch Geschichten"}</strong>{" – Copii 6 - 9 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -323,7 +323,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Hola Spaniola!"}
+                                    <strong>{"Hola Spaniola!"}</strong>
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -339,8 +339,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"LOVE GAMING?"}
-                                    {"Learn English!"}
+                                    {"LOVE GAMING? Learn English!"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -404,7 +403,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Animal Kingdom"}
+                                    <strong>{"Animal Kingdom"}</strong>
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -492,7 +491,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Puppet Theatre – Copii 6 – 8 ani"}
+                                    <strong>{"Puppet Theatre"}</strong>{" – Copii 6 - 8 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -508,7 +507,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Storytime! – Copii 4 – 7 ani"}
+                                    <strong>{"Storytime!"}</strong>{" – Copii 4 - 7 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -524,7 +523,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Storytime! – Copii 8 – 11 ani"}
+                                    <strong>{"Storytime!"}</strong>{" – Copii 8 - 11 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -540,7 +539,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Be DRAMAtic! – Copii 9 – 12 ani"}
+                                    <strong>{"Be DRAMAtic!"}</strong>{" – Copii 9 - 12 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -556,7 +555,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"English through Songs Copii 9 – 12 ani"}
+                                    <strong>{"English through Songs"}</strong>{" Copii 9 - 12 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -572,7 +571,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Find Your Voice – Copii 13 – 18 ani"}
+                                    <strong>{"Find Your Voice"}</strong>{" – Copii 13 - 18 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -588,7 +587,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Cinematics – Copii 13 – 18 ani"}
+                                    <strong>{"Cinematics"}</strong>{" – Copii 13 - 18 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -604,7 +603,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Deutsch durch Geschichten – Copii 6 – 9 ani"}
+                                    <strong>{"Deutsch durch Geschichten"}</strong>{" – Copii 6 - 9 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -620,7 +619,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Deutsch durch Geschichten – Copii 9 – 11 ani"}
+                                    <strong>{"Deutsch durch Geschichten"}</strong>{" – Copii 9 - 11 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -636,7 +635,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Sprechen Sie Deutsch? – Copii 5 – 8 ani"}
+                                    <strong>{"Sprechen Sie Deutsch?"}</strong>{" – Copii 5 - 8 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -652,7 +651,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Sprechen und Schreiben Sie Deutsch? – Copii 9 – 13 ani"}
+                                    <strong>{"Sprechen und Schreiben Sie Deutsch?"}</strong>{" – Copii 9 - 13 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -668,7 +667,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"The Earth Is Alive – Copii 6 – 10 ani"}
+                                    <strong>{"The Earth Is Alive"}</strong>{" – Copii 6 - 10 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -684,7 +683,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"British Games – cursuri intensive de vară"}
+                                    <strong>{"British Games"}</strong>{" – cursuri intensive de vară"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -700,7 +699,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Dig into Reading"}
+                                    <strong>{"Dig into Reading"}</strong>
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -716,7 +715,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"A World Of Words 2"}
+                                    <strong>{"A World Of Words"}</strong>{" 2"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -732,7 +731,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Head for Exams – Copii 13 – 18 ani"}
+                                    <strong>{"Head for Exams"}</strong>{" – Copii 13 - 18 ani"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -748,7 +747,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"Summer School PERFECT FIT"}
+                                    <strong>{"Summer School PERFECT FIT"}</strong>
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -780,8 +779,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"LOVE GAMING?"}
-                                    {"Learn English!"}
+                                    {"LOVE GAMING? Learn English!"}
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}
@@ -845,7 +843,7 @@ export default function Page() {
                                 </div>
                                 <div className={"registration-course-body"}>
                                   <h3>
-                                    {"A World Of Words"}
+                                    <strong>{"A World Of Words"}</strong>
                                   </h3>
                                   <span className={"registration-course-action"}>
                                     {"Descoperă cursul"}

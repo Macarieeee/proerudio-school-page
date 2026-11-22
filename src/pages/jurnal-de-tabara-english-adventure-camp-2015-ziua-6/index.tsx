@@ -105,14 +105,14 @@ export default function Page() {
                                   <strong>
                                     {"Sâmbătă, 29 august"}
                                   </strong>
-                                  {", Poiana Braşov 2015 – "}
+                                  {", Poiana Brașov 2015 – "}
                                   <strong>
                                     {"Ziua"}
                                     {"6"}
                                   </strong>
                                 </p>
                                 <p>
-                                  {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiţi pentru încălzire, apoi am intrat la micul dejun. Pentru această dimineaţă ghizii ne-au pregătit o drumeţie, aşa că noi va trebui să ne pregătim din nou rucsacurile: apă, pelerină de ploaie, o şapcă şi şosete de schimb. În plus, ghizii şi profesorii coordonatori au avut bandaje pentru degetele bătute de adidaşi şi chiar apă în plus pentru cine are nevoie."}
+                                  {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiți pentru încălzire, apoi am intrat la micul dejun. Pentru această dimineață ghizii ne-au pregătit o drumeție, așa că noi va trebui să ne pregătim din nou rucsacurile: apă, pelerină de ploaie, o șapcă și șosete de schimb. În plus, ghizii și profesorii coordonatori au avut bandaje pentru degetele bătute de adidași și chiar apă în plus pentru cine are nevoie."}
                                 </p>
                               </div>
                             </div>
@@ -120,27 +120,27 @@ export default function Page() {
                               <div>
                                 <p>
                                   <img decoding={"async"} alt={"tabara_poiana_brasov_atgr_oldline-0022-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0022-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0022-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0022-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0022-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0022-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0022-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0022-150x150.jpg"} />
-                                  {"Am mers pe jos până la telecabina şi privind în sus, către masivul Postăvaru, unii dintre noi s-au simţit intimididati, iar alţii mai curajoşi că niciodată. În telecabina ni s-a povestit despre diferenţa de presiune de la diferite înălţimi şi cum modificarea rapidă a acesteia ne provoacă acea senzaţie de urechi înfundate, am văzut de sus lacul de acumulare şi am învăţat despre importantă distribuţiei grupului în telecabina atunci când această urmează să ajungă la staţia de sus. Odată ajunşi, ne-am separat pe echipe şi conduşi de câte un ghid, am pornit înapoi către poalele muntelui. Priveliştea este grozavă, aşa că nu ne-am putut abţine şi ne-am oprit de câteva ori să facem poze. Până jos am făcut câteva pauze pentru a bea apă şi a ne odihni. Drumetia a durat între jur de 2 ore, în funcţie de componentă fiecărei echipe. Cei mai mici dintre noi au obosit mai repede, dar toată lumea a dus la bun sfârşit aventură."}
+                                  {"Am mers pe jos până la telecabina și privind în sus, către masivul Postăvaru, unii dintre noi s-au simțit intimididati, iar alții mai curajoși că niciodată. În telecabina ni s-a povestit despre diferența de presiune de la diferite înălțimi și cum modificarea rapidă a acesteia ne provoacă acea senzație de urechi înfundate, am văzut de sus lacul de acumulare și am învățat despre importantă distribuției grupului în telecabina atunci când această urmează să ajungă la stația de sus. Odată ajunși, ne-am separat pe echipe și conduși de câte un ghid, am pornit înapoi către poalele muntelui. Priveliștea este grozavă, așa că nu ne-am putut abține și ne-am oprit de câteva ori să facem poze. Până jos am făcut câteva pauze pentru a bea apă și a ne odihni. Drumetia a durat între jur de 2 ore, în funcție de componentă fiecărei echipe. Cei mai mici dintre noi au obosit mai repede, dar toată lumea a dus la bun sfârșit aventură."}
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"tabara_poiana_brasov_atgr_oldline-0095-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0095-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0095-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0095-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0095-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0095-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0095-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0095-150x150.jpg"} />
-                                  {"Ajunşi înapoi la hotel, am înfulecat cu poftă, iar la 15.10 a început ultimul set de "}
+                                  {"Ajunși înapoi la hotel, am înfulecat cu poftă, iar la 15.10 a început ultimul set de "}
                                   <a href={"/cursuri-de-limba-engleza-pentru-copii-si-adolescenti/"} target={"_blank"}>
-                                    {"lecţii de limba engleză."}
+                                    {"lecții de limba engleză."}
                                   </a>
-                                  {" Pe lângă programul normal, copiii au avut parte de o nouă provocare: crearea unei scurte scenete în care să folosească anumite cuvinte sau expresii, precum „foc de tabăra”, „piscină”, „frumuseţe mică” etc. Ultimul curs cu profesorii de engleză a fost emoţionant pentru toată lumea fiindcă a fost urmat de o ceremonie de premiere în cadrul căreia toţi copiii au primit diplome de merit pentru eforturile depuse în timpul acestor cursuri toată săptămâna. În plus, le-au rămas o mulţime de materiale care să le aducă aminte de toate cele învăţate: jurnale de tabăra, desene şi colaje, precum şi o mulţime de poze."}
+                                  {" Pe lângă programul normal, copiii au avut parte de o nouă provocare: crearea unei scurte scenete în care să folosească anumite cuvinte sau expresii, precum „foc de tabăra”, „piscină”, „frumusețe mică” etc. Ultimul curs cu profesorii de engleză a fost emoționant pentru toată lumea fiindcă a fost urmat de o ceremonie de premiere în cadrul căreia toți copiii au primit diplome de merit pentru eforturile depuse în timpul acestor cursuri toată săptămâna. În plus, le-au rămas o mulțime de materiale care să le aducă aminte de toate cele învățate: jurnale de tabăra, desene și colaje, precum și o mulțime de poze."}
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"tabara_poiana_brasov_atgr_oldline-0297-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0297-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0297-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0297-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0297-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0297-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0297-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0297-150x150.jpg"} />
                                   {"Activitatea de seară a fost tare distractivă. Fiecare echipa a avut ocazia să prezinte pozele făcute în ziua a patra în cadrul provocării de "}
                                   <a href={"https://luca-photography.blogspot.ro/2011/08/10-reguli-de-compozitie-in-fotografie.html"} target={"_blank"}>
-                                    {"compoziţie fotografică"}
+                                    {"compoziție fotografică"}
                                   </a>
-                                  {", precum şi scenetele pregătite. În râsetele şi aplauzele publicului am vizionat fotografii cu tematici precum: „Viaţă la ţară”, „Banană”, „Serviţi, va rog”, „La vânătoare”, „Animale sălbatice”, „Sunt un copil normal” şi altele. Felicitări tuturor pentru imaginaţie, creativitate şi muncă în echipa! Apoi am trecut la scenete. Unii au fost mai încrezători, alţii mai timizi, dar susţinere a existat pentru toată lumea. Un mesaj s-a repetat de mai multe ori: „ce bine ne-am distrat în tabăra!”, iar scenetă ghizilor, care a sintetizat rolurile fiecăruia în tabăra, a făcut deliciul întregii seri. Felicitări!"}
+                                  {", precum și scenetele pregătite. În râsetele și aplauzele publicului am vizionat fotografii cu tematici precum: „Viață la țară”, „Banană”, „Serviți, va rog”, „La vânătoare”, „Animale sălbatice”, „Sunt un copil normal” și altele. Felicitări tuturor pentru imaginație, creativitate și muncă în echipa! Apoi am trecut la scenete. Unii au fost mai încrezători, alții mai timizi, dar susținere a existat pentru toată lumea. Un mesaj s-a repetat de mai multe ori: „ce bine ne-am distrat în tabăra!”, iar scenetă ghizilor, care a sintetizat rolurile fiecăruia în tabăra, a făcut deliciul întregii seri. Felicitări!"}
                                 </p>
                                 <p>
                                   <img decoding={"async"} alt={"tabara_poiana_brasov_atgr_oldline-0324-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0324-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0324-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0324-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0324-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0324-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0324-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0324-150x150.jpg"} />
-                                  {"Am avut câteva minute să fugim în camere să ne îmbrăcăm mai gros pentru un alt moment mult aşteptat: focul de tabăra. Pe fundalul flăcărilor din ce în ce mai mari, ghizii ne-au încântat cu câteva cântece la chitară, iar noi ne-am alăturat imediat. Câţiva colegi mai curajoşi chiar au trecut „pe scenă” şi au cântat la chitară şi voce. Bravo, Karina! Ne-ai impresionat pe toţi! Pe la ora 11.00 focul s-a domolit şi înainte să se stîngă complet, copiii s-au retras la culcare."}
+                                  {"Am avut câteva minute să fugim în camere să ne îmbrăcăm mai gros pentru un alt moment mult așteptat: focul de tabăra. Pe fundalul flăcărilor din ce în ce mai mari, ghizii ne-au încântat cu câteva cântece la chitară, iar noi ne-am alăturat imediat. Câțiva colegi mai curajoși chiar au trecut „pe scenă” și au cântat la chitară și voce. Bravo, Karina! Ne-ai impresionat pe toți! Pe la ora 11.00 focul s-a domolit și înainte să se stîngă complet, copiii s-au retras la culcare."}
                                 </p>
                               </div>
                             </div>
@@ -328,7 +328,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 7 Duminică, 30 august, Poiana Braşov 2015 – Ziua 7 În dimineaţă ultimei zile de tabăra copiii"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 7 Duminică, 30 august, Poiana Brașov 2015 – Ziua 7 În dimineață ultimei zile de tabăra copiii"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -349,7 +349,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 5 Vineri, 28 august, Poiana Braşov 2015 – Ziua 5 A venit în sfârşit ziua a"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 5 Vineri, 28 august, Poiana Brașov 2015 – Ziua 5 A venit în sfârșit ziua a"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -370,7 +370,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 4 Joi, 27 august, Poiana Braşov 2015 – Ziua 4 Ne-am trezit în dimineaţă zilei"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 4 Joi, 27 august, Poiana Brașov 2015 – Ziua 4 Ne-am trezit în dimineață zilei"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -391,7 +391,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 3 Miercuri, 26 august, Poiana Braşov 2015 O nouă zi, o nouă aventură. După trezirea"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 3 Miercuri, 26 august, Poiana Brașov 2015 O nouă zi, o nouă aventură. După trezirea"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -412,7 +412,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 2 Marţi, 25 August, Poiana Braşov 2015 Bună dimineaţa! Suntem în a două zi de"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 2 Marți, 25 August, Poiana Brașov 2015 Bună dimineața! Suntem în a două zi de"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -433,7 +433,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 1 Luni, 24 august, Poiana Braşov 2015 După o călătorie cu microbuzul de aproape 4"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 1 Luni, 24 august, Poiana Brașov 2015 După o călătorie cu microbuzul de aproape 4"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

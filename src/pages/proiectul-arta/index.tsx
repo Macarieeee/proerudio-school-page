@@ -97,7 +97,7 @@ export default function Page() {
                                           </span>
                                         </h2>
                                         <p>
-                                          {"Posibilitatea de a lua singuri decizii cu privire la proiectul lor este primul pas în a învață să-și asume responsabilitatea. Dacă nu ne place cum se potrivesc două culori, nu trebuie decât să recunoaștem că am ales o combinație nepotrivită, să schimbăm una dintre ele și gata! Fără consecințe grave, copiii se vor simți în siguranță și vor învăța că pentru orice greșeală există o rezolvare."}
+                                          {"Posibilitatea de a lua singuri decizii cu privire la proiectul lor este primul pas în a învăța să-și asume responsabilitatea. Dacă nu ne place cum se potrivesc două culori, nu trebuie decât să recunoaștem că am ales o combinație nepotrivită, să schimbăm una dintre ele și gata! Fără consecințe grave, copiii se vor simți în siguranță și vor învăța că pentru orice greșeală există o rezolvare."}
                                         </p>
                                       </div>
                                     </div>
@@ -128,7 +128,7 @@ export default function Page() {
                                   <span>
                                     <a href={"/alte-cursuri-pentru-copii/proiectul-arta/clubul-iubeste-arta/"} target={"_blank"} rel={"noopener noreferrer"}>
                                       <span>
-                                        {"CLUBUL “IUBEȘTE ARTA”"}
+                                        {"CLUBUL IUBEȘTE ARTA"}
                                       </span>
                                       <br />
                                     </a>
@@ -142,8 +142,7 @@ export default function Page() {
                               <p>
                                 <span>
                                   <span>
-                                    {"pentru copii de 4"}
-                                    {"-9 ani"}
+                                    {"pentru copii de 4 - 9 ani"}
                                   </span>
                                 </span>
                               </p>
@@ -192,8 +191,7 @@ export default function Page() {
                               <p>
                                 <span>
                                   <span>
-                                    {"pentru copii de 5"}
-                                    {"-7 și 8-10 ani"}
+                                    {"pentru copii de 5-7 și 8 - 10 ani"}
                                   </span>
                                 </span>
                               </p>
@@ -242,8 +240,7 @@ export default function Page() {
                               <p>
                                 <span>
                                   <span>
-                                    {"pentru copii de 5"}
-                                    {"-7 și 8-10 ani"}
+                                    {"pentru copii de 5-7 și 8 - 10 ani"}
                                   </span>
                                 </span>
                               </p>
@@ -294,8 +291,7 @@ export default function Page() {
                               <p>
                                 <span>
                                   <span>
-                                    {"pentru copii de 5"}
-                                    {"-7 și 8-10 ani"}
+                                    {"pentru copii de 5-7 și 8 - 10 ani"}
                                   </span>
                                 </span>
                               </p>

@@ -22,7 +22,7 @@ export default function Page() {
           {"Pro Erudio · School of English"}
         </p>
         <h1 className={"max-w-5xl text-4xl font-bold leading-tight md:text-6xl"}>
-          {"Curs de creație în limba engleză Style Up!"}
+          {"Curs de creație în limba engleză "}<strong>{"Style Up!"}</strong>
         </h1>
       </div>
     </section>
@@ -31,7 +31,7 @@ export default function Page() {
       <section className={"mobile-page-intro"} aria-label={"Curs de creație în limba engleză Style Up!"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP.jpg"} alt={"Curs de creație în limba engleză Style Up!"} decoding={"async"} />
         <h1>
-          {"Curs de creație în limba engleză Style Up!"}
+          {"Curs de creație în limba engleză "}<strong>{"Style Up!"}</strong>
         </h1>
       </section>
       <div>
@@ -48,7 +48,7 @@ export default function Page() {
                           <div>
                             <figure className={"original-intro-image"}>
                               <div>
-                                <img decoding={"async"} alt={"Curs de creație în limba engleză “STYLE UP!”"} title={"Curs de creație în limba engleză “STYLE UP!”"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP.jpg 870w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP-768x401.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP-144x75.jpg 144w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP.jpg"} />
+                                <img decoding={"async"} alt={"Curs de creație în limba engleză STYLE UP!"} title={"Curs de creație în limba engleză STYLE UP!"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP.jpg 870w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP-300x157.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP-768x401.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP-260x136.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP-50x26.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP-144x75.jpg 144w"} sizes={"(max-width:767px) 480px, (max-width:870px) 100vw, 870px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Curs-de-creatie-in-limba-engleza-STYLE-UP.jpg"} />
                               </div>
                             </figure>
                           </div>
@@ -57,7 +57,7 @@ export default function Page() {
                               <h2>
                                 {"Curs de creație în limba engleză"}
                                 <span>
-                                  {"“STYLE UP!”"}
+                                  <strong>{"STYLE UP!"}</strong>
                                 </span>
                               </h2>
                             </div>
@@ -75,18 +75,18 @@ export default function Page() {
                                 </strong>
                               </h5>
                               <p>
-                                {"Cursul de creaţie în limba engleză “Style Up!” este o combinaţie de stiluri şi tehnici, teorie şi practică, materiale şi resurse creative. Participarea la acest curs nu necesită experienţă, ci doar "}
+                                {"Cursul de creație în limba engleză "}<strong>{"Style Up!"}</strong>{" este o combinație de stiluri și tehnici, teorie și practică, materiale și resurse creative. Participarea la acest curs nu necesită experiență, ci doar "}
                                 <strong>
-                                  {"entuziasm şi dorinţa de a descoperi lucruri noi"}
+                                  {"entuziasm și dorința de a descoperi lucruri noi"}
                                 </strong>
-                                {" folosind în acelaşi timp pentru comunicare cunoştinţele de limba engleză."}
+                                {" folosind în același timp pentru comunicare cunoștințele de limba engleză."}
                               </p>
                               <p>
-                                {"Aici le vom arată copiilor cum să îmbine materialele şi culorile pentru a crea modele unice pe care le pot lua cu ei acasă. Noutatea constă în faptul că profesorul va utiliza "}
+                                {"Aici le vom arată copiilor cum să îmbine materialele și culorile pentru a crea modele unice pe care le pot lua cu ei acasă. Noutatea constă în faptul că profesorul va utiliza "}
                                 <strong>
                                   {"exclusiv limba engleză"}
                                 </strong>
-                                {" pentru a da explicaţii şi sprijini copiii în timpul activităţilor, iar copiii vor fi încurajaţi prin recompense să folosească limba engleză şi între ei."}
+                                {" pentru a da explicații și sprijini copiii în timpul activităților, iar copiii vor fi încurajați prin recompense să folosească limba engleză și între ei."}
                               </p>
                               <p>
                                 {"Iată ce cuprinde fiecare din cele patru module propuse:"}
@@ -97,7 +97,7 @@ export default function Page() {
                                   {"(Beading Passion)"}
                                 </strong>
                                 <br />
-                                {"\nÎnvaţă să creezi cercei, coliere, pandantive, broşe şi brăţări la modă pentru a-ţi largi colecţia cu accesorii pe gustul tău sau pentru a le oferi persoanelor dragi din jurul tău."}
+                                {"\nÎnvață să creezi cercei, coliere, pandantive, broșe și brățări la modă pentru a-ți largi colecția cu accesorii pe gustul tău sau pentru a le oferi persoanelor dragi din jurul tău."}
                               </p>
                               <p>
                                 {"2) Accesorii din hârtie "}
@@ -105,7 +105,7 @@ export default function Page() {
                                   {"(Paper Crafting Fans)"}
                                 </strong>
                                 <br />
-                                {"\nArtă împăturirii hârtiei poate fi o activitate distractivă atunci când obţii accesorii, dar şi practică atunci când înveţi să împachetezi un cadou sau să confecţionezi o coperta de carte."}
+                                {"\nArtă împăturirii hârtiei poate fi o activitate distractivă atunci când obții accesorii, dar și practică atunci când înveți să împachetezi un cadou sau să confecționezi o coperta de carte."}
                               </p>
                               <p>
                                 {"3) Artizanat din obiecte reciclate "}
@@ -113,7 +113,7 @@ export default function Page() {
                                   {"( Recycling Addict)"}
                                 </strong>
                                 <br />
-                                {"\nGândeşte-te de două ori înainte de a aruncă obiecte cum ar fi sticle de plastic, nasturi, cartoane, doze şi alte ambalaje, sau chiar rochii, cămăşi care ţi-au rămas mici şi eşarfe mai vechi. Vino la cursul nostru şi vei află ce lucruri minunate pot ieşi din “resturi” sau cât de simplu este să dai încă o şansă textilelor vechi."}
+                                {"\nGândește-te de două ori înainte de a aruncă obiecte cum ar fi sticle de plastic, nasturi, cartoane, doze și alte ambalaje, sau chiar rochii, cămăși care ți-au rămas mici și eșarfe mai vechi. Vino la cursul nostru și vei află ce lucruri minunate pot ieși din “resturi” sau cât de simplu este să dai încă o șansă textilelor vechi."}
                               </p>
                               <p>
                                 {"4) Secretele Quilling-ului "}
@@ -121,44 +121,44 @@ export default function Page() {
                                   {"( Quilling Secrets)"}
                                 </strong>
                                 <br />
-                                {"\nÎţi place să migăleşti şi te încânta combinaţiile de culori? Atunci încearcă această activitate relaxantă şi vei fi uimit ce obiecte de decor, accesorii şi felicitări artizanat vor ieşi din mâinile tale."}
+                                {"\nÎți place să migălești și te încânta combinațiile de culori? Atunci încearcă această activitate relaxantă și vei fi uimit ce obiecte de decor, accesorii și felicitări artizanat vor ieși din mâinile tale."}
                               </p>
                               <h5>
-                                {"De ce v-aţi înscrie copiii la cursul de creaţie “Style Up!”?"}
+                                {"De ce v-ați înscrie copiii la cursul de creație "}<strong>{"Style Up!"}</strong>{"?"}
                               </h5>
                               <p>
                                 {"• Fiindcă "}
                                 <strong>
                                   {"vor exersa folosirea limbii engleze într-un context inedi"}
                                 </strong>
-                                {"t. Dacă sunt începători, nu va faceţi griji! Este suficient pentru început să asocieze explicaţia cu demonstraţia şi sigur vor pleca acasă şi cu câteva cuvinte nou-achiziţionate din limba engleză."}
+                                {"t. Dacă sunt începători, nu va faceți griji! Este suficient pentru început să asocieze explicația cu demonstrația și sigur vor pleca acasă și cu câteva cuvinte nou-achiziționate din limba engleză."}
                                 <br />
                                 {"\n• Fiindcă "}
                                 <strong>
-                                  {"vor învaţă"}
+                                  {"vor învață"}
                                 </strong>
                                 <strong>
                                   {"tehnici de baza"}
                                 </strong>
-                                {" în rulare şi împăturire, uneltele şi accesoriile necesare acestor activităţi, cum să facă în mod corect bucle, cercei ciorchine, brăţări pe fir elastic şi pe sârmă cu memorie, brăţări şi cercei din ace cu buclă şi cap, cercei din lanţ, brăţări şi cercei din hârtie, inele pe baza de inel şi pe sârmă cu memorie,cum să recicleze obiecte vechi din plastic şi materialele textile, transformându-le în bijuterii şi accesorii vestimentare la modă."}
+                                {" în rulare și împăturire, uneltele și accesoriile necesare acestor activități, cum să facă în mod corect bucle, cercei ciorchine, brățări pe fir elastic și pe sârmă cu memorie, brățări și cercei din ace cu buclă și cap, cercei din lanț, brățări și cercei din hârtie, inele pe baza de inel și pe sârmă cu memorie,cum să recicleze obiecte vechi din plastic și materialele textile, transformându-le în bijuterii și accesorii vestimentare la modă."}
                                 <br />
-                                {"\n• Fiindcă îşi vor îmbunătăţi "}
+                                {"\n• Fiindcă își vor îmbunătăți "}
                                 <strong>
-                                  {"abilităţi precum precizia, dexteritatea, combinarea culorilor, creativitatea şi motricitatea fină."}
+                                  {"abilități precum precizia, dexteritatea, combinarea culorilor, creativitatea și motricitatea fină."}
                                 </strong>
                                 <br />
-                                {"\n• Fiindcă vom descoperi împreună latura creativă a fiecăruia şi o vom transpune într-o creaţie handmade."}
+                                {"\n• Fiindcă vom descoperi împreună latura creativă a fiecăruia și o vom transpune într-o creație handmade."}
                                 <br />
-                                {"\n• Fiindcă ne vom distra şi "}
+                                {"\n• Fiindcă ne vom distra și "}
                                 <strong>
                                   {"ne vom face prieteni."}
                                 </strong>
                                 <br />
-                                {"\n• Fiindcă vom învaţă să lucrăm în echipa, doar într-un curs nimeni nu e complet independent."}
+                                {"\n• Fiindcă vom învață să lucrăm în echipa, doar într-un curs nimeni nu e complet independent."}
                                 <br />
-                                {"\n• Fiindcă vor obţine nişte informaţii pe care le pot folosi toată viaţă şi aplică în cele mai diverse contexte, chiar şi să se distreze cu prietenii lor acasă reluând tehnicile învăţate la curs "}
+                                {"\n• Fiindcă vor obține niște informații pe care le pot folosi toată viață și aplică în cele mai diverse contexte, chiar și să se distreze cu prietenii lor acasă reluând tehnicile învățate la curs "}
                                 <strong>
-                                  {"pentru a crea alte accesorii haioase şi cadouri speciale pentru persoanele dragi."}
+                                  {"pentru a crea alte accesorii haioase și cadouri speciale pentru persoanele dragi."}
                                 </strong>
                               </p>
                             </div>
@@ -185,10 +185,10 @@ export default function Page() {
                                   <div className={"course-details-panel"}>
                                     <div className={"course-details-header"}>
                                       <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
-                                        <img decoding={"async"} alt={"Curs de creație în limba engleză “STYLE UP!”"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/style-up.jpg"} />
+                                        <img decoding={"async"} alt={"Curs de creație în limba engleză STYLE UP!"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/style-up.jpg"} />
                                       </div>
                                       <h2>
-                                        {"“STYLE UP!”"}
+                                        <strong>{"STYLE UP!"}</strong>
                                       </h2>
                                       <div className={"course-price"}>
                                         <sup>
@@ -260,7 +260,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârstă: "}
                                             </strong>
-                                            {"9 – 11 ani / modul"}
+                                            {"9 - 11 ani / modul"}
                                           </li>
                                         </ul>
                                         <p>
@@ -285,15 +285,13 @@ export default function Page() {
                                       </h4>
                                       <p>
                                         <span>
-                                          {"Modulul include toate materialele cu care se lucrează"}
-                                          {"în cadrul cursului. Se poate achiziționa tot pachetul odată sau fiecare modul pe rând. Nu este obligatorie participarea la toate modulele."}
+                                          {"Modulul include toate materialele cu care se lucreazăîn cadrul cursului. Se poate achiziționa tot pachetul odată sau fiecare modul pe rând. Nu este obligatorie participarea la toate modulele."}
                                         </span>
                                       </p>
                                       <p>
                                         <span>
                                           <em>
-                                            {"Este necesara înscrierea copilului cu cel puțin o săptămână"}
-                                            {"înainte."}
+                                            {"Este necesara înscrierea copilului cu cel puțin o săptămânăînainte."}
                                           </em>
                                         </span>
                                       </p>
@@ -336,7 +334,7 @@ export default function Page() {
                               <a href={"/cursuri-de-weekend-in-limba-engleza/curs-de-limba-engleza-act-out/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2016/01/Cursuri-de-weekend-in-limba-engleza-ACT-OUT2.jpg\")"}}>
                                   <h3>
-                                    {"Curs în limba engleză “Act Out!”"}
+                                    {"Curs în limba engleză "}<strong>{"Act Out!"}</strong>
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -344,7 +342,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Poeziile şi cântecelele englezeşti clasice pentru copii (celebrele nursery rhymes şi chants), îi vor ajută pe copiii dumneavoastă să înveţe primele cuvinte şi noţiuni în limba engleză într-un mod plăcut. Elementul nou constă în dramatizarea textelor, fiecare poezie fiind transpusă de grupul de copii în scurte scenete jucate chiar de ei."}
+                                    {"Poeziile și cântecelele englezești clasice pentru copii (celebrele nursery rhymes și chants), îi vor ajută pe copiii dumneavoastă să învețe primele cuvinte și noțiuni în limba engleză într-un mod plăcut. Elementul nou constă în dramatizarea textelor, fiecare poezie fiind transpusă de grupul de copii în scurte scenete jucate chiar de ei."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -357,7 +355,7 @@ export default function Page() {
                               <a href={"/cursuri-de-weekend-in-limba-engleza/curs-in-limba-engleza-speak-up/"} className={"related-content-card"}>
                                 <div className={"related-content-media"} style={{"backgroundImage": "url(\"https://www.proerudio.ro/wp-content/uploads/2021/10/Curs-de-weekend-in-limba-engleza-SPEAK-UP-.webp\")"}}>
                                   <h3>
-                                    {"Curs în limba engleză Speak Up!"}
+                                    {"Curs în limba engleză "}<strong>{"Speak Up!"}</strong>
                                   </h3>
                                 </div>
                                 <div className={"related-content-body"}>
@@ -365,7 +363,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursul pe care vi-l propunem este o iniţiere în artă retoricii fiindcă nu este niciodată prea devreme să înveţi cum să-ţi argumentezi propriul punct de vedere, cum să-ţi organizezi un discurs, cum să improvizezi pe o tema dată, cum să iei un interviu şi să răspunzi la întrebări incomode fără să clipeşti."}
+                                    {"Cursul pe care vi-l propunem este o inițiere în artă retoricii fiindcă nu este niciodată prea devreme să înveți cum să-ți argumentezi propriul punct de vedere, cum să-ți organizezi un discurs, cum să improvizezi pe o tema dată, cum să iei un interviu și să răspunzi la întrebări incomode fără să clipești."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -386,7 +384,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Optica părinţilor şi cea a profesorilor cu privire la modul în care ar trebui învăţată o limbă străină în zilele noastre diferă extrem de mult: de la părerea că tot ce ai nevoie este să petreci timp într-o ţară în care limba maternă este limba ţintă a cursantului, până la părerea că aşa cum noi am învăţat totul din cărţi, copiii noştri trebuie să procedeze la fel, ajutaţi fiind de toate resursele tehnologiei moderne de care noi, evident, nu ne-am bucurat în anii şcolii."}
+                                    {"Optica părinților și cea a profesorilor cu privire la modul în care ar trebui învățată o limbă străină în zilele noastre diferă extrem de mult: de la părerea că tot ce ai nevoie este să petreci timp într-o țară în care limba maternă este limba țintă a cursantului, până la părerea că așa cum noi am învățat totul din cărți, copiii noștri trebuie să procedeze la fel, ajutați fiind de toate resursele tehnologiei moderne de care noi, evident, nu ne-am bucurat în anii școlii."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}

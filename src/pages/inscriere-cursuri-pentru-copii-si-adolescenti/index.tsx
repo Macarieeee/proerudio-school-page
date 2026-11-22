@@ -34,6 +34,12 @@ export default function Page() {
         </h1>
       </section>
       <img className="registration-poster" src="https://www.proerudio.ro/wp-content/uploads/2026/05/Scoala-de-vara-2026-1024x576.png" alt="Cursuri de vară pentru copii — Pro Erudio, 2026" decoding="async" />
+      <section aria-labelledby="summer-intro-title" className="mb-10">
+        <h2 id="summer-intro-title">O vară de descoperiri, prietenii și comunicare la Pro Erudio!</h2>
+        <p>Vacanța este timpul perfect pentru a explora pasiuni noi și a învăța prin joacă. La cursurile de vară <strong>Pro Erudio</strong>, poveștile, muzica, teatrul, filmele și activitățile creative transformă învățarea într-o experiență plină de bucurie.</p>
+        <p>Copiii își exersează comunicarea, își consolidează cunoștințele acumulate în timpul anului și descoperă lucruri noi alături de alți copii. Oferta cuprinde cursuri de limbi străine și activități de dezvoltare personală, pentru o vacanță activă, cu loc pentru curiozitate și prietenii noi.</p>
+        <p><strong>Completați formularul de mai jos pentru a înscrie copilul la cursurile de vară Pro Erudio. Vă așteptăm să învățăm și să ne bucurăm împreună de vacanță!</strong></p>
+      </section>
       <section className="content-callout" aria-labelledby="summer-registration-title">
         <h2 id="summer-registration-title">Înscriere la cursurile de vară</h2>
         <p>Completează formularul de înscriere pentru cursul ales pe site-ul Pro Erudio.</p>

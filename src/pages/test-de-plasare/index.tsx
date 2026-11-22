@@ -22,16 +22,23 @@ export default function Page() {
           {"Pro Erudio · School of English"}
         </p>
         <h1 className={"max-w-5xl text-4xl font-bold leading-tight md:text-6xl"}>
-          {"test de plasare"}
+          {"Teste de limba engleză"}
         </h1>
       </div>
     </section>
   }>
     <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro mobile-page-intro-no-image"} aria-label={"test de plasare"}>
+      <section className={"mobile-page-intro mobile-page-intro-no-image"} aria-label={"Teste de limba engleză"}>
         <h1>
-          {"test de plasare"}
+          {"Teste de limba engleză"}
         </h1>
+      </section>
+      <section aria-labelledby="placement-intro-title" className="mb-10">
+        <h2 id="placement-intro-title">Descoperă ce nivel de engleză ai!</h2>
+        <p>Vrei să continui să înveți limba engleză, dar nu știi ce curs ți se potrivește? Alege unul dintre testele de mai jos, în funcție de vârsta ta. După completare, te vom contacta pentru a discuta rezultatele și a-ți recomanda un curs potrivit nivelului tău.</p>
+        <p>Testul durează maximum <strong>30 de minute</strong> și evaluează cunoștințele de vocabular și gramatică, precum și abilitățile de exprimare scrisă în limba engleză.</p>
+        <p>Pentru ca rezultatul să reflecte cât mai fidel ceea ce știi, te rugăm să lucrezi individual, fără ajutorul altor persoane și fără să consulți internetul, cărți sau alte surse. Răspunde pe baza cunoștințelor tale. Fiecare răspuns ne ajută să identificăm punctele tale forte sau slabe și să îți recomandăm corect cursul potrivit pentru tine.</p>
+        <p><strong>Mult succes!</strong></p>
       </section>
       <div>
         <div itemProp={"mainContentOfPage"}>

@@ -120,31 +120,31 @@ export default function Page() {
                                   {"4"}
                                 </h4>
                                 <p>
-                                  {"Ne-am trezit cu ploaia bătând în geamuri, dar până la ora 9.00 ne-am strâns toţi pentru micul dejun. Copiii au dat iama în laptele cald şi în cereale, apoi am servit ouă fierte, salam, unt şi brânză topită, dulceaţă şi ceai."}
+                                  {"Ne-am trezit cu ploaia bătând în geamuri, dar până la ora 9.00 ne-am strâns toți pentru micul dejun. Copiii au dat iama în laptele cald și în cereale, apoi am servit ouă fierte, salam, unt și brânză topită, dulceață și ceai."}
                                 </p>
                                 <p>
-                                  {"La cursurile de dimineaţă a venit rândul celor de 10-12 ani să inventeze un produs şi să-şi convingă trainerii englezi, în rol de "}
+                                  {"La cursurile de dimineață a venit rândul celor de 10 - 12 ani să inventeze un produs și să-și convingă trainerii englezi, în rol de "}
                                   <a href={"https://ro.wikipedia.org/wiki/Fond_de_investi%C8%9Bii"} target={"_blank"}>
                                     {"investitori"}
                                   </a>
-                                  {", să le susţină ideea. Cei mici au vorbit despre culori şi hăinuţe, au exersat vocabularul în exerciţii cu mişcare, au desenat şi au colorat. Cei mai mari au fost provocaţi să-şi imagineze o ţară şi să o descrie în detaliu: poziţia pe glob, dimensiune, forme de relief, climă, flora şi fauna, formă de guvernare, steag, populaţie, situaţie economică, etc. Apoi şi-au prezentat ideile şi au discutat despre ele."}
+                                  {", să le susțină ideea. Cei mici au vorbit despre culori și hăinuțe, au exersat vocabularul în exerciții cu mișcare, au desenat și au colorat. Cei mai mari au fost provocați să-și imagineze o țară și să o descrie în detaliu: poziția pe glob, dimensiune, forme de relief, climă, flora și fauna, formă de guvernare, steag, populație, situație economică, etc. Apoi și-au prezentat ideile și au discutat despre ele."}
                                 </p>
                               </div>
                             </div>
                             <div>
                               <div>
                                 <p>
-                                  {"La prânz am început cu o supă crema de legume şi crutoane, ce a mers perfect pe vremea mohorâtă şi rece de care am avut parte. Am continuat cu o porţie de şniţel, cartofi prăjiţi şi castraveţi muraţi, iar la desert nectarine."}
+                                  {"La prânz am început cu o supă crema de legume și crutoane, ce a mers perfect pe vremea mohorâtă și rece de care am avut parte. Am continuat cu o porție de șnițel, cartofi prăjiți și castraveți murați, iar la desert nectarine."}
                                 </p>
                                 <p>
-                                  {"După amiază ne-am strâns în faţă hotelului cu mic cu mare, pregătiţi şi nerăbdători să pornim spre ‘Paradisul Acvatic’. Drumul a fost lipsit de peripeţii, iar odată ajunşi ne-am împărţit în diferite bazine : piscină olimpică pentru înotătorii experimentaţi, două piscine mai mici pentru intermediari, un bazin cu apă caldă şi cu adâncime de 35 cm pentru cei mici şi care nu ştiu să înoate, două tobogane şi două căzi jacuzzi. Ne-am bălăcit până ni s-au încreţit degetelele şi unii dintre noi am servit o îngheţată sau o felie de pizza. Un grup de "}
+                                  {"După amiază ne-am strâns în față hotelului cu mic cu mare, pregătiți și nerăbdători să pornim spre ‘Paradisul Acvatic’. Drumul a fost lipsit de peripeții, iar odată ajunși ne-am împărțit în diferite bazine : piscină olimpică pentru înotătorii experimentați, două piscine mai mici pentru intermediari, un bazin cu apă caldă și cu adâncime de 35 cm pentru cei mici și care nu știu să înoate, două tobogane și două căzi jacuzzi. Ne-am bălăcit până ni s-au încrețit degetelele și unii dintre noi am servit o înghețată sau o felie de pizza. Un grup de "}
                                   <a href={"/cursuri-de-pregatire-pentru-examene/"} target={"_blank"}>
                                     {"copii mai mari"}
                                   </a>
-                                  {" au preferat să rămână în restaurant pentru un joc de cărţi. A fost tare distractiv, dar totul are un sfârşit, aşa că după vreo două ore am început să ne pregătim de plecare."}
+                                  {" au preferat să rămână în restaurant pentru un joc de cărți. A fost tare distractiv, dar totul are un sfârșit, așa că după vreo două ore am început să ne pregătim de plecare."}
                                 </p>
                                 <p>
-                                  {"Cina a fost servită cu întârziere (în jurul orei 9.00), imediat ce am ajuns la hotel, iar organizatorii au anticipat că vom veni flămânzi şi ne-au întâmpinat cu un meniu pe placul copiilor : mămăligă cu brânză şi smântână, carne de porc pregătită la cuptor cu legume şi papanaşi cu smântână şi dulceaţă."}
+                                  {"Cina a fost servită cu întârziere (în jurul orei 9.00), imediat ce am ajuns la hotel, iar organizatorii au anticipat că vom veni flămânzi și ne-au întâmpinat cu un meniu pe placul copiilor : mămăligă cu brânză și smântână, carne de porc pregătită la cuptor cu legume și papanași cu smântână și dulceață."}
                                 </p>
                               </div>
                             </div>
@@ -159,7 +159,7 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Ora târzie ne-a împiedicat din nou să derulăm ‘Photo contest’, dar trainerii englezi au pregătit un joc antrenant pentru toată lumea : ‘musical statues’ (copiii trebuie să danseze în ritmul muzicii, să se oprească brusc şi să rămână nemişcaţi când muzică este întreruptă)."}
+                                  {"Ora târzie ne-a împiedicat din nou să derulăm ‘Photo contest’, dar trainerii englezi au pregătit un joc antrenant pentru toată lumea : ‘musical statues’ (copiii trebuie să danseze în ritmul muzicii, să se oprească brusc și să rămână nemișcați când muzică este întreruptă)."}
                                 </p>
                                 <p>
                                   <strong>

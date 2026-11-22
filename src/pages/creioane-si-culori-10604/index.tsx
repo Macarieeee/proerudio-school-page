@@ -73,13 +73,13 @@ export default function Page() {
                                   <div>
                                     <div>
                                       <h5>
-                                        {"(pentru copii de 5-7 si 8-10 ani)"}
+                                        {"(pentru copii de 5-7 si 8 - 10 ani)"}
                                       </h5>
                                       <div data-wow-delay={"0ms"} data-wow-iteration={"1"}>
                                         <p>
                                           <span>
                                             {"Desenul este o activitate îndrăgită de majoritatea copiilor fiind un important canal de exprimare a trăirilor lor afective."}
-                                            {" Utilizarea exprimării artistice ca mijloc de comunicare este naturală pentru copii și o experiență mereu pozitivă și satisfăcătoare. În spatele acestei activități recreative, obiectivul este însușirea unor cunoștințe și abilități precum"}
+                                            {" Utilizarea exprimarii artistice ca mijloc de comunicare este naturală pentru copii și o experiență mereu pozitivă și satisfăcătoare. În spatele acestei activități recreative, obiectivul este însușirea unor cunoștințe și abilități precum"}
                                           </span>
                                           <b>
                                             <strong>
@@ -88,7 +88,7 @@ export default function Page() {
                                           </b>
                                           <span>
                                             {". Principalele instrumente utilizate vor fi creioanele, culorile"}
-                                            {"și cariocile."}
+                                            {" și cariocile."}
                                           </span>
                                         </p>
                                       </div>
@@ -127,7 +127,7 @@ export default function Page() {
                             <div>
                               <h3>
                                 {"Partea"}
-                                {"I"}
+                                {" I"}
                               </h3>
                               <p>
                                 {"–"}
@@ -138,12 +138,12 @@ export default function Page() {
                                   </strong>
                                 </b>
                                 {"și vom învăța să o stăpânim. Aceasta ne"}
-                                {"învață să fim atenți la detalii,"}
+                                {" învață să fim atenți la detalii,"}
                                 {"desenele"}
-                                {"fiind"}
-                                {"suprapuse unui fundal de pătrate"}
-                                {"ce"}
-                                {"ajută la deconstruirea unei imagini în porțiuni ușor de abordat."}
+                                {" fiind"}
+                                {" suprapuse unui fundal de pătrate"}
+                                {" ce"}
+                                {" ajută la deconstruirea unei imagini în porțiuni ușor de abordat."}
                                 {"Tot aici ne vom însuși cunoștințe despre"}
                                 <b>
                                   <strong>
@@ -158,7 +158,7 @@ export default function Page() {
                                 <b>
                                   <strong>
                                     {"culorile complementare"}
-                                    {"și contrast"}
+                                    {" și contrast"}
                                   </strong>
                                 </b>
                                 {"."}
@@ -213,11 +213,11 @@ export default function Page() {
                                 {"– dezvoltarea abilității de utilizare a diferitelor instrumente necesare desenului;"}
                                 <br />
                                 {"\n– exersarea dexterității"}
-                                {"și preciziei în execuția desenelor;"}
+                                {" și preciziei în execuția desenelor;"}
                                 <br />
                                 {"\n– însușirea cunoștințelor despre culori, redare grafică, contrast, umbre, planuri etc și a vocabularului specific;"}
                                 <br />
-                                {"\n– încurajarea exprimării artistice individuale;"}
+                                {"\n– încurajarea exprimarii artistice individuale;"}
                               </p>
                             </div>
                           </div>
@@ -342,7 +342,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârstă: "}
                                             </strong>
-                                            {"5-7 ani"}
+                                            {"5 - 7 ani"}
                                           </li>
                                         </ul>
                                         <p></p>
@@ -453,7 +453,7 @@ export default function Page() {
                                             <strong>
                                               {"Vârstă: "}
                                             </strong>
-                                            {"5-7 ani"}
+                                            {"5 - 7 ani"}
                                           </li>
                                         </ul>
                                         <p></p>
@@ -610,7 +610,7 @@ export default function Page() {
                             <div>
                               <h3>
                                 {"Alte cursuri"}
-                                {"pentru copii:"}
+                                {" pentru copii:"}
                               </h3>
                             </div>
                           </div>
@@ -635,7 +635,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5–17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
+                                    {"Cursuri de limba germană Wieso nicht? pentru copii și adolescenți de 5 - 17 ani, niveluri Pre-A1–B1, la sediu și online. Grupe de maximum 9 participanți."}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -656,7 +656,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar şi a exprimarii pasiunii, limba iubirii"}
+                                    {"Cursuri de limba spaniolă pentru copii cu profesori nativi spanioli. Spaniola nu este numai limba telenovelelor, dar și a exprimarii pasiunii, limba iubirii"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -719,7 +719,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Creioane și culori (pentru copii de 5-7 si 8-10 ani) Prezentare generală Desenul este"}
+                                    {"Creioane și culori (pentru copii de 5-7 si 8 - 10 ani) Prezentare generală Desenul este"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}
@@ -740,7 +740,7 @@ export default function Page() {
                                     {"Cursuri Pro Erudio"}
                                   </span>
                                   <p>
-                                    {"Planeta animalelor (pentru copii de 5-7 și 8-10 ani) Prezentare generală Lumea animalelor"}
+                                    {"Planeta animalelor (pentru copii de 5-7 și 8 - 10 ani) Prezentare generală Lumea animalelor"}
                                   </p>
                                   <span className={"related-content-action"}>
                                     {"Vezi cursul"}

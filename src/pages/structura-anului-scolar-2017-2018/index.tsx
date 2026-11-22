@@ -104,11 +104,11 @@ export default function Page() {
                               <div>
                                 <p>
                                   <span>
-                                    {"Structura anului şcolar la Pro Erudio urmează structura anului şcolar din învăţământul de stat, aşa cum este prezentată în "}
+                                    {"Structura anului școlar la Pro Erudio urmează structura anului școlar din învățământul de stat, așa cum este prezentată în "}
                                     <strong>
                                       {"Monitorul Oficial din 2 martie 2017"}
                                     </strong>
-                                    {", cu o singură excepţie: noi vom relua cursurile cu o săptămână mai târziu, adică luni, "}
+                                    {", cu o singură excepție: noi vom relua cursurile cu o săptămână mai târziu, adică luni, "}
                                     <strong>
                                       {"18 septembrie 2017"}
                                     </strong>
@@ -121,12 +121,12 @@ export default function Page() {
                                     <strong>
                                       {"singura vacanță școlară de care nu vom ține cont"}
                                     </strong>
-                                    {" este săptămâna 28 octombrie – 5 noiembrie 2017, când doar copiii din învăţământul preşcolar şi primar nu merg la școală, dar noi vom desfășura cursuri conform programului obișnuit."}
+                                    {" este săptămâna 28 octombrie – 5 noiembrie 2017, când doar copiii din învățământul preșcolar și primar nu merg la școală, dar noi vom desfășura cursuri conform programului obișnuit."}
                                   </span>
                                 </p>
                                 <p>
                                   <span>
-                                    {"Anul şcolar 2017-2018 la Pro Erudio cuprinde "}
+                                    {"Anul școlar 2017-2018 la Pro Erudio cuprinde "}
                                     <strong>
                                       {"34 de săptămâni de cursuri"}
                                     </strong>
@@ -149,7 +149,7 @@ export default function Page() {
                                   </li>
                                   <li>
                                     <span>
-                                      {"vacanţă de iarnă: 24 decembrie 2017 – 14"}
+                                      {"vacanță de iarnă: 24 decembrie 2017 – 14"}
                                       {"ianuarie 2018;"}
                                     </span>
                                   </li>
@@ -161,7 +161,7 @@ export default function Page() {
                                   </li>
                                   <li>
                                     <span>
-                                      {"vacanţă intersemestriala: 3 – 11 februarie 2018;"}
+                                      {"vacanță intersemestriala: 3 – 11 februarie 2018;"}
                                     </span>
                                   </li>
                                 </ul>
@@ -182,7 +182,7 @@ export default function Page() {
                                   </li>
                                   <li>
                                     <span>
-                                      {"vacanţă de primăvară:"}
+                                      {"vacanță de primăvară:"}
                                       {"1 –"}
                                       {"10 aprilie 2018;"}
                                     </span>
@@ -196,7 +196,7 @@ export default function Page() {
                                   </li>
                                   <li>
                                     <span>
-                                      {"vacanţă de vara: 17"}
+                                      {"vacanță de vara: 17"}
                                       {"iunie – 9 septembrie 2018."}
                                     </span>
                                   </li>
@@ -206,7 +206,7 @@ export default function Page() {
                                     <strong>
                                       {"ZILE LIBERE"}
                                     </strong>
-                                    {" până la sfârşitul anului școlar 2017-2018 vor fi:"}
+                                    {" până la sfârșitul anului școlar 2017-2018 vor fi:"}
                                   </span>
                                 </p>
                                 <ul>
@@ -217,7 +217,7 @@ export default function Page() {
                                   </li>
                                   <li>
                                     <span>
-                                      {"Ziua Naţională a României (vineri, 1 decembrie)"}
+                                      {"Ziua Națională a României (vineri, 1 decembrie)"}
                                     </span>
                                   </li>
                                   <li>
@@ -290,7 +290,7 @@ export default function Page() {
                                 </ul>
                                 <h3>
                                   <span>
-                                    {"Alte activităţi:"}
+                                    {"Alte activități:"}
                                   </span>
                                 </h3>
                                 <ul>
@@ -321,7 +321,7 @@ export default function Page() {
                                     <strong>
                                       {"Nota!"}
                                     </strong>
-                                    {" Ultima săptămână înaintea sărbătorilor importante va fi dedicată învăţării vocabularului specific şi familiarizării copiilor cu obiceiuri şi tradiţii din spaţiul ţărilor vorbitoare de limba engleză/germană, prin comparaţie cu tradiţiile şi obiceiurile noastre."}
+                                    {" Ultima săptămână înaintea sărbătorilor importante va fi dedicată învățării vocabularului specific și familiarizării copiilor cu obiceiuri și tradiții din spațiul țărilor vorbitoare de limba engleză/germană, prin comparație cu tradițiile și obiceiurile noastre."}
                                   </span>
                                 </p>
                               </div>
@@ -484,7 +484,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -505,7 +505,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -526,7 +526,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro"}
+              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -547,7 +547,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2023-2024 și cele mai importante activități Structura anului şcolar la Pro Erudio o urmează"}
+              {"Structura anului școlar 2023-2024 și cele mai importante activități Structura anului școlar la Pro Erudio o urmează"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -568,7 +568,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului şcolar la Pro Erudio o urmează pe cea din învăţământul de stat, aşa cum este prezentată în Ordinul ministrului Educației și Cercetării"}
+              {"Structura anului școlar la Pro Erudio o urmează pe cea din învățământul de stat, așa cum este prezentată în Ordinul ministrului Educației și Cercetării"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -589,7 +589,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2020-2021 și cele mai importante activități Structura anului şcolar la Pro Erudio urmează structura"}
+              {"Structura anului școlar 2020-2021 și cele mai importante activități Structura anului școlar la Pro Erudio urmează structura"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

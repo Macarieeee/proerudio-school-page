@@ -105,10 +105,10 @@ export default function Page() {
                                   <strong>
                                     {"Miercuri, 26 august"}
                                   </strong>
-                                  {", Poiana Braşov 2015"}
+                                  {", Poiana Brașov 2015"}
                                 </p>
                                 <p>
-                                  {"O nouă zi, o nouă aventură. După trezirea pe ritm de “Eu vara nu dorm” şi înviorarea în dans de ‘Choco Choco Latte’, am luat micul dejun şi ne-am încolonat pentru plecarea la piscină. Odată ajunşi acolo unii dintre noi au realizat că nu au echipament potrivit, aşa că am plecat într-o nouă aventură: ‘vânătoarea de slipi’. Ceilalţi s-au dezechipat şi s-au aruncat în apa cristalină. Colacii de diferite dimensiuni, aripioarele, plăcile de înot şi tuburile divers colorate au făcut deliciul ieşirii la piscină. Mai mult, ghizii ne-au aruncat câteva mingi şi ne-au provocat la un joc de polo. Pe unii dintre cei mai mici i-au alergat ‘monştrii mâncători de picioruşe şi degetele’ în timp ce alţii s-au bălăcit în voie în apă puţin adâncă. La ora 12.00 fetele cu părul lung au ieşit primele din apă că să aibă timp să se usuce, apoi toată lumea rând pe rând. Veseli, dar obosiţi după atâta bălăceala am fost cei mai cuminţi copiii pe drum înapoi spre hotel."}
+                                  {"O nouă zi, o nouă aventură. După trezirea pe ritm de “Eu vara nu dorm” și înviorarea în dans de ‘Choco Choco Latte’, am luat micul dejun și ne-am încolonat pentru plecarea la piscină. Odată ajunși acolo unii dintre noi au realizat că nu au echipament potrivit, așa că am plecat într-o nouă aventură: ‘vânătoarea de slipi’. Ceilalți s-au dezechipat și s-au aruncat în apa cristalină. Colacii de diferite dimensiuni, aripioarele, plăcile de înot și tuburile divers colorate au făcut deliciul ieșirii la piscină. Mai mult, ghizii ne-au aruncat câteva mingi și ne-au provocat la un joc de polo. Pe unii dintre cei mai mici i-au alergat ‘monștrii mâncători de piciorușe și degetele’ în timp ce alții s-au bălăcit în voie în apă puțin adâncă. La ora 12.00 fetele cu părul lung au ieșit primele din apă că să aibă timp să se usuce, apoi toată lumea rând pe rând. Veseli, dar obosiți după atâta bălăceala am fost cei mai cuminți copiii pe drum înapoi spre hotel."}
                                 </p>
                               </div>
                             </div>
@@ -116,24 +116,24 @@ export default function Page() {
                               <div>
                                 <p>
                                   <img decoding={"async"} alt={"tabara_poiana_brasov_atgr_oldline-0027-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0027-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0027-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0027-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0027-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0027-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0027-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/tabara_poiana_brasov_atgr_oldline-0027-150x150.jpg"} />
-                                  {"După prânz (supă de pui cu fidea, pește pane cu cartofi nature şi prăjitură cu vanilie) au urmat "}
+                                  {"După prânz (supă de pui cu fidea, pește pane cu cartofi nature și prăjitură cu vanilie) au urmat "}
                                   <a href={"/cursuri-de-limba-engleza-pentru-copii-si-adolescenti/"} target={"_blank"}>
                                     {"cursurile de engleză"}
                                   </a>
-                                  {". O grupa a învăţat să confecţioneze un jurnal"}
-                                  {" şi a scris o pagină, urmând că în celelalte zile să completeze jurnalul de tabăra. Altă a învăţat despre corpul omenesc şi au avut o activitate de proiect pe grupe în care trebuia să deseneze un personaj. Alţii au jucat “The Bomb” în care treceau bombă de la unul la celălalt, iar copilul la care exploda bombă trebuia să răspundă la o întrebare de pe un cartonaş. Distracţia a fost maximă."}
-                                  {" Partea interesantă este că sistemul de recompense şi pedepse se păstrează şi în cadrul cursurilor, iar genuflexiunile se împart şi se primesc fără proteste. Altă grupa a discutat despre alfabet şi au făcut un concurs în care trebuia să găsească cât mai multe cuvinte, desigur în "}
+                                  {". O grupa a învățat să confecționeze un jurnal"}
+                                  {" și a scris o pagină, urmând că în celelalte zile să completeze jurnalul de tabăra. Altă a învățat despre corpul omenesc și au avut o activitate de proiect pe grupe în care trebuia să deseneze un personaj. Alții au jucat “The Bomb” în care treceau bombă de la unul la celălalt, iar copilul la care exploda bombă trebuia să răspundă la o întrebare de pe un cartonaș. Distracția a fost maximă."}
+                                  {" Partea interesantă este că sistemul de recompense și pedepse se păstrează și în cadrul cursurilor, iar genuflexiunile se împart și se primesc fără proteste. Altă grupa a discutat despre alfabet și au făcut un concurs în care trebuia să găsească cât mai multe cuvinte, desigur în "}
                                   <a href={"/cursuri-de-limba-engleza-pentru-copii-de-4-11-ani/"} target={"_blank"}>
                                     {"limba engleză"}
                                   </a>
-                                  {", care să înceapă cu litera respectivă. În altă grupa s-a discutat despre texturile din natură şi au exersat o mulţime de adjective să le descrie, apoi au făcut un colaj cu elemente din natură găsite în jurul hotelului şi le-au notat denumirea în limba engleză. În alt curs au identificat după imagini sentimente şi le-au denumit în limba engleză, apoi au declarat cum se simt, au ales mărgeluţe de culori potrivite stării lor de spirit şi au confecţionat brăţări."}
+                                  {", care să înceapă cu litera respectivă. În altă grupa s-a discutat despre texturile din natură și au exersat o mulțime de adjective să le descrie, apoi au făcut un colaj cu elemente din natură găsite în jurul hotelului și le-au notat denumirea în limba engleză. În alt curs au identificat după imagini sentimente și le-au denumit în limba engleză, apoi au declarat cum se simt, au ales mărgeluțe de culori potrivite stării lor de spirit și au confecționat brățări."}
                                 </p>
                                 <p>
-                                  {"La cină am mâncat caşcaval pane, cartofi prăjiţi, salată de varză şi o banană la desert. Pentru activitatea de seară am încins o sesiune de karaoke. Am cântat pe echipe şi am primit puncte pentru performanţă, au urmat doar fetele cu o piesă dedicată băieţilor, apoi doar băieţii o piesă dedicată fetelor. Am cântat în grupuri mai mici, dar şi individual, iar ghizii ne-au susţinut de fiecare dată când am avut nevoie. Câţiva dintre cei mici, nepasionaţi de "}
+                                  {"La cină am mâncat cașcaval pane, cartofi prăjiți, salată de varză și o banană la desert. Pentru activitatea de seară am încins o sesiune de karaoke. Am cântat pe echipe și am primit puncte pentru performanță, au urmat doar fetele cu o piesă dedicată băieților, apoi doar băieții o piesă dedicată fetelor. Am cântat în grupuri mai mici, dar și individual, iar ghizii ne-au susținut de fiecare dată când am avut nevoie. Câțiva dintre cei mici, nepasionați de "}
                                   <a href={"https://en.wikipedia.org/wiki/Karaoke"} target={"_blank"}>
                                     {"karaoke"}
                                   </a>
-                                  {", s-au jucat jocuri în limba engleză cu Aura în recepţie."}
+                                  {", s-au jucat jocuri în limba engleză cu Aura în recepție."}
                                 </p>
                                 <p>
                                   <strong>
@@ -326,7 +326,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 7 Duminică, 30 august, Poiana Braşov 2015 – Ziua 7 În dimineaţă ultimei zile de tabăra copiii"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 7 Duminică, 30 august, Poiana Brașov 2015 – Ziua 7 În dimineață ultimei zile de tabăra copiii"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -347,7 +347,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiţi pentru încălzire. Pentru dimineaţă ghizii ne-au pregătit o drumeţie."}
+              {"După un binemeritat somn, ne-am trezit gata pentru o nouă aventură. Ne-am aliniat, pregătiți pentru încălzire. Pentru dimineață ghizii ne-au pregătit o drumeție."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -368,7 +368,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 5 Vineri, 28 august, Poiana Braşov 2015 – Ziua 5 A venit în sfârşit ziua a"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 5 Vineri, 28 august, Poiana Brașov 2015 – Ziua 5 A venit în sfârșit ziua a"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -389,7 +389,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 4 Joi, 27 august, Poiana Braşov 2015 – Ziua 4 Ne-am trezit în dimineaţă zilei"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 4 Joi, 27 august, Poiana Brașov 2015 – Ziua 4 Ne-am trezit în dimineață zilei"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -410,7 +410,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 2 Marţi, 25 August, Poiana Braşov 2015 Bună dimineaţa! Suntem în a două zi de"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 2 Marți, 25 August, Poiana Brașov 2015 Bună dimineața! Suntem în a două zi de"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -431,7 +431,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 1 Luni, 24 august, Poiana Braşov 2015 După o călătorie cu microbuzul de aproape 4"}
+              {"Jurnal de tabără ENGLISH ADVENTURE CAMP – Ziua 1 Luni, 24 august, Poiana Brașov 2015 După o călătorie cu microbuzul de aproape 4"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}

@@ -102,7 +102,7 @@ export default function Page() {
                             <div>
                               <div>
                                 <p>
-                                  {"Într-o lume dominată de internet şi tehnologie – care avansează mai repede decât putem noi ţine pasul – limba engleză se dovedeşte a fi o necesitate, nu un avantaj. Dacă acum doar două decenii cunoştinţele de limba engleză, franceză, germană etc ne ofereau un important avantaj competitiv pe piaţă muncii şi în viaţă, în general, în ziua de astăzi a devenit « normalitate » să cunoaştem limba engleză şi un avantaj cunoaşterea unei alte limbi străine. Cine şi-ar fi imaginat acum 20 de ani că limba engleză va acapara lumea în detrimentul altor limbi de “cultură” cum ar fi franceză, italiană, spaniolă? Cine şi-ar fi imaginat ce amploare va lua această limba de origine germanică după ce secole de-a rândul lumea a fost condusă de popoare vorbitoare de limbi de origine latină?"}
+                                  {"Într-o lume dominată de internet și tehnologie – care avansează mai repede decât putem noi ține pasul – limba engleză se dovedește a fi o necesitate, nu un avantaj. Dacă acum doar două decenii cunoștințele de limba engleză, franceză, germană etc ne ofereau un important avantaj competitiv pe piața muncii și în viață, în general, în ziua de astăzi a devenit « normalitate » să cunoaștem limba engleză și un avantaj cunoașterea unei alte limbi străine. Cine și-ar fi imaginat acum 20 de ani că limba engleză va acapara lumea în detrimentul altor limbi de “cultură” cum ar fi franceză, italiană, spaniolă? Cine și-ar fi imaginat ce amploare va lua această limba de origine germanică după ce secole de-a rândul lumea a fost condusă de popoare vorbitoare de limbi de origine latină?"}
                                 </p>
                               </div>
                             </div>
@@ -111,8 +111,8 @@ export default function Page() {
                                 <i></i>
                               </div>
                               <p>
-                                {"Surprinzător sau nu, limba engleză este acum atât de mult folosită în toate mediile încât nu mai putem imagina un scenariu în care să fie “detronată” de o altă limba. Astfel, am ajuns să ne mirăm când întâlnim tineri care nu vorbesc fluent limba engleză şi, mai mult decât orice, lipsa unor noţiuni elementare de limba engleză reprezintă un mare dezavantaj pentru oricine, chiar şi pentru bunici când"}
-                                {"se plimbă prin “mall” și au dificultăți în pronunțarea numelor de firme în limba engleză. Această limba este atât de adânc infiltrată în cultură tinerilor din ziua de astăzi (muzică, filme, jocuri pe calculator etc) încât folosesc frecvent expresii şi cuvinte englezeşti în mijlocul unei conversaţii în limba română. Poate bunicii s-au obişnuit să nu înţeleagă tot ce spun nepoţii, dar pentru tineri este devastator să nu înţeleagă o glumă sau o aluzie făcută în limba engleză în grupul de prieteni."}
+                                {"Surprinzător sau nu, limba engleză este acum atât de mult folosită în toate mediile încât nu mai putem imagina un scenariu în care să fie “detronată” de o altă limba. Astfel, am ajuns să ne mirăm când întâlnim tineri care nu vorbesc fluent limba engleză și, mai mult decât orice, lipsa unor noțiuni elementare de limba engleză reprezintă un mare dezavantaj pentru oricine, chiar și pentru bunici când"}
+                                {" se plimbă prin “mall” și au dificultăți în pronunțarea numelor de firme în limba engleză. Această limba este atât de adânc infiltrată în cultură tinerilor din ziua de astăzi (muzică, filme, jocuri pe calculator etc) încât folosesc frecvent expresii și cuvinte englezești în mijlocul unei conversații în limba română. Poate bunicii s-au obișnuit să nu înțeleagă tot ce spun nepoții, dar pentru tineri este devastator să nu înțeleagă o glumă sau o aluzie făcută în limba engleză în grupul de prieteni."}
                               </p>
                             </div>
                             <div>
@@ -129,19 +129,19 @@ export default function Page() {
                                     <div>
                                       <div>
                                         <p>
-                                          {"Probabil un rol important în această schimbare bruscă de preferinţe în ceea ce înseamnă folosirea unei "}
+                                          {"Probabil un rol important în această schimbare bruscă de preferințe în ceea ce înseamnă folosirea unei "}
                                           <a href={"/cursuri-de-limba-engleza-pentru-copii-si-adolescenti/"}>
                                             {"limbi străine"}
                                           </a>
-                                          {" la nivel global (după încercarea nereuşită de a inventa una – Esperanto – care să satisfacă cerinţele unei limbi perfecte, fără excepţii, cu reguli uşor de aplicat şi vocabular împrumutat din limbile de circulaţie internaţională), l-a avut şi uşurinţă cu care se învaţă limba engleză. Limba engleză are cel mai simplu alfabet, fără simboluri speciale, fără virguliţe, pălăriuţe sau liniuţe, formă de plural este foarte simplă adăugând un “s”"}
-                                          {" la sfârşitul cuvintelor (cu câteva excepţii, desigur) substantivul nu are gen, adjectivele nu se acordă, verbul nu se conjugă după persoană (cu extrem de puţine excepţii), altfel spus, cuvintele nu îşi schimbă formă, nu există pronume de politeţe sau o formă distinctă pentru plural, astfel încât ne adresăm tuturor, atât unui singur interlocutor, cât şi unui grup de oameni, prin acelaşi pronume: “you“, cuvintele sunt scurte, uşor de reţinut, iar limba engleză pe de-a-ntregul este muzicală şi logică."}
+                                          {" la nivel global (după încercarea nereușită de a inventa una – Esperanto – care să satisfacă cerințele unei limbi perfecte, fără excepții, cu reguli ușor de aplicat și vocabular împrumutat din limbile de circulație internațională), l-a avut și ușurință cu care se învață limba engleză. Limba engleză are cel mai simplu alfabet, fără simboluri speciale, fără virgulițe, pălăriuțe sau liniuțe, formă de plural este foarte simplă adăugând un “s”"}
+                                          {" la sfârșitul cuvintelor (cu câteva excepții, desigur) substantivul nu are gen, adjectivele nu se acordă, verbul nu se conjugă după persoană (cu extrem de puține excepții), altfel spus, cuvintele nu își schimbă formă, nu există pronume de politețe sau o formă distinctă pentru plural, astfel încât ne adresăm tuturor, atât unui singur interlocutor, cât și unui grup de oameni, prin același pronume: “you“, cuvintele sunt scurte, ușor de reținut, iar limba engleză pe de-a-ntregul este muzicală și logică."}
                                         </p>
                                       </div>
                                     </div>
                                     <div>
                                       <div>
                                         <p>
-                                          {"În imaginea de mai jos putem observă aria vastă a vorbitorilor de limba engleză, fie că este limba oficială, a două limba oficială sau prima limba străină învăţată în şcoli. Cu evidenţele excepţii din Africa şi cele câteva excepţii din Eurasia, limba engleză se vorbeşte pe întregul Glob. Mai mult decât atât, mulţi tineri ne-au mărturisit că se simt marginalizaţi în propriile grupuri de prieteni din cauza lipsei de cunoştinţe de limba engleză."}
+                                          {"În imaginea de mai jos putem observă aria vastă a vorbitorilor de limba engleză, fie că este limba oficială, a două limba oficială sau prima limba străină învățată în școli. Cu evidențele excepții din Africa și cele câteva excepții din Eurasia, limba engleză se vorbește pe întregul Glob. Mai mult decât atât, mulți tineri ne-au mărturisit că se simt marginalizați în propriile grupuri de prieteni din cauza lipsei de cunoștințe de limba engleză."}
                                         </p>
                                       </div>
                                     </div>
@@ -174,10 +174,10 @@ export default function Page() {
                                     <div>
                                       <div>
                                         <p>
-                                          {"Învăţarea unei limbi străine – indiferent de vârstă – aduce după sine o mulţime de avantaje lingvistice, cognitive, de socializare, culturale etc, dar şi legate de sănătatea creierului pe termen lung. Ajută la menţinerea şi dezvoltarea de noi legături neuronale, menţine memoria alertă şi îmbunătăţeşte capacitatea de a analiză şi a conecta informaţiile noi, adesea învăţarea unei limbi străine fiind comparată cu antrenamentul fizic pentru corp, de data aceasta aplicat creierului. Desigur că este indicat să începem studiul limbii engleze la o vârstă cât mai mică (îmbunătăţeşte perfomanţele şcolare în general prin exersarea memorie, atenţiei, asocierilor cu vocabularul din limba maternă, accentul este foarte apropiat de cel al nativilor, învăţarea se face prin joacă, intuitiv, fără efort etc), însă niciodată nu este prea târziu. (mai multe informaţii găsiţi in articolul:"}
+                                          {"Învățarea unei limbi străine – indiferent de vârstă – aduce după sine o mulțime de avantaje lingvistice, cognitive, de socializare, culturale etc., dar și legate de sănătatea creierului pe termen lung. Ajută la menținerea și dezvoltarea de noi legături neuronale, menține memoria alertă și îmbunătățește capacitatea de a analiză și a conecta informațiile noi, adesea învățarea unei limbi străine fiind comparată cu antrenamentul fizic pentru corp, de data aceasta aplicat creierului. Desigur că este indicat să începem studiul limbii engleze la o vârstă cât mai mică (îmbunătățește perfomanțele școlare în general prin exersarea memorie, atenției, asocierilor cu vocabularul din limba maternă, accentul este foarte apropiat de cel al nativilor, învățarea se face prin joacă, intuitiv, fără efort etc), însă niciodată nu este prea târziu. (mai multe informații găsiți in articolul:"}
                                           <strong>
                                             <a href={"/10-motive-pentru-a-invata-o-limba-straina-indiferent-de-varsta/"} target={"_blank"}>
-                                              {"10 motive pentru a învăţa o limbă străină indiferent de vârstă"}
+                                              {"10 motive pentru a învăța o limbă străină indiferent de vârstă"}
                                             </a>
                                           </strong>
                                           {")"}
@@ -202,10 +202,10 @@ export default function Page() {
                                     <div>
                                       <div>
                                         <p>
-                                          {"Există mai multe moduri de abordare a învăţării limbii engleze. Putem achiziţiona pachete de tipul « învaţă singur acasă » sau putem să apelăm la resursele gratuite ale internetului, însă nimic nu se compară cu îndrumarea unui profesor. Determinarea nivelului, lacunelor şi personalizarea lecţiei în funcţie de nevoile fiecăruia sunt aspecte pe care doar un profesor în carne şi oase le poate face. Învăţarea limbii engleze se poate face şi la şcoală, cu mai mult timp dedicat acasă studiului individual, însă exersarea abilităţilor de exprimare orală este destul de greu de realizat într-o clasa de 30 de elevi. O altă varianta este cea a unui meditator personal sau chiar antrenarea abilităţilor ce necesită interacţiune cu membrii familiei, prieteni apropiaţi sau virtuali. O altă soluţie ar fi participarea la cursuri de limba engleză organizate în centre specializate. Deşi varintă studiului one-to-one are avantajele sale, lucrul într-un grup restrâns adună toate avantajele atenţiei individuale primite de la un meditator, dar şi avantajele unui colectiv. Interacţiunea, comunicarea diversă şi învăţarea din greşelile altora sunt elemente greu de integrat în lucrul profesor-elev. Pe de altă parte, învăţarea este mereu mai distractivă alături de un grup de oameni motivaţi şi deschişi la nou."}
+                                          {"Există mai multe moduri de abordare a învățării limbii engleze. Putem achiziționa pachete de tipul « învață singur acasă » sau putem să apelăm la resursele gratuite ale internetului, însă nimic nu se compară cu îndrumarea unui profesor. Determinarea nivelului, lacunelor și personalizarea lecției în funcție de nevoile fiecăruia sunt aspecte pe care doar un profesor în carne și oase le poate face. Învățarea limbii engleze se poate face și la școală, cu mai mult timp dedicat acasă studiului individual, însă exersarea abilităților de exprimare orală este destul de greu de realizat într-o clasa de 30 de elevi. O altă varianta este cea a unui meditator personal sau chiar antrenarea abilităților ce necesită interacțiune cu membrii familiei, prieteni apropiați sau virtuali. O altă soluție ar fi participarea la cursuri de limba engleză organizate în centre specializate. Deși varintă studiului one-to-one are avantajele sale, lucrul într-un grup restrâns adună toate avantajele atenției individuale primite de la un meditator, dar și avantajele unui colectiv. Interacțiunea, comunicarea diversă și învățarea din greșelile altora sunt elemente greu de integrat în lucrul profesor-elev. Pe de altă parte, învățarea este mereu mai distractivă alături de un grup de oameni motivați și deschiși la nou."}
                                         </p>
                                         <p>
-                                          {"Concluzia noastră? Nu mai aşteptaţi! Împreună putem ajută copiii să păşească în această viaţă siguri pe ei, plini de încredere şi având o perspectiva largă asupra lumii."}
+                                          {"Concluzia noastră? Nu mai așteptați! Împreună putem ajută copiii să pășească în această viață siguri pe ei, plini de încredere și având o perspectiva largă asupra lumii."}
                                         </p>
                                       </div>
                                     </div>
@@ -371,7 +371,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"10 motive pentru a învăţa o limbă străină indiferent de vârstă Ne străduim să învăţăm o limbă străină dintr-o multitudine"}
+              {"10 motive pentru a învăța o limbă străină indiferent de vârstă Ne străduim să învățăm o limbă străină dintr-o multitudine"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -392,7 +392,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2026-2027 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -413,7 +413,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -434,7 +434,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"O tabăra este un mod ideal de a experimenta activităţi noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra şi a-şi face prieteni noi."}
+              {"O tabăra este un mod ideal de a experimenta activități noi (inclusiv exersarea limbii engleze cu trainer nativ),de a se distra și a-și face prieteni noi."}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -455,7 +455,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro Erudio"}
+              {"Structura anului școlar 2025-2026 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro Erudio"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
@@ -476,7 +476,7 @@ export default function Page() {
               {"Articole"}
             </span>
             <p>
-              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului şcolar la Pro"}
+              {"Structura anului școlar 2024-2025 la Pro Erudio și cele mai importante activități Structura anului școlar la Pro"}
             </p>
             <span className={"related-content-action"}>
               {"Citește articolul"}
