@@ -28,104 +28,69 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Playday @ Pro Erudio"}>
+    <article className={"page-content event-page event-theme-blue min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+<span id="yiv7796420128yui_3_16_0_1_1436972026828_3132" aria-hidden="true" />
+<span id="yiv7796420128yui_3_16_0_1_1436972026828_3132" aria-hidden="true" />
+<span id="yiv7796420128yui_3_16_0_1_1436972026828_3132" aria-hidden="true" />
+<section className={"mobile-page-intro"} aria-label={"Playday @ Pro Erudio"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/playday@proerudio2.jpg"} alt={"Playday @ Pro Erudio"} decoding={"async"} />
         <h1>
           {"Playday @ Pro Erudio"}
         </h1>
       </section>
-      <div>
-        <div itemProp={"mainContentOfPage"}>
-          <div data-id={"456"}></div>
-          <section>
-            <div>
-              <div>
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <figure className={"original-intro-image"}>
+
+<figure className={"original-intro-image"}>
                                       <div>
 
                                       </div>
                                     </figure>
-                                  </div>
-                                  <div>
-                                    <div>
-                                      <h2>
+
+<section className="event-welcome">
+<h2>
                                         {"PLAYDAY"}
                                         <span>
                                           {"@ Pro Erudio"}
                                         </span>
                                       </h2>
-                                    </div>
-                                  </div>
-                                  <div>
-                                    <div>
-                                      <div data-href={"https://www.facebook.com/proerudio"} data-layout={"standard"} data-action={"like"} data-show-faces={"false"} data-share={"false"}></div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+<p>
                                 <span>
                                   {"E"}
                                 </span>
                                 {"\nste vacanță, dumneavoastră sunteți încă la serviciu și aveți impresia că timpul nu va permite să vă ocupați suficient de copilul dumneavoastră? Căutați să-i ocupați timpul cu altceva decât televizor și tabletă, dar nu știți cum să procedați? Atunci este posibil să vă ajutăm să rezolvați, chiar dacă doar parțial, această problemă."}
                               </p>
-                              <h2></h2>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <h2>
+</section>
+
+<section className="event-section">
+<h2></h2>
+</section>
+
+<section className="event-section">
+<h2>
                                         {"De ce Play Day?"}
                                       </h2>
-                                      <p>
+<p>
                                         <span>
                                           {"E"}
                                         </span>
                                         {"\nste esenţial pentru copii să înveţe să interacţioneze cu oameni diferiţi şi să se integreze natural într-un grup pentru a-şi dezvolta încrederea în sine şi abilităţile sociale. De asemenea, este important să le permitem să se exprime şi să se exteriorizeze, să graviteze către anumite activităţi şi anumite persoane conform propriilor alegeri, fară influența adultului."}
                                       </p>
-                                      <p>
+<p>
                                         {"Dacă sunteţi de acord cu noi, atunci vă invităm cu mare drag la "}
                                         <span>
                                           {"Playday @ Pro Erudio"}
                                         </span>
                                         {"\n, o sesiune de 4 ore de joacă, cântec şi distracţie, parţial structurată şi integral supravegheată."}
                                       </p>
-                                      <p>
+<p>
                                         <span>
                                           {"V"}
                                         </span>
                                         {"\nom pune la dispoziţia micuţilor zone de joacă: activităţi de desenat şi colorat, jocuri de masă (boardgames), jocuri de carti, puzzle-uri, jocuri de construcție, păpuşi şi animale de pluş, o zonă „linistita” dedicată cititului pentru pasionaţii de lectură etc. Vom împărţi timpul în intervale libere în care copiii pot explora zonele de joacă şi se pot juca în voie cu prietenii lor şi intervale structurate în care ne strângem cu toţii pentru activităţi comune ( jocuri de mișcare, cântece și dansuri, jocuri pe echipe etc)"}
                                       </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <h5>
+</section>
+
+<section className="event-section">
+<h5>
                                         <a href={"/playday-la-pro-erudio/"} target={"_blank"}>
                                           <span>
                                             {"“Playday – prima sesiune” "}
@@ -135,23 +100,17 @@ export default function Page() {
                                           </span>
                                         </a>
                                       </h5>
-                                    </div>
-                                  </div>
-                                  <div>
-                                    <figure>
+<figure>
                                       <a href={"/playday-la-pro-erudio/"} target={"_blank"}>
                                         <img decoding={"async"} alt={""} title={"prima-sesiune-playday"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/prima-sesiune-playday.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2016/01/prima-sesiune-playday-300x120.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/prima-sesiune-playday-768x307.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/prima-sesiune-playday-1024x410.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2016/01/prima-sesiune-playday-260x104.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/prima-sesiune-playday-50x20.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/prima-sesiune-playday-150x60.jpg 150w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/prima-sesiune-playday.jpg"} />
                                       </a>
                                     </figure>
-                                  </div>
-                                  <div>
-                                    <div>
-                                      <p>
+<p>
                                         <span>
                                           {"Desfasurarea cursului in text si imagini"}
                                         </span>
                                       </p>
-                                      <p>
+<p>
                                         {"Este vară, dumneavoastră sunteți încă la serviciu și aveți impresia că timpul nu va permite să vă ocupați suficient de copilul dumneavoastră? Căutați să-i ocupați timpul cu altceva decât televizor și tabletă…"}
                                         <br />
                                         <span>
@@ -164,112 +123,57 @@ export default function Page() {
                                           </span>
                                         </span>
                                       </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <div id={"jig1"} className={"photo-gallery"}>
+</section>
+
+<div id={"jig1"} className={"photo-gallery"}>
                                 <div></div>
                               </div>
-                              <p>
+
+<section className="event-section">
+<p>
                                 {"În cadrul acestei sesiuni de joacă micuţii vor avea ocazia să-şi pună în valoare talentele şi să cunoască alți copii cu interese comune. De asemenea, vor trebui să împartă, să aibă răbdare, să-şi aştepte rândul, să înveţe să asculte şi să accepte că fiecare poate avea o opinie diferită, iar asta nu înseamnă că e greşită. Vor lega prietenii, vor învăţa unii de la alţii şi se vor distra de minune în tot acest timp."}
                               </p>
-                              <p>
+<p>
                                 {"O oportunitate pentru cei mici şi o binemeritată pauză pentru cei mari, "}
                                 <em>
                                   {"Playday @ Pro Erudio"}
                                 </em>
                                 {" vă aşteaptă!"}
                               </p>
-                              <div id={"yiv7796420128yui_3_16_0_1_1436972026828_3132"} dir={"ltr"}>
-                                <span id={"yiv7796420128yui_3_16_0_1_1436972026828_5144"}>
+<span id={"yiv7796420128yui_3_16_0_1_1436972026828_5144"}>
                                   {"Pentru înscrieri vă rugăm să trimiteți un email la "}
                                   <a href={"mailto:office@proerudio.ro"}>
                                     {"office@proerudio.ro"}
                                   </a>
                                   {" în care să specificați numele și vârsta copilului, precum și un număr de telefon al părintelui. Plata se face în ziua activității."}
                                 </span>
-                              </div>
-                              <div id={"yiv7796420128yui_3_16_0_1_1436972026828_3132"} dir={"ltr"}>
-                                <span id={"yiv7796420128yui_3_16_0_1_1436972026828_5146"}>
+<span id={"yiv7796420128yui_3_16_0_1_1436972026828_5146"}>
                                   {"Vârsta copiilor participanți: 5 – 11 ani"}
                                 </span>
-                              </div>
-                              <div id={"yiv7796420128yui_3_16_0_1_1436972026828_3132"} dir={"ltr"}>
-                                <span id={"yiv7796420128yui_3_16_0_1_1436972026828_12879"}>
+<span id={"yiv7796420128yui_3_16_0_1_1436972026828_12879"}>
                                   {"Locurile sunt limitate."}
                                 </span>
-                              </div>
-                              <div dir={"ltr"}>
-                                <span>
+<span>
                                   {"Nota:"}
                                 </span>
-                                {"\n Participarea copiilor la PlayDay nu este obligatorie de la începutul până la sfarșitul programului. Copiii pot sosi pe rând și pot pleca oricând doresc."}
-                              </div>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <h4>
+{"\n Participarea copiilor la PlayDay nu este obligatorie de la începutul până la sfarșitul programului. Copiii pot sosi pe rând și pot pleca oricând doresc."}
+</section>
+
+<section className="event-section">
+<h4>
                                         {"Detalii organizatorice:"}
                                       </h4>
-                                    </div>
-                                  </div>
-                                  <div>
-                                    <span>
+<span>
                                       <span></span>
                                     </span>
-                                    <span>
+<span>
                                       <span></span>
                                     </span>
-                                  </div>
-                                  <div>
-                                    <span></span>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <PlaydayDetails />
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
+<span></span>
+<PlaydayDetails />
+</section>
 
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <div data-href={"https://www.facebook.com/proerudio"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"false"}></div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <div data-href={"https://www.facebook.com/proerudio"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"false"}>
-                                        <div>
-                                          <div className={"course-share"}>
+<div className={"course-share"}>
                                             <span>
                                               {"Share this..."}
                                             </span>
@@ -353,31 +257,6 @@ export default function Page() {
                                               </li>
                                             </ul>
                                           </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section>
-            <div>
-              <div>
-                <div></div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </article>
+</article>
   </ContentPageLayout>;
 }

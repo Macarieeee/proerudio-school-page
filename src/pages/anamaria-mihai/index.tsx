@@ -1,10 +1,10 @@
+import teacherBanner from '@/assets/2.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
-import image0 from "@/assets/about-classroom.jpg";
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={image0 + ""} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={teacherBanner} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -27,7 +27,7 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+    <article className={"page-content teacher-profile-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <section className={"mobile-page-intro mobile-page-intro-no-image"} aria-label={"Anamaria Mihai"}>
         <h1>
           {"Anamaria Mihai"}
@@ -82,12 +82,12 @@ export default function Page() {
                                 <li>
                                   {"1999 – "}
                                   {"Licențiată"}
-                                  {"în psihologie, Universitatea București, Facultatea de Psihologie-Sociologie"}
+                                  {" în psihologie, Universitatea București, Facultatea de Psihologie-Sociologie"}
                                 </li>
                               </ul>
                               <h3>
                                 {"Experiență"}
-                                {"profesională"}
+                                {" profesională"}
                               </h3>
                               <ul>
                                 <li>
@@ -105,10 +105,10 @@ export default function Page() {
                               </ul>
                               <p>
                                 {"Psihologul Anamaria Mihai este"}
-                                {"acreditat de Colegiul Psihologilor din România ca psiholog specialist clinician cu drept de liberă practică din "}
+                                {" acreditat de Colegiul Psihologilor din România ca psiholog specialist clinician cu drept de liberă practică din "}
                                 {"2006. "}
                                 {"În prezent este"}
-                                {"în formare pentru psihoterapia copilului, a cuplului și a familiei."}
+                                {" în formare pentru psihoterapia copilului, a cuplului și a familiei."}
                               </p>
                               <p>
                                 {"În cadrul Cabinetului Individual de Psihologie lucrează cu copii de la 2 la 18 ani și adulți de toate vârstele, dar și cu familiile acestora, pe probleme patologice și nepatologice."}
@@ -140,7 +140,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"Workshop “Specificul consilierii"}
-                                  {"în domeniile aplicative ale psihologiei”"}
+                                  {" în domeniile aplicative ale psihologiei”"}
                                 </li>
                                 <li>
                                   {"Workshop internațional “Noutăți Stiințifice în Psihometrie Resurse Umane și E-Testing”"}

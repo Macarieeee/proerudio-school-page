@@ -44,16 +44,16 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Jurnalul unui pusti"}>
+    <article className={"page-content event-page event-theme-purple min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+<span id="post-620" aria-hidden="true" />
+<section className={"mobile-page-intro"} aria-label={"Jurnalul unui pusti"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/jurnalul-unui-pusti.jpg"} alt={"Jurnalul unui pusti"} decoding={"async"} />
         <h1>
           {"Jurnalul unui pusti"}
         </h1>
       </section>
-      <div>
-        <article id={"post-620"}>
-          <header>
+
+<header>
             <div>
               <div>
                 <div>
@@ -72,55 +72,31 @@ export default function Page() {
               </div>
             </div>
           </header>
-          <div>
-            <div data-id={"620"}></div>
-            <section>
-              <div>
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <div>
-                              <div>
-                                <h2>
+
+<section className="event-welcome">
+<h2>
                                   <span>
                                     {"Jurnalul unui puști "}
                                   </span>
                                   {"(The Diary of a Wimpy Kid)"}
                                 </h2>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div data-href={"http://www.proerudio.ro/8-motive-sa-mi-trimit-copilul-tabara/"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"true"}></div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <p>
+<p>
                                   {"Întâlnire de gradul trei pentru copiii din grupul nostru de teatru cu autorul seriei – fenomen "}
                                   <strong>
                                     {"Jurnalul unui puști (The Diary of a Wimpy Kid)"}
                                   </strong>
                                 </p>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <div>
-                                        <p>
+</section>
+
+<section className="event-section">
+<p>
                                           {"Înainte era mai bine. Toate erau mai bune şi mai frumoase. Să fie adevărat? Asta e întrebarea care-l"}
                                           {"frământă pe Greg Heffley când toată lumea din oraşul lui alege să petreacă un weekend întreg fără"}
                                           {"telefoane şi fără orice alte gadgeturi."}
                                           {"Viaţa de azi are avantajele ei, iar Greg nu vrea să-şi refuze nimic, doar de dragul de a trăi ca pe"}
                                           {"vremuri."}
                                         </p>
-                                        <p>
+<p>
                                           {"Ziua de 6 decembrie a fost o zi cu adevarat specială pentru toți copiii fiindcă Moș Nicolae a venit încărcat cu bunătăți, dar în special pentru un grup de copii de la cursul nostru de teatru. Sub îndrumarea doamnei profesor Loreta Neculai, copiii au participat cu un mic spectacol cu prilejul lansării celui de-al zecelea volum al faimosului scriitor american Jeff Kinney, aflat într-un turneu mondial de promovare a ultimei sale publicații din seria "}
                                           <strong>
                                             {"Jurnalul unui puști"}
@@ -135,39 +111,19 @@ export default function Page() {
                                           </strong>
                                           {"."}
                                         </p>
-                                        <div id={"jig1"} className={"photo-gallery"}>
+</section>
+
+<div id={"jig1"} className={"photo-gallery"}>
                                           <div></div>
                                         </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <div>
-                                        <p>
+
+<section className="event-section">
+<p>
                                           {"Am ajuns înfrigurați (la propriu și la figurat) în jurul orei 14.00 la Teatrul Național pentru ultimele pregătiri în sala Media. Am repetat replicile"}
                                           {"și ordinea intrărilor, am făcut poze cu personajele din carte, iar în jurul orei 15.00 a început evenimentul organizat de Asociația Flower Power – mai întâi cu o discuție liberă"}
                                           {"cu cei peste 100 de copii invitați. Ce cărți citesc? Câte volume din Jurnalul unui puști au citit? În cât timp citesc o carte? Ce părere au despre personajul principal?"}
                                         </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <div>
-                                        <p>
+<p>
                                           <img decoding={"async"} alt={"Jurnalul-unui-pusti-08-169x300"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-08-169x300.jpg 169w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-08-169x300-82x146.jpg 82w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-08-169x300-28x50.jpg 28w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-08-169x300-42x75.jpg 42w"} sizes={"(max-width:767px) 169px, 169px"} src={"http://pigproduction.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-08-169x300.jpg"} />
                                           {"În aplauzele copiilor "}
                                           <span contextMenu={"true"}>
@@ -437,48 +393,28 @@ export default function Page() {
                                           </span>
                                           {"-un lungmetraj?"}
                                         </p>
-                                        <p>
+<p>
                                           <img decoding={"async"} alt={"Jurnalul-unui-pusti-07-300x169"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-07-300x169.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-07-300x169-260x146.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-07-300x169-50x28.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-07-300x169-133x75.jpg 133w"} sizes={"(max-width:767px) 300px, 300px"} src={"http://pigproduction.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-07-300x169.jpg"} />
                                         </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <div>
-                                        <p>
+<p>
                                           {"Imediat după ce copiii au aflat raspunsurile la întrebările care îi frământau, au intrat în scena micii noștri actori. Filip l-a întruchipat pe Greg care se opune inițiativei mamei de a semna o petiție prin care să interzică folosirea telefoanelor mobile si a tuturor celorlalte tehnologii timp de 48 de ore, dar și adoptarii unui purceluș pe post de animal de companie. Totul, mai mult sugerat prin mimică"}
                                           {"și gestică decât spus, perfect înțeles atât ca substrat, cât și ca mesaj direct exprimat. Jeff Kinney a felicitat călduros întreaga echipă."}
                                         </p>
-                                        <div id={"jig2"} className={"photo-gallery"}>
+</section>
+
+<div id={"jig2"} className={"photo-gallery"}>
                                           <div></div>
                                         </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <div>
-                                        <p></p>
-                                        <p>
+
+<section className="event-section">
+<p></p>
+<p>
                                           <img decoding={"async"} alt={"Jurnalul-unui-pusti-010-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-010-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-010-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-010-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-010-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-010-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-010-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"http://pigproduction.ro/wp-content/uploads/2016/01/Jurnalul-unui-pusti-010-150x150.jpg"} />
                                           {"Evenimentul s-a încheiat cu împărțirea cărților (toți participanții au primit un volum ) și a autografelor. Cei mici au avut ocazia să pună"}
                                           {"întrebările pe care nu au avut curajul să le adreseze"}
                                           {"în public."}
                                         </p>
-                                        <p>
+<p>
                                           {"Dupa ce trupa noastră"}
                                           {"și-a încheiat numărul, am răsuflat ușurați."}
                                           <br />
@@ -494,35 +430,9 @@ export default function Page() {
                                           <br />
                                           {"\nUn eveniment pe care nu îl vom uita niciodată!"}
                                         </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <div>
-                              <div>
-                                <div data-href={"https://www.facebook.com/proerudio"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"false"}></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div>
-                        <div>
-                          <div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div className={"course-share"}>
+</section>
+
+<div className={"course-share"}>
                                     <span>
                                       {"Share this..."}
                                     </span>
@@ -606,42 +516,19 @@ export default function Page() {
                                       </li>
                                     </ul>
                                   </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section>
-              <div>
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <img alt={"Pro Erudio"} srcSet={"https://secure.gravatar.com/avatar/9b35691c384795cb883b27c982457593d70acdaa9b1f728709135182675afa22?s=128&d=mm&r=g 2x"} decoding={"async"} src={"https://secure.gravatar.com/avatar/9b35691c384795cb883b27c982457593d70acdaa9b1f728709135182675afa22?s=64&d=mm&r=g"} />
-                      </div>
-                      <div>
-                        <h5>
+
+<section className="event-section">
+<img alt={"Pro Erudio"} srcSet={"https://secure.gravatar.com/avatar/9b35691c384795cb883b27c982457593d70acdaa9b1f728709135182675afa22?s=128&d=mm&r=g 2x"} decoding={"async"} src={"https://secure.gravatar.com/avatar/9b35691c384795cb883b27c982457593d70acdaa9b1f728709135182675afa22?s=64&d=mm&r=g"} />
+</section>
+
+<section className="event-section">
+<h5>
                           <a href={"/author/proerudio/"}>
                             {"Pro Erudio"}
                           </a>
                         </h5>
-                        <div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-        </article>
-      </div>
-    </article>
+</section>
+</article>
     <section className={"mt-14 border-t pt-10"}>
       <h2 className={"mb-6 text-2xl font-bold"}>
         {"Alte articole"}

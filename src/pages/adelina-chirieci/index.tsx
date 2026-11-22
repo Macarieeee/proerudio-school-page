@@ -1,10 +1,11 @@
+import teacherBanner from '@/assets/2.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Adelina-Chirieci.jpg"} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={teacherBanner} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -27,7 +28,7 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+    <article className={"page-content teacher-profile-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <section className={"mobile-page-intro"} aria-label={"Adelina Chirieci"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Adelina-Chirieci.jpg"} alt={"Adelina Chirieci"} decoding={"async"} />
         <h1>
@@ -64,11 +65,11 @@ export default function Page() {
                               <ul>
                                 <li>
                                   {"Licențiată"}
-                                  {"în Jurnalism – Facultatea de Jurnalism, 2009"}
+                                  {" în Jurnalism – Facultatea de Jurnalism, 2009"}
                                 </li>
                                 <li>
                                   {"Licențiată"}
-                                  {"în Științe Umaniste – Facultatea de Litere și Limbi Străine, specializare: limba și literatura engleză – limba și literatura română, 2012"}
+                                  {" în Științe Umaniste – Facultatea de Litere și Limbi Străine, specializare: limba și literatura engleză – limba și literatura română, 2012"}
                                 </li>
                                 <li>
                                   {"Curs Postuniversitar pentru Pregătirea Personalului Didactic, 2013"}
@@ -79,7 +80,7 @@ export default function Page() {
                               </ul>
                               <h3>
                                 {"Experiență"}
-                                {"profesională"}
+                                {" profesională"}
                               </h3>
                               <ul>
                                 <li>
@@ -136,7 +137,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"Premiul I la Olimpiada de limbă și literatură romană- faza județeană din 2000 și"}
-                                  {"2001, cu participare la faza națională"}
+                                  {" 2001, cu participare la faza națională"}
                                 </li>
                                 <li>
                                   {"Premiul I la Concursul de proiecte de mediu- faza națională, 2000"}

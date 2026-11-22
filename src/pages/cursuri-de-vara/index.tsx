@@ -1,4 +1,4 @@
-import heroImage from '@/assets/cursuri-de-vara.jpg';
+import heroImage from '@/assets/cursuri-de-vara.png';
 import ContentPageLayout from '@/components/ContentPageLayout';
 
 export default function Page() {

@@ -1,10 +1,11 @@
+import teacherBanner from '@/assets/2.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={"https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii.jpeg"} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={teacherBanner} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -27,13 +28,7 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Paula Văsii"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii.jpeg"} alt={"Paula Văsii"} decoding={"async"} />
-        <h1>
-          {"Paula Văsii"}
-        </h1>
-      </section>
+    <article className={"page-content teacher-profile-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <div>
         <div itemProp={"mainContentOfPage"}>
           <div data-id={"11137"}></div>
@@ -48,7 +43,7 @@ export default function Page() {
                           <div>
                             <div>
                               <section className={"team-profile-header"}>
-                                <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii.jpeg"} alt={"Paula Văsii"} title={"Paula Vasii"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii.jpeg 2048w, https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii-300x272.jpeg 300w, https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii-1024x928.jpeg 1024w, https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii-768x696.jpeg 768w, https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii-1536x1392.jpeg 1536w, https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii-83x75.jpeg 83w, https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii-693x628.jpeg 693w, https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii-480x435.jpeg 480w"} sizes={"180px"} className={"original-intro-image"} />
+                                <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii.jpeg"} alt={"Paula Văsii"} title={"Paula Vasii"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii.jpeg 2048w, https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii-300x272.jpeg 300w, https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii-1024x928.jpeg 1024w, https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii-768x696.jpeg 768w, https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii-1536x1392.jpeg 1536w, https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii-83x75.jpeg 83w, https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii-693x628.jpeg 693w, https://www.proerudio.ro/wp-content/uploads/2026/09/Paula-Vasii-480x435.jpeg 480w"} sizes={"180px"} />
                                 <div>
                                   <h2>
                                     {"Paula Văsii"}

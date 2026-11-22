@@ -1,11 +1,11 @@
-import heroImage from '@/assets/cursuri-de-limba-germana-pentru-copii-si-adolescenti.jpg';
+import heroImage from '@/assets/course-banner-1.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 import image0 from "@/assets/about-classroom.jpg";
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={heroImage} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={heroImage} style={{ objectPosition: '50% 38%' }} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -30,7 +30,7 @@ export default function Page() {
   }>
     <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <section className={"mobile-page-intro"} aria-label={"Cursuri de limba germană pentru copii și adolescenți"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Wieso-nicht-Cursuri-de-limba-germana.jpg"} alt={"Cursuri de limba germană pentru copii și adolescenți"} decoding={"async"} />
+        <img src={heroImage} style={{ objectPosition: '50% 38%' }} alt={"Cursuri de limba germană pentru copii și adolescenți"} decoding={"async"} />
         <h1>
           {"Cursuri de limba germană pentru copii și adolescenți"}
         </h1>

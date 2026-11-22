@@ -1,10 +1,11 @@
+import teacherBanner from '@/assets/2.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={"https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei.jpg"} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={teacherBanner} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -27,13 +28,7 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Speranţa Atasiei"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei.jpg"} alt={"Speranţa Atasiei"} decoding={"async"} />
-        <h1>
-          {"Speranţa Atasiei"}
-        </h1>
-      </section>
+    <article className={"page-content teacher-profile-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <div>
         <div itemProp={"mainContentOfPage"}>
           <div data-id={"10196"}></div>
@@ -48,7 +43,7 @@ export default function Page() {
                           <div>
                             <div>
                               <section className={"team-profile-header"}>
-                                <img decoding={"async"} alt={"Speranţa Atasiei"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei.jpg 226w, https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei-110x146.jpg 110w, https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei-38x50.jpg 38w, https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei-57x75.jpg 57w"} sizes={"180px"} src={"https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei.jpg"} className={"original-intro-image"} />
+                                <img decoding={"async"} alt={"Speranţa Atasiei"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei.jpg 226w, https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei-110x146.jpg 110w, https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei-38x50.jpg 38w, https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei-57x75.jpg 57w"} sizes={"180px"} src={"https://www.proerudio.ro/wp-content/uploads/2017/09/Speranta-Atasiei.jpg"} />
                                 <div>
                                   <h2>
                                     {"Speranţa Atasiei"}
@@ -89,75 +84,75 @@ export default function Page() {
                                 <li>
                                   <span>
                                     {"Facultatea"}
-                                    {"de Limbi"}
-                                    {"şi"}
-                                    {"Literaturi"}
-                                    {"Străine,"}
-                                    {"Universitatea"}
-                                    {"Bucureşti, 2004-2008"}
+                                    {" de Limbi"}
+                                    {" şi"}
+                                    {" Literaturi"}
+                                    {" Străine,"}
+                                    {" Universitatea"}
+                                    {" Bucureşti, 2004-2008"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
                                     {"Absolventă"}
-                                    {"a"}
-                                    {"Cursului"}
-                                    {"postuniversitar"}
-                                    {"psiho-pedagogic (Modulul"}
-                                    {"1),"}
-                                    {"Universitatea"}
-                                    {"Bucureşti, 2016"}
+                                    {" a"}
+                                    {" Cursului"}
+                                    {" postuniversitar"}
+                                    {" psiho-pedagogic (Modulul"}
+                                    {" 1),"}
+                                    {" Universitatea"}
+                                    {" Bucureşti, 2016"}
                                   </span>
                                 </li>
                               </ul>
                               <h3>
                                 {"Experiență"}
-                                {"profesională"}
+                                {" profesională"}
                               </h3>
                               <ul>
                                 <li>
                                   <span>
                                     {"Profesor"}
-                                    {"de"}
-                                    {"limba"}
-                                    {"engleză"}
-                                    {"pentru"}
-                                    {"copii"}
-                                    {"şi"}
-                                    {"adulţi"}
+                                    {" de"}
+                                    {" limba"}
+                                    {" engleză"}
+                                    {" pentru"}
+                                    {" copii"}
+                                    {" şi"}
+                                    {" adulţi"}
                                     {"–"}
                                     {"Internaţional"}
-                                    {"House,"}
-                                    {"Bucureşti"}
+                                    {" House,"}
+                                    {" Bucureşti"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
                                     {"Profesor"}
-                                    {"de"}
-                                    {"limba"}
-                                    {"engleză"}
-                                    {"pentru"}
-                                    {"copii"}
-                                    {"şi"}
-                                    {"adulţi"}
+                                    {" de"}
+                                    {" limba"}
+                                    {" engleză"}
+                                    {" pentru"}
+                                    {" copii"}
+                                    {" şi"}
+                                    {" adulţi"}
                                     {"–"}
                                     {"Britanica Learning Centre,"}
-                                    {"Bucureşti"}
+                                    {" Bucureşti"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
                                     {"Profesor"}
-                                    {"de"}
-                                    {"limba"}
-                                    {"engleză"}
-                                    {"pentru"}
-                                    {"copii"}
+                                    {" de"}
+                                    {" limba"}
+                                    {" engleză"}
+                                    {" pentru"}
+                                    {" copii"}
                                     {"–"}
                                     {"Fundaţia"}
-                                    {"Chance for Life,"}
-                                    {"Bucureşti"}
+                                    {" Chance for Life,"}
+                                    {" Bucureşti"}
                                   </span>
                                 </li>
                               </ul>
@@ -249,24 +244,24 @@ export default function Page() {
                                     {"Cursul"}
                                     {"“AMI Children’s House Assistants”"}
                                     {"pentru"}
-                                    {"asistenţi"}
-                                    {"Montessori, 2017"}
+                                    {" asistenţi"}
+                                    {" Montessori, 2017"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
                                     {"Seminarul"}
                                     {"“Convergent versus Divergent Thinking”,"}
-                                    {"organizat"}
-                                    {"de Shakespeare School, 2016"}
+                                    {" organizat"}
+                                    {" de Shakespeare School, 2016"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
                                     {"Cursul"}
                                     {"“Preparing Students for Cambridge YLE Exams”,"}
-                                    {"organizat"}
-                                    {"de British Council, 2011"}
+                                    {" organizat"}
+                                    {" de British Council, 2011"}
                                   </span>
                                 </li>
                                 <li>

@@ -1,6 +1,5 @@
 import ContentPageLayout from '@/components/ContentPageLayout';
 import image0 from "@/assets/Fa-o-Fapta-Buna-Pro-Erudio-fundal.png";
-import image1 from "@/assets/Fa-o-Fapta-Buna-Pro-Erudio.png";
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body py-16 md:py-20" hero={
@@ -23,7 +22,7 @@ export default function Page() {
             {"Fă o faptă bună"}
           </h1>
           <p className={"max-w-3xl text-lg leading-relaxed text-background/90 md:text-xl"}>
-            {"Ajută-ne să oferim acces la educație copiilor motivați care au nevoie de sprijin."}
+            {"Ajută-ne să oferim acces la educație copiilor motivați să învețe limba engleză, dar care nu au posibilități financiare."}
           </p>
         </div>
       </div>
@@ -36,16 +35,15 @@ export default function Page() {
           {"Fă o faptă bună"}
         </h1>
         <p>
-          {"Ajută-ne să oferim acces la educație copiilor motivați care au nevoie de sprijin."}
+          {"Ajută-ne să oferim acces la educație copiilor motivați să învețe limba engleză, dar care nu au posibilități financiare."}
         </p>
       </section>
       <div>
         <h2>
           {"O ȘANSĂ LA UN VIITOR MAI BUN"}
         </h2>
-        <img src={image1 + ""} data-good-deed-image={""} alt={"Fă o faptă bună – Pro Erudio"} />
         <p>
-          {"Uneori, un gest mic poate schimba un destin. ❤️"}
+          {"Uneori, un gest mic poate schimba un destin."}
         </p>
         <p>
           {"Există copii care visează să învețe, să descopere lumea și să își construiască un viitor frumos, dar pentru care posibilitățile financiare ale familiei reprezintă un obstacol."}
@@ -55,7 +53,6 @@ export default function Page() {
           <strong>
             {"fiecare copil merită o șansă, indiferent de situația financiară în care s-a născut."}
           </strong>
-          {" ❤️"}
         </p>
         <p>
           {"De aceea, la "}
@@ -108,26 +105,17 @@ export default function Page() {
           </strong>
         </p>
         <p>
-          {"❤️ "}
           <strong>
             {"Nu putem schimba lumea pentru toți copiii, dar putem schimba lumea unor copii."}
           </strong>
         </p>
         <p>
-          {"Iar uneori, tot ce trebuie să facem este să dăm mai departe un mesaj."}
-        </p>
-        <p>
-          {"🙏 "}
-          <strong>
-            {"Te rugăm să distribui acest anunț!"}
-          </strong>
-          {" Poate chiar printre prietenii tăi se află cineva care cunoaște un asemenea copil."}
+          {"Iar uneori, tot ce trebuie să facem este să dăm mai departe un mesaj. Poate chiar printre prietenii tăi se află cineva care cunoaște un asemenea copil."}
         </p>
         <p>
           <strong>
             {"Hai să oferim împreună o șansă acolo unde este cea mai mare nevoie de ea!"}
           </strong>
-          {" 💙"}
         </p>
       </div>
     </article>

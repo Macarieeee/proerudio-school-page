@@ -28,96 +28,59 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Ateliere de dezvoltare emoțională cu psiholog pentru copii"}>
+    <article className={"page-content event-page event-theme-blue min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+<section className={"mobile-page-intro"} aria-label={"Ateliere de dezvoltare emoțională cu psiholog pentru copii"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala.jpg"} alt={"Ateliere de dezvoltare emoțională cu psiholog pentru copii"} decoding={"async"} />
         <h1>
           {"Ateliere de dezvoltare emoțională cu psiholog pentru copii"}
         </h1>
       </section>
-      <div>
-        <div itemProp={"mainContentOfPage"}>
-          <div data-id={"12408"}></div>
-          <section>
-            <div>
-              <div>
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <figure className={"original-intro-image"}>
+
+<figure className={"original-intro-image"}>
                               <div>
 
                               </div>
                             </figure>
-                          </div>
-                          <div>
-                            <div>
-                              <h2>
+
+<section className="event-welcome">
+<h2>
                                 <span>
                                   {"Ateliere de dezvoltare emoțională cu psiholog"}
                                 </span>
                               </h2>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+<p>
                                 <strong>
                                   <span>
                                     {"Pentru copii de 6-9 ani"}
                                   </span>
                                 </strong>
                               </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <div>
-                              <h2>
+</section>
+
+<section className="event-section">
+<h2>
                                 {"Controlarea emoțiilor și regăsirea calmului"}
                               </h2>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+<p>
                                 {"Fără emoții am trăi precum robotii, indiferenti la ce ne înconjoară. Emoțiile fac parte din noi, iar datorită lor înțelegem ce ni se întâmplă. Ne dezvăluie ce contează pentru noi și pentru alții, ne ghidează deciziile și acțiunile."}
                               </p>
-                              <p>
+<p>
                                 {"Deseori copiii sunt copleșiți de reacțiile emotionale intense și răbufnesc. În acest fel, apar uneori comportamente indezirabile, de genul țipetelor, dacă nu le este îndeplinită o dorință. Se pot simți furioși și își descarcă furia în moduri distructive atât pentru ei, cât și pentru cei din jur."}
                               </p>
-                              <p>
+<p>
                                 {"Copilul are nevoie să fie ajutat să se obișuiască să accepte emoția, să găsească metoda cea mai potrivită pentru a se descărca emoțional, pentru a fi apoi dispus să înțeleagă ce se întâmplă si ce nevoi i se manifestă. În acest fel va reusi să-și ajusteze reacțiile automate, astfel încât trăirile sufletești să nu mai fie atât de intense."}
                               </p>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+<p>
                                 <span>
                                   {"Obiectivul acestui atelier este de a ajuta copilul să înțeleagă felul în care funcționează emoțiile, să-și dea seama de ceea ce simte, să dea un nume emoției, să înțeleagă ce mesaj îi aduce și să o gestioneze într-un mod adecvat."}
                                 </span>
                               </p>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+<p>
                                 <strong>
                                   {"Beneficiile participării copilui la atelierele de dezvoltare emoțională:"}
                                 </strong>
                               </p>
-                              <ul>
+<ul className="event-activity-list">
                                 <li>
                                   {"Învață cum să recunoască, să exprime ce emotii are și cum să le gestioneze;"}
                                 </li>
@@ -137,11 +100,7 @@ export default function Page() {
                                   {"Are parte de un sprijin important și de explicații specializate pentru a deveni adulti împliniti emoțional."}
                                 </li>
                               </ul>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+<p>
                                 <strong>
                                   {"Pe parcursul a patru întâlniri, prin jocuri, exerciții și povești "}
                                 </strong>
@@ -159,43 +118,21 @@ export default function Page() {
                                 </strong>
                                 {". Atunci când începem să fim atenți la ce simțim, ne putem folosi de emoțiile noastre ca să luăm deciziile potrivite."}
                               </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <div>
-                              <h2>
+</section>
+
+<section className="event-section">
+<h2>
                                 <span>
                                   {"Ateliere de dezvoltare emoțională cu psiholog"}
                                 </span>
                               </h2>
-                            </div>
-                          </div>
-                          <div>
-                            <span>
+<span>
                               <span></span>
                             </span>
-                            <span>
+<span>
                               <span></span>
                             </span>
-                          </div>
-                          <div>
-                            <div>
-                              <div>
-                                <div></div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div className={"course-details-panel"}>
+<div className={"course-details-panel"}>
                                     <div className={"course-details-header"}>
                                       <div className={"course-details-photo"} style={{"backgroundImage": "url(\"" + image0 + "\")"}}>
                                         <img decoding={"async"} alt={"ateliere-de-dezvoltare-emotionala-b"} src={"https://www.proerudio.ro/wp-content/uploads/2023/11/ateliere-de-dezvoltare-emotionala-b.jpg"} />
@@ -237,8 +174,7 @@ export default function Page() {
                                             </strong>
                                             {"60 minute"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
@@ -251,8 +187,7 @@ export default function Page() {
                                             </strong>
                                             {"4 ședințe (1 ședință/săptămână, sâmbăta dimineața)"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
@@ -289,20 +224,9 @@ export default function Page() {
                                       </a>
                                     </div>
                                   </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div></div>
-                              </div>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <div data-href={"https://www.facebook.com/proerudio"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"false"}>
-                                <div>
-                                  <div className={"course-share"}>
+</section>
+
+<div className={"course-share"}>
                                     <span>
                                       {"Share this..."}
                                     </span>
@@ -386,27 +310,6 @@ export default function Page() {
                                       </li>
                                     </ul>
                                   </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section>
-            <div>
-              <div>
-                <div></div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </article>
+</article>
   </ContentPageLayout>;
 }

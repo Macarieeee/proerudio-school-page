@@ -296,9 +296,7 @@ export default function Page() {
                                             </strong>
                                             {"3 ședințe/săptămână"}
                                           </li>
-                                        </ul>
-                                        <ul></ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>

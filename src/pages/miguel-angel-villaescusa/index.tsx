@@ -1,10 +1,10 @@
+import teacherBanner from '@/assets/2.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
-import image0 from "@/assets/about-classroom.jpg";
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={image0 + ""} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={teacherBanner} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -27,7 +27,7 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+    <article className={"page-content teacher-profile-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <section className={"mobile-page-intro mobile-page-intro-no-image"} aria-label={"Miguel Angel Villaescusa"}>
         <h1>
           {"Miguel Angel Villaescusa"}
@@ -71,19 +71,19 @@ export default function Page() {
                               <p>
                                 <span>
                                   {"Suntem o echipă"}
-                                  {"formată din profesori tineri și pasionați de meseria noastră. Având cel puțin 10 ani de experiență atât în sistemul public, cât și în cel privat, cunoaștem în detaliu atât avantajele, cât și dezavantajele ambelor sisteme de învățământ și vă putem astfel oferi cursuri de bună calitate prin îmbinarea metodelor tradiționale specifice primului, cu cele moderne pentru accelerarea învățării."}
+                                  {" formată din profesori tineri și pasionați de meseria noastră. Având cel puțin 10 ani de experiență atât în sistemul public, cât și în cel privat, cunoaștem în detaliu atât avantajele, cât și dezavantajele ambelor sisteme de învățământ și vă putem astfel oferi cursuri de bună calitate prin îmbinarea metodelor tradiționale specifice primului, cu cele moderne pentru accelerarea învățării."}
                                 </span>
                               </p>
                               <p>
                                 <span>
                                   {"Ca și formare academică, ne mândrim cu participarea la numeroase cursuri de dezvoltare profesională"}
-                                  {"în țară și străinătate, precum și cu gradele didactice obținute cu note mari."}
+                                  {" în țară și străinătate, precum și cu gradele didactice obținute cu note mari."}
                                 </span>
                               </p>
                               <p>
                                 <span>
                                   {"Metoda noastră de predare a limbilor straine este una prietenoasa și eficientă"}
-                                  {"în același timp. Cu zâmbetul mereu pe buze și cu entuziasm, ne place să vedem lucrul bine făcut. Propunem, așadar, un cadru propice de învățare a limbilor străine."}
+                                  {" în același timp. Cu zâmbetul mereu pe buze și cu entuziasm, ne place să vedem lucrul bine făcut. Propunem, așadar, un cadru propice de învățare a limbilor străine."}
                                 </span>
                               </p>
                             </div>

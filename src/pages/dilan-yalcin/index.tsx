@@ -1,10 +1,11 @@
+import teacherBanner from '@/assets/2.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={"https://www.proerudio.ro/wp-content/uploads/2026/09/dilan.jpg"} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={teacherBanner} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -27,13 +28,7 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Dilan Yalçin"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2026/09/dilan.jpg"} alt={"Dilan Yalçin"} decoding={"async"} />
-        <h1>
-          {"Dilan Yalçin"}
-        </h1>
-      </section>
+    <article className={"page-content teacher-profile-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <div>
         <div itemProp={"mainContentOfPage"}>
           <div data-id={"12348"}></div>
@@ -48,7 +43,7 @@ export default function Page() {
                           <div>
                             <div>
                               <section className={"team-profile-header"}>
-                                <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2026/09/dilan.jpg"} alt={"Dilan Yalçin"} title={"dilan"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2026/09/dilan.jpg 2145w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-300x293.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-1024x1001.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-768x750.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-1536x1501.jpg 1536w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-2048x2001.jpg 2048w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-77x75.jpg 77w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-643x628.jpg 643w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-480x469.jpg 480w"} sizes={"180px"} className={"original-intro-image"} />
+                                <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2026/09/dilan.jpg"} alt={"Dilan Yalçin"} title={"dilan"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2026/09/dilan.jpg 2145w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-300x293.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-1024x1001.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-768x750.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-1536x1501.jpg 1536w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-2048x2001.jpg 2048w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-77x75.jpg 77w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-643x628.jpg 643w, https://www.proerudio.ro/wp-content/uploads/2026/09/dilan-480x469.jpg 480w"} sizes={"180px"} />
                                 <div>
                                   <h2>
                                     {"Dilan Yalçin"}
@@ -158,7 +153,7 @@ export default function Page() {
                                   <span lang={"TR"}>
                                     {"ş"}
                                   </span>
-                                  {"ti (25 Nov 2023)"}
+                                  {" ti (25 Nov 2023)"}
                                 </li>
                                 <li>
                                   <i>
@@ -168,7 +163,7 @@ export default function Page() {
                                   <span lang={"TR"}>
                                     {"ş"}
                                   </span>
-                                  {"ti (24 Feb 2024)"}
+                                  {" ti (24 Feb 2024)"}
                                 </li>
                                 <li>
                                   {"Certificat TESOL: World Tesol Academy (22 Mar 2024)"}
@@ -181,7 +176,7 @@ export default function Page() {
                                   <span lang={"TR"}>
                                     {"ş"}
                                   </span>
-                                  {"ti (23 Mar 2024)"}
+                                  {" ti (23 Mar 2024)"}
                                 </li>
                                 <li>
                                   <i>
@@ -191,7 +186,7 @@ export default function Page() {
                                   <span lang={"TR"}>
                                     {"ş"}
                                   </span>
-                                  {"ti (Mar 2024)"}
+                                  {" ti (Mar 2024)"}
                                 </li>
                                 <li>
                                   {"EdYOUFest, Bucuresti Conference "}

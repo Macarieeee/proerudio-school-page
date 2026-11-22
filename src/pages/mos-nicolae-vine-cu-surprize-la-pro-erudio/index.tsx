@@ -27,69 +27,52 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Moş Nicolae vine cu surprize la Pro Erudio"}>
+    <article className={"page-content event-page event-theme-winter min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+<section className={"mobile-page-intro"} aria-label={"Moş Nicolae vine cu surprize la Pro Erudio"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2019/11/mos-nicolae2.jpg"} alt={"Moş Nicolae vine cu surprize la Pro Erudio"} decoding={"async"} />
         <h1>
           {"Moş Nicolae vine cu surprize la Pro Erudio"}
         </h1>
       </section>
-      <div>
-        <div itemProp={"mainContentOfPage"}>
-          <div data-id={"466"}></div>
-          <section>
-            <div>
-              <div>
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <figure className={"original-intro-image"}>
+
+<figure className={"original-intro-image"}>
                               <div>
 
                               </div>
                             </figure>
-                          </div>
-                          <div>
-                            <div>
-                              <h2>
+
+<section className="event-welcome">
+<h2>
                                 {"Moş Nicolae vine cu "}
                                 <span>
                                   {"surprize"}
                                 </span>
                                 {"la Pro Erudio"}
                               </h2>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+<p>
                                 <span>
                                   {"Dragi părinţi,"}
                                 </span>
                               </p>
-                              <p>
+<p>
                                 <span>
                                   {"Sărbătorile de iarnă încep cu Sfântul Nicolae, iar noi, la Pro Erudio, ne bucurăm să punem zâmbete pe chipurile copiilor în spiritul vesel al sărbătorilor, oferindu-le cadouri, surprize, activități haioase, dar din care avem de învățat, discuții pe tematica sezonului, pe scurt multă, multă distracție."}
                                 </span>
                               </p>
-                              <p>
+</section>
+
+<section className="event-section">
+<p>
                                 <span>
                                   {"Astfel, anul acesta Moș Nicolae le pune copiilor cuminți în ghetuțe, pe lângă dulciurile obișnuite, și o tratație educativă, ce constă într-un voucher cadou pentru un curs interactiv/de conversație cu trainer vorbitor nativ de limbă engleză."}
                                 </span>
                               </p>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+<p>
                                 <span>
                                   {"Ce trebuie să faceți?"}
                                 </span>
                               </p>
-                              <ol>
+<ol className="event-step-list">
                                 <li>
                                   <span>
                                     {"Să ne anunțați că doriți să rezervați un loc la clubul de conversație din weekend-ul 6-7 noiembrie 2019 și noi vă vom înmâna voucherul cadou. Dacă nu puteți ajunge la noi, vi-l putem trimite în email, dar trebuie să vă ocupați dumneavoastră de imprimarea acestuia."}
@@ -106,18 +89,13 @@ export default function Page() {
                                   </span>
                                 </li>
                               </ol>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <h3>
+</section>
+
+<section className="event-section">
+<h3>
                                 {"Condiții de participare la cursul gratuit de conversație:"}
                               </h3>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <ul>
+<ul className="event-activity-list">
                                 <li>
                                   <span>
                                     {"copilul trebuie să fie înscris deja la cursurile Pro Erudio în momentul solicitării voucherului, să aiba cel putin 8 ani (clasa a II-a) și cunoștințe minime de limbă engleză;"}
@@ -129,11 +107,7 @@ export default function Page() {
                                   </span>
                                 </li>
                               </ul>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+<p>
                                 <span>
                                   {"Cluburile de conversație se vor defășura "}
                                   <strong>
@@ -146,7 +120,7 @@ export default function Page() {
                                   {". Grupele de lucru vor fi formate din maxim 10 copii, structurate în functie de vârsta și cunostinte de limba engleza."}
                                 </span>
                               </p>
-                              <p>
+<p className="event-participation">
                                 <span>
                                   {"Durata unui curs este de "}
                                   <strong>
@@ -159,11 +133,7 @@ export default function Page() {
                                   {" dupa terminarea perioadei de inscriere (4 decembrie), cu minim 24 de ore înainte de ziua de desfăşurare a cursurilor."}
                                 </span>
                               </p>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+<p className="event-participation">
                                 <span>
                                   <strong>
                                     {"Rezervările se fac printr-un email"}
@@ -179,21 +149,13 @@ export default function Page() {
                                   {" la 0771 753 323 pentru a avea o situaţie cât mai exactă a rezervărilor. Vă rugăm să specificati numele si varsta copilului, precum si ziua pentru care doriti sa faceti rezervarea."}
                                 </span>
                               </p>
-                              <p>
+<p className="event-participation">
                                 <span>
                                   {"Va rugăm să NU faceţi rezervări telefonic sau la profesorul de la grupă "}
                                   {"pentru a nu crea situaţii incomode în ziua cursului. Avem rugămintea ca solicitările de rezervare de loc să fie făcute ferm pentru a oferi posibilitatea câtor mai mulţi copii de a interacţiona cu un profesor vorbitor nativ."}
                                 </span>
                               </p>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <p>
+<p>
                                         <strong>
                                           {"Vă transmitem mai jos mesajul lui Thom, trainer vorbitor nativ care va ţine cursul interactiv de"}
                                         </strong>
@@ -204,59 +166,46 @@ export default function Page() {
                                           {":"}
                                         </strong>
                                       </p>
-                                      <p>
+<p>
                                         {"Hello,"}
                                       </p>
-                                      <p>
+<p>
                                         {"My name is Thomas King, originally from New Jersey, USA and recently immigrated to Romania where I plan to remain. In coming to Romania I had been in search of opportunities to use my passion for education and service of the public good along with my skills in both English and working with children. Now I am glad to find myself in the adventurous and enjoyable city of Bucharest, working as a native English speaker teaching interactive English classes."}
                                       </p>
-                                      <p>
+<p>
                                         {"An opportunity that I look forward to partaking in here at Pro Erudio is to offer students conversational classes to practise and hone their English speaking skills with a native English speaker. The aim of these classes is to have students speak English in a relaxed and fun way through various speaking games and adventures. "}
                                         {"The point of these classes, as I conduct them, is for students to practise what they have learnt and to expand upon what they already know in a way that emphasizes the fun part in their education."}
                                       </p>
-                                      <p>
+<p>
                                         {"With all of that said, I am inviting you to come and try out a class in the English Conversation Club."}
                                       </p>
-                                      <p>
+<p>
                                         {"Regards,"}
                                       </p>
-                                      <p>
+<p>
                                         {"Thomas King"}
                                       </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <h4>
+</section>
+
+<section className="event-section">
+<h4>
                                         <a href={"/conversatie-cu-profesor-nativ-englez-cadoul-meu-de-mos-nicolae/"} target={"_blank"} rel={"noopener noreferrer"}>
                                           <span>
                                             {"CADOUL MEU DE MOȘ NICOLAE"}
                                           </span>
                                         </a>
                                       </h4>
-                                    </div>
-                                  </div>
-                                  <div>
-                                    <figure>
+<figure>
                                       <a href={"/conversatie-cu-profesor-nativ-englez-cadoul-meu-de-mos-nicolae/"} target={"_blank"}>
                                         <img decoding={"async"} alt={""} title={"Conversatie-cu-profesor-nativ-englez-Cadoul-meu-de-Mos-Nicolae"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/Conversatie-cu-profesor-nativ-englez-Cadoul-meu-de-Mos-Nicolae.jpg 1200w, https://www.proerudio.ro/wp-content/uploads/2016/01/Conversatie-cu-profesor-nativ-englez-Cadoul-meu-de-Mos-Nicolae-300x120.jpg 300w, https://www.proerudio.ro/wp-content/uploads/2016/01/Conversatie-cu-profesor-nativ-englez-Cadoul-meu-de-Mos-Nicolae-768x307.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2016/01/Conversatie-cu-profesor-nativ-englez-Cadoul-meu-de-Mos-Nicolae-1024x410.jpg 1024w, https://www.proerudio.ro/wp-content/uploads/2016/01/Conversatie-cu-profesor-nativ-englez-Cadoul-meu-de-Mos-Nicolae-260x104.jpg 260w, https://www.proerudio.ro/wp-content/uploads/2016/01/Conversatie-cu-profesor-nativ-englez-Cadoul-meu-de-Mos-Nicolae-50x20.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/Conversatie-cu-profesor-nativ-englez-Cadoul-meu-de-Mos-Nicolae-150x60.jpg 150w"} sizes={"(max-width:767px) 480px, (max-width:1200px) 100vw, 1200px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Conversatie-cu-profesor-nativ-englez-Cadoul-meu-de-Mos-Nicolae.jpg"} />
                                       </a>
                                     </figure>
-                                  </div>
-                                  <div>
-                                    <div>
-                                      <p>
+<p>
                                         <span>
                                           {"Conversație cu profesor nativ englez"}
                                         </span>
                                       </p>
-                                      <p>
+<p>
                                         {"De unde o fi ştiut Moş Nicolae că eu îmi doresc să cunosc un englez adevărat ca să văd dacă reuşesc să mă înţeleg cu el, nu ştiu! Însă mare mi-a fost mirarea când azi-dimineaţă am găsit în cizmuliţe, pe …"}
                                         <br />
                                         <span>
@@ -270,32 +219,9 @@ export default function Page() {
                                           </span>
                                         </span>
                                       </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <div data-href={"https://www.facebook.com/proerudio"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"false"}></div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <div data-href={"https://www.facebook.com/proerudio"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"false"}>
-                                        <div>
-                                          <div className={"course-share"}>
+</section>
+
+<div className={"course-share"}>
                                             <span>
                                               {"Share this..."}
                                             </span>
@@ -379,31 +305,6 @@ export default function Page() {
                                               </li>
                                             </ul>
                                           </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section>
-            <div>
-              <div>
-                <div></div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </article>
+</article>
   </ContentPageLayout>;
 }

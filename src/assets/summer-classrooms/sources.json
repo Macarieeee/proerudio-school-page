@@ -1,0 +1,51 @@
+{
+  "provider": "Pexels",
+  "license": "https://www.pexels.com/license/",
+  "images": [
+    {
+      "file": "german-junior.jpg",
+      "page": "sprechen-sie-deutsch-copii-5-8-ani",
+      "photographer": "Artem Podrez",
+      "source": "https://www.pexels.com/photo/6990426/",
+      "download": "https://images.pexels.com/photos/6990426/pexels-photo-6990426.jpeg?auto=compress&cs=tinysrgb&w=1920&q=85",
+      "objectPosition": "50% 58%",
+      "selectionBasis": "Pexels source tags include European; nationality of individual models is not independently verified."
+    },
+    {
+      "file": "german.jpg",
+      "page": "sprechen-sie-deutsch-copii-9-13-ani",
+      "photographer": "Artem Podrez",
+      "source": "https://www.pexels.com/photo/6990471/",
+      "download": "https://images.pexels.com/photos/6990471/pexels-photo-6990471.jpeg?auto=compress&cs=tinysrgb&w=1920&q=85",
+      "objectPosition": "50% 35%",
+      "selectionBasis": "Pexels source tags include European; nationality of individual models is not independently verified."
+    },
+    {
+      "file": "french.jpg",
+      "page": "apprendre-en-samusant",
+      "photographer": "Artem Podrez",
+      "source": "https://www.pexels.com/photo/6990431/",
+      "download": "https://images.pexels.com/photos/6990431/pexels-photo-6990431.jpeg?auto=compress&cs=tinysrgb&w=1920&q=85",
+      "objectPosition": "50% 55%",
+      "selectionBasis": "Pexels source tags include European; nationality of individual models is not independently verified."
+    },
+    {
+      "file": "spanish.jpg",
+      "page": "hola-spaniola",
+      "photographer": "Artem Podrez",
+      "source": "https://www.pexels.com/photo/6990566/",
+      "download": "https://images.pexels.com/photos/6990566/pexels-photo-6990566.jpeg?auto=compress&cs=tinysrgb&w=1920&q=85",
+      "objectPosition": "50% 20%",
+      "selectionBasis": "Pexels source tags include European; nationality of individual models is not independently verified."
+    },
+    {
+      "file": "japanese.jpg",
+      "page": "japonia-cool",
+      "photographer": "Artem Podrez",
+      "source": "https://www.pexels.com/photo/6941087/",
+      "download": "https://images.pexels.com/photos/6941087/pexels-photo-6941087.jpeg?auto=compress&cs=tinysrgb&w=1920&q=85",
+      "objectPosition": "50% 45%",
+      "selectionBasis": "Pexels source tags include European; nationality of individual models is not independently verified."
+    }
+  ]
+}

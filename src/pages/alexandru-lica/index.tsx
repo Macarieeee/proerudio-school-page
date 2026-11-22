@@ -1,10 +1,11 @@
+import teacherBanner from '@/assets/2.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/alexandrulica.jpg"} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={teacherBanner} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -27,7 +28,7 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+    <article className={"page-content teacher-profile-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <section className={"mobile-page-intro"} aria-label={"Alexandru Lica"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/alexandrulica.jpg"} alt={"Alexandru Lica"} decoding={"async"} />
         <h1>
@@ -70,7 +71,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"Student la Facultatea de Teologie (secția Arta"}
-                                  {"Sacră); 2013 – prezent"}
+                                  {" Sacră); 2013 – prezent"}
                                 </li>
                                 <li>
                                   {"Formator în circ; Certificat YOUTH PASS, 2014"}
@@ -78,7 +79,7 @@ export default function Page() {
                               </ul>
                               <h3>
                                 {"Experiență"}
-                                {"profesională"}
+                                {" profesională"}
                               </h3>
                               <ul>
                                 <li>

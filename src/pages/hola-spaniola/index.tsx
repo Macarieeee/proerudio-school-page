@@ -1,11 +1,12 @@
-import heroImage from '@/assets/hola-spaniola.jpg';
+import heroImage from '@/assets/the-average-student-myth.jpg';
+import '@/styles/summer-language-pages.css';
 import ContentPageLayout from '@/components/ContentPageLayout';
 import image0 from "@/assets/about-classroom.jpg";
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={heroImage} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={heroImage} style={{ objectPosition: '50% 45%' }} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -28,15 +29,16 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+    <article className={"summer-language-page language-spanish page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <section className={"mobile-page-intro"} aria-label={"Hola Spaniola!"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2020/05/hola.jpg"} alt={"Hola Spaniola!"} decoding={"async"} />
+        <img src={heroImage} style={{ objectPosition: '50% 45%' }} alt={"Hola Spaniola!"} decoding={"async"} />
         <h1>
           {"Hola Spaniola!"}
         </h1>
       </section>
       <div>
-        <div itemProp={"mainContentOfPage"}>
+        <div className="course-language-label"><span aria-hidden="true" />Spaniolă<span className="course-language-season">Cursuri de vară</span></div>
+      <div itemProp={"mainContentOfPage"}>
           <div data-id={"409"}></div>
           <section>
             <div>
@@ -55,7 +57,7 @@ export default function Page() {
                           </div>
                           <div>
                             <div>
-                              <h2>
+                              <h2 className="course-copy-heading">
                                 {"Curs de vară de limba spaniolă"}
                                 <span>
                                   {"“Hola Spaniola!”"}
@@ -65,7 +67,7 @@ export default function Page() {
                           </div>
                           <div>
                             <div>
-                              <h3>
+                              <h3 className="course-copy-heading">
                                 <span>
                                   {"Disponibil "}
                                   <span>
@@ -83,32 +85,29 @@ export default function Page() {
                           </div>
                           <div>
                             <div>
-                              <h5>
+                              <h5 className="course-copy-heading">
                                 <span>
                                   {"Cursuri pentru copii de 9 – 14 ani"}
                                 </span>
                               </h5>
-                              <p>
-                                <span>
-                                  {"I"}
-                                </span>
-                                {"\nţi place limba spaniolă şi ştii că în societatea contemporană cunoaşterea a cel puţin două limbi străine a devenit o necesitate? Atunci de ce să nu profiţi de timpul liber din timpul verii şi să urmezi un curs de vară de limba spaniolă la Pro Erudio, fie că vrei să aprofundezi nişte cunoştinţe deja acumulate sau vrei să vezi cum este…"}
+                              <p className="course-copy course-copy-lead">
+                                {"Îți place limba spaniolă și știi că în societatea contemporană cunoașterea a cel puțin două limbi străine a devenit o necesitate? Atunci de ce să nu profiți de timpul liber din timpul verii și să urmezi un curs de vară de limba spaniolă la Pro Erudio, fie că vrei să aprofundezi niște cunoștințe deja acumulate sau vrei să vezi cum este…"}
                               </p>
-                              <p>
-                                {"Lumea avansează cu repeziciune, iar educaţia şi, bineînţeles, metodele de învăţare nu pot rămâne în urmă. Cu atât mai puţin cele referitoare la studiul limbilor străine, tot mai importante în orice curriculum vitae într-o societate tot mai globalizată. De aceea, la Pro Erudio credem că importanţi sunt copiii, necesităţile lor, iar profesorii sunt cei care trebuie să se adapteze la aceste noi realităţi."}
+                              <p className="course-copy">
+                                {"Lumea avansează cu repeziciune, iar educația și, bineînțeles, metodele de învățare nu pot rămâne în urmă. Cu atât mai puțin cele referitoare la studiul limbilor străine, tot mai importante în orice curriculum vitae într-o societate tot mai globalizată. De aceea, la Pro Erudio credem că importanți sunt copiii, necesitățile lor, iar profesorii sunt cei care trebuie să se adapteze la aceste noi realități."}
                               </p>
-                              <p>
+                              <p className="course-copy">
                                 <img decoding={"async"} alt={"hablaespanol-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/hablaespanol-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/hablaespanol-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/hablaespanol-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/hablaespanol-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/hablaespanol-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/hablaespanol-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/hablaespanol-150x150.jpg"} />
                               </p>
-                              <p>
-                                {"Într-o lume în care imaginea, tehnologia, reţelele sociale şi cultura audio-vizuală au o tot mai mare importanţă, nici cursurile noastre de spaniolă nu pot fi mai prejos."}
+                              <p className="course-copy">
+                                {"Într-o lume în care imaginea, tehnologia, rețelele sociale și cultura audiovizuală au o tot mai mare importanță, nici cursurile noastre de spaniolă nu pot fi mai prejos."}
                                 <br />
-                                {"\nDe aceea, folosim metode moderne de predare care să permită multiplicarea eficienţei învăţării, făcând ca elevii noştri să se simtă integraţi în realitatea culturii spaniole şi în centrul diverselor situaţii comunicative. în acest sens, pe lângă faptul că avem un profesor nativ, vom folosi toate mediile avute la dispoziţie pentru a-l face pe cursant să se simtă ca şi cum s-ar afla în centrul Madridului, într-un teatru din Barcelona, pe o plajă din Malaga, mâncând o paella într-un restaurant din Valencia (sau, de ce nu, susţinând un interviu de angajare într-o multinaţională spaniolă) – toate acum posibile prin intermediul înregistrărilor video sau audio ori chiar recreând situaţii şi roluri care s-ar putea experimenta în orice loc din Spania."}
+                                {"\nDe aceea, folosim metode moderne de predare care să permită multiplicarea eficienței învățării, făcând ca elevii noștri să se simtă integrați în realitatea culturii spaniole și în centrul diverselor situații comunicative. În acest sens, pe lângă faptul că avem un profesor nativ, vom folosi toate mediile avute la dispoziție pentru a-l face pe cursant să se simtă ca și cum s-ar afla în centrul Madridului, într-un teatru din Barcelona, pe o plajă din Malaga, mâncând o paella într-un restaurant din Valencia (sau, de ce nu, susținând un interviu de angajare într-o multinațională spaniolă) – toate acum posibile prin intermediul înregistrărilor video sau audio ori chiar recreând situații și roluri care s-ar putea experimenta în orice loc din Spania."}
                               </p>
-                              <p>
-                                {"Desigur, toate cele de mai sus vor fi posibile fără a uita că orice limbă străină se învaţă corect prin asimilarea noţiunilor de gramatică şi vocabular şi utilizarea lor în contexte autentice, adaptate vârstei şi necesităţilor copiilor, nivelului lor de cunoaştere şi înţelegere, dar şi obiectivelor personale."}
+                              <p className="course-copy">
+                                {"Desigur, toate cele de mai sus vor fi posibile fără a uita că orice limbă străină se învață corect prin asimilarea noțiunilor de gramatică și vocabular și utilizarea lor în contexte autentice, adaptate vârstei și necesităților copiilor, nivelului lor de cunoaștere și înțelegere, dar și obiectivelor personale."}
                               </p>
-                              <p>
+                              <p className="course-copy">
                                 {"Click "}
                                 <a href={"/galerii-foto/"}>
                                   {"aici "}
@@ -123,7 +122,7 @@ export default function Page() {
                                 <div>
                                   <div>
                                     <div>
-                                      <h4>
+                                      <h4 className="course-copy-heading">
                                         {"Detalii organizatorice:"}
                                       </h4>
                                     </div>
@@ -176,8 +175,7 @@ export default function Page() {
                                             </strong>
                                             {"începător/elementar"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
@@ -190,8 +188,7 @@ export default function Page() {
                                             </strong>
                                             {"5 ședințe"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>

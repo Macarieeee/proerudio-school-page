@@ -28,52 +28,31 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Bring a friend week"}>
+    <article className={"page-content event-page event-theme-blue min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+<section className={"mobile-page-intro"} aria-label={"Bring a friend week"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2019/06/bring-a-friend.jpg"} alt={"Bring a friend week"} decoding={"async"} />
         <h1>
           {"Bring a friend week"}
         </h1>
       </section>
-      <div>
-        <div itemProp={"mainContentOfPage"}>
-          <div data-id={"11069"}></div>
-          <section>
-            <div>
-              <div>
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <figure className={"original-intro-image"}>
+
+<figure className={"original-intro-image"}>
                               <div>
 
                               </div>
                             </figure>
-                          </div>
-                          <div>
-                            <div>
-                              <h2>
+
+<section className="event-welcome">
+<h2>
                                 <span>
                                   {"Bring a friend week"}
                                   <br />
                                 </span>
                               </h2>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <div data-href={"https://www.facebook.com/proerudio"} data-layout={"standard"} data-action={"like"} data-show-faces={"false"} data-share={"false"}></div>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <h3>
+<h3>
                                 {"Prietenii prietenilor noștri sunt și prietenii noștri"}
                               </h3>
-                              <p>
+<p>
                                 <span>
                                   {"Ai prieteni care vor să ne cunoască? Minunat!"}
                                   <br />
@@ -85,18 +64,13 @@ export default function Page() {
                                   {"\nCâte? Câte dorești, dar doar câte una pentru fiecare prieten!"}
                                 </span>
                               </p>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <h3>
+</section>
+
+<section className="event-section">
+<h3>
                                         {"Ce trebuie să faci?"}
                                       </h3>
-                                      <p>
+<p className="event-participation">
                                         <span>
                                           {"Ce trebuie să faci? Nimic dificil. Doar să ne trimiți "}
                                           <span>
@@ -114,19 +88,7 @@ export default function Page() {
                                           <br />
                                         </span>
                                       </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <p>
+<p className="event-participation">
                                         <span>
                                           <span>
                                             <strong>
@@ -151,29 +113,7 @@ export default function Page() {
                                           <br />
                                         </span>
                                       </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section>
-            <div>
-              <div>
-                <div></div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </article>
+</section>
+</article>
   </ContentPageLayout>;
 }

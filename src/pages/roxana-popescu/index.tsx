@@ -1,10 +1,11 @@
+import teacherBanner from '@/assets/2.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={"https://www.proerudio.ro/wp-content/uploads/2026/09/roxana.jpg"} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={teacherBanner} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -27,13 +28,7 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Roxana Popescu"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2026/09/roxana.jpg"} alt={"Roxana Popescu"} decoding={"async"} />
-        <h1>
-          {"Roxana Popescu"}
-        </h1>
-      </section>
+    <article className={"page-content teacher-profile-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <div>
         <div itemProp={"mainContentOfPage"}>
           <div data-id={"51"}></div>
@@ -48,7 +43,9 @@ export default function Page() {
                           <div>
                             <div>
                               <section className={"team-profile-header"}>
-                                <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2026/09/roxana.jpg"} alt={"Roxana Popescu"} title={"roxana"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2026/09/roxana.jpg 2060w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-284x300.jpg 284w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-968x1024.jpg 968w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-768x812.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-1452x1536.jpg 1452w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-1936x2048.jpg 1936w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-71x75.jpg 71w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-594x628.jpg 594w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-480x508.jpg 480w"} sizes={"180px"} className={"original-intro-image"} />
+                                <div className="roxana-profile-portrait">
+                                  <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2026/09/roxana.jpg"} alt={"Roxana Popescu"} title={"roxana"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2026/09/roxana.jpg 2060w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-284x300.jpg 284w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-968x1024.jpg 968w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-768x812.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-1452x1536.jpg 1452w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-1936x2048.jpg 1936w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-71x75.jpg 71w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-594x628.jpg 594w, https://www.proerudio.ro/wp-content/uploads/2026/09/roxana-480x508.jpg 480w"} sizes={"180px"} />
+                                </div>
                                 <div>
                                   <h2>
                                     {"Roxana Popescu"}
@@ -56,7 +53,8 @@ export default function Page() {
                                   <h6>
                                     <span>
                                       {"PROFESOR DE LIMBA ENGLEZĂ"}
-                                      {"– DIRECTOR OF STUDIES"}
+                                      <br />
+                                      {"DIRECTOR OF STUDIES"}
                                     </span>
                                   </h6>
                                   <a href={"/echipa-pro-erudio/"}>
@@ -89,24 +87,22 @@ export default function Page() {
                               <ul>
                                 <li>
                                   <span>
-                                    {"Licențiată"}
-                                    {"în filologie – Facultatea de Litere, Universitatea din Craiova Specializare: limba și literatura engleză – limba și literatura franceză, 2001"}
+                                    {"Licențiată în filologie – Facultatea de Litere, Universitatea din Craiova. Specializare: limba și literatura engleză – limba și literatura franceză, 2001"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
-                                    {"Bursă universitară (2000), Universitatea din Corsica “Pascal Paoli”, Franța"}
+                                    {"Bursă universitară (2000), Universitatea din Corsica „Pascal Paoli”, Franța"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
-                                    {"Licențiată"}
-                                    {"în filosofie/sociologie – Facultatea de Istorie, Filosofie și Geografie, Universitatea din Craiova, Specializare: filosofie – sociologie, 2006"}
+                                    {"Licențiată în filosofie/sociologie – Facultatea de Istorie, Filosofie și Geografie, Universitatea din Craiova. Specializare: filosofie – sociologie, 2006"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
-                                    {"Studii postuniversitare, Programul de Masterat “Modernitate în cultura și literatura europeană”, Universitatea “Spiru Haret”, București, martie 2009"}
+                                    {"Studii postuniversitare, programul de masterat „Modernitate în cultura și literatura europeană”, Universitatea „Spiru Haret”, București, martie 2009"}
                                   </span>
                                 </li>
                                 <li>
@@ -116,34 +112,38 @@ export default function Page() {
                                 </li>
                                 <li>
                                   <span>
-                                    {"Absolventă a cursului „Manager de Proiect”, organizat de EuroBest Team, martie, 2011"}
+                                    {"Absolventă a cursului „Manager de Proiect”, organizat de EuroBest Team, martie 2011"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
-                                    {"Absolventă a cursului de formare în Marea Britanie Refresher Course in Practical, Creative Methodology for Overseas English Language Teachers- Secondary Education, organizat de “Lake School of English”, Oxford și finanțat prin Programul Sectorial Comenius cu sprijinul FSE și POSDRU, iulie 2011"}
+                                    {"Absolventă a cursului de formare în Marea Britanie „Refresher Course in Practical, Creative Methodology for Overseas English Language Teachers – Secondary Education”, organizat de „Lake School of English”, Oxford, și finanțat prin Programul Sectorial Comenius cu sprijinul FSE și POSDRU, iulie 2011"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
-                                    {"Absolventă"}
-                                    {"a cursului Antreprenoriat la Feminin, martie 2012"}
+                                    {"Absolventă a cursului „Antreprenoriat la Feminin”, martie 2012"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
-                                    {"Gradul didactic II (2009) obținut cu media 10 și Gradul didactic I (2012) obținut cu media 10"}
+                                    {"Gradul didactic II (2009), obținut cu media 10"}
+                                  </span>
+                                </li>
+                                <li>
+                                  <span>
+                                    {"Gradul didactic I (2012), obținut cu media 10"}
                                   </span>
                                 </li>
                               </ul>
                               <h3>
                                 {"Experiență"}
-                                {"profesională"}
+                                {" profesională"}
                               </h3>
                               <ul>
                                 <li>
                                   {"De-a lungul timpului, pe lângă"}
-                                  {"postul de profesor titular de limba engleză de la Colegiul Național “Spiru Haret”, a avut o mulțime de colaborări cu diferite centre de limbi străine, școli și grădinițe particulare cum ar fi Shakespeare School, Kids Club, Planeta Copiilor, ABC Training etc."}
+                                  {" postul de profesor titular de limba engleză de la Colegiul Național “Spiru Haret”, a avut o mulțime de colaborări cu diferite centre de limbi străine, școli și grădinițe particulare cum ar fi Shakespeare School, Kids Club, Planeta Copiilor, ABC Training etc."}
                                 </li>
                               </ul>
                               <h3>
@@ -214,7 +214,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"Conferința de informare și conștientizare a oportunităților antreprenoriale din cadrul proiectului POSDRU “Dezvoltarea competențelor antreprenoriale – o alternativă"}
-                                  {"eficientă de adaptare la piața muncii în societatea informațională”"}
+                                  {" eficientă de adaptare la piața muncii în societatea informațională”"}
                                 </li>
                                 <li>
                                   {"“The Oxford Winter Day Workshops”"}
@@ -230,7 +230,7 @@ export default function Page() {
                                   <i>
                                     {"British Council"}
                                   </i>
-                                  {"și "}
+                                  {" și "}
                                   <i>
                                     {"Casa Corpului Didactic"}
                                   </i>
@@ -240,7 +240,7 @@ export default function Page() {
                                   </i>
                                   {","}
                                   <i>
-                                    {"Oxford"}
+                                    {" Oxford"}
                                   </i>
                                   {", "}
                                   <i>
@@ -255,19 +255,19 @@ export default function Page() {
                               <ul>
                                 <li>
                                   {"coordonator grup tabăra educațională de limba engleză"}
-                                  {"în România English Explorers Camps, 2011-prezent"}
+                                  {" în România English Explorers Camps, 2011-prezent"}
                                 </li>
                                 <li>
                                   {"coordonator grup tabăra educațională de limba engleză"}
-                                  {"în Marea Britanie, 2010 (Oxford), 2013 (Canterbury), 2016 (Wycliffe), 2019 (Ramsgate)"}
+                                  {" în Marea Britanie, 2010 (Oxford), 2013 (Canterbury), 2016 (Wycliffe), 2019 (Ramsgate)"}
                                 </li>
                                 <li>
                                   {"coordonator grup tabăra educațională de limba engleză"}
-                                  {"în România British Camps (Cheile Gradiștei), iulie 2013 si 2014"}
+                                  {" în România British Camps (Cheile Gradiștei), iulie 2013 si 2014"}
                                 </li>
                                 <li>
                                   {"coordonator grup tabăra educațională de limba engleză"}
-                                  {"în Marea Britanie (University of Kent, Canterbury), august, 2013"}
+                                  {" în Marea Britanie (University of Kent, Canterbury), august, 2013"}
                                 </li>
                                 <li>
                                   {"organizator de numeroase evenimente ( ” Tea, Quizzes and Fun” , “Talent Show”, “Our Future Is in Our Hands”, “Deserturi multiculturale pentru papile și timpane”, “Drama Is Fun”, “Essays and Watercolours” etc.)"}
@@ -280,7 +280,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"coordonator Parteneriat educațional național “Orașul nostru ieri, azi, în viitor”, concursul de eseuri pe tema “What is the Meaning of Tolerance in the Modern World?”, eveniment organizat de Ambasada Statelor Unite ale Americii, inițiator activitate de voluntariat “Un mediu mai curat, o viață"}
-                                  {"mai sănătoasă”"}
+                                  {" mai sănătoasă”"}
                                 </li>
                                 <li>
                                   {"teacher trainer, Shakespeare School of Languages, ABC Training"}

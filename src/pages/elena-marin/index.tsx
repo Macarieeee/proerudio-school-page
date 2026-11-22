@@ -1,10 +1,11 @@
+import teacherBanner from '@/assets/2.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/elenamarin.jpg"} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={teacherBanner} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -27,13 +28,7 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Elena Marin"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/elenamarin.jpg"} alt={"Elena Marin"} decoding={"async"} />
-        <h1>
-          {"Elena Marin"}
-        </h1>
-      </section>
+    <article className={"page-content teacher-profile-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <div>
         <div itemProp={"mainContentOfPage"}>
           <div data-id={"58"}></div>
@@ -48,7 +43,7 @@ export default function Page() {
                           <div>
                             <div>
                               <section className={"team-profile-header"}>
-                                <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/elenamarin-226x300.jpg"} alt={"Elena Marin"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/elenamarin-226x300.jpg 226w, https://www.proerudio.ro/wp-content/uploads/2016/01/elenamarin-110x146.jpg 110w, https://www.proerudio.ro/wp-content/uploads/2016/01/elenamarin-38x50.jpg 38w, https://www.proerudio.ro/wp-content/uploads/2016/01/elenamarin-56x75.jpg 56w, https://www.proerudio.ro/wp-content/uploads/2016/01/elenamarin.jpg 425w"} sizes={"180px"} className={"original-intro-image"} />
+                                <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/elenamarin-226x300.jpg"} alt={"Elena Marin"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/elenamarin-226x300.jpg 226w, https://www.proerudio.ro/wp-content/uploads/2016/01/elenamarin-110x146.jpg 110w, https://www.proerudio.ro/wp-content/uploads/2016/01/elenamarin-38x50.jpg 38w, https://www.proerudio.ro/wp-content/uploads/2016/01/elenamarin-56x75.jpg 56w, https://www.proerudio.ro/wp-content/uploads/2016/01/elenamarin.jpg 425w"} sizes={"180px"} />
                                 <div>
                                   <h2>
                                     {"Elena Marin"}
@@ -90,14 +85,14 @@ export default function Page() {
                               <ul>
                                 <li>
                                   {"Licențiată"}
-                                  {"în jurnalism și științele comunicării, Universitatea București, 2010"}
+                                  {" în jurnalism și științele comunicării, Universitatea București, 2010"}
                                 </li>
                                 <li>
                                   {"Absolventă a Cursului de formator, GS Consulting, 2013"}
                                 </li>
                                 <li>
                                   {"Studii postuniversitare, Programul de Masterat “Administrarea afacerilor” cu predare bilingvă"}
-                                  {"engleză-română, Academia de Studii Economice, Universitatea din București, 2014"}
+                                  {" engleză-română, Academia de Studii Economice, Universitatea din București, 2014"}
                                 </li>
                                 <li>
                                   {"Certificare Teaching Knowledge Test (YLE), 1 aprilie 2019"}
@@ -112,7 +107,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"Trainer și speaker, limba engleză"}
-                                  {"și limba română, “Life After Work”, 2012 – prezent"}
+                                  {" și limba română, “Life After Work”, 2012 – prezent"}
                                 </li>
                               </ul>
                               <h3>
@@ -191,14 +186,17 @@ export default function Page() {
                                 {"Alte activități"}
                               </h3>
                               <p>
+                                {"Coordonator tabere de limba engleză și aventură „English Explorer Camps”, din 2016"}
+                              </p>
+                              <p>
                                 {"Coordonator grup tabăra educațională de limba engleză"}
-                                {"în România Consiliul Britanic, zona Bran, vara 2014"}
+                                {" în România Consiliul Britanic, zona Bran, vara 2014"}
                               </p>
                               <p>
                                 {"Proiectarea activității în cadrul clubului Britteen pentru copii de 9-14 ani"}
                               </p>
                               <p>
-                                {"Organizator evenimente în cadrul Life After Work"}
+                                {"Organizator evenimente în cadrul programului „Life After Work”"}
                               </p>
                               <p>
                                 {"Organizator teambuilding pentru parteneri, atât în limba română, cât și în limba engleză (Vodafone, Erikson, Michelin, The Group, Strauss, Butan Gas, etc)"}

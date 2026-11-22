@@ -479,8 +479,7 @@ export default function Page() {
                                             </strong>
                                             {" 90 de minute"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
@@ -493,8 +492,7 @@ export default function Page() {
                                             </strong>
                                             {" 6 ședințe (3 ședințe/săptămână, două săptămâni consecutive)"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>

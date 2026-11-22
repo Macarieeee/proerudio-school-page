@@ -1,11 +1,12 @@
-import heroImage from '@/assets/sprechen-sie-deutsch-copii-9-13-ani.jpg';
+import heroImage from '@/assets/DEP827-crop.webp';
+import '@/styles/summer-language-pages.css';
 import ContentPageLayout from '@/components/ContentPageLayout';
 import image0 from "@/assets/about-classroom.jpg";
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={heroImage} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={heroImage} style={{ objectPosition: '50% 45%' }} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -28,15 +29,16 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+    <article className={"summer-language-page language-german page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <section className={"mobile-page-intro"} aria-label={"Sprechen und Schreiben Sie Deutsch? – Copii 9 – 13 ani"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Sprechen-und-Schreiben-Sie-Deutsch.jpg"} alt={"Sprechen und Schreiben Sie Deutsch? – Copii 9 – 13 ani"} decoding={"async"} />
+        <img src={heroImage} style={{ objectPosition: '50% 45%' }} alt={"Sprechen und Schreiben Sie Deutsch? – Copii 9 – 13 ani"} decoding={"async"} />
         <h1>
           {"Sprechen und Schreiben Sie Deutsch? – Copii 9 – 13 ani"}
         </h1>
       </section>
       <div>
-        <div itemProp={"mainContentOfPage"}>
+        <div className="course-language-label"><span aria-hidden="true" />Germană<span className="course-language-season">Cursuri de vară</span></div>
+      <div itemProp={"mainContentOfPage"}>
           <div data-id={"380"}></div>
           <section>
             <div>
@@ -55,7 +57,7 @@ export default function Page() {
                           </div>
                           <div>
                             <div>
-                              <h2>
+                              <h2 className="course-copy-heading">
                                 {"Curs de vară de limba germană"}
                                 <br />
                                 <span>
@@ -71,35 +73,32 @@ export default function Page() {
                           </div>
                           <div>
                             <div>
-                              <h5>
+                              <h5 className="course-copy-heading">
                                 <span>
                                   {"Cursuri pentru copii de 9"}
                                   {"– 13 ani"}
                                 </span>
                               </h5>
-                              <p>
-                                <span>
-                                  {"A"}
-                                </span>
-                                {"\nţi avut vreodată impresia că pentru a te face înţeles într-o limba străină pe care o cunoşti destul de puţin, nu ai nevoie de noţiuni complicate de gramatică sau de un vocabular deosebit de bogat ?"}
+                              <p className="course-copy course-copy-lead">
+                                {"Ai avut vreodată impresia că pentru a te face înțeles într-o limbă străină pe care o cunoști destul de puțin, nu ai nevoie de noțiuni complicate de gramatică sau de un vocabular deosebit de bogat?"}
                                 <br />
-                                {"\nAi parcurs vreodată un ghid de conversaţie înainte de a vizită o ţară pentru a-ţi face o idee despre cum « sună » limba respectivă sau măcar să înţelegi ce scrie pe indicatoare de genul « La stânga » sau « Spre centru oraşului » sau «Cofetărie »."}
+                                {"\nAi parcurs vreodată un ghid de conversație înainte de a vizita o țară pentru a-ți face o idee despre cum „sună” limba respectivă sau măcar să înțelegi ce scrie pe indicatoare de genul „La stânga” sau „Spre centrul orașului” sau „Cofetărie”?"}
                                 <br />
-                                {"\nDacă da, atunci înţelegi de ce considerăm că un curs introductiv care să se bazeze pe reconstruirea de situaţii de viaţă reală aduce, pe lângă un plus de cunoaştere a limbii germane, un set de structuri de limba care, folosite corect, ne pot scoate din încurcătură."}
+                                {"\nDacă da, atunci înțelegi de ce considerăm că un curs introductiv care să se bazeze pe reconstruirea de situații de viață reală aduce, pe lângă un plus de cunoaștere a limbii germane, un set de structuri de limbă care, folosite corect, ne pot scoate din încurcătură."}
                               </p>
-                              <p>
-                                {"Prin intermediul acestui curs, copiii vor învaţă să folosească formule uzuale de adresare în diferite situaţii de viaţă: să ceară indicaţii, să comande la restaurant, să cumpere de la magazin, să facă cunoştinţă etc. Cursul de vara de limba germană se desfăşoară atât scris, cât şi oral, cu accent pe dialog şi joc de rol, cu suport video şi audio pentru fiecare situaţie de comunicare vizată."}
+                              <p className="course-copy">
+                                {"Prin intermediul acestui curs, copiii vor învăța să folosească formule uzuale de adresare în diferite situații de viață: să ceară indicații, să comande la restaurant, să cumpere de la magazin, să facă cunoștință etc. Cursul de vară de limba germană se desfășoară atât scris, cât și oral, cu accent pe dialog și joc de rol, cu suport video și audio pentru fiecare situație de comunicare vizată."}
                               </p>
-                              <p>
-                                {"De asemenea, cursul pune accent pe lucrul în echipa şi cooperare, deoarece prin joacă învăţăm cel mai bine şi prin repetiţie reţinem corect şi pe termen lung. Menţionăm faptul că se va pune accent pe achiziţia de expresii uzuale în context, pe învăţarea regulilor de citire şi înţelegerea globală a textului audiat sau lecturat, nu pe predarea sistematică a gramaticii (limba germană este binecunoscută pentru gramatică stufoasă şi greoaie)."}
+                              <p className="course-copy">
+                                {"De asemenea, cursul pune accent pe lucrul în echipă și cooperare, deoarece prin joacă învățăm cel mai bine și prin repetiție reținem corect și pe termen lung. Menționăm faptul că se va pune accent pe achiziția de expresii uzuale în context, pe învățarea regulilor de citire și înțelegerea globală a textului audiat sau lecturat, nu pe predarea sistematică a gramaticii (limba germană este binecunoscută pentru gramatica sa stufoasă și greoaie)."}
                               </p>
-                              <h3>
-                                {"Structura cursului de introducere în învăţarea limbii germane:"}
+                              <h3 className="course-copy-heading">
+                                {"Structura cursului de introducere în învățarea limbii germane:"}
                               </h3>
-                              <p>
-                                {"1. Generalităţi – formule de salut, rugăminţi, mulţumiri, numeralul şi exprimarea orei"}
+                              <p className="course-copy">
+                                {"1. Generalități – formule de salut, rugăminți, mulțumiri, numeralul și exprimarea orei"}
                                 <br />
-                                {"\n2. Starea vremii şi anotimpurile, lunile anului"}
+                                {"\n2. Starea vremii și anotimpurile, lunile anului"}
                                 <br />
                                 {"\n3. Pe drum"}
                                 <br />
@@ -107,21 +106,21 @@ export default function Page() {
                                 <br />
                                 {"\n5. La restaurant"}
                                 <br />
-                                {"\n6. În oraş (direcţii, obiective turistice)"}
+                                {"\n6. În oraș (direcții, obiective turistice)"}
                                 <br />
                                 {"\n7. La doctor"}
                                 <br />
                                 {"\n8. La cumpărături"}
                                 <br />
-                                {"\n9. Timp liber (la teatru, plajă, sport etc)"}
+                                {"\n9. Timp liber (la teatru, plajă, sport etc.)"}
                                 <br />
-                                {"\n10. Reluarea noţiunilor învăţate anterior în contexte noi"}
+                                {"\n10. Reluarea noțiunilor învățate anterior în contexte noi"}
                               </p>
-                              <p>
-                                {"Aşa că, de ce să nu profiţi de timpul liber din vacanţă şi să împuşti doi iepuri dintr-o lovitură: să faci ceva folositor şi distractiv în acelaşi timp – cursurile de vara conţin foarte multe activităţi de joc, cântece, secvenţe video, competiţii etc, accentul fiind pe comunicare, fără teme şi fişe de lucru interminabile. Mai mult, îţi vei face prieteni noi, iar în toamna colegii te vor invidia pentru cunoştinţele tale de limba germană (pe care între timp le-ai folosit deja în călătorii)."}
+                              <p className="course-copy">
+                                {"Așa că, de ce să nu profiți de timpul liber din vacanță și să împuști doi iepuri dintr-o lovitură: să faci ceva folositor și distractiv în același timp – cursurile de vară conțin foarte multe activități de joc, cântece, secvențe video, competiții etc., accentul fiind pe comunicare, fără teme și fișe de lucru interminabile. Mai mult, îți vei face prieteni noi, iar în toamnă colegii te vor invidia pentru cunoștințele tale de limba germană (pe care între timp le-ai folosit deja în călătorii)."}
                               </p>
-                              <p>
-                                {"Succes !"}
+                              <p className="course-copy">
+                                {"Succes!"}
                               </p>
                             </div>
                           </div>
@@ -131,10 +130,10 @@ export default function Page() {
                                 <div>
                                   <div>
                                     <div>
-                                      <h4>
+                                      <h4 className="course-copy-heading">
                                         {"Câteva imagini de la cursurile de vară de limba germană:"}
                                       </h4>
-                                      <p>
+                                      <p className="course-copy">
                                         <a href={"https://www.facebook.com/media/set/?set=a.734640659970778.1073741877.114304442004406&type=3"} target={"_blank"} rel={"noopener noreferrer"}>
                                           {"Album “cursuri de vară de limba germană "}
                                           {"2015”"}
@@ -152,7 +151,7 @@ export default function Page() {
                                 <div>
                                   <div>
                                     <div>
-                                      <h4>
+                                      <h4 className="course-copy-heading">
                                         {"Detalii organizatorice:"}
                                       </h4>
                                     </div>
@@ -213,8 +212,7 @@ export default function Page() {
                                             </strong>
                                             {"120 minute*"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
@@ -227,9 +225,7 @@ export default function Page() {
                                             </strong>
                                             {"6 ședințe"}
                                           </li>
-                                        </ul>
-                                        <ul></ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>

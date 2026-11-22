@@ -44,16 +44,16 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Halloween Party 2015"}>
+    <article className={"page-content event-page event-theme-autumn min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+<span id="post-608" aria-hidden="true" />
+<section className={"mobile-page-intro"} aria-label={"Halloween Party 2015"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/Halloween-Party-2015.jpg"} alt={"Halloween Party 2015"} decoding={"async"} />
         <h1>
           {"Halloween Party 2015"}
         </h1>
       </section>
-      <div>
-        <article id={"post-608"}>
-          <header>
+
+<header>
             <div>
               <div>
                 <div>
@@ -72,19 +72,9 @@ export default function Page() {
               </div>
             </div>
           </header>
-          <div>
-            <div data-id={"608"}></div>
-            <section>
-              <div>
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <div>
-                              <div>
-                                <h2>
+
+<section className="event-welcome">
+<h2>
                                   {"Halloween "}
                                   <span>
                                     {"Party"}
@@ -92,22 +82,13 @@ export default function Page() {
                                   {"–"}
                                   {"2015"}
                                 </h2>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div data-href={"https://www.proerudio.ro/halloween-party-2015/"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"true"}></div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <p>
+<p>
                                   <strong>
                                     {"Sâmbătă"}
                                   </strong>
                                   {", 31 octombrie 2015"}
                                 </p>
-                                <p>
+<p>
                                   {"M-am trezit de dimineaţă cu gândul la petrecerea ce urmează, după o săptămâna întreagă în care la "}
                                   <a href={"/cursuri-de-limba-engleza-pentru-copii-si-adolescenti/"} target={"_blank"}>
                                     {"cursurile de engleză"}
@@ -116,89 +97,53 @@ export default function Page() {
                                   {"cu glugă albă, o mulţime de vrăjitoare care mai de care cu ceaune şi mături zburătoare, o cadână, Albă-ca-Zăpadă, o panteră roz şi câteva pisici negre, un pirat, Călăreţul-fără-Cap, Spiderman, Zorro, un dovleac plimbător, un prinţ printre multe prinţese şi zâne, scheleţi, lupi, drăcuşori şi tot felul de alte creaturi cu măşti de toate felurile, pelerine şi pălării…"}
                                   {" Gata! Petrecerea poată să înceapă…"}
                                 </p>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <p>
+</section>
+
+<section className="event-section">
+<p>
                                   <img decoding={"async"} alt={"DSC00823-150x150"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2016/01/DSC00823-150x150.jpg 150w, https://www.proerudio.ro/wp-content/uploads/2016/01/DSC00823-150x150-146x146.jpg 146w, https://www.proerudio.ro/wp-content/uploads/2016/01/DSC00823-150x150-50x50.jpg 50w, https://www.proerudio.ro/wp-content/uploads/2016/01/DSC00823-150x150-80x80.jpg 80w, https://www.proerudio.ro/wp-content/uploads/2016/01/DSC00823-150x150-75x75.jpg 75w, https://www.proerudio.ro/wp-content/uploads/2016/01/DSC00823-150x150-85x85.jpg 85w"} sizes={"(max-width:767px) 150px, 150px"} src={"https://www.proerudio.ro/wp-content/uploads/2016/01/DSC00823-150x150.jpg"} />
                                   {"Mai întâi ne-am împărţit în două tabere: cei care au venit cu dovleacul gata pregătit şi cei ce urmează să-l scobească pe loc. Primul grup va participa la “Dansul magic al dovlecilor” alături de Loreta, iar ceilalţi împărţiţi în săli diferite încep marea mozoleală: miez şi seminţe de dovleac împrăştiate peste tot, mânuţe murdare, degete lipicioase – nimic din toate acestea nu contează când zâmbetele se întind de la o ureche la altă… După 30 de minute de lucru intens încep să apară faimoşii Jack-o-Lanterns. La sugestia profesorilor, cei care nu au terminat vor continuă acasă pentru a avea timp şi de alte activităţi."}
                                 </p>
-                                <p>
+<p>
                                   {"După atâta muncă, să fie şi distracţie! Gangnam Style, joculeţul Cotton Eye Joe, Meneaito, „limbo dance” şi statuile muzicale. Super atmosferă! Dar între timp ni s-a făcut foame, deci gustarea de după dans ne prinde super bine…"}
                                 </p>
-                                <p>
+<p>
                                   {"Dar să nu credeţi că asta a fost totul! Împărţiţi pe staţii de lucru şi în funcţie de vârste, am jucat popice cu soldăţeii din lemn, am construit o pânză uriaşă de păianjen, am jucat „Follow the Leader” şi „Impersonate the Scary Character”, ne-am testat curajul şi intuiţia pentru a ghici obiectele din „Cutia Misterelor”, ne-am împărţit în echipe pentru provocările de la Halloween Hunt şi Halloween Quiz (ambele jocuri în "}
                                   <a href={"/cursuri-de-limba-engleza-pentru-copii-de-12-19-ani/"} target={"_blank"}>
                                     {"limba engleză"}
                                   </a>
                                   {"), am colorat dovleci şi ne-am uitat la desene animate cu creaturi supranaturale."}
                                 </p>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <p>
+<p>
                                   {"Ce seară grozavă! Ne-am deghizat, am dansat, am mâncat, am cioplit dovleci, ne-am distrat şi mai ales ne-am făcut noi prieteni dintre copiii cu care nu suntem colegi la cursurile de engleză, dar de care ne leagă plăcerea de a învaţă limbi străine."}
                                 </p>
-                                <p>
+<p>
                                   {"Mulţumiri participanţilor şi tuturor celor implicaţi (în special părinţilor care ne-au ajutat să curăţăm sălile după aventură cu dovlecii)!"}
                                 </p>
-                                <p>
+<p>
                                   <strong>
                                     {"Happy Halloween! Bu-hu-hu! 😀"}
                                   </strong>
                                 </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <div>
-                              <div>
-                                <h2>
+</section>
+
+<section className="event-section">
+<h2>
                                   <span>
                                     {"Halloween Party 2015"}
                                   </span>
                                   {"– Galerie foto completă"}
                                 </h2>
-                                <p></p>
-                                <p>
+<p></p>
+<p>
                                   <a href={"https://www.proerudio.ro/halloween-party-2015/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
                                     {"Vezi galeria foto pe site-ul original"}
                                   </a>
                                 </p>
-                                <p></p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <div>
-                              <div>
-                                <div data-href={"https://www.facebook.com/proerudio"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"false"}></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div>
-                        <div>
-                          <div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div className={"course-share"}>
+<p></p>
+</section>
+
+<div className={"course-share"}>
                                     <span>
                                       {"Share this..."}
                                     </span>
@@ -282,42 +227,19 @@ export default function Page() {
                                       </li>
                                     </ul>
                                   </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section>
-              <div>
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <img alt={"Pro Erudio"} srcSet={"https://secure.gravatar.com/avatar/9b35691c384795cb883b27c982457593d70acdaa9b1f728709135182675afa22?s=128&d=mm&r=g 2x"} decoding={"async"} src={"https://secure.gravatar.com/avatar/9b35691c384795cb883b27c982457593d70acdaa9b1f728709135182675afa22?s=64&d=mm&r=g"} />
-                      </div>
-                      <div>
-                        <h5>
+
+<section className="event-section">
+<img alt={"Pro Erudio"} srcSet={"https://secure.gravatar.com/avatar/9b35691c384795cb883b27c982457593d70acdaa9b1f728709135182675afa22?s=128&d=mm&r=g 2x"} decoding={"async"} src={"https://secure.gravatar.com/avatar/9b35691c384795cb883b27c982457593d70acdaa9b1f728709135182675afa22?s=64&d=mm&r=g"} />
+</section>
+
+<section className="event-section">
+<h5>
                           <a href={"/author/proerudio/"}>
                             {"Pro Erudio"}
                           </a>
                         </h5>
-                        <div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-        </article>
-      </div>
-    </article>
+</section>
+</article>
     <section className={"mt-14 border-t pt-10"}>
       <h2 className={"mb-6 text-2xl font-bold"}>
         {"Alte articole"}

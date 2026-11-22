@@ -228,8 +228,7 @@ export default function Page() {
                                             </strong>
                                             {" A1+"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
@@ -242,8 +241,7 @@ export default function Page() {
                                             </strong>
                                             {" 2 ore zilnic* (10 minute pauză)"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
@@ -257,7 +255,7 @@ export default function Page() {
                                             {"zilnic, 1 săptămână"}
                                           </li>
                                         </ul>
-                                        <ul></ul>
+
                                         <p>
                                           {"* Orarul cursului se va stabili in urma inscrierii. Ne rezervam dreptul de a reprograma cursurile daca nu se inscriu suficienti copii pentru o anumita perioada."}
                                         </p>
@@ -345,8 +343,7 @@ export default function Page() {
                                             </strong>
                                             {" A1+"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
@@ -359,8 +356,7 @@ export default function Page() {
                                             </strong>
                                             {" 2 ore zilnic* (10 minute pauză)"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
@@ -374,7 +370,7 @@ export default function Page() {
                                             {"zilnic, 2 săptămâni"}
                                           </li>
                                         </ul>
-                                        <ul></ul>
+
                                         <p>
                                           {"* Orarul cursului se va stabili in urma inscrierii. Ne rezervam dreptul de a reprograma cursurile daca nu se inscriu suficienti copii pentru o anumita perioada."}
                                         </p>

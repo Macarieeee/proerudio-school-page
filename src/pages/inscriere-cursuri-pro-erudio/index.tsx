@@ -1,5 +1,6 @@
+import CourseRegistrationForm from '@/components/CourseRegistrationForm';
 import ContentPageLayout from '@/components/ContentPageLayout';
-import heroImage from "@/assets/inscriere-cursuri-pro-erudio.jpg";
+import heroImage from "@/assets/inscriere-cursuri-pro-erudio.webp";
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
@@ -65,20 +66,7 @@ export default function Page() {
                                       </h2>
                                     </div>
                                   </div>
-                                  <div id={"wpcf7-f10423-p700-o1"} lang={"en-US"} dir={"ltr"} data-wpcf7-id={"10423"}>
-                                    <div>
-                                      <p role={"status"} aria-live={"polite"} aria-atomic={"true"}></p>
-                                      <ul></ul>
-                                    </div>
-                                    <div>
-                                      <p>
-                                        {"Pentru a completa formularul, accesează pagina originală."}
-                                      </p>
-                                      <a href={"https://www.proerudio.ro/inscriere-cursuri-pro-erudio/"} data-original-form={"true"} target={"_blank"} rel={"noopener noreferrer"}>
-                                        {"Deschide formularul"}
-                                      </a>
-                                    </div>
-                                  </div>
+                                  <CourseRegistrationForm />
                                 </div>
                               </div>
                             </div>

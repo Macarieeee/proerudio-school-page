@@ -28,57 +28,39 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Simulare Cambridge English Exams"}>
+    <article className={"page-content event-page event-theme-blue min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+<section className={"mobile-page-intro"} aria-label={"Simulare Cambridge English Exams"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2026/01/Cambridge-simulare2-1.jpg"} alt={"Simulare Cambridge English Exams"} decoding={"async"} />
         <h1>
           {"Simulare Cambridge English Exams"}
         </h1>
       </section>
-      <div>
-        <div itemProp={"mainContentOfPage"}>
-          <div data-id={"8538"}></div>
-          <section>
-            <div>
-              <div>
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <figure className={"original-intro-image"}>
+
+<figure className={"original-intro-image"}>
                               <div>
 
                               </div>
                             </figure>
-                          </div>
-                          <div>
-                            <div>
-                              <h2>
+
+<section className="event-welcome">
+<h2>
                                 {"KEEP CALM AND GET READY FOR"}
                                 <br />
                                 <span>
                                   {"MOCK CAMBRIDGE ENGLISH EXAMS"}
                                 </span>
                               </h2>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <div data-href={"https://www.proerudio.ro/simulare-cambridge-english-exams/"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"true"}></div>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+<p>
                                 <span>
                                   {"Doriţi să vă înscrieţi la examenele Cambridge English, dar nu sunteţi siguri că aţi ajuns la nivelul de cunoştinţe de limba engleză necesar promovării?"}
                                   <br />
                                   {"\nSau poate doar doriţi să vă evaluaţi în mod obiectiv şi structurat cunoştinţele. "}
                                 </span>
                               </p>
-                              <p>
+</section>
+
+<section className="event-section">
+<p>
                                 <span>
                                   {"Pentru oricare dintre aceste scopuri, vă recomandăm să vă înscrieţi la simularea de examen corespunzătoare nivelului aşteptat"}
                                 </span>
@@ -87,17 +69,16 @@ export default function Page() {
                                   {"(în acest sens, vă invităm să discutaţi cu profesorul de la grupă)."}
                                 </span>
                               </p>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+<p>
                                 {"Aşa cum v-am obişnuit, sfârșitul iernii este perioada simulărilor pentru examenele Cambridge English după cum urmează:"}
                               </p>
-                              <h3>
+</section>
+
+<section className="event-section">
+<h3>
                                 {"Sâmbătă, 7 februarie 2026,"}
                               </h3>
-                              <p>
+<p>
                                 <strong>
                                   {"simulare pentru examenele Cambridge English nivelurile KET, PET, FCE şi CAE"}
                                 </strong>
@@ -106,10 +87,13 @@ export default function Page() {
                                   {"(ora se va anunța prin email cu câteva zile înainte de probe)"}
                                 </em>
                               </p>
-                              <h3>
+</section>
+
+<section className="event-section">
+<h3>
                                 {"Sâmbătă, 7 martie 2026,"}
                               </h3>
-                              <p>
+<p>
                                 <strong>
                                   {"simulare pentru examenele Cambridge English nivelurile A1 şi A2 (YLE – Starters, Movers şi Flyers)"}
                                 </strong>
@@ -118,64 +102,83 @@ export default function Page() {
                                   {"(ora se va anunța prin email cu câteva zile înainte de probe)"}
                                 </em>
                               </p>
-                              <h4>
+</section>
+
+<section className="event-section">
+<h4>
                                 {"Programul de desfășurare a simulării se va trimite în email joi înainte de data de examen, după terminarea perioadei de înscriere."}
                               </h4>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <h2>
+</section>
+
+<section className="event-section">
+<h2>
                                 <span>
                                   {"De ce mi-aş înscrie copilul la o simulare de examen?"}
                                 </span>
                               </h2>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <h3>
+</section>
+
+<section className="event-section">
+<h3>
                                 {"1. Identificarea punctele forte şi "}
                                 {"a celor"}
                                 {"slabe"}
                               </h3>
-                              <p>
+<p>
                                 {"Simularea de examen urmează formatul de examen şi rezultatele obţinute oferă informaţii foarte valoroase atât candidatului, cât şi profesorului care îl pregăteşte, dar şi familiei. Astfel, fiecare îşi cunoaşte punctele forte şi mai ales pe cele slabe pentru a-şi doza efortul de pregătire pe abilităţile care necesită îmbunătăţire."}
                               </p>
-                              <h3>
+</section>
+
+<section className="event-section">
+<h3>
                                 {"2. Creşterea motivaţiei"}
                               </h3>
-                              <p>
+<p>
                                 {"Apropierea simulării de examen reprezintă un moment în care creşte motivaţia pentru învăţare, prin urmare şi timpul alocat pregătirii la limba engleză."}
                               </p>
-                              <h3>
+</section>
+
+<section className="event-section">
+<h3>
                                 {"3. Gestionarea emoţiilor"}
                               </h3>
-                              <p>
+<p>
                                 {"Susţinerea oricărui examen reprezintă o situaţie tensionată, încărcată de emoţie, iar familiarizarea cu acest tip de presiune face emoţiile din examenul real mai uşor de confruntat."}
                               </p>
-                              <h3>
+</section>
+
+<section className="event-section">
+<h3>
                                 {"4. Familiarizarea cu atmosfera şi structura examenului"}
                               </h3>
-                              <p>
+<p>
                                 {"Pregătirea pentru examen din timpul cursului se face pe probe întrucât durata întregului examen depăşeşte durata unui curs. Astfel, simularea devine esenţială ca parte a pregătirii pentru examen întrucât verifică toate probele într-o unitate de timp asemănătoare cu cea din examenul final."}
                               </p>
-                              <h3>
+</section>
+
+<section className="event-section">
+<h3>
                                 {"5. Gestionarea timpului"}
                               </h3>
-                              <p>
+<p>
                                 {"Managementul timpului este un alt factor cheie pentru succesul la examen. Candidaţii care ştiu cum să-şi dozeze timpul pentru fiecare proba şi ce strategii trebuie să folosească pentru a-l folosi eficient, se apropie foarte mult de succes."}
                               </p>
-                              <h3>
+</section>
+
+<section className="event-section">
+<h3>
                                 {"6. Creşterea încrederii şi independenţei în abordarea sarcinilor de lucru"}
                               </h3>
-                              <p>
+<p>
                                 {"Simularea de examen este o oportunitate pentru folosirea şi exersarea individuală a tehnicilor de abordare învăţate în timpul cursului de limba engleză în absenţa îndrumării profesorului sau a sugestiilor venite din partea grupului de lucru."}
                               </p>
-                              <h3>
+</section>
+
+<section className="event-section">
+<h3>
                                 {"7. Stabilirea nivelului de cunoaştere a limbii engleze într-un mod obiectiv şi detaliat"}
                               </h3>
-                              <p>
+<p className="event-participation">
                                 {"Rezultatele obţinute la simulare vor fi analizate într-un "}
                                 <strong>
                                   {"Raport individual de evaluare"}
@@ -183,23 +186,21 @@ export default function Page() {
                                 {", în care se vi se va recomanda înscrierea pentru o anumită sesiune de examene. Aceste rezultate sunt relevante pentru performanţa la examenul propriu-zis. Astfel, în urma susţinerii simulării putem face recomandarea pentru înscrierea la examen fără "}
                                 {"riscul unei evaluări subiective. Totuşi, participarea la simulare nu obligă în niciun fel candidatul să se înscrie la examenul plătit."}
                               </p>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <h2>
+</section>
+
+<section className="event-section">
+<h2>
                                 <span>
                                   {"Ce trebuie să fac pentru a participa la simulare?"}
                                 </span>
                               </h2>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <h4>
+</section>
+
+<section className="event-section">
+<h4>
                                 {"Mă înscriu la simulare în următoarele perioade:"}
                               </h4>
-                              <ul>
+<ul className="event-activity-list">
                                 <li>
                                   <span lang={"DE"}>
                                     {"20 ianuarie – 4 februarie 2026"}
@@ -210,14 +211,14 @@ export default function Page() {
                                   {"3 – 25 februarie 2026 pentru copiii din clasele primare (II-IV)"}
                                 </li>
                               </ul>
-                              <p>
+<p className="event-participation">
                                 {"După rezervarea locului,"}
                                 <strong>
                                   {"se achita taxa de simulare odată cu plata lunii februarie"}
                                 </strong>
                                 {". Taxa de simulare (toate probele de examen) este după cum urmează:"}
                               </p>
-                              <ul>
+<ul className="event-activity-list">
                                 <li>
                                   {"YLE Starters – 70 lei"}
                                 </li>
@@ -237,26 +238,29 @@ export default function Page() {
                                   {"CAE/CPE – 130 lei"}
                                 </li>
                               </ul>
-                              <p>
+<p>
                                 {"Candidații care urmează cursurile noastre vor primi o deducere din ultima taxă de curs (30 lei pentru candidații YLE și 50 lei pentru nivelurile A2-C2)"}
                                 <strong>
                                   {"dacă se înscriu la examen în sesiunile noastre private din lunile iunie și iulie"}
                                 </strong>
                                 {"."}
                               </p>
-                              <p>
+<p>
                                 <strong>
                                   {"În limita locurilor disponibile"}
                                 </strong>
                                 {", putem primi la simulare şi elevi care nu urmează cursurile noastre de an. În acest caz, taxa de examinare este cu 30 lei mai scumpă la YLE (Starters, Movers, Flyers) si cu 50 lei mai scumpă la nivelurile A2-C2 decât pentru elevii noștri."}
                               </p>
-                              <p>
+<p>
                                 {"Pentru mai multe informații (inclusiv despre cum se achita), vă rugăm să ne contactați la 0724 527 838. Vă mulțumim!"}
                               </p>
-                              <h4>
+</section>
+
+<section className="event-section">
+<h4>
                                 {"Modalități de înscriere:"}
                               </h4>
-                              <ul>
+<ul className="event-activity-list">
                                 <li>
                                   <span>
                                     <strong>
@@ -286,62 +290,40 @@ export default function Page() {
                                   </span>
                                 </li>
                               </ul>
-                              <h3>
+</section>
+
+<section className="event-section">
+<h3>
                                 {"Important!"}
                               </h3>
-                              <p>
+<p>
                                 <span>
                                   {"Dacă nu cunoașteti nivelul la care ar trebui să se înscrie fiul/fiica dumneavoastră, vă rugăm să cereți părerea profesorului de la curs."}
                                 </span>
                               </p>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <h4>
+</section>
+
+<section className="event-section">
+<h4>
                                 {"ATENŢIE! Locurile sunt limitate și se vor ocupa în ordinea înscrierii!"}
                               </h4>
-                              <h3>
+</section>
+
+<section className="event-section">
+<h3>
                                 <span>
                                   {"Mulțumim European Examinations Centre pentru sprijinul acordat la organizarea simulărilor de examen"}
                                 </span>
                               </h3>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <span>
+<span>
                                       <span></span>
                                     </span>
-                                    <span>
+<span>
                                       <span></span>
                                     </span>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <div data-href={"https://www.proerudio.ro/simulare-cambridge-english-exams/"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"true"}></div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <div data-href={"https://www.facebook.com/proerudio"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"false"}>
-                                        <div>
-                                          <div className={"course-share"}>
+</section>
+
+<div className={"course-share"}>
                                             <span>
                                               {"Share this..."}
                                             </span>
@@ -425,31 +407,6 @@ export default function Page() {
                                               </li>
                                             </ul>
                                           </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section>
-            <div>
-              <div>
-                <div></div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </article>
+</article>
   </ContentPageLayout>;
 }

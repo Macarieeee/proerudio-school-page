@@ -1,11 +1,12 @@
-import heroImage from '@/assets/sprechen-sie-deutsch-copii-5-8-ani.jpg';
+import heroImage from '@/assets/how-to-help-your-child-focus-in-school-scaled.jpeg';
+import '@/styles/summer-language-pages.css';
 import ContentPageLayout from '@/components/ContentPageLayout';
 import image0 from "@/assets/about-classroom.jpg";
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={heroImage} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={heroImage} style={{ objectPosition: '50% 45%' }} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -28,15 +29,16 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+    <article className={"summer-language-page language-german page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <section className={"mobile-page-intro"} aria-label={"Sprechen Sie Deutsch? – Copii 5 – 8 ani"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/sprechen-1.jpg"} alt={"Sprechen Sie Deutsch? – Copii 5 – 8 ani"} decoding={"async"} />
+        <img src={heroImage} style={{ objectPosition: '50% 45%' }} alt={"Sprechen Sie Deutsch? – Copii 5 – 8 ani"} decoding={"async"} />
         <h1>
           {"Sprechen Sie Deutsch? – Copii 5 – 8 ani"}
         </h1>
       </section>
       <div>
-        <div itemProp={"mainContentOfPage"}>
+        <div className="course-language-label"><span aria-hidden="true" />Germană<span className="course-language-season">Cursuri de vară</span></div>
+      <div itemProp={"mainContentOfPage"}>
           <div data-id={"376"}></div>
           <section>
             <div>
@@ -55,7 +57,7 @@ export default function Page() {
                           </div>
                           <div>
                             <div>
-                              <h2>
+                              <h2 className="course-copy-heading">
                                 {"Curs de vară de limba germană"}
                                 <span>
                                   {"“Sprechen Sie Deutsch?” "}
@@ -70,30 +72,27 @@ export default function Page() {
                           </div>
                           <div>
                             <div>
-                              <h5>
+                              <h5 className="course-copy-heading">
                                 <span>
                                   {"Cursuri pentru copii de 4"}
                                   {"– 8"}
                                   {"ani"}
                                 </span>
                               </h5>
-                              <p>
-                                <span>
-                                  {"C"}
-                                </span>
-                                {"\nursul de vară de limba germană “Sprechen Sie Deutsch?” îşi propune să trezească interesul copiilor mici pentru învăţarea limbii germane. Cursul vizează în special satisfacţia, bucuria descoperirii unor noi activităţi de învăţare şi a sentimentului de reuşită pe care copiii îl simt atunci când fac ceva valoros în ochii lor şi ai celor din jur. Luând în considerare vârsta copiilor şi caracteristicile lor psihologice, cursul se va axa pe predarea vocabularului în context şi indirect, adică prin intermediul cântecelor, poeziilor şi poveştilor, punând accent pe înţelegerea mesajului audiat şi învăţarea prin repetiţie."}
+                              <p className="course-copy course-copy-lead">
+                                {"Cursul de vară de limba germană “Sprechen Sie Deutsch?” își propune să trezească interesul copiilor mici pentru învățarea limbii germane. Cursul vizează în special satisfacția, bucuria descoperirii unor noi activități de învățare și sentimentul de reușită pe care copiii îl simt atunci când fac ceva valoros în ochii lor și ai celor din jur. Luând în considerare vârsta copiilor și caracteristicile lor psihologice, cursul se va axa pe predarea vocabularului în context și indirect, adică prin intermediul cântecelor, poeziilor și poveștilor, punând accent pe înțelegerea mesajului audiat și învățarea prin repetiție."}
                               </p>
-                              <p>
-                                {"Țelul nostru este ca la sfârșitul acestui curs, copilul să poată face față unor situații din viața de zi cu zi precum a saluta, a răspunde la salut, a iniția o conversație (nume, vârstă), a raspunde la comenzi simple, a denumi obiecte din mediul imediat înconjurător etc. pentru a se putea descurca în cazul în care vizitați o țară vorbitoare de limbă germană."}
+                              <p className="course-copy">
+                                {"Țelul nostru este ca la sfârșitul acestui curs, copilul să poată face față unor situații din viața de zi cu zi precum a saluta, a răspunde la salut, a iniția o conversație (nume, vârstă), a răspunde la comenzi simple, a denumi obiecte din mediul imediat înconjurător etc. pentru a se putea descurca în cazul în care vizitați o țară vorbitoare de limbă germană."}
                               </p>
-                              <p>
-                                {"Cursul pune accent pe lucrul în echipă și pe jocul de rol, deoarece prin joacă si repetitie se învăță cel mai bine. Predarea vocabularului se va face în context și cu ajutorul suportului media si intuitiv, prin folosirea imaginilor tematice. Motivarea pentru invățarea limbii germane va fi deplina fiindcă copiii vor avea ocazia să facă ce le place: să se joace, să deseneze, să confecționeze obiecte, să pună "}
+                              <p className="course-copy">
+                                {"Cursul pune accent pe lucrul în echipă și pe jocul de rol, deoarece prin joacă și repetiție se învață cel mai bine. Predarea vocabularului se va face în context și cu ajutorul suportului media și al materialelor intuitive, prin folosirea imaginilor tematice. Motivarea pentru învățarea limbii germane va fi deplină fiindcă copiii vor avea ocazia să facă ce le place: să se joace, să deseneze, să confecționeze obiecte, să pună "}
                                 {"întrebări, să cânte, să facă mișcare, să vizioneze episoade de film animat și să se prefacă pentru a intra în rolul personajului preferat."}
                               </p>
-                              <h4>
+                              <h4 className="course-copy-heading">
                                 {"Exemple de teme abordate în timpul cursului:"}
                               </h4>
-                              <ul>
+                              <ul className="course-discovery-grid">
                                 <li>
                                   {"Die Schulsachen (obiecte școlare)"}
                                 </li>
@@ -128,13 +127,13 @@ export default function Page() {
                                 <div>
                                   <div>
                                     <div>
-                                      <h4>
+                                      <h4 className="course-copy-heading">
                                         {"Câteva imagini de la cursurile de vară de limba engleză:"}
                                       </h4>
                                       <div id={"jig1"} className={"photo-gallery"}>
                                         <div></div>
                                       </div>
-                                      <p>
+                                      <p className="course-copy">
                                         {"Mai multe imagini găsiți aici: Galerie “"}
                                         <a href={"https://www.facebook.com/media/set/?set=a.713555685412609.1073741875.114304442004406&type=3"} target={"_blank"} rel={"noopener noreferrer"}>
                                           {"cursuri de vară "}
@@ -154,7 +153,7 @@ export default function Page() {
                                 <div>
                                   <div>
                                     <div>
-                                      <h4>
+                                      <h4 className="course-copy-heading">
                                         {"Detalii organizatorice:"}
                                       </h4>
                                     </div>
@@ -215,8 +214,7 @@ export default function Page() {
                                             </strong>
                                             {"90 minute*"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
@@ -229,9 +227,7 @@ export default function Page() {
                                             </strong>
                                             {"6 ședințe"}
                                           </li>
-                                        </ul>
-                                        <ul></ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>

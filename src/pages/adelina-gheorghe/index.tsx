@@ -1,10 +1,11 @@
+import teacherBanner from '@/assets/2.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={"https://www.proerudio.ro/wp-content/uploads/2021/10/Adelina-Gheorghe.webp"} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={teacherBanner} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -27,13 +28,7 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Adelina Gheorghe"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2021/10/Adelina-Gheorghe.webp"} alt={"Adelina Gheorghe"} decoding={"async"} />
-        <h1>
-          {"Adelina Gheorghe"}
-        </h1>
-      </section>
+    <article className={"page-content teacher-profile-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <div>
         <div itemProp={"mainContentOfPage"}>
           <div data-id={"9678"}></div>
@@ -48,7 +43,7 @@ export default function Page() {
                           <div>
                             <div>
                               <section className={"team-profile-header"}>
-                                <img decoding={"async"} alt={"Adelina Gheorghe"} title={"Adelina-Gheorghe"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2021/10/Adelina-Gheorghe.webp 425w, https://www.proerudio.ro/wp-content/uploads/2021/10/Adelina-Gheorghe-226x300.webp 226w, https://www.proerudio.ro/wp-content/uploads/2021/10/Adelina-Gheorghe-110x146.webp 110w, https://www.proerudio.ro/wp-content/uploads/2021/10/Adelina-Gheorghe-38x50.webp 38w, https://www.proerudio.ro/wp-content/uploads/2021/10/Adelina-Gheorghe-56x75.webp 56w"} sizes={"180px"} src={"https://www.proerudio.ro/wp-content/uploads/2021/10/Adelina-Gheorghe.webp"} className={"original-intro-image"} />
+                                <img decoding={"async"} alt={"Adelina Gheorghe"} title={"Adelina-Gheorghe"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2021/10/Adelina-Gheorghe.webp 425w, https://www.proerudio.ro/wp-content/uploads/2021/10/Adelina-Gheorghe-226x300.webp 226w, https://www.proerudio.ro/wp-content/uploads/2021/10/Adelina-Gheorghe-110x146.webp 110w, https://www.proerudio.ro/wp-content/uploads/2021/10/Adelina-Gheorghe-38x50.webp 38w, https://www.proerudio.ro/wp-content/uploads/2021/10/Adelina-Gheorghe-56x75.webp 56w"} sizes={"180px"} src={"https://www.proerudio.ro/wp-content/uploads/2021/10/Adelina-Gheorghe.webp"} />
                                 <div>
                                   <h2>
                                     {"Adelina Gheorghe"}
@@ -94,13 +89,13 @@ export default function Page() {
                                 <li>
                                   <span>
                                     {"Evidență"}
-                                    {"plăți"}
+                                    {" plăți"}
                                   </span>
                                 </li>
                                 <li>
                                   <span>
                                     {"Corespondență"}
-                                    {"părinți pentru anunțarea absențelor din motive medicale (sms și poză scutire medicală la numărul 0771.753.323)"}
+                                    {" părinți pentru anunțarea absențelor din motive medicale (sms și poză scutire medicală la numărul 0771.753.323)"}
                                   </span>
                                 </li>
                                 <li>

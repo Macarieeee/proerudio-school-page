@@ -44,16 +44,16 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Atelierul lui Moş Crăciun"}>
+    <article className={"page-content event-page event-theme-winter min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+<span id="post-9781" aria-hidden="true" />
+<section className={"mobile-page-intro"} aria-label={"Atelierul lui Moş Crăciun"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2016/12/atelier-1.jpg"} alt={"Atelierul lui Moş Crăciun"} decoding={"async"} />
         <h1>
           {"Atelierul lui Moş Crăciun"}
         </h1>
       </section>
-      <div>
-        <article id={"post-9781"}>
-          <header>
+
+<header>
             <div>
               <div>
                 <div>
@@ -72,19 +72,9 @@ export default function Page() {
               </div>
             </div>
           </header>
-          <div>
-            <div data-id={"9781"}></div>
-            <section>
-              <div>
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <div>
-                              <div>
-                                <p className="event-partners">
+
+<section className="event-welcome">
+<p className="event-partners">
                                   <span>
                                     {"Sezonul sărbătorilor se apropie cu paşi grăbiţi. Aşa cum v-am obişnuit, luna decembrie este luna cadourilor şi la Pro Erudio. Astfel, îi invităm pe copilaşi"}
                                     <strong>
@@ -106,7 +96,10 @@ export default function Page() {
                                     {" și vor fi programate* pe grupe de vârstă după cum urmează:"}
                                   </span>
                                 </p>
-                                <ul>
+</section>
+
+<section className="event-section">
+<ul className="event-activity-list">
                                   <li>
                                     <span>
                                       {"5-7 ani"}
@@ -123,24 +116,12 @@ export default function Page() {
                                     </span>
                                   </li>
                                 </ul>
-                                <p>
+<p className="event-participation">
                                   <span>
                                     {"* Ora exactă de desfășurare a atelierelor se va stabili în urma înscrierilor."}
                                   </span>
                                 </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <div>
-                              <div>
-                                <p>
+<p className="event-participation">
                                   <span>
                                     {"Participarea este "}
                                     <span>
@@ -149,7 +130,7 @@ export default function Page() {
                                     {" pentru cursanții Pro Erudio. Dacă există doritori și în rândul prietenilor dumneavoastră (copii care nu participă la cursurile noastre), atelierul costă 30 lei."}
                                   </span>
                                 </p>
-                                <p>
+<p className="event-participation">
                                   <span>
                                     {"Înscrierea la atelier se face printr-un email la "}
                                     <a href={"mailto:office@proerudio.ro"}>
@@ -158,7 +139,7 @@ export default function Page() {
                                     {" sau un sms la 0771 753 323. La înscriere este necesar să specificați numele și vârsta copilului participant."}
                                   </span>
                                 </p>
-                                <p>
+<p className="event-participation">
                                   <span>
                                     {"Termen limită pentru înscrieri: "}
                                     <span>
@@ -167,19 +148,7 @@ export default function Page() {
                                     {" (locurile sunt limitate și se ocupă în ordinea înscrierilor)"}
                                   </span>
                                 </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <div>
-                              <div>
-                                <p className="event-partners">
+<p className="event-partners">
                                   <span>
                                     {"Un eveniment organizat de"}
                                   </span>
@@ -191,21 +160,8 @@ export default function Page() {
                                   <br />
 
                                 </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-          </div>
-        </article>
-      </div>
-    </article>
+</section>
+</article>
     <section className={"mt-14 border-t pt-10"}>
       <h2 className={"mb-6 text-2xl font-bold"}>
         {"Alte articole"}

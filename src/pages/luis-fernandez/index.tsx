@@ -1,10 +1,10 @@
+import teacherBanner from '@/assets/2.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
-import image0 from "@/assets/about-classroom.jpg";
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={image0 + ""} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={teacherBanner} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -27,7 +27,7 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+    <article className={"page-content teacher-profile-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <section className={"mobile-page-intro mobile-page-intro-no-image"} aria-label={"Luis Fernandez"}>
         <h1>
           {"Luis Fernandez"}
@@ -64,7 +64,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"Master “cu specializare “Profesor de limba spaniolă"}
-                                  {"pentru străini”, Universidad Nacional De Educacion a Distancia, Madrid, 2011"}
+                                  {" pentru străini”, Universidad Nacional De Educacion a Distancia, Madrid, 2011"}
                                 </li>
                                 <li>
                                   {"Doctorat (în curs), Facultatea de Științe Politice și Sociologie, Computense Madrid"}
@@ -72,8 +72,8 @@ export default function Page() {
                               </ul>
                               <h3>
                                 {"Experiență"}
-                                {"profesională"}
-                                {"în Spania"}
+                                {" profesională"}
+                                {" în Spania"}
                               </h3>
                               <ul>
                                 <li>
@@ -85,8 +85,8 @@ export default function Page() {
                               </ul>
                               <h3>
                                 {"Experiență"}
-                                {"profesională"}
-                                {"în România"}
+                                {" profesională"}
+                                {" în România"}
                               </h3>
                               <ul>
                                 <li>

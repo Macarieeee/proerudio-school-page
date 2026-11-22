@@ -1,10 +1,11 @@
+import teacherBanner from '@/assets/2.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/adelindaselaru1.jpg"} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={teacherBanner} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -27,7 +28,7 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+    <article className={"page-content teacher-profile-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <section className={"mobile-page-intro"} aria-label={"Adelinda Selaru"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/adelindaselaru1.jpg"} alt={"Adelinda Selaru"} decoding={"async"} />
         <h1>
@@ -62,11 +63,11 @@ export default function Page() {
                               <ul>
                                 <li>
                                   {"Licențiată"}
-                                  {"în filologie – Facultatea de Litere, Universitatea din Craiova, Specializare: limba și literatura engleză – limba și literatura română, 2005"}
+                                  {" în filologie – Facultatea de Litere, Universitatea din Craiova, Specializare: limba și literatura engleză – limba și literatura română, 2005"}
                                 </li>
                                 <li>
                                   {"Studii postuniversitare, Programul de Masterat “Unitate și diversitate culturală"}
-                                  {"în studierea limbii și literaturii engleze”, Universitatea din Craiova, 2008"}
+                                  {" în studierea limbii și literaturii engleze”, Universitatea din Craiova, 2008"}
                                 </li>
                                 <li>
                                   {"Studii postuniversitare, Programul de Masterat “Sociologia Comunicării și Jurnalism” din cadrul Facultății de Istorie-Filosofie-Geografie, Universitatea din Craiova, 2007"}
@@ -77,7 +78,7 @@ export default function Page() {
                               </ul>
                               <h3>
                                 {"Experiență"}
-                                {"profesională"}
+                                {" profesională"}
                               </h3>
                               <ul>
                                 <li>
@@ -88,7 +89,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"Profesor de limba engleză la Liceul de Muzică"}
-                                  {"și Arte Plastice din Tg-Jiu, 2006-2007"}
+                                  {" și Arte Plastice din Tg-Jiu, 2006-2007"}
                                 </li>
                               </ul>
                               <h3>
@@ -100,8 +101,8 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"Absolventă a programului de formare continuă “Abilitare pe Curriculum” din cadrul proiectului POSDRU ID 62536 “Formarea continuă a profesorilor de limba română, engleză"}
-                                  {"și franceză"}
-                                  {"în societatea cunoașterii” – 2012"}
+                                  {" și franceză"}
+                                  {" în societatea cunoașterii” – 2012"}
                                 </li>
                                 <li>
                                   {"Absolventă a programului de formare continua “Dezvoltarea profesională continuă pe component instruirii diferențiate a elevilor” din cadrul proiectului POSDRU ID 62536 – 2012"}
@@ -114,7 +115,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"Participare in comitetul tehnic la Simpozionul International “Educația Ecologică"}
-                                  {"în Context European ” desfășurat în cadrul proiectului Comenius ” Action: Save The Planet”"}
+                                  {" în Context European ” desfășurat în cadrul proiectului Comenius ” Action: Save The Planet”"}
                                 </li>
                               </ul>
                               <h3>
@@ -123,7 +124,7 @@ export default function Page() {
                               <ul>
                                 <li>
                                   {"Coordonator grup tabăra educațională de limbă engleză"}
-                                  {"în România British Camps (Cheile Gradistei), iulie 2014"}
+                                  {" în România British Camps (Cheile Gradistei), iulie 2014"}
                                 </li>
                                 <li>
                                   {"Organizator și evaluator al Olimpiadei Creativității pe sector ” Story Writing Competition”"}
@@ -133,10 +134,10 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"Voluntar în cadrul proiectului ” Învață"}
-                                  {"să"}
-                                  {"schimbi lumea” în parteneriat cu Direcția Generală"}
-                                  {"și Asistență"}
-                                  {"Socială a Protecției Copilului"}
+                                  {" să"}
+                                  {" schimbi lumea” în parteneriat cu Direcția Generală"}
+                                  {" și Asistență"}
+                                  {" Socială a Protecției Copilului"}
                                 </li>
                                 <li>
                                   {"Organizator și profesor evaluator la concursul “Citizens in Europe”"}

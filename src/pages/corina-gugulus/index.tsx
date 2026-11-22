@@ -1,10 +1,11 @@
+import teacherBanner from '@/assets/2.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={"https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g.jpg"} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={teacherBanner} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -27,13 +28,7 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Corina Guguluș"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g.jpg"} alt={"Corina Guguluș"} decoding={"async"} />
-        <h1>
-          {"Corina Guguluș"}
-        </h1>
-      </section>
+    <article className={"page-content teacher-profile-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <div>
         <div itemProp={"mainContentOfPage"}>
           <div data-id={"13115"}></div>
@@ -54,7 +49,7 @@ export default function Page() {
                           <div>
                             <div>
                               <section className={"team-profile-header"}>
-                                <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g.jpg"} alt={"Corina Guguluș"} title={"corina-g"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g.jpg 913w, https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g-247x300.jpg 247w, https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g-842x1024.jpg 842w, https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g-768x934.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g-62x75.jpg 62w, https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g-517x628.jpg 517w, https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g-480x584.jpg 480w"} sizes={"180px"} className={"original-intro-image"} />
+                                <img decoding={"async"} src={"https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g.jpg"} alt={"Corina Guguluș"} title={"corina-g"} srcSet={"https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g.jpg 913w, https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g-247x300.jpg 247w, https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g-842x1024.jpg 842w, https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g-768x934.jpg 768w, https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g-62x75.jpg 62w, https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g-517x628.jpg 517w, https://www.proerudio.ro/wp-content/uploads/2025/08/corina-g-480x584.jpg 480w"} sizes={"180px"} />
                                 <div>
                                   <h2>
                                     {"Corina Guguluș"}

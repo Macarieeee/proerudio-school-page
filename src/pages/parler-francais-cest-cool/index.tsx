@@ -1,11 +1,11 @@
-import heroImage from '@/assets/parler-francais-cest-cool.jpg';
+import heroImage from '@/assets/course-banner-3.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 import image0 from "@/assets/about-classroom.jpg";
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={heroImage} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={heroImage} style={{ objectPosition: '50% 30%' }} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -30,7 +30,7 @@ export default function Page() {
   }>
     <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <section className={"mobile-page-intro"} aria-label={"Parler français, c\\’est cool!"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2019/09/Parler-francais-c-est-cool.jpg"} alt={"Parler français, c\\’est cool!"} decoding={"async"} />
+        <img src={heroImage} style={{ objectPosition: '50% 30%' }} alt={"Parler français, c\\’est cool!"} decoding={"async"} />
         <h1>
           {"Parler français, c\\’est cool!"}
         </h1>
@@ -241,8 +241,7 @@ export default function Page() {
                                             </strong>
                                             {"120 de minute"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
@@ -255,8 +254,7 @@ export default function Page() {
                                             </strong>
                                             {"o ședință pe săptămână"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
@@ -269,8 +267,7 @@ export default function Page() {
                                             </strong>
                                             {"maximum 9 în grupă"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>

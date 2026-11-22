@@ -1,10 +1,11 @@
+import teacherBanner from '@/assets/2.jpg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/loretaneculai.jpg"} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={teacherBanner} alt={""} className={"absolute inset-0 h-full w-full object-cover object-top"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -27,7 +28,7 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+    <article className={"page-content teacher-profile-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <section className={"mobile-page-intro"} aria-label={"Loreta Neculai"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2016/01/loretaneculai.jpg"} alt={"Loreta Neculai"} decoding={"async"} />
         <h1>
@@ -77,7 +78,7 @@ export default function Page() {
                               </ul>
                               <h3>
                                 {"Experiență"}
-                                {"artistică"}
+                                {" artistică"}
                               </h3>
                               <ul>
                                 <li>
@@ -97,7 +98,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"2003 – 2009 – actriță"}
-                                  {"la Teatrul Municipal “Gh.Pastia”, Focsani"}
+                                  {" la Teatrul Municipal “Gh.Pastia”, Focsani"}
                                 </li>
                                 <li>
                                   {"2002 – workshop de dans și improvizație cu Gigi Căciuleanu"}
@@ -107,7 +108,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"2000 – actriță"}
-                                  {"la Teatrul “Urmuz”, Tulcea"}
+                                  {" la Teatrul “Urmuz”, Tulcea"}
                                 </li>
                                 <li>
                                   {"1999 – Cursuri de vară"}
@@ -164,7 +165,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                   {"Efimița – “Conul Leonida față"}
-                                  {"cu reacțiunea”"}
+                                  {" cu reacțiunea”"}
                                 </li>
                                 <li>
                                   {"Colombina – Commedia dell’arte"}

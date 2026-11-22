@@ -1,11 +1,12 @@
-import heroImage from '@/assets/apprendre-en-samusant.jpg';
+import heroImage from '@/assets/kids-in-classroom.jpg';
+import '@/styles/summer-language-pages.css';
 import ContentPageLayout from '@/components/ContentPageLayout';
 import image0 from "@/assets/about-classroom.jpg";
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={heroImage} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={heroImage} style={{ objectPosition: '50% 60%' }} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -28,15 +29,16 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+    <article className={"summer-language-page language-french page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <section className={"mobile-page-intro"} aria-label={"Apprendre en s\\’amusant"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2019/06/Apprendre-en-samusant.jpg"} alt={"Apprendre en s\\’amusant"} decoding={"async"} />
+        <img src={heroImage} style={{ objectPosition: '50% 60%' }} alt={"Apprendre en s\\’amusant"} decoding={"async"} />
         <h1>
           {"Apprendre en s\\’amusant"}
         </h1>
       </section>
       <div>
-        <div itemProp={"mainContentOfPage"}>
+        <div className="course-language-label"><span aria-hidden="true" />Franceză<span className="course-language-season">Cursuri de vară</span></div>
+      <div itemProp={"mainContentOfPage"}>
           <div data-id={"11043"}></div>
           <section>
             <div>
@@ -55,7 +57,7 @@ export default function Page() {
                           </div>
                           <div>
                             <div>
-                              <h2>
+                              <h2 className="course-copy-heading">
                                 {"Cursuri intensive de vară"}
                                 <br />
                                 <span>
@@ -67,7 +69,7 @@ export default function Page() {
                           </div>
                           <div>
                             <div>
-                              <h3>
+                              <h3 className="course-copy-heading">
                                 <span>
                                   {"Disponibil "}
                                 </span>
@@ -80,28 +82,25 @@ export default function Page() {
                           </div>
                           <div>
                             <div>
-                              <h4>
+                              <h4 className="course-copy-heading">
                                 {"Cursuri de limba franceză pentru copii de 10 – 13 ani (nivel începător A1)"}
                               </h4>
-                              <h4>
+                              <h4 className="course-copy-heading">
                                 <span></span>
                               </h4>
                             </div>
                           </div>
                           <div>
                             <div>
-                              <p>
+                              <p className="course-copy course-copy-lead">
                                 <span>
-                                  <span>
-                                    {"Î"}
-                                  </span>
-                                  {"\nți place limba franceză și știi că în societatea contemporană cunoașterea a cel puțin două limbi străine a devenit o necesitate? Atunci de ce să nu profiți de timpul liber din vară și să urmezi un curs intensiv de limbă franceză?"}
+                                  {"Îți place limba franceză și știi că în societatea contemporană cunoașterea a cel puțin două limbi străine a devenit o necesitate? Atunci de ce să nu profiți de timpul liber din vară și să urmezi un curs intensiv de limbă franceză?"}
                                 </span>
                               </p>
-                              <p>
+                              <p className="course-copy">
                                 <span>
                                   <strong>
-                                    {"Fie că ai mai studiat această limbă la școala, dar simți că nu este suficient, fie că îți dorești să o înveți, dar un știi de unde să începi, vino la un curs de vară și prinde gustul învățării limbii franceze."}
+                                    {"Fie că ai mai studiat această limbă la școală, dar simți că nu este suficient, fie că îți dorești să o înveți, dar nu știi de unde să începi, vino la un curs de vară și prinde gustul învățării limbii franceze."}
                                   </strong>
                                 </span>
                               </p>
@@ -109,11 +108,11 @@ export default function Page() {
                           </div>
                           <div>
                             <div>
-                              <p>
+                              <p className="course-copy">
                                 <span>
-                                  {"Lumea avansează cu repeziciune, iar educația și, bineînțeles, metodele de învățare nu pot rămâne în urmă într-o lume în care imaginea, tehnologia, rețelele sociale și cultura audio-vizuală au o tot mai mare importanță. În plus, cui nu ii plac jocurile interactive la tabla inteligentă sau în grupul de prieteni? Prin joc, învațăm să comunicăm, să interacționăm corect, folosind structuri simple, dar adaptate fiecărei situații, ne facem prieteni și "}
+                                  {"Lumea avansează cu repeziciune, iar educația și, bineînțeles, metodele de învățare nu pot rămâne în urmă într-o lume în care imaginea, tehnologia, rețelele sociale și cultura audiovizuală au o tot mai mare importanță. În plus, cui nu îi plac jocurile interactive la tabla inteligentă sau în grupul de prieteni? Prin joc, învățăm să comunicăm, să interacționăm corect, folosind structuri simple, dar adaptate fiecărei situații, ne facem prieteni și "}
                                   {"acumulăm"}
-                                  {"cunostințe "}
+                                  {"cunoștințe "}
                                   {"de limba franceză fără să simțim că depunem efort."}
                                 </span>
                               </p>
@@ -121,59 +120,41 @@ export default function Page() {
                           </div>
                           <div>
                             <div>
-                              <p>
+                              <p className="course-copy">
                                 <span>
-                                  {"Desigur, toate cele de mai sus vor fi posibile fără a uita că orice limbă străină se învață corect prin asimilarea noțiunilor de gramatică și vocabular, precum și prin utilizarea lor în contexte autentice, adaptate vârstei și intereselor copiilor, nivelului lor de cunoaștere și întelegere, dar și obiectivelor personale de învățare. "}
+                                  {"Desigur, toate cele de mai sus vor fi posibile fără a uita că orice limbă străină se învață corect prin asimilarea noțiunilor de gramatică și vocabular, precum și prin utilizarea lor în contexte autentice, adaptate vârstei și intereselor copiilor, nivelului lor de cunoaștere și înțelegere, dar și obiectivelor personale de învățare. "}
                                 </span>
                               </p>
                             </div>
                           </div>
                           <div>
                             <div>
-                              <h3>
+                              <h3 className="course-copy-heading">
                                 {"Ce vom face?"}
                               </h3>
-                              <p>
-                                <span>
-                                  {"– ne vom juca cu literele/grupurile de litere, cifrele"}
-                                  <br />
-                                  {"\n– vom exersa noțiunile de gramatică in context"}
-                                  <br />
-                                  {"\n– ne vom îmbogăți vocabularul organizat pe teme"}
-                                  <br />
-                                  {"\n– vom citi texte haioase"}
-                                  <br />
-                                  {"\n– vom rezolva exerciții distractive pe fișe de lucru"}
-                                  <br />
-                                  {"\n– vom viziona scurte filmulețe"}
-                                  <br />
-                                  {"\n– vom participa la concursuri pe echipe/perechi"}
-                                  <br />
-                                </span>
-                              </p>
+                              <ul className="course-discovery-grid"><li>{"ne vom juca cu literele/grupurile de litere, cifrele"}</li>
+<li>{"vom exersa noțiunile de gramatică în context"}</li>
+<li>{"ne vom îmbogăți vocabularul organizat pe teme"}</li>
+<li>{"vom citi texte haioase"}</li>
+<li>{"vom rezolva exerciții distractive pe fișe de lucru"}</li>
+<li>{"vom viziona scurte filmulețe"}</li>
+<li>{"vom participa la concursuri pe echipe/perechi"}</li></ul>
                             </div>
                           </div>
                           <div>
                             <div>
-                              <h3>
+                              <h3 className="course-copy-heading">
                                 {"Obiective"}
                               </h3>
-                              <p>
-                                <span>
-                                  {"– familiarizarea cu regulile de citire/pronunție în limba franceză"}
-                                  <br />
-                                  {"\n– asimilarea unui vocabular esențial (100 de cuvinte în vocabular activ) și a câtorva noțiuni mai complexe de gramatică (conjugarea verbelor avoir și etre, verbe de conjugarea I, pluralul substantivelor, acordul adjectivului)"}
-                                  <br />
-                                  {"\n– înțelegerea unor texte citite/audiate (nivel începător)"}
-                                  <br />
-                                  {"\n– cultivarea gustului pentru învățarea limbii franceze și a interesului de a descoperi lucruri noi despre culturile altor țări"}
-                                </span>
-                              </p>
+                              <ul className="course-discovery-grid"><li>{"familiarizarea cu regulile de citire/pronunție în limba franceză"}</li>
+<li>{"asimilarea unui vocabular esențial (100 de cuvinte în vocabular activ) și a câtorva noțiuni mai complexe de gramatică (conjugarea verbelor avoir și être, verbe de conjugarea I, pluralul substantivelor, acordul adjectivului)"}</li>
+<li>{"înțelegerea unor texte citite/audiate (nivel începător)"}</li>
+<li>{"cultivarea gustului pentru învățarea limbii franceze și a interesului de a descoperi lucruri noi despre culturile altor țări"}</li></ul>
                             </div>
                           </div>
                           <div>
                             <div>
-                              <p>
+                              <p className="course-copy">
                                 <span>
                                   {"Vă așteptăm la cursurile intensive de vară pentru a descoperi împreună minunata lume a jocurilor, iar la final vă veți da seama că ați învățat cuvinte noi, că ați asimilat structuri gramaticale importante și că toate acestea s-au întâmplat într-un mediu plăcut și plin de veselie!"}
                                 </span>
@@ -182,7 +163,7 @@ export default function Page() {
                           </div>
                           <div>
                             <div>
-                              <h3>
+                              <h3 className="course-copy-heading">
                                 <span>
                                   {"Cet été, ayez une longueur d’avance!"}
                                   <br />
@@ -196,7 +177,7 @@ export default function Page() {
                                 <div>
                                   <div>
                                     <div>
-                                      <h4>
+                                      <h4 className="course-copy-heading">
                                         {"Detalii organizatorice:"}
                                       </h4>
                                     </div>
@@ -252,8 +233,7 @@ export default function Page() {
                                             </strong>
                                             {"120 minute*"}
                                           </li>
-                                        </ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
@@ -266,9 +246,7 @@ export default function Page() {
                                             </strong>
                                             {"5 ședințe"}
                                           </li>
-                                        </ul>
-                                        <ul></ul>
-                                        <ul>
+
                                           <li className={"course-fact"}>
                                             <span className={"course-fact-icon"}>
                                               <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>

@@ -45,40 +45,46 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Atelierul de dansuri populare"}>
+    <article className={"page-content event-page event-theme-blue min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+<section className={"mobile-page-intro"} aria-label={"Atelierul de dansuri populare"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2026/01/dansuri-24-ian-Orizont.jpg"} alt={"Atelierul de dansuri populare"} decoding={"async"} />
         <h1>
           {"Atelierul de dansuri populare"}
         </h1>
       </section>
-      <p className="content-lead">De Ziua Unirii, ne prindem de mâini și jucăm românește! Un atelier de dansuri tradiționale pentru copii, cu mișcare, joacă și voie bună.</p>
-      <section aria-labelledby="event-details">
-        <h2 id="event-details">Detalii despre atelier</h2>
-        <dl className="event-facts">
+
+<section className="event-welcome">
+<p className="content-lead">De Ziua Unirii, ne prindem de mâini și jucăm românește! Un atelier de dansuri tradiționale pentru copii, cu mișcare, joacă și voie bună.</p>
+</section>
+
+<section className="event-section">
+<h2 id="event-details">Detalii despre atelier</h2>
+<dl className="event-facts">
           <div><dt>Când</dt><dd>24 ianuarie 2026</dd></div>
           <div><dt>Unde</dt><dd>Pro Erudio Orizont · <a href="https://maps.app.goo.gl/naCZdCYF6gEhfKmQ7">Vezi pe hartă</a></dd></div>
           <div><dt>Pentru cine</dt><dd>Copii de 5–12 ani, în grupe de vârste apropiate</dd></div>
           <div><dt>Ora</dt><dd>Anunțată prin email în data de 22 ianuarie</dd></div>
         </dl>
-      </section>
-      <section aria-labelledby="event-activities">
-        <h2 id="event-activities">Ce facem la atelier?</h2>
-        <ul>
+</section>
+
+<section className="event-section">
+<h2 id="event-activities">Ce facem la atelier?</h2>
+<ul className="event-activity-list">
           <li>Învățăm dansuri populare românești prin demonstrații și explicații pas cu pas.</li>
           <li>Ne prindem în cerc și dansăm sincron, ținându-ne de mâini.</li>
           <li>Ne distrăm și facem mișcare pe muzică tradițională românească.</li>
           <li>Petrecem timp într-o atmosferă relaxată și prietenoasă.</li>
         </ul>
-        <p>Atelierul se desfășoară sub îndrumarea Cristinei Oprea, antrenor de dansuri, specializată în lucrul cu copiii.</p>
-      </section>
-      <section className="content-callout" aria-labelledby="event-registration">
+<p>Atelierul se desfășoară sub îndrumarea Cristinei Oprea, antrenor de dansuri, specializată în lucrul cu copiii.</p>
+</section>
+
+<section className="content-callout event-ticket" aria-labelledby="event-registration">
         <h2 id="event-registration">Costuri și înscriere</h2>
         <ul><li>Gratuit pentru cursanții Pro Erudio.</li><li>50 lei pentru copiii din exterior.</li></ul>
         <p>Înscrierea este obligatorie, iar locurile sunt limitate. Trimite numele și vârsta copilului la <a href="mailto:proerudio@gmail.com">proerudio@gmail.com</a>.</p>
         <p><strong>Termen limită:</strong> 21 ianuarie 2026.</p>
       </section>
-    </article>
+</article>
     <section className={"mt-14 border-t pt-10"}>
       <h2 className={"mb-6 text-2xl font-bold"}>
         {"Alte articole"}

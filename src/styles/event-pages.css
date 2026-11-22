@@ -1,0 +1,119 @@
+/* Shared event presentation, adapted from Halloween Party. */
+.page-content.event-page {
+  --event-ink: #183452;
+  --event-accent: #225bb0;
+  --event-glow: #407ab1;
+  --event-soft: #f0f6fd;
+  --event-border: #d5e3f4;
+  --event-highlight: #ffcd8c;
+}
+.page-content.event-theme-winter {
+  --event-ink: #173e38;
+  --event-accent: #286c5a;
+  --event-glow: #477e65;
+  --event-soft: #f0f7f3;
+  --event-border: #d3e5da;
+}
+.page-content.event-theme-purple, .page-content.event-theme-autumn {
+  --event-ink: #302044;
+  --event-accent: #6b3ba4;
+  --event-glow: #744598;
+  --event-soft: #f8f3fc;
+  --event-border: #e8dff0;
+}
+.event-page .event-welcome {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin-block: 1.5rem 2.5rem;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border-radius: 1.25rem;
+  color: #fff9f0;
+  background: radial-gradient(ellipse at top right, var(--event-glow), transparent 70%), var(--event-ink);
+}
+.event-welcome::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -5rem;
+  right: -5rem;
+  width: 17rem;
+  height: 17rem;
+  border: 2.5rem solid #ffffff0b;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.page-content.event-page h2, .page-content.event-page h3 {
+  border: 0;
+  padding: 0;
+  color: var(--event-ink);
+  line-height: 1.3;
+}
+.page-content.event-page h2 { font-size: clamp(1.6rem, 2.8vw, 2.4rem); }
+.page-content.event-page h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); }
+.page-content .event-welcome :is(h2, h3) { margin: 0 0 1.25rem; color: white; }
+.page-content .event-welcome h2 { font-size: clamp(1.9rem, 3.5vw, 3rem); line-height: 1.15; letter-spacing: -.025em; }
+.page-content .event-welcome p { margin: 1rem 0 0; font-size: 1.08rem; line-height: 1.9; color: inherit; }
+.page-content .event-welcome > p:first-child { margin-top: 0; font-size: clamp(1.15rem, 2vw, 1.4rem); }
+.page-content .event-welcome :is(strong, a) { color: var(--event-highlight); }
+.page-content .event-welcome a { text-decoration-color: currentColor; }
+.page-content .event-welcome > :last-child { margin-bottom: 0; }
+.event-page .event-section { margin-block: 2.5rem; }
+.event-page .event-section > :first-child { margin-top: 0; }
+.event-page .event-section > :last-child { margin-bottom: 0; }
+.event-page .event-section:has(> h3:first-child) {
+  padding: clamp(1.25rem, 3vw, 1.75rem);
+  border: 1px solid var(--event-border);
+  border-radius: 1rem;
+  background: var(--event-soft);
+}
+.event-page .event-facts { gap: 1rem; margin-block: 1.5rem 2rem; }
+.event-page .event-facts > div { padding: 1.5rem; border-color: var(--event-border); border-radius: 1rem; background: var(--event-soft); }
+.event-page .event-facts dt { font-size: .8rem; color: var(--event-accent); }
+.event-page .event-facts dd { color: var(--event-ink); font-size: 1.1rem; font-weight: 600; }
+.page-content.event-page .event-activity-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+.page-content.event-page .event-activity-list > li {
+  position: relative;
+  margin: 0;
+  padding: 1.5rem;
+  border: 1px solid var(--event-border);
+  border-radius: 1rem;
+  background: var(--event-soft);
+  font-size: .95rem;
+  line-height: 1.8;
+}
+.event-activity-list > li::before { content: ''; display: block; width: 2rem; height: .25rem; margin-bottom: 1rem; border-radius: 1rem; background: var(--event-accent); }
+.page-content.event-page .event-step-list { counter-reset: event-step; padding: 0; list-style: none; }
+.page-content.event-page .event-step-list > li { position: relative; counter-increment: event-step; min-height: 3rem; margin: 1.25rem 0; padding-left: 3.75rem; }
+.event-step-list > li::before { content: counter(event-step, decimal-leading-zero); position: absolute; left: 0; top: 0; display: grid; place-items: center; width: 2.75rem; height: 2.75rem; border: 1px solid var(--event-border); border-radius: 50%; background: var(--event-soft); color: var(--event-accent); font-weight: 700; }
+.page-content.event-page .event-participation, .page-content.event-page .event-ticket {
+  padding: clamp(1.25rem, 3vw, 1.75rem);
+  border: 1px dashed var(--event-accent);
+  border-radius: 1rem;
+  background: var(--event-soft);
+}
+.event-page .event-ticket .event-activity-list > li { background: white; }
+.page-content.event-page a[href^='mailto:'], .page-content.event-page a[href^='sms:'] { font-weight: 700; text-decoration-thickness: 2px; }
+.page-content.event-page .event-memory-link {
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--event-border);
+  border-radius: 1rem;
+  background: var(--event-soft);
+  line-height: 1.8;
+}
+.page-content.event-page .event-memory-link a { color: var(--event-accent); font-weight: 700; }
+.event-page a:focus-visible { outline: 3px solid var(--event-accent); outline-offset: 4px; }
+.event-page .course-share { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--event-border); }
+.event-page .course-details-panel { border-color: var(--event-border); }
+.event-page .event-section > iframe { display: block; overflow: hidden; border-radius: 1rem; }
+@media (max-width: 639px) {
+  .event-page .event-welcome { padding: 1.5rem; }
+  .page-content.event-page .event-activity-list, .event-page .event-facts { grid-template-columns: minmax(0, 1fr); }
+  .event-page .event-section { margin-block: 2rem; }
+}

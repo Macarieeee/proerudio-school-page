@@ -28,55 +28,34 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Seara filmului"}>
+    <article className={"page-content event-page event-theme-purple min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+<section className={"mobile-page-intro"} aria-label={"Seara filmului"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2017/11/seara-filmului-german.jpg"} alt={"Seara filmului"} decoding={"async"} />
         <h1>
           {"Seara filmului"}
         </h1>
       </section>
-      <div>
-        <div itemProp={"mainContentOfPage"}>
-          <div data-id={"10239"}></div>
-          <section>
-            <div>
-              <div>
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <figure className={"original-intro-image"}>
+
+<figure className={"original-intro-image"}>
                               <div>
 
                               </div>
                             </figure>
-                          </div>
-                          <div>
-                            <div>
-                              <div data-href={"https://www.proerudio.ro/seara-filmului/"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"true"}></div>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <h2>
+
+<section className="event-welcome">
+<h2>
                                 {"SEARA FILMULUI GERMAN"}
                                 <br />
                                 <span>
                                   {"la Pro Erudio – School Of English"}
                                 </span>
                               </h2>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+<p>
                                 <span>
                                   {"Dragi părinți și copii,"}
                                 </span>
                               </p>
-                              <p>
+<p>
                                 <span>
                                   {"Vă invităm sâmbătă, 18 noiembrie, la ora 17.00 la SEARA FILMULUI GERMAN la Pro Erudio. Vom viziona filmul "}
                                   <strong>
@@ -89,50 +68,30 @@ export default function Page() {
                                   {", o poveste despre aventurile unei fete cu puteri speciale alături de prietena ei în timpul vacanței de vară la o școală de echitație. Filmul a fost nominalizat în cadrul Premiilor Filmului German, în 2014, la categoria cel mai bun film pentru copii și tineri."}
                                 </span>
                               </p>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <div>
-                                <iframe loading={"lazy"} title={"BIBI & TINA Offizieller Trailer Deutsch German | 2014 [HD]"} frameBorder={"0"} allow={"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"} allowFullScreen={true} data-rocket-lazyload={"fitvidscompatible"} src={"https://www.youtube.com/embed/tT5XaAPnkwg?feature=oembed"}></iframe>
-                              </div>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+</section>
+
+<section className="event-section">
+<iframe loading={"lazy"} title={"BIBI & TINA Offizieller Trailer Deutsch German | 2014 [HD]"} frameBorder={"0"} allow={"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"} allowFullScreen={true} data-rocket-lazyload={"fitvidscompatible"} src={"https://www.youtube.com/embed/tT5XaAPnkwg?feature=oembed"}></iframe>
+<p>
                                 <span>
                                   {"Evenimentul este gratuit pentru cursanții Pro Erudio, cunoscători ai limbii germane (filmul va rula în limba germană) și cu vârste cuprinse între 10 si 15 ani. Evenimentul va fi susținut de colega noastră Ioana Zăbavă și apreciem ca va dura în jur de 2,5 ore."}
                                 </span>
                               </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <div>
-                      <div>
-                        <div>
-                          <div>
-                            <div>
-                              <h2>
+</section>
+
+<section className="event-section">
+<h2>
                                 <span>
                                   {"Popcorn și comentarii haioase la discreția participanților."}
                                 </span>
                               </h2>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <p>
+<p className="event-participation">
                                 <span>
                                   {"Pentru înscrieri puteți trimite un email cu "}
                                   {"numele și vârsta copilului/copiilor care vor participa la activitate sau trimite un sms la 0771.753.323."}
                                 </span>
                               </p>
-                              <p>
+<p>
                                 <span>
                                   {"Vă așteptăm cu drag la eveniment!"}
                                 </span>
@@ -141,42 +100,15 @@ export default function Page() {
                                   {"Echipa Pro Erudio"}
                                 </span>
                               </p>
-                            </div>
-                          </div>
-                          <div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <span>
+<span>
                                       <span></span>
                                     </span>
-                                    <span>
+<span>
                                       <span></span>
                                     </span>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <div data-href={"https://www.proerudio.ro/modul-optional-de-pregatire-pentru-examenele-cambridge-english/"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"true"}></div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div>
-                                    <div>
-                                      <div data-href={"https://www.facebook.com/proerudio"} data-layout={"standard"} data-action={"like"} data-show-faces={"true"} data-share={"false"}>
-                                        <div>
-                                          <div className={"course-share"}>
+</section>
+
+<div className={"course-share"}>
                                             <span>
                                               {"Share this..."}
                                             </span>
@@ -260,31 +192,6 @@ export default function Page() {
                                               </li>
                                             </ul>
                                           </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section>
-            <div>
-              <div>
-                <div></div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </article>
+</article>
   </ContentPageLayout>;
 }

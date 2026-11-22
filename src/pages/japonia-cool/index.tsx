@@ -1,11 +1,12 @@
-import heroImage from '@/assets/japonia-cool.jpg';
+import heroImage from '@/assets/2_School-kids-in-classroom.avif';
+import '@/styles/summer-language-pages.css';
 import ContentPageLayout from '@/components/ContentPageLayout';
 import image0 from "@/assets/about-classroom.jpg";
 
 export default function Page() {
   return <ContentPageLayout bodyClass="detail-page-body bg-muted/35 py-16 md:py-24" hero={
     <section className={"desktop-page-hero page-hero relative isolate overflow-hidden bg-foreground text-background"}>
-      <img src={heroImage} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
+      <img src={heroImage} style={{ objectPosition: '50% 45%' }} alt={""} className={"absolute inset-0 h-full w-full object-cover"} />
       <div className={"absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/65 to-foreground/20"}></div>
       <div className={"container relative mx-auto max-w-6xl px-4 py-20 md:py-24"}>
         <a className={"mb-8 inline-flex items-center gap-2 text-sm font-semibold text-background/80"} href={"/"}>
@@ -28,15 +29,16 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+    <article className={"summer-language-page language-japanese page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
       <section className={"mobile-page-intro"} aria-label={"Japonia Cool – Introducere în limba și cultura japoneză"}>
-        <img src={"https://www.proerudio.ro/wp-content/uploads/2026/05/ProErudio-Japonia-Cool-Curs-de-vara-de-limba-japoneza.jpg"} alt={"Japonia Cool – Introducere în limba și cultura japoneză"} decoding={"async"} />
+        <img src={heroImage} style={{ objectPosition: '50% 45%' }} alt={"Japonia Cool – Introducere în limba și cultura japoneză"} decoding={"async"} />
         <h1>
           {"Japonia Cool – Introducere în limba și cultura japoneză"}
         </h1>
       </section>
       <div>
-        <div itemProp={"mainContentOfPage"}>
+        <div className="course-language-label"><span aria-hidden="true" />Japoneză<span className="course-language-season">Cursuri de vară</span></div>
+      <div itemProp={"mainContentOfPage"}>
           <div data-id={"13422"}></div>
           <section>
             <div>
@@ -55,23 +57,23 @@ export default function Page() {
                           </div>
                           <div>
                             <div>
-                              <h2>
+                              <h2 className="course-copy-heading">
                                 <strong>
                                   {"Curs de vară pentru copii și adolescenți"}
                                 </strong>
                               </h2>
-                              <h2>
+                              <h2 className="course-copy-heading">
                                 <strong>
                                   {"Japonia Cool – Introducere în limba și cultura japoneză"}
                                 </strong>
                               </h2>
                               <div></div>
-                              <h3>
+                              <h3 className="course-copy-heading">
                                 <strong>
                                   {"De ce cultura japoneză?"}
                                 </strong>
                               </h3>
-                              <p>
+                              <p className="course-copy course-copy-lead">
                                 {"Răspunsul este simplu. Întrucât este un amestec unic de tradiții milenare și inovație modernă, caracterizată prin "}
                                 <strong>
                                   {"respect"}
@@ -88,20 +90,18 @@ export default function Page() {
                                 <strong>
                                   {"legătură cu natura"}
                                 </strong>
-                                {", toate aceste trăsături reprezentând pentru civilizațiile vestice o atracție de nestăvilit. Elementele cheie includ artele tradiționale (ceai, ikebana etc.), gastronomia rafinată, îmbrăcămintea (kimono), artele marțiale și subculturile urbane, toate reflectând valorile estetice și sociale specifice."}
+                                {", toate aceste trăsături reprezentând pentru civilizațiile vestice o atracție de nestăvilit. Elementele-cheie includ artele tradiționale (ceai, ikebana etc.), gastronomia rafinată, îmbrăcămintea (kimono), artele marțiale și subculturile urbane, toate reflectând valorile estetice și sociale specifice."}
                               </p>
-                              <div>
-                                {"Copilul dumneavoastră este fascinat de culturile orientale și în special cea japoneză?"}
-                              </div>
-                              <p>
+                              <div className="course-copy-note">{"Copilul dumneavoastră este fascinat de culturile orientale și, în special, de cea japoneză?"}</div>
+                              <p className="course-copy">
                                 {"Atunci… de ce să nu încurajăm această curiozitate și să îl ajutăm să profite de timpul liber din vacanța de vară pentru a explora universul Japoniei în cadrul unui curs intensiv, interactiv și educativ. Programul este conceput ca o primă întâlnire cu limba japoneză și cu elemente esențiale de cultură și civilizație niponă, într-un mod adaptat vârstei și intereselor participanților."}
                               </p>
-                              <p>
+                              <p className="course-copy">
                                 {"Copiii vor învăța de-a lungul celor 10 întâlniri vocabular de bază (în funcție de tema lecției), formule de salut și de prezentare, vor face cunoștință cu scrierea japoneză la nivel introductiv și se vor familiariza cu elemente de cultură și civilizație precum:"}
                               </p>
-                              <ul><li>{"Tradiții și obiceiuri (ceremonia ceaiului 茶道 "}<strong>
+                              <ul className="course-discovery-grid"><li>{"Tradiții și obiceiuri (ceremonia ceaiului 茶道 "}<strong>
                                   {"Sadō"}
-                                </strong>{", arta aranjării florilor生花 "}<strong>
+                                </strong>{", arta aranjării florilor 生花 "}<strong>
                                   {"Ikebana"}
                                 </strong>{" etc.)"}</li>
 <li>{"Arte plastice ("}<strong>
@@ -114,7 +114,7 @@ export default function Page() {
                                   {"Îmbrăcăminte 👘 (kimono-ul, yukata și moda tinerilor)"}
                                 </strong></li>
 <li><strong>
-                                  {"Teatrul traditional 🎭 (Nō, Kabuki și Bunraku)"}
+                                  {"Teatrul tradițional 🎭 (Nō, Kabuki și Bunraku)"}
                                 </strong></li>
 <li><strong>
                                   {"Artele marțiale 🥋 (sumō – sportul național, jūdō, kendō și aikidō, care cultivă disciplina)"}
@@ -127,7 +127,7 @@ export default function Page() {
                                 </strong>{" animația și benzile desenate japoneze)"}</li>
 <li><strong>
                                   {"Valorile sociale"}
-                                </strong>{" precum respectul și loialitatea (ierarhia socială, aparteneța la grup etc.), codul samurailor ("}<strong>
+                                </strong>{" precum respectul și loialitatea (ierarhia socială, apartenența la grup etc.), codul samurailor ("}<strong>
                                   {"Bushidō"}
                                 </strong>{"), ordinea și perfecționarea de sine ("}<strong>
                                   {"Kaizen"}
@@ -138,51 +138,45 @@ export default function Page() {
 <li><strong>
                                   {"Sărbători și festivități 🎋 (matsuri):"}
                                 </strong>{" Hina Matsuri (Ziua fetelor), Kodomo no hi (Ziua copiilor), Tanabata (festivalul stelelor), Hanami (privitul florilor de cireș) și dansuri tradiționale."}</li></ul>
-                              <p>
+                              <p className="course-copy">
                                 {"Învățarea este susținută prin jocuri didactice, ateliere tematice (origami, caligrafie, creare de benzi desenate, tradiții legate de servitul mesei etc.), discuții bazate pe filme și cărți (în funcție de vârsta participanților), clipuri informative, activități interactive și exerciții de grup, care încurajează participarea activă și colaborarea."}
                               </p>
-                              <div>
-                                {"\n  ! Alegerea temelor de discuție se va face în funcție de vârsta participanților!"}
-                              </div>
-                              <h3>{"Obiectivele cursului format din 10 ședințe:"}</h3>
-                              <ul><li>{"🎌 dobândirea unor noțiuni de bază în limba japoneză (saluturi, expresii uzuale, introducere în scriere);"}</li>
+                              <div className="course-copy-note">{"\n  ! Alegerea temelor de discuție se va face în funcție de vârsta participanților!"}</div>
+                              <h3 className="course-copy-heading">{"Obiectivele cursului format din 10 ședințe:"}</h3>
+                              <ul className="course-discovery-grid"><li>{"🎌 dobândirea unor noțiuni de bază în limba japoneză (saluturi, expresii uzuale, introducere în scriere);"}</li>
 <li>{"🏯 familiarizarea cu elemente reprezentative ale culturii și civilizației japoneze;"}</li>
 <li>{"🎨 dezvoltarea creativității și a gândirii interculturale;"}</li>
 <li>{"🤝 stimularea comunicării și a lucrului în echipă;"}</li>
 <li>{"🌸 crearea unei experiențe de învățare plăcute, adaptate perioadei de vacanță."}</li></ul>
-                              <h3>{"În cele 10 întâlniri copiii vor învăța să:"}</h3>
-                              <ul><li>{"✨ salute și să se prezinte în limba japoneză"}</li>
+                              <h3 className="course-copy-heading">{"În cele 10 întâlniri copiii vor învăța să:"}</h3>
+                              <ul className="course-discovery-grid"><li>{"✨ salute și să se prezinte în limba japoneză"}</li>
 <li>{"✨ folosească expresii uzuale în contexte reale"}</li>
-<li>{"✨ recunoască și scrie primele caractere japoneze"}</li>
+<li>{"✨ recunoască și să scrie primele caractere japoneze"}</li>
 <li>{"✨ înțeleagă noțiuni de bază din cultura japoneză"}</li>
 <li>{"✨ experimenteze arta confecționării de figurine din hârtie (origami)"}</li></ul>
-                              <p>
+                              <p className="course-copy">
                                 {"✨ pregătească sushi, cu accent pe învățarea diferitelor sortimente de bază (Nigiri, Maki, Uramaki) și să servească ceai conform tradiției japoneze"}
                               </p>
-                              <p>
+                              <p className="course-copy">
                                 {"✨ recunoască elementele de vestimentație, machiaj și estetică niponă"}
                               </p>
-                              <p>
-                                {"✨ reguli de bune maniere în Japonia"}
+                              <p className="course-copy">
+                                {"✨ respecte regulile de bune maniere în Japonia"}
                               </p>
-                              <div>
-                                {"! Scrierea japoneză folosind ideograme și silabare se va exersa doar în ziua în care se va face caligrafie. În toate celelalte cursuri se va folosi alfabetul latin."}
-                              </div>
-                              <p>
+                              <div className="course-copy-note">{"! Scrierea japoneză folosind ideograme și silabare se va exersa doar în ziua în care se va face caligrafie. În toate celelalte cursuri se va folosi alfabetul latin."}</div>
+                              <p className="course-copy">
                                 {"Cursul pune accent pe comunicare și învățare prin joc: "}
                                 <strong>
                                   {"dialoguri, jocuri de rol, activități creative și exerciții interactive"}
                                 </strong>
                                 {", astfel încât cei mici să învețe natural și cu plăcere. Pentru copiii pasionați de anime și manga, cursul devine o adevărată aventură! Vom descoperi împreună cuvinte și expresii folosite de personajele preferate, vom învăța cum să înțelegem replici simple fără subtitrare și vom explora universul fascinant al poveștilor japoneze."}
                               </p>
-                              <div>
-                                {"\n  Cursul oferă un cadru prietenos și dinamic, în care copiii pot învăța prin descoperire și explorare, transformând vacanța de vară într-o experiență educativă valoroasă."}
-                              </div>
+                              <div className="course-copy-note">{"\n  Cursul oferă un cadru prietenos și dinamic, în care copiii pot învăța prin descoperire și explorare, transformând vacanța de vară într-o experiență educativă valoroasă."}</div>
                             </div>
                           </div>
                           <div>
                             <div>
-                              <h3>
+                              <h3 className="course-copy-heading">
                                 {"Detalii organizatorice:"}
                               </h3>
                             </div>

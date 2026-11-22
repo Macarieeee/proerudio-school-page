@@ -44,40 +44,38 @@ export default function Page() {
       </div>
     </section>
   }>
-    <article className={"page-content min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
-      <section className={"mobile-page-intro"} aria-label={"Atelierul de dansuri de Craciun"}>
+    <article className={"page-content event-page event-theme-winter min-w-0 rounded-2xl border bg-card p-6 shadow-sm md:p-10"}>
+<section className={"mobile-page-intro"} aria-label={"Atelierul de dansuri de Craciun"}>
         <img src={"https://www.proerudio.ro/wp-content/uploads/2026/01/Atelier-dansuri-Pro-Erudio-gratuit.jpg"} alt={"Atelierul de dansuri de Craciun"} decoding={"async"} />
         <h1>
           {"Atelierul de dansuri de Craciun"}
         </h1>
       </section>
-      <p className="content-lead">Zurgălăi pe Beat și HaHaHa pe Repeat! Un atelier de sărbători cu dans, joacă și cântece de Crăciun.</p>
-      <section aria-labelledby="event-details">
-        <h2 id="event-details">Detalii despre atelier</h2>
-        <dl className="event-facts">
-          <div><dt>Data anunțată</dt><dd>7 decembrie 2026</dd></div>
-          <div><dt>Unde</dt><dd>Pro Erudio Orizont · <a href="https://maps.app.goo.gl/naCZdCYF6gEhfKmQ7">Vezi pe hartă</a></dd></div>
-          <div><dt>Pentru cine</dt><dd>Copii de 5–11 ani, înscriși la cursurile Pro Erudio</dd></div>
-          <div><dt>Durată și cost</dt><dd>45 de minute · Gratuit</dd></div>
-        </dl>
-      </section>
-      <section aria-labelledby="event-activities">
-        <h2 id="event-activities">Ce facem la atelier?</h2>
-        <ul>
-          <li>Învățăm coregrafii pe cântece de Crăciun.</li>
-          <li>Ne încălzim prin mișcări haioase și exerciții de stretching.</li>
-          <li>Ne rotim, sărim și ne distrăm împreună.</li>
-        </ul>
-        <p>La final, copiii vor cunoaște pași de dans cu care îl pot surprinde pe Moș Crăciun. Atelierul este coordonat de Cristina Oprea, antrenor de dans sportiv cu experiență în lucrul cu copiii.</p>
-        <p>Vino cu poftă de joacă, energie și un pic de magie de Crăciun în vestimentație!</p>
-      </section>
-      <section className="content-callout" aria-labelledby="event-registration">
-        <h2 id="event-registration">Înscriere</h2>
-        <p>Trimite numele și vârsta copilului la <a href="mailto:proerudio@gmail.com">proerudio@gmail.com</a>, până la <strong>3 decembrie</strong>. Locurile sunt limitate.</p>
-        <p>Orarul se anunță prin email în data de 4 decembrie.</p>
-      </section>
-      <p><a href="https://www.facebook.com/media/set/?set=a.1449648989945795&amp;type=3" target="_blank" rel="noopener noreferrer">Vezi albumul atelierului din 7 decembrie 2025</a></p>
-    </article>
+
+<section className="event-welcome">
+<h2>🎄 Atelier de Sărbători <em>Zurgălăi pe Beat și HaHaHa pe Repeat</em>!</h2>
+<p>Ho-ho-ho! <strong>Duminică, 7 decembrie 2026</strong>, spiridușii cu vârste cuprinse între <strong>5 și 11 ani</strong>, înscriși la cursurile noastre, sunt invitați la un <strong>super atelier GRATUIT</strong> la <strong><a href="https://maps.app.goo.gl/naCZdCYF6gEhfKmQ7" target="_blank" rel="noopener noreferrer">Sediul Pro Erudio Orizont</a></strong>, unde, timp de <strong>45 de minute,</strong> vor tropăi și țopăi pe ritmurile celor mai îndrăgite cântece de Crăciun, ca să aibă energie tot sezonul sărbătorilor!</p>
+</section>
+
+<section className="event-section">
+<p className="event-participation">Atenție, atenție! <strong>Înscrierile se fac printr-un email la <a href="mailto:proerudio@gmail.com">proerudio@gmail.com</a> cu numele și vârsta copilului</strong>. Nu amânați înscrierea (termen limită <strong>3 decembrie</strong>), locurile <strong>sunt puține</strong> și se termină mai repede decât fursecurile lui Moș Crăciun! <strong>Orarul se va anunța joi, 4 decembrie, prin email</strong>. Atelierul se va desfășura sub îndrumarea colegei noastre <strong>Cristina Oprea</strong>, antrenor de dans sportiv, cu experiență în lucrul cu copiii.</p>
+</section>
+
+<section className="event-section">
+<h3 id="event-activities">🕺 Ce facem la atelier?</h3>
+<p>
+          🎵 Învățăm <strong>coregrafii</strong> pe cântece de Crăciun, care te fac să dansezi chiar dacă nu vrei.<br />
+          🎄 Ne încălzim cu <strong>mișcări atât de haioase</strong>, încât și Moșul ar vrea să facă stretching dacă nu ar fi atât de ocupat.<br />
+          ✨ Ne distrăm, ne rotim, sărim, ne bâțâim și… sperăm să nu-i deranjăm pe spiridușii Moșului.
+        </p>
+<p>🎁 Bonus: la final, vei ști pași de dans cu care îl vei uimi pe Moșul în Ajun — cine știe, poate iei și un cadou în plus!</p>
+<p className="event-participation">Vrei să vii cu un prieten de vârsta ta? Nicio problemă! Doar să nu uiți să îi rezervi loc și să îl anunți că pentru el atelierul costă 50 lei.</p>
+<p>Vino cu poftă de joacă, energie și un pic de <strong>magie de Crăciun în vestimentație</strong>… restul îl aducem noi! ✨</p>
+<p>Te așteptăm cu drag!</p>
+<p>Echipa Pro Erudio 🎄🎅✨</p>
+<p className="event-memory-link"><a href="https://www.facebook.com/media/set/?set=a.1449648989945795&amp;type=3" target="_blank" rel="noopener noreferrer">Click aici</a> pentru a vizualiza albumul din 7 decembrie 2025.</p>
+</section>
+</article>
     <section className={"mt-14 border-t pt-10"}>
       <h2 className={"mb-6 text-2xl font-bold"}>
         {"Alte articole"}

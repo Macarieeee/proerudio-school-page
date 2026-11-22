@@ -1,4 +1,4 @@
-import heroImage from '@/assets/curs-de-limba-engleza-join-us-in-englishland.jpg';
+import heroImage from '@/assets/curs-de-limba-engleza-join-us-in-englishland.jpeg';
 import ContentPageLayout from '@/components/ContentPageLayout';
 import image1 from "@/assets/about-classroom.jpg";
 
@@ -217,8 +217,7 @@ export default function Page() {
                 <br />
                 {"\n60 minute (55 curs și 5 pauză)"}
               </li>
-            </ul>
-            <ul>
+
               <li className={"course-fact"}>
                 <span className={"course-fact-icon"}>
                   <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
@@ -231,8 +230,7 @@ export default function Page() {
                 </strong>
                 {"maxim 10 în grupă"}
               </li>
-            </ul>
-            <ul>
+
               <li className={"course-fact"}>
                 <span className={"course-fact-icon"}>
                   <svg viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
